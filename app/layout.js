@@ -27,7 +27,8 @@ import BackToTop from "./backToTop";
 import Separator from "@/components/00-Kahe/common-components/Footer-sub-components/Seperator";
 import MobileMenu from "@/components/00-Kahe/common-components/MobileMenu";
 import HeaderEight from "@/components/Header/Headers/Header-Eight";
-import FooterFive from "@/components/Footer/FooterFive";
+import Footer from "@/components/00-Kahe/common-components/Footer";
+import Header from "@/components/00-Kahe/common-components/Header";
 
 export default function RootLayout({ children }) {
   useEffect(() => {
@@ -39,11 +40,11 @@ export default function RootLayout({ children }) {
         <Provider store={Store}>
           <Context>
             <MobileMenu />
-            <HeaderEight headerSticky="rbt-sticky" headerType="" />
+            <Header headerSticky="rbt-sticky" headerType="" />
             {children}
             <BackToTop />
             {/* <Separator /> */}
-            <FooterFive />
+            <Footer />
           </Context>
         </Provider>
       </body>
