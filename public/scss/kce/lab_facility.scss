@@ -1,0 +1,99 @@
+
+
+
+.section-bg2 {
+    background: #f2fff9;
+    padding: 10px;
+  }
+  
+  .section-bg4 {
+    background: #f2fff9;
+    padding: 50px 10px;
+  }
+  
+  
+  .main-sub-ti {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    color: #000;
+    // text-transform: lowercase;
+    display: inline-block;
+  }
+  
+  .main-sub-ti::first-letter {
+    text-transform: uppercase;
+  }
+  
+  
+  .dept-wrapper {
+    display: grid;
+    // grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, 300px);
+    gap: 20px;
+  }
+  
+  .dept-card {
+    position: relative;
+    border: 1px solid #00243d;
+    padding: 10px 30px;
+    border-radius: 6px;
+    cursor: pointer;
+    // background: #fff;
+    transition: 0.4s ease;
+    overflow: hidden;
+    display: flex;
+  }
+  
+  .dept-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: var(--bgImg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: 0.4s ease;
+  }
+  
+  .dept-card::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #073282a6;
+    opacity: 0;
+    transition: 0.4s ease;
+  }
+  
+  .dept-inner {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .dept-icon {
+    width: 45px;
+    margin-bottom: 10px;
+    transition: 0.4s ease;
+    flex: 0.3;
+  }
+  
+  .dept-title {
+    margin: 0;
+    flex: 1;
+    font-weight: 400;
+    color: #fff;
+    transition: 0.4s ease;
+  }
+  .lab .dept-title {
+    color: #fff;
+  }

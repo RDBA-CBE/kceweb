@@ -1,0 +1,573 @@
+/* Add to WyomingExact.css */
+
+/* Right Side Content Layout */
+.wyoming-right-layout {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-color: #f5f5f5;
+  }
+  
+  /* Background Image for right layout */
+  .wyoming-bg-right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://www.uwyo.edu/admissions/_files/images/index/admissions-index-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 0;
+  }
+  
+  /* Content Container for right layout */
+  .wyoming-right-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 100%;
+  }
+  
+  /* Flex container to push content to right */
+  .wyoming-right-content-wrapper {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  /* Right Side Content Box */
+  .wyoming-right-content {
+    max-width: 650px;
+    padding: 40px;
+    background: rgba(255, 255, 255, 0.92);
+    backdrop-filter: blur(10px);
+    border-radius: 4px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* For mobile, ensure content is centered */
+  @media (max-width: 992px) {
+    .wyoming-right-content-wrapper {
+      justify-content: center;
+    }
+    
+    .wyoming-right-content {
+      max-width: 100%;
+    }
+  }
+  
+  /* Responsive adjustments for right layout */
+  @media (max-width: 768px) {
+    .wyoming-right-content {
+      padding: 30px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .wyoming-right-content {
+      padding: 25px;
+    }
+  }
+
+
+  
+  .kce_content_container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(135deg, #f5f7fa 0%, #e4edf5 100%);
+    min-height: 100vh;
+  }
+  
+  // Colors defined directly
+  $primary-color: #2C3E50;
+  $secondary-color: #3498DB;
+  $accent-color: #E74C3C;
+  $success-color: #2ECC71;
+  $warning-color: #F39C12;
+  $light-color: #ffffff;
+  $dark-color: #2C3E50;
+  $gray-light: #f8f9fa;
+  $gray-medium: #e9ecef;
+  $shadow-color: rgba(44, 62, 80, 0.1);
+  $gradient-start: #2C3E50;
+  $gradient-end: #4A6491;
+  
+  .kce_content_header {
+    text-align: center;
+    margin-bottom: 40px;
+    position: relative;
+  }
+  
+  .kce_content_logoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+  
+    @media (min-width: 768px) {
+      flex-direction: row;
+      justify-content: center;
+      gap: 30px;
+    }
+  }
+  
+  .kce_content_logo {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(45deg, $gradient-start, $gradient-end);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    color: $light-color;
+    box-shadow: 0 8px 25px rgba($accent-color, 0.2);
+    transition: transform 0.3s ease;
+  
+    &:hover {
+      transform: rotate(15deg) scale(1.05);
+    }
+  }
+  
+  .kce_content_title {
+    color: $primary-color;
+    font-size: clamp(1.8rem, 4vw, 2.8rem);
+    font-weight: 800;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to right, $primary-color, $secondary-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .kce_content_subtitle {
+    color: $secondary-color;
+    font-size: clamp(1rem, 2vw, 1.3rem);
+    margin-top: 10px;
+    font-weight: 500;
+    letter-spacing: 1px;
+  }
+  
+  .kce_content_decoration {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  .kce_content_decoLine {
+    width: 100px;
+    height: 3px;
+    background: linear-gradient(to right, transparent, $accent-color, transparent);
+    
+    @media (min-width: 768px) {
+      width: 150px;
+    }
+  }
+  
+  .kce_content_decoCircle {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: $accent-color;
+    animation: pulse 2s infinite;
+  }
+  
+  @keyframes pulse {
+    0%, 100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(1.2);
+      opacity: 0.8;
+    }
+  }
+  
+  .kce_content_content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+  
+    @media (min-width: 1024px) {
+      grid-template-columns: 350px 1fr;
+    }
+  }
+  
+  .kce_content_sidebar {
+    background: $light-color;
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 0 10px 30px $shadow-color;
+    border: 1px solid $gray-medium;
+  }
+  
+  .kce_content_sectionNav {
+    display: grid;
+    gap: 12px;
+    margin-bottom: 40px;
+  }
+  
+  .kce_content_navButton {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 18px 20px;
+    border: none;
+    background: $gray-light;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: left;
+    font-size: 15px;
+    color: $primary-color;
+  
+    &:hover {
+      background: rgba($secondary-color, 0.1);
+      transform: translateX(5px);
+      color: $secondary-color;
+    }
+  
+    &.active {
+      background: linear-gradient(135deg, $secondary-color, #2980B9);
+      color: $light-color;
+      box-shadow: 0 5px 15px rgba($secondary-color, 0.3);
+    }
+  }
+  
+  .kce_content_navIcon {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    color: $secondary-color;
+  
+    .active & {
+      background: rgba(255, 255, 255, 0.2);
+      color: $light-color;
+    }
+  }
+  
+  .kce_content_navText {
+    font-weight: 600;
+  }
+  
+  .kce_content_professionalBodies {
+    background: linear-gradient(135deg, $gray-light, $light-color);
+    border-radius: 15px;
+    padding: 25px;
+    border: 2px solid rgba($secondary-color, 0.1);
+  }
+  
+  .kce_content_bodiesTitle {
+    color: $primary-color;
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 10px;
+  
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 60px;
+      height: 3px;
+      background: $accent-color;
+      border-radius: 2px;
+    }
+  }
+  
+  .bodiesGrid {
+    display: grid;
+    gap: 15px;
+  }
+  
+  .bodyCard {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 15px;
+    background: $light-color;
+    border-radius: 10px;
+    border-left: 4px solid var(--body-color);
+    transition: all 0.3s ease;
+  
+    &:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+  }
+  
+  .bodyColorDot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+  
+  .bodyName {
+    font-size: 14px;
+    color: $primary-color;
+    font-weight: 500;
+  }
+  
+  .mainContent {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .featureDisplay {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 25px;
+  }
+  
+  .featureCard {
+    background: $light-color;
+    border-radius: 18px;
+    padding: 25px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    border: 2px solid transparent;
+    position: relative;
+    overflow: hidden;
+  
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 5px;
+      background: linear-gradient(to right, $secondary-color, $accent-color);
+      transform: scaleX(0);
+      transition: transform 0.3s ease;
+    }
+  
+    &:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+      border-color: rgba($secondary-color, 0.2);
+  
+      &::before {
+        transform: scaleX(1);
+      }
+    }
+  
+    &.featureActive {
+      background: linear-gradient(135deg, $light-color, rgba($secondary-color, 0.05));
+      border-color: $secondary-color;
+      box-shadow: 0 15px 35px rgba($secondary-color, 0.15);
+  
+      &::before {
+        transform: scaleX(1);
+      }
+    }
+  }
+  
+  .featureIcon {
+    width: 60px;
+    height: 60px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    color: $secondary-color;
+    margin-bottom: 20px;
+    transition: all 0.3s ease;
+  
+    .featureActive & {
+      background: linear-gradient(135deg, $secondary-color, #2980B9);
+      color: $light-color;
+      transform: rotate(10deg);
+    }
+  }
+  
+  .featureTitle {
+    color: $primary-color;
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    line-height: 1.3;
+  }
+  
+  .featureContent {
+    color: #5D6D7E;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .featureDetails {
+    background: $gray-light;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 15px;
+    border-left: 3px solid $accent-color;
+  
+    p {
+      margin: 0;
+      color: $primary-color;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+  }
+  
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .statCard {
+    background: linear-gradient(135deg, $light-color, $gray-light);
+    border-radius: 16px;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid rgba($secondary-color, 0.1);
+    transition: all 0.3s ease;
+  
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      border-color: rgba($secondary-color, 0.3);
+    }
+  }
+  
+  .statIcon {
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, $secondary-color, #2980B9);
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    color: $light-color;
+    flex-shrink: 0;
+  }
+  
+  .statContent {
+    h4 {
+      color: $primary-color;
+      font-size: 18px;
+      margin: 0 0 8px 0;
+      font-weight: 700;
+    }
+  
+    p {
+      color: #5D6D7E;
+      font-size: 14px;
+      margin: 0;
+      line-height: 1.5;
+    }
+  }
+  
+  .highlight {
+    background: linear-gradient(135deg, $primary-color, $gradient-end);
+    border-radius: 20px;
+    padding: 35px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+    color: $light-color;
+  
+    @media (max-width: 768px) {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+  
+  .highlightIcon {
+    width: 80px;
+    height: 80px;
+    background: rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    flex-shrink: 0;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  .highlightContent {
+    h3 {
+      font-size: 26px;
+      margin: 0 0 15px 0;
+      font-weight: 700;
+      color: $light-color;
+    }
+  
+    p {
+      font-size: 16px;
+      line-height: 1.7;
+      margin: 0;
+      opacity: 0.9;
+    }
+  }
+  
+  // Responsive adjustments
+  @media (max-width: 768px) {
+    .container {
+      padding: 15px;
+    }
+  
+    .featureDisplay {
+      grid-template-columns: 1fr;
+    }
+  
+    .stats {
+      grid-template-columns: 1fr;
+    }
+  
+    .sidebar {
+      padding: 20px;
+    }
+  
+    .navButton {
+      padding: 15px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .title {
+      font-size: 1.6rem;
+    }
+  
+    .featureCard {
+      padding: 20px;
+    }
+  
+    .statCard {
+      flex-direction: column;
+      text-align: center;
+      padding: 20px;
+    }
+  
+    .highlight {
+      padding: 25px;
+    }
+  }

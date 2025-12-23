@@ -1,0 +1,52 @@
+{
+    "Smart_Class_Rooms": [
+        {
+            "title": "MECHANICS OF SOLIDS-II",
+            "link": "https://drive.google.com/drive/folders/0B5LX1IkMXb5DfmdTSTNRa2Naanl1dERUV3RsTXVJbm9heWJaVzdQbzZaMkJMNjNRWm1qOTQ"
+        },
+        {
+            "title": "MECHANICS OF SOLIDS-I",
+            "link": "https://drive.google.com/drive/folders/0B5LX1IkMXb5DfjRWY0JmMmZpTE9Uc3NBVVU4VTZuOW1iWjZhSEIwZXhRTVdtTmRiLUhzMk0"
+        },
+        {
+            "title": "STRUCTURAL ANALYSIS – I",
+            "link": "https://drive.google.com/drive/folders/0BzKrhiC4CXT4fkgzQmVJR3dXZmpRNlQwOUxjeUJ4U0toMXNTQ09JRjBYWFh0T19DUDVMMkE"
+        },
+        {
+            "title": "STRUCTURAL ANALYSIS – II",
+            "link": "https://drive.google.com/drive/folders/0BzKrhiC4CXT4fnA5dUlTT1VXa1pGb1VTalpQWTlIREdaN29UMnA3eGVac3dNeTE4MTU0a0k"
+        },
+        {
+            "title": "FOUNDATION ENGINEERING",
+            "link": "https://drive.google.com/drive/folders/0B_ARGz87QXVFfkFsRElISmRpUnZxMllSMjZ4d3pNVW44NDZEb0tLSmlhc3NwUnJVQXJlZEU"
+        }
+    ],
+    "Curriculum": [
+        {
+            "title": "R2023",
+            "link": "https://kce.ac.in/new/wp-content/uploads/2024/07/R2023_Civil.pdf"
+        },
+        {
+            "title": "R2018",
+            "link": "https://kce.ac.in/new/wp-content/uploads/2024/07/R2018_CIVIL.pdf"
+        },
+        {
+            "title": "R2017",
+            "link": "https://kce.ac.in/new/wp-content/uploads/2024/07/R2017_CIVIL.pdf"
+        }
+    ],
+    "Regulations": {
+        "title": "R2023",
+        "link": "https://kce.ac.in/new/wp-content/uploads/2023/07/EC.pdf"
+    },
+    "Teaching_Learning": [
+        {
+            "title": "Course Development Through YouTube and Blogs",
+            "link": "https://www.youtube.com/@civilenggkce"
+        },
+        {
+            "title": "Google Classroom Details Odd Semester – 2024-2025",
+            "link": "https://kce.ac.in/new/wp-content/uploads/2024/07/GOOGLE-CLASSROOM.pdf"
+        }
+    ]
+}

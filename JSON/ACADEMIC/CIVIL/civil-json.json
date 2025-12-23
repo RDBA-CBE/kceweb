@@ -1,0 +1,180 @@
+{
+  "department_name": "Department of Civil Engineering",
+  "about": "The department of Civil Engineering was started in the year 2008. It offers under graduate course in Civil Engineering with an intake of 60 students. Our main goal is to be the Centre of Excellence for the development and dissemination of knowledge in Structural Engineering, Construction Engineering, Urban Engineering, Geotechnical Engineering, Remote sensing, GIS and its applications.",
+  "para1": "The Department has good infrastructure and it is well equipped with state-of-the art laboratory facilities necessary for imparting high quality of education and is structured to meet our present day needs of the Civil Engineering. Students from our department have always proved to be meritorious. The department has well experienced, qualified and diversified team of faculty members who are regularly presenting papers in and national and international conferences and publishing their technical papers in reputed peer reviewed journals.",
+  "para2": " Our faculty members are life members of various professional bodies such as Indian Concrete Institute (ICI), Indian Society for Technical Education (ISTE), International Society for Research and Development (ISRD), International Association of Engineers (IAENG), Indian Academicians and Researchers Association (IARA) etc., for the necessary networking and knowledge upskilling.",
+  "para3": " The department actively promotes curriculum development activity by updating existing courses, developing new courses and preparing resource material for teaching and learning process. The department is also very active in conducting conferences, workshops, seminars and visit to industries and construction sites. Visits are arranged regularly to impart technical inputs to the students more effectively through experiential learning. Wi-Fi enabled internet facilities are available in the department. Students are motivated to undergo mini projects to improve their practical knowledge and are encouraged to undergo internship to improve their practical exposure. Soft skill training programs are offered to enhance their communication, aptitude and interpersonal skills.",
+  "para4": " The Department of Civil Engineering has signed MoU with reputed construction companies to help the students in training and to upgrade their technical skills through practical exposure.",
+  "vision": "To produce technically knowledgeable and socially responsible Civil Engineers by inculcating value based technical education.",
+  "mission": [
+    "Imparting strong technical knowledge through qualified faculty.",
+    "Enriching the exposure of the students in emerging technologies, entrepreneurship, and research by industry – institute interaction.",
+    "Enabling the students to become professionally and socially responsible engineers."
+  ],
+  "bannerImg":"/images/kce/banner_civil.jpeg",
+  "Regulations": {
+    "title": "R2023",
+    "link": "https://kce.ac.in/new/wp-content/uploads/2023/07/EC.pdf"
+  },
+  "courses_offered": [
+    "B.E. Civil Engineering"
+  ],
+  "lab_facilities": [
+    "Strength of Materials Laboratory",
+    "Fluid Mechanics Laboratory",
+    "Construction Materials Laboratory",
+    "Concrete and Highway Laboratory",
+    "Soil Mechanics Laboratory",
+    "Survey Laboratory",
+    "Environmental Engineering Laboratory",
+    "Computer Aided Design and Drafting Laboratory"
+  ],
+  "programme_educational_objectives": [
+    "PEO1: Graduates will formulate and solve problems in various domains of Civil Engineering by exhibiting their technical skills.",
+    "PEO2: Graduates will communicate effectively and work in multidisciplinary engineering projects following the ethics in their profession.",
+    "PEO3: Graduates will become entrepreneurs or successfully pursue higher education for their professional development."
+  ],
+  "programme_outcomes_(POs)": {
+    "PO1": "Engineering knowledge: Apply the knowledge of mathematics, science, engineering fundamentals, and an engineering specialization to the solution of complex engineering problems.",
+    "PO2": "Problem analysis: Identify, formulate, review research literature, and analyze complex engineering problems reaching substantiated conclusions using first principles of mathematics, natural sciences, and engineering sciences.",
+    "PO3": "Design / Development of Solutions: Design solutions for complex engineering problems and design system components or processes that meet the specified needs with appropriate consideration for the public health and safety, and the cultural, societal, and environmental considerations.",
+    "PO4": "Conduct Investigations of Complex Problems: Use research-based knowledge and research methods including design of experiments, analysis and interpretation of data, and synthesis of the information to provide valid conclusions.",
+    "PO5": "Modern Tool Usage: Create, select, and apply appropriate techniques, resources, and modern engineering and IT tools including prediction and modeling to complex engineering activities with an understanding of the limitations.",
+    "PO6": "The Engineer and Society: Apply reasoning informed by the contextual knowledge to assess societal, health, safety, legal and cultural issues and the consequent responsibilities relevant to the professional engineering practice.",
+    "PO7": "Environment and Sustainability: Understand the impact of the professional engineering solutions in societal and environmental contexts, and demonstrate the knowledge of, and need for sustainable development.",
+    "PO8": "Ethics: Apply ethical principles and commit to professional ethics and responsibilities and norms of the engineering practice.",
+    "PO9": "Individual and Team Work: Function effectively as an individual, and as a member or leader in diverse teams, and in multidisciplinary settings.",
+    "PO10": "Communication: Communicate effectively on complex engineering activities with the engineering community and with society at large, such as, being able to comprehend and write effective reports and design documentation, make effective presentations, and give and receive clear instructions.",
+    "PO11": "Project Management and Finance: Demonstrate knowledge and understanding of the engineering and management principles and apply these to one’s own work, as a member and leader in a team, to manage projects and in multidisciplinary environments.",
+    "PO12": "Life-Long Learning: Recognize the need for, and have the preparation and ability to engage in independent and life-long learning in the broadest context of technological change."
+  },
+  "program_specific_outcomes_(PSOs)": [
+    "PSO1: Field applications oriented practical knowledge in Civil Engineering such as Planning, Analysis, Designing, Estimation and Execution by applying current concepts of mathematics and physical sciences",
+    "PSO2: An ability to succeed competitive examinations which offers challenging and rewarding career and to become an efficient Design engineer; Structural consultant, Project engineer or Construction manager with the help of management skills and leadership characteristics"
+  ],
+  "faculty": [
+    {
+      "sno": 1,
+      "name": "Dr. Lakshmi R",
+      "designation": "Professor / Head",
+      "qualification": "M.E, Ph.D"
+    },
+    {
+      "sno": 2,
+      "name": "Dr. Sivalingam K",
+      "designation": "Professor",
+      "qualification": "M.E, Ph.D"
+    },
+    {
+      "sno": 3,
+      "name": "Dr. Sankar J",
+      "designation": "Associate Professor",
+      "qualification": "M.E, Ph.D"
+    },
+    {
+      "sno": 4,
+      "name": "Mr. Prasannan D",
+      "designation": "Assistant Professor",
+      "qualification": "M.E"
+    },
+    {
+      "sno": 5,
+      "name": "Mr. Manoj Suburam R",
+      "designation": "Assistant Professor",
+      "qualification": "M.E"
+    },
+    {
+      "sno": 6,
+      "name": "Mr. Sakthivel E",
+      "designation": "Assistant Professor",
+      "qualification": "M.E"
+    },
+    {
+      "sno": 7,
+      "name": "Ms. Pilomina PS",
+      "designation": "Assistant Professor",
+      "qualification": "M.E"
+    },
+    {
+      "sno": 8,
+      "name": "Mr. Pradeep Kumar C",
+      "designation": "Assistant Professor",
+      "qualification": "M.E"
+    },
+    {
+      "sno": 9,
+      "name": "Ms. Srivisha A",
+      "designation": "Assistant Professor",
+      "qualification": "M.E"
+    },
+    {
+      "sno": 10,
+      "name": "Ms. Lakshmi B",
+      "designation": "Assistant Professor",
+      "qualification": "M.E"
+    },
+    {
+      "sno": 11,
+      "name": "Ms. Jeslin J S",
+      "designation": "Assistant Professor",
+      "qualification": "M.E"
+    },
+    {
+      "sno": 12,
+      "name": "Mr. Shanthakumar K",
+      "designation": "Assistant Professor",
+      "qualification": "M.E"
+    }
+  ],
+  "Smart_Class_Rooms": [
+    {
+      "title": "MECHANICS OF SOLIDS-II",
+      "link": "https://drive.google.com/drive/folders/0B5LX1IkMXb5DfmdTSTNRa2Naanl1dERUV3RsTXVJbm9heWJaVzdQbzZaMkJMNjNRWm1qOTQ"
+    },
+    {
+      "title": "MECHANICS OF SOLIDS-I",
+      "link": "https://drive.google.com/drive/folders/0B5LX1IkMXb5DfjRWY0JmMmZpTE9Uc3NBVVU4VTZuOW1iWjZhSEIwZXhRTVdtTmRiLUhzMk0"
+    },
+    {
+      "title": "STRUCTURAL ANALYSIS – I",
+      "link": "https://drive.google.com/drive/folders/0BzKrhiC4CXT4fkgzQmVJR3dXZmpRNlQwOUxjeUJ4U0toMXNTQ09JRjBYWFh0T19DUDVMMkE"
+    },
+    {
+      "title": "STRUCTURAL ANALYSIS – II",
+      "link": "https://drive.google.com/drive/folders/0BzKrhiC4CXT4fnA5dUlTT1VXa1pGb1VTalpQWTlIREdaN29UMnA3eGVac3dNeTE4MTU0a0k"
+    },
+    {
+      "title": "FOUNDATION ENGINEERING",
+      "link": "https://drive.google.com/drive/folders/0B_ARGz87QXVFfkFsRElISmRpUnZxMllSMjZ4d3pNVW44NDZEb0tLSmlhc3NwUnJVQXJlZEU"
+    }
+  ],
+  "Teaching_Learning": [
+    {
+      "title": "Course Development Through YouTube and Blogs",
+      "link": "https://www.youtube.com/@civilenggkce"
+    },
+    {
+      "title": "Google Classroom Details Odd Semester – 2024-2025",
+      "link": "https://kce.ac.in/new/wp-content/uploads/2024/07/GOOGLE-CLASSROOM.pdf"
+    }
+  ],
+  "Curriculum": [
+    {
+      "title": "R2023",
+      "link": "https://kce.ac.in/new/wp-content/uploads/2024/07/R2023_Civil.pdf"
+    },
+    {
+      "title": "R2018",
+      "link": "https://kce.ac.in/new/wp-content/uploads/2024/07/R2018_CIVIL.pdf"
+    },
+    {
+      "title": "R2017",
+      "link": "https://kce.ac.in/new/wp-content/uploads/2024/07/R2017_CIVIL.pdf"
+    }
+  ],
+  "placement_offers": {
+    "title": "",
+    "link": "/KCE/recruiters-list/"
+  },
+  "image": ""
+}

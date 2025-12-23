@@ -1,0 +1,24 @@
+.lib .dept-wrapper {
+    gap: 8px;
+    grid-template-columns: auto;
+  }
+  
+  .lib .dept-card {
+    border: none;
+    width: fit-content;
+    border-radius: 0;
+    padding: 10px 10px;
+  }
+  
+  .lib .dept-title {
+    color: #fff;
+    flex: none;
+  }
+  
+  .lib .dept-icon {
+    color: #fff;
+    height: 22px;
+    margin-bottom: 0;
+    width: 140px;
+  }
+  

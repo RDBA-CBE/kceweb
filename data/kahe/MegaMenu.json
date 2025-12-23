@@ -1,0 +1,381 @@
+{
+  "menuData": [
+    {
+      "menuTitle": "About",
+      "menuType": "about",
+      "hasMegamenu": true,
+      "hasMenuChild": false,
+      "hasPositionStatic": false,
+      "hasSideBanner": false,
+      "menuItems": [
+        {
+          "id": 1,
+          "title": "Profile",
+          "link": "/KCE/profile",
+          "desc": "Learn more about KAHE overview.",
+          "src": "/images/banner/co-men.png"
+        },
+        {
+          "id": 2,
+          "title": "Vision And Mission",
+          "link": "/KCE/vision-mission/",
+          "desc": "Learn more about KAHE overview.",
+          "src": "/images/banner/co-men.png"
+        },
+        {
+          "id": 3,
+          "title": "Management Profile",
+          "link": "/KCE/management-profile/",
+          "desc": "Learn more about KAHE overview.",
+          "src": "/images/banner/co-men.png"
+        },
+        {
+          "id": 4,
+          "title": "Organizational Structure",
+          "link": "/KCE/organizatonal-structre/",
+          "desc": "Learn more about KAHE overview.",
+          "src": "/images/banner/co-men.png"
+        }
+      ]
+    },
+    {
+      "menuTitle": "Academics",
+      "menuType": "academics",
+      "hasMegamenu": true,
+      "hasMenuChild": true,
+      "hasPositionStatic": true,
+      "hasSideBanner": true,
+      "menuItems": [
+        {
+          "id": 2,
+          "title": "Department of Civil Engineering",
+          "link": "/KCE/department-of-civil-engineering/"
+        },
+        {
+          "id": 3,
+          "title": "Department of Electronics and Communication Engineering",
+          "link": "/KCE/department-of-electronics-and-communication-engineering/"
+        },
+        {
+          "id": 4,
+          "title": "Department of Electrical and Electronics Engineering",
+          "link": "/KCE/department-of-electrical-and-electronics-engineering/"
+        },
+        {
+          "id": 5,
+          "title": "Department of Mechanical Engineering",
+          "link": "/KCE/department-of-mechanical-engineering/"
+        },
+        {
+          "id": 6,
+          "title": "Department of Electronics and Telecommunication Engineering",
+          "link": "/KCE/department-of-electronics-and-telecommunication-engineering/"
+        },
+        {
+          "id": 7,
+          "title": "Department of Computer Science and Engineering (Cyber Security)",
+          "link": "/KCE/department-of-computer-science-and-engineering-cyber-security/"
+        },
+        {
+          "id": 8,
+          "title": "Department of Computer Science and Engineering",
+          "link": "/KCE/department-of-computer-science-and-engineering/"
+        },
+        {
+          "id": 9,
+          "title": "Department of Computer Science and Design",
+          "link": "/KCE/department-of-computer-science-and-design/"
+        },
+        {
+          "id": 10,
+          "title": "Department of Computer Science and Technology",
+          "link": "/KCE/department-of-computer-science-and-technology/"
+        },
+        {
+          "id": 11,
+          "title": "Department of Information Technology",
+          "link": "/KCE/department-of-information-technology/"
+        },
+        {
+          "id": 12,
+          "title": "Department of Artificial Intelligence and Data Science",
+          "link": "/KCE/department-of-artificial-intelligence-and-data-science/"
+        },
+        {
+          "id": 13,
+          "title": "Department of Science and Humanities",
+          "link": "/KCE/department-of-science-and-humanities/"
+        },
+        {
+          "id": 14,
+          "title": "Department of MCA",
+          "link": "/KCE/department-of-mca/"
+        },
+        {
+          "id": 15,
+          "title": "Department of Management Studies",
+          "link": "/KCE/department-of-management-studies/"
+        },
+        {
+          "id": 16,
+          "title": "Professional Bodies",
+          "link": "/KCE/professional-bodies/"
+        }
+      ]
+    },
+    {
+      "menuTitle": "Centers of Excellence",
+      "menuType": "admissions",
+      "link": "/KCE/centers-of-excellence"
+    },
+    {
+      "menuTitle": "Research",
+      "menuType": "research",
+      "link": "/KCE/kce-research"
+    },
+    {
+      "menuTitle": "IQAC",
+      "menuType": "iqac",
+      "link": "/KCE/internal-quality-assurance-cell-iqac"
+    },
+    {
+      "menuTitle": "Campus Facilities",
+      "menuType": "campus life",
+      "link": "/KCE/infrastructure",
+      "hasMegamenu": true,
+      "hasMenuChild": true,
+      "hasPositionStatic": true,
+      "hasSideBanner": true,
+        "menuItems": [
+          {
+            "id": 1,
+            "title": "Clubs",
+            "link": "/KCE/infrastructure/clubs/"
+          },
+          {
+            "id": 2,
+            "title": "Arts & Culture",
+            "link": "/KCE/infrastructure/arts-culture/"
+          },
+          {
+            "id": 3,
+            "title": "Campus Events",
+            "link": "/KCE/infrastructure/campus-events/"
+          },
+          {
+            "id": 4,
+            "title": "Health and Fitness",
+            "link": "/KCE/infrastructure/health-and-fitness/"
+          },
+          {
+            "id": 5,
+            "title": "Karpagam Innovation Center",
+            "link": "/KCE/infrastructure/karpagam-innovation-centre/"
+          },
+          {
+            "id": 6,
+            "title": "National Innovation and Start-up Policy",
+            "link": "/KCE/infrastructure/national-innovation-and-start-up-policy/"
+          },
+          {
+            "id": 7,
+            "title": "Student Media",
+            "link": "/KCE/infrastructure/student-media/"
+          },
+          {
+            "id": 8,
+            "title": "Hostel",
+            "link": "/KCE/infrastructure/hostel/"
+          },
+          {
+            "id": 9,
+            "title": "Cafeteria",
+            "link": "/KCE/infrastructure/cafeteria/"
+          },
+          {
+            "id": 10,
+            "title": "NSS",
+            "link": "/KCE/infrastructure/nss/"
+          },
+          {
+            "id": 11,
+            "title": "Entrepreneurship",
+            "link": "/KCE/infrastructure/entrepreneurship/"
+          },
+          {
+            "id": 12,
+            "title": "Library",
+            "link": "/KCE/library/"
+          },
+          {
+            "id": 13,
+            "title": "Transport",
+            "link": "/KCE/infrastructure/transport/"
+          },
+          {
+            "id": 14,
+            "title": "Banking",
+            "link": "/KCE/infrastructure/banking/"
+          },
+          {
+            "id": 15,
+            "title": "Infrastructure",
+            "link": "/KCE/infrastructure/"
+          }
+        ]
+      
+    },
+    {
+      "menuTitle": "Accreditations",
+      "menuType": "Accreditations",
+      "link":"/KCE/accreditations",
+      "hasMegamenu": false,
+      "hasMenuChild": false,
+      "hasPositionStatic": false,
+      "hasSideBanner": false
+    },
+    {
+      "menuTitle": "Placement",
+      "menuType": "placement",
+      "hasMegamenu": true,
+      "hasMenuChild": true,
+      "hasPositionStatic": true,
+      "hasSideBanner": true,
+      "menuItems": [
+        {
+          "id": 1,
+          "title": "Overview",
+          "link": "/KCE/overview/",
+          "desc": "Learn more about KAHE overview.",
+          "src": "/images/banner/co-men.png"
+        },
+        {
+          "id": 2,
+          "title": "Placement Procedure",
+          "link": "/KCE/placement/placement-procedure/",
+          "desc": "Learn more about KAHE overview.",
+          "src": "/images/banner/co-men.png"
+        },
+        {
+          "id": 3,
+          "title": "Recruiters List",
+          "link": "/KCE/recruiters-list/",
+          "desc": "Learn more about KAHE overview.",
+          "src": "/images/banner/co-men.png"
+        },
+        {
+          "id": 4,
+          "title": "Training",
+          "link": "/KCE/training/",
+          "desc": "Learn more about KAHE overview.",
+          "src": "/images/banner/co-men.png"
+        },
+        {
+          "id": 5,
+          "title": "Placement Contact",
+          "link": "/KCE/placement-contact/",
+          "desc": "Learn more about KAHE overview.",
+          "src": "/images/banner/co-men.png"
+        }
+      ]
+    },
+    {
+      "menuTitle": "Media",
+      "menuType": "media",
+      "hasMegamenu": true,
+      "hasMenuChild": true,
+      "hasPositionStatic": true,
+      "hasSideBanner": true,
+      "menuItems": [
+        {
+          "id": 1,
+          "title": "News and Events",
+          "link": "/KCE/category/news-event/",
+          "desc": "Learn more about KAHE overview.",
+          "src": "/images/banner/co-men.png"
+        },
+        {
+          "id": 2,
+          "title": "Photo Gallery",
+          "link": "/KCE/photo-gallery/",
+          "desc": "Learn more about KAHE overview.",
+          "src": "/images/banner/co-men.png"
+        },
+        {
+          "id": 3,
+          "title": "Campus Tour",
+          "link": "https://www.youtube.com/watch?v=zIgsSFZRf6s",
+          "desc": "Learn more about KAHE overview.",
+          "src": "/images/banner/co-men.png"
+        }
+      ]
+    },
+    {
+      "menuTitle": "Examinations",
+      "menuType": "examinations",
+      "link":"/KCE/examinations",
+      "hasMegamenu": true,
+      "hasMenuChild": true,
+      "hasPositionStatic": true,
+      "hasSideBanner": true,
+      "menuItems": [
+
+          
+        {
+          "id": 1,
+          "title": "Instructions to the candidates",
+          "link": "/KCE/examinations/instructions-to-the-candidates",
+          "desc": "Learn more about KAHE overview.",
+          "src": "/images/banner/co-men.png"
+        },
+        {
+          "id": 2,
+          "title": "Rules and Regulations",
+          "link": "/KCE/examinations/rules-and-regulations",
+          "desc": "Learn more about KAHE overview.",
+          "src": "/images/banner/co-men.png"
+        },
+        {
+          "id": 3,
+          "title": "Result",
+          "link": "https://karpagam.edu.in/Automation/studentOnline.do?param=login&Id=2",
+          "desc": "Learn more about KAHE overview.",
+          "src": "/images/banner/co-men.png"
+        },
+        {
+          "id": 3,
+          "title": "Services",
+          "link": "/KCE/examinations/services",
+          "desc": "Learn more about KAHE overview.",
+          "src": "/images/banner/co-men.png"
+        },
+        {
+          "id": 3,
+          "title": "Time Table",
+          "link": "/KCE/examinations/time-table",
+          "desc": "Learn more about KAHE overview.",
+          "src": "/images/banner/co-men.png"
+        },
+        {
+          "id": 3,
+          "title": "Downloads",
+          "link": "/KCE/examinations/downloads",
+          "desc": "Learn more about KAHE overview.",
+          "src": "/images/banner/co-men.png"
+        },
+        {
+          "id": 3,
+          "title": "Contact",
+          "link": "/KCE/examinations/exam-contact",
+          "desc": "Learn more about KAHE overview.",
+          "src": "/images/banner/co-men.png"
+        }
+      ]
+    },
+    {
+      "menuTitle": "Contact",
+      "menuType": "contact",
+      "link":"/KCE/contact-us"
+    }
+  ]
+}
