@@ -190,4 +190,386 @@
       font-size: 16px;
     }
   }
+
+
   
+/* Enhanced PEO List */
+.peo-list.improved {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Card-style list item */
+.peo-list.improved li {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: #ffffff;
+  padding: 24px 28px;
+  border-radius: 16px;
+  margin-bottom: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border-left: 5px solid #b22222;
+  border-top: 1px solid rgba(178, 34, 34, 0.1);
+  border-right: 1px solid rgba(178, 34, 34, 0.05);
+}
+
+.peo-list.improved li:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.12);
+  border-left-width: 6px;
+}
+
+/* PEO Badge */
+.peo-badge {
+  background: linear-gradient(135deg, #b22222 0%, #ff4b2b 100%);
+  color: #fff;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 8px 14px;
+  border-radius: 10px;
+  min-width: 70px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(178, 34, 34, 0.2);
+  flex-shrink: 0;
+}
+
+/* Icon */
+.peo-icon {
+  color: #b22222;
+  min-width: 28px;
+  flex-shrink: 0;
+  stroke-width: 2;
+}
+
+/* Text */
+.peo-list.improved p {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #333;
+  font-weight: 400;
+}
+
+/* Section Title */
+.peo-section h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 2.5rem;
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.peo-section h2::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(90deg, #b22222, #ff4b2b);
+  border-radius: 2px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .peo-list.improved li {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 20px;
+    border-left-width: 4px;
+  }
+
+  .peo-list.improved li:hover {
+    transform: translateY(-2px);
+  }
+
+  .peo-list.improved p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .peo-badge {
+    font-size: 14px;
+    padding: 6px 12px;
+    min-width: 65px;
+  }
+
+  .peo-icon {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+
+  .peo-section h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .peo-list.improved li {
+    padding: 18px 16px;
+  }
+
+  .peo-list.improved p {
+    font-size: 15px;
+  }
+
+  .peo-badge {
+    font-size: 13px;
+    padding: 5px 10px;
+    min-width: 60px;
+  }
+
+  .peo-section h2 {
+    font-size: 1.75rem;
+  }
+}
+
+/* Animation for page load */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.peo-list.improved li {
+  animation: fadeInUp 0.5s ease-out forwards;
+  opacity: 0;
+}
+
+.peo-list.improved li:nth-child(1) { animation-delay: 0.1s; }
+.peo-list.improved li:nth-child(2) { animation-delay: 0.2s; }
+.peo-list.improved li:nth-child(3) { animation-delay: 0.3s; }
+
+
+
+/* ===============================
+   PO ACCENT UI
+================================ */
+.po-accent-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* CARD */
+.po-accent-card {
+  display: flex;
+  gap: 24px;
+  padding: 28px 32px;
+  border-radius: 14px;
+  background: #f8fafc;
+  border-left: 6px solid #ff4b2b;
+  transition: all 0.3s ease;
+}
+
+.po-accent-card:hover {
+  background: #ffffff;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* BADGE */
+.po-badge {
+  min-width: 64px;
+  height: 64px;
+  background: #ff4b2b;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* CONTENT */
+.po-content h3 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.po-content p {
+  font-size: 17px;
+  line-height: 1.8;
+  color: #555;
+  margin: 0;
+}
+
+/* ===============================
+   RESPONSIVE
+================================ */
+@media (max-width: 768px) {
+  .po-accent-card {
+    flex-direction: column;
+    padding: 22px;
+  }
+
+  .po-badge {
+    width: 52px;
+    height: 52px;
+    font-size: 16px;
+  }
+
+  .po-content h3 {
+    font-size: 20px;
+  }
+
+  .po-content p {
+    font-size: 16px;
+  }
+}
+
+
+
+/* ===============================
+   PSO SPLIT UI
+================================ */
+.pso-split-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+/* ROW */
+.pso-split-row {
+  display: flex;
+  background: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease;
+}
+
+.pso-split-row:hover {
+  transform: translateY(-3px);
+}
+
+/* STRIP */
+.pso-strip {
+  min-width: 90px;
+  background: linear-gradient(180deg, #b11226, #e63946);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pso-strip span {
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  letter-spacing: 2px;
+}
+
+/* TEXT */
+.pso-text {
+  padding: 26px 32px;
+}
+
+.pso-text p {
+  font-size: 17px;
+  line-height: 1.8;
+  color: #444;
+  margin: 0;
+}
+
+/* ===============================
+   RESPONSIVE
+================================ */
+@media (max-width: 768px) {
+  .pso-split-row {
+    flex-direction: column;
+  }
+
+  .pso-strip {
+    min-width: 100%;
+    height: 52px;
+  }
+
+  .pso-strip span {
+    writing-mode: horizontal-tb;
+    transform: none;
+    letter-spacing: 1px;
+  }
+
+  .pso-text {
+    padding: 20px;
+  }
+
+  .pso-text p {
+    font-size: 16px;
+  }
+}
+  
+
+
+
+.subject-pill-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px 60px;
+}
+
+/* Pill Item */
+.subject-pill {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 24px;
+  border-radius: 40px;
+  background: #f6f9fc;
+  color: #0b2a4a;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-size: 15px;
+  border-left: 6px solid #0b2a4a;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Arrow */
+.subject-arrow {
+  width: 20px;
+  height: 20px;
+  transition: transform 0.3s ease;
+}
+
+/* Hover Effects */
+.subject-pill:hover {
+  background: #0b2a4a;
+  color: #ffffff;
+  border-left-color: #ff5a3c;
+  transform: translateX(6px);
+}
+
+.subject-pill:hover .subject-arrow {
+  transform: translateX(6px);
+}
+
+
+@media (max-width: 768px) {
+  .subject-pill-wrapper {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .subject-pill {
+    font-size: 14px;
+    padding: 16px 20px;
+  }
+}

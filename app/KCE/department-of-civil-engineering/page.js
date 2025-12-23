@@ -41,10 +41,10 @@ export default function page() {
         <VissionMission />
         <LabFacility />
         <TabSection />
+        </div>
 
        {/* <SmartClass data={ClassData} /> */}
        <TeachingLearningSection />
-      </div>
     </div>
   );
 }
