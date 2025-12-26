@@ -1,0 +1,64 @@
+/* ===============================
+   BASE
+================================ */
+.about-wrapper {
+    background: #ffffff;
+  }
+  
+  .about-content-area {
+    padding: 70px 80px;
+  }
+  
+  /* ===============================
+     TOP CONTENT
+  ================================ */
+  .about-top h1 {
+    font-size: 2.6rem;
+    font-weight: 800;
+    color: #0f172a;
+    margin-bottom: 25px;
+  }
+  
+  .about-top p {
+    // font-size: 1.05rem;
+    // line-height: 1.8;
+    color: #475569;
+    margin-bottom: 16px;
+    max-width: 720px;
+  }
+  
+  /* ===============================
+     IMAGE & TEXT SECTION
+  ================================ */
+  .about-image-section {
+    margin-top: 40px;
+  }
+  
+  .about-image-card img {
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+    border-radius: 22px;
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.15);
+  }
+  
+  .about-text-card {
+    padding: 30px;
+    border-radius: 22px;
+    background: #f8fafc;
+    height: 100%;
+  }
+  
+  .about-text-card p {
+    // font-size: 0.95rem;
+    line-height: 1.8;
+    color: #64748b;
+    margin-bottom: 16px;
+  }
+  
+  /* ===============================
+     RIGHT STICKY MENU
+  ================================ */
+  
+  
+

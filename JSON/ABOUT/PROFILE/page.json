@@ -1,0 +1,23 @@
+{
+  "pageTitle": "About Karpagam College of Engineering",
+  "intro": [
+    "The Karpagam College of Engineering, established in the Year 2000, is an Autonomous institution, Approved by AICTE, New Delhi and Affiliated to Anna University, Chennai.",
+    "The college offers various Under Graduate and Post Graduate Engineering programmes. The College is accredited by NAAC with ‘A+’ Grade, TCS and Wipro with 4500 students and 426 teaching and non-teaching staff members."
+  ],
+  "imageSection": {
+    "image": "https://images.unsplash.com/photo-1581092160607-ee22621dd758",
+    "content": [
+      "The Placement and Training facilities add a feather to its cap ensuring the students get placed on campus. The 10 Centers of Excellence strive to impart practical and experimental exposure to the students.",
+      "The College is situated at Myleripalayam, 15 kms from Coimbatore Central Railway station. The serene location surrounded by green fields creates a calm atmosphere conducive to learning and growth."
+    ]
+  },
+  "sideMenu": [
+    "About Karpagam",
+    "Vision & Mission",
+    "Management Profile",
+    "Programmes Offered",
+    "Centers of Excellence",
+    "Accreditations",
+    "Placement"
+  ]
+}

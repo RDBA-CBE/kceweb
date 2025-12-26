@@ -1,0 +1,419 @@
+.admission-panel {
+    padding: 80px 0;
+    background: linear-gradient(
+      to right,
+      #ffffff 65%,
+      #0b2c5d 35%
+    );
+  }
+  
+  /* Left */
+  .admission-left {
+    padding-right: 50px;
+  }
+  
+  .admission-heading {
+    font-size: 42px;
+    font-weight: 600;
+    color: #0b2c5d;
+    margin-bottom: 40px;
+  }
+  
+  /* Content Blocks */
+  .admission-block {
+    margin-bottom: 30px;
+    padding-left: 20px;
+    border-left: 4px solid #f7941d;
+  }
+  
+  .admission-block h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 8px;
+  }
+  
+  .admission-block p {
+    font-size: 15.5px;
+    line-height: 1.8;
+    color: #555;
+  }
+  
+  /* Right Image */
+  .admission-right {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .admission-right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+  }
+  
+  /* Floating Tag */
+  .admission-tag {
+    position: absolute;
+    bottom: 25px;
+    left: -20px;
+    background: #f7941d;
+    color: #fff;
+    padding: 12px 22px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .admission-panel {
+      background: #fff;
+    }
+  
+    .admission-left {
+      padding-right: 15px;
+      margin-bottom: 30px;
+    }
+  
+    .admission-heading {
+      font-size: 32px;
+    }
+  
+    .admission-tag {
+      left: 15px;
+      
+    }
+  }
+  
+//   /-------------------------------------------****--------------------------------
+//   /-------------------------------------------****--------------------------------
+
+/* Section */
+.ug-wall {
+    padding: 50px 0;
+    background: linear-gradient(135deg, #f0f4f8, #ffffff);
+  }
+  
+  /* Container */
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+  }
+  
+  /* Title */
+  .ug-wall-title {
+    text-align: center;
+    font-size: 44px;
+    font-weight: 700;
+    color: #1e293b; /* dark text on light bg */
+    margin-bottom: 60px;
+    letter-spacing: 0.5px;
+  }
+  
+  /* Ribbon Container */
+  .ug-ribbon {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+  }
+  
+  /* Ribbon Item */
+  .ug-ribbon-item {
+    position: relative;
+    padding: 14px 28px;
+    background: rgba(96, 165, 250, 0.1); /* soft light blue */
+    color: #1e293b; /* dark text */
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 50px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.35s ease;
+  }
+  
+  /* Hover Effect - wave animation */
+  .ug-ribbon-item::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -100%;
+    width: 200%;
+    height: 200%;
+    background: rgba(96, 165, 250, 0.2); /* subtle hover wave */
+    transform: translateY(-50%) rotate(45deg);
+    transition: all 0.5s ease;
+  }
+  
+  .ug-ribbon-item:hover::before {
+    left: -20%;
+  }
+  
+  /* Programme Name */
+  .prog-name {
+    z-index: 2;
+    position: relative;
+  }
+  
+  /* NBA Badge */
+  .prog-badge {
+    font-size: 12px;
+    font-weight: 700;
+    color: #1e293b;
+    background: linear-gradient(135deg, #facc15, #fde047);
+    padding: 4px 10px;
+    border-radius: 999px;
+    margin-left: 10px;
+    z-index: 2;
+    position: relative;
+    box-shadow: 0 0 8px rgba(250, 204, 21, 0.5);
+  }
+  
+  /* Footer Note */
+  .ug-wall-note {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+    color: #64748b; /* muted dark for note */
+  }
+  
+  /* Mobile */
+  @media (max-width: 768px) {
+    .ug-wall-title {
+      font-size: 32px;
+    }
+    
+    .ug-ribbon-item {
+      padding: 12px 20px;
+      font-size: 15px;
+    }
+  }
+  
+
+  //   /-------------------------------------------****--------------------------------
+//   /-------------------------------------------****--------------------------------
+.rail-section {
+    padding: 6rem 0;
+    background: linear-gradient(180deg, #f8fafc, #ffffff);
+  }
+  
+  /* BLOCK */
+  .rail-block {
+    position: relative;
+    padding-left: 2.5rem;
+  }
+  
+  /* VERTICAL LINE */
+  .rail-line {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 4px;
+    height: 100%;
+    border-radius: 10px;
+  }
+  
+  .rail-line.blue {
+    background-color: #2563eb;
+  }
+  
+  .rail-line.green {
+    background-color: #22c55e;
+  }
+  
+  /* TITLE */
+  .rail-block h2 {
+    font-size: 2.4rem;
+    font-weight: 800;
+    margin-bottom: 2rem;
+  }
+  
+  /* LIST */
+  .rail-block ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .rail-block li {
+    padding: 1rem 0;
+    border-bottom: 1px solid #e5e7eb;
+    transition: all 0.3s ease;
+  }
+  
+  .rail-block li:hover {
+    padding-left: 14px;
+    color: #2563eb;
+  }
+  
+  /* NOTE */
+  .rail-note {
+    margin-top: 1.8rem;
+    color: #475569;
+  }
+  
+  /* RESPONSIVE */
+  @media (max-width: 768px) {
+    .rail-block h2 {
+      font-size: 1.9rem;
+    }
+  }
+  
+  
+
+
+// .admission-journey {
+//     padding: 80px 0;
+//   }
+  
+//   /* Title */
+//   .journey-title {
+//     font-size: 44px;
+//     font-weight: 600;
+//     color: #0b2c5d;
+//     margin-bottom: 15px;
+//   }
+  
+//   .journey-intro {
+//     font-size: 17px;
+//     line-height: 1.8;
+//     color: #555;
+//     max-width: 520px;
+//   }
+  
+//   /* Image */
+//   .journey-image img {
+//     width: 100%;
+//     border-radius: 6px;
+//   }
+  
+//   /* Steps */
+//   .journey-steps {
+//     display: grid;
+//     grid-template-columns: repeat(3, 1fr);
+//     gap: 40px;
+//     margin-top: 50px;
+//   }
+  
+//   .step-item {
+//     padding-top: 20px;
+//     border-top: 3px solid #f7941d;
+//   }
+  
+//   .step-number {
+//     font-size: 42px;
+//     font-weight: 700;
+//     color: #f7941d;
+//     display: block;
+//     margin-bottom: 10px;
+//   }
+  
+//   .step-item h3 {
+//     font-size: 20px;
+//     margin-bottom: 10px;
+//     color: #222;
+//   }
+  
+//   .step-item p {
+//     font-size: 15.5px;
+//     line-height: 1.7;
+//     color: #555;
+//   }
+  
+//   /* Responsive */
+//   @media (max-width: 768px) {
+//     .journey-title {
+//       font-size: 32px;
+//     }
+  
+//     .journey-steps {
+//       grid-template-columns: 1fr;
+//     }
+//   }
+  
+
+
+
+
+// .admission-section {
+//     padding: 70px 0;
+//   }
+  
+//   /* Title */
+//   .admission-title {
+//     font-size: 40px;
+//     font-weight: 500;
+//     color: #0b2c5d;
+//     margin-bottom: 30px;
+//   }
+  
+//   /* Text Area */
+//   .admission-content {
+//     padding-right: 50px;
+//     position: relative;
+//   }
+  
+//   .admission-content::before {
+//     content: "";
+//     position: absolute;
+//     left: -20px;
+//     top: 0;
+//     width: 4px;
+//     height: 100%;
+//     background-color: #f7941d;
+//   }
+  
+//   .admission-text p {
+//     font-size: 16px;
+//     line-height: 1.9;
+//     color: #555;
+//     margin-bottom: 18px;
+//   }
+  
+//   /* Image */
+//   .admission-image {
+//     position: relative;
+//   }
+  
+//   .admission-image img {
+//     width: 100%;
+//     height: auto;
+//     border-radius: 4px;
+//   }
+  
+//   /* Badge */
+//   .image-badge {
+//     position: absolute;
+//     top: 20px;
+//     right: 20px;
+//     background: #f7941d;
+//     color: #fff;
+//     font-size: 14px;
+//     font-weight: 600;
+//     padding: 10px 16px;
+//     letter-spacing: 1px;
+//   }
+  
+//   /* Responsive */
+//   @media (max-width: 768px) {
+//     .admission-content {
+//       padding-right: 15px;
+//     }
+  
+//     .admission-content::before {
+//       display: none;
+//     }
+  
+//     .admission-title {
+//       font-size: 30px;
+//     }
+  
+//     .image-badge {
+//       font-size: 12px;
+//       padding: 8px 12px;
+//     }
+//   }
+  
