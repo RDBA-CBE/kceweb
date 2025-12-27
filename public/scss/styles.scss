@@ -145,6 +145,12 @@
 @import "kce/about/centers_of_excellence.scss";
 @import "kce/about/accreditation.scss";
 @import "kce/placement/overview.scss";
+@import "kce/about/org_structure.scss";
+@import "kce/research.scss";
+@import "kce/iqac.scss";
+
+
+
 
 
 
@@ -688,83 +694,7 @@
 }
 
 // --------------------------------***------------------------------------------
-/* CARD STYLE */
-.org-card {
-  background: #ffffff;
-  border-radius: 16px;
-  padding: 24px 16px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-  transition: all 0.3s ease;
-  position: relative;
-}
 
-.org-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.12);
-}
 
-/* PROFILE IMAGE */
-.org-card img {
-  width: 90px;
-  height: 90px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 4px solid #f1f3f5;
-}
 
-/* TEXT */
-.org-card h6 {
-  font-weight: 600;
-}
 
-.org-card p {
-  font-size: 0.85rem;
-  color: #6c757d;
-}
-
-/* LEVEL WRAPPER */
-.org-level {
-  position: relative;
-  margin-bottom: 40px;
-}
-
-/* DASHED ANIMATED CONNECTOR */
-.org-connector {
-  width: 2px;
-  height: 70px;
-  margin: 35px auto;
-  background: repeating-linear-gradient(
-    to bottom,
-    #adb5bd 0,
-    #adb5bd 6px,
-    transparent 6px,
-    transparent 12px
-  );
-  animation: dashMove 1.2s linear infinite;
-}
-
-/* DASH FLOW ANIMATION */
-@keyframes dashMove {
-  from {
-    background-position: 0 0;
-  }
-  to {
-    background-position: 0 12px;
-  }
-}
-
-/* MOBILE RESPONSIVE */
-@media (max-width: 576px) {
-  .org-card img {
-    width: 72px;
-    height: 72px;
-  }
-
-  .org-card {
-    padding: 18px 12px;
-  }
-
-  .org-connector {
-    height: 40px;
-  }
-}
