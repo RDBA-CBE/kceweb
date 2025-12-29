@@ -1,0 +1,411 @@
+// Arts & Culture Page Styles
+.arts-hero-section {
+  min-height: 80vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: 
+      radial-gradient(circle at 30% 70%, rgba(255, 255, 255, 0.1) 0%, transparent 50%),
+      radial-gradient(circle at 70% 30%, rgba(255, 255, 255, 0.08) 0%, transparent 50%);
+    pointer-events: none;
+  }
+
+  .container {
+    position: relative;
+    z-index: 1;
+  }
+
+  .hero-content {
+    text-align: center;
+    color: white;
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(10px);
+      padding: 12px 24px;
+      border-radius: 50px;
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 32px;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    .hero-title {
+      font-size: clamp(3rem, 6vw, 4.5rem);
+      font-weight: 900;
+      line-height: 1.1;
+      margin-bottom: 32px;
+      letter-spacing: -0.02em;
+
+      .gradient-text {
+        background: linear-gradient(45deg, #fbbf24, #f59e0b);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+    }
+
+    .hero-description {
+      font-size: 1.25rem;
+      line-height: 1.7;
+      opacity: 0.9;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+  }
+}
+
+.cultural-activities-section {
+  padding: 120px 0;
+  background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+
+  .section-header {
+    text-align: center;
+    margin-bottom: 80px;
+
+    .section-title {
+      font-size: 3rem;
+      font-weight: 800;
+      color: #0f172a;
+      margin-bottom: 16px;
+      letter-spacing: -0.02em;
+    }
+
+    .section-subtitle {
+      font-size: 1.25rem;
+      color: #64748b;
+      margin: 0;
+    }
+  }
+
+  .activities-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 32px;
+  }
+
+  .activity-card {
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(20px);
+    border-radius: 24px;
+    padding: 40px 32px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    transition: all 0.4s ease;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+
+    &:hover {
+      transform: translateY(-12px) scale(1.02);
+      box-shadow: 0 25px 60px rgba(0, 0, 0, 0.15);
+
+      .activity-icon {
+        transform: scale(1.1) rotate(5deg);
+      }
+    }
+
+    .activity-icon {
+      width: 80px;
+      height: 80px;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 24px;
+      color: white;
+      transition: all 0.3s ease;
+      box-shadow: 0 8px 32px rgba(102, 126, 234, 0.3);
+    }
+
+    .activity-title {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #0f172a;
+      margin-bottom: 12px;
+    }
+
+    .activity-desc {
+      font-size: 1rem;
+      color: #64748b;
+      margin: 0;
+      line-height: 1.6;
+    }
+  }
+}
+
+.philosophy-section {
+  padding: 120px 0;
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+  color: white;
+
+  .philosophy-content {
+    .philosophy-title {
+      font-size: 2.5rem;
+      font-weight: 800;
+      margin-bottom: 32px;
+      letter-spacing: -0.02em;
+    }
+
+    .philosophy-text {
+      font-size: 1.125rem;
+      line-height: 1.8;
+      color: rgba(255, 255, 255, 0.8);
+      margin-bottom: 24px;
+    }
+
+    .achievement-highlight {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      padding: 20px 24px;
+      border-radius: 16px;
+      margin-top: 40px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+
+      .highlight-icon {
+        color: #fbbf24;
+        flex-shrink: 0;
+      }
+
+      span {
+        font-size: 1.125rem;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .philosophy-visual {
+    display: flex;
+    justify-content: center;
+
+    .visual-card {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(20px);
+      border-radius: 24px;
+      padding: 48px 32px;
+      text-align: center;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      max-width: 300px;
+
+      .visual-icon {
+        color: #f093fb;
+        margin-bottom: 24px;
+      }
+
+      h3 {
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-bottom: 16px;
+      }
+
+      p {
+        color: rgba(255, 255, 255, 0.8);
+        margin: 0;
+        line-height: 1.6;
+      }
+    }
+  }
+}
+
+.festivals-section {
+  padding: 120px 0;
+  background: linear-gradient(135deg, #f8fafc 0%, #ffffff 100%);
+
+  .festivals-header {
+    text-align: center;
+    margin-bottom: 80px;
+
+    .festivals-icon {
+      color: #667eea;
+      margin-bottom: 24px;
+    }
+
+    .festivals-title {
+      font-size: 3rem;
+      font-weight: 800;
+      color: #0f172a;
+      margin-bottom: 16px;
+      letter-spacing: -0.02em;
+    }
+
+    .festivals-subtitle {
+      font-size: 1.25rem;
+      color: #64748b;
+      margin: 0;
+    }
+  }
+
+  .festivals-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 24px;
+  }
+
+  .festival-item {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    padding: 24px 32px;
+    border-radius: 16px;
+    text-align: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 32px rgba(102, 126, 234, 0.3);
+
+    &:hover {
+      transform: translateY(-4px) scale(1.02);
+      box-shadow: 0 12px 40px rgba(102, 126, 234, 0.4);
+    }
+
+    .festival-name {
+      font-size: 1.125rem;
+      font-weight: 600;
+    }
+  }
+}
+
+// Responsive Design
+@media (max-width: 768px) {
+  .arts-hero-section {
+    min-height: 60vh;
+
+    .hero-content {
+      .hero-title {
+        font-size: 3rem;
+      }
+
+      .hero-description {
+        font-size: 1.125rem;
+        padding: 0 20px;
+      }
+    }
+  }
+
+  .cultural-activities-section {
+    padding: 80px 0;
+
+    .section-header {
+      margin-bottom: 60px;
+
+      .section-title {
+        font-size: 2.5rem;
+      }
+    }
+
+    .activities-grid {
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+
+    .activity-card {
+      padding: 32px 24px;
+    }
+  }
+
+  .philosophy-section {
+    padding: 80px 0;
+
+    .philosophy-content {
+      margin-bottom: 40px;
+
+      .philosophy-title {
+        font-size: 2rem;
+      }
+
+      .philosophy-text {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  .festivals-section {
+    padding: 80px 0;
+
+    .festivals-header {
+      margin-bottom: 60px;
+
+      .festivals-title {
+        font-size: 2.5rem;
+      }
+    }
+
+    .festivals-grid {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .arts-hero-section {
+    .hero-content {
+      .hero-title {
+        font-size: 2.5rem;
+      }
+
+      .hero-description {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  .cultural-activities-section {
+    padding: 60px 0;
+
+    .section-header {
+      .section-title {
+        font-size: 2rem;
+      }
+    }
+
+    .activity-card {
+      padding: 24px 20px;
+
+      .activity-icon {
+        width: 60px;
+        height: 60px;
+      }
+
+      .activity-title {
+        font-size: 1.25rem;
+      }
+    }
+  }
+
+  .philosophy-section {
+    padding: 60px 0;
+
+    .philosophy-content {
+      .philosophy-title {
+        font-size: 1.75rem;
+      }
+    }
+  }
+
+  .festivals-section {
+    padding: 60px 0;
+
+    .festivals-header {
+      .festivals-title {
+        font-size: 2rem;
+      }
+    }
+
+    .festivals-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+}
