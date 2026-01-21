@@ -6,7 +6,7 @@ import BreadCrumb from "@/components/00-Kahe/common-components/BreadCrumb";
 // import CourseData from "../../../../../data/course-details/courseData.json";
 import TabInnerSection from "@/components/00-Kahe/Components/TabInnerSection";
 import { subMenu } from "@/JSON/ACADEMIC/Overview";
-import InnerBanner from "@/components/KCE/common/InnerBanner";
+import InnerBanner from "@/components/00-KCE/common/InnerBanner";
 import Sidebar from "../common-components/Sidebar";
 import { base } from "@/utils/constant.util";
 import SidebarCopy from "../common-components/Sidebar2";

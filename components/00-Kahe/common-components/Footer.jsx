@@ -70,7 +70,7 @@ const Footer = () => {
   };
   return (
     <footer className="kce-ftr">
-    <div className="kce-ftr__container">
+    <div className="kce-ftr__container section-wid">
       {/* Column 1: Quick Links */}
       <div className="kce-ftr__col">
         <FooterColumn section={QUICK_LINKS} />

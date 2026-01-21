@@ -1,0 +1,46 @@
+{
+  "banner": {
+    "bannerImg": "/images/kce/banner_management.jpg",
+    "title": "Management Profile",
+    "breadcrumb": [
+      { "label": "Home", "href": "/" },
+     
+      { "label": "Management Profile" }
+    ]
+  },
+  "leaders": [
+    {
+      "role": "Chairman",
+      "name": "Dr. R. Vasanthakumar",
+      "image": "https://kiic.in/file/wp-content/uploads/2024/06/Dr.-R.-Vasanthakumar-Managing-trustee.jpg",
+      "reverse": false,
+      "bio": [
+        "Dr. R. Vasanthakumar is the founder promoter and Chairman of Karpagam College of Engineering. A visionary industrialist, he leads the Karpagam Group of Industries employing over 2000 professionals.",
+        "A Gold Medalist from Madras University, his contributions to education and philanthropy continue to shape institutional excellence."
+      ]
+    },
+    {
+      "role": "Chief Executive Officer",
+      "name": "Er. K. Murugaiah",
+      "image": "https://karpagamcollegeofengineering.github.io/KCE-ICIC2-23/assets/img/committee/Shri.%20K.%20Murugaiah.jpg",
+      "reverse": true,
+      "bio": [
+        "Er. K. Murugaiah serves as the CEO of Karpagam University and is a key member of the Board of Management.",
+        "His strategic leadership played a vital role in attaining university status and NAAC accreditation."
+      ]
+    },
+    {
+      "role": "Principal",
+      "name": "Dr. P. Karthigaikumar",
+      "image": "https://kce.ac.in/new/wp-content/uploads/2025/06/Princiapl-message-final-23.06.2025_page-0001-1.jpg",
+      "reverse": false,
+      "bio": [
+        "Dr. P. Karthigaikumar holds a Ph.D. in Information and Communication Engineering with over 24 years of academic experience.",
+        "He actively promotes innovation, research excellence, and industry-driven education."
+      ]
+    }
+  ],
+  "sideMenu": {
+    "active": "Management Profile"
+  }
+}

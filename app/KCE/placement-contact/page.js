@@ -2,7 +2,7 @@
 import React from 'react';
 import { MapPin, Phone, Mail, Facebook, Twitter, Youtube, Instagram } from 'lucide-react';
 import '@/public/scss/kce/placement/training.scss';
-import InnerBanner from '@/components/KCE/common/InnerBanner';
+import InnerBanner from '@/components/00-KCE/common/InnerBanner';
 import { department } from '@/utils/constant.util';
 
 export default function PlacementContact() {

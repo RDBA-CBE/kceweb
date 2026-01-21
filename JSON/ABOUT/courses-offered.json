@@ -1,0 +1,68 @@
+{
+  "banner": {
+    "bannerImg": "/images/kce/banner_admission.jpg",
+    "title": "Programmes Offered",
+    "breadcrumb": [
+      { "label": "Home", "href": "/" },
+      { "label": "Programmes Offered" }
+    ]
+  },
+  "admission": {
+    "title": "Admission Procedure",
+    "blocks": [
+      {
+        "title": "Government Quota",
+        "text": "The Department of Technical Education (DoTE), Government of Tamil Nadu releases admission notifications through Anna University and leading newspapers."
+      },
+      {
+        "title": "Single Window Counseling",
+        "text": "Admissions are conducted through Single Window Counseling by Anna University, Chennai. Seat availability is updated daily on the University website."
+      },
+      {
+        "title": "Management Quota",
+        "text": "Consortium of Self Financing Engineering Colleges Management Association publishes advertisements regarding admission process and entrance tests."
+      }
+    ],
+    "image": {
+      "src": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1000&q=80",
+      "alt": "Students admission discussion",
+      "tag": "ADMISSIONS 2025"
+    }
+  },
+  "ug": {
+    "title": "UG Programmes",
+    "items": [
+      "B.E. Civil Engineering",
+      "B.E. Computer Science and Engineering",
+      "B.E. Computer Science and Engineering (Cyber Security)",
+      "B.E. Computer Science and Technology",
+      "B.E. Electronics and Communication Engineering +",
+      "B.E. Electrical and Electronics Engineering +",
+      "B.E. Electronics and Telecommunications Engineering",
+      "B.E. Mechanical Engineering +",
+      "B.E. Computer Science and Design",
+      "B.Tech. Information Technology +",
+      "B.Tech. Artificial Intelligence and Data Science"
+    ],
+    "note": "+ Programmes Accredited by NBA"
+  },
+  "pg": {
+    "title": "PG Programmes",
+    "items": [
+      "MBA – Master of Business Administration",
+      "MCA – Master of Computer Application"
+    ],
+    "line": "blue"
+  },
+  "research": {
+    "title": "Research Programmes",
+    "items": [
+      "Mechanical Engineering",
+      "Electrical & Electronics Engineering",
+      "Electronics & Communication Engineering",
+      "Information Technology"
+    ],
+    "note": "Recognized as a Research Institute by Anna University",
+    "line": "green"
+  }
+}

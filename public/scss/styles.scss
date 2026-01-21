@@ -153,21 +153,6 @@
 @import "kce/infrastructure//clubs.scss";
 @import "kce/gallery.scss";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**************************************
 	Header Styles
 ***************************************/
@@ -343,7 +328,7 @@
   display: block;
 }
 
-.main-item.has-children>a::after {
+.main-item.has-children > a::after {
   content: "›";
   float: right;
   opacity: 0.6;
@@ -460,25 +445,25 @@
   transform: translateX(0) !important;
 }
 
-.rbt-header .mainmenu-nav .mainmenu>li:nth-child(2) .rbt-megamenu {
+.rbt-header .mainmenu-nav .mainmenu > li:nth-child(2) .rbt-megamenu {
   left: 0 !important;
   right: auto !important;
   transform: translateX(0) !important;
 }
 
-.rbt-header .mainmenu-nav .mainmenu>li:last-child .rbt-megamenu {
+.rbt-header .mainmenu-nav .mainmenu > li:last-child .rbt-megamenu {
   right: 0 !important;
   left: auto !important;
   transform: translateX(0) !important;
 }
 
-.rbt-header .mainmenu-nav .mainmenu>li:nth-last-child(2) .rbt-megamenu {
+.rbt-header .mainmenu-nav .mainmenu > li:nth-last-child(2) .rbt-megamenu {
   right: 0 !important;
   left: auto !important;
   transform: translateX(0) !important;
 }
 
-.rbt-header .mainmenu-nav .mainmenu>li:nth-last-child(3) .rbt-megamenu {
+.rbt-header .mainmenu-nav .mainmenu > li:nth-last-child(3) .rbt-megamenu {
   right: 0 !important;
   left: auto !important;
   transform: translateX(0) !important;
@@ -521,7 +506,7 @@
   background: #e6e4e4;
 }
 
-.kahe.rbt-header .mainmenu-nav .mainmenu>li>a {
+.kahe.rbt-header .mainmenu-nav .mainmenu > li > a {
   height: fit-content;
   line-height: normal;
   padding: 15px 17px;
@@ -601,7 +586,7 @@
     text-align: center;
   }
 
-  .iitm-footer .row>div {
+  .iitm-footer .row > div {
     margin-bottom: 1rem;
   }
 
@@ -691,18 +676,58 @@
   color: #fff;
 }
 
-
-
 .section-bg2 {
-  padding: 10px 20px
+  padding: 10px 20px;
 }
 
 .section-bg4 {
-  padding: 10px
+  padding: 10px;
 }
 
-// --------------------------------***------------------------------------------
+.breadcrumb-item a {
+  font-size: 14px;
+}
+.breadcrumb-item.active span {
+  font-size: 14px;
+  color: #f39c12;
+}
 
+.section-ti {
+  font-size: 28px;
+  font-weight: 800;
+  color: #0f172a;
+  margin-bottom: 25px;
+}
 
+.section-ti-sec {
+  font-size: 28px;
+  font-weight: 800;
+  color: #0f172a;
+  margin-bottom: 25px;
+  text-align: center;
+}
 
+.ti-badge {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 600;
+  color: #b91c1c;
+  background: rgba(185, 28, 28, 0.1);
+  padding: 6px 25px;
+  border-radius: 50px;
+  margin-bottom: 14px;
+}
 
+.ti-badge-wbg {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #8b0000;
+  text-transform: uppercase;
+}
+
+.sub-ti {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 13px;
+}

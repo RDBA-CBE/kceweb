@@ -1,0 +1,62 @@
+{
+  "banner": {
+    "bannerImg": "/images/kce/banner_accreditation.jpg",
+    "title": "Accreditations & Collaborations",
+    "breadcrumb": [
+      { "label": "Home", "href": "/" },
+      { "label": "About", "href": "/about" },
+      { "label": "Accreditations" }
+    ]
+  },
+  "naac": {
+    "label": "Institutional",
+    "title": "NAAC",
+    "description": "Accredited by the National Assessment and Accreditation Council with an A+ Grade, recognizing excellence in governance, teaching–learning, research, and student outcomes.",
+    "metrics": [
+      { "label": "Accreditation", "value": "A+" },
+      { "label": "Level", "value": "Institution" }
+    ]
+  },
+  "nba": {
+    "label": "Programme",
+    "title": "NBA",
+    "description": "The following programmes are accredited by the National Board of Accreditation, ensuring outcome-based education and industry relevance.",
+    "departments": [
+      "Information Technology",
+      "Mechanical Engineering",
+      "Electronics and Communication Engineering",
+      "Electrical and Electronics Engineering",
+      "Computer Science and Engineering",
+      "Civil Engineering"
+    ]
+  },
+  "industry": {
+    "title": "Industry Collaborations",
+    "subtitle": "We also have active MoUs & Centres of Excellence such as",
+    "partners": [
+      { "logo": "/images/kce/accereditation/infosys.webp", "title": "Infosys Campus Connect" },
+      { "logo": "/images/kce/accereditation/academic-allience.webp", "title": "EMC Academic Alliance Centre" },
+      { "logo": "/images/kce/accereditation/national-instrumwnt.webp", "title": "National Instruments Lab" },
+      { "logo": "/images/kce/accereditation/perfection-in-automation.webp", "title": "B&R Centre of Excellence" },
+      { "logo": "/images/kce/accereditation/wipro.webp", "title": "Wipro Mission 10X" },
+      { "logo": "/images/kce/accereditation/mems.webp", "title": "MEMS Centre of Excellence" },
+      { "logo": "/images/kce/accereditation/microsoft.webp", "title": "Microsoft Technical Services Lab" },
+      { "logo": "/images/kce/accereditation/oracle.webp", "title": "Oracle Workforce Development Centre" },
+      { "logo": "/images/kce/accereditation/tech-mahindra.webp", "title": "Tech Mahindra Infrastructure" }
+    ]
+  },
+  "electives": {
+    "title": "Electives",
+    "subtitle": "17 Industry collaborated electives in association with",
+    "partners": [
+      { "logo": "/images/kce/accereditation/global-edge.webp", "title": "Gloabl Edge" },
+      { "logo": "/images/kce/accereditation/infosys-nav.webp", "title": "Infosys" },
+      { "logo": "/images/kce/accereditation/emc-2.webp", "title": "EMC 2" },
+      { "logo": "/images/kce/accereditation/microsoft.webp", "title": "Microsoft" },
+      { "logo": "/images/kce/accereditation/national.webp", "title": "National Instruments" },
+      { "logo": "/images/kce/accereditation/agiit.webp", "title": "AGIIT" },
+      { "logo": "/images/kce/accereditation/pyramid-design.webp", "title": "Pyramiid Design" },
+      { "logo": "/images/kce/accereditation/medisim.webp", "title": "Medism Structures" }
+    ]
+  }
+}

@@ -7,7 +7,7 @@ import BreadCrumb from "@/components/00-Kahe/common-components/BreadCrumb";
 import TabInnerSection from "@/components/00-Kahe/Components/TabInnerSection";
 import { subMenu } from "@/JSON/ACADEMIC/Overview";
 import data from "../../../JSON/ACADEMIC/Arts/dept_of_biotechnology.json";
-import InnerBanner from "@/components/KCE/common/InnerBanner";
+import InnerBanner from "@/components/00-KCE/common/InnerBanner";
 import Sidebar from "../common-components/Sidebar";
 import SidebarCopy from "../common-components/Sidebar2";
 import { Provider } from "react-redux";

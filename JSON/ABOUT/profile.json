@@ -1,4 +1,13 @@
 {
+  "banner": {
+    "bannerImg": "/images/kce/banner_admission.jpg",
+    "title": "Profile",
+    "breadcrumb": [
+      { "label": "Home", "href": "/" },
+      { "label": "Profile" }
+    ]
+  },
+
   "pageTitle": "About Karpagam College of Engineering",
   "intro": [
     "The Karpagam College of Engineering, established in the Year 2000, is an Autonomous institution, Approved by AICTE, New Delhi and Affiliated to Anna University, Chennai.",

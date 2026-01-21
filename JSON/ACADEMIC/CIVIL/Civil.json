@@ -1,11 +1,28 @@
 {
+
+  "banner": {
+    "bannerImg": "/images/kce/banner_computer_technology.jpg",
+    "Title": "Centers of Excellence",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Departments",
+        "href": "/departments"
+      },
+      {
+        "label": "Department of Computer Technology"
+      }
+    ]
+  },
     "department": {
-      "name": "Civil Engineering",
-      "bannerImg": "/public/images/kce/overlay.png",
-      "welcome": "The Department of Civil Engineering welcomes students to experience a one-of-a-kind education in structural innovation and sustainable development.",
+
+     
       "description": [
-        "The department of Civil Engineering was started in the year 2008. It offers under graduate course in Civil Engineering with an intake of 60 students. Our main goal is to be the Centre of Excellence for the development and dissemination of knowledge in Structural Engineering, Construction Engineering and Management, Water Resources and Management, Transportation, Environmental Engineering, Urban Engineering, Geotechnical Engineering, Remote sensing, GIS and its applications.",
-        "Admission to the Department of Civil Engineering is just the first step to achieving your dreams in building the infrastructure of tomorrow."
+        "The department of Civil Engineering was started in the year 2008. It offers under graduate course in Civil Engineering with an intake of 60 students. Our main goal is to be the Centre of Excellence for the development and dissemination of knowledge in Structural Engineering, Construction Engineering and Management, Water Resources and Management, Transportation, Environmental Engineering, Urban Engineering, Geotechnical Engineering, Remote sensing, GIS and its applications."
+        
       ],
       "content": [
         "The Department has good infrastructure and it is well equipped with state-of-the art laboratory facilities necessary for imparting high quality of education and is structured to meet our present day needs of the Civil Engineering. Students from our department have always proved to be meritorious. The department has well experienced, qualified and diversified team of faculty members who are regularly presenting papers in and national and international conferences and publishing their technical papers in reputed peer reviewed journals.",

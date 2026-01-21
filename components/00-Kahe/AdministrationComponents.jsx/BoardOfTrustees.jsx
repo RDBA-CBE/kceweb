@@ -1,6 +1,6 @@
 import { Administration } from "@/JSON/ACADEMIC/Overview";
 import data from "../../../JSON/Administration/BoardOfTrustees.json";
-import InnerBanner from "@/components/KCE/common/InnerBanner";
+import InnerBanner from "@/components/00-KCE/common/InnerBanner";
 import Sidebar from "../common-components/Sidebar";
 import UserCard from "../Components/UserCard";
 

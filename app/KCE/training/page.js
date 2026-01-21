@@ -1,6 +1,6 @@
 "use client"
 
-import InnerBanner from "@/components/KCE/common/InnerBanner";
+import InnerBanner from "@/components/00-KCE/common/InnerBanner";
 import { department } from "@/utils/constant.util";
 
 export default function AboutKarpagam() {

@@ -1,6 +1,6 @@
 "use client";
 
-import InnerBanner from "../../KCE/common/InnerBanner";
+import InnerBanner from "../../00-KCE/common/InnerBanner";
 import CoreValues from "../Components/About/CoreValues";
 import QuoteBox from "../Components/About/QuoteBox";
 import Vision from "../Components/About/Vission";

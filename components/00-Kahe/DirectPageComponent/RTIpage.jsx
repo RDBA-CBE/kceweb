@@ -1,6 +1,6 @@
 "use client";
 
-import InnerBanner from "../../KCE/common/InnerBanner";
+import InnerBanner from "../../00-KCE/common/InnerBanner";
 import data from "../../../JSON/About/commitee.json";
 import Sidebar from "../common-components/Sidebar";
 import { about } from "@/JSON/ACADEMIC/Overview";

@@ -2,7 +2,7 @@
 "use client"
 import React from "react";
 import { CheckCircle, Camera, Play, ZoomIn, ExternalLink } from "lucide-react";
-import Gallery from "@/components/KCE/common/Gallery";
+import Gallery from "@/components/00-KCE/common/Gallery";
 
 export default function ClubsPage() {
   return (

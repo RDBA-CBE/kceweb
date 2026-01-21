@@ -13,7 +13,7 @@ import {
   GraduationCap 
 } from "lucide-react";
 
-export default function CivilEngineeringPage() {
+export default function DeptOfECEPage() {
   const [activeIndex, setActiveIndex] = useState(0);
   
   const { 
@@ -59,14 +59,14 @@ export default function CivilEngineeringPage() {
                     </p>
                   ))}
                 </div>
-                {/* <div className="wyoming-buttons-exact">
+                <div className="wyoming-buttons-exact">
                   <a href="/visit-department" className="btn-visit-exact">
                     VISIT DEPARTMENT
                   </a>
                   <a href="/request-info" className="btn-info-exact">
                     REQUEST INFO
                   </a>
-                </div> */}
+                </div>
               </div>
             </div>
           </div>

@@ -1,0 +1,24 @@
+{
+  "banner": {
+    "bannerImg": "/images/kce/banner_overview.jpg",
+    "title": "Overview",
+    "breadcrumb": [
+      { "label": "Home", "href": "/" },
+      { "label": "Placements", "href": "/placements" },
+      { "label": "Overview" }
+    ]
+  },
+  "platform": {
+    "title": "Platform to Success",
+    "image": {
+      "src": "/images/kce/DSC_0077-940x360-1-435x280.webp",
+      "alt": "Platform to Success",
+      "width": 700,
+      "height": 460
+    },
+    "content": [
+      "Karpagam College of engineering, an autonomous institution affiliated to Anna University – Chennai, established in the year 2000. It made a remarkable growth in the placement edge in the last decade by a strong, determinant and dynamic placement cell catering the need of various industries by ensuring that our students meet the necessities of the current industrial scenario.The placement office is such a way designed that support the requirement of the organization to conduct the pre-placement talk, written test, Group Discussion and interview in effective manner.",
+      "The placement cell takes immense effort in guiding the students for their successful career.The college has active MoUs & Centers of excellence with various prominent players in various industries. The college is visited by various Multinational companies year after year for placements and hence the college had a blistering placement record."
+    ]
+  }
+}

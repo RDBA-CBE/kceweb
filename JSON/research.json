@@ -1,0 +1,59 @@
+{
+  "banner": {
+    "title": "Research",
+    "bannerImg": "/images/kce/banner_computer_technology.jpg",
+
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Research"
+      }
+    ]
+  },
+  "menuItems": [
+    { "id": "overview", "label": "Research Overview" },
+    { "id": "committee", "label": "Research Committee" },
+    { "id": "publications", "label": "Publications" },
+    { "id": "projects", "label": "Research Projects" },
+    { "id": "seedmoney", "label": "Seed Money" },
+    { "id": "centres", "label": "Centre of Excellence" }
+  ],
+  "overview": [
+    { "sno": 1, "description": "No of Ph.D. Faculty Members", "details": "96" },
+    {
+      "sno": 2,
+      "description": "No. of Approved guides by Anna University",
+      "details": "31"
+    },
+    { "sno": 3, "description": "Number of Ph.D.s Produced", "details": "" },
+    { "sno": "", "description": "2011-2012", "details": "2" },
+    { "sno": "", "description": "2012-2013", "details": "2" }
+  ],
+  "committee": [
+    {
+      "sno": 1,
+      "name": "Dr. P.Karthigaikumar",
+      "designation": "Principal",
+      "role": "Chairman",
+      "institution": "Karpagam College of Engineering",
+      "cluster": "ECE"
+    }
+  ],
+  "publications": [{ "year": 2022, "journal": 256, "conf": 82, "book": 24 }],
+  "projects": [{ "year": "2024-25", "projects": 18, "amount": 93.67 }],
+  "seedMoney": [{ "year": "2024-25", "projects": 11, "amount": 17.39 }],
+  "centres": [
+    {
+      "sno": 1,
+      "dept": "EEE",
+      "name": "BR Automation Lab",
+      "facilities": [
+        "Power panel pp45 Touch screen resistive display",
+        "X20BR9300 –Bus receiver"
+      ]
+    }
+  ]
+}
