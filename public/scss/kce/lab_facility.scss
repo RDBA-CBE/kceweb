@@ -1,10 +1,5 @@
 /* ================= LAB SECTION ================= */
 
-.lab-section {
-  background: linear-gradient(180deg, #f4f8ff 0%, #ffffff 100%);
-}
-
-/* ================= TITLE ================= */
 
 .lab-title {
   font-size: 32px;
@@ -18,7 +13,7 @@
   content: "";
   width: 70px;
   height: 4px;
-  background: linear-gradient(90deg, #2563eb, #38bdf8);
+  background: linear-gradient(90deg, #ebebec, #f83838);
   display: block;
   margin-top: 8px;
   border-radius: 8px;
@@ -33,7 +28,7 @@
   padding: 32px 24px;
   text-align: center;
   border: 1px solid #e5edff; /* subtle border */
-  box-shadow: 0 12px 35px rgba(37, 99, 235, 0.08);
+  
   transition: all 0.35s ease;
   position: relative;
   overflow: hidden;
@@ -47,13 +42,13 @@
   left: 0;
   height: 6px;
   width: 100%;
-  background: linear-gradient(90deg, #2563eb, #38bdf8);
+  background: linear-gradient(90deg, #ebebec, #f83838);
 }
 
 /* Hover */
 .lab-card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 22px 55px rgba(37, 99, 235, 0.18);
+  
 }
 
 /* ================= ICON ================= */
@@ -63,11 +58,14 @@
   height: 64px;
   margin: 0 auto 18px;
   background: #e6efff;
-  color: #2563eb;
   border-radius: 18px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.lab-card img{
+  width: 50%;
 }
 
 /* ================= TEXT ================= */

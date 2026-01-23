@@ -1,4 +1,5 @@
 "use client";
+
 import React, { useState } from "react";
 import CivilData from "../../../JSON/ACADEMIC/CIVIL/Civil.json";
 import InnerBanner from "@/components/00-KCE/common/InnerBanner";

@@ -1,5 +1,4 @@
 import VisionMissionPage from "@/components/00-KCE/ABOUT/VisionMissionPage";
-import React from "react";
 
 export const metadata = {
   title: "Best college for Engineering In Tamilnadu - KCE",

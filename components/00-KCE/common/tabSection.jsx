@@ -15,7 +15,7 @@ const tabs = [
     title: "Programme Educational Objectives",
     content:
       "Industry-focused curriculum and strong placement support prepare students for successful careers.",
-    image: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d",
+    image: "/images/kce/academics/banner.jpg",
   },
   {
     id: "2",

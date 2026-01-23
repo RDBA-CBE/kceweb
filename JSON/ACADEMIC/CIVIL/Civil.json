@@ -2,7 +2,7 @@
 
   "banner": {
     "bannerImg": "/images/kce/banner_computer_technology.jpg",
-    "Title": "Centers of Excellence",
+    "title": "Department of Electronics and Communication Engineering",
     "breadcrumb": [
       {
         "label": "Home",
@@ -13,7 +13,7 @@
         "href": "/departments"
       },
       {
-        "label": "Department of Computer Technology"
+        "label": "Department of Electronics and Communication Engineering"
       }
     ]
   },
@@ -35,12 +35,12 @@
       "vision": {
         "title": "Our Vision",
         "description": "Quisque quis faucibus tellus, non tincidunt urna. Pellentesque faucibus aliquet mi, id efficitur nisl aliquam at. Phasellus volutpat lobortis consectetur. Duis efficitur iaculis ipsum ut sodales. Phasellus suscipit lectus eget sapien die lut accumsan, vitae auctor magna suscipit. Ut sagittis mauris auctor dictum semifeugiat. Duis lectus neque, aliquet quis justo euismod, vehicula felis. In luctus dui nec pretium.",
-        "image": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d"
+        "image": "/images/kce/academics/banner.jpg"
       },
       "mission": {
         "title": "Our Mission",
         "description": "Quisque quis faucibus tellus, non tincidunt urna. Pellentesque faucibus aliquet mi, id efficitur nisl aliquam at. Phasellus volutpat lobortis consectetur. Duis efficitur iaculis ipsum ut sodales. Phasellus suscipit lectus eget sapien die lut accumsan, vitae auctor magna suscipit. Ut sagittis mauris auctor dictum semifeugiat. Duis lectus neque, aliquet quis justo euismod, vehicula felis. In luctus dui nec pretium.",
-        "image": "https://images.unsplash.com/photo-1521791136064-7986c2920216"
+        "image": "/images/kce/academics/banner.jpg"
       }
     },
     "labs": {

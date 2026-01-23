@@ -10,7 +10,7 @@ export default function VissionMission() {
       <div className="row align-items-center vision-section mb-5">
         <div className="col-lg-7 position-relative">
           <img
-            src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d"
+            src="/images/kce/academics/banner.jpg"
             className="img-fluid main-image"
             alt="Vision"
           />
@@ -28,7 +28,7 @@ export default function VissionMission() {
       <div className="row align-items-center vision-section flex-row-reverse">
         <div className="col-lg-7 position-relative">
           <img
-            src="https://images.unsplash.com/photo-1521791136064-7986c2920216"
+            src="/images/kce/academics/banner.jpg"
             className="img-fluid main-image"
             alt="Mission"
           />

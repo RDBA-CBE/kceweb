@@ -24,7 +24,7 @@ const InnerBanner = ({ data }) => {
       {/* Content */}
       <div className="section-wid h-100 position-relative z-2">
         <div className="row h-100 align-items-center">
-          <div className="col-12">
+          <div className="col-12 pb-4">
             {/* Breadcrumb */}
             <nav aria-label="breadcrumb" className="mb-2">
               <ol className="breadcrumb mb-0">
@@ -52,7 +52,7 @@ const InnerBanner = ({ data }) => {
 
             {/* Department Name with Decorative Line */}
             <div className="d-flex align-items-center mt-2">
-              <div className="decorative-line me-3"></div>
+              <div className="decorative-line me-3 d-none d-lg-block"></div>
               <h1 className="banner-title text-white fw-bold mb-0">
                 {data?.title || "Civil Engineering"}
               </h1>

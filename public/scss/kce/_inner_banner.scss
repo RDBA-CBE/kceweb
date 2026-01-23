@@ -1,5 +1,5 @@
 .kce-inner-banner {
-    height:120px;
+    height:160px;
   }
   
   .banner-overlay {
@@ -38,11 +38,11 @@
   /* Large screens */
   @media (min-width: 992px) {
     .kce-inner-banner {
-      height: 120px;
+      // height: 120px;
     }
     
     .banner-title {
-      font-size: 3rem;
+      font-size: 2.5rem;
     }
     
     .decorative-line {
@@ -62,7 +62,7 @@
     }
     
     .banner-title {
-      font-size: 3rem;
+      font-size: 2.5rem;
     }
   }
   
@@ -97,7 +97,7 @@
     }
     
     .banner-title {
-      font-size: 1.8rem;
+      font-size: 2.2rem;
     }
     
     .decorative-line {
