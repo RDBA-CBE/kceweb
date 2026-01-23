@@ -44,7 +44,7 @@ const DepartmentTabsSection = ({ data, renderSection }) => {
 
   return (
     <section className="section-bg1">
-      <div className=" py-5">
+      <div className="pt-5">
         {/* ================= Desktop Tabs ================= */}
         <div className="section-wid tabs-header desktop-tabs mb-4">
           {navigation.map((tab, index) => (

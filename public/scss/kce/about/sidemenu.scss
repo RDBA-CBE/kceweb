@@ -6,7 +6,7 @@
 .about-sticky-menu {
   position: sticky;
   top: 100px;
-  border-top: 4px solid #b91c1c;
+  border-top: 4px solid #cc6926;
   padding-top: 20px;
 }
 
@@ -27,7 +27,7 @@
 
 .about-sticky-menu li:hover,
 .about-sticky-menu li.active {
-  color: #b91c1c;
+  color: #cc6926;
   font-weight: 600;
   padding-left: 18px;
 }
@@ -112,7 +112,7 @@
 //   .about-sticky-menu {
 //     position: sticky;
 //     top: 100px;
-//     border-left: 4px solid #b91c1c;
+//     border-left: 4px solid #cc6926;
 //     padding-left: 25px;
 //     background: transparent;
 //   }
@@ -189,7 +189,7 @@
 //   }
 
 //   .nav-item.active {
-//     background: linear-gradient(135deg, #b91c1c 0%, #dc2626 100%);
+//     background: linear-gradient(135deg, #cc6926 0%, #dc2626 100%);
 //     box-shadow: 0 4px 20px rgba(185, 28, 28, 0.2);
 //   }
 
@@ -212,7 +212,7 @@
 //     justify-content: center;
 //     margin-right: 15px;
 //     transition: all 0.3s ease;
-//     color: #b91c1c;
+//     color: #cc6926;
 //   }
 
 //   .nav-item:hover .nav-icon-wrapper {
@@ -247,7 +247,7 @@
 //   }
 
 //   .nav-item:hover .nav-label {
-//     color: #b91c1c;
+//     color: #cc6926;
 //   }
 
 //   .nav-item:hover .nav-description {
@@ -268,7 +268,7 @@
 //     opacity: 0;
 //     transform: translateX(-10px);
 //     transition: all 0.3s ease;
-//     color: #b91c1c;
+//     color: #cc6926;
 //     font-size: 0.9rem;
 //   }
 
@@ -312,7 +312,7 @@
 //   .info-content strong {
 //     display: block;
 //     font-size: 0.9rem;
-//     color: #b91c1c;
+//     color: #cc6926;
 //     margin-bottom: 4px;
 //   }
 
@@ -360,7 +360,7 @@
 //     .about-sticky-menu {
 //       position: static;
 //       border-left: none;
-//       border-top: 4px solid #b91c1c;
+//       border-top: 4px solid #cc6926;
 //       padding-left: 0;
 //       padding-top: 20px;
 //     }

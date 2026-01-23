@@ -53,7 +53,7 @@ const PublicationPage = ({ publicationsContent }) => {
                   onClick={() => toggleAccordion(index)}
                   style={{
                     backgroundColor: index % 2 === 0 ? "#a2d0aa" : "#f2fff9",
-                    color: index % 2 === 0 ? "#000" : "#153b1c",
+                    color: index % 2 === 0 ? "#000" : "#1C3C4A",
                   }}
                 >
                   <span className="faculty-ti">{item.faculty_name}</span>

@@ -1,110 +1,109 @@
-
 /* Section */
 .faculty-modern-section {
-    background: linear-gradient(135deg, #f8fafc, #eef2ff);
-  }
-  
-  /* Title */
+  background: linear-gradient(135deg, #f8fafc, #eef2ff);
+}
+
+/* Title */
+.faculty-modern-title {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #0f172a;
+}
+
+.faculty-modern-subtitle {
+  max-width: 520px;
+  margin: auto;
+  color: #64748b;
+  font-size: 1.8rem;
+}
+
+/* Card */
+.faculty-modern-card {
+  position: relative;
+  height: 100%;
+  padding: 30px 20px;
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(14px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+  transition: all 0.4s ease;
+  overflow: hidden;
+}
+
+.faculty-modern-card:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 30px 70px rgba(0, 0, 0, 0.15);
+}
+
+/* Avatar */
+.faculty-avatar {
+  width: 130px;
+  height: 130px;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  padding: 2px;
+  background: #1c3c4a;
+}
+
+.faculty-avatar img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  background: #fff;
+}
+
+/* Body */
+.faculty-modern-body {
+  text-align: center;
+}
+
+.faculty-modern-name {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #020617;
+  margin-bottom: 4px;
+}
+
+.faculty-modern-designation {
+  font-size: 1.4rem;
+  color: #475569;
+}
+
+/* Hover Email */
+.faculty-hover-info {
+  position: absolute;
+  inset: auto 0 0 0;
+  background: #1c3c4a;
+  padding: 14px;
+  text-align: center;
+  transform: translateY(100%);
+  transition: all 0.4s ease;
+}
+
+.faculty-modern-card:hover .faculty-hover-info {
+  transform: translateY(0);
+}
+
+.faculty-hover-info a {
+  color: #fff;
+  font-size: 1.6rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.faculty-hover-info a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 576px) {
   .faculty-modern-title {
-    font-size: 3rem;
-    font-weight: 800;
-    color: #0f172a;
+    font-size: 1.9rem;
   }
-  
-  .faculty-modern-subtitle {
-    max-width: 520px;
-    margin: auto;
-    color: #64748b;
-    font-size: 1.8rem;
-  }
-  
-  /* Card */
-  .faculty-modern-card {
-    position: relative;
-    height: 100%;
-    padding: 30px 20px;
-    border-radius: 22px;
-    background: rgba(255, 255, 255, 0.75);
-    backdrop-filter: blur(14px);
-    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
-    transition: all 0.4s ease;
-    overflow: hidden;
-  }
-  
-  .faculty-modern-card:hover {
-    transform: translateY(-12px);
-    box-shadow: 0 30px 70px rgba(0, 0, 0, 0.15);
-  }
-  
-  /* Avatar */
+
   .faculty-avatar {
-    width: 130px;
-    height: 130px;
-    margin: 0 auto 20px;
-    border-radius: 50%;
-    padding: 5px;
-    background: linear-gradient(135deg, #2563eb, #9333ea);
+    width: 110px;
+    height: 110px;
   }
-  
-  .faculty-avatar img {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    object-fit: cover;
-    background: #fff;
-  }
-  
-  /* Body */
-  .faculty-modern-body {
-    text-align: center;
-  }
-  
-  .faculty-modern-name {
-    font-size: 2rem;
-    font-weight: 700;
-    color: #020617;
-    margin-bottom: 4px;
-  }
-  
-  .faculty-modern-designation {
-    font-size: 1.4rem;
-    color: #475569;
-  }
-  
-  /* Hover Email */
-  .faculty-hover-info {
-    position: absolute;
-    inset: auto 0 0 0;
-    background: linear-gradient(135deg, #2563eb, #9333ea);
-    padding: 14px;
-    text-align: center;
-    transform: translateY(100%);
-    transition: all 0.4s ease;
-  }
-  
-  .faculty-modern-card:hover .faculty-hover-info {
-    transform: translateY(0);
-  }
-  
-  .faculty-hover-info a {
-    color: #fff;
-    font-size: 1.6rem;
-    text-decoration: none;
-    font-weight: 500;
-  }
-  
-  .faculty-hover-info a:hover {
-    text-decoration: underline;
-  }
-  
-  /* Responsive */
-  @media (max-width: 576px) {
-    .faculty-modern-title {
-      font-size: 1.9rem;
-    }
-  
-    .faculty-avatar {
-      width: 110px;
-      height: 110px;
-    }
-  }
+}

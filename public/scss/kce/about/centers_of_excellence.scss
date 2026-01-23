@@ -39,7 +39,7 @@
     background: linear-gradient(#0052d4, #4364f7);
   }
   .oracle::before {
-    background: linear-gradient(#ff416c, #ff4b2b);
+    background: linear-gradient(#ff416c, linear-gradient(to right, #1c3c4a, rgba(108, 185, 219, 0.8901960784) 100%));
   }
   
   /* CONTENT */

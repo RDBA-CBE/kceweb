@@ -568,7 +568,7 @@
       left: 0;
       width: 60px;
       height: 3px;
-      background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
+      background: linear-gradient(135deg, #dc2626 0%, #cc6926 100%);
       border-radius: 2px;
     }
   }
@@ -1961,7 +1961,7 @@
 }
 
 .undertaking-card-item:hover {
-  border-left-color: #b91c1c;
+  border-left-color: #cc6926;
   transform: translateY(-4px);
   box-shadow: 0 8px 25px rgba(220, 38, 38, 0.15);
   text-decoration: none;

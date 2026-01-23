@@ -1,5 +1,4 @@
 import DeptOfECEPage from "@/components/00-KCE/Academics/DeptOfECEPage";
-import DeptOfECEPage2 from "@/components/00-KCE/Academics/DeptOfECEPage2";
 
 export const metadata = {
   title: "Best college for Engineering In Tamilnadu - KCE",
@@ -9,7 +8,7 @@ export const metadata = {
 const page = () => {
   return (
     <>
-     <DeptOfECEPage2/>
+     <DeptOfECEPage/>
     </>
   );
 };

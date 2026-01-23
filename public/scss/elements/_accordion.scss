@@ -320,7 +320,7 @@
 
             th,
             td {
-                background: var(--primary-opacity);
+                background: #1C3C4A;
             }
         }
     }
@@ -331,7 +331,7 @@
 
             th,
             td {
-                color: var(--color-heading);
+                color: #fff;
                 font-weight: 600;
                 font-size: 16px;
             }
@@ -367,7 +367,7 @@
 
 .rbt-table tbody tr:nth-child(even) th,
 .rbt-table tbody tr:nth-child(even) td {
-    background: var(--color-grey);
+    background: #ddebf0ba;
 }
 
 

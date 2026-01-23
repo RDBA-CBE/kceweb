@@ -14,7 +14,7 @@ const ListStyle = ({ data }) => {
       <div className="kahe-list-col">
         {firstCol.map((item, index) => (
           <div className="kahe-list-item" key={`col1-${index}`}>
-            <FourDiamondIcon size={22} color="#153b1c" />
+            <FourDiamondIcon size={22} color="#1C3C4A" />
             <span><a href={item.url}>{item.title}</a></span>
           </div>
         ))}
@@ -24,7 +24,7 @@ const ListStyle = ({ data }) => {
         <div className="kahe-list-col">
           {secondCol.map((item, index) => (
             <div className="kahe-list-item" key={`col2-${index}`}>
-              <FourDiamondIcon size={22} color="#153b1c" />
+              <FourDiamondIcon size={22} color="#1C3C4A" />
               <span><a href={item.url}>{item.title}</a></span>
             </div>
           ))}

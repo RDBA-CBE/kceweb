@@ -14,7 +14,7 @@ const UserCard = ({ data }) => {
           {data?.map((item, index) => (
             <div className="col-lg-4 col-md-6 col-12 mt--30 d-flex" key={index}>
               <div className="rbt-team team-style-default rbt-hover-02 d-flex flex-column w-100 ">
-                <div className="inner d-flex flex-column flex-grow-1 h-100" style={{border: "1px solid #153b1c"}}>
+                <div className="inner d-flex flex-column flex-grow-1 h-100" style={{border: "1px solid #1C3C4A"}}>
                   <div className="thumbnail">
                     <img src={item.src} alt={item.caption} />
                   </div>
