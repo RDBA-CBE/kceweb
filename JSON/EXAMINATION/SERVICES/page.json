@@ -1,0 +1,10 @@
+{
+  "banner": {
+    "bannerImg": "/images/kce/banner_admission.jpg",
+    "title": "Services",
+    "breadcrumb": [
+      { "label": "Home", "href": "/" },
+      { "label": "Services" }
+    ]
+  }
+}

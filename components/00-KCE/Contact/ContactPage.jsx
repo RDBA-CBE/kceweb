@@ -6,12 +6,13 @@ import data from '@/JSON/CONTACT/contact.json';
 import InnerBanner from '@/components/00-KCE/common/InnerBanner';
 import { department } from '@/utils/constant.util';
 
+
 const ContactPage = () => {
-  const { pageTitle, sections, socialLinks, cta } = data;
+  const { leftCard, leftImage, form, placementStrip } = data;
 
   return (
-    <section className='about-wrapper'>
-      <InnerBanner data={data?.banner} />
+    <section className="contact-page">
+      <InnerBanner data={data.banner} />
 
       
     </section>
