@@ -13,11 +13,21 @@ import SplitImageContent from "../DepartmentCompoennts/SplitImageContent";
 import TableCom from "../DepartmentCompoennts/TableCom";
 import PillList from "../DepartmentCompoennts/PillList";
 import DoubleColList from "../DepartmentCompoennts/DoubleColList";
-import VideoSection from "../DepartmentCompoennts/VideoSection";
 import DepartmentTabsSection from "../DepartmentCompoennts/DepartmentTabsSection";
+import VideoCardSection from "../DepartmentCompoennts/VideoCardSection";
 
 const RenderSection = ({ section, index, renderSection }) => {
   switch (section.type) {
+    
+    case "tabs":
+      return (
+        <DepartmentTabsSection
+          key={index}
+          data={section.data}
+          renderSection={renderSection}
+        />
+      );
+
     case "image-overlay-card":
       return <ImageOverlayCard key={index} data={section.data} />;
 
@@ -111,22 +121,13 @@ const RenderSection = ({ section, index, renderSection }) => {
         </section>
       );
 
-    // case "media":
-    //   return (
-    //     <section className="section-bg3">
-    //       <div className="section-wid">
-    //         <VideoSection key={index} data={section.data} />
-    //       </div>
-    //     </section>
-    //   );
-
-    case "tabs":
+    case "video-card":
       return (
-        <DepartmentTabsSection
-          key={index}
-          data={section.data}
-          renderSection={renderSection}
-        />
+        <section className="section-bg1">
+          <div className="section-wid">
+            <VideoCardSection key={index} data={section.data} />
+          </div>
+        </section>
       );
 
     default:
