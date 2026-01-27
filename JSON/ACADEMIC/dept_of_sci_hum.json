@@ -362,7 +362,7 @@
         "content": [
           {
             "type": "title",
-            "mainTi": "Falculty"
+            "mainTi": "Faculty"
           },
           {
             "type": "paragraph",
@@ -372,7 +372,7 @@
           },
           {
             "type": "button",
-            "text": "View Campus Gallery",
+            "text": "View Faculty",
             "action": "goToFaculty",
             "newpageData": {
               "slug": "department-of-electrical-and-electronics-engineering",
@@ -1597,7 +1597,5 @@
         ]
       }
     }
-
-   
   ]
 }
