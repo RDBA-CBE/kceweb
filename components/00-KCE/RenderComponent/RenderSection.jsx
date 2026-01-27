@@ -18,6 +18,11 @@ import VideoCardSection from "../DepartmentCompoennts/VideoCardSection";
 import ContentCounterStyle from "../DepartmentCompoennts/ContentCounterStyle";
 import LogoImage from "../DepartmentCompoennts/LogoImage";
 import ImgConCard from "../DepartmentCompoennts/ImgConCard";
+import QuoteSection from "../DepartmentCompoennts/QuoteSection";
+import GalleryGrid from "../DepartmentCompoennts/GalleryGrid";
+import ImgSliderContent from "../DepartmentCompoennts/ImgSliderContent";
+import KeyValueCard from "../DepartmentCompoennts/KeyValueCard";
+import SplitColContent from "../DepartmentCompoennts/SplitColContent";
 
 const RenderSection = ({ section, index, renderSection }) => {
   switch (section.type) {
@@ -150,7 +155,16 @@ const RenderSection = ({ section, index, renderSection }) => {
         </section>
       );
 
-       case "img-con-card":
+    case "gallery":
+      return (
+        <section className="section-bg1">
+          <div className="section-wid">
+            <GalleryGrid key={index} data={section.data} />
+          </div>
+        </section>
+      );
+
+    case "img-con-card":
       return (
         <section className="section-bg1">
           <div className="section-wid">
@@ -158,6 +172,18 @@ const RenderSection = ({ section, index, renderSection }) => {
           </div>
         </section>
       );
+
+    case "quote-sec":
+      return <QuoteSection key={index} data={section.data} />;
+
+    case "img-slider-content":
+      return <ImgSliderContent key={index} data={section.data} />;
+
+    case "key-value-cards":
+      return <KeyValueCard key={index} data={section.data} />;
+
+      case "split-col-con":
+      return <SplitColContent key={index} data={section.data} />;
 
     default:
       return null;

@@ -41,12 +41,205 @@
     },
 
     {
+      "type": "img-slider-content",
+      "data": {
+        "imagePosition": "left",
+        "sectionbg": "section-bg1 mt-5",
+        "images": [
+          "https://kce.ac.in/new/wp-content/uploads/2024/03/img-0487-2048x1366.jpg",
+          "https://kce.ac.in/new/wp-content/uploads/2024/03/pic-1-768x512.jpg",
+          "https://kce.ac.in/new/wp-content/uploads/2024/03/pic-2-768x512.jpg"
+        ],
+        "content": [
+          {
+            "type": "title",
+            "mainTi": "NVIDIA Ambassador"
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              "The Department of Artificial Intelligence and Data Science’s ambassadorship with NVIDIA’s academic programs highlights its dedication to cutting-edge technology education. This partnership offers students and faculty access to advanced resources, industry projects, and networking opportunities, shaping them into future tech leaders."
+            ]
+          },
+          {
+            "type": "logo",
+            "src": "/images/kce/academics/Group.png",
+            "alt": "Partner logo"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Organized student participation in three Nvidia GTC Global Conferences through NVIDIA academic programs.",
+              "Secured NVIDIA sponsorship for AI Lab equipment, including the NVIDIA DGX Server and Jetson Kit.",
+              "Industrial collaboration session at the NVIDIA Bangalore campus to foster industry partnerships and knowledge exchange."
+            ]
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "key-value-cards",
+      "data": {
+        "sectionbg": "section-bg1",
+        "title": "Startup",
+        "content": [
+          {
+            "media": {
+              "type": "image",
+              "src": "/images/kce/academics/INSIFLO.png",
+              "alt": "Insiflo AI Private Limited"
+            },
+            "details": [
+              {
+                "label": "Name Of The Startup",
+                "value": "Insiflo AI Private Limited"
+              },
+              {
+                "label": "Name Of The Students",
+                "value": "Dhanavishnu A, Paushigaa S"
+              },
+              {
+                "label": "Funds Received For A Startup",
+                "value": "Microsoft Startup Fund"
+              },
+              {
+                "label": "Website",
+                "url": "https://insifloai.com/",
+                "value": "https://insifloai.com/"
+              }
+            ]
+          },
+          {
+            "media": {
+              "type": "image",
+              "src": "/images/kce/academics/inogar.png",
+              "alt": "Inogar Private Limited"
+            },
+            "details": [
+              {
+                "label": "Name Of The Startup",
+                "value": "Inogar Private Limited"
+              },
+              {
+                "label": "Name Of The Students",
+                "value": "Somanath T.G, Shaafiqe M, Dhyaneshwaran"
+              },
+              {
+                "label": "Funds Received For A Startup",
+                "value": "Raw Materials Support From Royal University"
+              },
+              {
+                "label": "Website",
+                "url": "https://www.inogarzone.com/",
+                "value": "https://www.inogarzone.com/"
+              }
+            ]
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "logo-img",
+      "data": {
+        "title": "MoU and Academic Partners",
+        "desc": "Qlik, Tableau, NVIDIA, Databricks, Datacamp, JetBrains, and YardStick Digital Solutions, Krypc Technologies Pvt Ltd.",
+        "content": [
+          {
+            "images": [
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2024/03/nvidia.jpg"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2024/03/tableau.jpg"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2024/03/databricks.jpg"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2024/03/qlik.jpg"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2024/03/jetbrains.jpg"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2024/03/ysd.jpg"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2024/03/datacamp.jpg"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2024/03/krypc.jpg"
+              }
+            ]
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "split-col-con",
+      "data": {
+        "sectionbg": "section-bg3",
+        "content": [
+          {
+            "title": "Collaboration",
+            "description": "IIT Bombay Entrepreneurship cell, Royal Universys Webnet Private Limited, Analytics India Magazine.",
+            "images": [
+              {
+                "src": "https://kce.ac.in/new/wp-content/uploads/2024/03/e-cell-bombay.jpg",
+                "alt": "E-Cell IIT Bombay"
+              },
+              {
+                "src": "https://kce.ac.in/new/wp-content/uploads/2024/03/universys-1.jpg",
+                "alt": "Universys"
+              },
+              {
+                "src": "https://kce.ac.in/new/wp-content/uploads/2024/03/aim-half-width.jpg",
+                "alt": "Analytics India Magazine"
+              }
+            ]
+          },
+          {
+            "title": "Professional Bodies Membership",
+            "description": "IIT Bombay Entrepreneurship cell, Royal Universys Webnet Private Limited, Analytics India Magazine.",
+            "images": [
+              {
+                "src": "https://kce.ac.in/new/wp-content/uploads/2024/03/ACM.jpg",
+                "alt": "ACM"
+              },
+              {
+                "src": "https://kce.ac.in/new/wp-content/uploads/2024/03/IEEE.jpg",
+                "alt": "IEEE"
+              },
+              {
+                "src": "https://kce.ac.in/new/wp-content/uploads/2024/03/ISTE.jpg",
+                "alt": "ISTE"
+              }
+            ],
+            "button": [
+              {
+                "text": "Department Achievements",
+                "url": "KCE/ai-ds-department-achievements"
+              },
+              {
+                "text": "Association Activites",
+                "url": "KCE/ai-ds-association-activity"
+              }
+            ]
+          }
+        ]
+      }
+    },
+
+    {
       "type": "half-card-img",
       "data": {
         "content": [
           {
             "title": "Our Vision",
-            "description": "To provide innovative teaching and learning methodologies for excelling in a high-value career, higher education and research to the students in the field of Electronics and Communication Engineering to meet the needs of the industry and to be a part of the advancing technological revolution.",
+            "description": "To become an integrative department through creativity and innovation in developing systems with Artificial Intelligence and Data Science to serve society.",
             "image": "/images/kce/academics/banner.jpg"
           },
           {
@@ -54,16 +247,11 @@
             "list": [
               {
                 "item": [
-                  "To create engineers of high quality on par with international standards by providing excellent infrastructure and well qualified faculty.",
-                  "To enhance the collaborative and multidisciplinary activities to develop human and intellectual qualities.",
-                  "To provide technical expertise to carry out research and development."
+                  "Engage collaborative activities with the industry to produce industry-ready and future-ready talent.",
+                  "Foster the spirit of lifelong learning in students through practical and social exposure beyond the classroom.",
+                  "Provide multi-disciplinary research and innovation driven academic environments.",
+                  "Practice and instil the highest standards of professional ethics, transparency and accountability at all levels."
                 ]
-              },
-              {
-                "item": "To enhance the collaborative and multidisciplinary activities to develop human and intellectual qualities."
-              },
-              {
-                "item": "To provide technical expertise to carry out research and development."
               }
             ],
             "image": "/images/kce/academics/banner.jpg"
@@ -81,73 +269,7 @@
         "list": [
           {
             "title": "R2023",
-            "url": "https://kce.ac.in/new/wp-content/uploads/2023/07/EC.pdf"
-          }
-        ]
-      }
-    },
-
-    {
-      "type": "card-grid",
-      "data": {
-        "title": "Courses Offered",
-        "content": [
-          {
-            "id": 1,
-            "name": "B.E. Electronics and Communication Engineering"
-          },
-          {
-            "id": 2,
-            "name": "M.E. VLSI Design"
-          },
-          {
-            "id": 3,
-            "name": "Ph.D. Electronics and Communication Engineering"
-          }
-        ]
-      }
-    },
-
-    {
-      "type": "icon-card",
-      "data": {
-        "title": "Lab Facilities",
-        "content": [
-          {
-            "img": "/images/kce/icon.webp",
-            "title": "Electronic Devices and Circuits Laboratory-I"
-          },
-          {
-            "img": "/images/kce/icon.webp",
-            "title": "Electronic Devices and Circuits Laboratory-II"
-          },
-          {
-            "img": "/images/kce/icon.webp",
-            "title": "LIC / Digital Laboratory"
-          },
-          {
-            "img": "/images/kce/icon.webp",
-            "title": "VLSI / DSP Laboratory"
-          },
-          {
-            "img": "/images/kce/icon.webp",
-            "title": "Communication Laboratory"
-          },
-          {
-            "img": "/images/kce/icon.webp",
-            "title": "Microwave/Optical Laboratory"
-          },
-          {
-            "img": "/images/kce/icon.webp",
-            "title": "Microprocessors and Microcontrollers Laboratory"
-          },
-          {
-            "img": "/images/kce/icon.webp",
-            "title": "Networks Laboratory"
-          },
-          {
-            "img": "/images/kce/icon.webp",
-            "title": "Project/Research Laboratory"
+            "url": "https://kce.ac.in/new/wp-content/uploads/2023/07/AD.pdf"
           }
         ]
       }
@@ -344,25 +466,65 @@
     },
 
     {
-      "type": "split-image-content",
+      "type": "icon-card",
       "data": {
-        "secTitle": "HOD Profile",
-        "sectionbg": "section-bg3",
-        "image": "/images/kce/Portrait_Placeholder.png",
+        "title": "Lab Facilities",
         "content": [
           {
-            "type": "title",
-            "title": "Dr. R. Sarankumar",
-            "subTi": "Professor & Head"
+            "img": "/images/kce/icon.webp",
+            "title": "Electronic Devices and Circuits Laboratory-I"
           },
           {
-            "type": "paragraph",
-            "text": [
-              "Dr. R. Sarankumar completed Bachelor Degree in Engineering in the stream of Electronics and Communication Engineering and Master Degree in Engineering in the stream of Communication Systems from Anna University in the year 2009 and 2011 respectively. He received Ph.D. degree from Anna University in 2018 in the faculty of Information and Communication Engineering. His area of interest includes Signal Processing, Cognitive Radio, Wireless Communications, Internet of Things and Machine Learning.",
-
-              "After gaining academic, research and administrative experience from Tamil Nadu and Andhra Pradesh, he is currently serving in the capacity of Head of the Department for Electronics and Communication Engineering. He has several publications in peer reviewed national and international journals and conferences. He has contributed for 4 patents. Three book chapters are published under his credit. He serves a reviewer for various reputed international journals and conferences. He received fund from AICTE under MODROBs and the project has been completed. He has comprehensive knowledge on Outcome Based Education. He is interested in the activities towards student development in multi-dimensional perspective."
-            ]
+            "img": "/images/kce/icon.webp",
+            "title": "Electronic Devices and Circuits Laboratory-II"
+          },
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "LIC / Digital Laboratory"
+          },
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "VLSI / DSP Laboratory"
+          },
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "Communication Laboratory"
+          },
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "Microwave/Optical Laboratory"
+          },
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "Microprocessors and Microcontrollers Laboratory"
+          },
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "Networks Laboratory"
+          },
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "Project/Research Laboratory"
           }
+        ]
+      }
+    },
+
+    {
+      "type": "image-overlay-content",
+      "data": {
+        "bgImage": "/images/kce/academics/banner.jpg",
+
+        "title": "Job Opportunities",
+        "list": [
+          { "title": "Artificial Intelligence Engineer" },
+          { "title": "Data Scientist" },
+          { "title": "Business Intelligence Developer" },
+          { "title": "Data Analyst" },
+          { "title": "Product Analyst" },
+          { "title": "Full stack developer" },
+          { "title": "Machine Learning Engineer" },
+          { "title": "Machine Learning Architect" }
         ]
       }
     },
@@ -380,7 +542,7 @@
           {
             "type": "paragraph",
             "text": [
-              "Dr. R. Sarankumar completed Bachelor Degree in Engineering in the stream of Electronics and Communication Engineering and Master Degree in Engineering in the stream of Communication Systems from Anna University in the year 2009 and 2011 respectively. He received Ph.D. degree from Anna University in 2018 in the faculty of Information and Communication Engineering. His area of interest includes Signal Processing, Cognitive Radio, Wireless Communications, Internet of Things and Machine Learning."
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus commodi suscipit in maiores vero aliquam nam. Consequatur, nulla! At illo dignissimos accusantium, aut quas error consectetur consequatur officiis quae dolore!"
             ]
           },
           {
