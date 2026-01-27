@@ -1,14 +1,15 @@
-import DeptOfEEEPage from "@/components/00-KCE/Academics/DeptOfEEEPage";
+import DeptOfEEEPage from '@/components/00-KCE/Academics/DeptOfEEEPage';
 
 export const metadata = {
-  title: "Best college for Engineering In Tamilnadu - KCE",
-  description: "Unlock your potential in Engineering at KCE, the leading Engineering college in Tamilnadu, providing a nurturing environment for academic and personal growth.",
+  title: 'Electrical & Electronics Engineering College In Coimbatore | KCE',
+  description:
+    "Elevate your education in Electrical & Electronics Engineering at KCE. Explore cutting-edge programs and industry-aligned curriculum for a bright future",
 };
 
 const page = () => {
   return (
     <>
-     <DeptOfEEEPage/>
+      <DeptOfEEEPage />
     </>
   );
 };
