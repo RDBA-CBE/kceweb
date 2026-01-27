@@ -14,7 +14,7 @@ const PillList = ({ data }) => {
 
         {/* List */}
         <div className="scr-list">
-          {data?.items.map((item) =>
+          {data?.items?.map((item) =>
             item?.url ? (
               <Link href={item?.url || "#"} target={item?.target || "_blank"}>
                 <div className="scr-card" key={item.id}>
