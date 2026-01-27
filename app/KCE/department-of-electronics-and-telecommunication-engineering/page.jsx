@@ -1,4 +1,4 @@
-import DeptOfETEPage from "@/components/00-KCE/Academics/DeptOfETE";
+import DeptOfETEPage from "@/components/00-KCE/Academics/DeptOfETEPage";
 
 export const metadata = {
   title: "Best Electronics and Telecommunication Engineering College | KCE",

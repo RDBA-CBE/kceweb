@@ -1,4 +1,4 @@
-import DeptOfCSECyberPage from "@/components/00-KCE/Academics/DeptOfCSECyber";
+import DeptOfCSECyberPage from "@/components/00-KCE/Academics/DeptOfCSECyberPage";
 
 export const metadata = {
   title: "Best college for Engineering In Tamilnadu - KCE",
