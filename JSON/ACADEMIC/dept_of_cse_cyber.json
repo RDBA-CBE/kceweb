@@ -38,6 +38,26 @@
         ]
       }
     },
+     {
+      "type": "card-grid",
+      "data": {
+        "title": "The clubs",
+        "content": [
+          {
+            "id": 1,
+            "name": "Secure Coding Club"
+          },
+          {
+            "id": 2,
+            "name": "Ethical Hacking Club"
+          },
+          {
+            "id": 3,
+            "name": "Forensics Club"
+          }
+        ]
+      }
+    },
 
     {
       "type": "half-card-img",
