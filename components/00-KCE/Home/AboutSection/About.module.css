@@ -1,0 +1,102 @@
+.aboutSection {
+  padding: 60px 20px;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.container {
+  max-width:1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.contentBox {
+  flex: 1;
+  min-width: 300px;
+}
+
+.title {
+  color: #1a365d; /* Deep Navy */
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.description p {
+  color: #4a5568;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.logoGrid {
+  display: flex;
+  gap: 40px;
+  margin: 25px 0;
+  flex-wrap: wrap;
+}
+
+.logoWrapper img {
+  height: 80px;
+  filter: grayscale(100%);
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+.logoWrapper img:hover {
+  filter: grayscale(0%);
+  opacity: 1; cursor: pointer;
+}
+
+.ctaButton {
+  background-color: #d97706; /* Orange */
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: background 0.2s;
+}
+
+.ctaButton:hover {
+  background-color: #b45309;
+}
+
+/* Image Styling */
+.visualBox {
+  flex: 1;
+  min-width: 300px;
+  position: relative;
+}
+
+.imageClip {
+  border-radius: 40px 0 40px 0; /* Matching the UI design */
+  overflow: hidden;
+  box-shadow: 20px 20px 60px rgba(0,0,0,0.05);
+}
+
+.mainImg {
+  width: 100%;
+  display: block;
+}
+
+.patternOverlay {
+  position: absolute;
+  bottom: -15px;
+  left: -15px;
+  width: 80px;
+  height: 80px;
+  background-image: radial-gradient(#cbd5e0 2px, transparent 2px);
+  background-size: 12px 12px;
+  z-index: -1;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+  .title {
+    text-align: center;
+  }
+}

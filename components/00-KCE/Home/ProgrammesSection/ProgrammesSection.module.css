@@ -1,0 +1,193 @@
+.section {
+  position: relative;
+  background: url("/images/kce/home/programmes-for-you.webp") center/cover no-repeat;
+  padding: 150px 120px 380px 120px;
+  overflow: hidden;
+  color: #fff;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(17, 40, 61, 0.88);
+}
+
+.container {
+  position: relative;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 24px;
+  z-index: 2;
+}
+
+.heading {
+  letter-spacing: 2px;
+  margin-bottom: 50px;
+  color: #fff;
+  font-weight: 200;
+  font-size: 36px;
+}
+
+/* Layout */
+.layout {
+  display: grid;
+  grid-template-columns: 380px 1fr;
+  gap: 80px;
+}
+
+/* ORANGE CARD */
+.orangeCard {
+  position: relative; 
+  width: 100%;        /* make responsive */
+  max-width: 360px;   /* original width on desktop */
+  height: 520px;      
+  overflow: hidden;   
+}
+
+.orangeMask {
+  position: absolute;
+  inset: 0;
+}
+
+.orangeContent {
+  position: relative;
+  z-index: 2;
+  padding: 36px 30px;
+}
+
+.tab {
+  margin-bottom: 34px;
+  cursor: pointer;
+}
+
+.tab h3 {
+  font-size: 24px; /* smaller for responsive */
+  color: #fff;
+  font-weight: 200;
+}
+
+.tab p {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-top: 6px;
+}
+
+/* LOGO */
+.kLogoWrap {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  z-index: 10;
+}
+
+.kLogo {
+  width: 50px;
+  height: auto;
+}
+
+/* RIGHT LIST */
+.list {
+  margin-top: 30px;
+}
+
+.listItem {
+  font-size: 16px;
+  margin-bottom: 14px;
+  color: #cfd6db;
+}
+
+.listItem span {
+  color: #f5821f;
+  margin-right: 10px;
+}
+
+/* BOTTOM WAVE */
+.bottomWave {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  height: 120px;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .section {
+    padding: 120px 60px 300px 60px;
+  }
+  
+  .layout {
+    grid-template-columns: 1fr; /* stack cards and list */
+    gap: 40px;
+  }
+
+  .heading {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .orangeCard {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .tab h3 {
+    font-size: 22px;
+  }
+
+  .list {
+    margin-top: 20px;
+  }
+
+  .listItem {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 100px 30px 250px 30px;
+  }
+
+  .tab h3 {
+    font-size: 20px;
+  }
+
+  .tab p {
+    font-size: 13px;
+  }
+
+  .listItem {
+    font-size: 14px;
+  }
+
+  .kLogo {
+    width: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section {
+    padding: 80px 20px 200px 20px;
+  }
+
+  .heading {
+    font-size: 24px;
+  }
+
+  .tab h3 {
+    font-size: 18px;
+  }
+
+  .tab p {
+    font-size: 12px;
+  }
+
+  .listItem {
+    font-size: 13px;
+  }
+
+  .kLogo {
+    width: 35px;
+  }
+}
