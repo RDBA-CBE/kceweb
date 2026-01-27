@@ -253,7 +253,7 @@
           },
           {
             "type": "button",
-            "text": "View Campus Gallery",
+            "text": "View Faculty",
             "action": "goToFaculty",
             "newpageData": {
               "slug": "Department of-mca",
