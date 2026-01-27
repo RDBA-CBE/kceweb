@@ -236,7 +236,7 @@
             }
 
             p {
-                color: var(--color-white-off);
+               
                 margin-bottom: 35px;
 
                 @media #{$md-layout} {
@@ -251,7 +251,7 @@
 
         ul {
             li {
-                color: var(--color-white-off);
+                // color: var(--color-white-off);
 
                 i {
                     background: var(--primary-opacity);
@@ -378,7 +378,7 @@
 
         .feature-content {
             .featute-title {
-                color: var(--color-white);
+                // color: var(--color-white);
                 margin-bottom: 0;
                 font-size: 20px;
 
@@ -390,7 +390,7 @@
                     display: block;
                     font-weight: 400;
                     font-size: 16px;
-                    color: var(--color-white-off);
+                    // color: var(--color-white-off);
 
                     @media #{$sm-layout} {
                         font-size: 14px;

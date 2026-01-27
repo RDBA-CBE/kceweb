@@ -1,11 +1,12 @@
 "use client";
 import React from "react";
-import data from "../../../JSON/ACADEMIC/dept_of_ece.json";
+import data from "../../../JSON/ACADEMIC/dept_of_aids.json";
 import InnerBanner from "@/components/00-KCE/common/InnerBanner";
 import RenderSection from "../RenderComponent/RenderSection";
 
-export default function DeptOfECEPage() {
-  const pageData = data;
+
+export default function DeptOfAIDSPage() {
+  const civil = data;
 
   const renderSectionWrapper = (section, index) => {
     return (
@@ -19,9 +20,9 @@ export default function DeptOfECEPage() {
 
   return (
     <div>
-      <InnerBanner data={pageData?.banner} />
+      <InnerBanner data={civil?.banner} />
 
-      {pageData?.sections?.map((section, index) =>
+      {civil?.sections?.map((section, index) =>
         renderSectionWrapper(section, index),
       )}
     </div>

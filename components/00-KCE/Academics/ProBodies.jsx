@@ -1,10 +1,11 @@
 "use client";
 import React from "react";
-import data from "../../../JSON/ACADEMIC/dept_of_ece.json";
+import data from "../../../JSON/ACADEMIC/ProBodies.json";
 import InnerBanner from "@/components/00-KCE/common/InnerBanner";
 import RenderSection from "../RenderComponent/RenderSection";
 
-export default function DeptOfECEPage() {
+
+export default function ProBodies() {
   const pageData = data;
 
   const renderSectionWrapper = (section, index) => {

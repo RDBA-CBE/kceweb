@@ -1,0 +1,70 @@
+{
+  "banner": {
+    "bannerImg": "/images/kce/banner_computer_technology.jpg",
+    "title": "Professional Bodies",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Departments",
+        "href": "/departments"
+      },
+      {
+        "label": "Professional Bodies"
+      }
+    ]
+  },
+
+  "sections": [
+    {
+      "type": "logo-img",
+      "data": {
+        "title": "Karpagam College Of Engineering Professional Bodies",
+        "content": [
+          {
+            "images": [
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/03/IEEE.png",
+                "title": "Institute of Electrical and Electronics Engineers (IEEE)"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/03/CSI.png",
+                "title": "Computer Society of India (CSI)"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/03/ISTE.png",
+                "title": "Indian Society for Technical Education (ISTE)"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/03/IWS.png",
+                "title": "Indian Welding Society (IWS)"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/03/ICI.png",
+                "title": "Indian Concrete Institute (ICI)"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/03/IGS.png",
+                "title": "Indian Geotechnical Society (IGS)"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/03/NSS.png",
+                "title": "National Service Scheme (NSS)"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/03/ISOI.png",
+                "title": "Instrument Society of India (ISOI)"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/03/IETE.png",
+                "title": "Institution of Electronics and Telecommunication Engineers (IETE)"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

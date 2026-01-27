@@ -13,90 +13,163 @@
     ]
   },
 
-  "center": {
-    "content": [
-      {
-        "title": "EMC Corporation",
-        "subtitle": "Academic Alliance Center",
-        "logo": "/images/kce/EMC-Corporation-435x280.webp",
-        "points": [
-          "Faculty members were trained at EMC Corporation and equipped to train students on Information Storage Management.",
-          "654 students were trained on Information Storage Management.",
-          "KCE was selected and awarded by EMC Corporation for being one among the TOP 5 academic alliance colleges in Tamil Nadu."
-        ]
-      },
-      {
-        "title": "Infosys Campus Connect",
-        "subtitle": "Industry Partnership Program",
-        "logo": "/images/kce/re.webp",
-        "points": [
-          "Advanced Partner College status and rated among TOP 3 performers under Infosys, Chennai.",
-          "2000+ students have been trained in 9 technical modules of Infosys so far.",
-          "During the last 3 years, 222 students had undergone internship at Infosys."
-        ]
-      },
-      {
-        "title": "Oracle Workforce Development Center",
-        "subtitle": "Enterprise Skill Program",
-        "logo": "/images/kce/ORACLE-WORKFORCE-DEVELOPEENT.webp",
-        "points": [
-          "Faculty members were trained by Oracle Corporation and students were trained at the institution on Oracle Technology Products.",
-          "119 students were trained in Oracle 9i: Introduction to SQL.",
-          "114 students were trained in Oracle 9i: DBAI.",
-          "96 students were trained in Oracle 10g: Introduction to SQL."
-        ]
-      },
-      {
-        "title": "National Instruments LabView Academy",
-        "subtitle": "National Instruments LabView Academy for Virtual Instrumentation",
-        "logo": "/images/kce/LV_Academy_logo_16x9-435x280.webp",
-        "points": [
-          "Recognized as Training Center for Professional Certification from National Instruments, USA.",
-          "About 250+ students have undergone training so far."
-        ]
-      },
-      {
-        "title": "B&R Center of excellence",
-        "subtitle": "",
-        "logo": "/images/kce/br.webp",
-        "points": [
-          "Provides Training in Industrial Automation in collaboration with B&R Automation."
-        ]
-      }
-    ]
-  },
+  "sections": [
+    {
+      "type": "img-con-card",
+      "data": {
+        "content": [
+          {
+            "title": "EMC Corporation",
+            "subtitle": "Academic Alliance Center",
+            "logo": "/images/kce/EMC-Corporation-435x280.webp",
+            "points": [
+              "Faculty members were trained at EMC Corporation and equipped to train students on Information Storage Management.",
+              "654 students were trained on Information Storage Management.",
+              "KCE was selected and awarded by EMC Corporation for being one among the TOP 5 academic alliance colleges in Tamil Nadu."
+            ]
+          },
+          {
+            "title": "Infosys Campus Connect",
 
- 
-    "header": {
-      "badge": "Innovation & Entrepreneurship",
-      "title": "KISDC – Igniting Ideas into Impact",
-      "description": "Empowering creativity, innovation, and entrepreneurial excellence by bridging research, industry, and commercialization."
-    },
-    "highlights": [
-      {
-        "title": "Innovation Ecosystem",
-        "text": "Fostering creativity through seminars, innovation programs, and product-oriented research & development."
-      },
-      {
-        "title": "From R&D to Market",
-        "text": "Bridging the gap between research and commercialization by accelerating indigenous product development."
-      },
-      {
-        "title": "Startup & IPR Support",
-        "text": "Facilitating entrepreneurial training, IPR guidance, and encouraging faculty & student startup initiatives."
-      },
-      {
-        "title": "Industry Alignment",
-        "text": "Ensuring strong interaction between academia and industry to align education with real market demands."
-      },
-      {
-        "title": "Skill & Entrepreneurship Programs",
-        "text": "Conducting EAC, EDP, FDP, and Skill Development Programs to nurture future-ready professionals."
-      },
-      {
-        "title": "Mentorship & Innovation Projects",
-        "text": "Mentoring student entrepreneurs and initiating innovative projects for product development every year."
+            "logo": "/images/kce/re.webp",
+            "points": [
+              "Advanced Partner College status and rated among TOP 3 performers under Infosys, Chennai.",
+              "2000+ students have been trained in 9 technical modules of Infosys so far.",
+              "During the last 3 years, 222 students had undergone internship at Infosys."
+            ]
+          },
+          {
+            "title": "Oracle Workforce Development Center",
+
+            "logo": "/images/kce/ORACLE-WORKFORCE-DEVELOPEENT.webp",
+            "points": [
+              "Faculty members were trained by Oracle Corporation and students were trained at the institution on Oracle Technology Products.",
+              "119 students were trained in Oracle 9i: Introduction to SQL.",
+              "114 students were trained in Oracle 9i: DBAI.",
+              "96 students were trained in Oracle 10g: Introduction to SQL."
+            ]
+          },
+          {
+            "title": "National Instruments LabView Academy",
+            "subtitle": "National Instruments LabView Academy for Virtual Instrumentation",
+            "logo": "/images/kce/LV_Academy_logo_16x9-435x280.webp",
+            "points": [
+              "Recognized as Training Center for Professional Certification from National Instruments, USA.",
+              "About 250+ students have undergone training so far."
+            ]
+          },
+          {
+            "title": "B&R Center of excellence",
+            "logo": "/images/kce/br.webp",
+            "text": "Provides Training in Industrial Automation in collaboration with B&R Automation."
+          },
+
+          {
+            "title": "MEMS Center of Excellence",
+            "subtitle": "",
+            "logo": "https://kce.ac.in/new/wp-content/uploads/2020/03/CENTERS-OF-EXCELLENCE.jpg",
+            "points": [
+              "Established in 2008 with the support from BEL, NPMASS, IISc and ISSS.",
+              "The project is funded by Central Govt Agencies through IISc for the development of MEMS based applications.",
+              "About 300 students have undergone training so far."
+            ]
+          },
+          {
+            "title": "WIPRO - Mission 10X Programme",
+            "subtitle": "",
+            "logo": "https://kce.ac.in/new/wp-content/uploads/2020/03/0.png",
+            "points": [
+              "Participating since 2007.",
+              "Hosted Mission 10X Programme in the college campus"
+            ]
+          },
+          {
+            "title": "Microsoft Center of Excellence",
+            "subtitle": "",
+            "logo": "https://kce.ac.in/new/wp-content/uploads/2020/03/download.png",
+            "points": [
+              "College has a fully sponsored technical services lab which is one among the four in INDIA.",
+              "Microsoft Technical Service lab established at KCE was launched on Dec. 30th of 2013.",
+              "This lab will be leveraged as a training facility, equipped with tools customised for students with a complete experience of working in a technical service environment on campus.",
+              "It is aimed at assisting students to harness and develop their potential to grow into future leaders and decision makers in the field of technical service."
+            ]
+          },
+          {
+            "title": "Tech Mahindra Center of Excellence for Infrastructure Management Services",
+            "subtitle": "",
+            "logo": "https://kce.ac.in/new/wp-content/uploads/2020/03/tech-mahindra-gold-435x213.png",
+            "text": "College has a fully sponsored technical services lab which is one among the five in INDIA."
+          },
+          {
+            "title": "Data Science and Analytics Centre",
+            "subtitle": "",
+            "logo": "https://kce.ac.in/new/wp-content/uploads/2020/05/DSAC-logo.png",
+            "text": "Data Science & Analytics Centre (DSAC) is a Centre of excellence in Karpagam College of Engineering established with a motto to train future data scientists with state of the art of technology in big data analytics.The centre chains the expertise of researchers in mathematics/statistics and engineering. These specialists use cutting-edge analytics, informatics and computing methodologies to conduct the study and develop innovative solutions to address high-impact problems across disciplines",
+            "url": " http://www.dsackce.com/",
+            "urlText": "Read More"
+          }
+        ]
       }
-    ]
-  
+    },
+
+    {
+      "type": "split-image-content",
+      "data": {
+        "sectionbg": "section-bg3",
+        "image": "/images/banner/language-club.png",
+        "content": [
+          {
+            "type": "title",
+            "mainTi": "Karpagam Innovation and Skill Development Centre"
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              "Innovation and skill development are twin-engines for the growth of prosperity, national competitiveness, and knowledge-based economy. Karpagam Innovation and Skill Development Centre (KISDC) have been established by Karpagam College of Engineering to develop leading-edge innovations and act upon international-level skill development for all sectors of Indian industry and society.",
+
+              "Currently, industries and organizations across the world are knowledge-based and their success and survival depend on innovations that have creativity, discovery and inventiveness. KISDC ignites innovation through seminars; Innovation is the process of creating new products, systems, or things. It also includes the process of improving existing products, systems, or things. It is important to recognize that innovation implies action, not just conceiving of new idea. KISDC promotes product oriented research and development.",
+
+              "KISDC encourages and accelerates development of indigenous products and packages. We bridge the gap between R& D and commercialization. KISDC facilitate entrepreneurial training and IPR facilitation. We also promote involvement of faculty in startup activities. KISDC ensures interaction between education and industry and alignment of education with exact market demands.",
+
+              "We organize Entrepreneurship Awareness Camps, Entrepreneurship Development Programmes, Faculty Development Programmes and Skill Development Programmes in the institution. Centre initiates innovative student projects each year for new innovative product development.",
+
+              "KISDC arranges interaction with entrepreneurs and create a mentorship scheme for student entrepreneurs. We believe in innovation through offering a wide range of Branded programs at one stop that no other centre is offering in the education space. We are equipped with an ambitious, workable plan to provide Skill Development Education to the youth of the Nation. KISDC make the innovative ideas to blossom."
+            ]
+          }
+        ]
+      }
+    }
+  ],
+
+  "header": {
+    "badge": "Innovation & Entrepreneurship",
+    "title": "KISDC – Igniting Ideas into Impact",
+    "description": "Empowering creativity, innovation, and entrepreneurial excellence by bridging research, industry, and commercialization."
+  },
+  "highlights": [
+    {
+      "title": "Innovation Ecosystem",
+      "text": "Fostering creativity through seminars, innovation programs, and product-oriented research & development."
+    },
+    {
+      "title": "From R&D to Market",
+      "text": "Bridging the gap between research and commercialization by accelerating indigenous product development."
+    },
+    {
+      "title": "Startup & IPR Support",
+      "text": "Facilitating entrepreneurial training, IPR guidance, and encouraging faculty & student startup initiatives."
+    },
+    {
+      "title": "Industry Alignment",
+      "text": "Ensuring strong interaction between academia and industry to align education with real market demands."
+    },
+    {
+      "title": "Skill & Entrepreneurship Programs",
+      "text": "Conducting EAC, EDP, FDP, and Skill Development Programs to nurture future-ready professionals."
+    },
+    {
+      "title": "Mentorship & Innovation Projects",
+      "text": "Mentoring student entrepreneurs and initiating innovative projects for product development every year."
+    }
+  ]
 }

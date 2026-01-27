@@ -15,10 +15,12 @@ import PillList from "../DepartmentCompoennts/PillList";
 import DoubleColList from "../DepartmentCompoennts/DoubleColList";
 import DepartmentTabsSection from "../DepartmentCompoennts/DepartmentTabsSection";
 import VideoCardSection from "../DepartmentCompoennts/VideoCardSection";
+import ContentCounterStyle from "../DepartmentCompoennts/ContentCounterStyle";
+import LogoImage from "../DepartmentCompoennts/LogoImage";
+import ImgConCard from "../DepartmentCompoennts/ImgConCard";
 
 const RenderSection = ({ section, index, renderSection }) => {
   switch (section.type) {
-    
     case "tabs":
       return (
         <DepartmentTabsSection
@@ -126,6 +128,33 @@ const RenderSection = ({ section, index, renderSection }) => {
         <section className="section-bg1">
           <div className="section-wid">
             <VideoCardSection key={index} data={section.data} />
+          </div>
+        </section>
+      );
+
+    case "content-counter-style":
+      return (
+        <section className="section-bg1">
+          <div className="section-wid">
+            <ContentCounterStyle key={index} data={section.data} />
+          </div>
+        </section>
+      );
+
+    case "logo-img":
+      return (
+        <section className="section-bg1">
+          <div className="section-wid">
+            <LogoImage key={index} data={section.data} />
+          </div>
+        </section>
+      );
+
+       case "img-con-card":
+      return (
+        <section className="section-bg1">
+          <div className="section-wid">
+            <ImgConCard key={index} data={section.data} />
           </div>
         </section>
       );

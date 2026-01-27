@@ -6,11 +6,11 @@ const DoubleColList = ({ data }) => {
 
   return (
     <section className="dcl-section">
-      <div className="dcl-container">
-        <div className="dcl-header">
-          {data.title && <h2 className="dcl-title">{data.title}</h2>}
-          {data.description && <p className="dcl-description">{data.description}</p>}
-        </div>
+      <div className="dcl-container py-5">
+        {data.title && <h2 className="dcl-title">{data.title}</h2>}
+        {data.description && (
+          <p className="dcl-description">{data.description}</p>
+        )}
 
         <div className="dcl-grid">
           {data.columns.map((col) => (

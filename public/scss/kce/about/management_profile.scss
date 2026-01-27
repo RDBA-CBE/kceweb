@@ -36,11 +36,11 @@
   /* Content */
   .leader-content {
     position: relative;
-    padding-left: 25px;
+    // padding-left: 25px;
   }
   
   .leader-content::before {
-    content: "";
+    // content: "";
     position: absolute;
     left: 0;
     top: 6px;

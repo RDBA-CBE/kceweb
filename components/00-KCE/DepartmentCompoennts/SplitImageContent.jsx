@@ -122,7 +122,9 @@ const SplitImageContent = ({ data }) => {
               <p className="ti-badge-wbg">{data.caption}</p>
 
               {/* FLOAT IMAGE */}
-              <div className="ci-float-image">
+              <div
+                className={`ci-float-image ${data?.imagePosition == "left" ? "ci-float-left" : ""}`}
+              >
                 <img src={data.image} alt={data.name} className="ci-image" />
               </div>
 
@@ -146,6 +148,8 @@ export default SplitImageContent;
   {
   "type": "split-image-content",
   "data": {
+      "imagePosition": "right",
+      "sectionbg": "section-bg1 my-4",
       "sectitle": "HOD Profile",
       "mainTitle": "Dr. R. Sarankumar",
       "caption": "Professor & Head",

@@ -1,136 +1,134 @@
-
-  /* ===============================
+/* ===============================
    VISION & MISSION CARDS
 ================================ */
 .vm-card {
-    background: linear-gradient(135deg, #ffffff, #f8fafc);
-    border-radius: 24px;
-    padding: 40px;
-    margin-bottom: 40px;
-    box-shadow: 0 25px 60px rgba(15, 23, 42, 0.08);
-    position: relative;
-    overflow: hidden;
-  }
-  
-  /* Accent bar */
-  .vm-card::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 6px;
-    background: linear-gradient(180deg, #cc6926, #dc2626);
-    border-radius: 6px;
-  }
-  
-  /* Badge */
-  .vm-badge {
-    display: inline-block;
-    font-size: 0.85rem;
-    font-weight: 600;
-    color: #cc6926;
-    background: rgba(185, 28, 28, 0.1);
-    padding: 6px 14px;
-    border-radius: 50px;
-    margin-bottom: 14px;
-  }
-  
-  .vm-badge.mission {
-    color: #1e40af;
-    background: rgba(30, 64, 175, 0.1);
-  }
-  
-  /* Titles */
-  .vm-title {
-    font-size: 2.2rem;
-    font-weight: 800;
-    color: #020617;
-    margin-bottom: 20px;
-  }
-  
-  /* Vision text */
-  .vm-text {
-    line-height: 1.9;
-    color: #475569;
-  }
-  
-  /* Mission list */
-  .vm-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .vm-list li {
-    position: relative;
-       padding-left: 25px;
-    margin-bottom: 10px;
-    margin: 5px 0;
-    // font-size: 1.1rem;
-    // line-height: 1.8;
-    
-  }
-  
-  .vm-list li::before {
-    content: "✓";
-    position: absolute;
-    left: 0;
-    top: 2px;
-    width: 18px;
-    height: 18px;
-    border-radius: 50%;
-   
-    color: #cc6926;
-    font-size: 20px;
-    text-align: center;
-    line-height: 22px;
-  }
-  
-  /* ===============================
+  background: linear-gradient(135deg, #ffffff, #f8fafc);
+  border-radius: 24px;
+  padding: 40px;
+  margin-bottom: 40px;
+  box-shadow: 0 25px 60px rgba(15, 23, 42, 0.08);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Accent bar */
+.vm-card::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 6px;
+  background: linear-gradient(180deg, #cc6926, #dc2626);
+  border-radius: 6px;
+}
+
+/* Badge */
+.vm-badge {
+  display: inline-block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #cc6926;
+  background: rgba(185, 28, 28, 0.1);
+  padding: 6px 14px;
+  border-radius: 50px;
+  margin-bottom: 14px;
+}
+
+.vm-badge.mission {
+  color: #1e40af;
+  background: rgba(30, 64, 175, 0.1);
+}
+
+/* Titles */
+.vm-title {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #020617;
+  margin-bottom: 20px;
+}
+
+/* Vision text */
+.vm-text {
+  line-height: 1.9;
+  color: #475569;
+}
+
+/* Mission list */
+.vm-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.vm-list li {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 10px;
+  margin: 5px 0;
+  // font-size: 1.1rem;
+  // line-height: 1.8;
+}
+
+.vm-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 4px;
+  width: 15px;
+  height: 15px;
+  // border-radius: 50%;
+  background-image: url(../../../images/kce/right.png);
+  background-size: cover;
+  color: #cc6926;
+  font-size: 20px;
+  text-align: center;
+  line-height: 22px;
+}
+
+/* ===============================
      ANIMATIONS
   ================================ */
-  .fade-up {
+.fade-up {
+  opacity: 0;
+  animation: fadeUp 0.9s ease forwards;
+}
+
+.delay-1 {
+  animation-delay: 0.3s;
+}
+
+@keyframes fadeUp {
+  from {
     opacity: 0;
-    animation: fadeUp 0.9s ease forwards;
+    transform: translateY(35px);
   }
-  
-  .delay-1 {
-    animation-delay: 0.3s;
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
-  
-  @keyframes fadeUp {
-    from {
-      opacity: 0;
-      transform: translateY(35px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-  
-  /* ===============================
+}
+
+/* ===============================
      RESPONSIVE
   ================================ */
-  @media (max-width: 992px) {
-    .vm-title {
-      font-size: 1.9rem;
-    }
-  
-    .vm-text,
-    .vm-list li {
-      font-size: 1.05rem;
-    }
+@media (max-width: 992px) {
+  .vm-title {
+    font-size: 1.9rem;
   }
-  
-  @media (max-width: 576px) {
-    .vm-card {
-      padding: 28px;
-    }
-  
-    .vm-title {
-      font-size: 1.7rem;
-    }
+
+  .vm-text,
+  .vm-list li {
+    font-size: 1.05rem;
   }
-  
+}
+
+@media (max-width: 576px) {
+  .vm-card {
+    padding: 28px;
+  }
+
+  .vm-title {
+    font-size: 1.7rem;
+  }
+}
