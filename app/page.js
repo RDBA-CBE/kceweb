@@ -1,4 +1,4 @@
-import Homepage from "@/components/00-Kahe/DirectPageComponent/Homepage";
+import Homepage from "@/components/00-KCE/DirectComponents/Homepage";
 
 export const metadata = {
   title: "Best Engineering Colleges in Coimbatore,Tamilnadu | KCE",
