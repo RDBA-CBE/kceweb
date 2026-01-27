@@ -1,0 +1,362 @@
+{
+  "banner": {
+    "bannerImg": "/images/kce/banner_computer_technology.jpg",
+    "title": "Department of MCA",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Departments",
+        "href": "/departments"
+      },
+      {
+        "label": "Department of MCA"
+      }
+    ]
+  },
+
+  "sections": [
+    {
+      "type": "image-overlay-card",
+      "data": {
+        "title": "About the Department",
+        "bgImg": "/images/kce/academics/banner.jpg",
+        "description": [
+          "The Department of Master of Computer Applications was established in 2001 with an intake of 40 students. It offers a two year regular MCA programme. The programme offers a number of in-depth core courses, specialization courses, Mini project, employability courses and application-oriented courses. The syllabus and courses are updated frequently with the latest industrial technologies. The curriculum of MCA is designed to meet the Industry needs. The Computer Applications Association organizes Industrial seminars, workshops and guest lectures apart from the curriculum. In addition to that, soft skills and programming training are provided to the students."
+        ]
+      }
+    },
+
+    {
+      "type": "plain-para",
+      "data": {
+        "content": [
+          "Students of MCA are being consistently encouraged to perform self learning related activities through Mini project works and Student Seminars. The Department has a separate library which has more than 12,000 book titles and Volumes. It also contains Magazines, Back volumes, Project reports, CDs/DVDs, Daily Newspapers, Previous years Question papers, (from 2001), National and International Journals. To update the subject knowledge, the department library offers access to NPTEL videos through url. The department has a competent and service oriented faculty team. Faculty members help the students in guiding software related problems.",
+          "Faculties are highly qualified with expertise knowledge in Cloud Computing, Data Analytics, Neural Networks, Python Programming, Block Chain Technologies and Image Processing. They are certified by IBM and NPTEL. The department encourages students to participate in Curricular, Co-curricular, Extra-Curricular and Sports activities. To help college related activities, staff and students have developed software applications. Staff members of MCA department are life members of ISTE. The department has two well equipped laboratories upgraded with the latest softwares and online UPS provided to facilitate the need of the students and staff."
+        ]
+      }
+    },
+
+    {
+      "type": "half-card-img",
+      "data": {
+        "content": [
+          {
+            "title": "Our Vision",
+            "description": "To be a nationally prominent and recognized department in academics and research activities with the aim of developing competent professionals to serve the society in the ever changing industry.",
+            "image": "/images/kce/academics/banner.jpg"
+          },
+          {
+            "title": "Our Mission",
+            "list": [
+              {
+                "item": [
+                  "Enabling the students to be knowledgeable and creative by developing state of the art curriculum and innovative teaching methods.",
+                  "Producing highly competent professionals by providing training programs to bridge the gap between the institution and industry.",
+                  "Enhancing the quality of research and productivity by providing the required facilities."
+                ]
+              }
+            ],
+            "image": "/images/kce/academics/banner.jpg"
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "card-grid",
+      "data": {
+        "title": "Courses Offered",
+        "content": [
+          {
+            "id": 1,
+            "name": "B.E. Computer Science and Technology"
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "icon-card",
+      "data": {
+        "title": "Lab Facilities",
+        "content": [
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "Steven Paul Steve Jobs Laboratory"
+          },
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "William Henry Bill Gates Laboratory"
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "tabs",
+      "data": {
+        "navigation": [
+          {
+            "title": "Programme Educational Objectives",
+            "id": "peo"
+          },
+          {
+            "title": "Programme Outcomes",
+            "id": "po"
+          },
+          {
+            "title": "Program Specific Outcomes",
+            "id": "pso"
+          }
+        ],
+        "content": {
+          "peo": {
+            "sections": [
+              {
+                "type": "card-list1",
+                "data": {
+                  "title": "Programme Educational Objectives",
+                  "content": [
+                    {
+                      "code": "PEO1",
+                      "description": "Graduates will be competent enough to identify, analyze, design and develop software solutions to the problems in the field."
+                    },
+                    {
+                      "code": "PEO2",
+                      "description": "Graduates, equipped with good communication skills and technical expertise will be able to conceptualize and lead projects with an aim to become effective entrepreneurs or employees."
+                    },
+                    {
+                      "code": "PEO3",
+                      "description": "Graduates, with exposure to highly active research environment, will have the motivation to participate and contribute in research and development."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "po": {
+            "sections": [
+              {
+                "type": "card-list2",
+
+                "data": {
+                  "title": "Programme Outcomes (POs)",
+                  "content": [
+                    {
+                      "code": "PO1",
+                      "title": "Computational Knowledge",
+                      "description": "Apply knowledge of computing fundamentals, computing specialisation, mathematics, and domain knowledge appropriate for the computing specialisation to the abstraction and conceptualisation of computing models from defined problems and requirements."
+                    },
+                    {
+                      "code": "PO2",
+                      "title": "Problem Analysis",
+                      "description": "Design and evaluate solutions for complex computing problems, and design and evaluate systems, components, or processes that meet specified needs with appropriate consideration for public health and safety, cultural, societal, and environmental considerations."
+                    },
+                    {
+                      "code": "PO3",
+                      "title": "Design/development of solutions",
+                      "description": "Design solutions for complex engineering problems and design system components or processes that meet the specified needs with appropriate consideration for the public health and safety, and the cultural, societal, and environmental considerations."
+                    },
+                    {
+                      "code": "PO4",
+                      "title": "Conduct investigations of complex problems",
+                      "description": "Use research-based knowledge and research methods including design of experiments, analysis and interpretation of data, and synthesis of the information to provide valid conclusions."
+                    },
+                    {
+                      "code": "PO5",
+                      "title": "Modern tool usage",
+                      "description": "Create, select, adapt and apply appropriate techniques, resources, and modern computing tools to complex computing activities, with an understanding of the limitations."
+                    },
+                    {
+                      "code": "PO6",
+                      "title": "Professional Ethics",
+                      "description": "Understand and commit to professional ethics and cyber regulations, responsibilities, and norms of professional computing practices."
+                    },
+                    {
+                      "code": "PO7",
+                      "title": "Life-long Learning",
+                      "description": "Recognize the need, and have the ability, to engage in independent learning for continual development as a computing professional."
+                    },
+                    {
+                      "code": "PO8",
+                      "title": "Project Management and Finance",
+                      "description": "Demonstrate knowledge and understanding of t h e c o m p u t i n g and management principles and apply these to one’s own work, as a member and leader in a team, to manage projects and in multidisciplinary environments."
+                    },
+                    {
+                      "code": "PO9",
+                      "title": "Communication Efficacy",
+                      "description": "Communicate effectively with the computing community, and with society at large, about complex computing activities by being able to comprehend and write effective reports, design documentation, make effective presentations, and give and understand clear instructions."
+                    },
+                    {
+                      "code": "PO10",
+                      "title": "Societal and Environmental Concern",
+                      "description": "Understand and assess societal, environmental, health, safety, legal, and cultural issues within local and global contexts, and the consequential responsibilities relevant to professional computing practices."
+                    },
+                    {
+                      "code": "PO11",
+                      "title": "Individual and Team Work",
+                      "description": "Function effectively as an individual and as a member or leader in diverse teams and in multidisciplinary environments."
+                    },
+                    {
+                      "code": "PO12",
+                      "title": "Innovation and Entrepreneurship",
+                      "description": "Identify a timely opportunity and using innovation to pursue that opportunity to create value and wealth for the betterment of the individual and society at large."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+
+          "pso": {
+            "sections": [
+              {
+                "type": "card-list3",
+                "data": {
+                  "title": "Program Specific Outcomes (PSOs)",
+
+                  "content": [
+                    {
+                      "code": "PSO1",
+                      "description": "Ability to understand and apply knowledge on mathematics, analysis, design and development of software applications."
+                    },
+                    {
+                      "code": "PSO2",
+                      "description": "Ability to work with latest computing technologies and pursue career goals in IT industry / pursue higher studies."
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+
+    {
+      "type": "split-image-content",
+      "data": {
+        "imagePosition": "left",
+        "sectionbg": "section-bg1 my-4",
+        "image": "/images/gallery/gallery-big.jpg",
+        "content": [
+          {
+            "type": "title",
+            "mainTi": "Faculty"
+          },
+          {
+            "type": "paragraph",
+            "text": [""]
+          },
+          {
+            "type": "button",
+            "text": "View Campus Gallery",
+            "action": "goToFaculty",
+            "newpageData": {
+              "slug": "Department of-mca",
+              "banner": {
+                "bannerImg": "/images/kce/banner_computer_technology.jpg",
+                "title": "Department of MCA",
+                "breadcrumb": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Departments",
+                    "href": "/departments"
+                  },
+                  {
+                    "href": "/departments/Department of-mca",
+                    "label": "Department of MCA"
+                  },
+                  {
+                    "label": "Faculty"
+                  }
+                ]
+              },
+              "sectionTi": "Our faculty",
+              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+
+              "faculty": [
+                {
+                  "id": 1,
+                  "name": "Dr. Shanthi P",
+                  "designation": "Professor / HoD",
+                  "degree": "MCA, M.Phil, Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 2,
+                  "name": "Dr. Ganeshmoorthy S",
+                  "designation": "Associate Professor",
+                  "degree": "MCA, M.Phil, Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 3,
+                  "name": "Mrs. Kavitha M",
+                  "designation": "Assistant Professor",
+                  "degree": "MCA, M.Phil",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 4,
+                  "name": "Mr. Senthilkumar K",
+                  "designation": "Assistant Professor",
+                  "degree": "MCA",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 5,
+                  "name": "Ms. Uma Maheswari K",
+                  "designation": "Assistant Professor",
+                  "degree": "MCA",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 6,
+                  "name": "Mr. Ramprashath R",
+                  "designation": "Assistant Professor",
+                  "degree": "MCA, M.Phil",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 7,
+                  "name": "Ms. Athira R",
+                  "designation": "Assistant Professor",
+                  "degree": "MCA",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 8,
+                  "name": "Ms. Pavithra S",
+                  "designation": "Assistant Professor",
+                  "degree": "MCA",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 9,
+                  "name": "Ms. Subhashri S",
+                  "designation": "Assistant Professor",
+                  "degree": "MCA",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 10,
+                  "name": "Dr. N. Juber Rahman",
+                  "designation": "Assistant Professor",
+                  "degree": "MCA, M.Phil, Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

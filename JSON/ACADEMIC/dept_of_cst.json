@@ -1,0 +1,379 @@
+{
+  "banner": {
+    "bannerImg": "/images/kce/banner_computer_technology.jpg",
+    "title": "Department of Computer Science and Technology",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Departments",
+        "href": "/departments"
+      },
+      {
+        "label": "Department of Computer Science and Technology"
+      }
+    ]
+  },
+
+  "sections": [
+    {
+      "type": "image-overlay-card",
+      "data": {
+        "title": "About the Department",
+        "bgImg": "/images/kce/academics/banner.jpg",
+        "description": [
+          "B.E., Computer Science and Technology Department was established in the year 2020. It offers undergraduate Computer Science and Technology programme to create motivated, innovative, creative and thinking graduates to fill ICT positions across sectors who can conceptualize, design, analyse, and develop ICT applications to meet the modern day requirements. The Department was established in the year 2020. Students pursuing out of this programme will develop critical, innovative, creative thinking and problem solving abilities for a smooth transition from academic to real-life work environment."
+        ]
+      }
+    },
+
+    {
+      "type": "plain-para",
+      "data": {
+        "content": [
+          "Computer Science and Technology (CST) has roots in Computer Science, Electrical and Electronics Engineering, Mathematics, Physical Sciences and Linguistics. In the present information era (The Knowledge Era), the Computer Science and Technology program will see an exponential growth as the future machines work on artificial intelligence and the enabling computer and communication technologies.",
+          "The department has competent and committed faculty who facilitate students’ involvement in various co-curricular activities along with their academics. The department also takes initiatives for the conduct of various inter/intra collegiate competitions to improve the inter-personal skills of students. The students are also provided with the finest opportunities to join various professional societies like ACM, IEEE, CSI, etc. The CSI student branch of KCE has won the Best Student Branch award successively for the last three years.",
+          "The CST Department is active in college NPTEL Local Chapter through which students can join online courses and get certified which is offered by IIT faculty.",
+          "CST department has well equipped computer laboratories and a High Performance Computing Centre for research and project activities. The department has the latest infrastructure facilities with high speed Internet, advanced software and hardware labs, seminar halls and ICT enabled class rooms equipped with LCD projectors."
+        ]
+      }
+    },
+
+    {
+      "type": "half-card-img",
+      "data": {
+        "content": [
+          {
+            "title": "Our Vision",
+            "description": "To create computer professionals with a strong academic and technical background to achieve special distinction at the national and international arena and also to serve and lead the society.",
+            "image": "/images/kce/academics/banner.jpg"
+          },
+          {
+            "title": "Our Mission",
+            "list": [
+              {
+                "item": [
+                  "Providing excellent learning opportunities and environment for students in Computer Science and Technology to meet the technological needs of the Nation as a whole",
+                  "Establishing centers of research in computer technology application areas for the immediate and pressing needs of the society",
+                  "Developing ICT based solutions for the development of the nation",
+                  "Mentoring with care that leads to the students evolving as entrepreneurs who will make innovative technological products to benefit the nation and compete in the world market."
+                ]
+              }
+            ],
+            "image": "/images/kce/academics/banner.jpg"
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "image-overlay-content",
+      "data": {
+        "bgImage": "/images/kce/academics/banner.jpg",
+
+        "title": "Regulations",
+        "list": [
+          {
+            "title": "R2023",
+            "url": "https://kce.ac.in/new/wp-content/uploads/2023/07/CT.pdf"
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "card-grid",
+      "data": {
+        "title": "Courses Offered",
+        "content": [
+          {
+            "id": 1,
+            "name": "B.E. Computer Science and Technology"
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "icon-card",
+      "data": {
+        "title": "Lab Facilities",
+        "content": [
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "Electronic Devices and Circuits Laboratory-I"
+          },
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "Electronic Devices and Circuits Laboratory-II"
+          },
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "LIC / Digital Laboratory"
+          },
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "VLSI / DSP Laboratory"
+          },
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "Communication Laboratory"
+          },
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "Microwave/Optical Laboratory"
+          },
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "Microprocessors and Microcontrollers Laboratory"
+          },
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "Networks Laboratory"
+          },
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "Project/Research Laboratory"
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "tabs",
+      "data": {
+        "navigation": [
+          {
+            "title": "Programme Educational Objectives",
+            "id": "peo"
+          },
+          {
+            "title": "Programme Outcomes",
+            "id": "po"
+          },
+          {
+            "title": "Program Specific Outcomes",
+            "id": "pso"
+          }
+        ],
+        "content": {
+          "peo": {
+            "sections": [
+              {
+                "type": "card-list1",
+                "data": {
+                  "title": "Programme Educational Objectives",
+                  "content": [
+                    {
+                      "code": "PEO1",
+                      "description": "Graduates will be able to comprehend mathematics, science, engineering fundamentals, laboratory and work-based experiences to formulate and solve problems in Computer Science and Technology and other related domains and will develop proficiency in computer based technologies and the use of computation techniques."
+                    },
+                    {
+                      "code": "PEO2",
+                      "description": "Graduates will be prepared to communicate and work effectively on the multidisciplinary engineering and technology projects practicing the ethics of their profession with a sense of social responsibility."
+                    },
+                    {
+                      "code": "PEO3",
+                      "description": "Graduates will recognize the importance of lifelong learning to become experts either as entrepreneurs or employees and to widen their knowledge in their domain"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "po": {
+            "sections": [
+              {
+                "type": "card-list2",
+
+                "data": {
+                  "title": "Programme Outcomes (POs)",
+                  "content": [
+                    {
+                      "code": "PO1",
+                      "title": "Engineering knowledge",
+                      "description": "Apply the knowledge of mathematics, science, engineering fundamentals, and an engineering specialization to the solution of complex engineering problems."
+                    },
+                    {
+                      "code": "PO2",
+                      "title": "Problem analysis",
+                      "description": "Identify, formulate, review research literature, and analyze complex engineering problems reaching substantiated conclusions using first principles of mathematics, natural sciences, and engineering sciences."
+                    },
+                    {
+                      "code": "PO3",
+                      "title": "Design/development of solutions",
+                      "description": "Design solutions for complex engineering problems and design system components or processes that meet the specified needs with appropriate consideration for the public health and safety, and the cultural, societal, and environmental considerations."
+                    },
+                    {
+                      "code": "PO4",
+                      "title": "Conduct investigations of complex problems",
+                      "description": "Use research-based knowledge and research methods including design of experiments, analysis and interpretation of data, and synthesis of the information to provide valid conclusions."
+                    },
+                    {
+                      "code": "PO5",
+                      "title": "Modern tool usage",
+                      "description": "Create, select, and apply appropriate techniques, resources, and modern engineering and IT tools including prediction and modeling to complex engineering activities with an understanding of the limitations."
+                    },
+                    {
+                      "code": "PO6",
+                      "title": "The engineer and society",
+                      "description": "Apply reasoning informed by the contextual knowledge to assess societal, health, safety, legal and cultural issues and the consequent responsibilities relevant to the professional engineering practice."
+                    },
+                    {
+                      "code": "PO7",
+                      "title": "Environment and sustainability",
+                      "description": "Understand the impact of the professional engineering solutions in societal and environmental contexts, and demonstrate the knowledge of, and need for sustainable development."
+                    },
+                    {
+                      "code": "PO8",
+                      "title": "Ethics",
+                      "description": "Apply ethical principles and commit to professional ethics and responsibilities and norms of the engineering practice."
+                    },
+                    {
+                      "code": "PO9",
+                      "title": "Individual and team work",
+                      "description": "Function effectively as an individual, and as a member or leader in diverse teams, and in multidisciplinary settings."
+                    },
+                    {
+                      "code": "PO10",
+                      "title": "Communication",
+                      "description": "Communicate effectively on complex engineering activities with the engineering community and with society at large, such as, being able to comprehend and write effective reports and design documentation, make effective presentations, and give and receive clear instructions."
+                    },
+                    {
+                      "code": "PO11",
+                      "title": "Project management and finance",
+                      "description": "Demonstrate knowledge and understanding of the engineering and management principles and apply these to one’s own work, as a member and leader in a team, to manage projects and in multidisciplinary environments."
+                    },
+                    {
+                      "code": "PO11",
+                      "title": "Life-long learning",
+                      "description": "Recognize the need for, and have the preparation and ability to engage in independent and life-long learning in the broadest context of technological change."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+
+          "pso": {
+            "sections": [
+              {
+                "type": "card-list3",
+                "data": {
+                  "title": "Program Specific Outcomes (PSOs)",
+
+                  "content": [
+                    {
+                      "code": "PSO1",
+                      "description": "Analyze, design, implement, test and evaluate computer programs in the areas related to networking, Storage Systems, web design, cloud computing, IoT and data capturing analysis of varying complexity."
+                    },
+                    {
+                      "code": "PSO2",
+                      "description": "Develop innovative ideas to provide solutions for complex technological problems and apply advanced knowledge of computer technology domain to identify research challenges in Computer Science and Technology."
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+
+    {
+      "type": "split-image-content",
+      "data": {
+        "imagePosition": "left",
+        "sectionbg": "section-bg1 my-4",
+        "image": "/images/gallery/gallery-big.jpg",
+        "content": [
+          {
+            "type": "title",
+            "mainTi": "Falculty"
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              ""
+            ]
+          },
+          {
+            "type": "button",
+            "text": "View Campus Gallery",
+            "action": "goToFaculty",
+            "newpageData": {
+              "slug": "Department of-computer-sciences-and-technology",
+              "banner": {
+                "bannerImg": "/images/kce/banner_computer_technology.jpg",
+                "title": "Department of Computer Science and Technology",
+                "breadcrumb": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Departments",
+                    "href": "/departments"
+                  },
+                  {
+                    "href": "/departments/Department of-computer-sciences-and-technology",
+                    "label": "Department of Computer Science and Technology"
+                  },
+                  {
+                    "label": "Faculty"
+                  }
+                ]
+              },
+              "sectionTi": "Our faculty",
+              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+
+              "faculty": [
+                {
+                  "id": 1,
+                  "name": "Dr. Shakthi Priya",
+                  "designation": "Professor",
+                  "degree": "M.E, Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 2,
+                  "name": "Dr. Kokila V",
+                  "designation": "Associate Professor",
+                  "degree": "M.E, Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 3,
+                  "name": "Mr. Vijayakumar N",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 4,
+                  "name": "Mr. Navaneetha Krishnan M",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 5,
+                  "name": "Ms. Sandhiya V CS",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+
+   
+
+   
+  ]
+}

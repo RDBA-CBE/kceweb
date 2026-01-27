@@ -1,0 +1,410 @@
+{
+  "banner": {
+    "bannerImg": "/images/kce/banner_computer_technology.jpg",
+    "title": "Department of Computer Science and Engineering (Cyber Security)",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Departments",
+        "href": "/departments"
+      },
+      {
+        "label": "Department of Computer Science and Engineering (Cyber Security)"
+      }
+    ]
+  },
+
+  "sections": [
+    {
+      "type": "image-overlay-card",
+      "data": {
+        "title": "About the Department",
+        "bgImg": "/images/kce/academics/banner.jpg",
+        "description": [
+          "The department was established with an undergraduate programme in Computer Science and Engineering (Cyber Security) in 2020. This is a specialization branch of Computer Science and Engineering in which students get the technical knowledge in the Computer Science and Engineering, Cyber Security, Digital Forensic and emerging areas such as Device Security and Forensics. The department is well equipped with laboratories like Cryptography Lab, Network Security Lab, Internet and Web Application Security Lab, Ethical Hacking Lab, Vulnerability Assessment and Penetration Testing Lab, Malware Analysis, Secure Coding Lab, Cyber Forensics and Digital Forensics lab."
+        ]
+      }
+    },
+
+    {
+      "type": "plain-para",
+      "data": {
+        "content": [
+          "The department has well-experienced and highly-motivated faculty members and their major areas include Networking and network Security, Ethical hacking, Web Application Security, Penetration Testing, Malware analysis and Cyber Forensics. The faculty members impart their knowledge and skills to the students to achieve the goals of the department.",
+          "The faculty members are encouraged to publish articles in national and international journals. The Department has signed MoUs with leading industries and organizations for establishing collaborative research, conducting Workshops, Seminars and for organizing International Conferences. Professional association CyberWatch Center is developed for professional interaction."
+        ]
+      }
+    },
+
+    {
+      "type": "half-card-img",
+      "data": {
+        "content": [
+          {
+            "title": "Our Vision",
+            "description": "To develop technically cyber skilled professionals by imparting state-of-art innovative, multi-disciplinary teams to address contemporary and future cyber security through innovative and flexible environment.",
+            "image": "/images/kce/academics/banner.jpg"
+          },
+          {
+            "title": "Our Mission",
+            "list": [
+              {
+                "item": [
+                  "To educate and train the budding engineers in the field of Cyber Security and cyber forensics in academia and industry.",
+                  "To establish Centre of Research in Cyber Security and Cyber Forensics to address the technical challenges.",
+                  "To enhance the entrepreneurship skills by providing training through Industry Institute Interaction and government program."
+                ]
+              }
+            ],
+            "image": "/images/kce/academics/banner.jpg"
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "image-overlay-content",
+      "data": {
+        "bgImage": "/images/kce/academics/banner.jpg",
+
+        "title": "Regulations",
+        "list": [
+          {
+            "title": "R2023",
+            "url": "https://kce.ac.in/new/wp-content/uploads/2023/07/CY.pdf"
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "card-grid",
+      "data": {
+        "title": "Courses Offered",
+        "content": [
+          {
+            "id": 1,
+            "name": "B.E Computer Science and Engineering(Cyber Security)"
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "icon-card",
+      "data": {
+        "title": "Lab Facilities",
+        "content": [
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "Cryptography and Information Security Lab"
+          },
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "Computer Networks and Network Security Lab"
+          },
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "Internet and Web Application Security Lab"
+          },
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "Ethical Hacking Lab"
+          },
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "Penetration Testing Lab"
+          },
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "Malware Analysis Lab"
+          },
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "Secure Coding Lab"
+          },
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "Cyber Security and Machine Learning Lab"
+          },
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "IoT Security Lab"
+          },
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "Cloud Security Lab"
+          },
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "Cyber Forensics Lab"
+          },
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "Digital Forensics lab"
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "tabs",
+      "data": {
+        "navigation": [
+          {
+            "title": "Programme Educational Objectives",
+            "id": "peo"
+          },
+          {
+            "title": "Programme Outcomes",
+            "id": "po"
+          },
+
+          {
+            "title": "Program Specific Outcomes",
+            "id": "pso"
+          }
+        ],
+        "content": {
+          "peo": {
+            "sections": [
+              {
+                "type": "card-list1",
+                "data": {
+                  "title": "Programme Educational Objectives",
+                  "content": [
+                    {
+                      "code": "PEO1",
+                      "description": "Graduates will be able to comprehend mathematics, science, engineering fundamentals, laboratory and work-based experiences to formulate and solve problems related to the domain of Cyber Security, Cyber Forensics and develop proficiency in computer based engineering and the use of computation tools."
+                    },
+                    {
+                      "code": "PEO2",
+                      "description": "Graduates will be prepared to communicate and work effectively on the multidisciplinary engineering projects practicing the ethics of their profession with a sense of social responsibility."
+                    },
+                    {
+                      "code": "PEO3",
+                      "description": "Graduates will recognize the importance of lifelong learning to become experts both as entrepreneurs or employees and to extend their knowledge in their domain."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "po": {
+            "sections": [
+              {
+                "type": "card-list2",
+
+                "data": {
+                  "title": "Programme Outcomes (POs)",
+                  "content": [
+                    {
+                      "code": "PO1",
+                      "title": "Engineering knowledge",
+                      "description": "Apply the knowledge of mathematics, science, engineering fundamentals, and an engineering specialization to the solution of complex engineering problems."
+                    },
+                    {
+                      "code": "PO2",
+                      "title": "Problem analysis",
+                      "description": "Identify, formulate, review research literature, and analyze complex engineering problems reaching substantiated conclusions using first principles of mathematics, natural sciences, and engineering sciences."
+                    },
+                    {
+                      "code": "PO3",
+                      "title": "Design/development of solutions",
+                      "description": "Design solutions for complex engineering problems and design system components or processes that meet the specified needs with appropriate consideration for the public health and safety, and the cultural, societal, and environmental considerations."
+                    },
+                    {
+                      "code": "PO4",
+                      "title": "Conduct investigations of complex problems",
+                      "description": "Use research-based knowledge and research methods including design of experiments, analysis and interpretation of data, and synthesis of the information to provide valid conclusions."
+                    },
+                    {
+                      "code": "PO5",
+                      "title": "Modern tool usage",
+                      "description": "Create, select, and apply appropriate techniques, resources, and modern engineering and IT tools including prediction and modeling to complex engineering activities with an understanding of the limitations."
+                    },
+                    {
+                      "code": "PO6",
+                      "title": "The engineer and society",
+                      "description": "Apply reasoning informed by the contextual knowledge to assess societal, health, safety, legal and cultural issues and the consequent responsibilities relevant to the professional engineering practice."
+                    },
+                    {
+                      "code": "PO7",
+                      "title": "Environment and sustainability",
+                      "description": "Understand the impact of the professional engineering solutions in societal and environmental contexts, and demonstrate the knowledge of, and need for sustainable development."
+                    },
+                    {
+                      "code": "PO8",
+                      "title": "Ethics",
+                      "description": "Apply ethical principles and commit to professional ethi"
+                    },
+                    {
+                      "code": "PO9",
+                      "title": "Individual and team work",
+                      "description": "Function effectively as an individual, and as a member or leader in diverse teams, and in multidisciplinary settings."
+                    },
+                    {
+                      "code": "PO10",
+                      "title": "Communication",
+                      "description": "Communicate effectively on complex engineering activities with the engineering community and with society at large, such as, being able to comprehend and write effective reports and design documentation, make effective presentations, and give and receive clear instructions."
+                    },
+                    {
+                      "code": "PO11",
+                      "title": "Project management and finance",
+                      "description": "Demonstrate knowledge and understanding of the engineering and management principles and apply these to one’s own work, as a member and leader in a team, to manage projects and in multidisciplinary environments."
+                    },
+                    {
+                      "code": "PO12",
+                      "title": "Life-Long Learning",
+                      "description": "Recognize the need for, and have the preparation and ability to engage in independent and life-long learning in the broadest context of technological change."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+
+          "pso": {
+            "sections": [
+              {
+                "type": "card-list3",
+                "data": {
+                  "title": "Program Specific Outcomes (PSOs)",
+
+                  "content": [
+                    {
+                      "code": "PSO1",
+                      "description": " Analyze, Design, Implement, Development and production in practices of computer science and engineering application pivot to Cryptography, Cyber Security and Cyber Forensics."
+                    },
+                    {
+                      "code": "PSO2",
+                      "description": "Ability to adapt for rapid growth in tools and technology with an understanding and solving the complex issues in vulnerability, risk assessment, physical and technical safe guards relevant to professional engineering."
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+
+    {
+      "type": "split-image-content",
+      "data": {
+        "sectionbg": "section-bg1 my-4",
+        "image": "/images/gallery/gallery-big.jpg",
+        "content": [
+          {
+            "type": "title",
+            "mainTi": "Falculty"
+          },
+          {
+            "type": "paragraph",
+            "text": [""]
+          },
+          {
+            "type": "button",
+            "text": "View Campus Gallery",
+            "action": "goToFaculty",
+            "newpageData": {
+              "slug": "department-of-computer-sciences-and-engineering-cyber-security",
+              "banner": {
+                "bannerImg": "/images/kce/banner_computer_technology.jpg",
+                "title": "Department of Electrical and Electronics Engineering",
+                "breadcrumb": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Departments",
+                    "href": "/departments"
+                  },
+                  {
+                    "href": "/departments/department-of-computer-sciences-and-engineering-cyber-security",
+                    "label": "Department of Electrical and Electronics Engineering"
+                  },
+                  {
+                    "label": "Faculty"
+                  }
+                ]
+              },
+              "sectionTi": "Our faculty",
+              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+
+              "faculty": [
+                {
+                  "id": 1,
+                  "name": "Dr. Rasi D",
+                  "designation": "Professor & Head",
+                  "degree": "M.E, Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 2,
+                  "name": "Dr. Muthanantha Murugavel AS",
+                  "designation": "Professor",
+                  "degree": "M.E, Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 3,
+                  "name": "Dr. Vignesh V",
+                  "designation": "Associate Professor",
+                  "degree": "M.E, Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 4,
+                  "name": "Dr. Jothi Prakash V",
+                  "designation": "Assistant Professor",
+                  "degree": "M.Tech, Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 5,
+                  "name": "Ms. Priyanka V",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 6,
+                  "name": "Ms. Sasikala R AP",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 7,
+                  "name": "Mr. Ravindran J",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 8,
+                  "name": "Ms. Jermina F",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 9,
+                  "name": "Ms. Abinaya V",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

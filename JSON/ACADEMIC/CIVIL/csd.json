@@ -1,0 +1,416 @@
+{
+  "banner": {
+    "bannerImg": "/images/kce/banner_computer_technology.jpg",
+    "title": "Department of Computer Science and Design",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Departments",
+        "href": "/departments"
+      },
+      {
+        "label": "Department of Computer Science and Design"
+      }
+    ]
+  },
+
+  "sections": [
+    {
+      "type": "image-overlay-card",
+      "data": {
+        "title": "About the Department",
+        "bgImg": "/images/kce/academics/banner.jpg",
+        "description": [
+          "B.E. Computer Science and Design offered at Karpagam College of Engineering and established in the year 2021. Computer Science and Design Engineering programme has been developed to give students a solid foundation in computing as well as design principles, new media technologies, and applications. The Computer Science and Design (CSD) degree includes core design courses and solid programming foundations. Graduation in CSD seeks to offer a comprehensive career programme to equip students with the most up-to-date design technology to influence future generations. By taking this programme, students will be able to develop an interdisciplinary skill set that will prepare them for a variety of careers, including those in the arts, entertainment/games, animation, virtual and augmented reality, mobile application development, multimedia, product/web design, cybersecurity, and other interactive systems."
+        ]
+      }
+    },
+
+    {
+      "type": "half-card-img",
+      "data": {
+        "content": [
+          {
+            "title": "Our Vision",
+            "description": "To produce computer design professionals by providing high quality education in the field of computer science and design technology to achieve strong employability research and thereby orient towards serving globalized and regional technology societies.",
+            "image": "/images/kce/academics/banner.jpg"
+          },
+          {
+            "title": "Our Mission",
+            "list": [
+              {
+                "item": [
+                  "Provide high quality education in computer science and design domain to prepare our graduates leading to high employability and contributing to the economic, scientific and social development of the nation",
+                  "Promote excellence in teaching scholarly activity creative endeavours and public service by following effective teaching and research methodologies",
+                  "Establish centres of research in the areas of computer science and design by imparting state-of-the-art technical knowledge to meet the immediate needs of the society"
+                ]
+              }
+            ],
+            "image": "/images/kce/academics/banner.jpg"
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "image-overlay-content",
+      "data": {
+        "bgImage": "/images/kce/academics/banner.jpg",
+
+        "title": "Regulations",
+        "list": [
+          {
+            "title": "R2023",
+            "url": "https://kce.ac.in/new/wp-content/uploads/2023/07/CD.pdf"
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "card-grid",
+      "data": {
+        "title": "Courses Offered",
+        "content": [
+          {
+            "id": 1,
+            "name": "B.E. Computer Science and Design"
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "icon-card",
+      "data": {
+        "title": "Lab Facilities",
+        "content": [
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "Electrical Machines Laboratory-I"
+          },
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "Electrical Machines Laboratory-II"
+          },
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "Measurements & Instrumentation Laboratory"
+          },
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "Linear Integrated circuits Laboratory"
+          },
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "Power Electronics Laboratory"
+          },
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "Electrical circuits Laboratory"
+          },
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "Control System Laboratory"
+          },
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "Power System Simulation Laboratory"
+          },
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "LabVIEW Academy"
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "tabs",
+      "data": {
+        "navigation": [
+          {
+            "title": "Programme Educational Objectives",
+            "id": "peo"
+          },
+          {
+            "title": "Programme Outcomes",
+            "id": "po"
+          },
+          {
+            "title": "Program Specific Outcomes",
+            "id": "pso"
+          }
+        ],
+        "content": {
+          "peo": {
+            "sections": [
+              {
+                "type": "card-list1",
+                "data": {
+                  "title": "Programme Educational Objectives",
+                  "content": [
+                    {
+                      "code": "PEO1",
+                      "description": "Graduates will be prepared to the practice and grow as computing and design professionals, conducting research undertaking professional leadership entrepreneur graphics and game designing developing maintaining projects in various technical areas of computer science and design"
+                    },
+                    {
+                      "code": "PEO2",
+                      "description": "Graduates will be nurtured to use and apply computer science and design principles through lifelong learning creatively and responsibly with a high degree of professionalism and with a clear understanding of ethical and legal issues and produce tangible contributions in their profession"
+                    },
+                    {
+                      "code": "PEO3",
+                      "description": "Graduates will be trained to communicate and work effectively on the multidisciplinary engineering projects related to computer science and design with strong professional and work ethics for the betterment of the society"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "po": {
+            "sections": [
+              {
+                "type": "card-list2",
+
+                "data": {
+                  "title": "Programme Outcomes (POs)",
+                  "content": [
+                    {
+                      "code": "PO1",
+                      "title": "Engineering knowledge",
+                      "description": "Apply the knowledge of mathematics, science, engineering fundamentals, and an engineering specialization to the solution of complex engineering problems."
+                    },
+                    {
+                      "code": "PO2",
+                      "title": "Problem analysis",
+                      "description": "Identify, formulate, review research literature, and analyze complex engineering problems reaching substantiated conclusions using first principles of mathematics, natural sciences, and engineering sciences."
+                    },
+                    {
+                      "code": "PO3",
+                      "title": "Design/development of solutions",
+                      "description": "Design solutions for complex engineering problems and design system components or processes that meet the specified needs with appropriate consideration for the public health and safety, and the cultural, societal, and environmental considerations."
+                    },
+                    {
+                      "code": "PO4",
+                      "title": "Conduct investigations of complex problems",
+                      "description": "Use research-based knowledge and research methods including design of experiments, analysis and interpretation of data, and synthesis of the information to provide valid conclusions."
+                    },
+                    {
+                      "code": "PO5",
+                      "title": "Modern tool usage",
+                      "description": "Create, select, and apply appropriate techniques, resources, and modern engineering and IT tools including prediction and modeling to complex engineering activities with an understanding of the limitations"
+                    },
+                    {
+                      "code": "PO6",
+                      "title": "The engineer and society",
+                      "description": "Apply reasoning informed by the contextual knowledge to assess societal, health, safety, legal and cultural issues and the consequent responsibilities relevant to the professional engineering practice."
+                    },
+                    {
+                      "code": "PO7",
+                      "title": "Environment and sustainability",
+                      "description": "Understand the impact of the professional engineering solutions in societal and environmental contexts, and demonstrate the knowledge of, and need for sustainable development."
+                    },
+                    {
+                      "code": "PO8",
+                      "title": "Ethics",
+                      "description": "Apply ethical principles and commit to professional ethics and responsibilities and norms of the engineering practice."
+                    },
+                    {
+                      "code": "PO9",
+                      "title": "Individual and team work",
+                      "description": "Function effectively as an individual, and as a member or leader in diverse teams, and in multidisciplinary settings."
+                    },
+                    {
+                      "code": "PO10",
+                      "title": "Communication",
+                      "description": "Communicate effectively on complex engineering activities with the engineering community and with society at large, such as, being able to comprehend and write effective reports and design documentation, make effective presentations, and give and receive clear instructions."
+                    },
+                    {
+                      "code": "PO11",
+                      "title": "Project management and finance",
+                      "description": "Demonstrate knowledge and understanding of the engineering and management principles and apply these to one’s own work, as a member and leader in a team, to manage projects and in multidisciplinary environments."
+                    },
+                    {
+                      "code": "PO12",
+                      "title": "Life-long learning",
+                      "description": "Recognize the need for, and have the preparation and ability to engage in independent and life-long learning in the broadest context of technological change."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+
+          "wk": {
+            "sections": [
+              {
+                "type": "card-list1",
+                "data": {
+                  "title": "Knowledge and Attitude Profile (WK)",
+                  "content": [
+                    {
+                      "code": "WK1",
+                      "description": "A systematic, theory-based understanding of the natural sciences applicable to the discipline and awareness of relevant social sciences"
+                    },
+                    {
+                      "code": "WK2",
+                      "description": " Conceptually-based mathematics, numerical analysis, data analysis, statistics and formal aspects of computer and information science to support detailed analysis and modelling applicable to the discipline"
+                    },
+                    {
+                      "code": "WK3",
+                      "description": "A systematic, theory-based formulation of engineering fundamentals required in the engineering discipline"
+                    },
+                    {
+                      "code": "WK4",
+                      "description": "Engineering specialist knowledge that provides theoretical frameworks and bodies of knowledge for the accepted practice areas in the engineering discipline; much is at the forefront of the discipline."
+                    },
+                    {
+                      "code": "WK5",
+                      "description": "Knowledge, including efficient resource use, environmental impacts, whole-life cost, reuse of resources, net zero carbon, and similar concepts, that supports engineering design and operations in a practice area"
+                    },
+                    {
+                      "code": "WK6",
+                      "description": "Knowledge of engineering practice (technology) in the practice areas in the engineering discipline."
+                    },
+                    {
+                      "code": "WK7",
+                      "description": "Knowledge of the role of engineering in society and identified issues in engineering practice in the discipline, such as the professional responsibility of an engineer to public safety and sustainable development."
+                    },
+                    {
+                      "code": "WK8",
+                      "description": "Engagement with selected knowledge in the current research literature of the discipline, awareness of the power of critical thinking and creative approaches to evaluate emerging issues."
+                    },
+                    {
+                      "code": "WK9",
+                      "description": "Ethics, inclusive behavior and conduct. Knowledge of professional ethics, responsibilities, and norms of engineering practice. Awareness of the need for diversity by reason of ethnicity, gender, age, physical ability etc. with mutual understanding and respect, and of inclusive attitudes."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+
+          "pso": {
+            "sections": [
+              {
+                "type": "card-list3",
+                "data": {
+                  "title": "Program Specific Outcomes (PSOs)",
+
+                  "content": [
+                    {
+                      "code": "PSO1",
+                      "description": "Apply the knowledge in the field of electrical and electronics engineering to analyse, design and develop solutions for real world problems."
+                    },
+                    {
+                      "code": "PSO2",
+                      "description": "Demonstrate the skill in core and allied domain to work in interdisciplinary teams."
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "type": "split-image-content",
+      "data": {
+        "sectionbg": "section-bg1 my-4",
+        "image": "/images/gallery/gallery-big.jpg",
+        "content": [
+          {
+            "type": "title",
+            "mainTi": "Falculty"
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              ""
+            ]
+          },
+          {
+            "type": "button",
+            "text": "View Campus Gallery",
+            "action": "goToFaculty",
+            "newpageData": {
+              "slug": "Department-of-computer-science-and-design",
+              "banner": {
+                "bannerImg": "/images/kce/banner_computer_technology.jpg",
+                "title": "Department of Computer Science and Design",
+                "breadcrumb": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Departments",
+                    "href": "/departments"
+                  },
+                  {
+                    "href": "/departments/department-of-computer-science-and-design",
+                    "label": "Department of Computer Science and Design"
+                  },
+                  {
+                    "label": "Faculty"
+                  }
+                ]
+              },
+              "sectionTi": "Our faculty",
+              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+
+              "faculty": [
+                {
+                  "id": 1,
+                  "name": "Dr. Madhumitha R",
+                  "designation": "Professor and Head",
+                  "degree": "M.E, Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 2,
+                  "name": "Ms. Vennila M",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 3,
+                  "name": "Ms. Sandhiya V",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 4,
+                  "name": "Mr. Arul A",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 5,
+                  "name": "Ms. Dhivya P",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 6,
+                  "name": "Mr. Vivek Amruth C",
+                  "designation": "Assistant Professor",
+                  "degree": "M.Tech.",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
