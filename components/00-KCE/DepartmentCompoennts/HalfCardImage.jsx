@@ -20,6 +20,7 @@ const HalfCardImage = ({ data }) => {
                   className="img-fluid main-image"
                   alt={item.title}
                 />
+                
 
                 {/* Floating card */}
                 <div

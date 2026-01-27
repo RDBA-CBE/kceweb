@@ -1,0 +1,1330 @@
+{
+  "banner": {
+    "bannerImg": "/images/kce/banner_computer_technology.jpg",
+    "title": "Department of Information Technology",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Departments",
+        "href": "/departments"
+      },
+      {
+        "label": "Department of Information Technology"
+      }
+    ]
+  },
+
+  "sections": [
+    {
+      "type": "image-overlay-card",
+      "data": {
+        "title": "About the Department",
+        "bgImg": "/images/kce/academics/banner.jpg",
+        "description": [
+          "The Department of Information Technology was started in the academic year 2001. The Department is located in a newly constructed 70000 Sq.ft state-of-the art information Sciences Block. The block also houses a separate Laboratory block and one open Air Theater to seat 500 students."
+        ]
+      }
+    },
+
+    {
+      "type": "plain-para",
+      "data": {
+        "content": [
+          "The Department is equipped with excellent computing facilities. The Internet facility is extended to the students free of cost. The laboratory hours have been extended to enable students work on independent projects and to gain hands-on experience. The department is adorned with well-qualified faculty and technical staff members. Curriculum and Syllabus is upgraded with the feedback from all stakeholders from time to time for the benefit of students. The Potential skills of the students are improved by encouraging them to prepare technical articles for the department magazine.",
+          "The students are motivated to participate in technical seminars and competition, both within and outside the campus for their overall personality improvement. The Potential skills of the students are improved by encouraging them to prepare technical articles for the department magazine. The Department has signed MoU with Google Developers group, TIMS, Favoriot, Techvolt Software Pvt Limited, Orita Sinclair school of Design and Infosys Technologies Ltd. through campus connect Programme to train our students to meet the growing demands of the IT Industries and to increase employability by providing technical and soft skills. Faculty Enablement Programmes are conducted for our faculties through technical experts from Infosys, Wipro, EMC2 etc. to make students trained and get placed in companies."
+        ]
+      }
+    },
+
+    {
+      "type": "half-card-img",
+      "data": {
+        "content": [
+          {
+            "title": "Our Vision",
+            "description": "To provide reliable and modern technology resources to the faculty and students to develop the competence in Information Technology and to endure with the rapidly changing world to serve the mankind.",
+            "image": "/images/kce/academics/banner.jpg"
+          },
+          {
+            "title": "Our Mission",
+            "list": [
+              {
+                "item": [
+                  "Imparting technical knowledge through innovative teaching and research for budding professionals.",
+                  "To equip the students with strong fundamentals, programming and problem solving skills with an exposure to emerging technologies and inculcate leadership qualities with a passion to serve society."
+                ]
+              },
+              {
+                "item": "To enhance the collaborative and multidisciplinary activities to develop human and intellectual qualities."
+              },
+              {
+                "item": "To provide technical expertise to carry out research and development."
+              }
+            ],
+            "image": "/images/kce/academics/banner.jpg"
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "image-overlay-content",
+      "data": {
+        "bgImage": "/images/kce/academics/banner.jpg",
+
+        "title": "Regulations",
+        "list": [
+          {
+            "title": "R2023",
+            "url": "https://kce.ac.in/new/wp-content/uploads/2025/07/R2023-BOOK.pdf"
+          },
+          {
+            "title": "R2021",
+            "url": "https://kce.ac.in/new/wp-content/uploads/2025/07/FINAL-R2021.pdf"
+          },
+          {
+            "title": "R2018",
+            "url": "https://kce.ac.in/new/wp-content/uploads/2025/07/FINAL-R2018.pdf"
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "card-grid",
+      "data": {
+        "title": "Courses Offered",
+        "content": [
+          {
+            "id": 1,
+            "name": "B-Tech. Information Technology"
+          },
+          {
+            "id": 2,
+            "name": "Ph.D Information Technology"
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "icon-card",
+      "data": {
+        "title": "Lab Facilities",
+        "content": [
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "Watson Lab"
+          },
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "Tarvolds Lab"
+          },
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "Von Newman Lab"
+          },
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "IT Project Lab"
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "tabs",
+      "data": {
+        "navigation": [
+          {
+            "title": "Programme Educational Objectives",
+            "id": "peo"
+          },
+          {
+            "title": "Programme Outcomes",
+            "id": "po"
+          },
+
+          {
+            "title": "Knowledge and Attitude Profile",
+            "id": "wk"
+          },
+          {
+            "title": "Program Specific Outcomes",
+            "id": "pso"
+          }
+        ],
+        "content": {
+          "peo": {
+            "sections": [
+              {
+                "type": "card-list1",
+                "data": {
+                  "title": "Programme Educational Objectives",
+                  "content": [
+                    {
+                      "code": "PEO1",
+                      "description": "Graduates will have successful professional career in software industries or pursue higher education in reputed institutions or execute entrepreneurial ventures."
+                    },
+                    {
+                      "code": "PEO2",
+                      "description": "Graduates will deliver effectual computing solutions for real time problems and function as individual or member of multi-disciplinary team."
+                    },
+                    {
+                      "code": "PEO3",
+                      "description": "Graduates will demonstrate continual learning pursuit and exhibit ethical values."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "po": {
+            "sections": [
+              {
+                "type": "card-list2",
+
+                "data": {
+                  "title": "Programme Outcomes (POs)",
+                  "content": [
+                    {
+                      "code": "PO1",
+                      "title": "Engineering knowledge",
+                      "description": "Apply knowledge of mathematics, natural science, computing, engineering fundamentals and an engineering specialization as specified in WK1 to WK4 respectively to develop to the solution of complex engineering problems"
+                    },
+                    {
+                      "code": "PO2",
+                      "title": "Problem analysis",
+                      "description": "Identify, formulate, review research literature and analyze complex engineering problems reaching substantiated conclusions with consideration for sustainable development. (WK1 to WK4)"
+                    },
+                    {
+                      "code": "PO3",
+                      "title": "Design/Development of Solutions",
+                      "description": "Design creative solutions for complex engineering problems and design/develop systems/components/processes to meet identified needs with consideration for the public health and safety, whole-life cost, net zero carbon, culture, society and environment as required. (WK5)"
+                    },
+                    {
+                      "code": "PO4",
+                      "title": "Conduct investigations of complex problems",
+                      "description": "Conduct investigations of complex engineering problems using research-based knowledge including design of experiments, modelling, analysis & interpretation of data to provide valid conclusions. (WK8)"
+                    },
+                    {
+                      "code": "PO5",
+                      "title": "Engineering Tool Usage",
+                      "description": "Create, select and apply appropriate techniques, resources and modern engineering & IT tools, including prediction and modelling recognizing their limitations to solve complex engineering problems. (WK2 and WK6)"
+                    },
+                    {
+                      "code": "PO6",
+                      "title": "The Engineer and The World",
+                      "description": "Analyze and evaluate societal and environmental aspects while solving complex engineering problems for its impact on sustainability with reference to economy, health, safety, legal framework, culture and environment. (WK1, WK5, and WK7)"
+                    },
+                    {
+                      "code": "PO7",
+                      "title": "Ethics",
+                      "description": "Apply ethical principles and commit to professional ethics, human values, diversity and inclusion; adhere to national & international laws. (WK9)"
+                    },
+                    {
+                      "code": "PO8",
+                      "title": "Individual and Collaborative Team work",
+                      "description": "Function effectively as an individual, and as a member or leader in diverse/multi-disciplinary teams."
+                    },
+                    {
+                      "code": "PO9",
+                      "title": "Communication",
+                      "description": "Communicate effectively and inclusively within the engineering community and society at large, such as being able to comprehend and write effective reports and design documentation, make effective presentations considering cultural, language, and learning differences"
+                    },
+                    {
+                      "code": "PO10",
+                      "title": "Project Management and Finance",
+                      "description": "Apply knowledge and understanding of engineering management principles and economic decision-making and apply these to one’s own work, as a member and leader in a team, and to manage projects and in multidisciplinary environments"
+                    },
+                    {
+                      "code": "PO11",
+                      "title": "Life-Long Learning",
+                      "description": "Recognize the need for, and have the preparation and ability for i) independent and life-long learning ii) adaptability to new and emerging technologies and iii) critical thinking in the broadest context of technological change. (WK8)"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+
+          "wk": {
+            "sections": [
+              {
+                "type": "card-list1",
+                "data": {
+                  "title": "Knowledge and Attitude Profile (WK)",
+                  "content": [
+                    {
+                      "code": "WK1",
+                      "description": "A systematic, theory-based understanding of the natural sciences applicable to the discipline and awareness of relevant social sciences."
+                    },
+                    {
+                      "code": "WK2",
+                      "description": "Conceptually-based mathematics, numerical analysis, data analysis, statistics and formal aspects of computer and information science to support detailed analysis and modelling applicable to the discipline."
+                    },
+                    {
+                      "code": "WK3",
+                      "description": "A systematic, theory-based formulation of engineering fundamentals required in the engineering discipline."
+                    },
+                    {
+                      "code": "WK4",
+                      "description": "Engineering specialist knowledge that provides theoretical frameworks and bodies of knowledge for the accepted practice areas in the engineering discipline; much is at the forefront of the discipline."
+                    },
+                    {
+                      "code": "WK5",
+                      "description": "Knowledge, including efficient resource use, environmental impacts, whole-life cost, reuse of resources, net zero carbon, and similar concepts, that supports engineering design and operations in a practice area."
+                    },
+                    {
+                      "code": "WK6",
+                      "description": "Knowledge of engineering practice (technology) in the practice areas in the engineering discipline."
+                    },
+                    {
+                      "code": "WK7",
+                      "description": " Knowledge of the role of engineering in society and identified issues in engineering practice in the discipline, such as the professional responsibility of an engineer to public safety and sustainable development."
+                    },
+                    {
+                      "code": "WK8",
+                      "description": "Engagement with selected knowledge in the current research literature of the discipline, awareness of the power of critical thinking and creative approaches to evaluate emerging issues."
+                    },
+                    {
+                      "code": "WK9",
+                      "description": "Ethics, inclusive behavior and conduct. Knowledge of professional ethics, responsibilities, and norms of engineering practice. Awareness of the need for diversity by reason of ethnicity, gender, age, physical ability etc. with mutual understanding and respect, and of inclusive attitudes"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+
+          "pso": {
+            "sections": [
+              {
+                "type": "card-list3",
+                "data": {
+                  "title": "Program Specific Outcomes (PSOs)",
+
+                  "content": [
+                    {
+                      "code": "PSO1",
+                      "description": "Ability to organize an IT infrastructure, secure the data and analyze the data analytic techniques in the field of data mining, big data as to facilitate in solving problems."
+                    },
+                    {
+                      "code": "PSO2",
+                      "description": "Ability to analyze and design the system in the domain of Cloud and Internet of Things."
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+
+    {
+      "type": "split-image-content",
+      "data": {
+        "imagePosition": "left",
+        "sectionbg": "section-bg1 my-4",
+        "image": "/images/gallery/gallery-big.jpg",
+        "content": [
+          {
+            "type": "title",
+            "mainTi": "Faculty"
+          },
+          {
+            "type": "paragraph",
+            "text": [""]
+          },
+          {
+            "type": "button",
+            "text": "View Faculty",
+            "action": "goToFaculty",
+            "newpageData": {
+              "slug": "department-of-information-technology",
+              "banner": {
+                "bannerImg": "/images/kce/banner_computer_technology.jpg",
+                "title": "Department of Information Technology",
+                "breadcrumb": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Departments",
+                    "href": "/departments"
+                  },
+                  {
+                    "href": "/departments/department-of-information-technology",
+                    "label": "Department of Information Technology"
+                  },
+                  {
+                    "label": "Faculty"
+                  }
+                ]
+              },
+              "sectionTi": "Our faculty",
+              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+
+              "faculty": [
+                {
+                  "id": 1,
+                  "name": "Dr. Logeswari S",
+                  "designation": "Professor / Head",
+                  "degree": "M.E, Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 2,
+                  "name": "Dr. Rajeswari V",
+                  "designation": "Professor",
+                  "degree": "M.S, Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 3,
+                  "name": "Dr. Jaiganesh M",
+                  "designation": "Professor",
+                  "degree": "M.E, Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 4,
+                  "name": "Dr. Devapriya M",
+                  "designation": "Professor",
+                  "degree": "M.E, Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 5,
+                  "name": "Dr. Kala R",
+                  "designation": "Associate Professor",
+                  "degree": "M.E, Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 6,
+                  "name": "Dr. Pushpalatha A",
+                  "designation": "Associate Professor",
+                  "degree": "M.E, Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 7,
+                  "name": "Dr. Vanitha CN",
+                  "designation": "Professor",
+                  "degree": "M.E, Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 8,
+                  "name": "Dr. Madhumitha R",
+                  "designation": "Associate Professor",
+                  "degree": "M.E, Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 9,
+                  "name": "Dr. Jothi Prakash V",
+                  "designation": "Associate Professor",
+                  "degree": "M.Tech, Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 10,
+                  "name": "Mr. Nagaraj S",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 11,
+                  "name": "Mr. Jithesh Raju S",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 12,
+                  "name": "Ms. Velammal M",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 13,
+                  "name": "Ms. Deepa K",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 14,
+                  "name": "Mr. Premkumar M",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E (Ph.D)",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 15,
+                  "name": "Ms. Agjelia Lydia C",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 16,
+                  "name": "Ms. Abirami M",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 17,
+                  "name": "Mr. Subilash S S",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 18,
+                  "name": "Ms. K. Rajeswari",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 19,
+                  "name": "Ms. Sogy K Idicula",
+                  "designation": "Assistant Professor",
+                  "degree": "M.Tech",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 20,
+                  "name": "Ms. V. Sharmila",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 21,
+                  "name": "Mrs. Senthamil Selvi G",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 22,
+                  "name": "Mr. Akil Adhithyan K",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 23,
+                  "name": "Ms. Tharini",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "pill-list",
+      "data": {
+        "title": "Smart Class Rooms",
+        "description": "Lorem ipsum dolor sit amet consectetur. Pulvinar nulla sapien velit ultrices neque pretium pulvinar. Urna netus sed et in. At sed urna vitae rhoncus convallis tellus nisi viverra.",
+        "sections": [
+          {
+            "subtitle": "Current Semester",
+            "items": [
+              {
+                "id": 1,
+                "label": "Google Classroom Link",
+                "url": "https://kce.ac.in/new/wp-content/uploads/2022/05/IT-Smart-classroom-links.pdf"
+              },
+              {
+                "id": 2,
+                "label": "15FD16 – Mobile Computing",
+                "url": "https://drive.google.com/drive/folders/0B6B7zizv13PgflNTRVBTME55NzFsTUxFSWxtenNvNFRiS2FQZUlHb185ZGNkZUNDem90RDQ?usp=sharing"
+              },
+              {
+                "id": 3,
+                "label": "15FD25 – Fundamentals of Data Structures",
+                "url": "https://drive.google.com/drive/folders/0BzJZhWtVLB1yfmNHQTg0cUE3MjNxRzBuNWlLb0EzQWFxdkpWZHg1WHRzTVlaVmgwbEtyQlE?usp=sharing"
+              },
+              {
+                "id": 4,
+                "label": "17FD24 – Data Structures and Algorithm in C",
+                "url": "https://drive.google.com/drive/folders/0B4khkfKx4Uh0fmhtLUJ5TVJNMkc0NlJIM2JzV08tTTNCOUVjTC1SLWFTRFRGWGE1MWw2S0k?usp=sharing"
+              },
+              {
+                "id": 5,
+                "label": "17FD10 – Data Warehousing and Data Mining",
+                "url": "https://drive.google.com/drive/folders/0B71S95Z6ewI5fklVNjBBMzFDanlRTjZKMDdOZ19mZE55VUJRcUluTGpxTUNZUkdmSkFrbTA?usp=sharing"
+              }
+            ]
+          },
+          {
+            "subtitle": "Previous Semester",
+            "items": [
+              {
+                "id": 1,
+                "label": "15FD12 – Unix and Shell Programming",
+                "url": "https://drive.google.com/drive/folders/0BzJZhWtVLB1yflBvYnFWdzdrN2NoMGlmdUhyemdYVHRHQktFN0NZSndUODNUc1dnZExIdkE?usp=sharing"
+              },
+              {
+                "id": 2,
+                "label": "17FD04 – Computer Architecture",
+                "url": "https://drive.google.com/drive/folders/0Bxzw1APh7XZnfjYyUTFIVFpwaTQxcGk0aVZTM3Bza1VuaTVtVzZLdW4zNlMwUmJ4RUZQbG8?usp=sharing"
+              }
+            ]
+          }
+        ]
+      }
+    },
+ {
+      "type": "image-overlay-content",
+      "data": {
+        "bgImage": "/images/kce/academics/banner.jpg",
+
+        "title": "Innovations by the faculty",
+        "list": [
+          {
+            "title": "Click Here",
+            "url": "https://www.youtube.com/watch?v=0KDtdADJvE4&feature=youtu.be"
+          }
+          
+        ]
+      }
+    },
+    {
+      "type": "table",
+      "data": {
+        "secTitle": "Google Class Room",
+        "table": [
+          {
+            "title": "(AY 2024-2025)",
+            "content": [
+              {
+                "head": [
+                  { "id": "col1", "label": "Course Code" },
+                  { "id": "col2", "label": "Course Title" },
+                  { "id": "col3", "label": "Google Link" }
+                ],
+                "data": [
+                  {
+                    "col1": { "text": "21FD17" },
+                    "col2": { "text": "Information Security" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://classroom.google.com/c/NzAxOTg0MTA2OTIy?cjc=vcdhjrv"
+                    }
+                  },
+                  {
+                    "col1": { "text": "21FD11" },
+                    "col2": { "text": "Object Oriented Analysis and Design" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://classroom.google.com/c/Njk3NTY4NzIxNDA2?cjc=ndtw3rh"
+                    }
+                  },
+                  {
+                    "col1": { "text": "21FD08" },
+                    "col2": { "text": "High Speed Networks" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://classroom.google.com/w/NjkzNTgyNjk2Njc2/t/all"
+                    }
+                  },
+                  {
+                    "col1": { "text": "21ID14" },
+                    "col2": { "text": "Machine Learning Techniques" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://classroom.google.com/c/NzAxMjQ3MDc1ODQ1"
+                    }
+                  },
+                  {
+                    "col1": { "text": "21FD20" },
+                    "col2": { "text": "Automata Theory and Compiler Design" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://classroom.google.com/c/NjkzODQ2NTc2ODY0?cjc=f4qqtie"
+                    }
+                  },
+                  {
+                    "col1": { "text": "21FE27" },
+                    "col2": { "text": "Artificial Intelligence" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://classroom.google.com/c/Njk4NDY5NDg1MTg0"
+                    }
+                  },
+                  {
+                    "col1": { "text": "21FE05" },
+                    "col2": { "text": "Design and Analysis of Algorithm" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://classroom.google.com/u/2/w/NjkzNjkzMTUxMTgx/t/all"
+                    }
+                  },
+                  {
+                    "col1": { "text": "21FE18" },
+                    "col2": {
+                      "text": "Web Application Development Using Java"
+                    },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://classroom.google.com/c/Njg5OTkzMzc5Nzg1"
+                    }
+                  },
+                  {
+                    "col1": { "text": "21LE09" },
+                    "col2": { "text": "Cryptography and Network Security" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://classroom.google.com/c/NjkzNjc0Mjg3Mjcw"
+                    }
+                  },
+                  {
+                    "col1": { "text": "23CSR305" },
+                    "col2": { "text": "Computer Architecture" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://classroom.google.com/c/NjkzNTc0NDE5ODEz"
+                    }
+                  },
+                  {
+                    "col1": { "text": "23CSR306" },
+                    "col2": { "text": "Java Programming" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://classroom.google.com/u/2/c/NjkzODU3ODgyMzA4"
+                    }
+                  },
+                  {
+                    "col1": { "text": "23CSR302" },
+                    "col2": { "text": "Database Management Systems" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://classroom.google.com/c/Njk3NDU5OTIzOTkw?cjc=amu4r7a"
+                    }
+                  },
+                  {
+                    "col1": { "text": "23CSR304" },
+                    "col2": { "text": "Design and Analysis of Algorithms" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://classroom.google.com/u/2/w/NjkzNjkzNDAyNDU1/t/all"
+                    }
+                  },
+                  {
+                    "col1": { "text": "23ITR301" },
+                    "col2": { "text": "Operating Systems" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://classroom.google.com/c/NjgwOTM4MDc2MDM2?cjc=aok4cw5"
+                    }
+                  },
+                  {
+                    "col1": { "text": "21OA01" },
+                    "col2": {
+                      "text": "Principles of Management and Engineering Ethics"
+                    },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://classroom.google.com/c/NzQyNTc0MzExNjQz?cjc=adcjcjk"
+                    }
+                  },
+                  {
+                    "col1": { "text": "21FD24" },
+                    "col2": { "text": "Cloud Computing" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://classroom.google.com/c/NzMyODY1MDA4NDc2"
+                    }
+                  },
+                  {
+                    "col1": { "text": "21FD10" },
+                    "col2": { "text": "Data Warehousing and Data Mining" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://classroom.google.com/c/NzE2MTYxNjY1NDg0"
+                    }
+                  },
+                  {
+                    "col1": { "text": "21FD19" },
+                    "col2": { "text": "Big Data Analytics" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://classroom.google.com/c/NzMyNTQ3MTkzOTI5?cjc=t2fvcia"
+                    }
+                  },
+                  {
+                    "col1": { "text": "21FD09" },
+                    "col2": { "text": "Software Engineering" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://classroom.google.com/c/NzQyOTM0NjAxMDQ1"
+                    }
+                  },
+                  {
+                    "col1": { "text": "23ADR304" },
+                    "col2": { "text": "Artificial Intelligence" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://classroom.google.com/c/NzQwMjY3MjEyMTc4?cjc=jvxz4s5"
+                    }
+                  },
+                  {
+                    "col1": { "text": "23CSR405" },
+                    "col2": { "text": "Advanced Algorithms" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://classroom.google.com/u/2/w/NzMzMDM0NDYzNzAx/t/all"
+                    }
+                  },
+                  {
+                    "col1": { "text": "23ITR402" },
+                    "col2": { "text": "Communication and Networks" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://classroom.google.com/c/NzMyODY1MDA4NDc2"
+                    }
+                  },
+                  {
+                    "col1": { "text": "23ITR403" },
+                    "col2": { "text": "Web Application Development" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://classroom.google.com/u/1/c/NzQyODIxOTg2MjEz"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "(AY 2023-2024)",
+            "content": [
+              {
+                "head": [
+                  { "id": "col1", "label": "Course Code" },
+                  { "id": "col2", "label": "Course Title" },
+                  { "id": "col3", "label": "Google Link" }
+                ],
+                "data": [
+                  {
+                    "col1": { "text": "21FD03" },
+                    "col2": { "text": "Operating Systems" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://classroom.google.com/u/1/c/NTQxMDE2NjQ1MTE3"
+                    }
+                  },
+                  {
+                    "col1": { "text": "18FD15" },
+                    "col2": { "text": "Mobile Computing And Communication" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://classroom.google.com/c/NTgxNzA4NzM2MDE0?cjc=qjkqfkp"
+                    }
+                  },
+                  {
+                    "col1": { "text": "18FD14" },
+                    "col2": { "text": "Computer Graphics And Multimedia" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://drive.google.com/drive/u/0/folders/1lZnP_afbLEZV4i5mvGuwW5GTvl5aBGRSWLo6HWbjh8v9vjLjpPGtLfxWoI91YSW8RcpEdMr3"
+                    }
+                  },
+                  {
+                    "col1": { "text": "21DD14" },
+                    "col2": { "text": "Computer Graphics And Multimedia" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "http://shorturl.at/ckCMR"
+                    }
+                  },
+                  {
+                    "col1": { "text": "18LE09" },
+                    "col2": { "text": "Cryptography And Network Security" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://drive.google.com/drive/folders/1Kq0oSD776fuG4LluUBBUg8dzzUxKKReZL0bgSqBXIu6z7CjIpOShNgQXgui5Y0C2a3T_iQnQ"
+                    }
+                  },
+                  {
+                    "col1": { "text": "18OA01" },
+                    "col2": {
+                      "text": "Principles Of Management And Engineering Ethics"
+                    },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://drive.google.com/drive/folders/1Bo4C7_ux1Ke6tvvdzZg5VpPlkKquS_JcSd_L0P9jy8sNYugdrk-9MB8Z5uQLlK1U5eHRo4wL"
+                    }
+                  },
+                  {
+                    "col1": { "text": "21FE04" },
+                    "col2": { "text": "Advanced Java Programming" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://drive.google.com/drive/u/2/folders/15Ow28Y09neKEc1RRKli2ICreYLmRwhUwUyqstxwN-cojFwZj3i914VxVxxg5r5YSfpFfU4SU"
+                    }
+                  },
+                  {
+                    "col1": { "text": "21FD03" },
+                    "col2": { "text": "Operating Systems" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://drive.google.com/drive/folders/1SDSFG-bzBySvVT3gMZdMCdF-duZKo4wOkAl-Yk7iaI3WqkaLWwk58H_BH397FloOae0INw21"
+                    }
+                  },
+                  {
+                    "col1": { "text": "18IE02" },
+                    "col2": { "text": "Cloud Computing Technique" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://drive.google.com/drive/folders/1TWAsb-JIzFMe51sssDXdmy3FUnJUNVqwOFbASXbgw7ttojgvLVYydRhtHquiQLZd6ClbDGUV"
+                    }
+                  },
+                  {
+                    "col1": { "text": "21PE04" },
+                    "col2": { "text": "Advanced Java Programming" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://drive.google.com/drive/folders/1uXSOoCdxQrgqMLe6eNg_ug2-I6dZV-23hk9dADCBM5Lj_AsMdjz-lsB6bywAg-1Khd3Lbn_6"
+                    }
+                  },
+                  {
+                    "col1": { "text": "21FE04" },
+                    "col2": { "text": "Advanced Java Programming" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://drive.google.com/drive/folders/1F9gf2VvxoU06yuvuJyoRJ6v7vRbzGcUqiFz8nDeVLKpKWX7yEOqY2xFSHgVxHBU7VUG_7rsX"
+                    }
+                  },
+                  {
+                    "col1": { "text": "21FE01" },
+                    "col2": { "text": "Advanced Data Structures" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://drive.google.com/drive/u/1/folders/1FzfC7woGrSxrVnZY6n4pifpZv9Qxm8SL4XOnNlEtwJyNk96BI4WQ9r5TxrAywtdvCgwErbmR"
+                    }
+                  },
+                  {
+                    "col1": { "text": "21PD08" },
+                    "col2": { "text": "Computer Architecture" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://drive.google.com/drive/folders/1B5GLWR7DWEih7b85obprAzLcbr07AN5_XmJWC0vr54V4wZh0KHeGXiXGna7XYB9N63_xLCM2"
+                    }
+                  },
+                  {
+                    "col1": { "text": "21EC09" },
+                    "col2": { "text": "Data Structures" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://drive.google.com/drive/folders/1v2RXAnhjCwCRyvBS9trdzqYxq0BW7wL8aoh1qA66kRQJbnTPeH55y3wZhI6CmIFyttEw5yTn"
+                    }
+                  },
+                  {
+                    "col1": { "text": "18FD10" },
+                    "col2": { "text": "Data Warehousing And Data Mining" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://drive.google.com/drive/u/1/folders/1FYnhbIGiMDGhbZV2vEQ2wl0YcHAuiwB5oPjMTXkSZ4xlv0iC7EUQgDCQJI6lr_kVSyb0Vv1Q"
+                    }
+                  },
+                  {
+                    "col1": { "text": "18FE25" },
+                    "col2": { "text": "Industry 4.0" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://drive.google.com/drive/folders/1P21RS3HNJen5eLldP679A8scBUOUEsyU5qA5KlI00bFfyKOktjQZTmpbJcaZUKEQ-1sk11W-"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "(AY 2022-2023)",
+            "content": [
+              {
+                "head": [
+                  { "id": "col1", "label": "Course Code" },
+                  { "id": "col2", "label": "Course Title" },
+                  { "id": "col3", "label": "Google Link" }
+                ],
+                "data": [
+                  {
+                    "col1": { "text": "21FD03" },
+                    "col2": { "text": "Operating Systems" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://classroom.google.com/u/1/c/NTQxMDE2NjQ1MTE3"
+                    }
+                  },
+                  {
+                    "col1": { "text": "18FD15" },
+                    "col2": { "text": "Mobile Computing And Communication" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://classroom.google.com/c/NTgxNzA4NzM2MDE0?cjc=qjkqfkp"
+                    }
+                  },
+                  {
+                    "col1": { "text": "18FD14" },
+                    "col2": { "text": "Computer Graphics And Multimedia" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://drive.google.com/drive/u/0/folders/1lZnP_afbLEZV4i5mvGuwW5GTvl5aBGRSWLo6HWbjh8v9vjLjpPGtLfxWoI91YSW8RcpEdMr3"
+                    }
+                  },
+                  {
+                    "col1": { "text": "21DD14" },
+                    "col2": { "text": "Computer Graphics And Multimedia" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "http://shorturl.at/ckCMR"
+                    }
+                  },
+                  {
+                    "col1": { "text": "18LE09" },
+                    "col2": { "text": "Cryptography And Network Security" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://drive.google.com/drive/folders/1Kq0oSD776fuG4LluUBBUg8dzzUxKKReZL0bgSqBXIu6z7CjIpOShNgQXgui5Y0C2a3T_iQnQ"
+                    }
+                  },
+                  {
+                    "col1": { "text": "18OA01" },
+                    "col2": {
+                      "text": "Principles Of Management And Engineering Ethics"
+                    },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://drive.google.com/drive/folders/1Bo4C7_ux1Ke6tvvdzZg5VpPlkKquS_JcSd_L0P9jy8sNYugdrk-9MB8Z5uQLlK1U5eHRo4wL"
+                    }
+                  },
+                  {
+                    "col1": { "text": "21FE04" },
+                    "col2": { "text": "Advanced Java Programming" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://drive.google.com/drive/u/2/folders/15Ow28Y09neKEc1RRKli2ICreYLmRwhUwUyqstxwN-cojFwZj3i914VxVxxg5r5YSfpFfU4SU"
+                    }
+                  },
+                  {
+                    "col1": { "text": "21FD03" },
+                    "col2": { "text": "Operating Systems" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://drive.google.com/drive/folders/1SDSFG-bzBySvVT3gMZdMCdF-duZKo4wOkAl-Yk7iaI3WqkaLWwk58H_BH397FloOae0INw21"
+                    }
+                  },
+                  {
+                    "col1": { "text": "18IE02" },
+                    "col2": { "text": "Cloud Computing Technique" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://drive.google.com/drive/folders/1TWAsb-JIzFMe51sssDXdmy3FUnJUNVqwOFbASXbgw7ttojgvLVYydRhtHquiQLZd6ClbDGUV"
+                    }
+                  },
+                  {
+                    "col1": { "text": "21PE04" },
+                    "col2": { "text": "Advanced Java Programming" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://drive.google.com/drive/folders/1uXSOoCdxQrgqMLe6eNg_ug2-I6dZV-23hk9dADCBM5Lj_AsMdjz-lsB6bywAg-1Khd3Lbn_6"
+                    }
+                  },
+                  {
+                    "col1": { "text": "21FE04" },
+                    "col2": { "text": "Advanced Java Programming" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://drive.google.com/drive/folders/1F9gf2VvxoU06yuvuJyoRJ6v7vRbzGcUqiFz8nDeVLKpKWX7yEOqY2xFSHgVxHBU7VUG_7rsX"
+                    }
+                  },
+                  {
+                    "col1": { "text": "21FE01" },
+                    "col2": { "text": "Advanced Data Structures" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://drive.google.com/drive/u/1/folders/1FzfC7woGrSxrVnZY6n4pifpZv9Qxm8SL4XOnNlEtwJyNk96BI4WQ9r5TxrAywtdvCgwErbmR"
+                    }
+                  },
+                  {
+                    "col1": { "text": "21PD08" },
+                    "col2": { "text": "Computer Architecture" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://drive.google.com/drive/folders/1B5GLWR7DWEih7b85obprAzLcbr07AN5_XmJWC0vr54V4wZh0KHeGXiXGna7XYB9N63_xLCM2"
+                    }
+                  },
+                  {
+                    "col1": { "text": "21EC09" },
+                    "col2": { "text": "Data Structures" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://drive.google.com/drive/folders/1v2RXAnhjCwCRyvBS9trdzqYxq0BW7wL8aoh1qA66kRQJbnTPeH55y3wZhI6CmIFyttEw5yTn"
+                    }
+                  },
+                  {
+                    "col1": { "text": "18FD10" },
+                    "col2": { "text": "Data Warehousing And Data Mining" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://drive.google.com/drive/u/1/folders/1FYnhbIGiMDGhbZV2vEQ2wl0YcHAuiwB5oPjMTXkSZ4xlv0iC7EUQgDCQJI6lr_kVSyb0Vv1Q"
+                    }
+                  },
+                  {
+                    "col1": { "text": "18FE25" },
+                    "col2": { "text": "Industry 4.0" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://drive.google.com/drive/folders/1P21RS3HNJen5eLldP679A8scBUOUEsyU5qA5KlI00bFfyKOktjQZTmpbJcaZUKEQ-1sk11W-?authuser=0"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "(AY 2021-2022)",
+            "content": [
+              {
+                "head": [
+                  { "id": "col1", "label": "Course Code" },
+                  { "id": "col2", "label": "Course Title" },
+                  { "id": "col3", "label": "Google Link" }
+                ],
+                "data": [
+                  {
+                    "col1": { "text": "18FD03" },
+                    "col2": { "text": "Operating System" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://classroom.google.com/u/0/c/NDY3MTQzMDExNzQ4"
+                    }
+                  },
+                  {
+                    "col1": { "text": "18PE04" },
+                    "col2": { "text": "Advanced Java Programming" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://classroom.google.com/c/NDc3MTMxNTIzODkw?cjc=iecqp6b"
+                    }
+                  },
+                  {
+                    "col1": { "text": "18FE01" },
+                    "col2": { "text": "Advanced Data Structures" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://classroom.google.com/u/1/c/NDc1MTUwMTkxNDg0"
+                    }
+                  },
+                  {
+                    "col1": { "text": "18LE09" },
+                    "col2": { "text": "Cryptography And Network Security" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://classroom.google.com/u/4/c/NDgzNTY0ODI2NDI0"
+                    }
+                  },
+                  {
+                    "col1": { "text": "18PD02" },
+                    "col2": { "text": "Data Structures" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://classroom.google.com/c/MjI2NDkzMjM4MTk3?cjc=wpxzblv"
+                    }
+                  },
+                  {
+                    "col1": { "text": "18CC01" },
+                    "col2": { "text": "Programming Logic Design" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://classroom.google.com/c/NDM1MjAwNzEwMjUy?cjc=manx5ah"
+                    }
+                  },
+                  {
+                    "col1": { "text": "18FC04" },
+                    "col2": { "text": "Advanced C Programming" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://classroom.google.com/c/NDg0OTE3MzgzMTE5?cjc=c2cq6v4"
+                    }
+                  },
+                  {
+                    "col1": { "text": "18FD14" },
+                    "col2": { "text": "Computer Graphics And Multimedia" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://classroom.google.com/c/NDc0ODQzNzc4MTM3?cjc=2ckdnj6"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "double-col-list",
+      "data": {
+        "columns": [
+          {
+            "id": "newsletter",
+            "heading": "News letter",
+            "items": [
+              {
+                "id": 1,
+                "label": "Jan 2019 – Jun 2019",
+                "url": "https://kce.ac.in/new/wp-content/uploads/2022/05/Jan-19-Jun-19.pdf"
+              },
+              {
+                "id": 2,
+                "label": "Jul 2019 – Dec 2019",
+                "url": "https://kce.ac.in/new/wp-content/uploads/2022/05/Jul-19-Dec-19.pdf"
+              },
+              {
+                "id": 3,
+                "label": "Jan 2020 – Jun 2020",
+                "url": "https://kce.ac.in/new/wp-content/uploads/2022/05/Jan-20-June-20.pdf"
+              },
+              {
+                "id": 4,
+                "label": "Jul 2020 – Dec 2020",
+                "url": "https://kce.ac.in/new/wp-content/uploads/2022/05/Jul-20-Dec-20.pdf"
+              },
+              {
+                "id": 5,
+                "label": "Jan 2021 – Jun 2021",
+                "url": "https://kce.ac.in/new/wp-content/uploads/2025/06/IT-NEWS-LETTER-JAN-JULY-2021.pdf"
+              },
+              {
+                "id": 6,
+                "label": "Jul 2021 – Dec 2021",
+                "url": "https://kce.ac.in/new/wp-content/uploads/2025/06/IT-NEWS-LETTER-JULY-DEC-2021.pdf"
+              },
+              {
+                "id": 7,
+                "label": "Jul 2022 – Dec 2022",
+                "url": "https://kce.ac.in/new/wp-content/uploads/2025/06/Newsletter-July-2022-to-December-2022-odd.pdf"
+              },
+              {
+                "id": 8,
+                "label": "Jan 2023 – Jun 2023",
+                "url": "https://kce.ac.in/new/wp-content/uploads/2025/06/January-2023-to-June-2023.pdf"
+              },
+              {
+                "id": 9,
+                "label": "Jul 2023 – Dec 2023",
+                "url": "https://kce.ac.in/new/wp-content/uploads/2025/06/IT-NEWSLETTER-june-december2023.pdf"
+              },
+              {
+                "id": 10,
+                "label": "Jan 2024 – Jun 2024",
+                "url": "https://kce.ac.in/new/wp-content/uploads/2025/06/IT-NEWSLETTER-jan-may-2024.pdf"
+              },
+              {
+                "id": 11,
+                "label": "Jul 2024 – Dec 2024",
+                "url": "https://kce.ac.in/new/wp-content/uploads/2025/06/July-Dec-2024NEWSLETTER.pdf"
+              },
+              {
+                "id": 12,
+                "label": "Jan 2025 – Jun 2025",
+                "url": "https://kce.ac.in/new/wp-content/uploads/2025/06/Jan-May-2025-NEWSLETTER.pdf"
+              }
+            ]
+          },
+
+          {
+            "id": "magazine",
+            "heading": "Magazine",
+            "items": [
+              {
+                "id": 1,
+                "label": "Magazine 2017 – 2018",
+                "url": "https://kce.ac.in/new/wp-content/uploads/2022/05/2017-18-Magazine.pdf"
+              },
+              {
+                "id": 2,
+                "label": "Magazine 2018 – 2019",
+                "url": "https://kce.ac.in/new/wp-content/uploads/2022/05/2018-2019-Magazine.pdf"
+              },
+              {
+                "id": 3,
+                "label": "Magazine 2019 – 2020",
+                "url": "https://kce.ac.in/new/wp-content/uploads/2022/05/2019-2020-Magazine.pdf"
+              },
+              {
+                "id": 4,
+                "label": "Magazine 2020 – 2021",
+                "url": "https://kce.ac.in/new/wp-content/uploads/2022/05/2020-2021-Magazine.pdf"
+              },
+              {
+                "id": 5,
+                "label": "Magazine 2021 – 2022",
+                "url": "https://kce.ac.in/new/wp-content/uploads/2025/06/Magazine-2021-22.pdf"
+              },
+              {
+                "id": 6,
+                "label": "Magazine 2022 – 2023",
+                "url": "https://kce.ac.in/new/wp-content/uploads/2025/06/Magazine-2022-2023-final.pdf"
+              },
+              {
+                "id": 7,
+                "label": "Magazine 2023 – 2024",
+                "url": "https://kce.ac.in/new/wp-content/uploads/2025/06/Magazine-2023-2024-final.pdf"
+              },
+              {
+                "id": 8,
+                "label": "Magazine 2024 – 2025",
+                "url": "https://kce.ac.in/new/wp-content/uploads/2025/06/24-25-Magazine.pdf"
+              }
+            ]
+          }
+        ]
+      }
+    },
+{
+      "type": "pill-list",
+      "data": {
+        "title": "Seminar",
+        "subtitle":"Augmented Reality and Deep Learning with its Application in Medical Diagnosis",
+        "description": "CSIR sponsored Two National Level Seminar on Augmented Reality and Deep Learning with its Application in Medical Diagnosis on 21st and 22nd October 2019, jointly Organizing Department of IT and CSE.",
+        "sections": [
+          {
+            
+            "items": [
+              {
+                "id": 1,
+                "label": "Read More",
+                "url": "http://kce.ac.in/wp-content/uploads/2019/11/Seminar-Brochure-Final.pdf"
+              }
+            ]
+          }
+        ]
+      }
+    }
+    
+  ]
+}

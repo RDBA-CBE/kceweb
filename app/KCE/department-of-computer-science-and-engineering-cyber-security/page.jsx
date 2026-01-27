@@ -1,8 +1,8 @@
 import DeptOfCSECyberPage from "@/components/00-KCE/Academics/DeptOfCSECyberPage";
 
 export const metadata = {
-  title: "Best college for Engineering In Tamilnadu - KCE",
-  description: "Unlock your potential in Engineering at KCE, the leading Engineering college in Tamilnadu, providing a nurturing environment for academic and personal growth.",
+  title: "Best CSE & Cyber Security Colleges in Coimbatore - KCE",
+  description: "KCE is one of the best computer science engineering and cyber security colleges in Coimbatore, offering top-notch education and practical training in these fields.",
 };
 
 const page = () => {

@@ -309,7 +309,6 @@
       }
     },
 
-
     {
       "type": "split-image-content",
       "data": {
@@ -318,17 +317,15 @@
         "content": [
           {
             "type": "title",
-            "mainTi": "Falculty"
+            "mainTi": "Faculty"
           },
           {
             "type": "paragraph",
-            "text": [
-              ""
-            ]
+            "text": [""]
           },
           {
             "type": "button",
-            "text": "View Campus Gallery",
+            "text": "View Faculty",
             "action": "goToFaculty",
             "newpageData": {
               "slug": "department-of-computer-sciences-and-engineering",
@@ -614,7 +611,5 @@
         ]
       }
     }
-    
-    
   ]
 }

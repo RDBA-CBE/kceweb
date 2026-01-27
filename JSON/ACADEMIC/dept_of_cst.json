@@ -291,17 +291,15 @@
         "content": [
           {
             "type": "title",
-            "mainTi": "Falculty"
+            "mainTi": "Faculty"
           },
           {
             "type": "paragraph",
-            "text": [
-              ""
-            ]
+            "text": [""]
           },
           {
             "type": "button",
-            "text": "View Campus Gallery",
+            "text": "View Faculty",
             "action": "goToFaculty",
             "newpageData": {
               "slug": "Department of-computer-sciences-and-technology",
@@ -371,9 +369,5 @@
         ]
       }
     }
-
-   
-
-   
   ]
 }

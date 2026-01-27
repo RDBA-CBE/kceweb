@@ -1,0 +1,717 @@
+{
+  "banner": {
+    "bannerImg": "/images/kce/banner_computer_technology.jpg",
+    "title": "Department of Science and Humanities",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Departments",
+        "href": "/departments"
+      },
+      {
+        "label": "Department of Science and Humanities"
+      }
+    ]
+  },
+
+  "sections": [
+    {
+      "type": "image-overlay-card",
+      "data": {
+        "title": "About the Department",
+        "bgImg": "/images/kce/academics/banner.jpg",
+        "description": [
+          "Department of Science and Humanities comprises of Mathematics, Physics, Chemistry and English language. Science laboratories are well equipped to cater the needs of students. Department is adorned with adequate dedicated experienced faculty with specialization in diverse fields to impart knowledge and enhance skills. Department organizes periodic guest lectures and faculty development programme to inculcate Science in Engineering approach."
+        ]
+      }
+    },
+
+    {
+      "type": "plain-para",
+      "data": {
+        "content": [
+          "English language laboratory with its ‘Globerana ‘software and hardware facilitates learning English and paves way for BEC certification. Department also teaches foreign languages including German and Japanese.Science Day is celebrated exclusively for the first year students.",
+          "Technical events are conducted to motivate students and create awareness for industrial and real life exposure making learning a pleasure. In Mathematics courses are offered with SCILAB applications, which enable the students to apply the mathematics concepts to engineering applications."
+        ]
+      }
+    },
+
+    {
+      "type": "icon-card",
+      "data": {
+        "title": "Lab Facilities",
+        "content": [
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "Charles Batchman Laboratory"
+          },
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "Dennis Ritchie Laboratory"
+          },
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "Chemistry Laboratory"
+          },
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "Applied Physics Laboratory"
+          },
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "Communication Laboratory"
+          },
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "Mathematics Laboratory"
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "split-image-content",
+      "data": {
+        "sectionbg": "section-bg1 my-4",
+        "image": "/images/gallery/gallery-big.jpg",
+        "content": [
+          {
+            "type": "title",
+            "mainTi": "Faculty"
+          },
+          {
+            "type": "paragraph",
+            "text": [""]
+          },
+          {
+            "type": "button",
+            "text": "View Faculty",
+            "action": "goToFaculty",
+            "newpageData": {
+              "slug": "department-of-science-and-humanities",
+              "banner": {
+                "bannerImg": "/images/kce/banner_computer_technology.jpg",
+                "title": "Department of Science and Humanities",
+                "breadcrumb": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Departments",
+                    "href": "/departments"
+                  },
+                  {
+                    "href": "/departments/department-of-science-and-humanities",
+                    "label": "Department of Science and Humanities"
+                  },
+                  {
+                    "label": "Faculty"
+                  }
+                ]
+              },
+              "sectionTi": "Our faculty",
+              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+
+              "faculty": [
+                {
+                  "id": 1,
+                  "name": "Dr. Rathinam R",
+                  "designation": "Professor / Head",
+                  "degree": "MSc, Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 2,
+                  "name": "Mr. Gowrisankar L",
+                  "designation": "Assistant Professor",
+                  "degree": "M.Sc, M.Phil",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 3,
+                  "name": "Ms. Dhanalakshmi H",
+                  "designation": "Assistant Professor",
+                  "degree": "M.Sc, M.Phil",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 4,
+                  "name": "Ms. Sudha D",
+                  "designation": "Assistant Professor",
+                  "degree": "M.Sc, M.Phil",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 5,
+                  "name": "Mr. Prabu V",
+                  "designation": "Assistant Professor",
+                  "degree": "M.Sc, M.Phil",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 6,
+                  "name": "Ms. Abinaya M",
+                  "designation": "Assistant Professor",
+                  "degree": "MSc, (Ph.D)",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 7,
+                  "name": "Ms. Bhagyarathi Salome P",
+                  "designation": "Assistant Professor",
+                  "degree": "M.A, M.Phil",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 8,
+                  "name": "Ms. Charumathi S",
+                  "designation": "Assistant Professor",
+                  "degree": "MA, M.Phil",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 9,
+                  "name": "Mr. Vignesh K",
+                  "designation": "Assistant Professor",
+                  "degree": "M.A, M.Phil",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 10,
+                  "name": "Ms. Lily S",
+                  "designation": "Assistant Professor",
+                  "degree": "MA, M.Phil",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 11,
+                  "name": "Ms. Sabari R",
+                  "designation": "Assistant Professor",
+                  "degree": "MA, M.Phil",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 12,
+                  "name": "Mr. Vigneshwar G",
+                  "designation": "Assistant Professor",
+                  "degree": "MA, M.Phil",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 13,
+                  "name": "Mr. Kamalesh C",
+                  "designation": "Assistant Professor",
+                  "degree": "M.A, (Ph.D)",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 14,
+                  "name": "Ms. Priyanga V",
+                  "designation": "Assistant Professor",
+                  "degree": "M.A, NET",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 15,
+                  "name": "Ms. Aswathy A",
+                  "designation": "Assistant Professor",
+                  "degree": "M.A, (Ph.D), NET",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 16,
+                  "name": "Ms. Padmavathi R",
+                  "designation": "Assistant Professor",
+                  "degree": "M.A, (Ph.D)",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 17,
+                  "name": "Ms. Rubasri VM",
+                  "designation": "Assistant Professor",
+                  "degree": "M.A, NET",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 18,
+                  "name": "Ms. Soundarya R",
+                  "designation": "Assistant Professor",
+                  "degree": "M.A, NET, GATE",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 19,
+                  "name": "Ms. Stephy JS",
+                  "designation": "Assistant Professor",
+                  "degree": "M.A, NET",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 20,
+                  "name": "Mr. Ebinesh G",
+                  "designation": "Assistant Professor",
+                  "degree": "M.A, (Ph.D)",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 21,
+                  "name": "Ms. Rashmi R",
+                  "designation": "Assistant Professor",
+                  "degree": "M.A, NET",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 22,
+                  "name": "Ms. Shanthi Pawan Hasan P",
+                  "designation": "Assistant Professor",
+                  "degree": "M.A, M.Phil",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 23,
+                  "name": "Ms. Swetha S",
+                  "designation": "Assistant Professor",
+                  "degree": "M.A, NET",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 24,
+                  "name": "Ms. Anuhasan PK",
+                  "designation": "Assistant Professor",
+                  "degree": "M.A, NET",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 25,
+                  "name": "Dr. Subha E",
+                  "designation": "Professor",
+                  "degree": "MSc, M.Phil, Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 26,
+                  "name": "Dr. Ramakrishnan K",
+                  "designation": "Professor",
+                  "degree": "MSc, M.Phil, Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 27,
+                  "name": "Dr. Mariappan R",
+                  "designation": "Associate Professor",
+                  "degree": "M.Sc, M.Phil, Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 28,
+                  "name": "Mrs. Gayathri P",
+                  "designation": "Assistant Professor",
+                  "degree": "M.Sc, M.Phil, PGDOR",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 29,
+                  "name": "Mrs. Kalamani A",
+                  "designation": "Assistant Professor",
+                  "degree": "M.Sc, M.Phil",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 30,
+                  "name": "Mrs. Indumathi P",
+                  "designation": "Assistant Professor",
+                  "degree": "M.Sc, M.Phil",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 31,
+                  "name": "Dr. Rajarathinam M",
+                  "designation": "Assistant Professor",
+                  "degree": "M.Sc, M.Phil, Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 32,
+                  "name": "Mrs. Ramya S R",
+                  "designation": "Assistant Professor",
+                  "degree": "M.Sc, M.Phil",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 33,
+                  "name": "Mr. Kishorekumar M",
+                  "designation": "Assistant Professor",
+                  "degree": "M.Sc, M.Ed, M.Phil, PGDCPR",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 34,
+                  "name": "Dr. Shanthi M",
+                  "designation": "Assistant Professor",
+                  "degree": "M.Sc, M.Phil, Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 35,
+                  "name": "Ms. Premalatha S",
+                  "designation": "Assistant Professor",
+                  "degree": "M.Sc, M.Phil",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 36,
+                  "name": "Dr. Kavitha A",
+                  "designation": "Assistant Professor",
+                  "degree": "M.Sc, M.Phil, Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 37,
+                  "name": "Ms. Harini T",
+                  "designation": "Assistant Professor",
+                  "degree": "M.Sc",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 38,
+                  "name": "Ms. Umarani K",
+                  "designation": "Assistant Professor",
+                  "degree": "M.Sc, MBA, M.Phil, NET",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 39,
+                  "name": "Mr. Alagupandi A",
+                  "designation": "Assistant Professor",
+                  "degree": "M.Sc",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 40,
+                  "name": "Ms. Priyadharshini R",
+                  "designation": "Assistant Professor",
+                  "degree": "M.Sc",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 41,
+                  "name": "Dr. Thamaraiselvi A",
+                  "designation": "Assistant Professor",
+                  "degree": "M.Sc, M.Phil, Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 42,
+                  "name": "Dr. Dhanasekar PK",
+                  "designation": "Assistant Professor",
+                  "degree": "M.Phil, Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 43,
+                  "name": "Dr. Pooja S",
+                  "designation": "Assistant Professor",
+                  "degree": "M.Sc, Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 44,
+                  "name": "Dr. Anusha C",
+                  "designation": "Assistant Professor",
+                  "degree": "M.Sc, Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 45,
+                  "name": "Ms. Pandiselvi S",
+                  "designation": "Assistant Professor",
+                  "degree": "M.Sc",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 46,
+                  "name": "Dr. Kanimozhi P",
+                  "designation": "Assistant Professor",
+                  "degree": "M.Sc, Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 47,
+                  "name": "Dr. Arun B",
+                  "designation": "Assistant Professor",
+                  "degree": "M.Sc, Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 48,
+                  "name": "Ms. Logapriya B",
+                  "designation": "Assistant Professor",
+                  "degree": "MSc, M.Phil, (Ph.D)",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 49,
+                  "name": "Ms. Jayabarathy G",
+                  "designation": "Assistant Professor",
+                  "degree": "M.Sc, (Ph.D)",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 50,
+                  "name": "Mrs. Padmavathi S",
+                  "designation": "Assistant Professor",
+                  "degree": "M.Sc, M.Phil",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 51,
+                  "name": "Dr. Eswaramoorthi V",
+                  "designation": "Assistant Professor",
+                  "degree": "M.Sc, B.Ed, M.Phil, Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 52,
+                  "name": "Dr. Meiyazhagan S",
+                  "designation": "Assistant Professor",
+                  "degree": "M.Sc, M.Phil, Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 53,
+                  "name": "Ms. Radhamani D",
+                  "designation": "Assistant Professor",
+                  "degree": "M.Sc, M.Phil",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 54,
+                  "name": "Dr. Murugan A",
+                  "designation": "Assistant Professor",
+                  "degree": "M.Sc, Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 55,
+                  "name": "Dr. Hariharan V",
+                  "designation": "Assistant Professor",
+                  "degree": "MSc, Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 56,
+                  "name": "Dr. Abisha Nancy S",
+                  "designation": "Assistant Professor",
+                  "degree": "M.Sc, (Ph.D)",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 57,
+                  "name": "Ms. Kavitha M",
+                  "designation": "Assistant Professor",
+                  "degree": "M.A – Tamil, NET",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 58,
+                  "name": "Mr. Jayaprakash V",
+                  "designation": "Assistant Professor",
+                  "degree": "M.A – Tamil, NET",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "split-image-content",
+      "data": {
+        "sectionbg": "section-bg1 my-4",
+        "image": "/images/gallery/gallery-big.jpg",
+        "content": [
+          {
+            "type": "title",
+            "mainTi": "Faculty"
+          },
+          {
+            "type": "paragraph",
+            "text": [""]
+          },
+          {
+            "type": "button",
+            "text": "View Faculty",
+            "action": "goToFaculty",
+            "newpageData": {
+              "slug": "department-of-science-and-humanities",
+              "banner": {
+                "bannerImg": "/images/kce/banner_computer_technology.jpg",
+                "title": "General Engineering",
+                "breadcrumb": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Departments",
+                    "href": "/departments"
+                  },
+                  {
+                    "href": "/departments/department-of-science-and-humanities",
+                    "label": "Department of Science and Humanities"
+                  },
+                  {
+                    "label": "Faculty"
+                  }
+                ]
+              },
+              "sectionTi": "Our faculty",
+              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+
+              "faculty": [
+                {
+                  "id": 1,
+                  "name": "Mr. Suresh Kumaar G",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 2,
+                  "name": "Ms. Nivedha S",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 3,
+                  "name": "Mr. Rajmurugan R",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 4,
+                  "name": "Ms. Indhumathi R",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 5,
+                  "name": "Ms. Ramya S",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 6,
+                  "name": "Mr. Shivaji Rao G",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 7,
+                  "name": "Ms. Pushpalatha M",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 8,
+                  "name": "Ms. Jeslin J S",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 9,
+                  "name": "Mr. Praveen P",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 10,
+                  "name": "Mr. Santhoshkumar LS",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 11,
+                  "name": "Ms. Yawanikha T",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 12,
+                  "name": "Mr. Anand SV",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 13,
+                  "name": "Mr. Karuppaiah KV",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 14,
+                  "name": "Mr. Deena Dhayalan R",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 15,
+                  "name": "Ms. Sathyaprabha S",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 16,
+                  "name": "Mr. Sarathi S",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 17,
+                  "name": "Mr. Chandru B",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 18,
+                  "name": "Ms. Sathyapriya S",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 19,
+                  "name": "Ms. Jegadheeswari S",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

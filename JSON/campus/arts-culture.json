@@ -1,0 +1,84 @@
+{
+  "banner": {
+    "bannerImg": "/images/kce/banner_computer_technology.jpg",
+    "title": "Arts & Culture",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Infrastructure",
+        "href": "/home/infrastructure"
+      },
+      {
+        "label": "Arts & Culture"
+      }
+    ]
+  },
+
+  "sections": [
+    {
+      "type": "quote-sec",
+      "data": {
+        "title": "Looking Beyond Academics…",
+        "content": [
+          "It’s our firm belief at KCE, that to enhance the skills of our students, they must be provided with opportunities to explore their creativity. Cultural programs are organized several times during the year to encourage creative pursuits and nurture talent. Students form teams and share responsibility in organizing the events.KCE strongly feels that leisure, recreation, extra-curricular activities are essential things for the student to achieve the peak of their performance. Students of KCE are, therefore, offered the opportunities to express skills, talents & creativity in different fields. The pleasure derived out of these activities rejuvenate their energy to overcome the grueling academic pursuit.",
+
+          "Our college has also witnessed many students going up the ladder in the field of music, dance, literature, and sports and we proudly believe that we have played a vital role in their achievements. We are making enormous efforts to bring out a large number of stars in arts and sports who can shine brighter than yesterday and make their tomorrow a successful piece of life."
+        ],
+        "img": "/images/kce/Rectangle 39922.png",
+        "quote": "All Indian festivals are celebrated on campus with enthusiasm and vigor and enthusiasm."
+      }
+    },
+
+    {
+      "type": "gallery",
+      "data": {
+        "title": "Onam – Onam Celebrations | Christmas Celebrations | Pongal Celebrations | Engineers Golu",
+        "content": [
+          {
+            "images": [
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Grammathu_Virundhu2-400x400-1.jpg"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Grammathu_Virundhu6-400x400-1.jpg"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Grammathu_Virundhu-400x400-1.jpg"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Grammathu_Virundhu8-400x400-1.jpg"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Grammathu_Virundhu4-400x400-1.jpg"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Grammathu_Virundhu3-400x400-1.jpg"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/culture1-400x400-1.jpg"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/culture3-400x400-1.jpg"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/culture2-400x400-1.jpg"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Grammathu_Virundhu5-400x400-1.jpg"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Grammathu_Virundhu7-400x400-1.jpg"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Club_Photo7-400x400-2.jpeg"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
