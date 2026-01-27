@@ -1,7 +1,16 @@
-import React from 'react'
+import DeptOfEEEPage from "@/components/00-KCE/Academics/DeptOfEEEPage";
 
-export default function Page() {
+export const metadata = {
+  title: "Best college for Engineering In Tamilnadu - KCE",
+  description: "Unlock your potential in Engineering at KCE, the leading Engineering college in Tamilnadu, providing a nurturing environment for academic and personal growth.",
+};
+
+const page = () => {
   return (
-    <div>departmentengineering</div>
-  )
-}
+    <>
+     <DeptOfEEEPage/>
+    </>
+  );
+};
+
+export default page;
