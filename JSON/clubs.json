@@ -1,0 +1,164 @@
+{
+  "banner": {
+    "bannerImg": "/images/kce/banner_computer_technology.jpg",
+    "title": "Clubs",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Infrastructure",
+        "href": "/home/infrastructure"
+      },
+      {
+        "label": "Clubs"
+      }
+    ]
+  },
+
+  "sections": [
+    {
+      "type": "quote-sec",
+      "data": {
+        "title": " Lorem ipsum dolor sit amet consectetu",
+        "content": [
+          "KCE has many student clubs to connect, engage and explore the talents of the students! Student clubs allow for further exploration and discovery in academic and non- academic areas,enabling growth experiences and learning beyond the classroom  setting. Through this, students are able to develop and hone their leadership skills, as well as appreciate the value of teamwork and  cooperation."
+        ],
+        "img": "/images/kce/Rectangle 39922.png",
+        "quote": "At KCE, you can pour your passion into any interest imaginable...."
+      }
+    },
+
+    {
+      "type": "pill-list",
+      "data": {
+        "title": "Take a peek at some of our clubs...",
+        "description": "Hundreds of events and programmes are held by these clubs around the year with a large number of students participate.",
+        "items": [
+          {
+            "id": 1,
+            "label": "Nature Club",
+            "bullet": "true"
+          },
+          {
+            "id": 2,
+            "label": "Photography Club",
+            "bullet": "true"
+          },
+          {
+            "id": 3,
+            "label": "Film Makers Club",
+            "bullet": "true"
+          },
+          {
+            "id": 4,
+            "label": "Food and Nutrition Club",
+            "bullet": "true"
+          },
+          {
+            "id": 5,
+            "label": "Cycling Club",
+            "bullet": "true"
+          },
+          {
+            "id": 6,
+            "label": "Yoga/ Health Club",
+            "bullet": "true"
+          },
+          {
+            "id": 7,
+            "label": "Journalism Club",
+            "bullet": "true"
+          },
+          {
+            "id": 7,
+            "label": "Free Thinkers and Sky Watching Club",
+            "bullet": "true"
+          },
+          {
+            "id": 7,
+            "label": "Ethnic Club",
+            "bullet": "true"
+          },
+          {
+            "id": 7,
+            "label": "Leadership and Toastmasters Club",
+            "bullet": "true"
+          },
+          {
+            "id": 7,
+            "label": "Music and Dance Club",
+            "bullet": "true"
+          },
+          {
+            "id": 7,
+            "label": "Drawing/ Painting/ Crafts Club",
+            "bullet": "true"
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "gallery",
+      "data": {
+        "title": "Gallery",
+        "content": [
+          {
+            "images": [
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Club_Photo17-400x400-1.jpeg"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Club_Photo20-400x400-1.jpeg"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Club_Photo24-400x400-1.jpeg"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Club_Photo18-400x400-1.jpeg"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Club_Photo26-400x400-1.jpeg"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Club_Photo16-400x400-1.jpeg"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Club_Photo8-400x400-1.jpeg"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Club_Photo21-400x400-1.jpeg"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Club_Photo15-400x400-1.jpeg"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Club_Photo5-400x400-1.jpeg"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Club_Photo7-400x400-1.jpeg"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Club_Photo19-400x400-1.jpeg"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Club_Photo25-400x400-1.jpeg"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Club_Photo4-400x400-1.jpeg"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Club_Photo3-400x400-1.jpeg"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Club_Photo1-400x400-1.jpeg"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

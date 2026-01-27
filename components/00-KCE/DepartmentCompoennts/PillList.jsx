@@ -13,14 +13,26 @@ const PillList = ({ data }) => {
 
         {/* List */}
         <div className="scr-list">
-          {data?.items.map((item) => (
-            <Link href={item?.url || "#"} target={item?.target || "_blank"}>
+          {data?.items.map((item) =>
+            item?.url ? (
+              <Link href={item?.url || "#"} target={item?.target || "_blank"}>
+                <div className="scr-card" key={item.id}>
+                  <span className="scr-card-text">
+                    {item?.bullet && <span className="dcl-bullet">✓</span>}
+                    {item.label}
+                  </span>
+                  <span className="scr-card-arrow">→</span>
+                </div>
+              </Link>
+            ) : (
               <div className="scr-card" key={item.id}>
-                <span className="scr-card-text">{item.label}</span>
-                <span className="scr-card-arrow">→</span>
+                <span className="scr-card-text">
+                  {item?.bullet && <span className="dcl-bullet">✓</span>}
+                  {item.label}
+                </span>
               </div>
-            </Link>
-          ))}
+            ),
+          )}
         </div>
       </div>
     </section>
