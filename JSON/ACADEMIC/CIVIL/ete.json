@@ -1,0 +1,420 @@
+{
+  "banner": {
+    "bannerImg": "/images/kce/banner_computer_technology.jpg",
+    "title": "Department of Electronics and Telecommunication Engineering",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Departments",
+        "href": "/departments"
+      },
+      {
+        "label": "Department of Electronics and Telecommunication Engineering"
+      }
+    ]
+  },
+
+  "sections": [
+    {
+      "type": "image-overlay-card",
+      "data": {
+        "title": "About the Department",
+        "bgImg": "/images/kce/academics/banner.jpg",
+        "description": [
+          "The Department of ETE was started in 2011, has qualified faculty members, well-equipped with state of the art equipment to explore the technological challenges in the area of DSP, VLSI, Devices, modelling MEMS, Communication systems, RF and Microwave Engineering, Microprocessors and Microcontrollers & Networking. The main objective of the department is to produce talented and zealous Electronics and Telecommunication Engineers to satisfy the industrial needs. The department has Centre of Excellence in VLSI and to bring young minds with exploring ideas."
+        ]
+      }
+    },
+
+    {
+      "type": "plain-para",
+      "data": {
+        "content": [
+          "The Department has a separate library which has more than 130 books and it also includes international journals, national journals, magazines, back volumes, project reports and CDs.",
+          "The department maintains an exclusive question bank in the library which comprises a collection of questions from various courses offered. The department has good record of placements in national, international and multinational companies."
+        ]
+      }
+    },
+
+    {
+      "type": "half-card-img",
+      "data": {
+        "content": [
+          {
+            "title": "Our Vision",
+            "description": "The Department of Electronics and Telecommunication Engineering will endeavor to be a leader through its outstanding education and research initiatives and develop expertise in thrust areas for the growth of industry and society.",
+            "image": "/images/kce/academics/banner.jpg"
+          },
+          {
+            "title": "Our Mission",
+            "list": [
+              {
+                "item": [
+                  "Create and disseminate knowledge and skill through creative teaching-learning process and research.",
+                  "Produce globally competent Engineers prepared to face challenges of the society.",
+                  "Develop long term relationship with academia and industry for sustainable development in the field of telecommunication."
+                ]
+              }
+            ],
+            "image": "/images/kce/academics/banner.jpg"
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "image-overlay-content",
+      "data": {
+        "bgImage": "/images/kce/academics/banner.jpg",
+
+        "title": "Regulations",
+        "list": [
+          {
+            "title": "R2023",
+            "url": "https://kce.ac.in/new/wp-content/uploads/2023/07/ET.pdf"
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "card-grid",
+      "data": {
+        "title": "Courses Offered",
+        "content": [
+          {
+            "id": 1,
+            "name": "B.E. Electronics and Telecommunications Engineering"
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "icon-card",
+      "data": {
+        "title": "Lab Facilities",
+        "content": [
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "Electronic devices and circuits Lab-I"
+          },
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "Electronic devices and circuits Lab-II"
+          },
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "LIC/Digital Lab"
+          },
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "VLSI/DSP Lab"
+          },
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "Communication Lab"
+          },
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "Microwave Lab"
+          },
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "Microprocessor Lab"
+          },
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "Project/Network Lab"
+          },
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "MEMS Lab"
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "tabs",
+      "data": {
+        "navigation": [
+          {
+            "title": "Programme Educational Objectives",
+            "id": "peo"
+          },
+          {
+            "title": "Programme Outcomes",
+            "id": "po"
+          },
+
+          {
+            "title": "Program Specific Outcomes",
+            "id": "pso"
+          }
+        ],
+        "content": {
+          "peo": {
+            "sections": [
+              {
+                "type": "card-list1",
+                "data": {
+                  "title": "Programme Educational Objectives",
+                  "content": [
+                    {
+                      "code": "PEO1",
+                      "description": "Graduates will be able to synthesize mathematics, science, engineering fundamentals; laboratory and work-based experiences to formulate and solve problems related to the domain and shall develop proficiency in computer-based engineering and the use of computational tools."
+                    },
+                    {
+                      "code": "PEO2",
+                      "description": "Graduates will engage in Lifelong learning so that they can get adapted in a world of frequently changing technology."
+                    },
+                    {
+                      "code": "PEO3",
+                      "description": "Graduates will be prepared to communicate and work effectively on team-based multidisciplinary engineering projects and will practice the ethics of their profession consistent with a sense of social responsibility."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "po": {
+            "sections": [
+              {
+                "type": "card-list2",
+
+                "data": {
+                  "title": "Programme Outcomes (POs)",
+                  "content": [
+                    {
+                      "code": "PO1",
+                      "title": "Engineering knowledge",
+                      "description": "Apply knowledge of mathematics, natural science, computing, engineering fundamentals and an engineering specialization as specified in WK1 to WK4 respectively to develop to the solution of complex engineering problems."
+                    },
+                    {
+                      "code": "PO2",
+                      "title": "Problem analysis",
+                      "description": "Identify, formulate, review research literature, and analyze complex engineering problems reaching substantiated conclusions using first principles of mathematics, natural sciences, and engineering sciences."
+                    },
+                    {
+                      "code": "PO3",
+                      "title": "Design/development of solutions",
+                      "description": "Design solutions for complex engineering problems and design system components or processes that meet the specified needs with appropriate consideration for the public health and safety, and the cultural, societal, and environmental considerations."
+                    },
+                    {
+                      "code": "PO4",
+                      "title": "Conduct investigations of complex problems",
+                      "description": "Use research-based knowledge and research methods including design of experiments, analysis and interpretation of data, and synthesis of the information to provide valid conclusions."
+                    },
+                    {
+                      "code": "PO5",
+                      "title": "Modern tool usage",
+                      "description": "Create, select, and apply appropriate techniques, resources, and modern engineering and IT tools including prediction and modeling to complex engineering activities with an understanding of the limitations."
+                    },
+                    {
+                      "code": "PO6",
+                      "title": "The engineer and society",
+                      "description": "Apply reasoning informed by the contextual knowledge to assess societal, health, safety, legal and cultural issues and the consequent responsibilities relevant to the professional engineering practice."
+                    },
+                    {
+                      "code": "PO7",
+                      "title": "Environment and sustainability",
+                      "description": "Understand the impact of the professional engineering solutions in societal and environmental contexts, and demonstrate the knowledge of, and need for sustainable development."
+                    },
+                    {
+                      "code": "PO8",
+                      "title": "Ethics",
+                      "description": "Apply ethical principles and commit to professional ethics and responsibilities and norms of the engineering practice."
+                    },
+                    {
+                      "code": "PO9",
+                      "title": "Individual and team work",
+                      "description": "Function effectively as an individual, and as a member or leader in diverse teams, and in multidisciplinary settings."
+                    },
+                    {
+                      "code": "PO10",
+                      "title": "Communication",
+                      "description": "Communicate effectively on complex engineering activities with the engineering community and with society at large, such as, being able to comprehend and write effective reports and design documentation, make effective presentations, and give and receive clear instructions."
+                    },
+                    {
+                      "code": "PO11",
+                      "title": "Project management and finance",
+                      "description": "Demonstrate knowledge and understanding of the engineering and management principles and apply these to one’s own work, as a member and leader in a team, to manage projects and in multidisciplinary environments."
+                    },
+                    {
+                      "code": "PO12",
+                      "title": "Life-Long Learning",
+                      "description": "Recognize the need for, and have the preparation and ability to engage in independent and life-long learning in the broadest context of technological change."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+
+          
+
+          "pso": {
+            "sections": [
+              {
+                "type": "card-list3",
+                "data": {
+                  "title": "Program Specific Outcomes (PSOs)",
+
+                  "content": [
+                    {
+                      "code": "PSO1",
+                      "description": "Comprehend and analyze specific engineering problems in the field of Electronics & Telecommunication Engineering by applying the concepts of science, mathematics and engineering basics with Competency in using electronic Design Automation tools (both software and hardware) for the analysis and design of advanced electronic systems which culminates to link academics with research."
+                    },
+                    {
+                      "code": "PSO2",
+                      "description": "Apply the contextual knowledge of Electronics and Telecommunication Engineering to find solution to real time problems as an individual or a leader in a team to manage software projects pertaining to interdisciplinary environments to enhance life-long learning."
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+
+    
+
+    {
+      "type": "split-image-content",
+      "data": {
+        "sectionbg": "section-bg1 my-4",
+        "image": "/images/gallery/gallery-big.jpg",
+        "content": [
+          {
+            "type": "title",
+            "mainTi": "Falculty"
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              ""
+            ]
+          },
+          {
+            "type": "button",
+            "text": "View Campus Gallery",
+            "action": "goToFaculty",
+            "newpageData": {
+              "slug": "department-of-electronics-and-communication-engineering",
+              "banner": {
+                "bannerImg": "/images/kce/banner_computer_technology.jpg",
+                "title": "Department of Electrical and Electronics Engineering",
+                "breadcrumb": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Departments",
+                    "href": "/departments"
+                  },
+                  {
+                    "href": "/departments/department-of-electronics-and-communication-engineering",
+                    "label": "Department of Electrical and Electronics Engineering"
+                  },
+                  {
+                    "label": "Faculty"
+                  }
+                ]
+              },
+              "sectionTi": "Our faculty",
+              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+
+              "faculty": [
+                {
+                  "id": 1,
+                  "name": "Dr. Vadivelu R",
+                  "designation": "Professor / Head",
+                  "degree": "M.Tech, Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 2,
+                  "name": "Dr. Sethuramalingam T K",
+                  "designation": "Associate Professor",
+                  "degree": "M.Tech, Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 3,
+                  "name": "Ms. Ramadevi S",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 4,
+                  "name": "Ms. Sinduja V",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 5,
+                  "name": "Ms. Vimaladevi M",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 6,
+                  "name": "Mr. Mathiyazhakan C",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 7,
+                  "name": "Mr. Karthick PS",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 8,
+                  "name": "Mr. Vairamuthu P",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 9,
+                  "name": "Mr. Anand SV",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "pill-list",
+      "data": {
+        "title": "Smart Class Rooms",
+        "description": "Smart class room resources and course materials for EEE department.",
+        "items": [
+          {
+            "id": 1,
+            "label": "Click Here",
+            "url": "https://kce.ac.in/new/wp-content/uploads/2021/04/Smart-Class-link-2019_20-converted.pdf"
+          }
+        ]
+      }
+    }
+  
+  ]
+}
