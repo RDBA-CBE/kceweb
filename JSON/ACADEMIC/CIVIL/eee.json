@@ -1596,37 +1596,8 @@
           }
         ]
       }
-    },
-
-    {
-      "type": "video-card",
-      "data": {
-        "secTitle": "Education videos",
-        "items": [
-          {
-            "id": 1,
-            "type": "video",
-
-            "youtubeId": "rUJL7ExypQw"
-          },
-          {
-            "id": 2,
-            "type": "resource",
-            "label": "Pulse and Digital Circuits",
-            "url": "https://lecturenotes.in/u/niveditada8e90c4",
-            "urlText": "View",
-            "src": ""
-          },
-          {
-            "id": 3,
-            "type": "resource",
-            "label": "YouTube Channel",
-            "url": "https://www.youtube.com/channel/UCmZxg-O5X1B2pfVIAs1qbig",
-            "urlText": "View",
-            "src": ""
-          }
-        ]
-      }
     }
+
+   
   ]
 }
