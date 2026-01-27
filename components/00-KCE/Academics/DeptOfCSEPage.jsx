@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import data from "../../../JSON/ACADEMIC/CIVIL/cse.json";
+import data from "../../../JSON/ACADEMIC/dept_of_cse.json";
 import InnerBanner from "@/components/00-KCE/common/InnerBanner";
 import RenderSection from "../RenderComponent/RenderSection";
 

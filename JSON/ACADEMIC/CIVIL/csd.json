@@ -1,7 +1,7 @@
 {
   "banner": {
     "bannerImg": "/images/kce/banner_computer_technology.jpg",
-    "title": "Department of Computer Science and Engineering (Cyber Security)",
+    "title": "Department of Computer Science and Design",
     "breadcrumb": [
       {
         "label": "Home",
@@ -12,7 +12,7 @@
         "href": "/departments"
       },
       {
-        "label": "Department of Computer Science and Engineering (Cyber Security)"
+        "label": "Department of Computer Science and Design"
       }
     ]
   },
@@ -24,17 +24,7 @@
         "title": "About the Department",
         "bgImg": "/images/kce/academics/banner.jpg",
         "description": [
-          "The department was established with an undergraduate programme in Computer Science and Engineering (Cyber Security) in 2020. This is a specialization branch of Computer Science and Engineering in which students get the technical knowledge in the Computer Science and Engineering, Cyber Security, Digital Forensic and emerging areas such as Device Security and Forensics. The department is well equipped with laboratories like Cryptography Lab, Network Security Lab, Internet and Web Application Security Lab, Ethical Hacking Lab, Vulnerability Assessment and Penetration Testing Lab, Malware Analysis, Secure Coding Lab, Cyber Forensics and Digital Forensics lab."
-        ]
-      }
-    },
-
-    {
-      "type": "plain-para",
-      "data": {
-        "content": [
-          "The department has well-experienced and highly-motivated faculty members and their major areas include Networking and network Security, Ethical hacking, Web Application Security, Penetration Testing, Malware analysis and Cyber Forensics. The faculty members impart their knowledge and skills to the students to achieve the goals of the department.",
-          "The faculty members are encouraged to publish articles in national and international journals. The Department has signed MoUs with leading industries and organizations for establishing collaborative research, conducting Workshops, Seminars and for organizing International Conferences. Professional association CyberWatch Center is developed for professional interaction."
+          "B.E. Computer Science and Design offered at Karpagam College of Engineering and established in the year 2021. Computer Science and Design Engineering programme has been developed to give students a solid foundation in computing as well as design principles, new media technologies, and applications. The Computer Science and Design (CSD) degree includes core design courses and solid programming foundations. Graduation in CSD seeks to offer a comprehensive career programme to equip students with the most up-to-date design technology to influence future generations. By taking this programme, students will be able to develop an interdisciplinary skill set that will prepare them for a variety of careers, including those in the arts, entertainment/games, animation, virtual and augmented reality, mobile application development, multimedia, product/web design, cybersecurity, and other interactive systems."
         ]
       }
     },
@@ -45,7 +35,7 @@
         "content": [
           {
             "title": "Our Vision",
-            "description": "To develop technically cyber skilled professionals by imparting state-of-art innovative, multi-disciplinary teams to address contemporary and future cyber security through innovative and flexible environment.",
+            "description": "To produce computer design professionals by providing high quality education in the field of computer science and design technology to achieve strong employability research and thereby orient towards serving globalized and regional technology societies.",
             "image": "/images/kce/academics/banner.jpg"
           },
           {
@@ -53,9 +43,9 @@
             "list": [
               {
                 "item": [
-                  "To educate and train the budding engineers in the field of Cyber Security and cyber forensics in academia and industry.",
-                  "To establish Centre of Research in Cyber Security and Cyber Forensics to address the technical challenges.",
-                  "To enhance the entrepreneurship skills by providing training through Industry Institute Interaction and government program."
+                  "Provide high quality education in computer science and design domain to prepare our graduates leading to high employability and contributing to the economic, scientific and social development of the nation",
+                  "Promote excellence in teaching scholarly activity creative endeavours and public service by following effective teaching and research methodologies",
+                  "Establish centres of research in the areas of computer science and design by imparting state-of-the-art technical knowledge to meet the immediate needs of the society"
                 ]
               }
             ],
@@ -74,7 +64,7 @@
         "list": [
           {
             "title": "R2023",
-            "url": "https://kce.ac.in/new/wp-content/uploads/2023/07/CY.pdf"
+            "url": "https://kce.ac.in/new/wp-content/uploads/2023/07/CD.pdf"
           }
         ]
       }
@@ -87,7 +77,7 @@
         "content": [
           {
             "id": 1,
-            "name": "B.E Computer Science and Engineering(Cyber Security)"
+            "name": "B.E. Computer Science and Design"
           }
         ]
       }
@@ -100,51 +90,39 @@
         "content": [
           {
             "img": "/images/kce/icon.webp",
-            "title": "Cryptography and Information Security Lab"
+            "title": "Electrical Machines Laboratory-I"
           },
           {
             "img": "/images/kce/icon.webp",
-            "title": "Computer Networks and Network Security Lab"
+            "title": "Electrical Machines Laboratory-II"
           },
           {
             "img": "/images/kce/icon.webp",
-            "title": "Internet and Web Application Security Lab"
+            "title": "Measurements & Instrumentation Laboratory"
           },
           {
             "img": "/images/kce/icon.webp",
-            "title": "Ethical Hacking Lab"
+            "title": "Linear Integrated circuits Laboratory"
           },
           {
             "img": "/images/kce/icon.webp",
-            "title": "Penetration Testing Lab"
+            "title": "Power Electronics Laboratory"
           },
           {
             "img": "/images/kce/icon.webp",
-            "title": "Malware Analysis Lab"
+            "title": "Electrical circuits Laboratory"
           },
           {
             "img": "/images/kce/icon.webp",
-            "title": "Secure Coding Lab"
+            "title": "Control System Laboratory"
           },
           {
             "img": "/images/kce/icon.webp",
-            "title": "Cyber Security and Machine Learning Lab"
+            "title": "Power System Simulation Laboratory"
           },
           {
             "img": "/images/kce/icon.webp",
-            "title": "IoT Security Lab"
-          },
-          {
-            "img": "/images/kce/icon.webp",
-            "title": "Cloud Security Lab"
-          },
-          {
-            "img": "/images/kce/icon.webp",
-            "title": "Cyber Forensics Lab"
-          },
-          {
-            "img": "/images/kce/icon.webp",
-            "title": "Digital Forensics lab"
+            "title": "LabVIEW Academy"
           }
         ]
       }
@@ -162,7 +140,6 @@
             "title": "Programme Outcomes",
             "id": "po"
           },
-
           {
             "title": "Program Specific Outcomes",
             "id": "pso"
@@ -178,15 +155,15 @@
                   "content": [
                     {
                       "code": "PEO1",
-                      "description": "Graduates will be able to comprehend mathematics, science, engineering fundamentals, laboratory and work-based experiences to formulate and solve problems related to the domain of Cyber Security, Cyber Forensics and develop proficiency in computer based engineering and the use of computation tools."
+                      "description": "Graduates will be prepared to the practice and grow as computing and design professionals, conducting research undertaking professional leadership entrepreneur graphics and game designing developing maintaining projects in various technical areas of computer science and design"
                     },
                     {
                       "code": "PEO2",
-                      "description": "Graduates will be prepared to communicate and work effectively on the multidisciplinary engineering projects practicing the ethics of their profession with a sense of social responsibility."
+                      "description": "Graduates will be nurtured to use and apply computer science and design principles through lifelong learning creatively and responsibly with a high degree of professionalism and with a clear understanding of ethical and legal issues and produce tangible contributions in their profession"
                     },
                     {
                       "code": "PEO3",
-                      "description": "Graduates will recognize the importance of lifelong learning to become experts both as entrepreneurs or employees and to extend their knowledge in their domain."
+                      "description": "Graduates will be trained to communicate and work effectively on the multidisciplinary engineering projects related to computer science and design with strong professional and work ethics for the betterment of the society"
                     }
                   ]
                 }
@@ -224,7 +201,7 @@
                     {
                       "code": "PO5",
                       "title": "Modern tool usage",
-                      "description": "Create, select, and apply appropriate techniques, resources, and modern engineering and IT tools including prediction and modeling to complex engineering activities with an understanding of the limitations."
+                      "description": "Create, select, and apply appropriate techniques, resources, and modern engineering and IT tools including prediction and modeling to complex engineering activities with an understanding of the limitations"
                     },
                     {
                       "code": "PO6",
@@ -239,7 +216,7 @@
                     {
                       "code": "PO8",
                       "title": "Ethics",
-                      "description": "Apply ethical principles and commit to professional ethi"
+                      "description": "Apply ethical principles and commit to professional ethics and responsibilities and norms of the engineering practice."
                     },
                     {
                       "code": "PO9",
@@ -258,8 +235,57 @@
                     },
                     {
                       "code": "PO12",
-                      "title": "Life-Long Learning",
+                      "title": "Life-long learning",
                       "description": "Recognize the need for, and have the preparation and ability to engage in independent and life-long learning in the broadest context of technological change."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+
+          "wk": {
+            "sections": [
+              {
+                "type": "card-list1",
+                "data": {
+                  "title": "Knowledge and Attitude Profile (WK)",
+                  "content": [
+                    {
+                      "code": "WK1",
+                      "description": "A systematic, theory-based understanding of the natural sciences applicable to the discipline and awareness of relevant social sciences"
+                    },
+                    {
+                      "code": "WK2",
+                      "description": " Conceptually-based mathematics, numerical analysis, data analysis, statistics and formal aspects of computer and information science to support detailed analysis and modelling applicable to the discipline"
+                    },
+                    {
+                      "code": "WK3",
+                      "description": "A systematic, theory-based formulation of engineering fundamentals required in the engineering discipline"
+                    },
+                    {
+                      "code": "WK4",
+                      "description": "Engineering specialist knowledge that provides theoretical frameworks and bodies of knowledge for the accepted practice areas in the engineering discipline; much is at the forefront of the discipline."
+                    },
+                    {
+                      "code": "WK5",
+                      "description": "Knowledge, including efficient resource use, environmental impacts, whole-life cost, reuse of resources, net zero carbon, and similar concepts, that supports engineering design and operations in a practice area"
+                    },
+                    {
+                      "code": "WK6",
+                      "description": "Knowledge of engineering practice (technology) in the practice areas in the engineering discipline."
+                    },
+                    {
+                      "code": "WK7",
+                      "description": "Knowledge of the role of engineering in society and identified issues in engineering practice in the discipline, such as the professional responsibility of an engineer to public safety and sustainable development."
+                    },
+                    {
+                      "code": "WK8",
+                      "description": "Engagement with selected knowledge in the current research literature of the discipline, awareness of the power of critical thinking and creative approaches to evaluate emerging issues."
+                    },
+                    {
+                      "code": "WK9",
+                      "description": "Ethics, inclusive behavior and conduct. Knowledge of professional ethics, responsibilities, and norms of engineering practice. Awareness of the need for diversity by reason of ethnicity, gender, age, physical ability etc. with mutual understanding and respect, and of inclusive attitudes."
                     }
                   ]
                 }
@@ -277,11 +303,11 @@
                   "content": [
                     {
                       "code": "PSO1",
-                      "description": " Analyze, Design, Implement, Development and production in practices of computer science and engineering application pivot to Cryptography, Cyber Security and Cyber Forensics."
+                      "description": "Apply the knowledge in the field of electrical and electronics engineering to analyse, design and develop solutions for real world problems."
                     },
                     {
                       "code": "PSO2",
-                      "description": "Ability to adapt for rapid growth in tools and technology with an understanding and solving the complex issues in vulnerability, risk assessment, physical and technical safe guards relevant to professional engineering."
+                      "description": "Demonstrate the skill in core and allied domain to work in interdisciplinary teams."
                     }
                   ]
                 }
@@ -291,7 +317,6 @@
         }
       }
     },
-
     {
       "type": "split-image-content",
       "data": {
@@ -304,17 +329,19 @@
           },
           {
             "type": "paragraph",
-            "text": [""]
+            "text": [
+              ""
+            ]
           },
           {
             "type": "button",
             "text": "View Campus Gallery",
             "action": "goToFaculty",
             "newpageData": {
-              "slug": "department-of-computer-sciences-and-engineering-cyber-security",
+              "slug": "Department-of-computer-science-and-design",
               "banner": {
                 "bannerImg": "/images/kce/banner_computer_technology.jpg",
-                "title": "Department of Electrical and Electronics Engineering",
+                "title": "Department of Computer Science and Design",
                 "breadcrumb": [
                   {
                     "label": "Home",
@@ -325,8 +352,8 @@
                     "href": "/departments"
                   },
                   {
-                    "href": "/departments/department-of-computer-sciences-and-engineering-cyber-security",
-                    "label": "Department of Electrical and Electronics Engineering"
+                    "href": "/departments/department-of-computer-science-and-design",
+                    "label": "Department of Computer Science and Design"
                   },
                   {
                     "label": "Faculty"
@@ -339,65 +366,44 @@
               "faculty": [
                 {
                   "id": 1,
-                  "name": "Dr. Rasi D",
-                  "designation": "Professor & Head",
+                  "name": "Dr. Madhumitha R",
+                  "designation": "Professor and Head",
                   "degree": "M.E, Ph.D",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
                   "id": 2,
-                  "name": "Dr. Muthanantha Murugavel AS",
-                  "designation": "Professor",
-                  "degree": "M.E, Ph.D",
+                  "name": "Ms. Vennila M",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
                   "id": 3,
-                  "name": "Dr. Vignesh V",
-                  "designation": "Associate Professor",
-                  "degree": "M.E, Ph.D",
+                  "name": "Ms. Sandhiya V",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
                   "id": 4,
-                  "name": "Dr. Jothi Prakash V",
+                  "name": "Mr. Arul A",
                   "designation": "Assistant Professor",
-                  "degree": "M.Tech, Ph.D",
+                  "degree": "M.E",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
                   "id": 5,
-                  "name": "Ms. Priyanka V",
+                  "name": "Ms. Dhivya P",
                   "designation": "Assistant Professor",
                   "degree": "M.E",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
                   "id": 6,
-                  "name": "Ms. Sasikala R AP",
+                  "name": "Mr. Vivek Amruth C",
                   "designation": "Assistant Professor",
-                  "degree": "M.E",
-                  "src": "/images/kce/Portrait_Placeholder.png"
-                },
-                {
-                  "id": 7,
-                  "name": "Mr. Ravindran J",
-                  "designation": "Assistant Professor",
-                  "degree": "M.E",
-                  "src": "/images/kce/Portrait_Placeholder.png"
-                },
-                {
-                  "id": 8,
-                  "name": "Ms. Jermina F",
-                  "designation": "Assistant Professor",
-                  "degree": "M.E",
-                  "src": "/images/kce/Portrait_Placeholder.png"
-                },
-                {
-                  "id": 9,
-                  "name": "Ms. Abinaya V",
-                  "designation": "Assistant Professor",
-                  "degree": "M.E",
+                  "degree": "M.Tech.",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 }
               ]
