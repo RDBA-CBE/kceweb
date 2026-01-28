@@ -1,0 +1,103 @@
+{
+  "banner": {
+    "bannerImg": "/images/kce/banner_computer_technology.jpg",
+    "title": "Campus Events",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Infrastructure",
+        "href": "/home/infrastructure"
+      },
+      {
+        "label": "Campus Events"
+      }
+    ]
+  },
+
+  "sections": [
+    {
+      "type": "split-image-content",
+      "data": {
+        "imagePosition": "right",
+        "sectionbg": "section-bg1 my-4",
+        "image": "/images/gallery/gallery-big.jpg",
+        "content": [
+          {
+            "type": "title",
+            "mainTi": "KALAM"
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              "Every year we use to organize an intercollegiate Extracurricular Fest “KALAM”, In Search of Talents! For the freshmen. During KALAM the events such as Cricket Tournament, Kabaddi, Carving, Drawing and painting, rangoli, Facial painting, mehndi, solo, group dance, rock band, fun games and DJ Night."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "split-image-content",
+      "data": {
+        "imagePosition": "left",
+        "sectionbg": "section-bg1 my-4",
+        "image": "/images/gallery/gallery-big.jpg",
+        "content": [
+          {
+            "type": "title",
+            "mainTi": "DHRUVA"
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              "As “DHRUVA – A National Level Techno – Management – Cultural Fest”, will be conducted every year during the month of FEB."
+            ]
+          },
+          {
+            "type": "list",
+            "items": [
+              "100+ Technical Events",
+              "50+ Workshops",
+              "50+ Cultural Events",
+              "20+ Traditional Events",
+              "10+ Championship Events",
+              "10+ Fun Events",
+              "Cultural Events, Fun zone, Entertainment Zone, Game Zone, etc.,will be conducted. this event is inter college event which attracts more than 5000+ students every year."
+            ]
+          }
+        ]
+      }
+    },
+   
+    {
+      "type": "gallery",
+      "data": {
+        "title": "Gallery",
+        "content": [
+          {
+            "images": [
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/IMG_5577-400x400-1-150x150.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/DSCN9680-400x400-1-150x150.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/23669179_315030322346240_7912225960938736028_o-400x400-1-150x150.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/21994270_290834008099205_9138609884951038038_o-400x400-1-150x150.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/12819302_1771197169769793_2520242715302457733_o-400x400-1-150x150.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/DSCN7933-400x400-1-150x150.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/22042070_291663418016264_3355416006840806132_o-400x400-1-150x150.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/MG_0022-400x400-1-150x150.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/25626104_329071830942089_5655039269280338731_o-400x400-1-150x150.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/DSC_0033-400x400-1-150x150.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/IMG_8233-400x400-1-150x150.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/IMG_1934-400x400-1-150x150.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/DSCN9964-400x400-1-150x150.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/IMG_1107-400x400-1-150x150.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/DSCN9802-400x400-1-150x150.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/19390520_1352135768201736_1553165799399258520_o-400x400-1-150x150.jpg" }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
