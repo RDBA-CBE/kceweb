@@ -1,7 +1,17 @@
+import ClubsPage from '@/components/00-KCE/Campus/clubs';
+import HostelPage from '@/components/00-KCE/Campus/hostel';
 import React from 'react'
 
-export default function Page() {
+export const metadata = {
+  title: "Best college for Engineering In Tamilnadu - KCE",
+  description:
+    "Unlock your potential in Engineering at KCE, the leading Engineering college in Tamilnadu, providing a nurturing environment for academic and personal growth.",
+};
+
+const page = () => {
   return (
-    <div>hostel</div>
+    <HostelPage/>
   )
 }
+
+export default page

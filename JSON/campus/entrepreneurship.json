@@ -1,0 +1,119 @@
+{
+  "banner": {
+    "bannerImg": "/images/kce/banner_computer_technology.jpg",
+    "title": "Entrepreneurship",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Infrastructure",
+        "href": "/home/infrastructure"
+      },
+      {
+        "label": "Entrepreneurship"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "quote-sec",
+      "data": {
+        "title": "",
+        "content": [
+          "KCE encourages and accelerates development of indigenous products and packages by bridging the gap between R&D and commercialization. KCE facilitates entrepreneurial training and IPR development guidance by involving experienced faculty in startup activities. KCE ensures interaction between education and industry through the alignment of education with exact market demands. The Entrepreneurship cell organizes Entrepreneurship Awareness Camps, Entrepreneurship Development Programmes, Faculty Development Programmes and Skill Development Programmes in the institution.KCE seeks to nurture technology and knowledge-based ventures through their start-up phase. It provides the necessary support to help entrepreneurs survive in the competitive market and reach a stage where they can scale-up their ventures further. The KIC aims to build and share resources including space and infrastructure, access to business support services, mentoring, training programmes to enhance the skills of entrepreneurs and seed funds."
+        ]
+      }
+    },
+    {
+      "type": "logo-img",
+      "data": {
+        "title": "The following are the startups incubated in KIC",
+        "content": [
+          {
+            "images": [
+              {
+                "img": "/images/gallery/gallery-big.jpg",
+                "title": "Institute of Electrical and Electronics Engineers (IEEE)"
+              },
+              {
+                "img": "/images/gallery/gallery-big.jpg",
+                "title": "Computer Society of India (CSI)"
+              },
+              {
+                "img": "/images/gallery/gallery-big.jpg",
+                "title": "Indian Society for Technical Education (ISTE)"
+              },
+              {
+                "img": "/images/gallery/gallery-big.jpg",
+                "title": "Indian Welding Society (IWS)"
+              },
+              {
+                "img": "/images/gallery/gallery-big.jpg",
+                "title": "Indian Concrete Institute (ICI)"
+              },
+              {
+                "img": "/images/gallery/gallery-big.jpg",
+                "title": "Indian Geotechnical Society (IGS)"
+              },
+              {
+                "img": "/images/gallery/gallery-big.jpg",
+                "title": "Indian Geotechnical Society (IGS)"
+              },
+              {
+                "img": "/images/gallery/gallery-big.jpg",
+                "title": "Indian Geotechnical Society (IGS)"
+              },
+              {
+                "img": "/images/gallery/gallery-big.jpg",
+                "title": "Indian Geotechnical Society (IGS)"
+              },
+              {
+                "img": "/images/gallery/gallery-big.jpg",
+                "title": "Indian Geotechnical Society (IGS)"
+              },
+              {
+                "img": "/images/gallery/gallery-big.jpg",
+                "title": "Indian Geotechnical Society (IGS)"
+              },
+              {
+                "img": "/images/gallery/gallery-big.jpg",
+                "title": "Indian Geotechnical Society (IGS)"
+              },
+              {
+                "img": "/images/gallery/gallery-big.jpg",
+                "title": "Indian Geotechnical Society (IGS)"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    
+    {
+      "type": "gallery",
+      "data": {
+        "title": "Gallery",
+        "content": [
+          {
+            "images": [
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/KCE_YouthDay-400x400-1-1-150x150.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/KCE_StoryTelling-400x400-1-1-150x150.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/KCE_Startup_Weekend2-150x150.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/KCE_Startup_Weekend1-400x400-1-150x150.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/KCE_Startup_Weekend-400x400-1-1-150x150.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/KCE_Startup_Concalve-400x400-2-150x150.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/KCE_Startup-400x400-1-150x150.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/KCE_Start_a_Startup2-400x400-1-150x150.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/KCE_Start_a_Startup-400x400-1-150x150.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/KCE_Epiphany3-400x400-1-1-150x150.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/KCE_Epiphany1-400x400-1-1-150x150.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/KCE_Epiphany-400x400-1-1-150x150.jpg" }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
