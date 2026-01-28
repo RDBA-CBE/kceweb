@@ -1438,29 +1438,40 @@
 }
 
 @media only screen and (max-width: 1200px) {
-   .kce .brand-style-3 li {
-        flex-basis: 20%;
-    }
+  .kce .brand-style-3 li {
+    flex-basis: 20%;
+  }
+
+  .kce.gallery .brand-style-3 li {
+    flex-basis: 14%;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .kce .brand-style-3 li {
     flex-basis: 25%;
   }
+
+  .kce.gallery .brand-style-3 li {
+    flex-basis: 16%;
+  }
 }
 
 @media only screen and (max-width: 767px) {
-   .kce .brand-style-3 li {
-        flex-basis: 25%;
-    }
+  .kce .brand-style-3 li {
+    flex-basis: 25%;
+  }
+
+  .kce.gallery .brand-style-3 li {
+    flex-basis: 20%;
+  }
 }
 
 @media only screen and (max-width: 479px) {
-    .kce .brand-style-3 li {
-        flex-basis: 50%;
-    }
+  .kce .brand-style-3 li {
+    flex-basis: 50%;
+  }
 }
-
 
 /* WRAPPER */
 
@@ -1661,7 +1672,6 @@
   }
 }
 
-
 .logo-groups-section {
   padding: 30px 0;
 }
@@ -1684,15 +1694,12 @@
   background: #cfd8dc;
 }
 
-
-
 .logo-group-logos {
   display: flex;
   // gap: 20px;
   flex-wrap: wrap;
   row-gap: 15px;
   // align-items: center;
-
 }
 
 .logo-box {
@@ -1720,3 +1727,220 @@
     display: none;
   }
 }
+
+/* mom-timeline.css */
+
+.mom-section {
+  padding: 24px 0;
+}
+
+.mom-header {
+  background: #e9f2f6;
+  padding: 14px 20px;
+  font-weight: 600;
+  border-radius: 6px;
+  margin-bottom: 24px;
+}
+
+.mom-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 20px;
+  height: 100%;
+}
+
+.mom-card-inner {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+/* Year circle */
+.mom-year {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background: #eef5f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 20px;
+  color: #444;
+  flex-shrink: 0;
+}
+
+/* Timeline */
+.mom-timeline {
+  position: relative;
+  padding-left: 2px;
+}
+.mom-vertical-line {
+  position: absolute;
+  left: 0;
+  top: 6px;
+  bottom: 6px;
+  width: 1px;
+  background: #bfc5ca;
+}
+.mom-timeline-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+  position: relative;
+}
+
+/* Horizontal line */
+
+.mom-horizontal-line {
+  width: 50px;
+  height: 1px;
+  background: #bfc5ca;
+  margin-left: -1px;
+}
+
+
+
+/* Arrow head */
+.mom-arrow {
+  position: relative;
+  width: 14px;
+  height: 10px;
+  margin-left: 4px;
+}
+
+.mom-arrow::before,
+.mom-arrow::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 10px;
+  height: 10px;
+  border-top: 1.5px solid #bfc5ca;
+  border-right: 1.5px solid #bfc5ca;
+  transform: translateY(-50%) rotate(45deg);
+}
+
+.mom-arrow::before {
+  left: 0;
+}
+
+.mom-arrow::after {
+  left: 5px;
+}
+
+.mom-date {
+  margin-left: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+/* ========================= */
+/* Responsive Media Queries */
+/* ========================= */
+
+@media (max-width: 991px) {
+  .mom-card-inner {
+    gap: 20px;
+  }
+
+  .mom-year {
+    width: 90px;
+    height: 90px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 575px) {
+  .mom-card-inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .mom-year {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 12px;
+  }
+
+
+
+  .mom-horizontal-line {
+    width: 40px;
+  }
+
+ 
+}
+
+
+
+/* policy-strip.css */
+
+.ps-section {
+  padding: 20px 0;
+}
+
+.ps-card {
+  background: #e9f4f7;
+  border-radius: 6px;
+  padding: 16px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  transition: background 0.25s ease;
+}
+
+.ps-card:hover {
+  background: #dfeef3;
+}
+
+/* Title */
+.ps-title {
+  font-size: 14px;
+  font-weight: 500;
+  color: #2f2f2f;
+}
+
+/* Double chevron arrow */
+.ps-arrow {
+  position: relative;
+  width: 16px;
+  height: 10px;
+}
+
+.ps-arrow::before,
+.ps-arrow::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 6px;
+  height: 6px;
+  border-top: 1.5px solid #3a6b7a;
+  border-right: 1.5px solid #3a6b7a;
+  transform: translateY(-50%) rotate(45deg);
+}
+
+.ps-arrow::before {
+  left: 0;
+}
+
+.ps-arrow::after {
+  left: 6px;
+}
+
+/* ========================= */
+/* Responsive adjustments */
+/* ========================= */
+
+@media (max-width: 575px) {
+  .ps-card {
+    padding: 14px 16px;
+  }
+
+  .ps-title {
+    font-size: 13px;
+  }
+}
+

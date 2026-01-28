@@ -1,0 +1,59 @@
+{
+  "banner": {
+    "bannerImg": "/images/kce/banner_computer_technology.jpg",
+    "title": "National Innovation and Start-up Policy",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Infrastructure",
+        "href": "/home/infrastructure"
+      },
+      {
+        "label": "National Innovation and Start-up Policy"
+      }
+    ]
+  },
+
+  "sections": [
+     {
+      "type": "rectangle-list",
+      "data": {
+        "content": [
+          {
+            "title": "NISP Committee",
+            "url": "/nisp-committee"
+          },
+          {
+            "title": "KCE Startup Policy",
+            "url": "/kce-startup-policy"
+          }
+        ]
+      }
+    },
+    {
+      "type": "timeline",
+      "data": {
+        "title": "Minutes Of Meeting",
+        "content": [
+          {
+            "year": "2023",
+            "dates": ["10.08.2023", "10.08.2023", "10.08.2023", "10.08.2023"]
+          },
+          {
+            "year": "2023",
+            "dates": ["10.08.2023", "10.08.2023", "10.08.2023"]
+          },
+          {
+            "year": "2023",
+            "dates": ["10.08.2023", "10.08.2023", "10.08.2023", "10.08.2023"]
+          }
+        ]
+      }
+    }
+
+   
+  ]
+}
