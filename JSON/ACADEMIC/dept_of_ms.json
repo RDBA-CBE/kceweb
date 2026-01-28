@@ -117,12 +117,15 @@
           "mentor": {
             "sections": [
               {
-                "type": "card-list1",
+                "type": "split-image-content",
                 "data": {
-                  "title": "MENTORING - AN INNOVATIVE APPROACH IN LEARNING",
+                  "secTitle": "",
                   "content": [
                     {
-                      "description": "On admission, the students are divided into small groups. Each group is attached to a faculty mentor who will be their friend, philosopher and guide for the next two years of their study at KCE. These groups meet frequently to analyze what they have studied the previous week or what they have read in the library or maybe to discuss an issue if anyone in the group faces one. Members of these groups make regular presentations on current topics. The faculty member will closely monitor all the activities of the group attached to him and mentor them. This helps the students shed their inhibitions, develop communication skills and become good public speakers and communicators. Students also learn the intricacies of human relations, methods of problem solving and decision making"
+                      "type": "paragraph",
+                      "text": [
+                        "On admission, the students are divided into small groups. Each group is attached to a faculty mentor who will be their friend, philosopher and guide for the next two years of their study at KCE. These groups meet frequently to analyze what they have studied the previous week or what they have read in the library or maybe to discuss an issue if anyone in the group faces one. Members of these groups make regular presentations on current topics. The faculty member will closely monitor all the activities of the group attached to him and mentor them. This helps the students shed their inhibitions, develop communication skills and become good public speakers and communicators. Students also learn the intricacies of human relations, methods of problem solving and decision making"
+                      ]
                     }
                   ]
                 }
@@ -132,97 +135,91 @@
           "cutting": {
             "sections": [
               {
-                "type": "card-list2",
-
+                "type": "split-image-content",
                 "data": {
-                  "title": "CUTTING-EDGE TEACHING AIDS",
-
+                  "secTitle": "",
                   "content": [
                     {
-                      "description": "Curriculum Pedagogy provides the experience of “Google Class room” by which management students are mould to be fit into Digital Knowledge Driven world. Class rooms with smart boards enables digital connectivity. Each student has got their individual laptops and transfers the teaching content from smart boards without time delay. The Technologies and Facilities are settled up to develop highly competent talents in all students.",
-                      "subtitle": "EXPERIENTIAL MANAGEMENT LEARNING PROGRAMME",
-                      "description1": "Curriculum Pedagogy provides the experience of “Google Class room” by which management students are mould to be fit into Digital Knowledge Driven world. Class rooms with smart boards enables digital connectivity. Each student has got their individual laptops and transfers the teaching content from smart boards without time delay. The Technologies and Facilities are settled up to develop highly competent talents in all students."
+                      "type": "paragraph",
+                      "text": [
+                        "Curriculum Pedagogy provides the experience of “Google Class room” by which management students are mould to be fit into Digital Knowledge Driven world. Class rooms with smart boards enables digital connectivity. Each student has got their individual laptops and transfers the teaching content from smart boards without time delay. The Technologies and Facilities are settled up to develop highly competent talents in all students."
+                      ]
+                    },
+                    {
+                      "type": "title",
+                      "title": "EXPERIENTIAL MANAGEMENT LEARNING PROGRAMME"
+                    },
+                    {
+                      "type": "paragraph",
+                      "text": [
+                        "Experiential Management Learning Programme is an innovative learning system in management wherein every student is guided and activated to develop his skills in communication, presentation, interpersonal relations, public speaking etc. to ensure that the student becomes a successful manager in today’s competitive market-driven economy. ‘Practice makes one perfect’ is the principle behind this programme."
+                      ]
                     }
                   ]
                 }
               }
             ]
           },
-          
-  "beyond": {
-    "sections": [
-       {
-      "type": "split-image-content",
-      "data": {
-        "secTitle": "HOD Profile",
-        "sectionbg": "section-bg3",
-        "image": "/images/kce/Portrait_Placeholder.png",
-        "content": [
-          {
-            "type": "title",
-            "title": "Dr.K.Ravi Kumar",
-            "subTi": "M.E., Ph.D., M.B.A."
-          },
-          {
-            "type": "paragraph",
-            "text": [
-              "Dr. K. Ravi Kumar completed his B.E. – Mechanical Engineering in 2001 from Bharathiyar University and M.E. – Production Engineering in 2002 from Annamalai University. He received his Ph.D degree from Anna University in the area of Composite Materials in 2013. He is into the teaching profession since 2003 and has handled engineering education in various capacities. His areas of research include composite materials, unconventional machining, optimization, characterization, additive manufacturing and machine learning. He has generated funds of nearly 1.2 crores from MSME for product development under his leadership. He has received grants of more than 6 lakhs from agencies like ICMR, SERB, Anna University for conducting seminars, workshops and FDPs. He has 5 patents to his credit, published more than 50 research articles in journals and 2 book chapters in various publications including Elsevier, Springer, sage, Taylor & Francis, Inderscience and De Gruyter. He has also published more than 25 papers in various International and National conferences. He has authored books on “CNC Technology” and “Additive Manufacturing” published by Dhanpat Rai Publications, New Delhi. He has authored a book on “Mechanical Properties and Characterization of Additively Manufactured Materials” for Taylor & Francis, CRC press. He is an active reviewer and editorial board member for various international journals that includes Elsevier, Taylor & Francis, SAGE, and De Gruyter. Presently, 7 scholars are pursuing their Ph.D programs under his guidance. He is an active member of professional societies namely IE (I), ISTE and SAE and he is a managing committee member of SAE Coimbatore Division."
-            ]
-          }
-        ]
-      }
-    }
-    ]
-  }
 
-,
+          "beyond": {
+            "sections": [
+              {
+                "type": "split-image-content",
+                "data": {
+                  "secTitle": "",
+                  "content": [
+                    {
+                      "type": "list",
+                      "items": [
+                        "Management Club activities",
+                        "Indoor Activities",
+                        "Management Fest Competitions",
+                        "Industrial Visits",
+                        "Group Discussions/Debates",
+                        "Quiz Contest",
+                        "Business News",
+                        "Brain Storming",
+                        "Off Campus Corporate Meets"
+                      ]
+                    },
+                    {
+                      "type": "title",
+                      "title": "OUT-BOUND TRAINING"
+                    },
+                    {
+                      "type": "paragraph",
+                      "text": [
+                        "This is a two-day training programme where students are taken to rural / hilly place and activity-oriented trainings are given. OBT is designed to bring out management skills like planning, organizing, decision making, communication, team building and adaptability in the students. The harshness of the natural environment inculcates hardiness and discipline among students."
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+
           "industrial": {
             "sections": [
               {
                 "type": "split-image-content",
-
                 "data": {
-                  "title": "INDUSTRIAL VISITS (NATIONAL & INTERNATIONAL)",
+                  "secTitle": "",
                   "content": [
                     {
-                      "code": "",
-                      "title": "",
-                      "description": "To demonstrate conceptual grounding in business theory and practice."
+                      "type": "paragraph",
+                      "text": [
+                        "Students are taken for a five day national visit (anywhere in India, outside Tamil Nadu), and a weeklong international visit. They are given the golden opportunities to meet and interact with the eminent personalities of the industry they are visiting and understand the multi facets of business. Enriching industry interaction sessions with professionals, give students insights into the tried and tested avenues of business."
+                      ]
                     },
                     {
-                      "code": "",
-                      "title": "",
-                      "description": "To identify a problem, analyze, formulate and use the appropriate managerial skills for obtaining its solution."
+                      "type": "title",
+                      "title": "EMPOWERING DOMAIN SKILLS"
                     },
                     {
-                      "code": "",
-                      "title": "",
-                      "description": "To function effectively on multi-disciplinary teams (Team work) ."
-                    },
-                    {
-                      "code": "",
-                      "title": "",
-                      "description": "To capitalize conceptual business foundations to solve practical decision-making problems, both individually and as part of teams using techniques such as case analysis, projects and assignments."
-                    },
-                    {
-                      "code": "",
-                      "title": "",
-                      "description": "To understand professional, ethical, legal, financial, marketing, sales, logistical security and social issues and responsibilities (Professional integrity)."
-                    },
-                    {
-                      "code": "",
-                      "title": "",
-                      "description": "To use current techniques, skills, and tools necessary for managerial practice (Practical managerial analysis skills)."
-                    },
-                    {
-                      "code": "",
-                      "title": "",
-                      "description": "To demonstrate a critical awareness of current issues (e.g., diversity, social responsibility, sustainability, innovation, knowledge management, etc.) in business and management which is informed by leading edged research and practice in the field."
-                    },
-                    {
-                      "code": "",
-                      "title": "",
-                      "description": "To demonstrate ability to understand and adapt to global market changes and industry dynamics."
+                      "type": "paragraph",
+                      "text": [
+                        "We bring in experts from wherever they are, to train and sharpen the faculties of our students in all the skills referred to here, and to empower them to face the challenges of the Knowledge Driven Era."
+                      ]
                     }
                   ]
                 }
@@ -232,50 +229,25 @@
           "interective": {
             "sections": [
               {
-                "type": "card-list2",
-
+                "type": "split-image-content",
                 "data": {
-                  "title": "INTERACTIVE LEARNING PROCESS",
+                  "secTitle": "",
                   "content": [
                     {
-                      "code": "",
-                      "title": "",
-                      "description": "To demonstrate conceptual grounding in business theory and practice."
+                      "type": "paragraph",
+                      "text": [
+                        "Curriculum and Pedagogy ensures efficient delivery through an interactive learning process. Students should know there are special moments that pull everything we have learned into focus. When theory, practice, experience, and talent all come to one sharp point—a decision that shapes a definitive course of action. When it’s no longer an issue of what can be done, but of what you will do."
+                      ]
                     },
                     {
-                      "code": "",
-                      "title": "",
-                      "description": "To identify a problem, analyze, formulate and use the appropriate managerial skills for obtaining its solution."
+                      "type": "title",
+                      "title": "SKILL IN COMMUNICATION"
                     },
                     {
-                      "code": "",
-                      "title": "",
-                      "description": "To function effectively on multi-disciplinary teams (Team work) ."
-                    },
-                    {
-                      "code": "",
-                      "title": "",
-                      "description": "To capitalize conceptual business foundations to solve practical decision-making problems, both individually and as part of teams using techniques such as case analysis, projects and assignments."
-                    },
-                    {
-                      "code": "",
-                      "title": "",
-                      "description": "To understand professional, ethical, legal, financial, marketing, sales, logistical security and social issues and responsibilities (Professional integrity)."
-                    },
-                    {
-                      "code": "",
-                      "title": "",
-                      "description": "To use current techniques, skills, and tools necessary for managerial practice (Practical managerial analysis skills)."
-                    },
-                    {
-                      "code": "",
-                      "title": "",
-                      "description": "To demonstrate a critical awareness of current issues (e.g., diversity, social responsibility, sustainability, innovation, knowledge management, etc.) in business and management which is informed by leading edged research and practice in the field."
-                    },
-                    {
-                      "code": "",
-                      "title": "",
-                      "description": "To demonstrate ability to understand and adapt to global market changes and industry dynamics."
+                      "type": "paragraph",
+                      "text": [
+                        "One must have the ability to effectively communicate in a friendly way. Though this looks easy, one needs tremendous amount of training to achieve this ostensibly simple skill. Daily News reading, Scan 360° exercises, language software’s, Communicative English Classes, Corporate Interactions, etc enhances the language skills of our budding managers."
+                      ]
                     }
                   ]
                 }
@@ -285,50 +257,25 @@
           "skills": {
             "sections": [
               {
-                "type": "card-list2",
-
+                "type": "split-image-content",
                 "data": {
-                  "title": "INTERPERSONAL SKILLS & TEAMWORK",
+                  "secTitle": "",
                   "content": [
                     {
-                      "code": "",
-                      "title": "",
-                      "description": "To demonstrate conceptual grounding in business theory and practice."
+                      "type": "paragraph",
+                      "text": [
+                        "Getting on with people is an art in which only very few people excel. One can learn this art through proper training. To be a member of a team one has to have the skill to get on with people."
+                      ]
                     },
                     {
-                      "code": "",
-                      "title": "",
-                      "description": "To identify a problem, analyze, formulate and use the appropriate managerial skills for obtaining its solution."
+                      "type": "title",
+                      "title": "ETHICAL & MORAL VALUES"
                     },
                     {
-                      "code": "",
-                      "title": "",
-                      "description": "To function effectively on multi-disciplinary teams (Team work) ."
-                    },
-                    {
-                      "code": "",
-                      "title": "",
-                      "description": "To capitalize conceptual business foundations to solve practical decision-making problems, both individually and as part of teams using techniques such as case analysis, projects and assignments."
-                    },
-                    {
-                      "code": "",
-                      "title": "",
-                      "description": "To understand professional, ethical, legal, financial, marketing, sales, logistical security and social issues and responsibilities (Professional integrity)."
-                    },
-                    {
-                      "code": "",
-                      "title": "",
-                      "description": "To use current techniques, skills, and tools necessary for managerial practice (Practical managerial analysis skills)."
-                    },
-                    {
-                      "code": "",
-                      "title": "",
-                      "description": "To demonstrate a critical awareness of current issues (e.g., diversity, social responsibility, sustainability, innovation, knowledge management, etc.) in business and management which is informed by leading edged research and practice in the field."
-                    },
-                    {
-                      "code": "",
-                      "title": "",
-                      "description": "To demonstrate ability to understand and adapt to global market changes and industry dynamics."
+                      "type": "paragraph",
+                      "text": [
+                        "A socially responsible manager always adds an ethical dimension to whatever he does to promote his business and continuously inculcates in his team a sense of value aimed at the well-being of the society. Faculty of Management Studies ensures every student leaves its campus with a firm belief in ethical and moral values."
+                      ]
                     }
                   ]
                 }
@@ -458,6 +405,7 @@
 
                 "data": {
                   "title": "Programme Outcomes (POs)",
+                  "subtitle":"At the end of the programme the students will have ability",
                   "content": [
                     {
                       "code": "",
@@ -521,7 +469,7 @@
           },
           {
             "type": "paragraph",
-            "text": [""]
+            "text": ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus commodi suscipit in maiores vero aliquam nam. Consequatur, nulla! At illo dignissimos accusantium, aut quas error consectetur consequatur officiis quae dolore!"]
           },
           {
             "type": "button",

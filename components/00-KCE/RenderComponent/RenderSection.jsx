@@ -9,7 +9,6 @@ import IconCard from "../DepartmentCompoennts/IconCard";
 import CardList1 from "../DepartmentCompoennts/CardList1";
 import CardList2 from "../DepartmentCompoennts/CardList2";
 import CardList3 from "../DepartmentCompoennts/CardList3";
-import CardList4 from "../DepartmentCompoennts/CardList4";
 import SplitImageContent from "../DepartmentCompoennts/SplitImageContent";
 import TableCom from "../DepartmentCompoennts/TableCom";
 import PillList from "../DepartmentCompoennts/PillList";
@@ -102,14 +101,7 @@ const RenderSection = ({ section, index, renderSection }) => {
         </section>
       );
 
-    case "card-list4":
-      return (
-        <section className="section-bg1">
-          <div className="section-wid">
-            <CardList4 key={index} data={section.data} />
-          </div>
-        </section>
-      );
+    
 
     case "split-image-content":
       return <SplitImageContent key={index} data={section.data} />;
