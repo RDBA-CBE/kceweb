@@ -1,6 +1,13 @@
 "use client";
 import React, { useEffect, useState } from "react";
 
+const getYoutubeId = (url = "") => {
+  const match = url.match(
+    /(?:youtu\.be\/|youtube\.com\/(?:watch\?v=|embed\/))([^?&]+)/,
+  );
+  return match ? match[1] : "";
+};
+
 const VideoCardSection = ({ data }) => {
   const [video, setVideo] = useState(null);
   const [videoTitles, setVideoTitles] = useState({});
@@ -9,27 +16,27 @@ const VideoCardSection = ({ data }) => {
 
   useEffect(() => {
     data?.items?.forEach((item) => {
-      if (
-        item.type === "video" &&
-        !item.title &&
-        !videoTitles[item.youtubeId]
-      ) {
-        fetch(
-          `https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=${item.youtubeId}&format=json`,
-        )
-          .then((res) => res.json())
-          .then((res) => {
-            setVideoTitles((prev) => ({
-              ...prev,
-              [item.youtubeId]: res.title,
-            }));
-          })
-          .catch(() => {
-            setVideoTitles((prev) => ({
-              ...prev,
-              [item.youtubeId]: "YouTube Video",
-            }));
-          });
+      if (item.type === "video") {
+        const youtubeId = getYoutubeId(item.youtubeUrl);
+
+        if (!item.title && youtubeId && !videoTitles[youtubeId]) {
+          fetch(
+            `https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=${youtubeId}&format=json`,
+          )
+            .then((res) => res.json())
+            .then((res) => {
+              setVideoTitles((prev) => ({
+                ...prev,
+                [youtubeId]: res.title,
+              }));
+            })
+            .catch(() => {
+              setVideoTitles((prev) => ({
+                ...prev,
+                [youtubeId]: "YouTube Video",
+              }));
+            });
+        }
       }
     });
   }, [data, videoTitles]);
@@ -42,26 +49,28 @@ const VideoCardSection = ({ data }) => {
           {data.items.map((item) => {
             /* VIDEO CARD */
             if (item.type === "video") {
+              const youtubeId = getYoutubeId(item.youtubeUrl);
+
               return (
                 <div
                   key={item.id}
                   className="yt-video-card"
-                  onClick={() => setVideo(item)}
+                  onClick={() => setVideo({ ...item, youtubeId })}
                 >
                   <div className="yt-video-content">
                     <h6 className="yt-video-title sub-ti">
                       {item.title ||
-                        videoTitles[item.youtubeId] ||
+                        videoTitles[youtubeId] ||
                         "YouTube Video"}
                     </h6>
                   </div>
 
                   <div className="kahe-yt-video-thumb">
                     <img
-                      src={`https://img.youtube.com/vi/${item.youtubeId}/hqdefault.jpg`}
+                      src={`https://img.youtube.com/vi/${youtubeId}/hqdefault.jpg`}
                       alt={
                         item.title ||
-                        videoTitles[item.youtubeId] ||
+                        videoTitles[youtubeId] ||
                         "YouTube video"
                       }
                     />
@@ -124,7 +133,7 @@ const VideoCardSection = ({ data }) => {
               rel="noopener noreferrer"
               className="kce-modal-title"
             >
-              {video.title}
+              {video.title || videoTitles[video.youtubeId]}
             </a>
           </div>
         </div>
