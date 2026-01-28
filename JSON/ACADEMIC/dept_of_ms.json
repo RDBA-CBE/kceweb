@@ -1,7 +1,7 @@
 {
   "banner": {
     "bannerImg": "/images/kce/banner_computer_technology.jpg",
-    "title": "Department of Electronics and Communication Engineering",
+    "title": "Department of Management Studies",
     "breadcrumb": [
       {
         "label": "Home",
@@ -12,7 +12,7 @@
         "href": "/departments"
       },
       {
-        "label": "Department of Electronics and Communication Engineering"
+        "label": "Department of Management Studies"
       }
     ]
   },
@@ -24,7 +24,7 @@
         "title": "About the Department",
         "bgImg": "/images/kce/academics/banner.jpg",
         "description": [
-          "The embryonic formation of the Department of Electronics and Communication Engineering was in the year 2000 with the introduction of an undergraduate course. The Department has been accredited by the National Board of Accreditation (NBA) and affiliated to Anna University, Chennai. The Department over the time has grown in several dimensions and provides a magnetic ambience in teaching and learning."
+          "The Department of Management Studies was established in the year 2002. It is a Centre for Excellence in preparing the students to be Corporate Ready leaders with philanthropic values and ethics. The Master of Business Administration (MBA) is a 4 semester regular programme spread over two academic years. The Department got its autonomy in the year 2007, since then it has freedom to design and develop curriculum to the current requirement of corporate community. The course structure is designed to impart knowledge of the core management concepts and techniques in the first year which are, thereafter, upgraded to advanced knowledge and practicing skills in the areas of specialization opted for by the students in the final year."
         ]
       }
     },
@@ -33,11 +33,309 @@
       "type": "plain-para",
       "data": {
         "content": [
-          "The Department has good infrastructure and it is well equipped with state-of-the art laboratory facilities necessary for imparting high quality of education and is structured to meet our present day needs of the Civil Engineering. Students from our department have always proved to be meritorious. The department has well experienced, qualified and diversified team of faculty members who are regularly presenting papers in and national and international conferences and publishing their technical papers in reputed peer reviewed journals.",
-          "Our faculty members are life members of various professional bodies such as Indian Concrete Institute (ICI), Indian Society for Technical Education (ISTE), International Society for Research and Development (ISRD), International Association of Engineers (IAENG), Indian Academicians and Researchers Association (IARA) etc.,. for the necessary networking and knowledge upskilling.",
-          "The department actively promotes curriculum development activity by updating existing courses, developing new courses and preparing resource material for teaching and learning process. The department is also very active in conducting conferences, workshops, seminars and visit to industries and construction sites. Visits are arranged regularly to impart technical inputs to the students more effectively through experiential learning. Wi-Fi enabled internet facilities are available in the department. Students are motivated to undergo mini projects to improve their practical knowledge and are encouraged to undergo internship to improve their practical exposure. Soft skill training programs are offered to enhance their communication, aptitude and interpersonal skills.",
-          "The Department of Civil Engineering has signed MoU with reputed construction companies to help the students in training and to upgrade their technical skills through practical exposure."
+          "Specializations are offered in the areas of Finance, Marketing, Human Resources, Systems, Operations, Airline & Airport Management*, Hospital Management* and Shipping and Logistics Management*. The Department has an exclusive Library with 12227 books, 3315 titles, 15 International Journals, 31 National Magazines, and 53 National Journals; with CD’s for reference and is also a member of J-GATE. (*Awaiting Approval).",
+          "The department is facilitated by signing of MOUs with Corporate, Innovatus System, Coimbatore, Consortium Clinical research (P) Ltd., and Tamilnadu Corporation for Development of Women (TNCDW), Mahalir Thittam, Coimbatore for better Industry-Institution Interaction. The commitments of the institution and all its Leaders and Stakeholders have helped the department in gaining Autonomous status and a unique position among B Schools in Coimbatore."
         ]
+      }
+    },
+    {
+      "type": "pill-list",
+      "data": {
+        "title": "VALUE ADDED PROGRAMS",
+        "description": "We encourage students to take up online certification programs with NPTEL, Swayam & Udemy, based on their interest. They can choose any one of the Value Added programme/Certification Course based on their specialization.",
+        "items": [
+          {
+            "id": 1,
+            "label": "Customs Clearance"
+          },
+          {
+            "id": 2,
+            "label": "Digital Marketing"
+          },
+          {
+            "id": 3,
+            "label": "Soft Skill training and development"
+          },
+          {
+            "id": 4,
+            "label": "Confluence Certified Recruiter"
+          },
+          {
+            "id": 5,
+            "label": "Six Sigma -Green Belt"
+          },
+          {
+            "id": 6,
+            "label": "NCFM-NSE’s Certification of Financial Marketing(India)"
+          },
+          {
+            "id": 7,
+            "label": "IICA Certificate Programme(ICP) in CSR"
+          },
+          {
+            "id": 8,
+            "label": "NIMHAMS-Cognitive Behavior Therapy"
+          },
+          {
+            "id": 9,
+            "label": "Certificate programme on Business Analytics and Intelligence"
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "tabs",
+      "data": {
+        "navigation": [
+          {
+            "title": "MENTORING - AN INNOVATIVE APPROACH IN LEARNING",
+            "id": "mentor"
+          },
+          {
+            "title": "CUTTING-EDGE TEACHING AIDS",
+            "id": "cutting"
+          },
+          {
+            "title": "BEYOND THE CLASS ROOM ACTIVITIES",
+            "id": "beyond"
+          },
+          {
+            "title": "INDUSTRIAL VISITS (NATIONAL & INTERNATIONAL)",
+            "id": "industrial"
+          },
+          {
+            "title": "INTERACTIVE LEARNING PROCESS",
+            "id": "interective"
+          },
+          {
+            "title": "INTERPERSONAL SKILLS & TEAMWORK",
+            "id": "skills"
+          }
+        ],
+        "content": {
+          "mentor": {
+            "sections": [
+              {
+                "type": "card-list1",
+                "data": {
+                  "title": "MENTORING - AN INNOVATIVE APPROACH IN LEARNING",
+                  "content": [
+                    {
+                      "description": "On admission, the students are divided into small groups. Each group is attached to a faculty mentor who will be their friend, philosopher and guide for the next two years of their study at KCE. These groups meet frequently to analyze what they have studied the previous week or what they have read in the library or maybe to discuss an issue if anyone in the group faces one. Members of these groups make regular presentations on current topics. The faculty member will closely monitor all the activities of the group attached to him and mentor them. This helps the students shed their inhibitions, develop communication skills and become good public speakers and communicators. Students also learn the intricacies of human relations, methods of problem solving and decision making"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "cutting": {
+            "sections": [
+              {
+                "type": "card-list2",
+
+                "data": {
+                  "title": "CUTTING-EDGE TEACHING AIDS",
+
+                  "content": [
+                    {
+                      "description": "Curriculum Pedagogy provides the experience of “Google Class room” by which management students are mould to be fit into Digital Knowledge Driven world. Class rooms with smart boards enables digital connectivity. Each student has got their individual laptops and transfers the teaching content from smart boards without time delay. The Technologies and Facilities are settled up to develop highly competent talents in all students.",
+                      "subtitle": "EXPERIENTIAL MANAGEMENT LEARNING PROGRAMME",
+                      "description1": "Curriculum Pedagogy provides the experience of “Google Class room” by which management students are mould to be fit into Digital Knowledge Driven world. Class rooms with smart boards enables digital connectivity. Each student has got their individual laptops and transfers the teaching content from smart boards without time delay. The Technologies and Facilities are settled up to develop highly competent talents in all students."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          
+  "beyond": {
+    "sections": [
+       {
+      "type": "split-image-content",
+      "data": {
+        "secTitle": "HOD Profile",
+        "sectionbg": "section-bg3",
+        "image": "/images/kce/Portrait_Placeholder.png",
+        "content": [
+          {
+            "type": "title",
+            "title": "Dr.K.Ravi Kumar",
+            "subTi": "M.E., Ph.D., M.B.A."
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              "Dr. K. Ravi Kumar completed his B.E. – Mechanical Engineering in 2001 from Bharathiyar University and M.E. – Production Engineering in 2002 from Annamalai University. He received his Ph.D degree from Anna University in the area of Composite Materials in 2013. He is into the teaching profession since 2003 and has handled engineering education in various capacities. His areas of research include composite materials, unconventional machining, optimization, characterization, additive manufacturing and machine learning. He has generated funds of nearly 1.2 crores from MSME for product development under his leadership. He has received grants of more than 6 lakhs from agencies like ICMR, SERB, Anna University for conducting seminars, workshops and FDPs. He has 5 patents to his credit, published more than 50 research articles in journals and 2 book chapters in various publications including Elsevier, Springer, sage, Taylor & Francis, Inderscience and De Gruyter. He has also published more than 25 papers in various International and National conferences. He has authored books on “CNC Technology” and “Additive Manufacturing” published by Dhanpat Rai Publications, New Delhi. He has authored a book on “Mechanical Properties and Characterization of Additively Manufactured Materials” for Taylor & Francis, CRC press. He is an active reviewer and editorial board member for various international journals that includes Elsevier, Taylor & Francis, SAGE, and De Gruyter. Presently, 7 scholars are pursuing their Ph.D programs under his guidance. He is an active member of professional societies namely IE (I), ISTE and SAE and he is a managing committee member of SAE Coimbatore Division."
+            ]
+          }
+        ]
+      }
+    }
+    ]
+  }
+
+,
+          "industrial": {
+            "sections": [
+              {
+                "type": "split-image-content",
+
+                "data": {
+                  "title": "INDUSTRIAL VISITS (NATIONAL & INTERNATIONAL)",
+                  "content": [
+                    {
+                      "code": "",
+                      "title": "",
+                      "description": "To demonstrate conceptual grounding in business theory and practice."
+                    },
+                    {
+                      "code": "",
+                      "title": "",
+                      "description": "To identify a problem, analyze, formulate and use the appropriate managerial skills for obtaining its solution."
+                    },
+                    {
+                      "code": "",
+                      "title": "",
+                      "description": "To function effectively on multi-disciplinary teams (Team work) ."
+                    },
+                    {
+                      "code": "",
+                      "title": "",
+                      "description": "To capitalize conceptual business foundations to solve practical decision-making problems, both individually and as part of teams using techniques such as case analysis, projects and assignments."
+                    },
+                    {
+                      "code": "",
+                      "title": "",
+                      "description": "To understand professional, ethical, legal, financial, marketing, sales, logistical security and social issues and responsibilities (Professional integrity)."
+                    },
+                    {
+                      "code": "",
+                      "title": "",
+                      "description": "To use current techniques, skills, and tools necessary for managerial practice (Practical managerial analysis skills)."
+                    },
+                    {
+                      "code": "",
+                      "title": "",
+                      "description": "To demonstrate a critical awareness of current issues (e.g., diversity, social responsibility, sustainability, innovation, knowledge management, etc.) in business and management which is informed by leading edged research and practice in the field."
+                    },
+                    {
+                      "code": "",
+                      "title": "",
+                      "description": "To demonstrate ability to understand and adapt to global market changes and industry dynamics."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "interective": {
+            "sections": [
+              {
+                "type": "card-list2",
+
+                "data": {
+                  "title": "INTERACTIVE LEARNING PROCESS",
+                  "content": [
+                    {
+                      "code": "",
+                      "title": "",
+                      "description": "To demonstrate conceptual grounding in business theory and practice."
+                    },
+                    {
+                      "code": "",
+                      "title": "",
+                      "description": "To identify a problem, analyze, formulate and use the appropriate managerial skills for obtaining its solution."
+                    },
+                    {
+                      "code": "",
+                      "title": "",
+                      "description": "To function effectively on multi-disciplinary teams (Team work) ."
+                    },
+                    {
+                      "code": "",
+                      "title": "",
+                      "description": "To capitalize conceptual business foundations to solve practical decision-making problems, both individually and as part of teams using techniques such as case analysis, projects and assignments."
+                    },
+                    {
+                      "code": "",
+                      "title": "",
+                      "description": "To understand professional, ethical, legal, financial, marketing, sales, logistical security and social issues and responsibilities (Professional integrity)."
+                    },
+                    {
+                      "code": "",
+                      "title": "",
+                      "description": "To use current techniques, skills, and tools necessary for managerial practice (Practical managerial analysis skills)."
+                    },
+                    {
+                      "code": "",
+                      "title": "",
+                      "description": "To demonstrate a critical awareness of current issues (e.g., diversity, social responsibility, sustainability, innovation, knowledge management, etc.) in business and management which is informed by leading edged research and practice in the field."
+                    },
+                    {
+                      "code": "",
+                      "title": "",
+                      "description": "To demonstrate ability to understand and adapt to global market changes and industry dynamics."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "skills": {
+            "sections": [
+              {
+                "type": "card-list2",
+
+                "data": {
+                  "title": "INTERPERSONAL SKILLS & TEAMWORK",
+                  "content": [
+                    {
+                      "code": "",
+                      "title": "",
+                      "description": "To demonstrate conceptual grounding in business theory and practice."
+                    },
+                    {
+                      "code": "",
+                      "title": "",
+                      "description": "To identify a problem, analyze, formulate and use the appropriate managerial skills for obtaining its solution."
+                    },
+                    {
+                      "code": "",
+                      "title": "",
+                      "description": "To function effectively on multi-disciplinary teams (Team work) ."
+                    },
+                    {
+                      "code": "",
+                      "title": "",
+                      "description": "To capitalize conceptual business foundations to solve practical decision-making problems, both individually and as part of teams using techniques such as case analysis, projects and assignments."
+                    },
+                    {
+                      "code": "",
+                      "title": "",
+                      "description": "To understand professional, ethical, legal, financial, marketing, sales, logistical security and social issues and responsibilities (Professional integrity)."
+                    },
+                    {
+                      "code": "",
+                      "title": "",
+                      "description": "To use current techniques, skills, and tools necessary for managerial practice (Practical managerial analysis skills)."
+                    },
+                    {
+                      "code": "",
+                      "title": "",
+                      "description": "To demonstrate a critical awareness of current issues (e.g., diversity, social responsibility, sustainability, innovation, knowledge management, etc.) in business and management which is informed by leading edged research and practice in the field."
+                    },
+                    {
+                      "code": "",
+                      "title": "",
+                      "description": "To demonstrate ability to understand and adapt to global market changes and industry dynamics."
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
       }
     },
 
@@ -47,7 +345,7 @@
         "content": [
           {
             "title": "Our Vision",
-            "description": "To provide innovative teaching and learning methodologies for excelling in a high-value career, higher education and research to the students in the field of Electronics and Communication Engineering to meet the needs of the industry and to be a part of the advancing technological revolution.",
+            "description": "To create a unique academic space for nurturing the finest management thinking, creating innovative, futuristic, socially responsible and environmentally responsive practitioners, leaders and educators.",
             "image": "/images/kce/academics/banner.jpg"
           },
           {
@@ -55,16 +353,13 @@
             "list": [
               {
                 "item": [
-                  "To create engineers of high quality on par with international standards by providing excellent infrastructure and well qualified faculty.",
-                  "To enhance the collaborative and multidisciplinary activities to develop human and intellectual qualities.",
-                  "To provide technical expertise to carry out research and development."
+                  "Foster excellence by providing the Quality education in Business Management.",
+                  "Create a competitive environment for the students to upgrade their knowledge and sharpen the skills.",
+                  "Encourage faculty to undertake research and consultancy assignments.",
+                  "Foster continuous learning with updated/ upgraded pedagogical methods.",
+                  "Cultivating the principles of Social Responsibility, Ethics and Spiritual Values among budding managers.",
+                  "Promoting self employment through Entrepreneurship."
                 ]
-              },
-              {
-                "item": "To enhance the collaborative and multidisciplinary activities to develop human and intellectual qualities."
-              },
-              {
-                "item": "To provide technical expertise to carry out research and development."
               }
             ],
             "image": "/images/kce/academics/banner.jpg"
@@ -95,15 +390,7 @@
         "content": [
           {
             "id": 1,
-            "name": "B.E. Electronics and Communication Engineering"
-          },
-          {
-            "id": 2,
-            "name": "M.E. VLSI Design"
-          },
-          {
-            "id": 3,
-            "name": "Ph.D. Electronics and Communication Engineering"
+            "name": "MBA – Master of Business Administration"
           }
         ]
       }
@@ -116,39 +403,11 @@
         "content": [
           {
             "img": "/images/kce/icon.webp",
-            "title": "Electronic Devices and Circuits Laboratory-I"
+            "title": "MBA Lab 1"
           },
           {
             "img": "/images/kce/icon.webp",
-            "title": "Electronic Devices and Circuits Laboratory-II"
-          },
-          {
-            "img": "/images/kce/icon.webp",
-            "title": "LIC / Digital Laboratory"
-          },
-          {
-            "img": "/images/kce/icon.webp",
-            "title": "VLSI / DSP Laboratory"
-          },
-          {
-            "img": "/images/kce/icon.webp",
-            "title": "Communication Laboratory"
-          },
-          {
-            "img": "/images/kce/icon.webp",
-            "title": "Microwave/Optical Laboratory"
-          },
-          {
-            "img": "/images/kce/icon.webp",
-            "title": "Microprocessors and Microcontrollers Laboratory"
-          },
-          {
-            "img": "/images/kce/icon.webp",
-            "title": "Networks Laboratory"
-          },
-          {
-            "img": "/images/kce/icon.webp",
-            "title": "Project/Research Laboratory"
+            "title": "MBA Lab 2"
           }
         ]
       }
@@ -165,15 +424,6 @@
           {
             "title": "Programme Outcomes",
             "id": "po"
-          },
-
-          {
-            "title": "Knowledge and Attitude Profile",
-            "id": "wk"
-          },
-          {
-            "title": "Program Specific Outcomes",
-            "id": "pso"
           }
         ],
         "content": {
@@ -186,15 +436,15 @@
                   "content": [
                     {
                       "code": "PEO1",
-                      "description": "Graduates of the B.E. (Electronics and Communication Engineering) Program will, have successful careers in Electronics and Communication Engineering and in allied professional fields."
+                      "description": "The MBA graduates will be successfully engaged in multidisciplinary domains in the chosen management discipline."
                     },
                     {
                       "code": "PEO2",
-                      "description": "Graduates of the B.E. (Electronics and Communication Engineering) Program will, have the ability to work in multidisciplinary teams with the technical competency, collaboration, and leadership qualities."
+                      "description": "The MBA graduates will be able to exhibit personal and professional leadership in the work and community environment."
                     },
                     {
                       "code": "PEO3",
-                      "description": "Graduates of the B.E. (Electronics and Communication Engineering) Program will, uphold professional ethics and exhibit continual knowledge advancement."
+                      "description": "The MBA graduates engaging formal and informal learning opportunities to maintain and enhance professional and personal growth."
                     }
                   ]
                 }
@@ -210,130 +460,44 @@
                   "title": "Programme Outcomes (POs)",
                   "content": [
                     {
-                      "code": "PO1",
-                      "title": "Engineering knowledge",
-                      "description": "Apply knowledge of mathematics, natural science, computing, engineering fundamentals and an engineering specialization as specified in WK1 to WK4 respectively to develop to the solution of complex engineering problems."
+                      "code": "",
+                      "title": "",
+                      "description": "To demonstrate conceptual grounding in business theory and practice."
                     },
                     {
-                      "code": "PO2",
-                      "title": "Problem analysis",
-                      "description": "Identify, formulate, review research literature and analyze complex engineering problems reaching substantiated conclusions with consideration for sustainable development. (WK1 to WK4)."
+                      "code": "",
+                      "title": "",
+                      "description": "To identify a problem, analyze, formulate and use the appropriate managerial skills for obtaining its solution."
                     },
                     {
-                      "code": "PO3",
-                      "title": "Design/development of solutions",
-                      "description": "Design creative solutions for complex engineering problems and design/develop systems/components/processes to meet identified needs with consideration for the public health and safety, whole-life cost, net zero carbon, culture, society and environment as required. (WK5)."
+                      "code": "",
+                      "title": "",
+                      "description": "To function effectively on multi-disciplinary teams (Team work) ."
                     },
                     {
-                      "code": "PO4",
-                      "title": "Conduct investigations of complex problems",
-                      "description": "Conduct investigations of complex engineering problems using research-based knowledge including design of experiments, modelling, analysis & interpretation of data to provide valid conclusions. (WK8)"
+                      "code": "",
+                      "title": "",
+                      "description": "To capitalize conceptual business foundations to solve practical decision-making problems, both individually and as part of teams using techniques such as case analysis, projects and assignments."
                     },
                     {
-                      "code": "PO5",
-                      "title": "Engineering Tool Usage",
-                      "description": "Create, select and apply appropriate techniques, resources and modern engineering & IT tools, including prediction and modelling recognizing their limitations to solve complex engineering problems. (WK2 and WK6)"
+                      "code": "",
+                      "title": "",
+                      "description": "To understand professional, ethical, legal, financial, marketing, sales, logistical security and social issues and responsibilities (Professional integrity)."
                     },
                     {
-                      "code": "PO6",
-                      "title": "The Engineer and The World",
-                      "description": "Analyze and evaluate societal and environmental aspects while solving complex engineering problems for its impact on sustainability with reference to economy, health, safety, legal framework, culture and environment. (WK1, WK5, and WK7)"
+                      "code": "",
+                      "title": "",
+                      "description": "To use current techniques, skills, and tools necessary for managerial practice (Practical managerial analysis skills)."
                     },
                     {
-                      "code": "PO7",
-                      "title": "Ethics",
-                      "description": "Apply ethical principles and commit to professional ethics, human values, diversity and inclusion; adhere to national & international laws. (WK9)"
+                      "code": "",
+                      "title": "",
+                      "description": "To demonstrate a critical awareness of current issues (e.g., diversity, social responsibility, sustainability, innovation, knowledge management, etc.) in business and management which is informed by leading edged research and practice in the field."
                     },
                     {
-                      "code": "PO8",
-                      "title": "Individual and Collaborative Team work",
-                      "description": "Function effectively as an individual, and as a member or leader in diverse/multi-disciplinary teams."
-                    },
-                    {
-                      "code": "PO9",
-                      "title": "Communication",
-                      "description": "Communicate effectively and inclusively within the engineering community and society at large, such as being able to comprehend and write effective reports and design documentation, make effective presentations considering cultural, language, and learning differences."
-                    },
-                    {
-                      "code": "PO10",
-                      "title": "Project Management and Finance",
-                      "description": "Apply knowledge and understanding of engineering management principles and economic decision-making and apply these to one’s own work, as a member and leader in a team, and to manage projects and in multidisciplinary environments."
-                    },
-                    {
-                      "code": "PO11",
-                      "title": "Life-Long Learning",
-                      "description": "Recognize the need for, and have the preparation and ability for, i) independent and life-long learning ii) adaptability to new and emerging technologies and iii) critical thinking in the broadest context of technological change. (WK8)"
-                    }
-                  ]
-                }
-              }
-            ]
-          },
-
-          "wk": {
-            "sections": [
-              {
-                "type": "card-list1",
-                "data": {
-                  "title": "Knowledge and Attitude Profile (WK)",
-                  "content": [
-                    {
-                      "code": "WK1",
-                      "description": "A systematic, theory-based understanding of the natural sciences applicable to the discipline and awareness of relevant social sciences."
-                    },
-                    {
-                      "code": "WK2",
-                      "description": "Conceptually-based mathematics, numerical analysis, data analysis, statistics and formal aspects of computer and information science to support detailed analysis and modelling applicable to the discipline."
-                    },
-                    {
-                      "code": "WK3",
-                      "description": "A systematic, theory-based formulation of engineering fundamentals required in the engineering discipline."
-                    },
-                    {
-                      "code": "WK4",
-                      "description": "Engineering specialist knowledge that provides theoretical frameworks and bodies of knowledge for the accepted practice areas in the engineering discipline; much is at the forefront of the discipline."
-                    },
-                    {
-                      "code": "WK5",
-                      "description": "Knowledge, including efficient resource use, environmental impacts, whole-life cost, reuse of resources, net zero carbon, and similar concepts, that supports engineering design and operations in a practice area."
-                    },
-                    {
-                      "code": "WK6",
-                      "description": "Knowledge of engineering practice (technology) in the practice areas in the engineering discipline."
-                    },
-                    {
-                      "code": "WK7",
-                      "description": "Knowledge of the role of engineering in society and identified issues in engineering practice in the discipline, such as the professional responsibility of an engineer to public safety and sustainable development."
-                    },
-                    {
-                      "code": "WK8",
-                      "description": "Engagement with selected knowledge in the current research literature of the discipline, awareness of the power of critical thinking and creative approaches to evaluate emerging issues."
-                    },
-                    {
-                      "code": "WK9",
-                      "description": "Ethics, inclusive behavior and conduct. Knowledge of professional ethics, responsibilities, and norms of engineering practice. Awareness of the need for diversity by reason of ethnicity, gender, age, physical ability etc. with mutual understanding and respect, and of inclusive attitudes."
-                    }
-                  ]
-                }
-              }
-            ]
-          },
-
-          "pso": {
-            "sections": [
-              {
-                "type": "card-list3",
-                "data": {
-                  "title": "Program Specific Outcomes (PSOs)",
-
-                  "content": [
-                    {
-                      "code": "PSO1",
-                      "description": "Good knowledge and hands-on competence to solve emerging real-world problems related to Electronic Devices and Circuits, Communication Systems, Digital Systems and Electro-magnetics."
-                    },
-                    {
-                      "code": "PSO2",
-                      "description": "Demonstrate proficiency in specialized software packages and computer programming useful for the analysis/design of electronic engineering systems and profession."
+                      "code": "",
+                      "title": "",
+                      "description": "To demonstrate ability to understand and adapt to global market changes and industry dynamics."
                     }
                   ]
                 }
@@ -341,30 +505,6 @@
             ]
           }
         }
-      }
-    },
-
-    {
-      "type": "split-image-content",
-      "data": {
-        "secTitle": "HOD Profile",
-        "sectionbg": "section-bg3",
-        "image": "/images/kce/Portrait_Placeholder.png",
-        "content": [
-          {
-            "type": "title",
-            "title": "Dr. R. Sarankumar",
-            "subTi": "Professor & Head"
-          },
-          {
-            "type": "paragraph",
-            "text": [
-              "Dr. R. Sarankumar completed Bachelor Degree in Engineering in the stream of Electronics and Communication Engineering and Master Degree in Engineering in the stream of Communication Systems from Anna University in the year 2009 and 2011 respectively. He received Ph.D. degree from Anna University in 2018 in the faculty of Information and Communication Engineering. His area of interest includes Signal Processing, Cognitive Radio, Wireless Communications, Internet of Things and Machine Learning.",
-
-              "After gaining academic, research and administrative experience from Tamil Nadu and Andhra Pradesh, he is currently serving in the capacity of Head of the Department for Electronics and Communication Engineering. He has several publications in peer reviewed national and international journals and conferences. He has contributed for 4 patents. Three book chapters are published under his credit. He serves a reviewer for various reputed international journals and conferences. He received fund from AICTE under MODROBs and the project has been completed. He has comprehensive knowledge on Outcome Based Education. He is interested in the activities towards student development in multi-dimensional perspective."
-            ]
-          }
-        ]
       }
     },
 
@@ -381,19 +521,17 @@
           },
           {
             "type": "paragraph",
-            "text": [
-              "Dr. R. Sarankumar completed Bachelor Degree in Engineering in the stream of Electronics and Communication Engineering and Master Degree in Engineering in the stream of Communication Systems from Anna University in the year 2009 and 2011 respectively. He received Ph.D. degree from Anna University in 2018 in the faculty of Information and Communication Engineering. His area of interest includes Signal Processing, Cognitive Radio, Wireless Communications, Internet of Things and Machine Learning."
-            ]
+            "text": [""]
           },
           {
             "type": "button",
             "text": "View Faculty",
             "action": "goToFaculty",
             "newpageData": {
-              "slug": "department-of-electronics-and-communication-engineering",
+              "slug": "department-of-management-studies",
               "banner": {
                 "bannerImg": "/images/kce/banner_computer_technology.jpg",
-                "title": "Department of Electronics and Communication Engineering",
+                "title": "Department of Management Studies",
                 "breadcrumb": [
                   {
                     "label": "Home",
@@ -404,8 +542,8 @@
                     "href": "/departments"
                   },
                   {
-                    "href": "/departments/department-of-electronics-and-communication-engineering",
-                    "label": "Department of Electronics and Communication Engineering"
+                    "href": "/departments/department-of-management-studies",
+                    "label": "Department of Management Studies"
                   },
                   {
                     "label": "Faculty"
@@ -417,220 +555,129 @@
 
               "faculty": [
                 {
-                  "id": 0,
-                  "name": "Dr. Karthigaikumar P",
-                  "designation": "Principal",
-                  "degree": "M.E, Ph.D",
-                  "src": "/images/kce/Portrait_Placeholder.png"
-                },
-                {
                   "id": 1,
-                  "name": "Dr. Sophia S",
-                  "designation": "Dean – Academics",
-                  "degree": "M.E, Ph.D",
+                  "name": "Dr. Meera C",
+                  "designation": "Professor / Head",
+                  "degree": "MBA, Ph.D",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
                   "id": 2,
-                  "name": "Dr. Sarankumar R",
-                  "designation": "Professor / Head",
-                  "degree": "M.E, Ph.D",
+                  "name": "Dr. Suyam Praba R",
+                  "designation": "Professor",
+                  "degree": "MBA, M.Phil, Ph.D",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
                   "id": 3,
-                  "name": "Dr. Rajendran A",
-                  "designation": "Professor",
-                  "degree": "M.S, Ph.D",
+                  "name": "Mr. Azarudheen S",
+                  "designation": "Associate Professor",
+                  "degree": "MBA",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
                   "id": 4,
-                  "name": "Dr. Saravanakumar G",
-                  "designation": "Professor",
-                  "degree": "M.Tech, Ph.D",
+                  "name": "Dr. Nemavathi KS",
+                  "designation": "Associate Professor",
+                  "degree": "MBA, Ph.D",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
                   "id": 5,
-                  "name": "Dr. Sheela Sobana Rani K",
-                  "designation": "Professor",
-                  "degree": "M.E, Ph.D",
+                  "name": "Dr. Kalpana G",
+                  "designation": "Associate Professor",
+                  "degree": "MBA, Ph.D",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
                   "id": 6,
-                  "name": "Dr. Balambigai S",
-                  "designation": "Professor",
-                  "degree": "M.E, Ph.D",
+                  "name": "Mr. Balu KP",
+                  "designation": "Associate Professor",
+                  "degree": "MBA",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
                   "id": 7,
-                  "name": "Dr. Mohankumar J",
-                  "designation": "Professor",
-                  "degree": "M.E, Ph.D",
+                  "name": "Ms. Kavitha K",
+                  "designation": "Assistant Professor",
+                  "degree": "MBA",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
                   "id": 8,
-                  "name": "Dr. Priya C",
-                  "designation": "Associate Professor",
-                  "degree": "M.E, Ph.D",
+                  "name": "Ms. Gobika M",
+                  "designation": "Assistant Professor",
+                  "degree": "MBA",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
                   "id": 9,
-                  "name": "Dr. Deepa S",
-                  "designation": "Associate Professor",
-                  "degree": "M.E, Ph.D",
+                  "name": "Mr. Jayram Kallidukkil K",
+                  "designation": "Assistant Professor",
+                  "degree": "MBA",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
                   "id": 10,
-                  "name": "Dr. Swamynathan S.M",
-                  "designation": "Associate Professor",
-                  "degree": "M.E, Ph.D",
+                  "name": "Dr. Tamil Selvi RM",
+                  "designation": "Assistant Professor",
+                  "degree": "MBA, Ph.D",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
                   "id": 11,
-                  "name": "Dr. Suresh Babu A",
-                  "designation": "Associate Professor",
-                  "degree": "M.E, Ph.D",
+                  "name": "Mr. Anbalagan C",
+                  "designation": "Assistant Professor",
+                  "degree": "MBA",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
                   "id": 12,
-                  "name": "Dr. Maruthi Shankar B",
-                  "designation": "Associate Professor",
-                  "degree": "M.E, Ph.D",
+                  "name": "Ms. Shivani R",
+                  "designation": "Assistant Professor",
+                  "degree": "MBA",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
                   "id": 13,
-                  "name": "Mr. Manikandan S",
+                  "name": "Mr. Nahoor Mohideen S",
                   "designation": "Assistant Professor",
-                  "degree": "M.E",
+                  "degree": "MBA",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
                   "id": 14,
-                  "name": "Mr. Premananthan G",
+                  "name": "Mr. Madhankumar K",
                   "designation": "Assistant Professor",
-                  "degree": "M.E",
+                  "degree": "MBA",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
                   "id": 15,
-                  "name": "Dr. Arul Murugan C",
+                  "name": "Mr. Karthick Raja S",
                   "designation": "Assistant Professor",
-                  "degree": "M.E, Ph.D",
+                  "degree": "MBA",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
                   "id": 16,
-                  "name": "Mrs. Deepika R",
+                  "name": "Ms. Gayathri N",
                   "designation": "Assistant Professor",
-                  "degree": "M.E",
+                  "degree": "MBA",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
                   "id": 17,
-                  "name": "Ms. Saranya L",
+                  "name": "Dr. Sathya M",
                   "designation": "Assistant Professor",
-                  "degree": "M.E",
+                  "degree": "MBA, M.Phil, Ph.D",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
                   "id": 18,
-                  "name": "Mr. Jayadevan N M",
+                  "name": "Mr. Vivek V",
                   "designation": "Assistant Professor",
-                  "degree": "M.E",
-                  "src": "/images/kce/Portrait_Placeholder.png"
-                },
-                {
-                  "id": 19,
-                  "name": "Mrs. Vasumathi A",
-                  "designation": "Assistant Professor",
-                  "degree": "M.E",
-                  "src": "/images/kce/Portrait_Placeholder.png"
-                },
-                {
-                  "id": 20,
-                  "name": "Ms. Archana P",
-                  "designation": "Assistant Professor",
-                  "degree": "M.E",
-                  "src": "/images/kce/Portrait_Placeholder.png"
-                },
-                {
-                  "id": 21,
-                  "name": "Mrs. Happila T",
-                  "designation": "Assistant Professor",
-                  "degree": "M.Tech",
-                  "src": "/images/kce/Portrait_Placeholder.png"
-                },
-                {
-                  "id": 22,
-                  "name": "Ms. Agnipriya A",
-                  "designation": "Assistant Professor",
-                  "degree": "M.E",
-                  "src": "/images/kce/Portrait_Placeholder.png"
-                },
-                {
-                  "id": 23,
-                  "name": "Ms. Tharani Priya S",
-                  "designation": "Assistant Professor",
-                  "degree": "M.E",
-                  "src": "/images/kce/Portrait_Placeholder.png"
-                },
-                {
-                  "id": 24,
-                  "name": "Ms. Lavanya V",
-                  "designation": "Assistant Professor",
-                  "degree": "M.E",
-                  "src": "/images/kce/Portrait_Placeholder.png"
-                },
-                {
-                  "id": 25,
-                  "name": "Ms. Anandhi K",
-                  "designation": "Assistant Professor",
-                  "degree": "M.E",
-                  "src": "/images/kce/Portrait_Placeholder.png"
-                },
-                {
-                  "id": 26,
-                  "name": "Ms. Mariselvi K",
-                  "designation": "Assistant Professor",
-                  "degree": "M.E",
-                  "src": "/images/kce/Portrait_Placeholder.png"
-                },
-                {
-                  "id": 27,
-                  "name": "Ms. Kalpana M",
-                  "designation": "Assistant Professor",
-                  "degree": "M.E",
-                  "src": "/images/kce/Portrait_Placeholder.png"
-                },
-                {
-                  "id": 28,
-                  "name": "Mr. Sabarinathan D",
-                  "designation": "Assistant Professor",
-                  "degree": "M.E",
-                  "src": "/images/kce/Portrait_Placeholder.png"
-                },
-                {
-                  "id": 29,
-                  "name": "Ms. Priya Devi T",
-                  "designation": "Assistant Professor",
-                  "degree": "M.E",
-                  "src": "/images/kce/Portrait_Placeholder.png"
-                },
-                {
-                  "id": 30,
-                  "name": "Dr. Parthibaraj A",
-                  "designation": "Assistant Professor",
-                  "degree": "M.E, Ph.D",
+                  "degree": "MBA",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 }
               ]
@@ -680,387 +727,6 @@
             "id": 7,
             "label": "23ECR404/ Microprocessors and Microcontrollers",
             "url": "https://drive.google.com/drive/folders/1zLnnZSoxlJiHbn3YJxfSu5zuvEfQQQXoXlNU-wH9v37swZrvH2WpyjzOPt_yEJXLjxwmpseI?usp=drive_link"
-          }
-        ]
-      }
-    },
-
-    {
-      "type": "table",
-      "data": {
-        "secTitle": "Smart Class Course Details",
-        "table": [
-          {
-            "content": [
-              {
-                "head": [
-                  { "id": "col1", "label": "S.No" },
-                  { "id": "col2", "label": "Course Code" },
-                  { "id": "col3", "label": "Name of the Course" },
-                  { "id": "col4", "label": "Link to Access Content" }
-                ],
-                "data": [
-                  {
-                    "col1": { "text": "1." },
-                    "col2": { "text": "18LC11" },
-                    "col3": { "text": "Electronic Circuits" },
-                    "col4": {
-                      "text": "Click Here",
-                      "href": "https://drive.google.com/drive/folders/1Bz_AwNfDiEJhU246KblZsJSnesWOLolhfJyUwLUK-0DcinkpsxkO9mXnD6PAZ2gwJDB2vfid?usp=sharing"
-                    }
-                  },
-                  {
-                    "col1": { "text": "2." },
-                    "col2": { "text": "17LD09" },
-                    "col3": { "text": "Digital Signal Processing" },
-                    "col4": {
-                      "text": "Click Here",
-                      "href": "https://drive.google.com/drive/folders/0B9hbAmZoMiDIfmluQktHZWNoajRhRm9uRjRzZzF4OHpkZVJnLS1aS3VjMVJEWXVzUnhhc0U?resourcekey=0-656xFOaVtc6ED1wXxKHM3g&usp=sharing"
-                    }
-                  },
-                  {
-                    "col1": { "text": "3." },
-                    "col2": { "text": "17LD18" },
-                    "col3": { "text": "Optical Communication" },
-                    "col4": {
-                      "text": "Click Here",
-                      "href": "https://drive.google.com/drive/folders/0B079Ys6y0xxnfjB0MkpzLUJxcGNZdVkwLXBIUFB6d1hYMk9CQVQyWTNnUGlKX2xNS0NIZGM?resourcekey=0-Q7Id_2pXY_hFOxYxxWdG0w&usp=sharing"
-                    }
-                  },
-                  {
-                    "col1": { "text": "4." },
-                    "col2": { "text": "18LD09" },
-                    "col3": { "text": "Signals And Systems" },
-                    "col4": {
-                      "text": "Click Here",
-                      "href": "https://drive.google.com/drive/folders/0B-y8ZUcIJHuPflpVMlpFbDdKQUNIZWVJNXhFVGFUcTlKbGtWeDRuQkxHT24tQkRuSk9weU0?resourcekey=0-HB5Ql2MWqVgxObPcD4T2yQ&usp=sharing"
-                    }
-                  },
-                  {
-                    "col1": { "text": "5." },
-                    "col2": { "text": "17LD22" },
-                    "col3": { "text": "Analog And Digital Communication" },
-                    "col4": {
-                      "text": "Click Here",
-                      "href": "https://drive.google.com/drive/folders/0B079Ys6y0xxnfkZmTkt3b0NVSjMzVjNUdjVVZlg1Q1pJVVg5aVNnVVF5SHdPbzFWQUw1d1E?resourcekey=0-bTxfyloOEmb0nE4I_-PCFQ&usp=sharing"
-                    }
-                  },
-                  {
-                    "col1": { "text": "6." },
-                    "col2": { "text": "18LD01" },
-                    "col3": { "text": "Analog ICs And Applications" },
-                    "col4": {
-                      "text": "Click Here",
-                      "href": "https://drive.google.com/drive/folders/0Bwzb0d8MI7AKfnloUlBjaVljVG45bHZOX3FqSXpDYUVnSXNZVmhRVzRyWkpZYjdqalh1WVU?resourcekey=0-Mr-g7pSdXnbwAW94gmul4A&usp=sharing"
-                    }
-                  },
-                  {
-                    "col1": { "text": "7." },
-                    "col2": { "text": "18LD22" },
-                    "col3": { "text": "Analog And Digital Communication" },
-                    "col4": {
-                      "text": "Click Here",
-                      "href": "https://drive.google.com/drive/folders/0B6BjA8pXdqkEfm52andpdThjWFBDNnNEM0JhblFHYUhFRlJWUHl3UU9Hb2hQeC1hWS1ELTA?resourcekey=0-zBEjU3tsJuM9Zqp1k9IAkA&usp=sharing"
-                    }
-                  },
-                  {
-                    "col1": { "text": "8." },
-                    "col2": { "text": "18LD01" },
-                    "col3": { "text": "Analog IC And Applications" },
-                    "col4": {
-                      "text": "Click Here",
-                      "href": "https://drive.google.com/drive/folders/0B079Ys6y0xxnfmFlYzNDLXkwSTFGR1M1cFZONksyblc0RDVBVVBkZDIzLWZNeW1pQ2F4TFk?resourcekey=0-K1WD2K5lIAzAKHYKYBXs5A&usp=sharing"
-                    }
-                  },
-                  {
-                    "col1": { "text": "9." },
-                    "col2": { "text": "18LD14" },
-                    "col3": { "text": "Very Large Scale Integration Design" },
-                    "col4": {
-                      "text": "Click Here",
-                      "href": "https://drive.google.com/drive/folders/0B_4XAKQsBEA3fjNRTUsyUnlsTEgxMlZwSFV2LVMzZlBlRmRYeTJHaHBCOUd5QXh1WnlyR2s?resourcekey=0-QvWhHxg_jBpkXRPVpcBeSg&usp=sharing"
-                    }
-                  },
-                  {
-                    "col1": { "text": "10." },
-                    "col2": { "text": "18LD15" },
-                    "col3": { "text": "Antenna And Wave Propagation" },
-                    "col4": {
-                      "text": "Click Here",
-                      "href": "https://drive.google.com/drive/folders/0B35OAQWPZ-7LfnNBb1dZakF6WTVVZUpKa2pIeWxqcUN0d2IwYUNsWXpVV21vVXoya3RGUEk?resourcekey=0-lRuEHEbC21VdgTFOPhlNHw&usp=sharing"
-                    }
-                  },
-                  {
-                    "col1": { "text": "11." },
-                    "col2": { "text": "18NE05" },
-                    "col3": { "text": "Biomedical Instrumentation" },
-                    "col4": {
-                      "text": "Click Here",
-                      "href": "https://drive.google.com/drive/folders/0B-_0kU5SwwyHfjBFMDJzN3hDWXVNNzMtUXRRd191a2p3c0xjQXJUM0lmRmFONzFOZXdlN0E?resourcekey=0-9U3UVGNjZl8MIDLVzJwVfw&usp=sharing"
-                    }
-                  },
-                  {
-                    "col1": { "text": "12." },
-                    "col2": { "text": "18LC11" },
-                    "col3": { "text": "Electronic Circuits" },
-                    "col4": {
-                      "text": "Click Here",
-                      "href": "https://drive.google.com/drive/folders/0B_4XAKQsBEA3fnBzVVVhMjB5Q2dyblFkaDZhRUNiaUZJRldlNm1TN2NvMVdTNU1pWGxpZnM?resourcekey=0-ic5IR6YsFqNtN1k1zZNgPA&usp=sharing"
-                    }
-                  },
-                  {
-                    "col1": { "text": "13." },
-                    "col2": { "text": "18LD07" },
-                    "col3": { "text": "Control System" },
-                    "col4": {
-                      "text": "Click Here",
-                      "href": "https://drive.google.com/drive/folders/0B079Ys6y0xxnfk9PNEU4WnRuYmJnQ3Vmclo5N3IxNkh4VndCOVpIbVQ5TENYdDJYckNhSnM?resourcekey=0-lbAsl3hEh5cwnYbtzn9mNA&usp=sharing"
-                    }
-                  },
-                  {
-                    "col1": { "text": "14." },
-                    "col2": { "text": "18LD13" },
-                    "col3": { "text": "Electromagnetic Field And Wave Guides" },
-                    "col4": {
-                      "text": "Click Here",
-                      "href": "https://drive.google.com/drive/folders/1QxGUxyjvPjsYAv1MdX5yYy1GybViA02lk1qxkD3YrDoy2HF-91QsIOpwYihZrrXdZwzr5h1d?usp=sharing"
-                    }
-                  },
-                  {
-                    "col1": { "text": "15." },
-                    "col2": { "text": "18LD10" },
-                    "col3": { "text": "Digital Signal Processing" },
-                    "col4": {
-                      "text": "Click Here",
-                      "href": "https://drive.google.com/drive/folders/1aU_B1E2tNC7lc_1ueYzjgdESOkNvePb4aBmO0K4Pl68e9zFBvbx3pj5TDcktvQdLCrjWXjEt?usp=sharing"
-                    }
-                  },
-                  {
-                    "col1": { "text": "16." },
-                    "col2": { "text": "18LD11" },
-                    "col3": { "text": "Embedded Systems" },
-                    "col4": {
-                      "text": "Click Here",
-                      "href": "https://drive.google.com/drive/folders/1RXD1NmaIV7Kuo1nppfdb4Q_ap9eJ5s2U7WqXZkcSNc1ry-X9bTtNEZR1VTXiozaTiNGQKLJ9?usp=sharing"
-                    }
-                  },
-                  {
-                    "col1": { "text": "17." },
-                    "col2": { "text": "18ED23" },
-                    "col3": { "text": "Computer Networks" },
-                    "col4": {
-                      "text": "Click Here",
-                      "href": "https://drive.google.com/drive/folders/15yRIEuTkyn4wuA2ccfk8cuLDl_5eUBqx6AkBXo4uhtVyhCPDa-42c7Nb79-hB1NkbJGjnYkd?usp=sharing"
-                    }
-                  },
-                  {
-                    "col1": { "text": "18." },
-                    "col2": { "text": "18LC11" },
-                    "col3": { "text": "Electronic Circuits" },
-                    "col4": {
-                      "text": "Click Here",
-                      "href": "https://drive.google.com/drive/folders/1iIPzuYCqI9gV1PbEZFDVJ8NhthsTYB54XhAq9ky1f9hdHp4Zoo9vMgjqb69SFyTJEM9oKyKR?usp=sharing"
-                    }
-                  },
-                  {
-                    "col1": { "text": "19." },
-                    "col2": { "text": "18LD07" },
-                    "col3": { "text": "Control Systems" },
-                    "col4": {
-                      "text": "Click Here",
-                      "href": "https://drive.google.com/drive/folders/1x80UmKlXinaSHOEMveUQsMxeSb09Tbs-li25Nfr35mzNCMsotQS0Y8bw9xG9aQiqgoW8NDAo?usp=sharing"
-                    }
-                  },
-                  {
-                    "col1": { "text": "20." },
-                    "col2": { "text": "18ED23" },
-                    "col3": { "text": "Computer Networks" },
-                    "col4": {
-                      "text": "Click Here",
-                      "href": "https://drive.google.com/drive/folders/1KcSG9bBP3PknZNKiyRAJYVhKM405pz08So033IX73qmNrs8ArkQw1mG6VH79KdoXcPGhUfQ6?usp=sharing"
-                    }
-                  },
-                  {
-                    "col1": { "text": "21." },
-                    "col2": { "text": "18LD10" },
-                    "col3": { "text": "Digital Signal Processing" },
-                    "col4": {
-                      "text": "Click Here",
-                      "href": "https://drive.google.com/drive/folders/0B14yJK2-eyHqfi1ib0pDTmIwTXFUODZ5TGtQbzVWYnFrZG5HWGd3YW5DcVY0bjZfSDN1NjA?resourcekey=0-XIl7zu5QLxYopMYzIff8Gw&usp=sharing"
-                    }
-                  },
-                  {
-                    "col1": { "text": "22." },
-                    "col2": { "text": "18LD13" },
-                    "col3": { "text": "Electromagnetic Fields And Waveguides" },
-                    "col4": {
-                      "text": "Click Here",
-                      "href": "https://drive.google.com/drive/folders/0Bwzb0d8MI7AKfkw2YUNuR0o2Rnd5MlJjcm5KOTJzd1JISFd2VmRpdVl3TDdNaUZPR1Nmak0?resourcekey=0-kET-8xuum3PWtmRZrbMXJw&usp=sharing"
-                    }
-                  },
-                  {
-                    "col1": { "text": "23." },
-                    "col2": { "text": "18LD11" },
-                    "col3": { "text": "Embedded Systems" },
-                    "col4": {
-                      "text": "Click Here",
-                      "href": "https://drive.google.com/drive/folders/1RXD1NmaIV7Kuo1nppfdb4Q_ap9eJ5s2U7WqXZkcSNc1ry-X9bTtNEZR1VTXiozaTiNGQKLJ9?usp=sharing"
-                    }
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      }
-    },
-
-    {
-      "type": "double-col-list",
-      "data": {
-        "columns": [
-          {
-            "id": "newsletter",
-            "heading": "News letter",
-            "items": [
-              {
-                "id": 1,
-                "label": "2018-2019",
-                "url": "#"
-              },
-              {
-                "id": 2,
-                "label": "Electro Media Issue 02 Jan – June 2019",
-                "url": "https://kce.ac.in/new/wp-content/uploads/2022/04/Electro-Media-Issue-02-Jan-–-June-2019.pdf"
-              },
-              {
-                "id": 3,
-                "label": "Electro Media Issue 01 July – Dec 2019",
-                "url": "https://kce.ac.in/new/wp-content/uploads/2022/04/Electro-Media-Issue-01-July-Dec-2019.pdf"
-              },
-              {
-                "id": 4,
-                "label": "Electro Media Issue 02 Jan – June 2020",
-                "url": "https://kce.ac.in/new/wp-content/uploads/2022/04/Electro-Media-Issue-02-Jan-–-June-2020.pdf"
-              },
-              {
-                "id": 5,
-                "label": "Electro Media Issue 01 July – Dec 2020",
-                "url": "https://kce.ac.in/new/wp-content/uploads/2022/04/Electro-Media-Issue-01-July-Dec-2020.pdf"
-              },
-              {
-                "id": 6,
-                "label": "Electro Media Issue 02 Jan – June 2021",
-                "url": "https://kce.ac.in/new/wp-content/uploads/2022/04/Electro-Media-Issue-02-Jan-–-June-2021.pdf"
-              },
-              {
-                "id": 7,
-                "label": "Electro Media Issue 01 July – Dec 2021",
-                "url": "https://kce.ac.in/new/wp-content/uploads/2022/04/Electro-Media-Issue-01-July-Dec-2021.pdf"
-              },
-              {
-                "id": 8,
-                "label": "Electro Media Issue Jan- June 2022",
-                "url": "https://kce.ac.in/new/wp-content/uploads/2025/06/1.EC-News-letter-Jan-June-2022.pdf"
-              },
-              {
-                "id": 9,
-                "label": "Electro Media Issue July- Dec 2022",
-                "url": "https://kce.ac.in/new/wp-content/uploads/2025/06/2.EC-News-letter-Jul-Dec-2022.pdf"
-              },
-              {
-                "id": 10,
-                "label": "Electro Media Issue Jan- June 2023",
-                "url": "https://kce.ac.in/new/wp-content/uploads/2025/06/3.-EC-News-letter-JAN-JUNE-2023.pdf"
-              },
-              {
-                "id": 11,
-                "label": "Electro Media Issue July – Dec 2023",
-                "url": "https://kce.ac.in/new/wp-content/uploads/2025/06/4.EC-News-letter-JUL-DEC-2023.pdf"
-              },
-              {
-                "id": 12,
-                "label": "Electro Media Issue Jan- June 2024",
-                "url": "https://kce.ac.in/new/wp-content/uploads/2025/06/5.EC-News-letterJan-June-2024.pdf"
-              },
-              {
-                "id": 13,
-                "label": "Electro Media Issue July – Dec 2024",
-                "url": "https://kce.ac.in/new/wp-content/uploads/2025/06/6.EC-News-letterJuly-Dec_2024.pdf"
-              }
-            ]
-          },
-          {
-            "id": "magazine",
-            "heading": "Magazine",
-            "items": [
-              {
-                "id": 1,
-                "label": "2024 – 2025",
-                "url": "https://kce.ac.in/new/wp-content/uploads/2025/06/3.EC-AY24-25_Magazine.pdf"
-              },
-              {
-                "id": 2,
-                "label": "2023 – 2024",
-                "url": "https://kce.ac.in/new/wp-content/uploads/2025/06/2.EC-AY23-24_Magazine.pdf"
-              },
-              {
-                "id": 3,
-                "label": "2022 – 2023",
-                "url": "https://kce.ac.in/new/wp-content/uploads/2025/06/1.EC_Magazine_AY2022-2023.pdf"
-              },
-              {
-                "id": 4,
-                "label": "2021 – 2022",
-                "url": "https://kce.ac.in/new/wp-content/uploads/2022/04/AY21-22-Magazine.pdf"
-              },
-              {
-                "id": 5,
-                "label": "2020 – 2021",
-                "url": "https://kce.ac.in/new/wp-content/uploads/2022/04/AY20-21-Magazine.pdf"
-              },
-              {
-                "id": 6,
-                "label": "2019 – 2020",
-                "url": "https://kce.ac.in/new/wp-content/uploads/2022/04/AY-19-20-Magazine.pdf"
-              },
-              {
-                "id": 7,
-                "label": "2018 – 2019",
-                "url": "#"
-              }
-            ]
-          }
-        ]
-      }
-    },
-
-    {
-      "type": "video-card",
-      "data": {
-        "secTitle": "Education videos",
-        "items": [
-          {
-            "id": 1,
-            "type": "video",
-
-            "youtubeId": "rUJL7ExypQw"
-          },
-          {
-            "id": 2,
-            "type": "resource",
-            "label": "Pulse and Digital Circuits",
-            "url": "https://lecturenotes.in/u/niveditada8e90c4",
-            "urlText": "View",
-            "src": ""
-          },
-          {
-            "id": 3,
-            "type": "resource",
-            "label": "YouTube Channel",
-            "url": "https://www.youtube.com/channel/UCmZxg-O5X1B2pfVIAs1qbig",
-            "urlText": "View",
-            "src": ""
           }
         ]
       }
