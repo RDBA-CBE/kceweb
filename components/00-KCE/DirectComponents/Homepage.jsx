@@ -9,9 +9,12 @@ import { getAllPostsMeta } from "@/mdx";
 import About from "../Home/AboutSection/About";
 import HeroSection from "../Home/HeroSection/HeroSection";
 import ProgrammesSection from "../Home/ProgrammesSection/ProgrammesSection";
-import AlumniSuccess from "../Home/AlumniSuccess/AlumniSuccess";
 import AlumniSlider from "../Home/AlumniSuccess/AlumniSlider";
 import StudentsAchievements from "../Home/StudentsAchievements/StudentsAchievements";
+import QuickLinks from "../Home/QuicklinksSection/QuickLinks";
+import IndustryPartners from "../Home/IndustrySection/IndustryPartners";
+import PlacementBanner from "../Home/PlacementSection/PlacementBanner";
+import LatestNewsSection from "../Home/NewsSection/LatestNewsSection";
 
 const Homepage = async ({ getBlog }) => {
   const blog = await getAllPostsMeta();
@@ -22,8 +25,10 @@ const Homepage = async ({ getBlog }) => {
       <ProgrammesSection />
       <AlumniSlider />
       <StudentsAchievements />
-      <MainDemo blogs={blog} />
-      <Cart />
+      <LatestNewsSection />
+      <PlacementBanner />
+      <IndustryPartners />
+      <QuickLinks />
     </main>
   );
 };

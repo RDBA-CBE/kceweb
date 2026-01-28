@@ -1,0 +1,107 @@
+.placement {
+  background: url("/images/kce/home/placement-training.webp")
+    center / cover no-repeat;
+  width: 100%;
+  position: relative;
+}
+
+/* OVERLAY */
+.placementOverlay {
+  background: rgba(10, 45, 75, 0.85);
+  min-height: 380px;
+  padding: 70px 90px;
+  display: flex;
+  align-items: center;         /* 🔑 vertical center */
+  justify-content: center;     /* 🔑 screen center */
+  gap: 80px;
+}
+
+/* LEFT */
+.placementLeft {
+  max-width: 420px;
+  color: #fff;
+}
+
+.placementLeft h2 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.placementLeft p {
+  font-size: 15px;
+  line-height: 1.6;
+  opacity: 0.9;
+}
+
+.placementBtn {
+  margin-top: 20px;
+  background: #f5821f;
+  border: none;
+  color: #fff;
+  padding: 10px 24px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* RIGHT STATS */
+.placementStats {
+  display: flex;
+  align-items: center;      /* 🔑 vertical center */
+  justify-content: center;
+  color: #fff;
+}
+
+.stat {
+  min-width: 140px;
+  text-align: center;
+}
+
+.stat h3 {
+  font-size: 44px;
+  font-weight: 600;
+}
+
+.stat span {
+  font-size: 14px;
+  opacity: 0.85;
+}
+
+/* DIVIDER */
+.divider {
+  width: 1px;
+  height: 64px;
+  background: rgba(255, 255, 255, 0.35);
+  margin: 0 35px;
+}
+
+/* TABLET */
+@media (max-width: 1024px) {
+  .placementOverlay {
+    padding: 60px 40px;
+    gap: 60px;
+  }
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .placementOverlay {
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+  }
+
+  .placementStats {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .divider {
+    display: none;
+  }
+
+  .stat h3 {
+    font-size: 36px;
+  }
+}

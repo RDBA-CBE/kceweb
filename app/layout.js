@@ -11,7 +11,7 @@ import "../public/css/plugins/fontawesome.min.css";
 import "../public/css/plugins/feather.css";
 import "../public/css/plugins/odometer.css";
 import "../public/css/plugins/animation.css";
-import "../public/css/plugins/euclid-circulara.css";
+import "../public/css/plugins/monoscans.css";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/effect-cards";
@@ -30,12 +30,22 @@ import HeaderEight from "@/components/Header/Headers/Header-Eight";
 import Footer from "@/components/00-Kahe/common-components/Footer";
 import Header from "@/components/00-Kahe/common-components/Header";
 
+
 export default function RootLayout({ children }) {
   useEffect(() => {
     require("bootstrap/dist/js/bootstrap.bundle.min.js");
   }, []);
   return (
     <html lang="en" dir="ltr">
+      <head>
+        {/* ✅ GOOGLE FONT – MONA SANS */}
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap"
+          rel="stylesheet"
+        />
+      </head>
       <body className="" suppressHydrationWarning={true}>
         <Provider store={Store}>
           <Context>
