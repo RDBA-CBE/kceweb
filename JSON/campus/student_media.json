@@ -1,0 +1,91 @@
+{
+  "banner": {
+    "bannerImg": "/images/kce/banner_computer_technology.jpg",
+    "title": "Student Media",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Infrastructure",
+        "href": "/home/infrastructure"
+      },
+      {
+        "label": "Student Media"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "split-image-content",
+      "data": {
+        "imagePosition": "right",
+        "sectionbg": "section-bg1 my-4",
+        "image": "/images/gallery/gallery-big.jpg",
+        "content": [
+          {
+            "type": "title",
+            "mainTi": ""
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              "Student media at KCE is committed to the support and display of responsible, ethical media to engage, inform and enrich the lives of the campus. Student media provides an outlet for the free expression and exchange of ideas, concerns, and information. Student media serves as the intellectual and cultural hub that connects students and faculty members into a thriving public forum."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "gallery",
+      "data": {
+        "title": "Gallery",
+        "content": [
+          {
+            "images": [
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/about-img-400x400-1-150x150.jpg"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/KIC1-1-400x400-1-150x150.jpg"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/KIC2-1-400x400-1-150x150.jpg"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/startupweekend-400x400-1-150x150.jpg"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/KIC2-2-400x400-1-150x150.jpg"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/KIC1-2-400x400-1-1-150x150.jpg"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Guiness-world-Record-400x400-1-150x150.jpg"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/KCE_StoryTelling-400x400-1-150x150.jpg"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "video-card",
+      "data": {
+        "secTitle": "KIC TV",
+        "para": "Karpagam Innovation Centre has developed a YouTube channel ‘KIC TV’. It provides an audiovisual display of the events happening at KCE.",
+        "items": [
+          {
+            "id": 1,
+            "type": "video",
+            "youtubeUrl": "https://youtu.be/PYoX1pBuvew"
+          }
+        ]
+      }
+    }
+  ]
+}

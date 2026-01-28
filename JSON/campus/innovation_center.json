@@ -1,0 +1,97 @@
+{
+  "banner": {
+    "bannerImg": "/images/kce/banner_computer_technology.jpg",
+    "title": "Karpagam Innovation Center",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Infrastructure",
+        "href": "/home/infrastructure"
+      },
+      {
+        "label": "Karpagam Innovation Center"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "split-image-content",
+      "data": {
+        "imagePosition": "right",
+        "sectionbg": "section-bg1 my-4",
+        "image": "/images/gallery/gallery-big.jpg",
+        "content": [
+          {
+            "type": "title",
+            "mainTi": ""
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              "KIC encourages and accelerates development of indigenous products and packages. The centre bridges the gap between R&D and commercialization. KIC facilitates entrepreneurial training and IPR facilitation. We also promote the involvement of faculty in startup activities. KIC ensures interaction between education and industry and alignment of education with exact market demands. The centre organizes Entrepreneurship Awareness Camps, Entrepreneurship Development Programmes, Faculty Development Programmes and Skill Development Programmes in the institution. Centre initiates innovative student projects each year for new innovative product development. KIC arranges interaction with entrepreneurs and offers mentorship schemes for student entrepreneurs. It believes in innovation through offering a wide range of Branded programs at one stop that no other centre is offering in the education space. The centre is equipped with an ambitious, workable plan to provide Skill Development Education to the youth of the Nation. KIC makes the innovative ideas to blossom."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "split-image-content",
+      "data": {
+        "imagePosition": "left",
+        "sectionbg": "section-bg1 my-4",
+        "image": "/images/gallery/gallery-big.jpg",
+        "content": [
+          {
+            "type": "title",
+            "mainTi": "Karpagam Skill Development Centre (KSDC)"
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              "Karpagam Skill Development Centre is an approved Skill Development Centre under Pradhan Mantri Kaushal Vikas Yojna (PMKVY) Scheme…An initiative of Karpagam College of Engineering to promote industry oriented skills under AICTE-PMKVY project in line with ‘Make in India’ and ‘Skill India’ mission in young people. PMKVY is a bellwether outcome-based skill development initiative of the Ministry of Skill Development and Entrepreneurship. The objective of this Skill Certification Scheme is to enable a large number of Indian youth to take up industry-relevant skill training that will help them in securing a better livelihood. Skill development is the process of identifying one’s skill gaps and developing and honing these skills. The main objective of the centre is to strengthen the technical knowledge of the students. Skill Development training addresses the opportunities and challenges to meet new demands of changing economies and new technologies."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "gallery",
+      "data": {
+        "title": "Gallery",
+        "content": [
+          {
+            "images": [
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/about-img-400x400-1-150x150.jpg"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/KIC1-1-400x400-1-150x150.jpg"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/KIC2-1-400x400-1-150x150.jpg"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/startupweekend-400x400-1-150x150.jpg"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/KIC2-2-400x400-1-150x150.jpg"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/KIC1-2-400x400-1-1-150x150.jpg"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Guiness-world-Record-400x400-1-150x150.jpg"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/KCE_StoryTelling-400x400-1-150x150.jpg"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "banner": {
+    "bannerImg": "/images/kce/banner_computer_technology.jpg",
+    "title": "Infrastructure",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Infrastructure"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "gallery",
+      "data": {
+        "title": "Green Campus",
+        "content": [
+          {
+            "images": [
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2022/07/green-campus-1.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2022/07/green-campus-2.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2022/07/green-campus-3.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2022/07/green-campus-5.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2022/07/green-campus-6.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2022/07/green-campus-7.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2022/07/green-campus-8.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2022/07/green-campus-9.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2022/07/green-campus-10.jpg" }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "gallery",
+      "data": {
+        "title": "Infrastructure",
+        "content": [
+          {
+            "images": [
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2022/07/3A1A2199.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2022/07/3A1A2211.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2022/07/3A1A2226.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2022/07/3A1A2231.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2022/07/3A1A2239.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2022/07/3A1A2243.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2022/07/3A1A2253.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2022/07/3A1A2269.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2022/07/3A1A2275.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2022/07/3A1A2300.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2022/07/3A1A2312.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2022/07/3A1A2323.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2022/07/3A1A2344.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2022/07/3A1A2364.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2022/07/3A1A3184.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2022/07/3A1A3191.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2022/07/3A1A3197.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2022/07/3A1A3213.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2022/07/3A1A3217.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2022/07/3A1A3418-HDR.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2022/07/IMGP0486.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2022/07/IMGP0508.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2022/07/IMGP0522.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2022/07/IMGP0536.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2022/07/IMGP0542.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2022/07/IMGP0546.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2022/07/IMGP0562.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2022/07/IMGP0567.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2022/07/IMGP0577.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2022/07/IMGP0591.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2022/07/IMGP0593.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2022/07/IMGP0607.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2022/07/IMGP0622.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2022/07/IMGP0632.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2022/07/IMGP0637.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2022/07/IMGP0644.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2022/07/IMGP0651.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2022/07/IMGP0671.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2022/07/IMGP0688.jpg" }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

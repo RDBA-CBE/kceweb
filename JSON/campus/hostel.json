@@ -1,0 +1,61 @@
+{
+  "banner": {
+    "bannerImg": "/images/kce/banner_computer_technology.jpg",
+    "title": "Hostel",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Infrastructure",
+        "href": "/home/infrastructure"
+      },
+      {
+        "label": "Hostel"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "split-image-content",
+      "data": {
+        "imagePosition": "right",
+        "sectionbg": "section-bg1 my-4",
+        "image": "/images/gallery/gallery-big.jpg",
+        "content": [
+          {
+            "type": "title",
+            "mainTi": "A home away from home"
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              "Our objective of establishing hostels within the campus is to provide “a home away from home” for the students. We provide separate hostels for boys and girls. The hostel environment certainly provides self- confidence, instills discipline in the minds of students and also provides scope for developing their ideas.The hostel on our campus is aesthetically designed to provide an ideal and spacious environment conducive for academic pursuit. The hostel is provided with uninterrupted water supply, reading hall, round the clock security, internet connection, indoor recreation, television etc., State of the art kitchen and spacious dining area has been provided for both the hostels and a customized menu caters to the students’ needs. Hygiene and cleanliness are emphasized in the hostel."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "split-image-content",
+      "data": {
+        "imagePosition": "left",
+        "sectionbg": "section-bg1 my-4",
+        "image": "/images/gallery/gallery-big.jpg",
+        "content": [
+          {
+            "type": "title",
+            "mainTi": "Counseling Center"
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              "KCE’s counseling center is an on-campus resource that supports student growth and development as they meet the challenges and choices faced throughout their college years. It is committed to helping students reach their highest academic and personal potential. Counseling Services actively promotes the personal, social, emotional and cognitive growth of KCE students. Special attention is paid to the ongoing issues affecting college students. Counseling Services values and maintains the highest professional and ethical standards in order to foster the psychological well-being and development of KCEians. The student counselor works regularly with students to help them in their emotional, psychological, familial, and academic problems."
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
