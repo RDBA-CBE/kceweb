@@ -10,9 +10,9 @@ import "swiper/css/effect-coverflow";
 import styles from "./AlumniSlider.module.css";
 
 const alumniData = [
-  { name: "Mrs. Lorem ipsum", desc: "Lorem ipsum dolor sit amet", img: "/images/kce/home/alumini/1.webp" },
-  { name: "Mrs. Lorem ipsum", desc: "Lorem ipsum dolor sit amet", img: "/images/kce/home/alumini/2.webp" },
-  { name: "Mrs. Lorem ipsum", desc: "Lorem ipsum dolor sit amet", img: "/images/kce/home/alumini/3.webp" },
+  { name: "P.Senthil Kumar", desc: "Junior Engineer – CPWD", img: "/images/kce/home/alumini/1.webp" },
+  { name: "Arun", desc: "EEE -2013", img: "/images/kce/home/alumini/2.webp" },
+  { name: "Mr.Gowtham M", desc: "DCS System Engineer Yokogawa India Ltd.,", img: "/images/kce/home/alumini/3.webp" },
  { name: "Mrs. Lorem ipsum", desc: "Lorem ipsum dolor sit amet", img: "/images/kce/home/alumini/4.webp" },
  { name: "Mrs. Lorem ipsum", desc: "Lorem ipsum dolor sit amet", img: "/images/kce/home/alumini/5.webp" },
    { name: "Mrs. Lorem ipsum", desc: "Lorem ipsum dolor sit amet", img: "/images/kce/home/alumini/1.webp" },
@@ -25,7 +25,7 @@ const alumniData = [
 const AlumniSlider = () => {
   return (
     <section className={styles.section}>
-      <h2 className={styles.heading}>Alumni Success Stories</h2>
+      <h2 className={styles.heading}>ALUMNI SUCCESS STORIES</h2>
 
       <Swiper
         modules={[EffectCoverflow, Autoplay]}

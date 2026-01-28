@@ -1,7 +1,7 @@
 .section {
   position: relative;
   background: url("/images/kce/home/programmes-for-you.webp") center/cover no-repeat;
-  padding: 150px 120px 380px 120px;
+  padding: 150px 0 200px 0;
   overflow: hidden;
   color: #fff;
 }
@@ -9,12 +9,12 @@
 .overlay {
   position: absolute;
   inset: 0;
-  background: rgba(17, 40, 61, 0.88);
+  background: rgba(0, 23, 41, 0.87); 
 }
 
 .container {
   position: relative;
-  max-width: 1200px;
+  max-width: 75%;
   margin: auto;
   padding: 0 24px;
   z-index: 2;
@@ -24,8 +24,6 @@
   letter-spacing: 2px;
   margin-bottom: 50px;
   color: #fff;
-  font-weight: 200;
-  font-size: 36px;
 }
 
 /* Layout */
@@ -37,17 +35,18 @@
 
 /* ORANGE CARD */
 .orangeCard {
-  position: relative; 
-  width: 100%;        /* make responsive */
-  max-width: 360px;   /* original width on desktop */
-  height: 520px;      
-  overflow: hidden;   
+ position: relative; margin-right: 10%;
+  width: 100%;
+  max-width: 400px;
+  height: 560px;
+  overflow: hidden; border-radius: 25px;
+  background: url("/images/kce/logo-card/orange-card1.png") center / cover no-repeat;
 }
 
-.orangeMask {
+/* .orangeMask {
   position: absolute;
   inset: 0;
-}
+} */
 
 .orangeContent {
   position: relative;
@@ -61,13 +60,10 @@
 }
 
 .tab h3 {
-  font-size: 24px; /* smaller for responsive */
   color: #fff;
-  font-weight: 200;
 }
 
 .tab p {
-  font-size: 14px;
   line-height: 1.6;
   margin-top: 6px;
 }
@@ -91,14 +87,13 @@
 }
 
 .listItem {
-  font-size: 16px;
   margin-bottom: 14px;
   color: #cfd6db;
 }
 
 .listItem span {
   color: #f5821f;
-  margin-right: 10px;
+  margin-right: 10px; 
 }
 
 /* BOTTOM WAVE */

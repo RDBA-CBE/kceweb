@@ -5,7 +5,7 @@
 }
 
 .container {
-  max-width:1200px;
+  max-width:75%;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -20,8 +20,7 @@
 .title {
   color: #1a365d; /* Deep Navy */
   margin-bottom: 20px;
-  position: relative;
-}
+  position: relative; }
 
 .description p {
   color: #4a5568;
@@ -56,7 +55,7 @@
   border-radius: 8px;
   cursor: pointer;
   text-transform: uppercase;
-  transition: background 0.2s;
+  transition: background 0.2s; margin: 15px 0;
 }
 
 .ctaButton:hover {
