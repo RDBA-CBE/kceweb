@@ -1,0 +1,40 @@
+{
+    "banner": {
+      "bannerImg": "/images/kce/banner_computer_technology.jpg",
+      "title": "Placement Procedure",
+      "breadcrumb": [
+        {
+          "label": "Home",
+          "href": "/"
+        },
+        {
+          "label": "Placement Procedure"
+        }
+      ]
+    },
+    "sections": [
+      {
+        "type": "split-image-content",
+        "data": {
+          "imagePosition": "right",
+          "sectionbg": "section-bg1 my-4",
+          "image": "/images/gallery/gallery-big.jpg",
+          "content": [
+            {
+              "type": "title",
+              "mainTi": "Different steps in conducting a placement drive."
+            },
+            {
+              "type": "paragraph",
+              "text": [
+                "To start with the placement cell contacts the various companies and invite for the campus drive.",
+                "As it goes with the placement cell are approached by the companies as in response for the invitation and thus the details of the final year students details are shared as per the requirement of the companies and the dates for placement drive is finalized in a mutual agreed manner.",
+                "On the day of placement drive to carter the need of the organization the necessary requirements for the pre-placement talk, written test, online test, Group Discussion and Interview are arranged at college.",
+                "After the various short listing stage the students are finally interviewed and the list of shortlisted candidate are shared with the placement cell. After which the result are announced by the placement office with the consent of the organization."
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }

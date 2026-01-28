@@ -1,12 +1,12 @@
 
 'use client'
 import React from 'react'
-import data from "@/JSON/PLACEMENT/overview.json";
+import data from "@/JSON/PLACEMENT/placement_procedure.json";
 
 import InnerBanner from '@/components/00-KCE/common/InnerBanner'
 import RenderSection from '@/components/00-KCE/RenderComponent/RenderSection'
 
-export default function OverviewPage () {
+export default function PlacementProcedurePage () {
   const pageData = data
   const renderSectionWrapper = (section, index) => {
     return (
