@@ -9,7 +9,7 @@ const CardList2 = ({ data }) => {
           <div key={index} className="po-accent-card">
             <div className="po-badge">{item.code}</div>
             <div className="po-content">
-              <h3>{item.title}</h3>
+              <h3 className="sub-ti">{item.title}</h3>
               <p>{item.description}</p>
             </div>
           </div>
