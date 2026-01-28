@@ -1,137 +1,134 @@
-"use client";
-import React, { useEffect, useState } from "react";
+'use client'
+import React, { useEffect, useState } from 'react'
 
-const getYoutubeId = (url = "") => {
+const getYoutubeId = (url = '') => {
   const match = url.match(
-    /(?:youtu\.be\/|youtube\.com\/(?:watch\?v=|embed\/))([^?&]+)/,
-  );
-  return match ? match[1] : "";
-};
+    /(?:youtu\.be\/|youtube\.com\/(?:watch\?v=|embed\/))([^?&]+)/
+  )
+  return match ? match[1] : ''
+}
 
 const VideoCardSection = ({ data }) => {
-  const [video, setVideo] = useState(null);
-  const [videoTitles, setVideoTitles] = useState({});
+  const [video, setVideo] = useState(null)
+  const [videoTitles, setVideoTitles] = useState({})
 
-  if (!data?.items?.length) return null;
+  if (!data?.items?.length) return null
 
   useEffect(() => {
-    data?.items?.forEach((item) => {
-      if (item.type === "video") {
-        const youtubeId = getYoutubeId(item.youtubeUrl);
+    data?.items?.forEach(item => {
+      if (item.type === 'video') {
+        const youtubeId = getYoutubeId(item.youtubeUrl)
 
         if (!item.title && youtubeId && !videoTitles[youtubeId]) {
           fetch(
-            `https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=${youtubeId}&format=json`,
+            `https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=${youtubeId}&format=json`
           )
-            .then((res) => res.json())
-            .then((res) => {
-              setVideoTitles((prev) => ({
+            .then(res => res.json())
+            .then(res => {
+              setVideoTitles(prev => ({
                 ...prev,
-                [youtubeId]: res.title,
-              }));
+                [youtubeId]: res.title
+              }))
             })
             .catch(() => {
-              setVideoTitles((prev) => ({
+              setVideoTitles(prev => ({
                 ...prev,
-                [youtubeId]: "YouTube Video",
-              }));
-            });
+                [youtubeId]: 'YouTube Video'
+              }))
+            })
         }
       }
-    });
-  }, [data, videoTitles]);
+    })
+  }, [data, videoTitles])
 
   return (
     <>
-      <section className="kce-learn-section">
-        <h2 className="section-ti">{data.secTitle}</h2>
-        <div className="kce-learn-grid pt-4">
-          {data.items.map((item) => {
+      <section className='kce-learn-section'>
+        <h2 className='section-ti'>{data.secTitle}</h2>
+        {data?.para && <p className='sub-ti'>{data?.para}</p>}
+        <div className='kce-learn-grid pt-4'>
+          {data.items.map(item => {
             /* VIDEO CARD */
-            if (item.type === "video") {
-              const youtubeId = getYoutubeId(item.youtubeUrl);
+            if (item.type === 'video') {
+              const youtubeId = getYoutubeId(item.youtubeUrl)
 
               return (
                 <div
                   key={item.id}
-                  className="yt-video-card"
+                  className='yt-video-card'
                   onClick={() => setVideo({ ...item, youtubeId })}
                 >
-                  <div className="yt-video-content">
-                    <h6 className="yt-video-title sub-ti">
-                      {item.title ||
-                        videoTitles[youtubeId] ||
-                        "YouTube Video"}
+                  <div className='yt-video-content'>
+                    <h6 className='yt-video-title sub-ti'>
+                      {item.title || videoTitles[youtubeId] || 'YouTube Video'}
                     </h6>
                   </div>
 
-                  <div className="kahe-yt-video-thumb">
+                  <div className='kahe-yt-video-thumb'>
                     <img
                       src={`https://img.youtube.com/vi/${youtubeId}/hqdefault.jpg`}
                       alt={
-                        item.title ||
-                        videoTitles[youtubeId] ||
-                        "YouTube video"
+                        item.title || videoTitles[youtubeId] || 'YouTube video'
                       }
                     />
-                    <div className="kahe-yt-play-overlay">
-                      <i className="feather-play" />
+                    <div className='kahe-yt-play-overlay'>
+                      <i className='feather-play' />
                     </div>
                   </div>
                 </div>
-              );
+              )
             }
 
             /* RESOURCE CARD */
-            if (item.type === "resource") {
+            if (item.type === 'resource') {
               return (
                 <a
                   key={item.id}
                   href={item.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="kce-resource-soft-card"
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='kce-resource-soft-card'
                 >
-                  <h4 className="kce-resource-title sub-ti">{item.label}</h4>
+                  <h4 className='kce-resource-title sub-ti'>{item.label}</h4>
 
-                  <div className="kce-resource-footer">
-                    <span className="kce-resource-download">
-                      {item.urlText || "View"}
+                  <div className='kce-resource-footer'>
+                    <span className='kce-resource-download'>
+                      {item.urlText || 'View'}
                     </span>
 
-                    <span className="kce-resource-pdf">
+                    <span className='kce-resource-pdf'>
                       {item.src ? (
-                        <img src={item.src} alt="icon" />
+                        <img src={item.src} alt='icon' />
                       ) : (
-                        <i className="feather-arrow-up-right" />
+                        <i className='feather-arrow-up-right' />
                       )}
                     </span>
                   </div>
                 </a>
-              );
+              )
             }
 
-            return null;
+            return null
           })}
         </div>
       </section>
 
       {/* VIDEO MODAL */}
       {video && (
-        <div className="kce-modal" onClick={() => setVideo(null)}>
-          <div className="kce-modal-box" onClick={(e) => e.stopPropagation()}>
+        <div className='kce-modal' onClick={() => setVideo(null)}>
+          <div className='kce-modal-box' onClick={e => e.stopPropagation()}>
             <iframe
               src={`https://www.youtube.com/embed/${video.youtubeId}?autoplay=1`}
               title={video.title}
-              allow="autoplay; encrypted-media"
+              allow='autoplay; encrypted-media'
               allowFullScreen
             />
 
             <a
               href={`https://www.youtube.com/watch?v=${video.youtubeId}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="kce-modal-title"
+              target='_blank'
+              rel='noopener noreferrer'
+              className='kce-modal-title'
             >
               {video.title || videoTitles[video.youtubeId]}
             </a>
@@ -139,7 +136,7 @@ const VideoCardSection = ({ data }) => {
         </div>
       )}
     </>
-  );
-};
+  )
+}
 
-export default VideoCardSection;
+export default VideoCardSection
