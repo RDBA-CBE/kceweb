@@ -402,7 +402,7 @@
           {
             "type": "paragraph",
             "text": [
-              "Dr. R. Sarankumar completed Bachelor Degree in Engineering in the stream of Electronics and Communication Engineering and Master Degree in Engineering in the stream of Communication Systems from Anna University in the year 2009 and 2011 respectively. He received Ph.D. degree from Anna University in 2018 in the faculty of Information and Communication Engineering. His area of interest includes Signal Processing, Cognitive Radio, Wireless Communications, Internet of Things and Machine Learning."
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus commodi suscipit in maiores vero aliquam nam. Consequatur, nulla! At illo dignissimos accusantium, aut quas error consectetur consequatur officiis quae dolore!"
             ]
           },
           {
@@ -967,22 +967,217 @@
           {
             "id": 1,
             "type": "video",
-
-            "youtubeId": "rUJL7ExypQw"
+            "youtubeUrl": "https://youtu.be/saqG2I32OB0?si=daA4FEWr9V-JtRsB"
           },
           {
             "id": 2,
+            "type": "video",
+            "youtubeUrl": "https://youtu.be/IDjSEkgwQp8?si=6tmpynTNsgTQr6Ew"
+          },
+          {
+            "id": 3,
+            "type": "video",
+            "youtubeUrl": "https://youtu.be/Uf9MbzX3_xI?si=bx_zzRvCOIrpH-V-"
+          },
+          {
+            "id": 4,
+            "type": "video",
+            "youtubeUrl": "https://youtu.be/UiI95lH1wqs?si=CQnep2jSTVXMjiS_"
+          },
+          {
+            "id": 5,
+            "type": "video",
+            "youtubeUrl": "https://youtu.be/2DvPOPbPePY?si=mLSNbfgNXJ1LkRm0"
+          },
+          {
+            "id": 6,
+            "type": "video",
+            "youtubeUrl": "https://youtu.be/L_ejhJ-DA48?si=aOOdVz5hSjBVsfDG"
+          }
+        ]
+      }
+    },
+    {
+      "type": "video-card",
+      "data": {
+        "secTitle": "Kinematics of Machinery",
+        "items": [
+          {
+            "id": 1,
+            "type": "video",
+            "youtubeUrl": "https://youtu.be/F77qKgOpcMs?t=38"
+          },
+          {
+            "id": 2,
+            "type": "video",
+            "youtubeUrl": "https://youtu.be/uhJkdZ1iBKo"
+          },
+          {
+            "id": 3,
+            "type": "video",
+            "youtubeUrl": "https://youtu.be/YRLvlXfxxcs?t=180"
+          },
+          {
+            "id": 4,
+            "type": "video",
+            "youtubeUrl": "https://youtu.be/eX_FJrm4NXU"
+          },
+          {
+            "id": 5,
+            "type": "video",
+            "youtubeUrl": "https://youtu.be/cAzLIiH2oI0?list=PL1cUOSbj1p9fTW7sII0FWmilfk9eXsNRi"
+          },
+          {
+            "id": 6,
+            "type": "video",
+            "youtubeUrl": "https://youtu.be/fCILFWrlLRk"
+          },
+          {
+            "id": 7,
             "type": "resource",
-            "label": "Pulse and Digital Circuits",
-            "url": "https://lecturenotes.in/u/niveditada8e90c4",
+            "label": "Note For Dynamics Of Machinery",
+            "url": "https://lecturenotes.in/notes/18749-dynamics-of-machinery?utm_source=my_uploads&utm_medium=web&utm_campaign=material_page",
             "urlText": "View",
             "src": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "video-card",
+      "data": {
+        "secTitle": "Strength of Material",
+        "items": [
+          {
+            "id": 1,
+            "type": "video",
+            "youtubeUrl": "https://youtu.be/ZhWgKKuJ2gI?t=24"
+          },
+          {
+            "id": 2,
+            "type": "video",
+            "youtubeUrl": "https://youtu.be/vri5XOC3zuc"
           },
           {
             "id": 3,
             "type": "resource",
-            "label": "YouTube Channel",
-            "url": "https://www.youtube.com/channel/UCmZxg-O5X1B2pfVIAs1qbig",
+            "label": "Note For Strength Of Materials",
+            "url": "https://lecturenotes.in/notes/17016-strength-of-materials?utm_source=my_uploads&utm_medium=web&utm_campaign=material_page",
+            "urlText": "View",
+            "src": ""
+          }
+          
+        ]
+      }
+    },
+    {
+      "type": "video-card",
+      "data": {
+        "secTitle": "Fluid Mechanics",
+        "items": [
+          {
+            "id": 1,
+            "type": "video",
+            "youtubeUrl": "https://youtu.be/2yU7kHcE2uQ"
+          },
+          {
+            "id": 2,
+            "type": "video",
+            "youtubeUrl": "https://youtu.be/uAdzp-CsAQg"
+          },
+          {
+            "id": 3,
+            "type": "video",
+            "youtubeUrl": "https://youtu.be/Jk5T15T-4Cs?t=25"
+          }
+        ]
+      }
+    },
+    {
+      "type": "video-card",
+      "data": {
+        "secTitle": "Additive Manufacturing",
+        "items": [
+          {
+            "id": 1,
+            "type": "video",
+            "youtubeUrl": "https://youtu.be/SsU5uBP6K-g"
+          },
+          {
+            "id": 2,
+            "type": "video",
+            "youtubeUrl": "https://youtu.be/uCmEmakLMcI"
+          }
+        ]
+      }
+    },
+    {
+      "type": "video-card",
+      "data": {
+        "secTitle": "Additive Manufacturing",
+        "items": [
+          {
+            "id": 1,
+            "type": "video",
+            "youtubeUrl": "https://youtu.be/FTkUarfowug"
+          },
+          {
+            "id": 2,
+            "type": "video",
+            "youtubeUrl": "https://youtu.be/5m8hrO978DA?t=1"
+          },
+          {
+            "id": 3,
+            "type": "video",
+            "youtubeUrl": "https://youtu.be/nARo2Bz5fS8"
+          },
+          {
+            "id": 4,
+            "type": "video",
+            "youtubeUrl": "https://youtu.be/-kU2d2N-4x4?t=4"
+          }
+        ]
+      }
+    },
+    {
+      "type": "video-card",
+      "data": {
+        "secTitle": "Additive Manufacturing",
+        "items": [
+          {
+            "id": 1,
+            "type": "video",
+            "youtubeUrl": "https://youtu.be/Zpb7szVCUb0"
+          }
+        ]
+      }
+    },
+    {
+      "type": "video-card",
+      "data": {
+        "secTitle": "Note For Total Quality Management",
+        "items": [
+          {
+            "id": 1,
+            "type": "resource",
+            "label": "Note For Total Quality Management",
+            "url": "https://lecturenotes.in/notes/18750-total-quality-management?utm_source=my_uploads&utm_medium=web&utm_campaign=material_page",
+            "urlText": "View",
+            "src": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "video-card",
+      "data": {
+        "secTitle": "Finite Element Methods",
+        "items": [
+          {
+            "id": 1,
+            "type": "resource",
+            "label": "Note For Finite Element Methods",
+            "url": "https://lecturenotes.in/notes/17054-finite-element-%20methods?utm_source=my_uploads&utm_medium=web&utm_campaign=material_page",
             "urlText": "View",
             "src": ""
           }

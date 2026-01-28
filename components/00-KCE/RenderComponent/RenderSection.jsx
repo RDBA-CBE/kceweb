@@ -101,6 +101,8 @@ const RenderSection = ({ section, index, renderSection }) => {
         </section>
       );
 
+    
+
     case "split-image-content":
       return <SplitImageContent key={index} data={section.data} />;
 
