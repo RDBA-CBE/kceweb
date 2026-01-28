@@ -14,13 +14,13 @@ const TimeLine = ({ data }) => {
                 <div className="mom-card">
                   <div className="mom-card-inner">
                     {/* Year Circle */}
-                    <div className="mom-year">{item?.year}</div>
+                    <div className="mom-year">{item?.label}</div>
 
                     {/* Timeline */}
                     <div className="mom-timeline">
                       <span className="mom-vertical-line"></span>
 
-                      {item.dates.map((date, i) => (
+                      {item.value.map((date, i) => (
                         <div className="mom-timeline-row" key={i}>
                           <span className="mom-horizontal-line"></span>
                           <span className="mom-arrow"></span>

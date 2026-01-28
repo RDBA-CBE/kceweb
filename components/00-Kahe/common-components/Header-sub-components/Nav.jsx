@@ -6,7 +6,7 @@ import Image from "next/image";
 
 import { useState, useEffect } from "react";
 
-import MenuData from "../../../../data/kahe/MegaMenu.json";
+import MenuData from "../../../../data/kce/MegaMenu.json";
 
 // import addImage from "../../../../public/images/service/mobile-cat.jpg";
 import addImage from "../../../../public/images/banner/co-men.png";
