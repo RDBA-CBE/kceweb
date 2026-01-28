@@ -1731,7 +1731,6 @@
 
 /* mom-timeline.css */
 
-
 .mom-card {
   // background: #ffffff;
   border: 1px solid #bfc5ca;
@@ -1790,8 +1789,6 @@
   margin-left: -1px;
 }
 
-
-
 /* Arrow head */
 .mom-arrow {
   position: relative;
@@ -1822,7 +1819,6 @@
 
 .mom-date {
   margin-left: 10px;
- 
 }
 
 /* ========================= */
@@ -1853,20 +1849,12 @@
     margin-bottom: 12px;
   }
 
-
-
   .mom-horizontal-line {
     width: 40px;
   }
-
- 
 }
 
-
-
 /* policy-strip.css */
-
-
 
 .ps-card {
   background: #ddebf0ba;
@@ -1883,29 +1871,25 @@
   background: #e47a2d5c;
 }
 
-.ps-card:hover .ps-title{
-  color:#000;
+.ps-card:hover .ps-title {
+  color: #000;
 }
 
-a.ps-card:hover .ps-title{
-  color:#000;
+a.ps-card:hover .ps-title {
+  color: #000;
   text-decoration: underline;
 }
 
-.ps-card:hover .ps-arrow i{
-  color:#000;
+.ps-card:hover .ps-arrow i {
+  color: #000;
 }
 
 /* Title */
 
-
 /* Double chevron arrow */
-.ps-arrow i{
+.ps-arrow i {
   font-size: 20px;
-
 }
-
-
 
 /* ========================= */
 /* Responsive adjustments */
@@ -1915,9 +1899,7 @@ a.ps-card:hover .ps-title{
   .ps-card {
     padding: 14px 16px;
   }
-
 }
-
 
 /* Wrapper */
 .eres-wrap {
@@ -1926,32 +1908,33 @@ a.ps-card:hover .ps-title{
 
 /* Title */
 .eres-title {
-
 }
 
 /* Card */
 .eres-card {
   background: #ffffff;
-  border: 1px solid #e6e6e6;
+  border: 1px solid #1c3c4a;
   border-radius: 12px;
   padding: 20px;
   display: flex;
+  gap: 20px;
   flex-direction: column;
   justify-content: space-between;
   transition: all 0.25s ease;
 }
 
 .eres-card:hover {
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-  transform: translateY(-4px);
+  // box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  // transform: translateY(-4px);
+  background-color: #ddebf0ba;
+  border: 1px solid #ddebf0ba;
 }
 
 /* Card title */
 .eres-card-title {
- 
   line-height: 1.6;
- 
-  color: #2c2c2c;
+  border-bottom: 1px solid #1c3c4a;
+  padding-bottom: 10px;
   margin-bottom: 20px;
 }
 
@@ -1964,15 +1947,18 @@ a.ps-card:hover .ps-title{
 
 /* URL text */
 .eres-link {
-  font-size: 12px;
-  color: #9aa0a6;
   word-break: break-all;
+}
+
+.eres-link:hover{
+  color: #000;
+  text-decoration: underline;
 }
 
 /* Arrow */
 .eres-arrow {
   font-size: 18px;
-  color: #f4b400;
+  color: #000;
   text-decoration: none;
   transition: transform 0.2s ease;
 }
@@ -1980,5 +1966,3 @@ a.ps-card:hover .ps-title{
 .eres-arrow:hover {
   transform: translateX(4px);
 }
-
-

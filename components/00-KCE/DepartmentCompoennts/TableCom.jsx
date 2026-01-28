@@ -40,6 +40,8 @@ const TableCom = ({ data }) => {
           </div>
         )}
 
+        {data?.desc && <p>{data?.desc}</p>}
+
         {/* TABLES */}
 
         {data?.table?.map((item, index) => (

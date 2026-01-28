@@ -275,37 +275,111 @@
     {
       "type": "link-card",
       "data": {
+        "sectionbg": "pt-0 section-bg1",
         "title": "E – Resources",
         "content": [
           {
             "id": 1,
-            "title": "IEEE (All Society Periodicals On Computer Science, Electrical, Electronics Engineering & Related Disciplines)",
-            "url": "https://ieeexplore.ieee.org"
+            "title": "IEEE (All Society Periodicals on Computer Science, Electrical, Electronics Engineering & related disciplines)",
+            "url": "http://ieeexplore.ieee.org",
+            "urlText": "Open Resource"
           },
           {
             "id": 2,
-            "title": "Springer (Engineering, Computer Science And Management)",
-            "url": "https://link.springer.com"
+            "title": "Springer (Engineering, Computer Science and Management)",
+            "url": "http://link.springer.com",
+            "urlText": "Open Resource"
           },
           {
             "id": 3,
-            "title": "Springer (Engineering, Computer Science And Management)",
-            "url": "https://link.springer.com"
+            "title": "National Programme On Technology Enhanced Learning (NPTEL)",
+            "url": "https://nptel.ac.in",
+            "urlText": "Open Resource"
           },
           {
             "id": 4,
-            "title": "IEEE (All Society Periodicals On Computer Science, Electrical, Electronics Engineering & Related Disciplines)",
-            "url": "https://ieeexplore.ieee.org"
+            "title": "National Digital Library of India (NDLI)",
+            "url": "http://ndl.iitkgp.ac.in",
+            "urlText": "Open Resource"
           },
           {
             "id": 5,
-            "title": "Springer (Engineering, Computer Science And Management)",
-            "url": "https://link.springer.com"
-          },
+            "title": "Delnet",
+            "url": "http://delnet.in",
+            "urlText": "Open Resource"
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "table",
+      "data": {
+        "secTitle": "Computerized Library",
+        "desc":"The Library is computerized (web based) and this provides information about the books to the students and staff. Transaction like issue/return are done through the barcode technology.",
+        "table": [
           {
-            "id": 6,
-            "title": "Springer (Engineering, Computer Science And Management)",
-            "url": "https://link.springer.com"
+            "title":"OPAC (Online Public Access Catalogue)",
+            "content": [
+              {
+                "head": [
+                  { "id": "col1", "label": "S.No" },
+                  { "id": "col2", "label": "Name" },
+                  { "id": "col3", "label": "Designation" },
+                  { "id": "col4", "label": "Qualification" }
+                ],
+                "data": [
+                  {
+                    "col1": { "text": "1" },
+                    "col2": { "text": "B. Subramanian" },
+                    "col3": { "text": "Librarian" },
+                    "col4": { "text": "M.A., M.L.I.Sc, M.Phil, Ph.D" }
+                  },
+                  {
+                    "col1": { "text": "2" },
+                    "col2": { "text": "P. Kannan" },
+                    "col3": { "text": "Asst. Librarian" },
+                    "col4": { "text": "B.Sc., M.L.I.Sc., M.Phil." }
+                  },
+                  {
+                    "col1": { "text": "3" },
+                    "col2": { "text": "A. Vignesh Kumar" },
+                    "col3": { "text": "Asst. Librarian" },
+                    "col4": { "text": "M.L.I.Sc." }
+                  },
+                  {
+                    "col1": { "text": "4" },
+                    "col2": { "text": "M. Muniyaselvam" },
+                    "col3": { "text": "Asst. Librarian" },
+                    "col4": { "text": "B.Sc., M.L.I.Sc" }
+                  },
+                  {
+                    "col1": { "text": "5" },
+                    "col2": { "text": "V. Deepika" },
+                    "col3": { "text": "Asst. Librarian" },
+                    "col4": { "text": "B.A., M.L.I.Sc" }
+                  },
+                  {
+                    "col1": { "text": "6" },
+                    "col2": { "text": "S. Shanmugasundaram" },
+                    "col3": { "text": "Library Asst." },
+                    "col4": { "text": "B.Com." }
+                  },
+                  {
+                    "col1": { "text": "7" },
+                    "col2": { "text": "V. Masilamani" },
+                    "col3": { "text": "Library Asst." },
+                    "col4": { "text": "B.A., B.Ed." }
+                  },
+                  {
+                    "col1": { "text": "8" },
+                    "col2": { "text": "M. Jagadeesh" },
+                    "col3": { "text": "Attender" },
+                    "col4": { "text": "" }
+                  }
+                ]
+              }
+            ]
           }
         ]
       }
