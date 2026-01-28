@@ -2,7 +2,7 @@
   position: relative;
   border-radius: 22px;
   overflow: hidden;
-  height: 420px;
+  height: 500px;
 }
 
 .card img {
@@ -29,12 +29,10 @@
 }
 
 .overlay h4 {
-  font-size: 18px;
   margin-bottom: 6px;
 }
 
 .overlay p {
-  font-size: 14px;
   opacity: 0.85;
   margin-bottom: 14px;
 }
@@ -46,6 +44,5 @@
   color: #fff;
   border: none;
   border-radius: 6px;
-  font-size: 12px;
   cursor: pointer;
 }

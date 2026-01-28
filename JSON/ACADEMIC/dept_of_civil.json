@@ -1,0 +1,524 @@
+{
+  "banner": {
+    "bannerImg": "/images/kce/banner_computer_technology.jpg",
+    "title": "Department of Civil Engineering",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Departments",
+        "href": "/departments"
+      },
+      {
+        "label": "Department of Civil Engineering"
+      }
+    ]
+  },
+
+  "sections": [
+    {
+      "type": "image-overlay-card",
+      "data": {
+        "title": "About the Department",
+        "bgImg": "/images/kce/academics/banner.jpg",
+        "description": [
+          "The department of Civil Engineering was started in the year 2008. It offers under graduate course in Civil Engineering with an intake of 60 students. Our main goal is to be the Centre of Excellence for the development and dissemination of knowledge in Structural Engineering, Construction Engineering and Management, Water Resources and Management, Transportation, Environmental Engineering, Urban Engineering, Geotechnical Engineering, Remote sensing, GIS and its applications."
+        ]
+      }
+    },
+
+    {
+      "type": "plain-para",
+      "data": {
+        "content": [
+          "The Department has good infrastructure and it is well equipped with state-of-the art laboratory facilities necessary for imparting high quality of education and is structured to meet our present day needs of the Civil Engineering. Students from our department have always proved to be meritorious. The department has well experienced, qualified and diversified team of faculty members who are regularly presenting papers in and national and international conferences and publishing their technical papers in reputed peer reviewed journals.",
+          "Our faculty members are life members of various professional bodies such as Indian Concrete Institute (ICI), Indian Society for Technical Education (ISTE), International Society for Research and Development (ISRD), International Association of Engineers (IAENG), Indian Academicians and Researchers Association (IARA) etc.,. for the necessary networking and knowledge upskilling.",
+          "The department actively promotes curriculum development activity by updating existing courses, developing new courses and preparing resource material for teaching and learning process. The department is also very active in conducting conferences, workshops, seminars and visit to industries and construction sites. Visits are arranged regularly to impart technical inputs to the students more effectively through experiential learning. Wi-Fi enabled internet facilities are available in the department. Students are motivated to undergo mini projects to improve their practical knowledge and are encouraged to undergo internship to improve their practical exposure. Soft skill training programs are offered to enhance their communication, aptitude and interpersonal skills.",
+          "The Department of Civil Engineering has signed MoU with reputed construction companies to help the students in training and to upgrade their technical skills through practical exposure."
+        ]
+      }
+    },
+
+    {
+      "type": "half-card-img",
+      "data": {
+        "content": [
+          {
+            "title": "Our Vision",
+            "description": "To produce technically knowledgeable and socially responsible Civil Engineers by inculcating value based technical education.",
+            "image": "/images/kce/academics/banner.jpg"
+          },
+          {
+            "title": "Our Mission",
+            "list": [
+              {
+                "item": [
+                  "Imparting strong technical knowledge through qualified faculty.",
+                  "Enriching the exposure of the students in emerging technologies, entrepreneurship, and research by industry – institute interaction.",
+                  "Enabling the students to become professionally and socially responsible engineers."
+                ]
+              }
+            ],
+            "image": "/images/kce/academics/banner.jpg"
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "image-overlay-content",
+      "data": {
+        "bgImage": "/images/kce/academics/banner.jpg",
+
+        "title": "Regulations",
+        "list": [
+          {
+            "title": "R2023",
+            "url": "https://kce.ac.in/new/wp-content/uploads/2023/07/CE.pdf"
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "card-grid",
+      "data": {
+        "title": "Courses Offered",
+        "content": [
+          {
+            "id": 1,
+            "name": "B.E. Civil Engineering"
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "icon-card",
+      "data": {
+        "title": "Lab Facilities",
+        "content": [
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "Strength of Materials Laboratory"
+          },
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "Fluid Mechanics Laboratory"
+          },
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "Construction Materials Laboratory"
+          },
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "Concrete and Highway Laboratory"
+          },
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "Soil Mechanics Laboratory"
+          },
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "Survey Laboratory"
+          },
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "Environmental Engineering Laboratory"
+          },
+          {
+            "img": "/images/kce/icon.webp",
+            "title": "Computer Aided Design and Drafting Laboratory"
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "tabs",
+      "data": {
+        "navigation": [
+          {
+            "title": "Programme Educational Objectives",
+            "id": "peo"
+          },
+          {
+            "title": "Programme Outcomes",
+            "id": "po"
+          },
+          {
+            "title": "Program Specific Outcomes",
+            "id": "pso"
+          }
+        ],
+        "content": {
+          "peo": {
+            "sections": [
+              {
+                "type": "card-list1",
+                "data": {
+                  "title": "Programme Educational Objectives",
+                  "content": [
+                    {
+                      "code": "PEO1",
+                      "description": " Graduates will formulate and solve problems in various domains of Civil Engineering by exhibiting their technical skills."
+                    },
+                    {
+                      "code": "PEO2",
+                      "description": "Graduates will communicate effectively and work in multidisciplinary engineering projects following the ethics in their profession."
+                    },
+                    {
+                      "code": "PEO3",
+                      "description": "Graduates will become entrepreneurs or successfully pursue higher education for their professional development."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "po": {
+            "sections": [
+              {
+                "type": "card-list2",
+
+                "data": {
+                  "title": "Programme Outcomes (POs)",
+                  "content": [
+                    {
+                      "code": "PO1",
+                      "title": "Engineering knowledge",
+                      "description": "Apply the knowledge of mathematics, science, engineering fundamentals, and an engineering specialization to the solution of complex engineering problems."
+                    },
+                    {
+                      "code": "PO2",
+                      "title": "Problem analysis",
+                      "description": "Identify, formulate, review research literature, and analyze complex engineering problems reaching substantiated conclusions using first principles of mathematics, natural sciences, and engineering sciences."
+                    },
+                    {
+                      "code": "PO3",
+                      "title": "Design/development of solutions",
+                      "description": "Design solutions for complex engineering problems and design system components or processes that meet the specified needs with appropriate consideration for the public health and safety, and the cultural, societal, and environmental considerations."
+                    },
+                    {
+                      "code": "PO4",
+                      "title": "Conduct Investigations of Complex Problems",
+                      "description": "Use research-based knowledge and research methods including design of experiments, analysis and interpretation of data, and synthesis of the information to provide valid conclusions."
+                    },
+                    {
+                      "code": "PO5",
+                      "title": "Modern Tool Usage",
+                      "description": "Create, select, and apply appropriate techniques, resources, and modern engineering and IT tools including prediction and modeling to complex engineering activities with an understanding of the limitations."
+                    },
+                    {
+                      "code": "PO6",
+                      "title": "The Engineer and Society",
+                      "description": "Apply reasoning informed by the contextual knowledge to assess societal, health, safety, legal and cultural issues and the consequent responsibilities relevant to the professional engineering practice."
+                    },
+                    {
+                      "code": "PO7",
+                      "title": "Environment and Sustainability",
+                      "description": "Understand the impact of the professional engineering solutions in societal and environmental contexts, and demonstrate the knowledge of, and need for sustainable development."
+                    },
+                    {
+                      "code": "PO8",
+                      "title": "Ethics",
+                      "description": "Function effectively as an individual, and as a member or leader in diverse/multi-disciplinary teams."
+                    },
+                    {
+                      "code": "PO9",
+                      "title": "Individual and Team Work",
+                      "description": "Function effectively as an individual, and as a member or leader in diverse teams, and in multidisciplinary settings."
+                    },
+                    {
+                      "code": "PO10",
+                      "title": "Communication",
+                      "description": "Communicate effectively on complex engineering activities with the engineering community and with society at large, such as, being able to comprehend and write effective reports and design documentation, make effective presentations, and give and receive clear instructions."
+                    },
+                    {
+                      "code": "PO11",
+                      "title": "Project Management and Finance",
+                      "description": "Demonstrate knowledge and understanding of the engineering and management principles and apply these to one’s own work, as a member and leader in a team, to manage projects and in multidisciplinary environments."
+                    },
+                    {
+                      "code": "PO12",
+                      "title": "Life-Long Learning",
+                      "description": "Recognize the need for, and have the preparation and ability to engage in independent and life-long learning in the broadest context of technological change."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+
+          "pso": {
+            "sections": [
+              {
+                "type": "card-list3",
+                "data": {
+                  "title": "Program Specific Outcomes (PSOs)",
+
+                  "content": [
+                    {
+                      "code": "PSO1",
+                      "description": "Field applications oriented practical knowledge in Civil Engineering such as Planning, Analysis, Designing, Estimation and Execution by applying current concepts of mathematics and physical sciences"
+                    },
+                    {
+                      "code": "PSO2",
+                      "description": "An ability to succeed competitive examinations which offers challenging and rewarding career and to become an efficient Design engineer, Structural consultant, Project engineer or Construction manager with the help of management skills and leadership characteristics"
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+
+    {
+      "type": "split-image-content",
+      "data": {
+        "secTitle": "HOD Profile",
+        "sectionbg": "section-bg3",
+        "image": "/images/kce/Portrait_Placeholder.png",
+        "content": [
+          {
+            "type": "title",
+            "title": "Dr. R. Sarankumar",
+            "subTi": "Professor & Head"
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              "Dr. R. Sarankumar completed Bachelor Degree in Engineering in the stream of Electronics and Communication Engineering and Master Degree in Engineering in the stream of Communication Systems from Anna University in the year 2009 and 2011 respectively. He received Ph.D. degree from Anna University in 2018 in the faculty of Information and Communication Engineering. His area of interest includes Signal Processing, Cognitive Radio, Wireless Communications, Internet of Things and Machine Learning.",
+
+              "After gaining academic, research and administrative experience from Tamil Nadu and Andhra Pradesh, he is currently serving in the capacity of Head of the Department for Electronics and Communication Engineering. He has several publications in peer reviewed national and international journals and conferences. He has contributed for 4 patents. Three book chapters are published under his credit. He serves a reviewer for various reputed international journals and conferences. He received fund from AICTE under MODROBs and the project has been completed. He has comprehensive knowledge on Outcome Based Education. He is interested in the activities towards student development in multi-dimensional perspective."
+            ]
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "split-image-content",
+      "data": {
+        "imagePosition": "left",
+        "sectionbg": "section-bg1 my-4",
+        "image": "/images/gallery/gallery-big.jpg",
+        "content": [
+          {
+            "type": "title",
+            "mainTi": "Faculty"
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              "Dr. R. Sarankumar completed Bachelor Degree in Engineering in the stream of Electronics and Communication Engineering and Master Degree in Engineering in the stream of Communication Systems from Anna University in the year 2009 and 2011 respectively. He received Ph.D. degree from Anna University in 2018 in the faculty of Information and Communication Engineering. His area of interest includes Signal Processing, Cognitive Radio, Wireless Communications, Internet of Things and Machine Learning."
+            ]
+          },
+          {
+            "type": "button",
+            "text": "View Faculty",
+            "action": "goToFaculty",
+            "newpageData": {
+              "slug": "department-of-civil-engineering",
+              "banner": {
+                "bannerImg": "/images/kce/banner_computer_technology.jpg",
+                "title": "Department of Civil Engineering",
+                "breadcrumb": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Departments",
+                    "href": "/departments"
+                  },
+                  {
+                    "href": "/departments/department-of-civil-engineering",
+                    "label": "Department of Civil Engineering"
+                  },
+                  {
+                    "label": "Faculty"
+                  }
+                ]
+              },
+              "sectionTi": "Our faculty",
+              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+
+              "faculty": [
+                {
+                  "id": 0,
+                  "name": "Dr. Lakshmi R",
+                  "designation": "Professor / Head",
+                  "degree": "M.E, Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 1,
+                  "name": "Dr. Sivalingam K",
+                  "designation": "Professor",
+                  "degree": "M.E, Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 2,
+                  "name": "Dr. Sankar. J",
+                  "designation": "Associate Professor",
+                  "degree": "M.E, Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 3,
+                  "name": "Mr. Prasannan D",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 4,
+                  "name": "Mr. Manoj Suburam R",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 5,
+                  "name": "Mr. Sakthivel E",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 6,
+                  "name": "Ms. Pilomina PS",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 7,
+                  "name": "Mr. Pradeep Kumar C",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 8,
+                  "name": "Ms. Srinisha A",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 9,
+                  "name": "Ms. Lakshmi B",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 10,
+                  "name": "Ms. Jeslin J S",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 11,
+                  "name": "Mr. Shanthakumar K",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "pill-list",
+      "data": {
+        "title": "Smart Class Rooms",
+        "description": "Lorem ipsum dolor sit amet consectetur. Pulvinar nulla sapien velit ultrices neque pretium pulvinar. Urna netus sed et in. At sed urna vitae rhoncus convallis tellus nisi viverra.",
+        "items": [
+          {
+            "id": 1,
+            "label": "MECHANICS OF SOLIDS-II",
+            "url": "https://drive.google.com/drive/folders/0B5LX1IkMXb5DfmdTSTNRa2Naanl1dERUV3RsTXVJbm9heWJaVzdQbzZaMkJMNjNRWm1qOTQ"
+          },
+          {
+            "id": 2,
+            "label": "MECHANICS OF SOLIDS-I",
+            "url": "https://drive.google.com/drive/folders/0B5LX1IkMXb5DfjRWY0JmMmZpTE9Uc3NBVVU4VTZuOW1iWjZhSEIwZXhRTVdtTmRiLUhzMk0"
+          },
+          {
+            "id": 3,
+            "label": "STRUCTURAL ANALYSIS – I",
+            "url": "https://drive.google.com/drive/folders/0BzKrhiC4CXT4fkgzQmVJR3dXZmpRNlQwOUxjeUJ4U0toMXNTQ09JRjBYWFh0T19DUDVMMkE"
+          },
+          {
+            "id": 4,
+            "label": "STRUCTURAL ANALYSIS – II",
+            "url": "https://drive.google.com/drive/folders/0BzKrhiC4CXT4fnA5dUlTT1VXa1pGb1VTalpQWTlIREdaN29UMnA3eGVac3dNeTE4MTU0a0k"
+          },
+          {
+            "id": 5,
+            "label": "FOUNDATION ENGINEERING",
+            "url": "https://drive.google.com/drive/folders/0B_ARGz87QXVFfkFsRElISmRpUnZxMllSMjZ4d3pNVW44NDZEb0tLSmlhc3NwUnJVQXJlZEU"
+          }
+        ]
+      }
+    },
+    {
+      "type": "pill-list",
+      "data": {
+        "title": "Teaching and Learning",
+        "description": "Lorem ipsum dolor sit amet consectetur. Pulvinar nulla sapien velit ultrices neque pretium pulvinar. Urna netus sed et in. At sed urna vitae rhoncus convallis tellus nisi viverra.",
+        "items": [
+          {
+            "id": 1,
+            "label": "Course Development Through YouTube and Blogs",
+            "url": "https://www.youtube.com/@civilenggkce"
+          },
+          {
+            "id": 2,
+            "label": "Google Classroom Details Odd Semester – 2024-2025",
+            "url": "https://kce.ac.in/new/wp-content/uploads/2024/07/GOOGLE-CLASSROOM.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "type": "image-overlay-content",
+      "data": {
+        "bgImage": "/images/kce/academics/banner.jpg",
+
+        "title": "Curriculum",
+        "list": [
+          {
+            "title": "R2023",
+            "url": "https://kce.ac.in/new/wp-content/uploads/2024/07/R2023_Civil.pdf"
+          },
+          {
+            "title": "R2018",
+            "url": "https://kce.ac.in/new/wp-content/uploads/2024/07/R2018_CIVIL.pdf"
+          },
+          {
+            "title": "R2017",
+            "url": "https://kce.ac.in/new/wp-content/uploads/2024/07/R2017_CIVIL.pdf"
+          }
+        ]
+      }
+    }
+
+    
+    
+
+    
+  ]
+}
