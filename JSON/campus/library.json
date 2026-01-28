@@ -1,0 +1,314 @@
+{
+  "banner": {
+    "bannerImg": "/images/kce/banner_computer_technology.jpg",
+    "title": "Library",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+
+      {
+        "label": "Library"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "split-image-content",
+      "data": {
+        "imagePosition": "right",
+        "sectionbg": "section-bg1 ",
+
+        "image": "/images/kce/image.jpg",
+        "content": [
+          {
+            "type": "title",
+            "mainTi": "About Library"
+          },
+          {
+            "type": "title",
+            "title": "It is kept open for 12 hours (8.00 am to 8.00 pm) with Internet browsing facility for all its users."
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              "The library is well furnished with modern facilities and resources in the form of CD / DVD – ROMs, Online Databases, Micro Documents, Books, Journals, Project Reports, Back Volume of Journals, and Video Lessons from NPTEL. The library is using an integrated library management software package (LMS) with all modules for automated library operation and Bar code system. The books are arranged and classified according to the Dewey Decimal Classification Scheme. All students and staff are members of the library and Open Access System is followed in the library.",
+              "Library is accommodated in two floors. In the Ground Floor Books for Lending and Reading room are made available. In the First Floor Reference, Rare and costly Books, Books for Higher Education, Journals, Magazines, Back Volume of Journals, Student Projects and Non Book Material (CD’s / DVD’s / Audio Video Lessons) are stacked and also the Digital Library is situated. The Library is also offering a number of information services to its users with professionally qualified staff using the printed and electronic resources and equipments."
+            ]
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "image-overlay-content",
+      "data": {
+        "bgImage": "/images/kce/academics/banner.jpg",
+
+        "title": "As the veritable abode of Knowledge, the Central Library of KCE houses,",
+        "subtitle": "Library Timings: 8 am to 8 pm and Timings on Holidays: 9 am to 1 pm",
+        "list": [
+          { "title": "80,228 Volumes" },
+          { "title": "28,099 Titles" },
+          { "title": "9000 + E Journals ( IEEE, Springer, J-Gate and Delnet)" },
+          { "title": "10,680 E Books" },
+          { "title": "293 National Journals" },
+          { "title": "190 Magazines" },
+          { "title": "12,380 Back volumes" },
+          { "title": "6926 Project reports" },
+          { "title": "3692 Non Book material" },
+          {
+            "title": "Member of E SHODH SINDHU, NATIONAL DIGITAL LIBRARYOF INDIA (NDLI), DELNET"
+          },
+          { "title": "Reprography" }
+        ]
+      }
+    },
+
+    {
+      "type": "tabs",
+      "data": {
+        "navigation": [
+          {
+            "title": "Classification System",
+            "id": "cs"
+          },
+          {
+            "title": "Membership",
+            "id": "mem"
+          },
+          {
+            "title": "Library Sections",
+            "id": "ls"
+          },
+          {
+            "title": "Circulation Section",
+            "id": "cir"
+          },
+          {
+            "title": "Reference Section",
+            "id": "rs"
+          },
+          {
+            "title": "Periodical Section",
+            "id": "ps"
+          }
+        ],
+        "content": {
+          "cs": {
+            "sections": [
+              {
+                "type": "split-image-content",
+                "data": {
+                  "imagePosition": "left",
+                  "sectionbg": "section-bg1",
+                  "image": "/images/kce/image.jpg",
+                  "content": [
+                    {
+                      "type": "title",
+                      "mainTi": "Classification System"
+                    },
+                    {
+                      "type": "list",
+                      "items": [
+                        "The Library books are classified according to the Dewey decimal classification.",
+                        "OPAC help in locating books on the shelves is provided",
+                        "Books are arranged on the shelves in numerical order"
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+
+          "mem": {
+            "sections": [
+              {
+                "type": "split-image-content",
+                "data": {
+                  "imagePosition": "left",
+                  "sectionbg": "section-bg1",
+                  "image": "/images/kce/image.jpg",
+                  "content": [
+                    {
+                      "type": "title",
+                      "mainTi": "Membership"
+                    },
+                    {
+                      "type": "list",
+                      "items": [
+                        "UG & PG Students and Staff members",
+                        "UG Students – 3 Books (I and II Year)",
+                        "UG Students – 4 Books (III and Final Year)",
+                        "PG Students – 6 Books",
+                        "Staff members – 6 Books (if required, additional books issued with requisition)"
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+
+          "ls": {
+            "sections": [
+              {
+                "type": "split-image-content",
+                "data": {
+                  "imagePosition": "left",
+                  "sectionbg": "section-bg1",
+                  "image": "/images/kce/image.jpg",
+                  "content": [
+                    {
+                      "type": "title",
+                      "mainTi": "Library Sections"
+                    },
+                    {
+                      "type": "list",
+                      "items": [
+                        "Technical Section",
+                        "Circulation Section",
+                        "Reference Section",
+                        "Periodical Section",
+                        "Stack Section"
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+
+          "cir": {
+            "sections": [
+              {
+                "type": "split-image-content",
+                "data": {
+                  "imagePosition": "left",
+                  "sectionbg": "section-bg1",
+                  "image": "/images/kce/image.jpg",
+                  "content": [
+                    {
+                      "type": "title",
+                      "mainTi": "Circulation Section"
+                    },
+                    {
+                      "type": "list",
+                      "items": [
+                        "250–350 books are daily issued and returned",
+                        "Books are issued through smart cards",
+                        "The due date of returning is 15 days (Students)",
+                        "The due date of returning is 120 days (Staff)"
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+
+          "rs": {
+            "sections": [
+              {
+                "type": "split-image-content",
+                "data": {
+                  "imagePosition": "left",
+                  "sectionbg": "section-bg1",
+                  "image": "/images/kce/image.jpg",
+                  "content": [
+                    {
+                      "type": "title",
+                      "mainTi": "Reference Section"
+                    },
+                    {
+                      "type": "list",
+                      "items": [
+                        "2793 Books available",
+                        "Dictionaries",
+                        "Thesaurus",
+                        "Encyclopedias",
+                        "Syllabus text and reference books",
+                        "Project reports",
+                        "Year books"
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+
+          "ps": {
+            "sections": [
+              {
+                "type": "split-image-content",
+                "data": {
+                  "imagePosition": "left",
+                  "sectionbg": "section-bg1",
+                  "image": "/images/kce/image.jpg",
+                  "content": [
+                    {
+                      "type": "title",
+                      "mainTi": "Periodical Section"
+                    },
+                    {
+                      "type": "list",
+                      "items": [
+                        "Journals & Magazines",
+                        "News Papers",
+                        "Back volumes",
+                        "Newsletters",
+                        "Annual reports"
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+
+    {
+      "type": "link-card",
+      "data": {
+        "title": "E – Resources",
+        "content": [
+          {
+            "id": 1,
+            "title": "IEEE (All Society Periodicals On Computer Science, Electrical, Electronics Engineering & Related Disciplines)",
+            "url": "https://ieeexplore.ieee.org"
+          },
+          {
+            "id": 2,
+            "title": "Springer (Engineering, Computer Science And Management)",
+            "url": "https://link.springer.com"
+          },
+          {
+            "id": 3,
+            "title": "Springer (Engineering, Computer Science And Management)",
+            "url": "https://link.springer.com"
+          },
+          {
+            "id": 4,
+            "title": "IEEE (All Society Periodicals On Computer Science, Electrical, Electronics Engineering & Related Disciplines)",
+            "url": "https://ieeexplore.ieee.org"
+          },
+          {
+            "id": 5,
+            "title": "Springer (Engineering, Computer Science And Management)",
+            "url": "https://link.springer.com"
+          },
+          {
+            "id": 6,
+            "title": "Springer (Engineering, Computer Science And Management)",
+            "url": "https://link.springer.com"
+          }
+        ]
+      }
+    }
+  ]
+}

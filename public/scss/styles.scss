@@ -261,7 +261,7 @@
 
 // -------Kahe css
 
-.bg-green {
+.bg-blue {
   background: #1c3c4a; //#2b4e31
 }
 
@@ -869,7 +869,8 @@
 .ioc-left-col {
   color: #fff;
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  // align-items: center;
   justify-content: flex-start;
 }
 
@@ -963,7 +964,7 @@
 .ci-float-image {
   float: right;
   width: fit-content;
-  max-width: 500px;
+  max-width: 600px;
   margin: 0 0 20px 40px;
 }
 
@@ -1916,4 +1917,68 @@ a.ps-card:hover .ps-title{
   }
 
 }
+
+
+/* Wrapper */
+.eres-wrap {
+  background-color: #ffffff;
+}
+
+/* Title */
+.eres-title {
+
+}
+
+/* Card */
+.eres-card {
+  background: #ffffff;
+  border: 1px solid #e6e6e6;
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 0.25s ease;
+}
+
+.eres-card:hover {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transform: translateY(-4px);
+}
+
+/* Card title */
+.eres-card-title {
+ 
+  line-height: 1.6;
+ 
+  color: #2c2c2c;
+  margin-bottom: 20px;
+}
+
+/* Footer */
+.eres-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* URL text */
+.eres-link {
+  font-size: 12px;
+  color: #9aa0a6;
+  word-break: break-all;
+}
+
+/* Arrow */
+.eres-arrow {
+  font-size: 18px;
+  color: #f4b400;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+}
+
+.eres-arrow:hover {
+  transform: translateX(4px);
+}
+
 
