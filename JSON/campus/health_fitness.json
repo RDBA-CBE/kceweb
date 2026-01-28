@@ -1,0 +1,175 @@
+{
+  "banner": {
+    "bannerImg": "/images/kce/banner_computer_technology.jpg",
+    "title": "Health and Fitness ",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Infrastructure",
+        "href": "/home/infrastructure"
+      },
+      {
+        "label": "Health and Fitness"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "quote-sec",
+      "data": {
+        "title": " Lorem ipsum dolor sit amet consectetu",
+        "content": [
+          "KCE has many student clubs to connect, engage and explore the talents of the students! Student clubs allow for further exploration and discovery in academic and non- academic areas,enabling growth experiences and learning beyond the classroom  setting. Through this, students are able to develop and hone their leadership skills, as well as appreciate the value of teamwork and  cooperation."
+        ],
+        "img": "/images/kce/image-3.jpg",
+        "quote": "If you want to carry on with sports you played at school or start something new you can…"
+      }
+    },
+    {
+      "type": "split-image-content",
+      "data": {
+        "imagePosition": "right",
+        "sectionbg": "section-bg1 my-4",
+        "image": "/images/gallery/gallery-big.jpg",
+        "content": [
+          {
+            "type": "title",
+            "mainTi": "Outdoor Stadium"
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              "Extensive playing facilities are provided for the students with an area of six levelled acres. The following courts/ ground have been laid down with standard specifications both for boys and girls.Ball Badminton."
+            ]
+          },
+          {
+            "type": "list",
+            "items": [
+              "Kho-Kho",
+              "Tennikoit",
+              "Tennis",
+              "Volleyball",
+              "Throw Ball",
+              "Basketball",
+              "Cricket Field",
+              "Football Field",
+              "Handball",
+              "Kabaddi"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "split-image-content",
+      "data": {
+        "imagePosition": "left",
+        "sectionbg": "section-bg1 my-4",
+        "image": "/images/gallery/gallery-big.jpg",
+        "content": [
+          {
+            "type": "title",
+            "mainTi": "Indoor Stadium"
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              "An area of 12,000 sq.feet indoor stadia with many courts for different types of games are available inside the campus. The playfield facilities available in the indoor stadium are :BADMINTON (Shuttle) (Men & Women)"
+            ]
+          },
+          {
+            "type": "list",
+            "items": [
+              "CAROM (Men & Women)",
+              "CHESS (Men & Women)",
+              "TABLE TENNIS (Men & Women)"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "split-image-content",
+      "data": {
+        "imagePosition": "right",
+        "sectionbg": "section-bg1 my-4",
+        "image": "/images/gallery/gallery-big.jpg",
+        "content": [
+          {
+            "type": "title",
+            "mainTi": "Multi Gymnasium"
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              "If you’re looking to introduce a bit of exercise into your daily routine, Multi Gymnasium would help you …To make our students develop both body and mind a complete gymnasium functions with all kinds of equipment’s for both boys and girls separately inside the campus."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "split-image-content",
+      "data": {
+        "imagePosition": "left",
+        "sectionbg": "section-bg1 my-4",
+        "image": "/images/gallery/gallery-big.jpg",
+        "content": [
+          {
+            "type": "title",
+            "mainTi": "Participation in the Extramural Competition"
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              "The Students are encouraged to participate in inter-college and other tournaments and win laurels. The outstanding sports persons are also permitted to take part in the All India Inter-University, State and National Champions. Special coaching camps are organized for Football, Track and Field events, Table Tennis, Basketball, Ball Badminton and coaching given by experts every year."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "split-image-content",
+      "data": {
+        "imagePosition": "right",
+        "sectionbg": "section-bg1 my-4",
+        "image": "/images/gallery/gallery-big.jpg",
+        "content": [
+          {
+            "type": "title",
+            "mainTi": "Intramural Competitions and College Annual Sports Meet"
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              "Annual sports meet is organized every year to bring out the talents of the students.The organizing committee of the same included the college team captains and sports representatives of various departments formed for the successful conduct of all the programmes of the department. Intramural competitions both indoor and outdoor games and annual sports meet for teaching staff are conducted, medals and certificates are awarded to the winners. Championship shields are awarded for various disciplines. Mementos are also awarded to TIES medalists and outstanding State and National level players."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "gallery",
+      "data": {
+        "title": "Gallery",
+        "content": [
+          {
+            "images": [
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Sports5-400x400-1-150x150.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Sports3-400x400-1-150x150.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Sports2-400x400-1-150x150.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Sports1-400x400-1-150x150.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Sports6-400x400-1-150x150.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Sports7-400x400-1-150x150.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/KCE_awards-400x400-1-150x150.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/KCE_KSL-400x400-1-150x150.jpg" }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

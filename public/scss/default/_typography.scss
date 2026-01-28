@@ -2,10 +2,11 @@
  * Typography
  */
 
-@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,600;0,700;0,900;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap');
 
 /*
-	font-family: 'Source Serif Pro', serif; 
+	font-family: 'Mona Sans', serif; 
 */
 
 * {
@@ -76,7 +77,7 @@ h6,
 	word-break: break-word;
 	font-family: var(--font-secondary);
 	line-height: 1.4074;
-	color: #000;
+	// color: #000;
 }
 
 h1,
@@ -399,7 +400,7 @@ ul {
 			li {
 				font-size: 16px;
 				line-height: 30px;
-				color: #000;
+				// color: #000;
 				position: relative;
 				padding-left: 30px;
 
@@ -428,7 +429,7 @@ ul {
 	li {
 		margin-top: 10px;
 		margin-bottom: 10px;
-		color: #000;
+		// color: #000;
 		font-size: 16px;
 
 		a {
@@ -451,7 +452,7 @@ ol {
 	margin-bottom: 30px;
 
 	li {
-		color: #000;
+		// color: #000;
 		margin-top: 10px;
 		margin-bottom: 10px;
 
@@ -481,12 +482,12 @@ ol {
 			font-size: 16px;
 			line-height: 15px;
 			font-weight: 500;
-			color: #000;
+			// color: #000;
 			padding: 15px 30px;
 			transition: 0.3s;
 
 			&:hover {
-				color: #000;
+				// color: #000;
 			}
 		}
 	}

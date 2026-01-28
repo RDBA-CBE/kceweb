@@ -1,0 +1,250 @@
+{
+  "banner": {
+    "bannerImg": "/images/kce/banner_computer_technology.jpg",
+    "title": "Transport",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Infrastructure",
+        "href": "/home/infrastructure"
+      },
+      {
+        "label": "Transport"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "table",
+      "data": {
+        "secTitle": "A fleet of 13 buses are being operated for the convenience of Faculty members and students.",
+        "table": [
+          {
+            "content": [
+              {
+                "head": [
+                  {
+                    "id": "col1",
+                    "label": "S.No."
+                  },
+                  {
+                    "id": "col2",
+                    "label": "Bus No."
+                  },
+                  {
+                    "id": "col3",
+                    "label": "Starting Point"
+                  },
+                  {
+                    "id": "col4",
+                    "label": "Route"
+                  }
+                ],
+                "data": [
+                  {
+                    "col1": {
+                      "text": "1"
+                    },
+                    "col2": {
+                      "text": "1"
+                    },
+                    "col3": {
+                      "text": "Veerapandi Pirivu"
+                    },
+                    "col4": {
+                      "text": "PN Palayam, LMW, Gas Company, NSN Palayam"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "2"
+                    },
+                    "col2": {
+                      "text": "1B"
+                    },
+                    "col3": {
+                      "text": "Thoppampatti Pirivu"
+                    },
+                    "col4": {
+                      "text": "NGGO Colony Pirivu, Vadamadurai, Thudialur, GN Mills, Goundampalayam, North CBE, Flower Market, Marakkadai, 5 Corner"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "3"
+                    },
+                    "col2": {
+                      "text": "2"
+                    },
+                    "col3": {
+                      "text": "Kalveerampalayam"
+                    },
+                    "col4": {
+                      "text": "Vadavalli, Mullai Nagar, PN Pudur, Lawley Road, Milk Company"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "4"
+                    },
+                    "col2": {
+                      "text": "3"
+                    },
+                    "col3": {
+                      "text": "Ondipudur"
+                    },
+                    "col4": {
+                      "text": "Singanallur, ESI, Sowripalayam Pirivu, Ramanathapuram, Sungam"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "5"
+                    },
+                    "col2": {
+                      "text": "4"
+                    },
+                    "col3": {
+                      "text": "Edayarpalayam"
+                    },
+                    "col4": {
+                      "text": "Kovilmedu, Velandipalayam, Vengittapuram, Saibaba Colony, Gandhipark, Telugu Street, Raja Street"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "6"
+                    },
+                    "col2": {
+                      "text": "5A"
+                    },
+                    "col3": {
+                      "text": "Pollachi"
+                    },
+                    "col4": {
+                      "text": "Kovilpalayam, Kinathukadavu"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "7"
+                    },
+                    "col2": {
+                      "text": "6"
+                    },
+                    "col3": {
+                      "text": "Saravanampatti"
+                    },
+                    "col4": {
+                      "text": "SRP Mills, Bharathi Nagar, Ganapathy, Lakshmipuram"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "8"
+                    },
+                    "col2": {
+                      "text": "6A"
+                    },
+                    "col3": {
+                      "text": "Sivanandha Colony"
+                    },
+                    "col4": {
+                      "text": "100 Feet Road, Gandhipuram, Women’s Polytechnic, Anna Statue"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "9"
+                    },
+                    "col2": {
+                      "text": "7"
+                    },
+                    "col3": {
+                      "text": "Sitra"
+                    },
+                    "col4": {
+                      "text": "Hope College, PSG Tech, Lakshmi Mills, Puliakulam, Gem Hospital"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "10"
+                    },
+                    "col2": {
+                      "text": "7A"
+                    },
+                    "col3": {
+                      "text": "Cheran Ma Nagar"
+                    },
+                    "col4": {
+                      "text": "Ramanuja Nagar, ESI, Uppilipalayam, Sowripalayam, Meena Estate, Nanjundapuram, Pothanur, Sundarapuram, Gandhi Nagar, SIDCO, Echanari"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "11"
+                    },
+                    "col2": {
+                      "text": "10"
+                    },
+                    "col3": {
+                      "text": "Tirupur"
+                    },
+                    "col4": {
+                      "text": "Karadivavi, Chettipalayam"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "12"
+                    },
+                    "col2": {
+                      "text": "10A"
+                    },
+                    "col3": {
+                      "text": "Thennampalayam Pirivu"
+                    },
+                    "col4": {
+                      "text": "Palladam, Karanampettai, Sulur, Paapampatti Pirivu, Paapampatti, Chettipalayam"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "13"
+                    },
+                    "col2": {
+                      "text": "12"
+                    },
+                    "col3": {
+                      "text": "Aalandurai"
+                    },
+                    "col4": {
+                      "text": "Madhampatti, Perur, Sundakkamuthur, Kovaipudur, Kunimuthur, Aathupaalam"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "content-counter-style",
+      "data": {
+        "content": [
+          {
+            "img": "/images/kce/image-1.jpg",
+            "title": "Transport Officer Contact Details",
+            "subtitle": "J. Kalavathi, ",
+            "desc": "Mobile: 78458 11244"
+          }
+        ]
+      }
+    }
+  ]
+}

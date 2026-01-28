@@ -1,0 +1,42 @@
+{
+  "banner": {
+    "bannerImg": "/images/kce/banner_computer_technology.jpg",
+    "title": "Cafeteria",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Infrastructure",
+        "href": "/home/infrastructure"
+      },
+      {
+        "label": "Cafeteria"
+      }
+    ]
+  },
+
+  "sections": [
+   
+
+    {
+      "type": "gallery",
+      "data": {
+        "title": "A home away from home",
+        "content": [
+          {
+            "images": [
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/04/Cafeteria-1.jpg"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/04/Cafeteria1-2.jpg"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

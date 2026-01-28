@@ -37,9 +37,16 @@ const SplitImageContent = ({ data }) => {
 
       case "list":
         return (
-          <ul key={index} className="vm-list mb-4">
+          <ul key={index} className="svm-list mb-4">
             {block.items.map((li, i) => (
-              <li key={i}>{li}</li>
+              <li key={i} className="pb-3">
+                <img
+                  className="vm-liImg"
+                  src={block?.bullet || "/images/kce/right.png"}
+                  alt=""
+                />
+                {li}
+              </li>
             ))}
           </ul>
         );
@@ -116,7 +123,7 @@ const SplitImageContent = ({ data }) => {
       <div className="section-wid">
         <div className="ci-section">
           <div className="ci-container">
-            <div className="ci-content">
+            <div className={`ci-content ${data?.textColor && data?.textColor}`}>
               <h2 className="section-ti">{data.secTitle}</h2>
               <h3 className="sub-ti">{data.mainTitle}</h3>
               <p className="ti-badge-wbg">{data.caption}</p>

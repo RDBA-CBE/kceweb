@@ -6,29 +6,36 @@
 }
 
 .clubs-content-wrapper {
-
   display: flex;
   align-items: center;
   padding: 80px 0;
   position: relative;
 
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background: 
-      radial-gradient(circle at 20% 80%, rgba(102, 126, 234, 0.08) 0%, transparent 50%),
-      radial-gradient(circle at 80% 20%, rgba(240, 147, 251, 0.06) 0%, transparent 50%);
+    background:
+      radial-gradient(
+        circle at 20% 80%,
+        rgba(102, 126, 234, 0.08) 0%,
+        transparent 50%
+      ),
+      radial-gradient(
+        circle at 80% 20%,
+        rgba(240, 147, 251, 0.06) 0%,
+        transparent 50%
+      );
     pointer-events: none;
   }
 }
 
 .clubs-text-content {
   text-align: center;
- 
+
   margin: 0 auto;
   position: relative;
   z-index: 1;
@@ -44,7 +51,7 @@
 }
 
 .clubs-description {
-//   font-size: 1.125rem;
+  //   font-size: 1.125rem;
   line-height: 1.8;
   color: #64748b;
   margin: 0;
@@ -72,7 +79,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: linear-gradient(to right, #1C3C4A, #ddebf0ba);
+  background: linear-gradient(to right, #1c3c4a, #ddebf0ba);
   // backdrop-filter: blur(10px);
   // padding: 60px 0;
 }
@@ -112,15 +119,23 @@
   position: relative;
 
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background: 
-      radial-gradient(circle at 30% 70%, rgba(102, 126, 234, 0.06) 0%, transparent 50%),
-      radial-gradient(circle at 70% 30%, rgba(240, 147, 251, 0.04) 0%, transparent 50%);
+    background:
+      radial-gradient(
+        circle at 30% 70%,
+        rgba(102, 126, 234, 0.06) 0%,
+        transparent 50%
+      ),
+      radial-gradient(
+        circle at 70% 30%,
+        rgba(240, 147, 251, 0.04) 0%,
+        transparent 50%
+      );
     pointer-events: none;
   }
 
@@ -184,7 +199,7 @@
 }
 
 .clubs-footer-text {
-//   font-size: 1.125rem;
+  //   font-size: 1.125rem;
   line-height: 1.7;
   color: #64748b;
   text-align: center;
@@ -201,39 +216,30 @@
   .clubs-content-wrapper {
     padding: 60px 0;
   }
-  
+
   .clubs-main-title {
     font-size: 2.5rem;
     margin-bottom: 32px;
   }
-  
+
   .clubs-description {
     font-size: 1rem;
     padding: 0 20px;
   }
-  
+
   .clubs-image-section {
     height: 50vh;
     min-height: 300px;
   }
-  
-  .clubs-quote-overlay {
-    padding: 40px 0;
-  }
-  
+
   .clubs-quote {
     flex-direction: column;
     text-align: center;
-    gap: 20px;
   }
-  
-  .quote-text {
-    font-size: 1.5rem;
-  }
-  
+
   .quote-mark {
-    font-size: 4rem;
-    margin-left: 0;
+    display: none;
+   
   }
 
   .clubs-listing-section {
@@ -260,6 +266,10 @@
     }
   }
 
+  .clubs-quote-overlay {
+    padding: 10px 0;
+  }
+
   .clubs-footer-text {
     // font-size: 1rem;
     margin-top: 40px;
@@ -271,30 +281,35 @@
   .clubs-content-wrapper {
     padding: 40px 0;
   }
-  
+
   .clubs-main-title {
     font-size: 2rem;
     margin-bottom: 24px;
   }
-  
+
   .clubs-description {
     font-size: 0.9rem;
     line-height: 1.6;
   }
-  
+
   .clubs-image-section {
     height: 40vh;
     min-height: 250px;
   }
-  
+
   .clubs-quote-overlay {
-    padding: 30px 0;
+    padding: 10px 0;
   }
+
+  .clubs-quote {
   
+    text-align: start;
+  }
+
   .quote-text {
-    font-size: 1.25rem;
+    font-size: 24px;
   }
-  
+
   .quote-mark {
     font-size: 3rem;
   }
@@ -339,15 +354,23 @@
   position: relative;
 
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background: 
-      radial-gradient(circle at 30% 70%, rgba(102, 126, 234, 0.06) 0%, transparent 50%),
-      radial-gradient(circle at 70% 30%, rgba(240, 147, 251, 0.04) 0%, transparent 50%);
+    background:
+      radial-gradient(
+        circle at 30% 70%,
+        rgba(102, 126, 234, 0.06) 0%,
+        transparent 50%
+      ),
+      radial-gradient(
+        circle at 70% 30%,
+        rgba(240, 147, 251, 0.04) 0%,
+        transparent 50%
+      );
     pointer-events: none;
   }
 
@@ -402,7 +425,7 @@
     }
 
     .club-name {
-    //   font-size: 1.125rem;
+      //   font-size: 1.125rem;
       font-weight: 500;
       color: #475569;
       line-height: 1.4;
@@ -493,15 +516,23 @@
   position: relative;
 
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    background: 
-      radial-gradient(circle at 25% 75%, rgba(255, 107, 53, 0.05) 0%, transparent 50%),
-      radial-gradient(circle at 75% 25%, rgba(102, 126, 234, 0.03) 0%, transparent 50%);
+    background:
+      radial-gradient(
+        circle at 25% 75%,
+        rgba(255, 107, 53, 0.05) 0%,
+        transparent 50%
+      ),
+      radial-gradient(
+        circle at 75% 25%,
+        rgba(102, 126, 234, 0.03) 0%,
+        transparent 50%
+      );
     pointer-events: none;
   }
 
@@ -553,6 +584,13 @@
     .highlight-text {
       font-size: 1.875rem;
       margin-top: 40px;
+    }
+
+    blockquote::before {
+      width: 20px;
+      height: 20px;
+      background-size: contain;
+      top: auto;
     }
   }
 

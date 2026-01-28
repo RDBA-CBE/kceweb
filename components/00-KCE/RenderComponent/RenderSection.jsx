@@ -24,6 +24,9 @@ import GalleryGrid from "../DepartmentCompoennts/GalleryGrid";
 import ImgSliderContent from "../DepartmentCompoennts/ImgSliderContent";
 import KeyValueCard from "../DepartmentCompoennts/KeyValueCard";
 import SplitColContent from "../DepartmentCompoennts/SplitColContent";
+import TimeLine from "../DepartmentCompoennts/TimeLine";
+import RectangleList from "../DepartmentCompoennts/RectangleList";
+import LinkCard from "../DepartmentCompoennts/LinkCard";
 
 const RenderSection = ({ section, index, renderSection }) => {
   switch (section.type) {
@@ -192,8 +195,17 @@ const RenderSection = ({ section, index, renderSection }) => {
     case "key-value-cards":
       return <KeyValueCard key={index} data={section.data} />;
 
-      case "split-col-con":
+    case "split-col-con":
       return <SplitColContent key={index} data={section.data} />;
+
+    case "timeline":
+      return <TimeLine key={index} data={section.data} />;
+
+    case "rectangle-list":
+      return <RectangleList key={index} data={section.data} />;
+
+    case "link-card":
+      return <LinkCard key={index} data={section.data} />;
 
     default:
       return null;

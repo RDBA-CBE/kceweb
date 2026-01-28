@@ -1,0 +1,41 @@
+{
+  "banner": {
+    "bannerImg": "/images/kce/banner_computer_technology.jpg",
+    "title": "Banking",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Infrastructure",
+        "href": "/home/infrastructure"
+      },
+      {
+        "label": "Banking"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "split-image-content",
+      "data": {
+        "imagePosition": "right",
+        "sectionbg": "section-bg1 my-4",
+        "image": "/images/gallery/gallery-big.jpg",
+        "content": [
+          {
+            "type": "title",
+            "mainTi": ""
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              "Lakshmi Vilas Bank extension counter is available with ATM facility which can be used by Staff & Students."
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

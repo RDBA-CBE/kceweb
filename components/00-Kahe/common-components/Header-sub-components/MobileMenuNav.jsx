@@ -3,7 +3,7 @@
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 import { useState, useEffect } from "react";
-import MenuData from "../../../../data/kahe/MegaMenu.json";
+import MenuData from "../../../../data/kce/MegaMenu.json";
 import MobileMenuList from "./MobileMenuList";
 
 const MobileMenuNav = () => {

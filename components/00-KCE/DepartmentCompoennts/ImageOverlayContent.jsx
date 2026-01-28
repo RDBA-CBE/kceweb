@@ -14,10 +14,12 @@ const ImageOverlayContent = ({ data }) => {
           <div className="ioc-row">
             {/* Left Column */}
             <div className="ioc-left-col">
-              {data?.subtitle && (
-                <span className="ti-badge-wbg">{data?.subtitle}</span>
-              )}
+              
               <h2 className="section-ti text-white mb-0 mt-5">{data?.title}</h2>
+
+              {data?.subtitle && (
+                <p className="mt-4">{data?.subtitle}</p>
+              )}
             </div>
 
             {/* Right Column */}

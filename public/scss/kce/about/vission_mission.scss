@@ -70,6 +70,34 @@
   // line-height: 1.8;
 }
 
+.svm-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.svm-list li {
+  position: relative;
+  // padding-left: 25px;
+  margin-bottom: 10px;
+  margin: 5px 0;
+  // font-size: 1.1rem;
+  // line-height: 1.8;
+}
+
+.vm-liImg {
+  width: 15px;
+  height: 15px;
+  background-image: url(/_next/static/media/right.0b6d9044.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: #cc6926;
+  font-size: 20px;
+  text-align: center;
+  line-height: 22px;
+  padding-right: 30px;
+}
+
 .vm-list li::before {
   content: "";
   position: absolute;
