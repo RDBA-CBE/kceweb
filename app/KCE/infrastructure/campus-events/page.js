@@ -1,28 +1,17 @@
-"use client";
-import React from "react";
-import data from "@/JSON/campus/campus_event.json";
-import InnerBanner from "@/components/00-KCE/common/InnerBanner";
-import RenderSection from "@/components/00-KCE/RenderComponent/RenderSection";
+import CampusEventPage from '@/components/00-KCE/Campus/campusEvents';
+import ClubsPage from '@/components/00-KCE/Campus/clubs';
+import React from 'react'
 
-export default function CampusEventPage() {
-  const pageData = data;
-  const renderSectionWrapper = (section, index) => {
-    return (
-      <RenderSection
-        section={section}
-        index={index}
-        renderSection={renderSectionWrapper}
-      />
-    );
-  };
+export const metadata = {
+  title: "Best college for Engineering In Tamilnadu - KCE",
+  description:
+    "Unlock your potential in Engineering at KCE, the leading Engineering college in Tamilnadu, providing a nurturing environment for academic and personal growth.",
+};
 
+const page = () => {
   return (
-    <>
-      <InnerBanner data={pageData?.banner} />
-
-      {pageData?.sections?.map((section, index) =>
-        renderSectionWrapper(section, index),
-      )}
-    </>
-  );
+    <CampusEventPage/>
+  )
 }
+
+export default page
