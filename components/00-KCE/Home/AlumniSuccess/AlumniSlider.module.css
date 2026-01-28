@@ -1,7 +1,7 @@
 .section {
   width: 100vw;
   margin-left: calc(-50vw + 50%);
-  padding: 60px 0 120px;
+  padding: 60px 0 0px 0;
   background: #ffffff;
   text-align: center;
   overflow: hidden;
@@ -10,7 +10,7 @@
 
 .heading {
   margin-bottom: 50px;
-  color: #1c2b36;
+  color: #1a365d;
 }
 
 /* SWIPER */
@@ -40,12 +40,10 @@
 .card h4 {
   margin-top: 18px;
   color: #6b6b6b;
-  font-weight: 500;
 }
 
 .card p {
   color: #9a9a9a;
-  margin-top: 4px;
 }
 /* ACTIVE (CENTER) SLIDE — CSS MODULE SAFE */
 :global(.swiper-slide-active) .card img,
@@ -55,15 +53,12 @@
 
 :global(.swiper-slide-active) .card h4,
 :global(.swiper-slide-duplicate-active) .card h4 {
-  font-size: 18px;
   color: #1c2b36;
-  font-weight: 600;
 }
 
 :global(.swiper-slide-active) .card p,
 :global(.swiper-slide-duplicate-active) .card p {
-  font-size: 14px;
-  color: #555;
+  color: #555; font-size:18px;
 }
 /* ACTIVE (CENTER) SLIDE */
 .swiper-slide-active .card img {
@@ -71,13 +66,10 @@
 }
 
 .swiper-slide-active .card h4 {
-  font-size: 18px;
-  color: #1c2b36;
-  font-weight: 600;
+  color: #1a365d;
 }
 
 .swiper-slide-active .card p {
-  font-size: 14px;
   color: #555;
 }
 

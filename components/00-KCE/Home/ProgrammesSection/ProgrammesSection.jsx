@@ -65,7 +65,7 @@ export default function ProgrammesSection() {
         <div className={styles.layout}>
           {/* ORANGE CARD WITH SVG MASK */}
           <div className={styles.orangeCard}>
-<svg
+{/* <svg
   className={styles.orangeMask}
   viewBox="0 0 360 520"
   preserveAspectRatio="none"
@@ -80,7 +80,7 @@ export default function ProgrammesSection() {
     "
     fill="#F5821F"
   />
-</svg>
+</svg> */}
 
 
 
@@ -98,13 +98,13 @@ export default function ProgrammesSection() {
 </div>
 
             {/* LOGO */}
-            <div className={styles.kLogoWrap}>
+            {/* <div className={styles.kLogoWrap}>
               <img
                 src="/images/kce/logo/k-logo-white.png"
                 alt="K Logo"
                 className={styles.kLogo}
               />
-            </div>
+            </div> */}
           </div>
 
           {/* RIGHT LIST */}

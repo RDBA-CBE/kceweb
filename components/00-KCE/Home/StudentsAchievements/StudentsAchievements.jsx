@@ -51,7 +51,7 @@ const StudentsAchievements = () => {
 
   return (
     <section className={styles.section}>
-      <h2 className={styles.title}>Students Achievements</h2>
+      <h2 className={styles.title}>STUDENTS ACHIEVEMENTS</h2>
 
       {/* arrows live in grey area */}
       <div className={styles.arrows}>
