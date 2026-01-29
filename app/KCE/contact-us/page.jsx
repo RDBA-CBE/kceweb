@@ -1,4 +1,4 @@
-import ContactPage from "@/components/00-KCE/Contact/ContactPage";
+import ContactPage from "@/components/00-KCE/DirectComponents/ContactPage";
 import React from "react";
 
 export const metadata = {

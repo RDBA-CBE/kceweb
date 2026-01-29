@@ -1,0 +1,73 @@
+{
+  "banner": {
+    "bannerImg": "/images/kce/banner_admission.jpg",
+    "title": "Contact",
+    "breadcrumb": [{ "label": "Home", "href": "/" }, { "label": "Contact" }]
+  },
+  "sections": [
+    {
+      "type": "contact-card",
+      "data": {
+        "content": {
+          "text": [
+            {
+              "secTitle": "For Admission Enquiries:",
+              "description": "Lorem ipsum dolor sit amet consectetur. Pulvinar nulla sapien velit ultrices neque pretium pulvinar. Urna netus sed et in. At sed urna vitae rhoncus convallis tellus nisi viverra.",
+              "contactDetails": [
+                { "label": "Mobile", "value": "8220333750, 8220333620" }
+              ],
+              "button":{
+                "text":"Admission Centre",
+                "href":"/KCE/admission",
+                "target": "_self"
+              }
+            }
+          ],
+          "image": {
+            "src": "/images/kce/image-4.png",
+            "alt": "Contact Building",
+            "position": "right"
+          }
+        }
+      }
+    },
+
+    {
+      "type": "contact-card",
+      "data": {
+        "content": {
+          "text": [
+            {
+              "secTitle": "For Office / Other Enquiries:",
+              "description": "Lorem ipsum dolor sit amet consectetur. Pulvinar nulla sapien velit ultrices neque pretium pulvinar. Urna netus sed et in. At sed urna vitae rhoncus convallis tellus nisi viverra.",
+              "contactDetails": [
+                { "label": "Phone", "value": "+91 – 422 2619005" },
+                { "label": "Email", "value": "info@kce.ac.in" }
+              ],
+              "socialLinks": [
+                {
+                  "type": "feather-facebook",
+                  "url": "https://www.facebook.com/wekceians/"
+                },
+                { "text": "𝕏", "url": "https://twitter.com/wekceians" },
+                {
+                  "type": "feather-instagram",
+                  "url": "https://www.instagram.com/wekceians/"
+                },
+                {
+                  "type": "feather-youtube",
+                  "url": "https://www.youtube.com/@wekceians"
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/images/kce/image-4.png",
+            "alt": "Contact Building",
+            "position": "left"
+          }
+        }
+      }
+    }
+  ]
+}

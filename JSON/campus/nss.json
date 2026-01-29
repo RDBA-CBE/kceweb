@@ -176,8 +176,8 @@
     {
       "type": "link-card",
       "data": {
-        "sectionbg": "pt-0 section-bg1",
-        "title": "LIST OF NSS ACTIVITIES",
+        "sectionbg": "section-bg1",
+        "title": "List of NSS Activities",
         "content": [
           {
             "id": 1,
