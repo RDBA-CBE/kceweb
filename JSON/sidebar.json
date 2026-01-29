@@ -1,0 +1,63 @@
+{
+    "profile": [
+        {
+            "label": "About Karpagam",
+            "path": "/KCE/profile"
+        },
+        {
+            "label": "Vision & Mission",
+            "path": "/KCE/vision-mission"
+        },
+        {
+            "label": "Management Profile",
+            "path": "/KCE/management-profile"
+        },
+        {
+            "label": "Programmes Offered",
+            "path": "/KCE/courses-offered"
+        },
+        {
+            "label": "Centers of Excellence",
+            "path": "/KCE/centers-of-excellence"
+        },
+        {
+            "label": "Accreditations",
+            "path": "/KCE/accreditations/"
+        },
+        {
+            "label": "Placement",
+            "path": "/KCE/overview/"
+        }
+    ],
+    "examination": [
+        {
+            "label": "Instructions to the candidates",
+            "path": "/KCE/examinations/instructions-to-the-candidates/"
+        },
+        {
+            "label": "Rules and Regulations",
+            "path": "/KCE/examinations/rules-and-regulations/"
+        },
+        {
+            "label": "Result",
+            "path": "http://karpagam.edu.in/Automation/studentOnline.do?param=login&Id=2",
+            "target": "_blank"
+        },
+        {
+            "label": "Services",
+            "path": "/KCE/examinations/services/"
+        },
+        {
+            "label": "Time Table",
+            "path": "/KCE/examinations/time-table/"
+        },
+        {
+            "label": "Downloads",
+            "path": "/KCE/examinations/downloads/"
+        },
+        {
+            "label": "Contact",
+            "path": "/KCE/examinations/#exam-contact"
+        }
+    ]
+}

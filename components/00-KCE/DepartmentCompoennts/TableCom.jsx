@@ -3,22 +3,18 @@
 import Link from "next/link";
 import React, { useState } from "react";
 
-const ROWS_PER_PAGE = 10;
-
 const TableCom = ({ data }) => {
   return (
     <div className="rbt-dashboard-content bg-color-white tab-in">
-      <div className="">
+      <div>
         {/* Title */}
         {data?.secTitle && (
-          <div className="row ">
-            <div className="col-lg-12 ">
+          <div className="row">
+            <div className="col-lg-12">
               <div className="section-title">
                 <h2
                   className="section-ti"
-                  dangerouslySetInnerHTML={{
-                    __html: data.secTitle,
-                  }}
+                  dangerouslySetInnerHTML={{ __html: data.secTitle }}
                 />
               </div>
             </div>
@@ -31,25 +27,27 @@ const TableCom = ({ data }) => {
               <div className="section-title">
                 <h2
                   className="sub-ti text-black"
-                  dangerouslySetInnerHTML={{
-                    __html: data.subTitle,
-                  }}
+                  dangerouslySetInnerHTML={{ __html: data.subTitle }}
                 />
               </div>
             </div>
           </div>
         )}
 
-        {data?.desc && <p>{data?.desc}</p>}
+        {data?.desc && <p>{data.desc}</p>}
 
         {/* TABLES */}
-
         {data?.table?.map((item, index) => (
           <div key={index} className="row gy-5 my-4">
             <div className="col-lg-12 mt-0">
-              {item?.title && <h3 className="sub-ti mb-5">{item?.title}</h3>}
-              {item?.content?.map((table, index) => (
-                <PaginatedTable key={index} table={table} />
+              {item?.title && <h3 className="sub-ti mb-5">{item.title}</h3>}
+
+              {item?.content?.map((table, i) => (
+                <PaginatedTable
+                  key={i}
+                  table={table}
+                  rowsPerPage={table.rowsPerPage}
+                />
               ))}
             </div>
           </div>
@@ -65,18 +63,20 @@ export default TableCom;
    PAGINATED TABLE
 -------------------------------------------------- */
 
-const PaginatedTable = ({ table }) => {
+const PaginatedTable = ({ table, rowsPerPage = 10 }) => {
   const [currentPage, setCurrentPage] = useState(1);
 
   const totalRows = table.data.length;
-  const totalPages = Math.ceil(totalRows / ROWS_PER_PAGE);
+  const totalPages = Math.ceil(totalRows / rowsPerPage);
 
-  const startIndex = (currentPage - 1) * ROWS_PER_PAGE;
-  const currentRows = table.data.slice(startIndex, startIndex + ROWS_PER_PAGE);
+  const startIndex = (currentPage - 1) * rowsPerPage;
+  const currentRows = table.data.slice(
+    startIndex,
+    startIndex + rowsPerPage
+  );
 
-  /* ---------- PAGE NUMBERS LOGIC ---------- */
+  /* ---------- PAGE NUMBERS ---------- */
   const renderPageNumbers = () => {
-    // <= 3 pages → 1 2 3
     if (totalPages <= 3) {
       return Array.from({ length: totalPages }).map((_, i) => (
         <button
@@ -89,7 +89,6 @@ const PaginatedTable = ({ table }) => {
       ));
     }
 
-    // > 3 pages → 1 2 ... last
     return (
       <>
         <button
@@ -144,7 +143,7 @@ const PaginatedTable = ({ table }) => {
                       cell.url ? (
                         <Link
                           href={cell.url}
-                          target={cell.target}
+                          target={cell.target || "_self"}
                           className="d-flex justify-content-between align-items-center"
                         >
                           <span>{cell.text}</span>
@@ -165,9 +164,8 @@ const PaginatedTable = ({ table }) => {
                             <li key={i}>
                               <i className="feather-check"></i>
                               <span
-                                className="text-start"
                                 dangerouslySetInnerHTML={{ __html: v }}
-                              ></span>
+                              />
                             </li>
                           ))}
                         </ul>
@@ -212,65 +210,3 @@ const PaginatedTable = ({ table }) => {
     </div>
   );
 };
-
-// sample json
-{
-  /*
-{
-  "secTitle": "Laboratory Details",
-  "subTitle": "Department of Electronics and Communication Engineering",
-  "table": [
-    {
-      "title": "UG Courses",
-      "content": [
-        {
-          "head": [
-            { "id": "col1", "label": "S.No" },
-            { "id": "col2", "label": "Course Code" },
-            { "id": "col3", "label": "Course Name" },
-            { "id": "col4", "label": "Resources" }
-          ],
-          "data": [
-            {
-              "col1": { "text": "1" },
-              "col2": { "text": "18LC11" },
-              "col3": { "text": "Electronic Circuits" },
-              "col4": {
-                "text": "Click Here",
-                "url": "https://example.com/ec",
-                "target": "_blank"
-              }
-            }            
-          ]
-        }
-      ]
-    },
-    {
-      "title": "PG Courses",
-      "content": [
-        {
-          "head": [
-            { "id": "col1", "label": "S.No" },
-            { "id": "col2", "label": "Course Name" },
-            { "id": "col3", "label": "Outcomes" }
-          ],
-          "data": [
-            {
-              "col1": { "text": "1" },
-              "col2": { "text": "VLSI Design" },
-              "col3": {
-                "list": [
-                  "Understand CMOS fundamentals",
-                  "Design combinational circuits",
-                  "Implement VLSI architectures"
-                ]
-              }
-            }
-          ]
-        }
-      ]
-    }
-  ]
-}
-*/
-}

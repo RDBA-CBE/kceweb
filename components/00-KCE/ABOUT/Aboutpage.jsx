@@ -3,12 +3,14 @@
 import React from "react";
 import SideMenu from "@/components/00-KCE/ABOUT/sideMenu";
 import data from "@/JSON/ABOUT/profile.json";
+import sideBarData from "@/JSON/sidebar.json";
 import InnerBanner from "@/components/00-KCE/common/InnerBanner";
 import { department } from "@/utils/constant.util";
 
 const Aboutpage = () => {
   const { pageTitle, intro, imageSection, sideMenu } = data;
 
+ console.log("sideBarData",sideBarData);
  
   return (
     <section className=" about-wrapper">
@@ -47,7 +49,7 @@ const Aboutpage = () => {
           </div>
 
           {/* RIGHT STICKY MENU */}
-          <SideMenu active="About Karpagam" />
+          <SideMenu active="About Karpagam" data={sideBarData?.profile} />
         </div>
       </div>
     </section>
