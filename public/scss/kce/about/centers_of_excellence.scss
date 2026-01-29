@@ -92,41 +92,16 @@
   }
 }
 
-.kisd-modern {
-  background: linear-gradient(180deg, #ffffff, #f8fafc);
-  padding: 100px 0;
-}
 
-/* HEADER */
-.kisd-header .badge {
-  background: #e0e7ff;
-  color: #3730a3;
-  padding: 6px 14px;
-  border-radius: 999px;
-  font-weight: 600;
-  font-size: 12px;
-}
 
-.kisd-header h2 {
-  font-size: 2.6rem;
-  font-weight: 800;
-  margin: 16px 0;
-}
-
-.kisd-header p {
-  max-width: 720px;
-  margin: auto;
-  color: #64748b;
-  font-size: 17px;
-}
 
 /* CARDS */
 .kisd-card {
-  background: #ffffff;
   border-radius: 20px;
   padding: 28px;
   height: 100%;
-  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.06);
+  background: #ddebf0ba;
+  // box-shadow: 0 15px 40px rgba(0, 0, 0, 0.06);
   transition: all 0.3s ease;
 }
 
@@ -135,13 +110,10 @@
   box-shadow: 0 25px 60px rgba(0, 0, 0, 0.12);
 }
 
-.kisd-card h5 {
-  font-weight: 700;
-  margin-bottom: 12px;
+.kisd-card img {
+  width: auto;
+  height: auto;
+  max-width: 75px;
+  max-height: 80px;
 }
 
-.kisd-card p {
-  color: #475569;
-  font-size: 15px;
-  line-height: 1.6;
-}

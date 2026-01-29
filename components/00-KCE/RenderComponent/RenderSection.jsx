@@ -26,6 +26,7 @@ import SplitColContent from "../DepartmentCompoennts/SplitColContent";
 import TimeLine from "../DepartmentCompoennts/TimeLine";
 import RectangleList from "../DepartmentCompoennts/RectangleList";
 import LinkCard from "../DepartmentCompoennts/LinkCard";
+import IconCard1 from "../DepartmentCompoennts/IconCard1";
 
 const RenderSection = ({ section, index, renderSection }) => {
   switch (section.type) {
@@ -198,6 +199,9 @@ const RenderSection = ({ section, index, renderSection }) => {
 
     case "link-card":
       return <LinkCard key={index} data={section.data} />;
+
+      case "icon-card1":
+      return <IconCard1 key={index} data={section.data} />;
 
     default:
       return null;

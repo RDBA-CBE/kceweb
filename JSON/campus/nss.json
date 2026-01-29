@@ -18,7 +18,7 @@
     {
       "type": "quote-sec",
       "data": {
-        "title": " Lorem ipsum dolor sit amet consectetu",
+        "title": "National Service Scheme",
         "content": [
           "The National Service Scheme (NSS) unit was inaugurated in the College on 16th January 2004. Dr. R. K.Manoharan, Former NSS Coordinator, Bharathiar University, Coimbatore inaugurated the unit. Mr. P. Lakshmana Kumar, Associate Professor in the Automobile Engineering Department is the Programme Officer. Myleripalayam, a nearby village was adopted by the unit for serving to the society. Totally 4 Special camps had been conducted in the village. After that, Thoppampalayam village was adopted to conduct the Special camp and 3 special camps were conducted in the village. From 2013 onwards, Samathuvapuram near Chettipalayam has been adopted for conducting special camp. From 2017 onwards, Peedampalli village near Sulur was selected for organizing Special camp.",
           "Our NSS team mainly focuses on the welfare of tribal people at Nilgiris. Many activities are carried out every month for them."
@@ -45,11 +45,157 @@
             "title": "It is kept open for 12 hours (8.00 am to 8.00 pm) with Internet browsing facility for all its users."
           },
           {
-            "type": "paragraph",
-            "text": [
-              "The library is well furnished with modern facilities and resources in the form of CD / DVD – ROMs, Online Databases, Micro Documents, Books, Journals, Project Reports, Back Volume of Journals, and Video Lessons from NPTEL. The library is using an integrated library management software package (LMS) with all modules for automated library operation and Bar code system. The books are arranged and classified according to the Dewey Decimal Classification Scheme. All students and staff are members of the library and Open Access System is followed in the library.",
-              "Library is accommodated in two floors. In the Ground Floor Books for Lending and Reading room are made available. In the First Floor Reference, Rare and costly Books, Books for Higher Education, Journals, Magazines, Back Volume of Journals, Student Projects and Non Book Material (CD’s / DVD’s / Audio Video Lessons) are stacked and also the Digital Library is situated. The Library is also offering a number of information services to its users with professionally qualified staff using the printed and electronic resources and equipments."
+            "type": "list",
+
+            "items": [
+              "Won Second prize in the poster presentation in the Two days State Level Confederacy organized by Anna University, Chennai on 08.02.2018 and 09.02.2018.",
+              "R.Deepak, IV year Civil was nominated for <strong>International Youth Exchange Programme held at China</strong> by the Government of India during 2017-18.",
+              "A MoU was signed between NSS unit and Edudharma for funding various activities through NSS.",
+              "S.T.Nivetha, ECE received <strong>“Best NSS Volunteer Award”</strong> by the NSS Cell, Anna University, Chennai for the Academic year 2017-18.",
+              "R.Deepak, Civil received <strong>“Best NSS Volunteer Award”</strong> by the NSS Cell, Anna University, Chennai for the Academic year 2017-18.",
+              "A <strong>MoU</strong> was signed between NSS unit and Nizhal Mayyam for funding various activities through NSS.",
+              "<strong>Youth Parliament:</strong> 104 volunteers participated and our college has won “Best group” and&nbsp; Ms.J.Bindhu, III year EEE had won “Best Speaker Award” along with a cash prize of Rs.2,000 and Mr.S.Pallavaraj , III year EEE had won “Best Speaker Award” along with a “Sony” headset.",
+              "<strong>Election Duty:</strong> 11 Volunteers participated in the election duty during 2015-16.",
+              "<strong>Swaach Bharat Mission:</strong> A team of 51 volunteers organized Swaach Bharat Mission Programme and Soft Skills training programme for School children at Kundah Kothagiri, The Nilgiris.",
+              "<strong>Traffic Regulation Work, Ooty:</strong> A team of 10 boys volunteers are involved in Traffic regulation work at Ooty on all Saturdays and Sundays w.e.f 26.11.2016.",
+              "<strong>Soft Skills Training Programme for tribal children:</strong> A team of 4 girls are involved in Soft Skills Training Programme for Panchayat Union Public School at Yellanalli, Ooty on all alternate Saturdays w.e.f 26.01.2017.",
+              "<strong>Set up of a Library for tribal children:</strong> A library with 500 books was inaugurated for the benefit of tribal children at Kundah Kothagiri, The Nilgiris.",
+              "<strong>One day Workshop: First Aid Training and Demonstration.</strong>",
+              "Dr. P. Lakshmana Kumar, received the <strong>“Best NSS Programme Officer”</strong> award for the year 2020-21 by the NSS Cell, Anna University, Chennai",
+              "Dr. P. Lakshmana Kumar, NSS Programme officer received <strong>Best Social Activist Award for tribal welfare activities at Nilgiris</strong> by ABJ Trust, Sivakisi",
+              "NSS volunteers Mr.S.Kavin Raja and Ms.K.Kiruba Devi attended the <strong>“National Integration Camp”</strong> held at Jammu University, Jammu from 22nd to 28th February 2020",
+              "Ms.S.T.Nivetha received <strong>Indira Gandhi Award</strong> for the year 2017 – 2018"
             ]
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "split-col-con",
+      "data": {
+        "sectionbg": "section-bg3",
+        "content": [
+          {
+            "type": "column",
+            "blocks": [
+              {
+                "type": "title",
+                "text": "Special Camp(2017-18)"
+              },
+
+              {
+                "type": "paragraph",
+                "text": "A team of 45 NSS volunteers organized Special Camp at Peedampalli village near Sulur during 15.09.2017 to 25.09.2017. They carried out the following activities."
+              },
+
+              {
+                "type": "list",
+                "items": [
+                  {
+                    "id": 1,
+                    "label": "Cleaning of water tanks."
+                  },
+                  {
+                    "id": 2,
+                    "label": "Cleaning of Temple premises."
+                  },
+                  {
+                    "id": 3,
+                    "label": "50 Tree saplings were planted at in and around the village in association with Nizhal Maiyam, NGO, Coimbatore."
+                  },
+                  {
+                    "id": 4,
+                    "label": "Free Medical Camp for school children in association with Karpagam Hospital, Coimbatore."
+                  },
+                  {
+                    "id": 5,
+                    "label": "Awareness Rally on “Dengue and its prevention” by volunteers."
+                  },
+                  {
+                    "id": 6,
+                    "label": "Awareness programme on Tree Plantation by Mr.Murugan, Nizhal Maiyam, NGO, Coimbatore."
+                  },
+                  {
+                    "id": 7,
+                    "label": "Awareness programme on Communication Skills for the NSS volunteers was organized."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "column",
+            "blocks": [
+              {
+                "type": "title",
+                "text": "Special Camp(2018-19)"
+              },
+              {
+                "type": "paragraph",
+                "text": "A team of 45 NSS volunteers organized Special Camp at Peedampalli village near Sulur during 25.02.2019 to 03.03.2019. They carried out the following activities."
+              },
+
+              {
+                "type": "list",
+                "items": [
+                  {
+                    "id": 1,
+                    "label": "Cleaning of water tanks."
+                  },
+                  {
+                    "id": 2,
+                    "label": "Cleaning of Temple premises."
+                  },
+                  {
+                    "id": 3,
+                    "label": "White washing of School buildings of Primary School."
+                  },
+                  {
+                    "id": 4,
+                    "label": "15 Tree saplings were planted at in and around the village in association with Nizhal Maiyam, NGO, Coimbatore."
+                  },
+                  {
+                    "id": 5,
+                    "label": "Awareness Rally on “Road Safety” by volunteers."
+                  },
+                  {
+                    "id": 6,
+                    "label": "Awareness programme on Tree Plantation by Mr.Murugan, Nizhal Maiyam, NGO, Coimbatore."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+
+   
+
+    {
+      "type": "link-card",
+      "data": {
+        "sectionbg": "pt-0 section-bg1",
+        "title": "LIST OF NSS ACTIVITIES",
+        "content": [
+          {
+            "id": 1,
+            "title": "2020-2021",
+            "url": "https://kce.ac.in/nss-activity-2020-2021/",
+            "urlText": "View Details"
+          },
+          {
+            "id": 2,
+            "title": "2019-2020",
+            "url": "https://kce.ac.in/nss-activity-2019-2020/",
+            "urlText": "View Details"
+          },
+          {
+            "id": 3,
+            "title": "2018-2019",
+            "url": "https://kce.ac.in/nss-activity-2018-2019/",
+            "urlText": "View Details"
           }
         ]
       }
@@ -63,57 +209,100 @@
           {
             "images": [
               {
-                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Club_Photo17-400x400-1.jpeg"
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/IMG_9880-2-400x400-1.jpg"
               },
               {
-                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Club_Photo20-400x400-1.jpeg"
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/IMG_9867-2-2-400x400-1.jpg"
               },
               {
-                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Club_Photo24-400x400-1.jpeg"
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/IMG_9826-1-2-400x400-1.jpg"
               },
               {
-                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Club_Photo18-400x400-1.jpeg"
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/IMG_9823-1-400x400-1.jpg"
               },
               {
-                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Club_Photo26-400x400-1.jpeg"
+                "img": "https://kce.ac.in/new/wp-content/uploads/2022/07/ach-1.jpg"
               },
               {
-                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Club_Photo16-400x400-1.jpeg"
+                "img": "https://kce.ac.in/new/wp-content/uploads/2022/07/ach-2.jpg"
               },
               {
-                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Club_Photo8-400x400-1.jpeg"
+                "img": "https://kce.ac.in/new/wp-content/uploads/2022/07/Best-Social-Activist-Award-for-NSS-Prorgamme-Officer-by-ABJ-Trust-1.jpg"
               },
               {
-                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Club_Photo21-400x400-1.jpeg"
+                "img": "https://kce.ac.in/new/wp-content/uploads/2022/07/Blood-donation-Karpagam-Hospital-2017-18.jpg"
               },
               {
-                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Club_Photo15-400x400-1.jpeg"
+                "img": "https://kce.ac.in/new/wp-content/uploads/2022/07/Campus-cleaning-07.07.jpg"
               },
               {
-                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Club_Photo5-400x400-1.jpeg"
+                "img": "https://kce.ac.in/new/wp-content/uploads/2022/07/Crowd-funding-awareness-2017-2018.jpg"
               },
               {
-                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Club_Photo7-400x400-1.jpeg"
+                "img": "https://kce.ac.in/new/wp-content/uploads/2022/07/Noyyal-river-cleaning-2017-18-2.jpg"
               },
               {
-                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Club_Photo19-400x400-1.jpeg"
+                "img": "https://kce.ac.in/new/wp-content/uploads/2022/07/Noyyal-river-cleaning-2017-2018-1.jpg"
               },
               {
-                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Club_Photo25-400x400-1.jpeg"
+                "img": "https://kce.ac.in/new/wp-content/uploads/2022/07/Soft-skills-3rd-week7.jpg"
               },
               {
-                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Club_Photo4-400x400-1.jpeg"
+                "img": "https://kce.ac.in/new/wp-content/uploads/2022/07/Special-Camp1.jpg"
               },
               {
-                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Club_Photo3-400x400-1.jpeg"
+                "img": "https://kce.ac.in/new/wp-content/uploads/2022/07/TB-health-Awareness1-2.jpg"
               },
               {
-                "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Club_Photo1-400x400-1.jpeg"
+                "img": "https://kce.ac.in/new/wp-content/uploads/2022/07/Traffic-Ooty-2017-2018.jpg"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2022/07/Yoga-2017-2018.jpg"
               }
             ]
           }
         ]
       }
+    },
+
+     {
+      "type": "icon-card1",
+      "data": {
+        "title": "KCE relies on a team of incredible volunteers for continued success in everything we do…",
+        "desc": "Volunteering gets added to your co-curricular record. There are so many reasons why volunteering is a great idea. Here are a few:",
+
+        "content": [
+          {
+            "src": "/images/kce/vision.png",
+            "text": "Make new friends"
+          },
+          {
+            "src": "/images/kce/vision.png",
+            "text": "Develop analytical and critical-thinking skills"
+          },
+          {
+            "src": "/images/kce/vision.png",
+            "text": "Build your resume and increase job opportunities"
+          },
+          {
+            "src": "/images/kce/vision.png",
+            "text": "Discover skills you never knew you had"
+          },
+          {
+            "src": "/images/kce/vision.png",
+            "text": "Gain more confidence"
+          },
+          {
+            "src": "/images/kce/vision.png",
+            "text": "Discover something you are passionate about"
+          },
+          {
+            "src": "/images/kce/vision.png",
+            "text": "Improve your experience on campus"
+          }
+        ]
+      }
     }
+
   ]
 }

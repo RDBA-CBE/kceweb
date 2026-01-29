@@ -45,7 +45,7 @@ const SplitImageContent = ({ data }) => {
                   src={block?.bullet || "/images/kce/right.png"}
                   alt=""
                 />
-                {li}
+                 <span dangerouslySetInnerHTML={{__html:li}}></span>
               </li>
             ))}
           </ul>
