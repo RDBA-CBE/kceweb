@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import data from "@/JSON/campus/clubs.json";
+import data from "@/JSON/campus/nss.json";
 import InnerBanner from "../common/InnerBanner";
 import RenderSection from "../RenderComponent/RenderSection";
 
@@ -15,6 +15,8 @@ export default function NSSPage() {
       />
     );
   };
+
+ 
 
   return (
     <>
