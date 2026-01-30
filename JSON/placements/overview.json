@@ -48,8 +48,17 @@
      {
       "type":"full-width-image",
       "data":{
-        "sectionbg":"section-bg1",
-        "src":"https://kce.ac.in/new/wp-content/uploads/2024/03/placement-kce-Image-.jpg",
+        "sectionbg":"section-bg1 mt-5 mb-0",
+        "src":"https://kce.ac.in/new/wp-content/uploads/2024/03/PG2-GRAPH-CHART-1.png",
+        "alt":"placement-kce-Image-",
+        "height":"auto"
+      }
+    },
+    {
+      "type":"full-width-image",
+      "data":{
+        "sectionbg":"pt-0 pb-5",
+        "src":"https://kce.ac.in/new/wp-content/uploads/2024/03/Web-26.jpg",
         "alt":"placement-kce-Image-",
         "height":"auto"
       }
