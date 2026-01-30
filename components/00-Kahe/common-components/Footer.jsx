@@ -37,7 +37,7 @@ const Footer = () => {
       { label: "Cafeteria", href: "/KCE/infrastructure/cafeteria/" },
       { label: "Programmes Offered", href: "/KCE/courses-offered/" },
       { label: "Academic Calendar", href: "/KCE//academic-calendar/" },
-      { label: "Sports Facilities", href: "#/KCE/sports-facilities/" },
+      { label: "Sports Facilities", href: "/KCE/sports-facilities/" },
       { label: "Auditorium", href: "/KCE/auditorium/" },
     ],
   };
