@@ -2,15 +2,9 @@
   "banner": {
     "bannerImg": "/images/kce/banner_computer_technology.jpg",
     "title": "Undertaking",
-    "breadcrumb": [
-     
-
-     
-    ]
+    "breadcrumb": []
   },
   "sections": [
-   
-
     {
       "type": "link-card",
       "data": {
@@ -24,8 +18,6 @@
             "urlText": "View "
           }
         ]
-        
-        
       }
     }
   ]

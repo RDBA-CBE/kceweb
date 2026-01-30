@@ -1,7 +1,18 @@
+import AuditoriumPage from '@/components/00-Kahe/DirectPageComponent/auditorium';
+import CafeteriaPage from '@/components/00-KCE/Campus/cafeteria';
+import ClubsPage from '@/components/00-KCE/Campus/clubs';
 import React from 'react'
 
-export default function Page() {
+export const metadata = {
+  title: "Best college for Engineering In Tamilnadu - KCE",
+  description:
+    "Unlock your potential in Engineering at KCE, the leading Engineering college in Tamilnadu, providing a nurturing environment for academic and personal growth.",
+};
+
+const page = () => {
   return (
-    <div>auditorium</div>
+    <AuditoriumPage/>
   )
 }
+
+export default page

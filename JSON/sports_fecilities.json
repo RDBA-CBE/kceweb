@@ -1,0 +1,425 @@
+{
+  "banner": {
+    "bannerImg": "/images/kce/banner_admission.jpg",
+    "title": "Sports Facilities",
+    "breadcrumb": [
+      {
+        "label": "Sports Facilities"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "contact-card",
+      "data": {
+        "content": {
+          "text": [
+            {
+              "secTitle": "If you want to carry on with sports you played at school or start something new you can…",
+              "description": "",
+              "contactDetails": [
+                {
+                  "label": "Director of Physical Education",
+                  "value": "Mr P DHIBESH KUMAR BSC,B.PED,M.PED,MPHIL,PGDYE."
+                },
+                {
+                  "label": "Asst. Director of Physical Education",
+                  "value": "Mr P PRATHEEP BBA,B.PED,MPED,MPHIL,PGDYE.<br/>V SABARISH BSC,B.PED,M.PED."
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/images/kce/image-4.png",
+            "alt": "Contact Building",
+            "position": "right"
+          }
+        }
+      }
+    },
+    {
+      "type": "image-overlay-content",
+      "data": {
+        "bgImage": "/images/kce/academics/banner.jpg",
+        "title": "Infrastructure Facilities",
+        "subtitle": "The department is well equipped with Outdoor & Indoor Games facilities",
+        "list": []
+      }
+    },
+    {
+      "type": "table",
+      "data": {
+        "sectionbg":"section-bg1 mb-1",
+
+        "secTitle": "Outdoor Games",
+        "desc": "To provide extensive playing facilities an area of 6 acres was leveled with massive machinery. The following courts have been laid down with standard specifications both for Men & Women students.",
+        "table": [
+          {
+            "title": "",
+            "content": [
+              {
+                "head": [
+                  {
+                    "id": "col1",
+                    "label": "S.No"
+                  },
+                  {
+                    "id": "col2",
+                    "label": "Name of the Outdoor Game"
+                  },
+                  {
+                    "id": "col3",
+                    "label": "Total Numbers"
+                  },
+                  {
+                    "id": "col4",
+                    "label": "Area in Square Meters"
+                  }
+                ],
+                "data": [
+                  {
+                    "col1": {
+                      "text": "1"
+                    },
+                    "col2": {
+                      "text": "Ball Badminton Court"
+                    },
+                    "col3": {
+                      "text": "2"
+                    },
+                    "col4": {
+                      "text": "1600"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "2"
+                    },
+                    "col2": {
+                      "text": "Basket ball Court"
+                    },
+                    "col3": {
+                      "text": "2"
+                    },
+                    "col4": {
+                      "text": "1900"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "3"
+                    },
+                    "col2": {
+                      "text": "Cricket Field"
+                    },
+                    "col3": {
+                      "text": "1"
+                    },
+                    "col4": {
+                      "text": "16031"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "4"
+                    },
+                    "col2": {
+                      "text": "Football Field"
+                    },
+                    "col3": {
+                      "text": "1"
+                    },
+                    "col4": {
+                      "text": "4600"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "5"
+                    },
+                    "col2": {
+                      "text": "Hand ball Court"
+                    },
+                    "col3": {
+                      "text": "1"
+                    },
+                    "col4": {
+                      "text": "1000"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "6"
+                    },
+                    "col2": {
+                      "text": "Hockey Field"
+                    },
+                    "col3": {
+                      "text": "1"
+                    },
+                    "col4": {
+                      "text": "5027"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "7"
+                    },
+                    "col2": {
+                      "text": "Kabaddi Court"
+                    },
+                    "col3": {
+                      "text": "2"
+                    },
+                    "col4": {
+                      "text": "1000"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "8"
+                    },
+                    "col2": {
+                      "text": "Kho-Kho Court"
+                    },
+                    "col3": {
+                      "text": "1"
+                    },
+                    "col4": {
+                      "text": "460"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "9"
+                    },
+                    "col2": {
+                      "text": "Tennikoit Court"
+                    },
+                    "col3": {
+                      "text": "2"
+                    },
+                    "col4": {
+                      "text": "125"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "10"
+                    },
+                    "col2": {
+                      "text": "Tennis Court"
+                    },
+                    "col3": {
+                      "text": "2"
+                    },
+                    "col4": {
+                      "text": "1441"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "11"
+                    },
+                    "col2": {
+                      "text": "Throw ball Court"
+                    },
+                    "col3": {
+                      "text": "2"
+                    },
+                    "col4": {
+                      "text": "1360"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "12"
+                    },
+                    "col2": {
+                      "text": "Volley ball Court"
+                    },
+                    "col3": {
+                      "text": "2"
+                    },
+                    "col4": {
+                      "text": "2740"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "table",
+      "data": {
+        "sectionbg":"section-bg1 pt-1",
+
+        "secTitle": "Indoor Games",
+        "desc": "In addition to the above, an indoor stadium has been constructed in an area of 12,000 Sq.feet. The following play field facilities available in indoor stadium.",
+        "table": [
+          {
+            "title": "",
+            "content": [
+              {
+                "head": [
+                  {
+                    "id": "col1",
+                    "label": "S.No"
+                  },
+                  {
+                    "id": "col2",
+                    "label": "Name of the Indoor Game"
+                  },
+                  {
+                    "id": "col3",
+                    "label": "Total Numbers"
+                  },
+                  {
+                    "id": "col4",
+                    "label": "Area in Square Meters"
+                  }
+                ],
+                "data": [
+                  {
+                    "col1": {
+                      "text": "1"
+                    },
+                    "col2": {
+                      "text": "Badminton"
+                    },
+                    "col3": {
+                      "text": "4"
+                    },
+                    "col4": {
+                      "text": "12000"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "2"
+                    },
+                    "col2": {
+                      "text": "Carrom"
+                    },
+                    "col3": {
+                      "text": "2"
+                    },
+                    "col4": {
+                      "text": "12000"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "3"
+                    },
+                    "col2": {
+                      "text": "Chess"
+                    },
+                    "col3": {
+                      "text": "2"
+                    },
+                    "col4": {
+                      "text": "12000"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "4"
+                    },
+                    "col2": {
+                      "text": "Table Tennis"
+                    },
+                    "col3": {
+                      "text": "2"
+                    },
+                    "col4": {
+                      "text": "12000"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "image-overlay-content",
+      "data": {
+        "bgImage": "/images/kce/academics/banner.jpg",
+        "title": "Gymnasium",
+        "subtitle": "Rs.4,05947 Lakhs allotted for the department on 2019-2020",
+        "title2": "Fund Allotment",
+        "list": [
+          {
+            "title": "8 Stations Multi Gymnasium"
+          },
+          {
+            "title": "R2023"
+          },
+          {
+            "title": "6 Stations Multi Gymnasium"
+          },
+          {
+            "title": "Adjustable bench press"
+          },
+          {
+            "title": "C I dumbbells"
+          },
+          {
+            "title": "Chromium plates"
+          },
+          {
+            "title": "Barbell rods and plates"
+          }
+        ]
+      }
+    },
+    {
+      "type": "split-image-content",
+      "data": {
+        "sectionbg": "section-bg3",
+        "image": "/images/banner/language-club.png",
+        "content": [
+          {
+            "type": "title",
+            "mainTi": "Department Activities"
+          },
+          {
+            "type": "title",
+            "title": "Practice Time"
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              "Games Daily Practice – Morning – 06.30 – 07.30 & Evening – 04.45 – 07.00 Gym Activities Morning -05.30 – 07.30 & Evening – 04.45- 07.00"
+            ]
+          },
+          {
+            "type": "title",
+            "title": "Participation in the Extramural Competition"
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              "Students are encouraged to participation in Inter- College and other tournaments and win laurels. The outstanding sports persons are also permitted to take part in the All India Inter University, State and National Championship. Special coaching camps are organized for Football, Track and Field events, Table Tennis, Basket Ball, Ball Badminton coaching are also given by experts every year."
+            ]
+          },
+          {
+            "type": "title",
+            "title": "Intramural Competitions and College Annual Sports Meet"
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              "The organizing committee included the college team captains and sports representatives of various departments formed for the successful conduct of all the programmers of the department. Intramural competitions both Indoor and Outdoor games and annual sports meet for teaching staff are conducted; cups medals and certificates are awarded to the winners. Championship shields are awarded for various disciplines. Mementos are also awarded to TIES medalists and outstanding State & National level players."
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

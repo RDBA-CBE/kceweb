@@ -1,0 +1,531 @@
+{
+  "banner": {
+    "bannerImg": "/images/kce/banner_computer_technology.jpg",
+    "title": "Karpagam Information & Admission Center’s Contact Details",
+    "breadcrumb": []
+  },
+  "sections": [
+    {
+      "type": "key-value-cards",
+      "data": {
+        "sectionbg": "section-bg1",
+        "title": "",
+        "not_link":true,
+        "content": [
+          {
+            "details": [
+              {
+                "label": "District",
+                "value": "COIMBATORE"
+              },
+              {
+                "label": "Address",
+                "value": "SIDCO – Coimbatore<br>K 5/302E, SIDCO Industrial Estate,<br>Pollachi Main Road,<br>Coimbatore"
+              },
+              {
+                "label": "Contact Number",
+                "value": "+91 8220333850 / 8220333750 / 8220333620 / 9150041886"
+              }
+            ]
+          },
+          {
+            "details": [
+              {
+                "label": "District",
+                "value": "METTUPALAYAM"
+              },
+              {
+                "label": "Contact Number",
+                "value": "+91 8220333750"
+              }
+            ]
+          },
+          {
+            "details": [
+              {
+                "label": "District",
+                "value": "SALEM"
+              },
+              {
+                "label": "Address",
+                "value": "Shop : 4, Venkatathiri Nilayam, Deutch Bank Complex,<br>Yercaud Main Road, Near Modern Theatre,<br>Kannakurichi Post, Salem 08."
+              },
+              {
+                "label": "Contact Number",
+                "value": "+91 8220333850 / 8220333750"
+              }
+            ]
+          },
+          {
+            "details": [
+              {
+                "label": "District",
+                "value": "DHARMAPURI"
+              },
+              {
+                "label": "Contact Number",
+                "value": "+91 8220333850 / 8220333750"
+              }
+            ]
+          },
+          {
+            "details": [
+              {
+                "label": "District",
+                "value": "KRISHNAGIRI"
+              },
+              {
+                "label": "Contact Number",
+                "value": "+91 8220333750 / 8220333850"
+              }
+            ]
+          },
+          {
+            "details": [
+              {
+                "label": "District",
+                "value": "HOSUR"
+              },
+              {
+                "label": "Address",
+                "value": "No 83, Second Floor, Yasodha Complex,<br>Bangalore By Pass Road,<br>Opp to Bus Stand, Hosur-635109."
+              },
+              {
+                "label": "Contact Number",
+                "value": "+91 8220333750 / 8220333850"
+              }
+            ]
+          },
+          {
+            "details": [
+              {
+                "label": "District",
+                "value": "TIRUPPUR"
+              },
+              {
+                "label": "Contact Number",
+                "value": "+91 8220333790 / 8220333850 / 9384049306"
+              }
+            ]
+          },
+          {
+            "details": [
+              {
+                "label": "District",
+                "value": "PALLADAM"
+              },
+              {
+                "label": "Address",
+                "value": "27-PKA Complex, Anngalamman Temple Opp,<br>Palladam."
+              },
+              {
+                "label": "Contact Number",
+                "value": "+91 7373000133"
+              }
+            ]
+          },
+          {
+            "details": [
+              {
+                "label": "District",
+                "value": "POLLACHI"
+              },
+              {
+                "label": "Address",
+                "value": "ATC Tutorials, 2nd Floor,<br>KT Complex, New Scheme Road, Pollachi."
+              },
+              {
+                "label": "Contact Number",
+                "value": "+91 7373001555 / 9384049306"
+              }
+            ]
+          },
+          {
+            "details": [
+              {
+                "label": "District",
+                "value": "UDUMALPET"
+              },
+              {
+                "label": "Address",
+                "value": "2nd floor, CRK Kalpa vriksham Complex (UKP Complex),<br>Palani Main Road,<br>Opp. to Bus stand, Udumalpet – 642128."
+              },
+              {
+                "label": "Contact Number",
+                "value": "+91 9384049306"
+              }
+            ]
+          },
+          {
+            "details": [
+              {
+                "label": "District",
+                "value": "DHARAPURAM"
+              },
+              {
+                "label": "Address",
+                "value": "RR Complex, First floor,<br>Opp. to RKS TVS, Pollachi Road,<br>Dharapuram – 638656."
+              },
+              {
+                "label": "Contact Number",
+                "value": "+91 7373000140 / 9384049306"
+              }
+            ]
+          },
+          {
+            "details": [
+              {
+                "label": "District",
+                "value": "DINDIGUL"
+              },
+              {
+                "label": "Contact Number",
+                "value": "+91 9384049306 / 9150041886"
+              }
+            ]
+          },
+          {
+            "details": [
+              {
+                "label": "District",
+                "value": "PALANI"
+              },
+              {
+                "label": "Contact Number",
+                "value": "+91 9384049306 / 9150041886"
+              }
+            ]
+          },
+          {
+            "details": [
+              {
+                "label": "District",
+                "value": "NAMAKKAL"
+              },
+              {
+                "label": "Address",
+                "value": "Ground Floor, Mugilan Complex,<br>Opp To Amma Unavagam,<br>Trichy Road, Namakkal."
+              },
+              {
+                "label": "Contact Number",
+                "value": "+91 8220333850 / 8220333620"
+              }
+            ]
+          },
+          {
+            "details": [
+              {
+                "label": "District",
+                "value": "KARUR"
+              },
+              {
+                "label": "Contact Number",
+                "value": "+91 8220333750 / 8220333790"
+              }
+            ]
+          },
+          {
+            "details": [
+              {
+                "label": "District",
+                "value": "ERODE"
+              },
+              {
+                "label": "Contact Number",
+                "value": "+91 8220333790"
+              }
+            ]
+          },
+          {
+            "details": [
+              {
+                "label": "District",
+                "value": "SATHY"
+              },
+              {
+                "label": "Contact Number",
+                "value": "+91 8220333790"
+              }
+            ]
+          },
+          {
+            "details": [
+              {
+                "label": "District",
+                "value": "GOBI"
+              },
+              {
+                "label": "Contact Number",
+                "value": "+91 8220333790"
+              }
+            ]
+          },
+          {
+            "details": [
+              {
+                "label": "District",
+                "value": "KALLAKURICHI"
+              },
+              {
+                "label": "Contact Number",
+                "value": "+91 8220333850"
+              }
+            ]
+          },
+          {
+            "details": [
+              {
+                "label": "District",
+                "value": "TIRUVANNAMALAI"
+              },
+              {
+                "label": "Contact Number",
+                "value": "+91 8220333850"
+              }
+            ]
+          },
+          {
+            "details": [
+              {
+                "label": "District",
+                "value": "NILGIRIS"
+              },
+              {
+                "label": "Contact Number",
+                "value": "+91 8220333850 / 8428211211 / 9150041886"
+              }
+            ]
+          },
+          {
+            "details": [
+              {
+                "label": "District",
+                "value": "THENI"
+              },
+              {
+                "label": "Address",
+                "value": "Door No 847C, 1st Floor,<br>Near Nehru Statue,<br>Madurai Road, Theni – 625531"
+              },
+              {
+                "label": "Contact Number",
+                "value": "+91 8220333750"
+              }
+            ]
+          },
+          {
+            "details": [
+              {
+                "label": "District",
+                "value": "TIRUCHIRAPPALLI"
+              },
+              {
+                "label": "Contact Number",
+                "value": "+91 8220333620"
+              }
+            ]
+          },
+          {
+            "details": [
+              {
+                "label": "District",
+                "value": "PERAMBALUR"
+              },
+              {
+                "label": "Contact Number",
+                "value": "+91 8220333620 / 9384049306"
+              }
+            ]
+          },
+          {
+            "details": [
+              {
+                "label": "District",
+                "value": "THANJAVUR"
+              },
+              {
+                "label": "Contact Number",
+                "value": "+91 8220333750 / 8220333620"
+              }
+            ]
+          },
+          {
+            "details": [
+              {
+                "label": "District",
+                "value": "MADURAI"
+              },
+              {
+                "label": "Contact Number",
+                "value": "+91 8220333620"
+              }
+            ]
+          },
+          {
+            "details": [
+              {
+                "label": "District",
+                "value": "TIRUNELVELI"
+              },
+              {
+                "label": "Contact Number",
+                "value": "+91 8220333750 / 8220559423"
+              }
+            ]
+          },
+          {
+            "details": [
+              {
+                "label": "District",
+                "value": "SIVAGANGA"
+              },
+              {
+                "label": "Contact Number",
+                "value": "+91 8220333620"
+              }
+            ]
+          },
+          {
+            "details": [
+              {
+                "label": "District",
+                "value": "TENKASI"
+              },
+              {
+                "label": "Contact Number",
+                "value": "+91 8220333750 / 8220559423"
+              }
+            ]
+          },
+          {
+            "details": [
+              {
+                "label": "District",
+                "value": "RAMANATHAPURAM"
+              },
+              {
+                "label": "Contact Number",
+                "value": "+91 8220333620"
+              }
+            ]
+          },
+          {
+            "details": [
+              {
+                "label": "District",
+                "value": "TUTICORIN"
+              },
+              {
+                "label": "Contact Number",
+                "value": "+91 8220559423"
+              }
+            ]
+          },
+          {
+            "details": [
+              {
+                "label": "District",
+                "value": "VIRUDHUNAGAR"
+              },
+              {
+                "label": "Contact Number",
+                "value": "+91 8220333750"
+              }
+            ]
+          },
+          {
+            "details": [
+              {
+                "label": "District",
+                "value": "CUDDALORE"
+              },
+              {
+                "label": "Contact Number",
+                "value": "+91 8220333850"
+              }
+            ]
+          },
+          {
+            "details": [
+              {
+                "label": "District",
+                "value": "KANYAKUMARI"
+              },
+              {
+                "label": "Contact Number",
+                "value": "+91 9150041886"
+              }
+            ]
+          },
+          {
+            "details": [
+              {
+                "label": "District",
+                "value": "PUDUKKOTTAI"
+              },
+              {
+                "label": "Contact Number",
+                "value": "+91 8220333620"
+              }
+            ]
+          },
+          {
+            "details": [
+              {
+                "label": "District",
+                "value": "TIRUPATHUR"
+              },
+              {
+                "label": "Contact Number",
+                "value": "+91 9384049306"
+              }
+            ]
+          },
+          {
+            "details": [
+              {
+                "label": "District",
+                "value": "ARIYALUR"
+              },
+              {
+                "label": "Contact Number",
+                "value": "+91 9791593131"
+              }
+            ]
+          },
+          {
+            "details": [
+              {
+                "label": "District",
+                "value": "PALAKKAD"
+              },
+              {
+                "label": "Address",
+                "value": "21/767, Opp TKM Service Station,<br>Coimbatore Road, Kalmandapam Jn,<br>Palakkad."
+              },
+              {
+                "label": "Contact Number",
+                "value": "+91 7373007725"
+              }
+            ]
+          },
+          {
+            "details": [
+              {
+                "label": "District",
+                "value": "KARAIKUDI"
+              },
+              {
+                "label": "Address",
+                "value": "39, College Road, Annai Complex,<br>Opp. to Sekkalai Bakery,<br>Karaikudi – 630002."
+              },
+              {
+                "label": "Contact Number",
+                "value": "+91 9894301801 / 9791704485"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "banner": {
+    "bannerImg": "/images/kce/banner_computer_technology.jpg",
+    "title": "E-Facility",
+    "breadcrumb": [
+      {
+        "label": "E-Facility"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "video-card",
+      "data": {
+        "section-bg": "section-bg1 mt-0",
+        "secTitle": "Online feedback",
+        "items": [
+          {
+            "id": 1,
+            "type": "resource",
+            "label": "Feedback 1",
+            "url": "http://121.200.48.27:8080/feedback1/login.php"
+          },
+          {
+            "id": 2,
+            "type": "resource",
+            "label": "Feedback 2",
+            "url": "http://121.200.48.27:8080/feedback2/login.php",
+            "urlText": "View"
+          },
+          {
+            "id": 3,
+            "type": "resource",
+            "label": "Course End Survey",
+            "url": "http://121.200.48.27:8080/ces/login.php",
+            "urlText": "View"
+          }
+        ]
+      }
+    },
+    {
+      "type": "link-card",
+      "data": {
+        "sectionbg": "section-bg1 mt-1 mb-5",
+        "title": "",
+        "content": [
+          {
+            "id": 1,
+            "title": "Online payment",
+            "url": "https://admissions.kifees.com/",
+            "urlText": "View "
+          },
+          {
+            "id": 1,
+            "title": "KCE-Help Desk",
+            "url": "https://drive.google.com/drive/folders/1ooIcWCkks3XBnaLNZ3gugEjpfeRPVh8J",
+            "urlText": "View "
+          }
+        ]
+      }
+    }
+  ]
+}

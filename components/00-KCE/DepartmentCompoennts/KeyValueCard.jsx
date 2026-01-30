@@ -1,35 +1,38 @@
-"use client";
-import React from "react";
+'use client'
+import React from 'react'
 
 const KeyValueCard = ({ data }) => {
   return (
-    <section
-     className={data?.sectionbg || "section-bg1"}
-    >
+    <section className={data?.sectionbg || 'section-bg1'}>
       <div className={`startup-section section-wid`}>
-        {data?.title && <h2 className="section-ti-sec">{data.title}</h2>}
+        {data?.title && <h2 className='section-ti-sec'>{data.title}</h2>}
 
-        <div className="startup-grid pt-4">
+        <div className='startup-grid pt-4'>
           {data?.content?.map((item, idx) => (
-            <div className="startup-card" key={idx}>
+            <div className='startup-card' key={idx}>
               {/* Media */}
-              {item?.media?.type === "image" && (
-                <div className="startup-logo">
-                  <img src={item.media.src} alt={item.media.alt || "media"} />
+              {item?.media?.type === 'image' && (
+                <div className='startup-logo'>
+                  <img src={item.media.src} alt={item.media.alt || 'media'} />
                 </div>
               )}
 
               {/* Details */}
-              <div className="startup-content">
+              <div className='startup-content'>
                 {item?.details?.map((detail, i) => (
-                  <div className="startup-row" key={i}>
+                  <div className='startup-row' key={i}>
                     <span>{detail.label}</span>
                     <p>
-                      :{" "}
+                      :{' '}
                       {detail.url ? (
-                        <a href={detail.url} target="_blank" rel="noreferrer">
+                        <a href={detail.url} target='_blank' rel='noreferrer'>
                           {detail.value || detail.url}
                         </a>
+                      ) : data?.not_link ? (
+                        <span
+                          className='fw-normal'
+                          dangerouslySetInnerHTML={{ __html: detail.value }}
+                        />
                       ) : (
                         detail.value
                       )}
@@ -42,7 +45,7 @@ const KeyValueCard = ({ data }) => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default KeyValueCard;
+export default KeyValueCard

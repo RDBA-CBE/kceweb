@@ -37,19 +37,23 @@ const Footer = () => {
       { label: "Cafeteria", href: "/KCE/infrastructure/cafeteria/" },
       { label: "Programmes Offered", href: "/KCE/courses-offered/" },
       { label: "Academic Calendar", href: "/KCE//academic-calendar/" },
-      { label: "Sports Facilities", href: "#/KCE/sports-facilities/" },
+      { label: "Sports Facilities", href: "/KCE/sports-facilities/" },
       { label: "Auditorium", href: "/KCE/auditorium/" },
+      { label: "E-FACILITY", href: "/KCE/e-facility/" },
+
+
+      { label: "KCE-Help Desk", href: "https://drive.google.com/drive/folders/1ooIcWCkks3XBnaLNZ3gugEjpfeRPVh8J" ,target:"_blank"},
+      { label: "Online Feedback 1", href: "http://121.200.48.27:8080/feedback1/login.php" ,target:"_blank"},
+      { label: "Online Feedback 2", href: "http://121.200.48.27:8080/feedback2/login.php" ,target:"_blank"},
+      { label: "Course End Survey", href: "http://121.200.48.27:8080/ces/login.php" ,target:"_blank"},
+      { label: "Online payment", href: "https://admissions.kifees.com/" ,target:"_blank"},
     ],
   };
 
   const E_FACILITY = {
     title: "E-Facility",
     links: [
-      { label: "KCE-Help Desk", href: "https://drive.google.com/drive/folders/1ooIcWCkks3XBnaLNZ3gugEjpfeRPVh8J" ,target:"_blank"},
-      { label: "Online Feedback 1", href: "http://121.200.48.27:8080/feedback1/login.php" ,target:"_blank"},
-      { label: "Online Feedback 2", href: "http://121.200.48.27:8080/feedback2/login.php" ,target:"_blank"},
-      { label: "Course End Survey", href: "http://121.200.48.27:8080/ces/login.php" ,target:"_blank"},
-      { label: "Online payment", href: "https://admissions.kifees.com/" ,target:"_blank"},
+      
     ],
   };
 
@@ -79,9 +83,9 @@ const Footer = () => {
       {/* Column 2: Information About & E-Facility */}
       <div className="kce-ftr__col">
         <FooterColumn section={INFO_ABOUT} />
-        <div className="mt-8">
+        {/* <div className="mt-8">
           <FooterColumn section={E_FACILITY} />
-        </div>
+        </div> */}
       </div>
 
       {/* Column 3: Information for */}

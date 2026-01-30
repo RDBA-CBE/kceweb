@@ -1,0 +1,51 @@
+{
+  "banner": {
+    "bannerImg": "/images/kce/banner_computer_technology.jpg",
+    "title": "Careers",
+    "breadcrumb": [
+   
+    ]
+  },
+  "sections": [
+   
+    {
+      "type":"full-width-image",
+      "data":{
+      "title":"Current Vacancies",
+
+        "sectionbg":"section-bg1  mb-1" ,
+        "src":"https://kce.ac.in/new/wp-content/uploads/2023/11/KCE-WANTED-AD-14-x-12cm.jpg",
+        "alt":"placement-kce-Image-",
+        "height":"auto"
+      }
+    },
+    {
+      "type": "image-overlay-content",
+      "data": {
+        "bgImage": "/images/kce/academics/banner.jpg",
+
+        "title": "Senior Professors, Professors, Associate Professors and Assistant Professors in the Departments of",
+        "subtitle": "Salary : As per AICTE norms with DA & AGP",
+        "button":{
+          "name":"Apply Online",
+          "url":"https://docs.google.com/forms/d/e/1FAIpQLScJ-3QHT5JV8YPNmh3pZKdI8l77XMAX5ST8FsMOkEGbOVXPaA/viewform"
+        },
+        "list": [
+          { "title": "Artificial Intelligence and Data Science" },
+          { "title": "Civil Engineering" },
+          { "title": "Computer Science & Engineering" },
+          { "title": "Computer Science and Engineering (Cyber Security)" },
+          { "title": "Electronics & Communication Engineering" },
+          { "title": "Electrical & Electronics Engineering" },
+          { "title": "Information Technology" },
+          { "title": "Mechanical Engineering" },
+          { "title": "Mechatronics" },
+          { "title": "Chemistry" },
+          { "title": "English" },
+          { "title": "Mathematics" },
+          { "title": "Physics" }
+        ]
+      }
+    }
+  ]
+}
