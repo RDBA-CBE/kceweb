@@ -17,7 +17,7 @@ const LinkCard = ({ data }) => {
 
                   <a
                     href={item.url}
-                    target="_blank"
+                    target={item?.target || "_blank"}
                     rel="noopener noreferrer"
                     className="eres-card-footer"
                   >

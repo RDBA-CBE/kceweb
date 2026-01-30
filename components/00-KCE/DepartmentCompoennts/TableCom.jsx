@@ -5,55 +5,61 @@ import React, { useState } from "react";
 
 const TableCom = ({ data }) => {
   return (
-    <div className="rbt-dashboard-content bg-color-white tab-in">
-      <div>
-        {/* Title */}
-        {data?.secTitle && (
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="section-title">
-                <h2
-                  className="section-ti"
-                  dangerouslySetInnerHTML={{ __html: data.secTitle }}
-                />
+    <section className={data?.sectionbg || "section-bg1"}>
+      <div className="section-wid">
+        <div className="rbt-dashboard-content bg-color-white tab-in">
+          <div>
+            {/* Title */}
+            {data?.secTitle && (
+              <div className="row">
+                <div className="col-lg-12">
+                  <div className="section-title">
+                    <h2
+                      className="section-ti"
+                      dangerouslySetInnerHTML={{ __html: data.secTitle }}
+                    />
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-        )}
+            )}
 
-        {data?.subTitle && (
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="section-title">
-                <h2
-                  className="sub-ti text-black"
-                  dangerouslySetInnerHTML={{ __html: data.subTitle }}
-                />
+            {data?.subTitle && (
+              <div className="row">
+                <div className="col-lg-12">
+                  <div className="section-title">
+                    <h2
+                      className="sub-ti text-black"
+                      dangerouslySetInnerHTML={{ __html: data.subTitle }}
+                    />
+                  </div>
+                </div>
               </div>
-            </div>
+            )}
+
+            {data?.desc && <p>{data.desc}</p>}
+
+            {/* TABLES */}
+            {data?.table?.map((item, index) => (
+              <div key={index} className="row gy-5 my-4">
+                <div className="col-lg-12 mt-0">
+                  {item?.title && <h3 className="sub-ti mb-5">{item.title}</h3>}
+
+                  {item?.content?.map((table, i) => (
+                    <PaginatedTable
+                      key={i}
+                      table={table}
+                      rowsPerPage={table.rowsPerPage}
+                    />
+                  ))}
+                </div>
+              </div>
+            ))}
+
+            {data?.desc1 && <p>{data.desc1}</p>}
           </div>
-        )}
-
-        {data?.desc && <p>{data.desc}</p>}
-
-        {/* TABLES */}
-        {data?.table?.map((item, index) => (
-          <div key={index} className="row gy-5 my-4">
-            <div className="col-lg-12 mt-0">
-              {item?.title && <h3 className="sub-ti mb-5">{item.title}</h3>}
-
-              {item?.content?.map((table, i) => (
-                <PaginatedTable
-                  key={i}
-                  table={table}
-                  rowsPerPage={table.rowsPerPage}
-                />
-              ))}
-            </div>
-          </div>
-        ))}
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 
@@ -70,10 +76,7 @@ const PaginatedTable = ({ table, rowsPerPage = 10 }) => {
   const totalPages = Math.ceil(totalRows / rowsPerPage);
 
   const startIndex = (currentPage - 1) * rowsPerPage;
-  const currentRows = table.data.slice(
-    startIndex,
-    startIndex + rowsPerPage
-  );
+  const currentRows = table.data.slice(startIndex, startIndex + rowsPerPage);
 
   /* ---------- PAGE NUMBERS ---------- */
   const renderPageNumbers = () => {
@@ -163,9 +166,7 @@ const PaginatedTable = ({ table, rowsPerPage = 10 }) => {
                           {cell.list.map((v, i) => (
                             <li key={i}>
                               <i className="feather-check"></i>
-                              <span
-                                dangerouslySetInnerHTML={{ __html: v }}
-                              />
+                              <span dangerouslySetInnerHTML={{ __html: v }} />
                             </li>
                           ))}
                         </ul>

@@ -108,13 +108,7 @@ const RenderSection = ({ section, index, renderSection }) => {
       return <SplitImageContent key={index} data={section.data} />;
 
     case "table":
-      return (
-        <section className="section-bg1">
-          <div className="section-wid">
-            <TableCom key={index} data={section.data} />
-          </div>
-        </section>
-      );
+      return <TableCom key={index} data={section.data} />;
 
     case "pill-list":
       return (

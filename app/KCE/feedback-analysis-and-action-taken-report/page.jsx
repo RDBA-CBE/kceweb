@@ -1,4 +1,4 @@
-import IQACPage from '@/components/00-KCE/DirectComponents/IQACPage';
+import FeedBackPage from '@/components/00-KCE/DirectComponents/FeedBackPage';
 import React from 'react'
 
 export const metadata = {
@@ -9,7 +9,7 @@ export const metadata = {
 
 const page = () => {
   return (
-    <IQACPage/>
+    <FeedBackPage/>
   )
 }
 
