@@ -1,12 +1,10 @@
-
-
 "use client";
 import React from "react";
-import data from "@/JSON/statutory.json";
-import InnerBanner from "@/components/00-KCE/common/InnerBanner";
-import RenderSection from "@/components/00-KCE/RenderComponent/RenderSection";
+import data from "@/JSON/mandary_disclosure.json";
+import InnerBanner from "../common/InnerBanner";
+import RenderSection from "../RenderComponent/RenderSection";
 
-export default function StatutoryCommitteespage() {
+export default function MandatoryDisclosurePage() {
   const pageData = data;
   const renderSectionWrapper = (section, index) => {
     return (
@@ -28,4 +26,3 @@ export default function StatutoryCommitteespage() {
     </>
   );
 }
-

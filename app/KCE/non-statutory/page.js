@@ -1,3 +1,4 @@
+import NonStatutoryCommitteespage from '@/components/00-Kahe/DirectPageComponent/NonStatutoryCommitteespage';
 import StatutoryCommitteespage from '@/components/00-Kahe/DirectPageComponent/StatutoryCommitteespage';
 import LibraryPage from '@/components/00-KCE/Campus/LibraryPage';
 import MandatoryDisclosurePage from '@/components/00-KCE/DirectComponents/MandatoryDisclosure';
@@ -11,7 +12,7 @@ export const metadata = {
 
 const page = () => {
   return (
-    <StatutoryCommitteespage/>
+    <NonStatutoryCommitteespage/>
   )
 }
 

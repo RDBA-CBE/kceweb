@@ -1,0 +1,63 @@
+{
+  "banner": {
+    "bannerImg": "/images/kce/banner_computer_technology.jpg",
+    "title": "Mandatory Disclosure",
+    "breadcrumb": [
+     
+
+      {
+        "label": "Mandatory Disclosure"
+      }
+    ]
+  },
+  "sections": [
+   
+
+    {
+      "type": "link-card",
+      "data": {
+        "sectionbg": " section-bg1",
+        "title": "Mandatory Disclosure",
+        "content": [
+          {
+            "id": 1,
+            "title": "Deficiency Report 2025-26",
+            "url": "https://kce.ac.in/new/wp-content/uploads/2025/06/Deficiency-Report-2025-26.pdf",
+            "urlText": "View "
+          },
+          {
+            "id": 2,
+            "title": "Part A 2025-26",
+            "url": "https://kce.ac.in/new/wp-content/uploads/2025/06/Existing-Institution-Application-Report-Part1-2025-2026.pdf",
+            "urlText": "View "
+          },
+          {
+            "id": 3,
+            "title": "Part B 2025-26",
+            "url": "https://kce.ac.in/new/wp-content/uploads/2025/06/Existing-Institution-Application-Report-Part2-2025-26.pdf",
+            "urlText": "View "
+          },
+          {
+            "id": 4,
+            "title": "Deficiency Report 2024-25",
+            "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/Deficiency-Report-2024-25.pdf",
+            "urlText": "View "
+          },
+          {
+            "id": 5,
+            "title": "Part A 2024-25",
+            "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/Part-A-2024-25.pdf",
+            "urlText": "View "
+          },
+          {
+            "id": 6,
+            "title": "Part B 2024-25",
+            "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/Part-B-2024-25.pdf",
+            "urlText": "View "
+          }
+        ]
+        
+      }
+    }
+  ]
+}

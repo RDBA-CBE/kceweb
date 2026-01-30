@@ -1,0 +1,34 @@
+{
+  "banner": {
+    "bannerImg": "/images/kce/banner_computer_technology.jpg",
+    "title": "Non-Statutory",
+    "breadcrumb": [
+     
+
+      {
+        "label": "Non-Statutory"
+      }
+    ]
+  },
+  "sections": [
+   
+
+    {
+      "type": "link-card",
+      "data": {
+        "sectionbg": " section-bg1",
+        "title": "Non-Statutory",
+        "content": [
+          {
+            "id": 1,
+            "title": "Non-statutory committee",
+            "url": "https://kce.ac.in/new/wp-content/uploads/2025/07/Non-Statutory-Committee.pdf",
+            "urlText": "View "
+          }
+        ]
+        
+        
+      }
+    }
+  ]
+}
