@@ -20,12 +20,10 @@
           "body": [
             {
               "collapse": "collapseOne2",
-
               "expanded": true,
               "collapsed": true,
               "show": true,
               "accordionTitle": "Alumni Department of Civil Engineering",
-
               "cardSlider": [
                 {
                   "slider": [
@@ -34,6 +32,32 @@
                       "position": "Junior Engineer.",
                       "company": "@ CPWD",
                       "desc": "<p class='clr-ti'>My College days are unforgettable and in fact those days are the most happiest & fruitful days in my life. <p/> I proudly feel that I cherished every moments of my college.Being a”Kceian” make me feel proud. My experience in KCE was just amazing. I got infinite love & lessons from my teachers, there teachers made me do “Work Hard” for the way to success. Miss those days of KCE. Just want to thank to the wonderful faculty of KCE…. <p class='clr-ti'>I am proud to be a KCEian… <p/>"
+                    },
+                    {
+                      "title": "Saravanan S,",
+                      "position": "Project Engineer",
+                      "company": "RGN Engineering & Constructions Pvt Ltd, Bangalore",
+                      "desc": "<p class='clr-ti'>Firstly, Karpagam College of Engineering is not a college, it is a brand. It is unique in its field. Discipline is like in the air of its environment. I am so grateful to be a part of this college.</p><p>There are so many opportunities to develop one’s personality in any field like cultural, literature and many more. It was a very precious and golden phase of my life. The entire faculty and other members of this institution are very cooperative. I got a lot of love and support from my teachers and colleagues and it made my 4 years <code class='clr-ti'>memorable for me.</code></p>"
+                    },
+                    {
+                      "avatar": "https://kce.ac.in/new/wp-content/uploads/2020/03/saravanan-civil-alumni-1-86x86.png",
+                      "title": "K. Saravanan,",
+                      "position": "Entrepreneur",
+                      "company": "Balaji Construction",
+                      "desc": "<p class='clr-ti'>Karpagam College of Engineering is much beyond just an “Institution”… It actually denotes a “Culture”… Culture of excellence, empowerment, and enrichment.</p><p>Being a part of KCE, I felt blessed. The college has molded my personality and clarified my vision of the future. That day is not far when people will recognize me with the name of KCE and I am very grateful to the Institute for providing guidelines and motivation to inspire me to achieve my goals.</p>"
+                    },
+                    {
+                      "title": "Ms. Priya A",
+                      "position": "Engineer",
+                      "company": "Cost Audit, Sobha Limited, Bangalore",
+                      "batch": "2014–2018",
+                      "desc": "<p class='clr-ti'>From the moment I walked towards the entrance door, there were a couple of mentors who guided me to the conference hall for ‘Freshers’ day celebration’. Initially I was a bit afraid and unsure about the course which I had opted, since my choice was driven by instinct.</p>A question was pondering my mind saying,“Do I have the potential in me?”&“Is my instinct right?”. I still remember those Karpagam Days which in stilled me the knowledge in academic field as well as in co-curricular activity.I would like to immensely thank my professors and mentors who supported me both in Academics and Projects.There was a substantial support from the department to in tern on various on-site trainings which gave each one of us an opportunity to know and understand the practicalities of Civil Engineering stream. One of the best moments during the college life was the time I spent with friends and acquaintances as if we were peas in a pod that every hosteler would enjoy with pop&gaiety.As in autumn,the little leaves fall gently and pave the way like a carpet for the drizzle to shower on them and were the most expected days to fall for.I created an atmosphere of forming whom/what I wanted to be! I know the answer to the one,recalling the eloquent voice which called out aloud and said,<p class='clr-ti'>This is to certify that Ms. Priya A of Civil Engineering has been awarded ‘The Best Outgoing Student’ of the college (2017–2018) with the Smt. Subbu Lakshmi Karunanidhi Award.<p>This college taught me how to stand on own with self-confidence and prowess to prove one self in the corporate area. My profound gratitude to the Placement department which supported & thrived me for a search of the best place to put forward.I acknowledge the faith in me and contented that I answered to the questions of my instinct. I wish the budding batches will creed the pinnacles of their success!</p><p><p class='clr-ti'>You should not lose what you got & you should also not lose what you get!!!</p></p>"
+                    },
+                    {
+                      "title": "Shankar P,",
+                      "position": "Civil Engineering Batch: 2014–2018",
+                      "company": "",
+                      "desc": "<p class='clr-ti'>Hi, I am studying M.Tech in IIT Palakkad. I am very glad to say that I am an Alumni of Karpagam College of Engineering. I always feel that the four years which I spent here are the most memorable days of my life.</p><p>Those days helped me to improve myself personally and technically. The successes and failures that I faced here are always there to remind me about the college. The support given by the staff were really helpful. I would like to see that this institute keeps encouraging young talents to achieve their dreams.</p><p class='clr-ti'>Always spend some quality time on the things you love the most. The best way to achieve your dreams is to start working towards it. Do it now or never!!!</p><p class='clr-ti'></p>"
                     }
                   ]
                 }
@@ -44,22 +68,76 @@
               "expanded": false,
               "collapsed": false,
               "show": false,
-              "accordionTitle": "Alumni Department of Electrical & Electronics Engineering"
+              "accordionTitle": "Alumni Department of Electrical & Electronics Engineering",
+              "cardSlider": [
+                {
+                  "slider": [
+                    {
+                      "title": "Arun ",
+                      "position": "EEE -2013",
+                      "desc": "<p class='clr-ti'> Hi I am Arun,I am working as Senior Software Engineer in Robert Bosch Engineering and Business Solutions. I completed my Electrical and the right path to success at the right time is really very important and for that way I had selected KCE.</p><p>The friendly environment, the systematic approach towards imparting education at KCE made me a competent individual. The wide range of activities – both curricular and co-curricular – and the support from KCE is really very helpful for my future. The past years in KCE passed by in swift immersing the students with knowledge, patience, and on top of all management abilities necessary to able to compete in the real world of engineering. It gave me a platform to push myself and to understand the potentials that was hidden inside me. Those past four years not only helped me broaden my horizon on my technical knowledge but also helped me discover more about myself.I am beyond blessed to have had the college experience that I had. I love that I could come back anytime and be welcomed with open arms.</p><p class='clr-ti'>I look forward to coming back and giving back to the college that gave me so much. Thank you for everything.</p>",
+                      "company": ""
+                    },
+                    {
+                      "title": "Jaffer Ali. K",
+                      "position": "Test Engineer- Cognizant ,CBE.Managing Director,",
+                      "company": "Grandz Weddings &amp; Events planner",
+                      "desc": "<p class='clr-ti'> Jaffer (Alumni) - Best placement engineering colleges in Coimbatore Hi I am Jaffer Ali,I am currently with Cognizant as a Test Engineer and also I am proud to say that I am a young entrepreneur. I completed my BE in EEE from our Karpagam college of Engineering. in the year 2017.</p><p>Dreams and aspirations change with time and that is a sign of progress. I was made to contribute to many events during my college days and this valuable experience helped me in successfully handling 150+ events as an entrepreneur. Opportunity as a Test Engineer with Cognizant happened through on Campus. I don’t think many of the colleges will provide such opportunities which bring out our interests/talents. Our beloved staffs played a vital role in shaping me up to be the efficient me that I am today.<p class='clr-ti'>Be that champion you could be proud of in the future. Talent has no country, no boundaries, it is respected worldwide.Get started and do not STOP till you achieve what you started for. World is all yours!</p><p class='clr-ti'>Work hard until your signature becomes an autograph</p> "
+                    },
+                    {
+                      "avatar": "https://kce.ac.in/new/wp-content/uploads/2020/03/saravanan-civil-alumni-1-86x86.png",
+                      "title": "Mrs. V. THARANI DEVI",
+                      "position": "Senior Software Engineer Torry",
+                      "company": "Harris Integration Solutions",
+                      "desc": "<p class='clr-ti'>Hello, I’m Tharani Devi,I work as a Senior Software Engineer at Torry Harris Integration Solutions in Bangalore. I am happily employed in this wonderful company since 2013 only because of the career planning services of my college, Karpagam College of Engineering.</p><p>I would sincerely express my gratitude to the institution for providing me the best learning environment. Karpagam college of Engineering has most of the finest faculty members, who not only teaches Engineering but also cares for the students to learn something new. It remained more than their duty to monitor individual progress of each students and update improvements to concerned parents. During my four years of study, I learnt and practiced Engineering; I made some very good friends; I began to respect the effort of teachers to enlighten every student. Above all, I became confident and strong woman to face the challenging world. None of which would be possible without the knowledge I experienced from Karpagam College of Engineering.“Learning without fun is no learning at all”. And Karpagam College of Engineering knows that well. The institution provides so much importance to sports as much as to the Education of students. This genuine gesture of college for students made us best players in Tennis, Badminton, Chess, Handball, etc. and simultaneously excel in studies with very good grades. Besides, the Career Planning Services of Karpagam College of Engineering is top-notch. The faculty members tirelessly work with utmost authenticity to ensure a secured future for students. They provide us the necessary training, irrespective of program, year and time. With all its self-development, soft skills, leadership trainings I would always be thankful to Karpagam College for making me a better person.I could proudly and profoundly state Karpagam college of Engineering as “My College” because the college really is a college for students.</p><p class='clr-ti'>Learning Without Fun Is No Learning at all.</p>"
+                    }
+                  ]
+                }
+              ]
             },
             {
               "collapse": "collapseTwo3",
               "expanded": false,
               "collapsed": false,
               "show": false,
-              "accordionTitle": "Alumni Department of Electrical & Electronics Engineering"
-            },
-            {
-              "collapse": "collapseTwo4",
-              "expanded": false,
-              "collapsed": false,
-              "show": false,
-              "accordionTitle": "Alumni Department of Electrical & Electronics Engineering"
-              
+              "accordionTitle": "Alumni Department of Electronics & Instrumentation Engineering",
+              "cardSlider": [
+                {
+                  "slider": [
+                    {
+                      "title": "Mr.Gowtham M",
+                      "company":"Yokogawa India Ltd.",
+                      "position": "DCS System Engineer ",
+                      "desc":"<p class='clr-ti'>Hi, This is Gowtham M, I am currently a DCS system engineer in Yokogawa India Limited., I completed my undergraduate course in our prestigious institution, Karpagam College of Engineering in the department of Electronics and Instrumentation and completed my college life in the year of 2019.<p><p>“Education is a marvellous blessing”, and I am extremely appreciative of the opportunity I have to attend college.I want to start off by thanking my College, Department, teachers, mentors and my fellow batch mates who have put up with me throughout my time at Karpagam College of Engineering, and without all of you, I would not be where I am today. Thank you for believing in me and helping me to discover myself. Thank you for always encouraging me to try my best and for never giving up on me. Over the course of period here, they helped me to shape my career and personal life. This is the best thing that I learned during my college life, “Accept failure as part of the process”, I know everyone has faced some failures and I would ask them to keep working considering this as lessons to achieve their goal and this learning helped to grow me in every aspect of my career and life. I would end up with this quote which suits the best of our ‘College life’ is that phase in one’s life when one learns the most important lessons of life.’ No doubt college life is an ideal part of academic life. Its charms can never fade away.</p><p class='clr-ti'>‘College life’ is that phase in one’s life when one learns the most important lessons of life.’<p>"
+                    },
+                    {
+                      "title": "HARISH CHANDER ,",
+                      "position": "0091 9632 870148 BANGALORE INDIA HARISHCHANDER.RAMESH@GMAIL.COM",
+                      "desc":"<p class='clr-ti'>Hi,I am Harish Chander. I am working as a Prinicipal Data Engineer in BlueJeans Networks, One of the largest Meeting service providing company in the world. Prior to this, I have worked with Fortune 50 companies like Amazon and NTT DATA.</p><p>I completed my Engineering in KCE in the year 2013 from the Department of Electronics and Instrumentation Engineering. With the Able leadership of the Head of the Department over the years and various eminent faculty members, I am confident in saying that they have laid the foundation of my career before even it begun. Their continuous encouragement and opportunities provided helped me and many of us learn leadership skills, troubleshooting ability, Think Big and Never fear to fail attitude. The EIE department was formed during our time and I was fortunate to see how each and every brick of the wall is arranged to build the wall it is now. One thing that I tell my friends / acquaintances if they ask me about the college is that, ‘The Institution and the Students grow together in tandem’. There is always an event for each department in every quarter, be it a symposium, workshop, conference. And I am proud to say that EIE department was one of the Pioneers to initiate and do that continuously year after year.Over the course of 7 years of my professional life, I have come across many of our college alumni doing great and most importantly feel proud about the institution. I attended the Alumni meet last year and was astonished by the fact that people from various walks of life, different verticals of business and geographical horizons have gathered to the event just with one common dimension – ‘KCE ALUMNI’. I seriously hope that this Alumni network Grows bigger and stronger in the future.One thing to the Current students and the future new joiners, KCE may not be the Number 1 Institution in the country.</p><p class='clr-ti'>May not be the best infrastructurally developed college, May not be having hundreds of University toppers, But if you look at the track record, you will notice that we are on the track towards</p>"
+                    },
+                    {
+                      "avatar": "https://kce.ac.in/new/wp-content/uploads/2020/03/saravanan-civil-alumni-1-86x86.png",
+                      "title": "Mr. Manoj Prabhakar ",
+                      "position": "SP Associate, Cognizant.",
+                      "desc":"<p class='clr-ti'>Hi I am Manoj PrabhakarI am currently working as Senior Application Developer in Cognizant Technology Solutions, Chennai.I completed my B.E Electronics and Instrumentation in our Karpagam college of Engineering in the year 2016.</p><p>Let me start by expressing my gratitude towards Karpagam College of Engineering and the Department of Electronics and Instrumentation to lay a very strong foundation for my carrier. Attending College for the first time has been a trying but great experience to me. The way in which I have grown up, mature, and found out who really I am, is something that I couldn’t accomplish without going to college. I am so grateful to be a part of this college. There are so many opportunities to develop one’s personality in any field like, cultural, literature and many more. It was very precious and golden phase of my life. The entire faculty and other members of this institution are very cooperative.It feels great to be taught by amazing teachers who are the best. They always motivated and encouraged me to face the risks and to learn new things. I am and will always be thankful to EIE department for making me a person for what I am today. And also I am very grateful to our college and our department for providing guidelines and motivation to inspire me to achieve my goals. I will just end up with this quote which is very suitable for our college</p><p class='clr-ti'>“The way to develop the best that is in a person is by appreciation and encouragement”</p>"
+                    },
+                    {
+                      "avatar": "https://kce.ac.in/new/wp-content/uploads/2020/03/saravanan-civil-alumni-1-86x86.png",
+                      "title": "Ramalakshmi (Class of 2015 batch)",
+                      "company":"Sopra Steria",
+                      "position": "Senior Application Developer,",
+                      "desc":"<p class='clr-ti'>KCE developed me as a professional and passionate person in all aspects of my life. It gave me an extraordinary support in getting placed and has given me a strong future.</p><p>My teachers and friends have created a ‘New being of Rama’ who is a go-getter in her life. Hearty gratitude and thank you for all your contribution and support.</p>"
+                    },
+                    {
+                      "avatar": "https://kce.ac.in/new/wp-content/uploads/2020/03/saravanan-civil-alumni-1-86x86.png",
+                      "title": "Mr K Venugopal (Class of 2016 Batch)",
+                      "company":" BNY Mellon Technology",
+                      "position": "Senior Application Developer,",
+                      "desc":"<p class='clr-ti'>I had an excellent opportunity to connect and collaborate with corporate professionals which eventually helped me to become an industry ready engineer.</p><p>The kind of training I had for placements has fostered my communication as well as technical skills. Having exposed to tough challenges in college and the way they nurtured me, I am able to compete globally.</p>"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
