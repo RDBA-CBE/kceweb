@@ -1,12 +1,12 @@
 
 'use client'
 import React from 'react'
-import data from "@/JSON/placements/overview.json";
+import data from "@/JSON/placements/recuirter_list.json";
 
 import InnerBanner from '@/components/00-KCE/common/InnerBanner'
 import RenderSection from '@/components/00-KCE/RenderComponent/RenderSection'
 
-export default function OverviewPage () {
+export default function RecuirterListPage () {
   const pageData = data
   const renderSectionWrapper = (section, index) => {
     return (

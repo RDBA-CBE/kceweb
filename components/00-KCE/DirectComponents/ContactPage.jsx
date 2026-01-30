@@ -1,10 +1,10 @@
 "use client";
 import React from "react";
-import data from "@/JSON/campus/nss.json";
+import data from "@/JSON/contact.json";
 import InnerBanner from "../common/InnerBanner";
 import RenderSection from "../RenderComponent/RenderSection";
 
-export default function NSSPage() {
+export default function ClubsPage() {
   const pageData = data;
   const renderSectionWrapper = (section, index) => {
     return (
@@ -15,8 +15,6 @@ export default function NSSPage() {
       />
     );
   };
-
- 
 
   return (
     <>

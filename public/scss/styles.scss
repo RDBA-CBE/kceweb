@@ -294,6 +294,11 @@
   margin: auto;
 }
 
+.sidebar-com .section-wid {
+  width: 100%;
+  margin: auto;
+}
+
 .section-bg1 {
   padding: 40px 0;
 }
@@ -957,7 +962,7 @@
 
 .ci-container {
   margin: 0 auto;
-  padding: 0 20px;
+  // padding: 0 20px;
 }
 
 /* FLOAT IMAGE */
@@ -1203,7 +1208,7 @@
 
 .dcl-item {
   display: flex;
-  align-items: center;
+  // align-items: center;
   gap: 12px;
   padding: 3px 0;
   text-decoration: none;
@@ -1230,6 +1235,7 @@
   color: #fff;
   background: #cc6926;
   flex-shrink: 0;
+  margin-top: 2px;
 }
 
 /* Responsive */
@@ -1950,7 +1956,7 @@ a.ps-card:hover .ps-title {
   word-break: break-all;
 }
 
-.eres-link:hover{
+.eres-link:hover {
   color: #000;
   text-decoration: underline;
 }
@@ -1965,4 +1971,87 @@ a.ps-card:hover .ps-title {
 
 .eres-arrow:hover {
   transform: translateX(4px);
+}
+
+.fullwidth-image-inner {
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+  width: 100%;
+}
+
+.fullwidth-image {
+  object-fit: cover;
+}
+
+/* ContactUsSection.css */
+
+.contactus-item {
+  border-bottom: 1px solid black;
+  padding-bottom: 15px;
+}
+
+.contactus-item strong {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.contactus-social a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #ddebf0ba;
+  color: #000;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
+.contactus-social a:hover {
+  background-color: #1c3c4a;
+  color: #fff;
+}
+
+.contactus-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+/* Responsive */
+@media (max-width: 767.98px) {
+  .contactus-section {
+    padding: 3rem 1rem;
+  }
+
+  .contactus-title {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .contactus-description {
+    text-align: center;
+  }
+
+  .contactus-item {
+    text-align: center;
+  }
+
+  .contactus-social {
+    justify-content: center;
+  }
+
+  .contactus-image {
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .contactus-section {
+    padding: 5rem 0;
+  }
 }

@@ -184,46 +184,70 @@
         "sectionbg": "section-bg3",
         "content": [
           {
-            "title": "Collaboration",
-            "description": "IIT Bombay Entrepreneurship cell, Royal Universys Webnet Private Limited, Analytics India Magazine.",
-            "images": [
+            "type": "column",
+            "blocks": [
               {
-                "src": "https://kce.ac.in/new/wp-content/uploads/2024/03/e-cell-bombay.jpg",
-                "alt": "E-Cell IIT Bombay"
+                "type": "title",
+                "text": "Collaboration"
               },
               {
-                "src": "https://kce.ac.in/new/wp-content/uploads/2024/03/universys-1.jpg",
-                "alt": "Universys"
+                "type": "paragraph",
+                "text": "IIT Bombay Entrepreneurship cell, Royal Universys Webnet Private Limited, Analytics India Magazine."
               },
               {
-                "src": "https://kce.ac.in/new/wp-content/uploads/2024/03/aim-half-width.jpg",
-                "alt": "Analytics India Magazine"
+                "type": "images",
+                "items": [
+                  {
+                    "src": "https://kce.ac.in/new/wp-content/uploads/2024/03/e-cell-bombay.jpg",
+                    "alt": "E-Cell IIT Bombay"
+                  },
+                  {
+                    "src": "https://kce.ac.in/new/wp-content/uploads/2024/03/universys-1.jpg",
+                    "alt": "Universys"
+                  },
+                  {
+                    "src": "https://kce.ac.in/new/wp-content/uploads/2024/03/aim-half-width.jpg",
+                    "alt": "Analytics India Magazine"
+                  }
+                ]
               }
             ]
           },
           {
-            "title": "Professional Bodies Membership",
-            "description": "IIT Bombay Entrepreneurship cell, Royal Universys Webnet Private Limited, Analytics India Magazine.",
-            "images": [
+            "type": "column",
+            "blocks": [
               {
-                "src": "https://kce.ac.in/new/wp-content/uploads/2024/03/ACM.jpg",
-                "alt": "ACM"
+                "type": "title",
+                "text": "Professional Bodies Membership"
               },
               {
-                "src": "https://kce.ac.in/new/wp-content/uploads/2024/03/IEEE.jpg",
-                "alt": "IEEE"
+                "type": "paragraph",
+                "text": "IIT Bombay Entrepreneurship cell, Royal Universys Webnet Private Limited, Analytics India Magazine."
               },
               {
-                "src": "https://kce.ac.in/new/wp-content/uploads/2024/03/ISTE.jpg",
-                "alt": "ISTE"
-              }
-            ],
-            "button": [
+                "type": "images",
+                "items": [
+                  {
+                    "src": "https://kce.ac.in/new/wp-content/uploads/2024/03/ACM.jpg",
+                    "alt": "ACM"
+                  },
+                  {
+                    "src": "https://kce.ac.in/new/wp-content/uploads/2024/03/IEEE.jpg",
+                    "alt": "IEEE"
+                  },
+                  {
+                    "src": "https://kce.ac.in/new/wp-content/uploads/2024/03/ISTE.jpg",
+                    "alt": "ISTE"
+                  }
+                ]
+              },
               {
+                "type": "link",
                 "text": "Department Achievements",
                 "url": "KCE/ai-ds-department-achievements"
               },
               {
+                "type": "link",
                 "text": "Association Activites",
                 "url": "KCE/ai-ds-association-activity"
               }

@@ -1,0 +1,28 @@
+{
+  "banner": {
+    "bannerImg": "/images/kce/banner_computer_technology.jpg",
+    "title": "Recruiters List",
+    "breadcrumb": [
+    {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Recruiters List"
+        
+      }
+    ]
+  },
+  "sections": [
+   
+    {
+      "type":"full-width-image",
+      "data":{
+        "sectionbg":"section-bg1",
+        "src":"https://kce.ac.in/new/wp-content/uploads/2024/03/Web-26.jpg",
+        "alt":"placement-kce-Image-",
+        "height":"auto"
+      }
+    }
+  ]
+}

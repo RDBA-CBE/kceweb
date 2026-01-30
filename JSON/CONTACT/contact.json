@@ -1,7 +1,0 @@
-{
-  "banner": {
-    "bannerImg": "/images/kce/banner_admission.jpg",
-    "title": "Contact",
-    "breadcrumb": [{ "label": "Home", "href": "/" }, { "label": "Contact" }]
-  }
-}
