@@ -1,0 +1,94 @@
+{
+  "banner": {
+    "bannerImg": "/images/kce/banner_computer_technology.jpg",
+    "title": "Examinations ",
+    "breadcrumb": []
+  },
+  "sections": [
+    {
+      "type": "split-image-content",
+      "data": {
+        "imagePosition": "right",
+        "sectionbg": "section-bg1",
+        "image": "/images/gallery/gallery-big.jpg",
+        "content": [
+          {
+            "type": "title",
+            "mainTi": ""
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              "The Controller of Examinations office is an important part of the autonomy. The COE Office is responsible for the announcement of examination time table, preparation of question papers, conduct of examinations, evaluation of answer scripts, declaration of results and issuing of grade sheets. Every academic year, students take up end semester examinations twice during November and May.",
+              "If a candidate indulges in malpractice in any of the tests or end semester examinations, he /she shall be liable for punitive action as per the examination rules prescribed by the college from time to time."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "split-image-content",
+      "data": {
+        "imagePosition": "left",
+        "sectionbg": "section-bg1 ",
+        "image": "/images/gallery/gallery-big.jpg",
+        "content": [
+          {
+            "type": "title",
+            "mainTi": "The current rules of the examinations "
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              "A candidate is permitted to use geometric tools, non-programmable calculators and approved tables and data books only during the theory and the practical examinations. No other material / gadget (including cell phone) should be brought inside the examination hall.",
+              "A candidate should neither possess / refer to any forbidden material in any form nor should seek/obtain assistance in any form from any person / source towards answering the questions during the examinations. He/she should not assist any other candidates in any form towards answering the questions during the examinations. The candidate should not reveal his / her identity in any form in the answer scripts. The candidate should not indulge in canvassing either directly or indirectly for the award of more than the deserving marks in the examinations. The candidate should maintain discipline and decorum during the examinations."
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              "If Violation of the above rules in any form during the examinations will attract punishment ranging from levying fine to permanently debarring the candidate from continuing his / her studies as given below."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "contact-card",
+      "data": {
+        "content": {
+          "text": [
+            {
+              "secTitle": "Contact",
+              "description": "",
+              "contactDetails": [
+                {
+                  "label": "Controller of Examinations",
+                  "value": "Dr. T. K. SETHURAMALINGAM M.Tech., Ph.D."
+                },
+                {
+                  "label": "Assistant Controller of Examinations",
+                  "value": "Mrs. P. INDUMATHI M.Sc., M.Phil. (Ph.D.)"
+                },
+                {
+                  "label": "Phone",
+                  "value": "0422 2619010"
+                },
+                {
+                  "label": "Email",
+                  "value": "coe@kce.ac.in"
+                }
+              ],
+              "socialLinks": []
+            }
+          ],
+          "image": {
+            "src": "/images/kce/image-4.png",
+            "alt": "Contact Building",
+            "position": "left"
+          }
+        }
+      }
+    }
+  ]
+}

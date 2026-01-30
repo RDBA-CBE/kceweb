@@ -1,0 +1,188 @@
+{
+    "banner": {
+        "bannerImg": "/images/kce/banner_admission.jpg",
+        "title": "AICTE EOA",
+        "breadcrumb": []
+    },
+    "sections": [
+        {
+            "type": "table",
+            "data": {
+                "secTitle": "AICTE EOA",
+                "table": [
+                    {
+                        "content": [
+                            {
+                                "rowsPerPage": "999",
+                                "head": [
+                                    {
+                                        "id": "col1",
+                                        "label": "Name "
+                                    }
+                                ],
+                              "data": [
+    {
+      "col1": {
+        "text": "AICTE EOA Report 2025-2026",
+        "url": "https://kce.ac.in/new/wp-content/uploads/2025/06/EOA-Report-2025-26-2.pdf"
+      }
+    },
+    {
+      "col1": {
+        "text": "AICTE EOA Report 2024-2025",
+        "url": "https://kce.ac.in/new/wp-content/uploads/2025/06/AICTE-EOA-Report-2024-2025.pdf"
+      }
+    },
+    {
+      "col1": {
+        "text": "AICTE EOA Report 2023-2024",
+        "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/AICTE-EOA-Report-2023-24.pdf"
+      }
+    },
+    {
+      "col1": {
+        "text": "AICTE EOA Report 2022-2023",
+        "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/AICTE-EOA-Report-2022-23.pdf"
+      }
+    },
+    {
+      "col1": {
+        "text": "AICTE EOA Report 2021-2022",
+        "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/AICTE-EOA-Report-2021-22.pdf"
+      }
+    },
+    {
+      "col1": {
+        "text": "AICTE EOA Report 2020-2021",
+        "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/AICTE-EOA-Report-2020-21.pdf"
+      }
+    },
+    {
+      "col1": {
+        "text": "AICTE EOA Report 2019-2020",
+        "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/AICTE-EOA-Report-2019-20.pdf"
+      }
+    },
+    {
+      "col1": {
+        "text": "AICTE EOA Report 2018-2019",
+        "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/AICTE-EOA-Report-2018-19.pdf"
+      }
+    },
+    {
+      "col1": {
+        "text": "AICTE EOA Report 2017-2018",
+        "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/AICTE-EOA-Report-2017-18.pdf"
+      }
+    },
+    {
+      "col1": {
+        "text": "AICTE EOA Report 2016-2017",
+        "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/AICTE-EOA-Report-2016-17.pdf"
+      }
+    },
+    {
+      "col1": {
+        "text": "AICTE EOA Report 2015-2016",
+        "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/AICTE-EOA-Report-2015-16.pdf"
+      }
+    },
+    {
+      "col1": {
+        "text": "AICTE EOA Report 2014-2015",
+        "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/AICTE-EOA-Report-2014-15.pdf"
+      }
+    },
+    {
+      "col1": {
+        "text": "AICTE EOA Report 2013-2014",
+        "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/AICTE-EOA-Report-2013-14.pdf"
+      }
+    },
+    {
+      "col1": {
+        "text": "AICTE EOA Report 2012-2013",
+        "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/AICTE-EOA-Report-2012-13.pdf"
+      }
+    },
+    {
+      "col1": {
+        "text": "AICTE EOA Report 2011-2012",
+        "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/AICTE-EOA-Report-2011-12.pdf"
+      }
+    },
+    {
+      "col1": {
+        "text": "AICTE EOA Report 2010-2011",
+        "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/AICTE-EOA-Report-2010-11.pdf"
+      }
+    },
+    {
+      "col1": {
+        "text": "AICTE EOA Report 2009-2010",
+        "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/AICTE-EOA-Report-2009-10.pdf"
+      }
+    },
+    {
+      "col1": {
+        "text": "AICTE EOA Report 2008-2009",
+        "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/AICTE-EOA-Report-2008-09.pdf"
+      }
+    },
+    {
+      "col1": {
+        "text": "AICTE EOA Report 2007-2008",
+        "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/AICTE-EOA-Report-2007-08.pdf"
+      }
+    },
+    {
+      "col1": {
+        "text": "AICTE EOA Report 2006-2007",
+        "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/AICTE-EOA-Report-2006-07.pdf"
+      }
+    },
+    {
+      "col1": {
+        "text": "AICTE EOA Report 2005-2006",
+        "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/AICTE-EOA-Report-2005-06.pdf"
+      }
+    },
+    {
+      "col1": {
+        "text": "AICTE EOA Report 2004-2005",
+        "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/AICTE-EOA-Report-2004-05.pdf"
+      }
+    },
+    {
+      "col1": {
+        "text": "AICTE EOA Report 2003-2004",
+        "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/AICTE-EOA-Report-2003-04.pdf"
+      }
+    },
+    {
+      "col1": {
+        "text": "AICTE EOA Report 2002-2003",
+        "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/AICTE-EOA-Report-2002-03.pdf"
+      }
+    },
+    {
+      "col1": {
+        "text": "AICTE EOA Report 2001-2002",
+        "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/AICTE-EOA-Report-2001-02.pdf"
+      }
+    },
+    {
+      "col1": {
+        "text": "AICTE EOA Report 2000-2001",
+        "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/AICTE-EOA-Report-2000-01.pdf"
+      }
+    }
+  ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

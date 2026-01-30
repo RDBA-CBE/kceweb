@@ -57,7 +57,7 @@
         },
         {
             "label": "Contact",
-            "path": "/KCE/examinations/#exam-contact"
+            "path": "/KCE/examinations/exam-contact"
         }
     ]
 }

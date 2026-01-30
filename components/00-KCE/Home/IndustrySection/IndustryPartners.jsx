@@ -18,7 +18,7 @@ const logos = [
 export default function IndustryPartners() {
   return (
     <section className="industry">
-      <h2>Industry & KCE</h2>
+      <h2>INDUSTRY & KCE</h2>
       <div className="logoGrid">
         {logos.map((logo, i) => (
           <div className="logoCard" key={i}>

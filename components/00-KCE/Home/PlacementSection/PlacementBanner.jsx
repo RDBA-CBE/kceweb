@@ -30,35 +30,41 @@ export default function PlacementBanner() {
   return (
     <section className="placement">
       <div className="placementOverlay">
-        {/* LEFT */}
-        <div className="placementLeft">
-          <h2>Placement & Training</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-            sed diam nonummy nibh
-          </p>
-          <button className="placementBtn">Know More</button>
-        </div>
-
-        {/* RIGHT */}
-        <div className="placementStats">
-          <div className="stat">
-            <h3><CountUp end={1154} />+</h3>
-            <span>Placements</span>
+        {/* 🔑 container added */}
+        <div className="container placementContent">
+          {/* LEFT */}
+          <div className="placementLeft">
+            <h2>Placement & Training</h2>
+            <p>
+              The placement cell takes immense effort in guiding the students
+              for their successful career. The college has active MoUs &
+              Centers of Excellence with various industries. The college is
+              visited by multinational companies year after year and has a
+              strong placement record.
+            </p>
+            <button className="placementBtn">KNOW MORE</button>
           </div>
 
-          <div className="divider" />
+          {/* RIGHT */}
+          <div className="placementStats">
+            <div className="stat">
+              <h3><CountUp end={1154} />+</h3>
+              <span>Placements</span>
+            </div>
 
-          <div className="stat">
-            <h3><CountUp end={156} />+</h3>
-            <span>Companies</span>
-          </div>
+            <div className="divider" />
 
-          <div className="divider" />
+            <div className="stat">
+              <h3><CountUp end={156} />+</h3>
+              <span>Companies</span>
+            </div>
 
-          <div className="stat">
-            <h3><CountUp end={28} /></h3>
-            <span>LPA - Max Salary</span>
+            <div className="divider" />
+
+            <div className="stat">
+              <h3><CountUp end={28} /></h3>
+              <span>LPA - Max Salary</span>
+            </div>
           </div>
         </div>
       </div>

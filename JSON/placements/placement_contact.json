@@ -1,0 +1,49 @@
+{
+  "banner": {
+    "bannerImg": "/images/kce/banner_admission.jpg",
+    "title": "Placement Contact",
+    "breadcrumb": []
+  },
+  "sections": [
+   
+
+    {
+      "type": "contact-card",
+      "data": {
+        "content": {
+          "text": [
+            {
+              "secTitle": "S.Azarudheen - Manager Corporate Relations",
+              "description": "",
+
+              "contactDetails": [
+                { "label": "Phone", "value": "+91 73730 07702 / 0422-2619047" },
+                { "label": "Email", "value": "placement@kce.ac.in" }
+              ],
+              "socialLinks": [
+                {
+                  "type": "feather-facebook",
+                  "url": "https://www.facebook.com/wekceians/"
+                },
+                { "text": "𝕏", "url": "https://twitter.com/wekceians" },
+                {
+                  "type": "feather-instagram",
+                  "url": "https://www.instagram.com/wekceians/"
+                },
+                {
+                  "type": "feather-youtube",
+                  "url": "https://www.youtube.com/@wekceians"
+                }
+              ]
+            }
+          ],
+          "image": {
+            "src": "/images/kce/image-4.png",
+            "alt": "Contact Building",
+            "position": "left"
+          }
+        }
+      }
+    }
+  ]
+}

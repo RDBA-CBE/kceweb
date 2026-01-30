@@ -1,14 +1,47 @@
-import Contact from "@/components/00-KCE/Examinations/Contact";
+"use client";
+
 import React from "react";
+import SideMenu from "@/components/00-KCE/ABOUT/sideMenu";
+import data from "@/JSON/examinations/services.json";
+import sideBarData from "@/JSON/sidebar.json";
+import InnerBanner from "@/components/00-KCE/common/InnerBanner";
+import RenderSection from "../RenderComponent/RenderSection";
 
-export const metadata = {
-  title: "Best college for Engineering In Tamilnadu - KCE",
-  description:
-    "Unlock your potential in Engineering at KCE, the leading Engineering college in Tamilnadu, providing a nurturing environment for academic and personal growth.",
+const ContactPage = () => {
+
+  const pageData = data;
+
+  const renderSectionWrapper = (section, index) => {
+    return (
+      <RenderSection
+        section={section}
+        index={index}
+        renderSection={renderSectionWrapper}
+      />
+    );
+  };
+
+
+  return (
+    <section className="">
+      <InnerBanner
+        data={pageData?.banner}
+      />
+      <div className="section-wid section-bg1 ">
+        <div className="row sidebar-com">
+          {/* LEFT CONTENT */}
+          <div className="col-lg-9">
+            {pageData?.sections?.map((section, index) =>
+              renderSectionWrapper(section, index),
+            )}
+          </div>
+
+          {/* RIGHT STICKY MENU */}
+          <SideMenu data={sideBarData?.profile} />
+        </div>
+      </div>
+    </section>
+  );
 };
 
-const page = () => {
-  return <Contact />;
-};
-
-export default page;
+export default ContactPage;

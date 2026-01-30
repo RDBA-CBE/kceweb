@@ -1,0 +1,68 @@
+{
+    "banner": {
+        "bannerImg": "/images/kce/banner_admission.jpg",
+        "title": "Downloads",
+        "breadcrumb": []
+    },
+    "sections": [
+        {
+            "type": "table",
+            "data": {
+                "secTitle": "",
+                "table": [
+                    {
+                        "content": [
+                            {
+                                "rowsPerPage": "999",
+                                "head": [
+                                    {
+                                        "id": "col1",
+                                        "label": "Name "
+                                    }
+                                ],
+                               "data": [
+    {
+      "col1": {
+        "text": "APPLICATION FOR REVALUATION OF ANSWER SCRIPTS",
+        "url": "https://kce.ac.in/new/wp-content/uploads/2022/07/Answer-script-revaluation-form.pdf"
+      }
+    },
+    {
+      "col1": {
+        "text": "APPLICATION FOR VIEWING THE ANSWER SCRIPTS",
+        "url": "https://kce.ac.in/new/wp-content/uploads/2022/07/Answer-script-viewing-form.pdf"
+      }
+    },
+    {
+      "col1": {
+        "text": "APPLICATION FOR CGPA TO PERCENTAGE CONVERSION",
+        "url": "https://kce.ac.in/new/wp-content/uploads/2022/07/CGPA-to-Percentage-Conversion-Form.pdf"
+      }
+    },
+    {
+      "col1": {
+        "text": "AFFIDAVIT TO BE FILED FOR ISSUE OF DUPLICATE CONSOLIDATED GRADE SHEET",
+        "url": "https://kce.ac.in/new/wp-content/uploads/2022/07/Duplicate-Consolidated-Grade-Sheet-Affidavit.pdf"
+      }
+    },
+    {
+      "col1": {
+        "text": "AFFIDAVIT TO BE FILED FOR ISSUE OF DUPLICATE GRADE SHEET",
+        "url": "https://kce.ac.in/new/wp-content/uploads/2022/07/Duplicate-Grade-Sheet-Affidavit.pdf"
+      }
+    },
+    {
+      "col1": {
+        "text": "APPLICATION FOR DUPLICATE GRADE STATEMENT",
+        "url": "https://kce.ac.in/new/wp-content/uploads/2022/07/Duplicate-Grade-Sheet-Form.pdf"
+      }
+    }
+  ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

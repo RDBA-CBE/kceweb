@@ -1,40 +1,31 @@
+
+
 "use client";
+import React from "react";
+import data from "@/JSON/non_statutory.json";
+import InnerBanner from "@/components/00-KCE/common/InnerBanner";
+import RenderSection from "@/components/00-KCE/RenderComponent/RenderSection";
 
-import InnerBanner from "../../00-KCE/common/InnerBanner";
-import Commitee from "../Components/About/Commitee";
-import data from "../../../JSON/About/commitee.json";
-import Sidebar from "../common-components/Sidebar";
-import { NonStatutoryCommitee } from "@/JSON/ACADEMIC/Overview";
+export default function StatutoryCommitteespage() {
+  const pageData = data;
+  const renderSectionWrapper = (section, index) => {
+    return (
+      <RenderSection
+        section={section}
+        index={index}
+        renderSection={renderSectionWrapper}
+      />
+    );
+  };
 
-const NonStatutoryCommitteespage = () => {
-  console.log("data", data);
-
-  const commiteeData = data?.NonStatutaryCommitee;
   return (
     <>
-      <InnerBanner data={commiteeData?.bannerCon} />
+      <InnerBanner data={pageData?.banner} />
 
-      <main className="section-wid d-flex gap-4 py-5">
-        <div className="rbt-course-details-area w-100">
-          <div className="row g-5">
-            <div className="col-lg-9">
-              <Commitee data={commiteeData} />
-            </div>
-
-            <div className="col-lg-3 px-0 d-none d-lg-block">
-              <div className="course-sidebar sticky-top rbt-shadow-box rbt-gradient-border ">
-                <div className="inner">
-                  <div className="content-item-content">
-                    <Sidebar subMenu={NonStatutoryCommitee} />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </main>
+      {pageData?.sections?.map((section, index) =>
+        renderSectionWrapper(section, index),
+      )}
     </>
   );
-};
+}
 
-export default NonStatutoryCommitteespage;

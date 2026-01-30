@@ -15,7 +15,7 @@ const Breadcrumb = ({ items = [], showHome = true }) => {
   const finalItems =
     showHome && items[0]?.label !== "Home" ? [homeItem, ...items] : items;
 
-  if (!finalItems.length) return null;
+  if (!finalItems.length) return null;h
 
   return (
     <nav

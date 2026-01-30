@@ -29,11 +29,11 @@ const NewsList = ({ events }) => {
         </div>
       </div>
       
-      <div className="sidebar-footer">
+      {/* <div className="sidebar-footer">
         <button className="btn-primary btn-more">MORE NEWS</button>
-      </div>
+      </div> */}
       
-      <div className="decor-dots"><img src='/images/kce/logo/k-logo-gery.png' /></div>
+      <div className="decor-dots"><img src='/images/kce/logo-card/bule-card2.png' /></div>
     </div>
   );
 };

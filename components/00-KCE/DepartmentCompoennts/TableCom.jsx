@@ -146,7 +146,7 @@ const PaginatedTable = ({ table, rowsPerPage = 10 }) => {
                       cell.url ? (
                         <Link
                           href={cell.url}
-                          target={cell.target || "_self"}
+                          target={cell.target || "_blank"}
                           className="d-flex justify-content-between align-items-center"
                         >
                           <span>{cell.text}</span>

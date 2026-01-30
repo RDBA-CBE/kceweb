@@ -1,0 +1,32 @@
+{
+  "banner": {
+    "bannerImg": "/images/kce/banner_computer_technology.jpg",
+    "title": "Undertaking",
+    "breadcrumb": [
+     
+
+     
+    ]
+  },
+  "sections": [
+   
+
+    {
+      "type": "link-card",
+      "data": {
+        "sectionbg": " section-bg1",
+        "title": "Undertaking",
+        "content": [
+          {
+            "id": 1,
+            "title": "UGC Undertaking",
+            "url": "https://kce.ac.in/new/wp-content/uploads/2022/03/UGC-Undertaking.pdf",
+            "urlText": "View "
+          }
+        ]
+        
+        
+      }
+    }
+  ]
+}
