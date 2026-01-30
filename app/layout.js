@@ -29,6 +29,7 @@ import MobileMenu from "@/components/00-Kahe/common-components/MobileMenu";
 import HeaderEight from "@/components/Header/Headers/Header-Eight";
 import Footer from "@/components/00-Kahe/common-components/Footer";
 import Header from "@/components/00-Kahe/common-components/Header";
+import BottomPlacement from "@/components/00-KCE/common/BottomPlacement";
 
 
 export default function RootLayout({ children }) {
@@ -54,6 +55,7 @@ export default function RootLayout({ children }) {
             {children}
             <BackToTop />
             {/* <Separator /> */}
+            <BottomPlacement/>
             <Footer />
           </Context>
         </Provider>

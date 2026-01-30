@@ -313,12 +313,12 @@ body {
 }
 
 .kce-ftr {
-  background-color: var(--kce-bg);
+  background-color: #1c3c4a;
   color: var(--kce-text);
-  padding: 63px 0 0px 0px;
+  padding: 0;
   width: 100%;
   position: relative;
-  border-top: 1px solid var(--kce-line); /* Top full-screen line */
+//   border-top: 1px solid var(--kce-line); /* Top full-screen line */
 
 }
 
@@ -326,6 +326,8 @@ body {
 //   max-width: 1400px;
   margin: 0 auto;
   display: grid;
+  padding-top: 30px;
+  padding-bottom: 30px;
   grid-template-columns: 1fr;  border-top: 1px solid rgba(255, 255, 255, 0.3); border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 

@@ -2,10 +2,7 @@
   "banner": {
     "bannerImg": "/images/kce/banner_admission.jpg",
     "title": "Profile",
-    "breadcrumb": [
-      { "label": "Home", "href": "/" },
-      { "label": "Profile" }
-    ]
+    "breadcrumb": [{ "label": "Home", "href": "/" }, { "label": "Profile" }]
   },
 
   "pageTitle": "About Karpagam College of Engineering",
@@ -19,6 +16,49 @@
       "The Placement and Training facilities add a feather to its cap ensuring the students get placed on campus. The 10 Centers of Excellence strive to impart practical and experimental exposure to the students.",
       "The College is situated at Myleripalayam, 15 kms from Coimbatore Central Railway station. The serene location surrounded by green fields creates a calm atmosphere conducive to learning and growth."
     ]
+  },
+
+  "Highlights": {
+    "imagePosition": "right",
+    "sectionbg": "section-bg1 my-4",
+    "image": "/images/gallery/gallery-big.jpg",
+
+    "content": [
+      {
+        "type": "title",
+        "mainTi": "Highlight"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Accredited by Accenture, TCS and WIPRO",
+          "Industry based Curriculum",
+          "Autonomous Learning Environment",
+          "Successful Placement and Training cell",
+          "Built up space of 7-lakh sq.ft",
+          "MoU with EMC2, Hexaware, INFOSYS, IBM, Oracle, UTL Technologies & Microchip, Tech Mahindra"
+        ]
+      }
+    ]
+  },
+
+  "course": {
+    "title": "UG Programmes",
+    "items": [
+      "B.E. Civil Engineering",
+      "B.E. Computer Science and Engineering",
+      "B.E. Computer Science and Engineering (Cyber Security)",
+      "B.E. Computer Science and Technology",
+      "B.E. Electronics and Communication Engineering",
+      "B.E. Electrical and Electronics Engineering",
+      "B.E. Electronics and Telecommunications Engineering",
+      "B.E. Mechanical Engineering",
+      "B.Tech. Information Technology",
+      "B.Tech. Artificial Intelligence and Data Sciences",
+      "B.E. Electronics Engineering (VLSI Design and Technology)",
+      "MBA",
+      "MCA",
+      "M.E. Communication Systems"
+    ]
   }
-  
 }
