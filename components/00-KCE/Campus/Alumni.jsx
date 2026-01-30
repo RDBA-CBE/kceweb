@@ -1,10 +1,10 @@
 "use client";
 import React from "react";
-import data from "@/JSON/ABOUT/accreditation.json";
+import data from "@/JSON/alumni.json";
 import InnerBanner from "../common/InnerBanner";
 import RenderSection from "../RenderComponent/RenderSection";
 
-export default function ClubsPage() {
+export default function AlumniPage() {
   const pageData = data;
   const renderSectionWrapper = (section, index) => {
     return (

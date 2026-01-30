@@ -1,0 +1,69 @@
+{
+  "banner": {
+    "bannerImg": "/images/kce/banner_computer_technology.jpg",
+    "title": "Alumni Success Stories",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Alumni Success Stories"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "accordion",
+      "data": [
+        {
+          "body": [
+            {
+              "collapse": "collapseOne2",
+
+              "expanded": true,
+              "collapsed": true,
+              "show": true,
+              "accordionTitle": "Alumni Department of Civil Engineering",
+
+              "cardSlider": [
+                {
+                  "slider": [
+                    {
+                      "title": "P.Senthil Kumar,",
+                      "position": "Junior Engineer.",
+                      "company": "@ CPWD",
+                      "desc": "<p class='clr-ti'>My College days are unforgettable and in fact those days are the most happiest & fruitful days in my life. <p/> I proudly feel that I cherished every moments of my college.Being a”Kceian” make me feel proud. My experience in KCE was just amazing. I got infinite love & lessons from my teachers, there teachers made me do “Work Hard” for the way to success. Miss those days of KCE. Just want to thank to the wonderful faculty of KCE…. <p class='clr-ti'>I am proud to be a KCEian… <p/>"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "collapse": "collapseTwo2",
+              "expanded": false,
+              "collapsed": false,
+              "show": false,
+              "accordionTitle": "Alumni Department of Electrical & Electronics Engineering"
+            },
+            {
+              "collapse": "collapseTwo3",
+              "expanded": false,
+              "collapsed": false,
+              "show": false,
+              "accordionTitle": "Alumni Department of Electrical & Electronics Engineering"
+            },
+            {
+              "collapse": "collapseTwo4",
+              "expanded": false,
+              "collapsed": false,
+              "show": false,
+              "accordionTitle": "Alumni Department of Electrical & Electronics Engineering"
+              
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,62 +1,208 @@
 {
   "banner": {
-    "bannerImg": "/images/kce/banner_accreditation.jpg",
-    "title": "Accreditations & Collaborations",
+    "title": "Accreditations",
+    "bannerImg": "/images/kce/banner_computer_technology.jpg",
+
     "breadcrumb": [
-      { "label": "Home", "href": "/" },
-      { "label": "About", "href": "/about" },
-      { "label": "Accreditations" }
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Accreditations"
+      }
     ]
   },
-  "naac": {
-    "label": "Institutional",
-    "title": "NAAC",
-    "description": "Accredited by the National Assessment and Accreditation Council with an A+ Grade, recognizing excellence in governance, teaching–learning, research, and student outcomes.",
-    "metrics": [
-      { "label": "Accreditation", "value": "A+" },
-      { "label": "Level", "value": "Institution" }
-    ]
-  },
-  "nba": {
-    "label": "Programme",
-    "title": "NBA",
-    "description": "The following programmes are accredited by the National Board of Accreditation, ensuring outcome-based education and industry relevance.",
-    "departments": [
-      "Information Technology",
-      "Mechanical Engineering",
-      "Electronics and Communication Engineering",
-      "Electrical and Electronics Engineering",
-      "Computer Science and Engineering",
-      "Civil Engineering"
-    ]
-  },
-  "industry": {
-    "title": "Industry Collaborations",
-    "subtitle": "We also have active MoUs & Centres of Excellence such as",
-    "partners": [
-      { "logo": "/images/kce/accereditation/infosys.webp", "title": "Infosys Campus Connect" },
-      { "logo": "/images/kce/accereditation/academic-allience.webp", "title": "EMC Academic Alliance Centre" },
-      { "logo": "/images/kce/accereditation/national-instrumwnt.webp", "title": "National Instruments Lab" },
-      { "logo": "/images/kce/accereditation/perfection-in-automation.webp", "title": "B&R Centre of Excellence" },
-      { "logo": "/images/kce/accereditation/wipro.webp", "title": "Wipro Mission 10X" },
-      { "logo": "/images/kce/accereditation/mems.webp", "title": "MEMS Centre of Excellence" },
-      { "logo": "/images/kce/accereditation/microsoft.webp", "title": "Microsoft Technical Services Lab" },
-      { "logo": "/images/kce/accereditation/oracle.webp", "title": "Oracle Workforce Development Centre" },
-      { "logo": "/images/kce/accereditation/tech-mahindra.webp", "title": "Tech Mahindra Infrastructure" }
-    ]
-  },
-  "electives": {
-    "title": "Electives",
-    "subtitle": "17 Industry collaborated electives in association with",
-    "partners": [
-      { "logo": "/images/kce/accereditation/global-edge.webp", "title": "Gloabl Edge" },
-      { "logo": "/images/kce/accereditation/infosys-nav.webp", "title": "Infosys" },
-      { "logo": "/images/kce/accereditation/emc-2.webp", "title": "EMC 2" },
-      { "logo": "/images/kce/accereditation/microsoft.webp", "title": "Microsoft" },
-      { "logo": "/images/kce/accereditation/national.webp", "title": "National Instruments" },
-      { "logo": "/images/kce/accereditation/agiit.webp", "title": "AGIIT" },
-      { "logo": "/images/kce/accereditation/pyramid-design.webp", "title": "Pyramiid Design" },
-      { "logo": "/images/kce/accereditation/medisim.webp", "title": "Medism Structures" }
-    ]
-  }
+  "sections": [
+    {
+      "type": "split-col-con",
+      "data": {
+        "sectionbg": "section-bg3",
+        "content": [
+          {
+            "type": "column",
+            "blocks": [
+              {
+                "type": "images",
+                "items": [
+                  {
+                    "src": "/images/category/image/mobile.jpg",
+                    "alt": "nacc"
+                  }
+                ]
+              },
+              {
+                "type": "title",
+                "text": "NAAC (National Assessment And Accreditation Council)"
+              },
+
+              {
+                "type": "paragraph",
+                "text": "Karpagam College of Engineering has been accredited by NAAC with ‘A+’ Grade."
+              },
+
+              {
+                "type": "link",
+                "text": "For more Infomations",
+                "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/NAAC.pdf"
+              }
+            ]
+          },
+          {
+            "type": "column",
+            "blocks": [
+              {
+                "type": "images",
+                "items": [
+                  {
+                    "src": "/images/category/image/mobile.jpg",
+                    "alt": "ACM"
+                  }
+                ]
+              },
+              {
+                "type": "title",
+                "text": "NBA (National Board Of Accreditation)"
+              },
+              {
+                "type": "paragraph",
+                "text": "Karpagam College of Engineering is accredited by NBA for the following departments:"
+              },
+
+              {
+                "type": "list",
+                "items": [
+                  {
+                    "id": 1,
+                    "label": "Department of Information Technology",
+                    "url": "https://kce.ac.in/new/wp-content/uploads/2026/01/Karpagam-College-of-Engineering-Coimbatore-T.N.13_11_2025_14_45_31.pdf"
+                  },
+                  {
+                    "id": 2,
+                    "label": "Department of Mechanical Engineering",
+                    "url": "https://kce.ac.in/new/wp-content/uploads/2026/01/Karpagam-College-of-Engineering-Coimbatore-T.N.13_11_2025_14_45_31.pdf"
+                  },
+                  {
+                    "id": 3,
+                    "label": "Department of Electronics and Communication Engineering",
+                    "url": "https://kce.ac.in/new/wp-content/uploads/2026/01/Karpagam-College-of-Engineering-Coimbatore-T.N.13_11_2025_14_45_31.pdf"
+                  },
+                  {
+                    "id": 4,
+                    "label": "Department of Electrical and Electronics Engineering",
+                    "url": "https://kce.ac.in/new/wp-content/uploads/2026/01/Karpagam-College-of-Engineering-Coimbatore-T.N.13_11_2025_14_45_31.pdf"
+                  },
+                  {
+                    "id": 5,
+                    "label": "Computer Science and Engineering",
+                    "url": "https://kce.ac.in/new/wp-content/uploads/2025/07/NBA-CSE-Civiil-upto-2027.pdf"
+                  },
+                  {
+                    "id": 6,
+                    "label": "Civil Engineering",
+                    "url": "https://kce.ac.in/new/wp-content/uploads/2025/07/NBA-CSE-Civiil-upto-2027.pdf"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "logo-img",
+      "data": {
+        "title": "The College is accredited by companies like Tata Consultancy Services and Wipro.",
+        "desc": "We also have active MoUs & Centres of Excellence such as",
+        "content": [
+          {
+            "images": [
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/06/infosys.jpg",
+                "title": "Infosys Campus Connect"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/06/academic-allience.jpg",
+                "title": "EMC Corporation – Academic Alliance Centre"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/06/national-instrumwnt.jpg",
+                "title": "National Instruments Lab"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/06/perfection-in-automation.jpg",
+                "title": "B&R Centre of Excellence"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/06/wipro.jpg",
+                "title": "WIPRO – Mission 10X Programme"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/06/mems.jpg",
+                "title": "MEMS Centre of Excellence"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/06/microsoft.jpg",
+                "title": "Microsoft Technical Services Lab"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/06/oracle.jpg",
+                "title": "Oracle Workforce Development Centre"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/06/tech-mahindra.jpg",
+                "title": "Tech Mahindra for Infrastructure"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "logo-img",
+      "data": {
+        "title": "Electives",
+        "desc": "17 Industry collaborated electives in association with",
+        "content": [
+          {
+            "images": [
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/06/global-edge.jpg",
+                "title": "Global Edge"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/06/infosys-nav.jpg",
+                "title": "Infosys"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/06/emc-2.jpg",
+                "title": "EMC²"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/06/microsoft.jpg",
+                "title": "Microsoft"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/06/national.jpg",
+                "title": "National Instruments"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/06/agiit.jpg",
+                "title": "AGIIT"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/06/pyramid-design.jpg",
+                "title": "Pyramiid Design"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2020/06/medisim.jpg",
+                "title": "Medisim Structures"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
 }
