@@ -10,6 +10,7 @@
       "data": {
         "sectionbg": "section-bg1",
         "title": "",
+        "not_link":true,
         "content": [
           {
             "details": [
