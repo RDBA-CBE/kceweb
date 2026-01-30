@@ -19,6 +19,22 @@ const ImageOverlayContent = ({ data }) => {
                 <h2 className='sub-ti text-white mb-0 mt-5'>{data?.title2}</h2>
               )}
               {data?.subtitle && <p className='mt-4'>{data?.subtitle}</p>}
+              {data?.button && (
+                <div>
+                  <Link
+                    href={data?.button?.url || '#'}
+                    target='_blank'
+                    className='px-5 py-3 mt-3 d-inline-block text-decoration-none'
+                    style={{
+                      backgroundColor: '#f2fff9',
+                      color: '#1C3C4A',
+                      borderRadius: '20px'
+                    }}
+                  >
+                    <span className='faculty-ti'>{data?.button?.name}</span>
+                  </Link>
+                </div>
+              )}
             </div>
 
             {/* Right Column */}
@@ -26,8 +42,10 @@ const ImageOverlayContent = ({ data }) => {
               <ul className='ioc-list'>
                 {data?.list?.map((item, index) =>
                   item?.url ? (
-                    <li key={index} className="ioc-list-item">
-                      <Link href={item?.url} target={item?.target || "_blank"}>{item?.title}</Link>
+                    <li key={index} className='ioc-list-item'>
+                      <Link href={item?.url} target={item?.target || '_blank'}>
+                        {item?.title}
+                      </Link>
                     </li>
                   ) : (
                     <li key={index} className='ioc-list-item'>
