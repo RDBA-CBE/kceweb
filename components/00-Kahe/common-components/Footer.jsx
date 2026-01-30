@@ -149,9 +149,9 @@ const Footer = () => {
     </div>
 
 
-    <div className="kce-ftr__bottom">
+    {/* <div className="kce-ftr__bottom">
       <img src="images/kce/home/karpagam-footer.webp" />
-    </div>
+    </div> */}
   </footer>
   );
 };
