@@ -4,20 +4,23 @@ import { useRouter } from "next/navigation";
 import React from "react";
 
 export default function SideMenu(props) {
-  const { active, menuItems, onMenuClick } = props;
+  const {data, active, onMenuClick } = props;
   const router = useRouter();
 
-  const defaultMenuItems = [
-    { label: "About Karpagam", path: "/KCE/profile" },
-    { label: "Vision & Mission", path: "/KCE/vision-mission" },
-    { label: "Management Profile", path: "/KCE/management-profile" },
-    { label: "Programmes Offered", path: "/KCE/courses-offered" },
-    { label: "Centers of Excellence", path: "/KCE/centers-of-excellence" },
-    { label: "Accreditations", path: "/KCE/accreditations/" },
-    { label: "Placement", path: "/KCE/overview/" },
-  ];
+  console.log("data", data);
+  
 
-  const items = menuItems || defaultMenuItems;
+  // const defaultMenuItems = [
+  //   { label: "About Karpagam", path: "/KCE/profile" },
+  //   { label: "Vision & Mission", path: "/KCE/vision-mission" },
+  //   { label: "Management Profile", path: "/KCE/management-profile" },
+  //   { label: "Programmes Offered", path: "/KCE/courses-offered" },
+  //   { label: "Centers of Excellence", path: "/KCE/centers-of-excellence" },
+  //   { label: "Accreditations", path: "/KCE/accreditations/" },
+  //   { label: "Placement", path: "/KCE/overview/" },
+  // ];
+
+  const items = data;
 
   return (
     <div className="col-lg-3 about-sidebar">

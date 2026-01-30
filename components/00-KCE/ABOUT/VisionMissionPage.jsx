@@ -3,6 +3,7 @@
 import SideMenu from "@/components/00-KCE/ABOUT/sideMenu";
 import InnerBanner from "@/components/00-KCE/common/InnerBanner";
 import React from "react";
+import sideBarData from "@/JSON/sidebar.json";
 import data from "@/JSON/ABOUT/vissionMision.json"; 
 
 const VisionMissionPage = () => {
@@ -37,7 +38,7 @@ const VisionMissionPage = () => {
           </div>
 
           {/* RIGHT STICKY MENU */}
-          <SideMenu active={sideMenu.active} />
+          <SideMenu active="About Karpagam" data={sideBarData?.profile} />
         </div>
       </div>
     </section>

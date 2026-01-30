@@ -1,0 +1,57 @@
+{
+    "banner": {
+        "bannerImg": "/images/kce/banner_admission.jpg",
+        "title": "Instructions to the candidates",
+        "breadcrumb": [
+            {
+                "label": "Home",
+                "href": "/"
+            },
+            {
+                "label": "Instructions to the candidates"
+            }
+        ]
+    },
+    "sections": [
+        {
+            "type": "split-image-content",
+            "data": {
+                "imagePosition": "right",
+                "sectionbg": "section-bg1 mt-0 pt-0 ",
+                
+                "content": [
+                    {
+                        "type": "title",
+                        "mainTi": "Achievements"
+                    },
+                    {
+                        "type": "title",
+                        "title": "It is kept open for 12 hours (8.00 am to 8.00 pm) with Internet browsing facility for all its users."
+                    },
+                    {
+                        "type": "list",
+                        "items": [
+                            "Won Second prize in the poster presentation in the Two days State Level Confederacy organized by Anna University, Chennai on 08.02.2018 and 09.02.2018.",
+                            "R.Deepak, IV year Civil was nominated for <strong>International Youth Exchange Programme held at China</strong> by the Government of India during 2017-18.",
+                            "A MoU was signed between NSS unit and Edudharma for funding various activities through NSS.",
+                            "S.T.Nivetha, ECE received <strong>“Best NSS Volunteer Award”</strong> by the NSS Cell, Anna University, Chennai for the Academic year 2017-18.",
+                            "R.Deepak, Civil received <strong>“Best NSS Volunteer Award”</strong> by the NSS Cell, Anna University, Chennai for the Academic year 2017-18.",
+                            "A <strong>MoU</strong> was signed between NSS unit and Nizhal Mayyam for funding various activities through NSS.",
+                            "<strong>Youth Parliament:</strong> 104 volunteers participated and our college has won “Best group” and&nbsp; Ms.J.Bindhu, III year EEE had won “Best Speaker Award” along with a cash prize of Rs.2,000 and Mr.S.Pallavaraj , III year EEE had won “Best Speaker Award” along with a “Sony” headset.",
+                            "<strong>Election Duty:</strong> 11 Volunteers participated in the election duty during 2015-16.",
+                            "<strong>Swaach Bharat Mission:</strong> A team of 51 volunteers organized Swaach Bharat Mission Programme and Soft Skills training programme for School children at Kundah Kothagiri, The Nilgiris.",
+                            "<strong>Traffic Regulation Work, Ooty:</strong> A team of 10 boys volunteers are involved in Traffic regulation work at Ooty on all Saturdays and Sundays w.e.f 26.11.2016.",
+                            "<strong>Soft Skills Training Programme for tribal children:</strong> A team of 4 girls are involved in Soft Skills Training Programme for Panchayat Union Public School at Yellanalli, Ooty on all alternate Saturdays w.e.f 26.01.2017.",
+                            "<strong>Set up of a Library for tribal children:</strong> A library with 500 books was inaugurated for the benefit of tribal children at Kundah Kothagiri, The Nilgiris.",
+                            "<strong>One day Workshop: First Aid Training and Demonstration.</strong>",
+                            "Dr. P. Lakshmana Kumar, received the <strong>“Best NSS Programme Officer”</strong> award for the year 2020-21 by the NSS Cell, Anna University, Chennai",
+                            "Dr. P. Lakshmana Kumar, NSS Programme officer received <strong>Best Social Activist Award for tribal welfare activities at Nilgiris</strong> by ABJ Trust, Sivakisi",
+                            "NSS volunteers Mr.S.Kavin Raja and Ms.K.Kiruba Devi attended the <strong>“National Integration Camp”</strong> held at Jammu University, Jammu from 22nd to 28th February 2020",
+                            "Ms.S.T.Nivetha received <strong>Indira Gandhi Award</strong> for the year 2017 – 2018"
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

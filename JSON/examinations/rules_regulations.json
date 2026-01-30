@@ -1,0 +1,426 @@
+{
+    "banner": {
+        "bannerImg": "/images/kce/banner_admission.jpg",
+        "title": "Rules and Regulations",
+        "breadcrumb": [
+            {
+                "label": "Home",
+                "href": "/"
+            },
+            {
+                "label": "Rules and Regulations"
+            }
+        ]
+    },
+    "sections": [
+        {
+            "type": "table",
+            "data": {
+                "secTitle": "Guidelines for Awarding Punishments to Malpractice Cases of Students",
+                "table": [
+                    {
+                        "content": [
+                            {
+                                "rowsPerPage":"999",
+                                "head": [
+                                    {
+                                        "id": "col1",
+                                        "label": "S. No."
+                                    },
+                                    {
+                                        "id": "col2",
+                                        "label": "Name of Malpractice"
+                                    },
+                                    {
+                                        "id": "col3",
+                                        "label": "Maximum Punishment"
+                                    }
+                                ],
+                                "data": [
+                                    {
+                                        "col1": {
+                                            "text": "1"
+                                        },
+                                        "col2": {
+                                            "text": "Appeal by the candidate in the answer script to show mercy by way of awarding more than deserving marks."
+                                        },
+                                        "col3": {
+                                            "list": [
+                                                "I. Fine of Rs.1000/- per subject."
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "2"
+                                        },
+                                        "col2": {
+                                            "text": "The candidate writing his/her name in the answer script."
+                                        },
+                                        "col3": {
+                                            "list": [
+                                                "I. Fine of Rs.1000/- per subject."
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "3"
+                                        },
+                                        "col2": {
+                                            "text": "The candidate writing his/her registration number/ college name in places other than specified in the answer script."
+                                        },
+                                        "col3": {
+                                            "list": [
+                                                "I. Fine of Rs.1000/- per subject."
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "4"
+                                        },
+                                        "col2": {
+                                            "text": "Any special marking in the answer script by the candidate."
+                                        },
+                                        "col3": {
+                                            "list": [
+                                                "I. Fine of Rs.1000/- per subject."
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "5"
+                                        },
+                                        "col2": {
+                                            "text": "The candidate communicating with neighbouring candidate orally or non- verbally: the candidate causing suspicious movement of his/her body."
+                                        },
+                                        "col3": {
+                                            "list": [
+                                                "I. Fine of Rs.1000/- per subject."
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "6"
+                                        },
+                                        "col2": {
+                                            "text": "Irrelevant writing by the candidate in the answer script."
+                                        },
+                                        "col3": {
+                                            "list": [
+                                                "I. Fine of Rs.1000/- per subject."
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "7"
+                                        },
+                                        "col2": {
+                                            "text": "The candidate writing answer on his/her question paper or making use of his/her question paper for rough work."
+                                        },
+                                        "col3": {
+                                            "list": [
+                                                "I. Fine of Rs.1000/- per subject."
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "8"
+                                        },
+                                        "col2": {
+                                            "text": "The candidate possessing of cell phones / programmable calculator(s) / any other electronic storage device(s) gadgets."
+                                        },
+                                        "col3": {
+                                            "list": [
+                                                "II. Fine of Rs.2000/- per subject."
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "9"
+                                        },
+                                        "col2": {
+                                            "text": "The candidate facilitating the other candidate(s) to copy from his/her answers script."
+                                        },
+                                        "col3": {
+                                            "list": [
+                                                "II. Fine of Rs.2000/- per subject."
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "10"
+                                        },
+                                        "col2": {
+                                            "text": "The candidate possessing any incriminating material(s) (whether used or not) For example :- Written or printed materials, bits of papers containing written information, writings on scale calculator, handkerchief, dress, part of the body, Hall Ticket etc."
+                                        },
+                                        "col3": {
+                                            "list": [
+                                                "<b>III A.</b> If the quantum of the incriminating material is less than that could normally be printed in two lines of A5 size paper, then punishment is restricted to the subject concerned only.",
+                                                "<b>III B.</b> If the quantum is equal to or more than that could normally be printed in two lines and less than that could normally be printed in the full page of the A5 size paper, then the punishment is invalidating the examination of the subject concerned and further the candidate is not considered for any moderation and revaluation in the current semester for any subject (including arrear subjects).",
+                                                "<b>III C.</b> When the quantum is equal to or more than that could normally be printed in full page of A5 size paper then the punishment would be invalidating the examinations of the subject concern and all the theory and the practical subjects of the current semester registered by the candidate. The punishment does not include project work and the subjects with 100% internal evaluation.",
+                                                "Further the candidate is not considered for revaluation of answer scripts of the arrear subjects.",
+                                                "The punishment does not include project work and the subjects with 100% internal evaluation."
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "11"
+                                        },
+                                        "col2": {
+                                            "text": "The candidate possessing cell phone(s) programmable calculator(s) any other electronic storage devices(s)gadgets and containing incriminating materials (whether used or not)"
+                                        },
+                                        "col3": {
+                                            "list": [
+                                                "Refer Sl. No. 10 (III A / III B / III C)."
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "12"
+                                        },
+                                        "col2": {
+                                            "text": "The candidate possessing the question paper of another candidate with additional writing on it."
+                                        },
+                                        "col3": {
+                                            "list": [
+                                                "Refer Sl. No. 10 (III A / III B / III C)."
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "13"
+                                        },
+                                        "col2": {
+                                            "text": "The candidate passing his/her question paper to another candidate with additional writing on it."
+                                        },
+                                        "col3": {
+                                            "list": [
+                                                "Refer Sl. No. 10 (III A / III B / III C)."
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "14"
+                                        },
+                                        "col2": {
+                                            "text": "The candidate passing incriminating materials brought into the examination hall in any medium (hard/soft) to other candidate(s)."
+                                        },
+                                        "col3": {
+                                            "list": [
+                                                "Refer Sl. No. 10 (III A / III B / III C)."
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "15"
+                                        },
+                                        "col2": {
+                                            "text": "The candidate copying from neighbouring candidate."
+                                        },
+                                        "col3": {
+                                            "list": [
+                                                "Refer Sl. No. 10 (III A / III B / III C)."
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "16"
+                                        },
+                                        "col2": {
+                                            "text": "The candidate taking out of the examination hall answer booklet(s), used or unused."
+                                        },
+                                        "col3": {
+                                            "list": [
+                                                "Refer Sl. No. 10 (III A / III B / III C)."
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "17"
+                                        },
+                                        "col2": {
+                                            "text": "Appeal by the candidate in the answer script coupled with a promise of any form of consideration."
+                                        },
+                                        "col3": {
+                                            "list": [
+                                                "Refer Sl. No. 10 (III A / III B / III C)."
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "18"
+                                        },
+                                        "col2": {
+                                            "text": "Vulgar / offensive writings by the candidate in the answer script."
+                                        },
+                                        "col3": {
+                                            "list": [
+                                                "<b>IV.</b> Invalidating the examinations of all the theory and practical subjects of the current semester and all the arrears- subjects registered by the candidate."
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "19"
+                                        },
+                                        "col2": {
+                                            "text": "The candidate possessing the answer script of another candidate."
+                                        },
+                                        "col3": {
+                                            "list": [
+                                                "Refer Sl. No. 18 (IV)."
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "20"
+                                        },
+                                        "col2": {
+                                            "text": "The candidate passing his/her answers script to another candidate."
+                                        },
+                                        "col3": {
+                                            "list": [
+                                                "Refer Sl. No. 18 (IV)."
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "21"
+                                        },
+                                        "col2": {
+                                            "text": "The candidate possessing the answer script of another candidate."
+                                        },
+                                        "col3": {
+                                            "list": [
+                                                "<b>V A.</b> Invalidating the examinations of the subject concerned and all the theory and practical subjects of the current semester registered by the candidate. Further the candidate is not considered for revaluation of answer scripts of the arrears subjects.",
+                                                "<b>V B.</b> If the candidate has registered for arrears subjects only, invalidating the examinations of all the arrears subjects registered by the candidate.",
+                                                "<b>Additional Punishment:</b>",
+                                                "If the candidate has not completed the Programme, he/she is debarred from continuing his/her studies for one year i.e., for two subsequent semesters. However, the student is permitted to appear for the examination in all the arrears subjects during the debarred period.",
+                                                "If the candidate has completed the Programme, he/she is prevented from writing the examinations of the arrears subjects for two subsequent semesters."
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "22"
+                                        },
+                                        "col2": {
+                                            "text": "Involved in any one or more of the malpractices of serial no.8 to 21 for the second or subsequent times."
+                                        },
+                                        "col3": {
+                                            "list": [
+                                                "Refer Sl. No. 21 (V A / V B + Additional Punishment)."
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "23"
+                                        },
+                                        "col2": {
+                                            "text": "The candidate substituting an answer booklet prepared outside the examination hall for the one already distributed to the candidate."
+                                        },
+                                        "col3": {
+                                            "list": [
+                                                "Refer Sl. No. 21 (V A / V B + Additional Punishment)."
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "24"
+                                        },
+                                        "col2": {
+                                            "text": "The candidate misbehaving in the examination hall."
+                                        },
+                                        "col3": {
+                                            "list": [
+                                                "Refer Sl. No. 21 (V A / V B + Additional Punishment)."
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "25"
+                                        },
+                                        "col2": {
+                                            "text": "The candidate indulge in any disruptive conduct including, but not limited to, shouting, assault of invigilator, officials or students using abusive and / or threatening language, destruction of property."
+                                        },
+                                        "col3": {
+                                            "list": [
+                                                "<b>VI A.</b> Invalidating the examinations of all the theory and practical subjects of the current semester and all the arrears- subjects registered by the candidate.",
+                                                "<b>VI B.</b> If the candidate has registered for arrears subjects only, invalidating the examinations of all the arrears subjects registered by the candidate.",
+                                                "<b>Additional Punishment:</b>",
+                                                "If the candidate has not completed the Programme, he/she is debarred from continuing his/her studies for two years i.e., for four subsequent semesters. However, the student is permitted to appear for the examination in all the arrears subjects during the debarred period.",
+                                                "If the candidate has completed the Programme, he/she is prevented from writing the examinations of the arrears subjects for four subsequent semesters."
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "26"
+                                        },
+                                        "col2": {
+                                            "text": "The candidate harass or engage others to harass o his/her behalf an invigilator, official, witnesses or any other person in relation to an irregularity by making telephone calls, visits mails or by any other means."
+                                        },
+                                        "col3": {
+                                            "list": [
+                                                "Refer Sl. No. 25 (VI A / VI B + Additional Punishment)."
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "27"
+                                        },
+                                        "col2": {
+                                            "text": "Candidate possessing any arm /weapon inside examination hall."
+                                        },
+                                        "col3": {
+                                            "list": [
+                                                "Refer Sl. No. 25 (VI A / VI B + Additional Punishment)."
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "28"
+                                        },
+                                        "col2": {
+                                            "text": "Cases of impersonation."
+                                        },
+                                        "col3": {
+                                            "list": [
+                                                "Handing over the impersonator to the police with a complaint to take appropriate action against the person involved in the impersonation by the Chief Superintendent.",
+                                                "If a student of this institution is found to impersonate a ‘bonafide student’, the impersonating student is debarred from continuing his/her studies and writing the examinations permanently. He/ She is not eligible for any further admission to any Programme of the University.",
+                                                "Debarring the ‘bonafide student’, for whom the impersonation was done, from continuing his/her studies and writing the examinations permanently. He/ She is not eligible for any further admission to any Programme of the University."
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
