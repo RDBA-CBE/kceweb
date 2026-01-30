@@ -1,0 +1,479 @@
+{
+  "banner": {
+    "title": "Internal Quality Assurance Cell (IQAC)",
+    "bannerImg": "/images/kce/banner_computer_technology.jpg",
+
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Internal Quality Assurance Cell (IQAC)"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "split-image-content",
+      "data": {
+        "imagePosition": "left",
+        "sectionbg": "section-bg1 pb-2",
+        "image": "/images/blog/blog-grid-06.jpg",
+        "content": [
+          {
+            "type": "title",
+            "mainTi": "About"
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              "To enhance the quality improvements in the academic process and also as a pre-accreditation exercise Internal Quality Assurance Cell (IQAC) was formed in the college in October 2015. The objective of the cell is to develop a system for conscious, consistent and catalytic improvement in the overall performance of the institution at all levels with the involvement of all stakeholders.",
+
+              "The college has been now accreditated by NAAC with ‘A+’ grade in the second cycle. A NAAC in their 137th standing committee meeting held on 27th December 2022."
+            ]
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "icon-card1",
+      "data": {
+        "title": "Functions of the IQAC",
+
+        "content": [
+          {
+            "src": "/images/kce/vision.png",
+            "text": "To develop quality parameters for the activities of the institution"
+          },
+          {
+            "src": "/images/kce/vision.png",
+            "text": "To create a student-centric teaching environment conducive to imparting quality education"
+          },
+          {
+            "src": "/images/kce/vision.png",
+            "text": "To solicit, format, and implement feedback and suggestions from stakeholders on quality-related affairs"
+          },
+          {
+            "src": "/images/kce/vision.png",
+            "text": "To create quality consciousness among stakeholders, especially students and teaching and non-teaching faculty"
+          },
+          {
+            "src": "/images/kce/vision.png",
+            "text": "To document the steps taken and processes implemented leading to quality enhancement"
+          },
+          {
+            "src": "/images/kce/vision.png",
+            "text": "To act as a nodal agency to coordinate quality-related activities on campus"
+          },
+          {
+            "src": "/images/kce/vision.png",
+            "text": "To maintain an institutional database through MIS with ICT enablement"
+          },
+          {
+            "src": "/images/kce/vision.png",
+            "text": "To prepare and submit the Annual Quality Assurance Report (AQAR) to NAAC at the end of each academic year"
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "image-overlay-content",
+      "data": {
+        "bgImage": "/images/kce/academics/banner.jpg",
+
+        "title": "Strategies of IQAC",
+        "list": [
+          {
+            "title": "To ensure quality of academic programs"
+          },
+          {
+            "title": "To integrate modern methods of teaching and learning and monitor their effect on student performance"
+          },
+          {
+            "title": "To instil confidence and credibility in the evaluation procedure among stakeholders"
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "table",
+      "data": {
+        "secTitle": "IQAC Members",
+        "desc1": "",
+        "table": [
+          {
+            "content": [
+              {
+                "head": [
+                  { "id": "col1", "label": "S No" },
+                  { "id": "col2", "label": "Name of the Member" },
+                  { "id": "col3", "label": "Designation" }
+                ],
+                "data": [
+                  {
+                    "col1": { "text": "1" },
+                    "col2": { "text": "Dr. Karthigaikumar. P (Principal)" },
+                    "col3": { "text": "Chairperson" }
+                  },
+                  {
+                    "col1": { "text": "2" },
+                    "col2": {
+                      "text": "Shri. Murugaiah. K (Chief Executive Officer, Karpagam Institutions)"
+                    },
+                    "col3": { "text": "Management Representative" }
+                  },
+                  {
+                    "col1": { "text": "3" },
+                    "col2": {
+                      "text": "Dr. Palaniswamy. M (Registrar, Karpagam Academy of Higher Education, Coimbatore)"
+                    },
+                    "col3": { "text": "Academic Expert" }
+                  },
+                  {
+                    "col1": { "text": "4" },
+                    "col2": {
+                      "text": "Harish Ravi (Group Manager – Robotics & Automation, ASM Technologies, Bangalore)"
+                    },
+                    "col3": { "text": "Nominee from Industry" }
+                  },
+                  {
+                    "col1": { "text": "5" },
+                    "col2": {
+                      "text": "Antony Raj B (F/O Kevin A Anand Raj, III EEE)"
+                    },
+                    "col3": { "text": "Nominee from Parents" }
+                  },
+                  {
+                    "col1": { "text": "6" },
+                    "col2": {
+                      "text": "Mr. Suresh Kumar. N (Executive Officer, Othakkalmandapam Town Panchayat)"
+                    },
+                    "col3": { "text": "Nominee from Local Body" }
+                  },
+                  {
+                    "col1": { "text": "7" },
+                    "col2": {
+                      "text": "Mr. Soundharrajan O (Electrical Design Engineer, Worley India Pvt. Ltd., Chennai)"
+                    },
+                    "col3": { "text": "Alumni Member" }
+                  },
+                  {
+                    "col1": { "text": "8" },
+                    "col2": {
+                      "text": "Mr. Sangeethkumar Rajagopal (Manager – HR, M/s. CRI Pumps Pvt Ltd, Coimbatore)"
+                    },
+                    "col3": { "text": "Nominee from Employers" }
+                  },
+                  {
+                    "col1": { "text": "9" },
+                    "col2": { "text": "Dr. Sophia S (Dean, Academics)" },
+                    "col3": { "text": "Administrative Officer" }
+                  },
+                  {
+                    "col1": { "text": "10" },
+                    "col2": { "text": "Dr. Sethuramalingam T. K." },
+                    "col3": { "text": "Controller of Examination" }
+                  },
+                  {
+                    "col1": { "text": "11" },
+                    "col2": {
+                      "text": "Dr. Meera C (Director, Management Studies)"
+                    },
+                    "col3": { "text": "Member of Faculty" }
+                  },
+                  {
+                    "col1": { "text": "12" },
+                    "col2": {
+                      "text": "Dr. Ravikumar K (Head, Dept of Mechanical Engineering)"
+                    },
+                    "col3": { "text": "Member of Faculty" }
+                  },
+                  {
+                    "col1": { "text": "13" },
+                    "col2": {
+                      "text": "Dr. Deepa S (Associate Professor, Dept of ECE)"
+                    },
+                    "col3": { "text": "Member of Faculty" }
+                  },
+                  {
+                    "col1": { "text": "14" },
+                    "col2": {
+                      "text": "Dr. Kiruthiga G (Head, Dept of AI & DS)"
+                    },
+                    "col3": { "text": "Member of Faculty" }
+                  },
+                  {
+                    "col1": { "text": "15" },
+                    "col2": {
+                      "text": "Mr. Gowrishankar L (Asst. Prof., S & H)"
+                    },
+                    "col3": { "text": "Member of Faculty" }
+                  },
+                  {
+                    "col1": { "text": "16" },
+                    "col2": {
+                      "text": "Mr. Rajapriya D (Asst. Prof., Dept of CSE)"
+                    },
+                    "col3": { "text": "Member of Faculty" }
+                  },
+                  {
+                    "col1": { "text": "17" },
+                    "col2": {
+                      "text": "Mr. Partha Sarathy S (Department of EEE)"
+                    },
+                    "col3": { "text": "Student Nominee" }
+                  },
+                  {
+                    "col1": { "text": "18" },
+                    "col2": {
+                      "text": "Mr. Vino Paul (Department of Mechanical Engineering)"
+                    },
+                    "col3": { "text": "Student Nominee" }
+                  },
+                  {
+                    "col1": { "text": "19" },
+                    "col2": { "text": "Dr. Jaganathan S" },
+                    "col3": { "text": "Director, IQAC" }
+                  },
+                  {
+                    "col1": { "text": "20" },
+                    "col2": { "text": "Dr. Tamilselvan V" },
+                    "col3": { "text": "Secretary, IQAC" }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "split-col-con",
+      "data": {
+        "sectionbg": "section-bg3 mb-5",
+        "content": [
+          {
+            "type": "column",
+            "blocks": [
+              {
+                "type": "title",
+                "text": "Annual Quality Assurance Report (AQAR)"
+              },
+
+              {
+                "type": "list",
+                "items": [
+                  {
+                    "id": 1,
+                    "label": "AQAR 2022 – 2023",
+                    "url": "https://kce.ac.in/new/wp-content/uploads/2025/01/AQAR-2022-2023.pdf"
+                  },
+                  {
+                    "id": 2,
+                    "label": "AQAR 2021 – 2022",
+                    "url": "https://kce.ac.in/new/wp-content/uploads/2024/03/AQAR-2021-–-2022.pdf"
+                  },
+                  {
+                    "id": 3,
+                    "label": "AQAR 2020 – 2021",
+                    "url": "https://kce.ac.in/new/wp-content/uploads/2024/03/AQAR-2020-–-2021.pdf"
+                  },
+                  {
+                    "id": 4,
+                    "label": "AQAR 2019 – 2020",
+                    "url": "https://kce.ac.in/new/wp-content/uploads/2021/09/KCE-AQAR-2019-20.pdf"
+                  },
+                  {
+                    "id": 5,
+                    "label": "AQAR 2018 – 2019",
+                    "url": "https://kce.ac.in/new/wp-content/uploads/2021/08/KCE-AQAR-2018-19.pdf"
+                  },
+                  {
+                    "id": 6,
+                    "label": "AQAR 2017 – 2018",
+                    "url": "https://kce.ac.in/new/wp-content/uploads/2021/08/KCE-AQAR-2017-18.pdf"
+                  },
+                  {
+                    "id": 7,
+                    "label": "AQAR 2016 – 2017",
+                    "url": "https://kce.ac.in/new/wp-content/uploads/2021/08/KCE-AQAR-2016-17.pdf"
+                  },
+                  {
+                    "id": 8,
+                    "label": "AQAR 2015 – 2016",
+                    "url": "https://kce.ac.in/new/wp-content/uploads/2021/08/KCE-AQAR-2015-16.pdf"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "column",
+            "blocks": [
+              {
+                "type": "title",
+                "text": "Minutes of the Meeting"
+              },
+
+              {
+                "type": "list",
+                "items": [
+                  {
+                    "id": 1,
+                    "label": "IQAC – 2023-2024",
+                    "url": "https://kce.ac.in/new/wp-content/uploads/2025/01/IQAC-–-2023-2024.pdf"
+                  },
+                  {
+                    "id": 2,
+                    "label": "IQAC – 2022-2023",
+                    "url": "https://kce.ac.in/new/wp-content/uploads/2024/03/IQAC-2022-2023.pdf"
+                  },
+                  {
+                    "id": 3,
+                    "label": "IQAC – 2021-2022",
+                    "url": "https://kce.ac.in/new/wp-content/uploads/2024/03/IQAC-2021-2022.pdf"
+                  },
+                  {
+                    "id": 4,
+                    "label": "IQAC – 2020-2021",
+                    "url": "https://kce.ac.in/new/wp-content/uploads/2022/06/KCE-IQAC-MoM-2020-2021.pdf"
+                  },
+                  {
+                    "id": 5,
+                    "label": "IQAC – 2019-2020",
+                    "url": "https://kce.ac.in/new/wp-content/uploads/2022/06/KCE-IQAC-MoM-2019-2020.pdf"
+                  },
+                  {
+                    "id": 6,
+                    "label": "IQAC – 2018-2019",
+                    "url": "https://kce.ac.in/new/wp-content/uploads/2022/06/KCE-IQAC-MoM-2018-2019.pdf"
+                  },
+                  {
+                    "id": 7,
+                    "label": "IQAC – 2017-2018",
+                    "url": "https://kce.ac.in/new/wp-content/uploads/2022/06/KCE-IQAC-MoM-2017-2018.pdf"
+                  },
+                  {
+                    "id": 8,
+                    "label": "IQAC – 2016-2017",
+                    "url": "https://kce.ac.in/new/wp-content/uploads/2022/06/KCE-IQAC-MoM-2016-2017.pdf"
+                  },
+                  {
+                    "id": 9,
+                    "label": "IQAC – 2015-2016",
+                    "url": "https://kce.ac.in/new/wp-content/uploads/2022/06/KCE-IQAC-MoM-2015-2016.pdf"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "link-card",
+      "data": {
+        "content": [
+          {
+            "id": 1,
+            "title": "Feedback Analysis and Action Taken Report",
+            "url": "/KCE/feedback-analysis-and-action-taken-report/",
+            "urlText": "View Details",
+            "target":"_self"
+          },
+          {
+            "id": 2,
+            "title": "Institutional Distinctiveness",
+            "url": "https://kce.ac.in/new/wp-content/uploads/2022/07/Institution-Distinctiveness.pdf",
+            "urlText": "View Details"
+          },
+          {
+            "id": 3,
+            "title": "Best Practices",
+            "url": "https://kce.ac.in/new/wp-content/uploads/2022/07/Best-Practices.pdf",
+            "urlText": "View Details"
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "link-card",
+      "data": {
+        "title": "Student Satisfactory Survey",
+
+        "content": [
+          {
+            "id": 1,
+            "title": "KCE sss report analysis 2023-24",
+            "url": "https://kce.ac.in/new/wp-content/uploads/2025/01/KCE-sss-report-analysis-2023-24.pdf",
+            "urlText": "View Details"
+          },
+          {
+            "id": 2,
+            "title": "KCE sss report analysis 2022-23",
+            "url": "https://kce.ac.in/new/wp-content/uploads/2024/03/KCE-sss-report-analysis-2022-23.pdf",
+            "urlText": "View Details"
+          },
+          {
+            "id": 3,
+            "title": "KCE sss report analysis 2021-22",
+            "url": "https://kce.ac.in/new/wp-content/uploads/2023/07/KCE-sss-report-analysis-2021-22.pdf",
+            "urlText": "View Details"
+          },
+          {
+            "id": 4,
+            "title": "KCE sss report analysis 2020-21",
+            "url": "https://kce.ac.in/new/wp-content/uploads/2023/08/KCE-sss-report-analysis-2020-21.pdf",
+            "urlText": "View Details"
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "link-card",
+      "data": {
+        "sectionbg":"section-bg1 mb-5",
+        "content": [
+          {
+            "id": 1,
+            "title": "NIRF Ranking",
+            "url": "https://kce.ac.in/ranking/",
+            "urlText": "View Details"
+          },
+          {
+            "id": 2,
+            "title": "NAAC",
+            "url": "https://kce.ac.in/naac-kce/",
+            "urlText": "View Details"
+          },
+          {
+            "id": 3,
+            "title": "Audit Report",
+            "url": "https://kce.ac.in/audit-report/",
+            "urlText": "View Details"
+          },
+          {
+            "id": 1,
+            "title": "Approvals",
+            "url": "https://kce.ac.in/approvals/",
+            "urlText": "View Details"
+          },
+          {
+            "id": 2,
+            "title": "Undertaking",
+            "url": "https://kce.ac.in/undertaking/",
+            "urlText": "View Details"
+          }
+        ]
+      }
+    }
+  ]
+}

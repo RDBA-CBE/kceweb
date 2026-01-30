@@ -1,10 +1,11 @@
+
 "use client";
 import React from "react";
-import data from "@/JSON/iqac.json";
+import data from "@/JSON/research.json";
 import InnerBanner from "../common/InnerBanner";
 import RenderSection from "../RenderComponent/RenderSection";
 
-export default function ClubsPage() {
+export default function ResearchPage() {
   const pageData = data;
   const renderSectionWrapper = (section, index) => {
     return (

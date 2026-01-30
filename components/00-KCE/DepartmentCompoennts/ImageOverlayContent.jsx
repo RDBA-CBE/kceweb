@@ -28,7 +28,7 @@ const ImageOverlayContent = ({ data }) => {
                 {data?.list?.map((item, index) =>
                   item?.url ? (
                     <li key={index} className="ioc-list-item">
-                      <Link href={item?.url}>{item?.title}</Link>
+                      <Link href={item?.url} target={item?.target || "_blank"}>{item?.title}</Link>
                     </li>
                   ) : (
                     <li key={index} className="ioc-list-item">

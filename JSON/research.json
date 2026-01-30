@@ -13,47 +13,794 @@
       }
     ]
   },
-  "menuItems": [
-    { "id": "overview", "label": "Research Overview" },
-    { "id": "committee", "label": "Research Committee" },
-    { "id": "publications", "label": "Publications" },
-    { "id": "projects", "label": "Research Projects" },
-    { "id": "seedmoney", "label": "Seed Money" },
-    { "id": "centres", "label": "Centre of Excellence" }
-  ],
-  "overview": [
-    { "sno": 1, "description": "No of Ph.D. Faculty Members", "details": "96" },
+  "sections": [
     {
-      "sno": 2,
-      "description": "No. of Approved guides by Anna University",
-      "details": "31"
+      "type": "image-overlay-content",
+      "data": {
+        "bgImage": "/images/kce/academics/banner.jpg",
+
+        "title": "Research Policy",
+        "list": [
+          {
+            "title": "Click here to View",
+            "url": "https://kce.ac.in/file/Research-Policy.pdf"
+          }
+        ]
+      }
     },
-    { "sno": 3, "description": "Number of Ph.D.s Produced", "details": "" },
-    { "sno": "", "description": "2011-2012", "details": "2" },
-    { "sno": "", "description": "2012-2013", "details": "2" }
-  ],
-  "committee": [
+
     {
-      "sno": 1,
-      "name": "Dr. P.Karthigaikumar",
-      "designation": "Principal",
-      "role": "Chairman",
-      "institution": "Karpagam College of Engineering",
-      "cluster": "ECE"
-    }
-  ],
-  "publications": [{ "year": 2022, "journal": 256, "conf": 82, "book": 24 }],
-  "projects": [{ "year": "2024-25", "projects": 18, "amount": 93.67 }],
-  "seedMoney": [{ "year": "2024-25", "projects": 11, "amount": 17.39 }],
-  "centres": [
+      "type": "table",
+      "data": {
+        "secTitle": "Research Overview",
+        "desc1": "* as on date",
+        "table": [
+          {
+            "content": [
+              {
+                "head": [
+                  { "id": "col1", "label": "S No" },
+                  { "id": "col2", "label": "Description" },
+                  { "id": "col3", "label": "Details" }
+                ],
+                "data": [
+                  {
+                    "col1": { "text": "1" },
+                    "col2": { "text": "No of Ph.D. Faculty Members" },
+                    "col3": { "text": "96" }
+                  },
+                  {
+                    "col1": { "text": "2" },
+                    "col2": {
+                      "text": "No. of Approved guides by Anna University"
+                    },
+                    "col3": { "text": "31" }
+                  },
+                  {
+                    "col1": { "text": "3" },
+                    "col2": { "text": "Number of Ph.D.s Produced" },
+                    "col3": { "text": "" }
+                  },
+                  {
+                    "col1": { "text": "" },
+                    "col2": { "text": "2011–2012" },
+                    "col3": { "text": "2" }
+                  },
+                  {
+                    "col1": { "text": "" },
+                    "col2": { "text": "2012–2013" },
+                    "col3": { "text": "2" }
+                  },
+                  {
+                    "col1": { "text": "" },
+                    "col2": { "text": "2013–2014" },
+                    "col3": { "text": "7" }
+                  },
+                  {
+                    "col1": { "text": "" },
+                    "col2": { "text": "2014–2015" },
+                    "col3": { "text": "2" }
+                  },
+                  {
+                    "col1": { "text": "" },
+                    "col2": { "text": "2015–2016" },
+                    "col3": { "text": "11" }
+                  },
+                  {
+                    "col1": { "text": "" },
+                    "col2": { "text": "2016–2017" },
+                    "col3": { "text": "5" }
+                  },
+                  {
+                    "col1": { "text": "" },
+                    "col2": { "text": "2017–2018" },
+                    "col3": { "text": "6" }
+                  },
+                  {
+                    "col1": { "text": "" },
+                    "col2": { "text": "2018–2019" },
+                    "col3": { "text": "4" }
+                  },
+                  {
+                    "col1": { "text": "" },
+                    "col2": { "text": "2019–2020" },
+                    "col3": { "text": "8" }
+                  },
+                  {
+                    "col1": { "text": "" },
+                    "col2": { "text": "2020–2021" },
+                    "col3": { "text": "5" }
+                  },
+                  {
+                    "col1": { "text": "" },
+                    "col2": { "text": "2021–2022" },
+                    "col3": { "text": "11" }
+                  },
+                  {
+                    "col1": { "text": "" },
+                    "col2": { "text": "2022–2023" },
+                    "col3": { "text": "8" }
+                  },
+                  {
+                    "col1": { "text": "" },
+                    "col2": { "text": "2023–2024*" },
+                    "col3": { "text": "10" }
+                  },
+                  {
+                    "col1": { "text": "" },
+                    "col2": { "text": "2024–2025" },
+                    "col3": { "text": "12" }
+                  },
+                  {
+                    "col1": { "text": "4" },
+                    "col2": {
+                      "text": "Number of Ph.D. scholars registered and in progress"
+                    },
+                    "col3": { "text": "110" }
+                  },
+                  {
+                    "col1": { "text": "5" },
+                    "col2": { "text": "Number of KCE faculty pursuing Ph.D." },
+                    "col3": { "text": "103" }
+                  },
+                  {
+                    "col1": { "text": "6" },
+                    "col2": { "text": "Publications in journals" },
+                    "col3": { "text": "209" }
+                  },
+                  {
+                    "col1": { "text": "7" },
+                    "col2": { "text": "Citation" },
+                    "col3": { "text": "12346" }
+                  },
+                  {
+                    "col1": { "text": "8" },
+                    "col2": { "text": "h index" },
+                    "col3": { "text": "56" }
+                  },
+                  {
+                    "col1": { "text": "9" },
+                    "col2": { "text": "i₁₀ Index" },
+                    "col3": { "text": "235" }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+
     {
-      "sno": 1,
-      "dept": "EEE",
-      "name": "BR Automation Lab",
-      "facilities": [
-        "Power panel pp45 Touch screen resistive display",
-        "X20BR9300 –Bus receiver"
-      ]
+      "type": "table",
+      "data": {
+        "sectionbg": "py-2",
+        "secTitle": "Research Committee (2021-22)",
+        "table": [
+          {
+            "content": [
+              {
+                "head": [
+                  { "id": "col1", "label": "S No" },
+                  { "id": "col2", "label": "Member Details" },
+                  { "id": "col3", "label": "Designation" },
+                  { "id": "col4", "label": "Name of Institution" },
+                  { "id": "col5", "label": "Department Cluster" }
+                ],
+                "data": [
+                  {
+                    "col1": { "text": "1" },
+                    "col2": { "text": "Dr. P. Karthigaikumar (Principal)" },
+                    "col3": { "text": "Chairman" },
+                    "col4": {
+                      "text": "Karpagam College of Engineering, Coimbatore"
+                    },
+                    "col5": { "text": "ECE" }
+                  },
+                  {
+                    "col1": { "text": "2" },
+                    "col2": { "text": "Dr. V. Senthilkumar" },
+                    "col3": {
+                      "text": "Professor, Department of Production Engineering"
+                    },
+                    "col4": {
+                      "text": "National Institute of Technology, Tiruchirappalli – 620 015, Tamil Nadu, India"
+                    },
+                    "col5": { "text": "Mech. and Civil" }
+                  },
+                  {
+                    "col1": { "text": "3" },
+                    "col2": { "text": "Dr. D. Karthika Renuka" },
+                    "col3": {
+                      "text": "Professor, Department of Information Technology"
+                    },
+                    "col4": {
+                      "text": "PSG College of Technology, Peelamedu, Coimbatore, Tamil Nadu – 641004, India"
+                    },
+                    "col5": { "text": "CSE, IT, AI and CY" }
+                  },
+                  {
+                    "col1": { "text": "4" },
+                    "col2": { "text": "Dr. S. Balamurugan" },
+                    "col3": { "text": "Professor / EEE (Chairperson)" },
+                    "col4": {
+                      "text": "Amrita Vishwa Vidyapeetham, Ettimadai (P.O.), Coimbatore – 641112"
+                    },
+                    "col5": { "text": "EEE, ECE and ETE" }
+                  },
+                  {
+                    "col1": { "text": "5" },
+                    "col2": { "text": "Dr. S. Sofia" },
+                    "col3": { "text": "Dean / Academics" },
+                    "col4": { "text": "Karpagam College of Engineering" },
+                    "col5": { "text": "ECE" }
+                  },
+                  {
+                    "col1": { "text": "6" },
+                    "col2": { "text": "Dr. K. Ravikumar" },
+                    "col3": { "text": "Professor / MECH" },
+                    "col4": { "text": "Karpagam College of Engineering" },
+                    "col5": { "text": "MECH" }
+                  },
+                  {
+                    "col1": { "text": "7" },
+                    "col2": { "text": "Dr. J. Ganesh Murali" },
+                    "col3": { "text": "AU Research Coordinator" },
+                    "col4": { "text": "Karpagam College of Engineering" },
+                    "col5": { "text": "MECH" }
+                  },
+                  {
+                    "col1": { "text": "8" },
+                    "col2": { "text": "Dr. C. Kumar" },
+                    "col3": { "text": "Professor / EEE" },
+                    "col4": { "text": "Karpagam College of Engineering" },
+                    "col5": { "text": "EEE" }
+                  },
+                  {
+                    "col1": { "text": "9" },
+                    "col2": { "text": "Dr. C. N. Vanitha" },
+                    "col3": { "text": "Professor / IT" },
+                    "col4": { "text": "Karpagam College of Engineering" },
+                    "col5": { "text": "Computer Cluster" }
+                  },
+                  {
+                    "col1": { "text": "10" },
+                    "col2": { "text": "Dr. C. Meera" },
+                    "col3": { "text": "Professor / MBA" },
+                    "col4": { "text": "Karpagam College of Engineering" },
+                    "col5": { "text": "MBA" }
+                  },
+                  {
+                    "col1": { "text": "11" },
+                    "col2": { "text": "Dr. P. Shanthi" },
+                    "col3": { "text": "Professor / MCA" },
+                    "col4": { "text": "Karpagam College of Engineering" },
+                    "col5": { "text": "MCA" }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Publication details",
+            "content": [
+              {
+                "head": [
+                  { "id": "col1", "label": "S No" },
+                  { "id": "col2", "label": "Calendar Year" },
+                  { "id": "col3", "label": "Journal Publications" },
+                  { "id": "col4", "label": "Conference Publications" },
+                  { "id": "col5", "label": "Book / Book Chapter Publications" }
+                ],
+                "data": [
+                  {
+                    "col1": { "text": "1" },
+                    "col2": { "text": "2022" },
+                    "col3": { "text": "256" },
+                    "col4": { "text": "82" },
+                    "col5": { "text": "24" }
+                  },
+                  {
+                    "col1": { "text": "2" },
+                    "col2": { "text": "2023" },
+                    "col3": { "text": "206" },
+                    "col4": { "text": "101" },
+                    "col5": { "text": "65" }
+                  },
+                  {
+                    "col1": { "text": "3" },
+                    "col2": { "text": "2024" },
+                    "col3": { "text": "209" },
+                    "col4": { "text": "282" },
+                    "col5": { "text": "27" }
+                  },
+                  {
+                    "col1": { "text": "4" },
+                    "col2": { "text": "2025" },
+                    "col3": { "text": "107" },
+                    "col4": { "text": "106" },
+                    "col5": { "text": "12" }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "table",
+      "data": {
+        "secTitle": "Seed Money ",
+        "table": [
+          {
+            "content": [
+              {
+                "head": [
+                  { "id": "col1", "label": "Year" },
+                  { "id": "col2", "label": "2024-25" },
+                  { "id": "col3", "label": "2023-24" },
+                  { "id": "col4", "label": "2022-23" },
+                  { "id": "col5", "label": "2021-22" },
+                  { "id": "col6", "label": "2020-21" },
+                  { "id": "col7", "label": "2019-20" },
+                  { "id": "col8", "label": "2018-19" }
+                ],
+                "data": [
+                  {
+                    "col1": { "text": "Number of Seed Money Projects" },
+                    "col2": { "text": "11" },
+                    "col3": { "text": "9" },
+                    "col4": { "text": "28" },
+                    "col5": { "text": "10" },
+                    "col6": { "text": "28" },
+                    "col7": { "text": "12" },
+                    "col8": { "text": "10" }
+                  },
+                  {
+                    "col1": { "text": "INR in Lakhs" },
+                    "col2": { "text": "17.39" },
+                    "col3": { "text": "15.38" },
+                    "col4": { "text": "20.58" },
+                    "col5": { "text": "6.16" },
+                    "col6": { "text": "27.24" },
+                    "col7": { "text": "9.03" },
+                    "col8": { "text": "10.85" }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "table",
+      "data": {
+        "sectionbg": "pt-2",
+        "secTitle": "Research Projects – Year-wise Details",
+        "table": [
+          {
+            "content": [
+              {
+                "head": [
+                  { "id": "col1", "label": "Year" },
+                  { "id": "col2", "label": "2024-25" },
+                  { "id": "col3", "label": "2023-24" },
+                  { "id": "col4", "label": "2022-23" },
+                  { "id": "col5", "label": "2021-22" },
+                  { "id": "col6", "label": "2020-21" },
+                  { "id": "col7", "label": "2019-20" },
+                  { "id": "col8", "label": "2018-19" }
+                ],
+                "data": [
+                  {
+                    "col1": { "text": "Number of Research Projects" },
+                    "col2": { "text": "18" },
+                    "col3": { "text": "12" },
+                    "col4": { "text": "14" },
+                    "col5": { "text": "11" },
+                    "col6": { "text": "10" },
+                    "col7": { "text": "7" },
+                    "col8": { "text": "5" }
+                  },
+                  {
+                    "col1": { "text": "INR in Lakhs" },
+                    "col2": { "text": "93.67" },
+                    "col3": { "text": "91.41" },
+                    "col4": { "text": "78.02" },
+                    "col5": { "text": "28.58" },
+                    "col6": { "text": "53.58" },
+                    "col7": { "text": "98.79" },
+                    "col8": { "text": "14" }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "tabs",
+      "data": {
+        "navigation": [
+          {
+            "title": "EEE",
+            "id": "eee"
+          },
+          {
+            "title": "CSE",
+            "id": "cse"
+          },
+          {
+            "title": "IT",
+            "id": "it"
+          },
+          {
+            "title": "ECE",
+            "id": "ece"
+          },
+          {
+            "title": "MECH",
+            "id": "mech"
+          },
+          {
+            "title": "AIDS",
+            "id": "aids"
+          },
+          {
+            "title": "Placement",
+            "id": "placement"
+          }
+        ],
+        "content": {
+          "eee": {
+            "sections": [
+              {
+                "type": "split-image-content",
+                "data": {
+                  "imagePosition": "left",
+                  "sectionbg": "section-bg1",
+                  "image": "/images/banner/i-arabian.png",
+                  "content": [
+                    {
+                      "type": "title",
+                      "mainTi": "EEE",
+                      "title": "BR Automation Lab"
+                    },
+                    {
+                      "type": "list",
+                      "items": [
+                        "Power panel PP45 touch screen resistive display",
+                        "X20BR9300 – Bus receiver",
+                        "X20DI9371 – Digital input module",
+                        "X20DO9322 – Digital output module",
+                        "X20AI2622 – Analog input module",
+                        "X20AO2622 – Analog output module",
+                        "X20AT2402 – Temperature input module",
+                        "8V1016.50 – Servo drive (2 Nos)",
+                        "8MSA2L.R0-67 – Synchronous motor (2 Nos)",
+                        "0PS05.1 – 24V DC power supply",
+                        "8CM002.12 – Motor cable",
+                        "8CR002.12 – Resolver cable"
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "split-image-content",
+                "data": {
+                  "imagePosition": "right",
+                  "sectionbg": "section-bg3",
+                  "image": "/images/banner/banner-01.png",
+                  "content": [
+                    {
+                      "type": "title",
+                      "mainTi": "EEE",
+                      "title": "NI LabVIEW ACADEMY"
+                    },
+                    {
+                      "type": "list",
+                      "items": [
+                        "NI ELVIS Prototyping Board – 6 Nos",
+                        "DAQ Signal Accessory – 5 Nos",
+                        "DAQ card accessories (Relay, Digital timer/counter, Analog input, Analog output, Digital input, Mic, Function generator, Temperature sensor)",
+                        "NI 9263 – Voltage output module",
+                        "NI 9225 – 24-bit, 3-channel voltage input module",
+                        "NI 9234 – Sound and vibration module",
+                        "NI 9512 – Motor drive interface module",
+                        "NI 9205 – 16-bit, 32-channel voltage input module",
+                        "NI 9211 – Temperature input module",
+                        "NI 9516 – Servo motor drive interface module",
+                        "NI 9219 – Multi-range sensor module",
+                        "NI 9224 – 24-bit, 8-channel voltage input module",
+                        "NI 9401 – Digital bi-directional port",
+                        "NI cRIO 9074 – FPGA embedded controller"
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+
+          "cse": {
+            "sections": [
+              {
+                "type": "split-image-content",
+                "data": {
+                  "imagePosition": "left",
+                  "sectionbg": "section-bg1",
+                  "image": "/images/kce/image.jpg",
+                  "content": [
+                    {
+                      "type": "title",
+                      "mainTi": "CSE",
+                      "title": "Centre of Excellence in Algorithms"
+                    },
+                    {
+                      "type": "paragraph",
+                      "text": [
+                        "Software facility like R Programming, Python, Tensor Flow and Weka available"
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+
+          "it": {
+            "sections": [
+              {
+                "type": "split-image-content",
+                "data": {
+                  "imagePosition": "left",
+                  "sectionbg": "section-bg1",
+                  "image": "/images/kce/image.jpg",
+                  "content": [
+                    {
+                      "type": "title",
+                      "mainTi": "IT",
+                      "title": "Virtusa Training Tools"
+                    },
+                    {
+                      "type": "paragraph",
+                      "text": [
+                        "Software facility like R Programming, Python, Tensor Flow and Weka available"
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+
+          "ece": {
+            "sections": [
+              {
+                "type": "split-image-content",
+                "data": {
+                  "imagePosition": "left",
+                  "sectionbg": "section-bg1",
+                  "image": "/images/blog/blog-grid-06.jpg",
+                  "content": [
+                    {
+                      "type": "title",
+                      "mainTi": "ECE",
+                      "title": "Embedded Systems"
+                    },
+                    {
+                      "type": "paragraph",
+                      "text": [
+                        "It is equipped with world class Trainer Kits, Launch Pad, ARM Processor, Real time controllers to perform the training, research and development activities."
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "split-image-content",
+                "data": {
+                  "imagePosition": "right",
+                  "sectionbg": "section-bg3",
+                  "image": "/images/blog/blog-grid-06.jpg",
+                  "content": [
+                    {
+                      "type": "title",
+                      "mainTi": "ECE",
+                      "title": "Communication and Networks"
+                    },
+                    {
+                      "type": "paragraph",
+                      "text": [
+                        "It is equipped with well-connected server and client structured systems to support the study of the concepts and protocols of networking and for the effective implementation of the routing protocols based on hardware boards."
+                      ]
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "split-image-content",
+                "data": {
+                  "imagePosition": "left",
+                  "sectionbg": "section-bg1",
+                  "image": "/images/blog/blog-grid-06.jpg",
+                  "content": [
+                    {
+                      "type": "title",
+                      "mainTi": "ECE",
+                      "title": "VLSI Design"
+                    },
+                    {
+                      "type": "paragraph",
+                      "text": [
+                        "The VLSI DESIGN LAB is to expose the students and faculty to the circuit design of analog and digital circuit using Cadence Virtuoso tools."
+                      ]
+                    }
+                  ]
+                }
+              },
+
+              {
+                "type": "split-image-content",
+                "data": {
+                  "imagePosition": "right",
+                  "sectionbg": "section-bg3",
+                  "image": "/images/blog/blog-grid-06.jpg",
+                  "content": [
+                    {
+                      "type": "title",
+                      "mainTi": "ECE",
+                      "title": "Signal Processing"
+                    },
+                    {
+                      "type": "paragraph",
+                      "text": [
+                        "It involves design and simulation of systems using MATLAB and Simulink tools."
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+
+          "mech": {
+            "sections": [
+              {
+                "type": "split-image-content",
+                "data": {
+                  "imagePosition": "right",
+                  "sectionbg": "section-bg1",
+                  "image": "/images/banner/banner-01.png",
+                  "content": [
+                    {
+                      "type": "title",
+                      "mainTi": "MECH",
+                      "title": "Centre for Composite Materials"
+                    },
+                    {
+                      "type": "list",
+                      "items": [
+                        "Industrial hot air oven",
+                        "Metallurgical microscopes",
+                        "Electric furnace",
+                        "Muffle furnace (1000 °C)",
+                        "Universal tensile testing machine with double shear attachment (40 ton capacity)",
+                        "Torsion testing machine (60 Nm capacity)",
+                        "Impact testing machine (300 joules capacity)",
+                        "Spring testing machine for tensile and compressive load (50 kN)",
+                        "CNC turning machine",
+                        "CNC milling machine",
+                        "Arc / MIG / TIG / Gas welding machine",
+                        "Double disc polishing machine",
+                        "Profile projector",
+                        "Brinell cum Rockwell hardness testing machine",
+                        "Injection moulding equipment",
+                        "Cannon–Fenske viscometer",
+                        "Magnetic stirrer with hot plate",
+                        "Pycnometer",
+                        "Vacuum desiccator",
+                        "Sieve shaker",
+                        "Surface roughness tester",
+                        "Micro scribe",
+                        "Mounting box"
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+
+          "aids": {
+            "sections": [
+              {
+                "type": "split-image-content",
+                "data": {
+                  "imagePosition": "right",
+                  "sectionbg": "section-bg1",
+                  "image": "/images/blog/blog-grid-06.jpg",
+                  "content": [
+                    {
+                      "type": "title",
+                      "mainTi": "ECE",
+                      "title": "Data Science and Analytics Centre"
+                    },
+                    {
+                      "type": "list",
+                      "items": [
+                        "Qlik business analytics certification program",
+                        "Big data and Hadoop training",
+                        "GenAI training"
+                      ]
+                    }
+                  ]
+                }
+              },
+
+              {
+                "type": "split-image-content",
+                "data": {
+                  "imagePosition": "left",
+                  "sectionbg": "section-bg3",
+                  "image": "/images/blog/blog-grid-06.jpg",
+                  "content": [
+                    {
+                      "type": "title",
+                      "mainTi": "ECE",
+                      "title": "Computer Vision and IoT"
+                    },
+                    {
+                      "type": "list",
+                      "items": [
+                        "Received NVIDIA DGX for supercomputing and Jetson kit for IoT projects",
+                        "NVIDIA Jetson project training",
+                        "High-performance supercomputing setup available"
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+
+          "placement": {
+            "sections": [
+              {
+                "type": "split-image-content",
+                "data": {
+                  "imagePosition": "right",
+                  "sectionbg": "section-bg1",
+                  "image": "/images/blog/blog-grid-06.jpg",
+                  "content": [
+                    {
+                      "type": "title",
+                      "mainTi": "Placement",
+                      "title": "NTT DATA"
+                    },
+                    {
+                      "type": "list",
+                      "items": [
+                        "Provided a tailored curriculum based on data science–oriented jobs",
+                        "Conducted a train-the-trainer program on data science for faculty members",
+                        "Provided an online portal for 60 students to receive training in data science",
+                        "Trained students were recruited based on company requirements"
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
     }
   ]
 }
