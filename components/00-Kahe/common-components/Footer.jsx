@@ -64,7 +64,7 @@ const Footer = () => {
       { label: "News and Events", href: "https://kce.ac.in/category/news-event/",target:"_blank" },
       { label: "Applications FAQ", href: "#" },
       { label: "Media", href: "/KCE/photo-gallery/" },
-      { label: "Alumni Success Stories", href: "/kCE/alumni-success-stories/" },
+      { label: "Alumni Success Stories", href: "/KCE/alumni-success-stories/" },
       { label: "Placement", href: "/KCE/overview/" },
       { label: "Hostel", href: "/KCE/infrastructure/hostel/" },
       { label: "Blog", href: "https://kce.ac.in/blog/",target:"_blank" },

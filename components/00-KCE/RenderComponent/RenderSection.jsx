@@ -29,6 +29,7 @@ import LinkCard from "../DepartmentCompoennts/LinkCard";
 import IconCard1 from "../DepartmentCompoennts/IconCard1";
 import FullWidthImage from "../DepartmentCompoennts/FullWidthImage";
 import ContactCard from "../DepartmentCompoennts/ContactCard";
+import Accordion from "../DepartmentCompoennts/Accordian";
 
 const RenderSection = ({ section, index, renderSection }) => {
   switch (section.type) {
@@ -202,6 +203,9 @@ const RenderSection = ({ section, index, renderSection }) => {
 
     case "contact-card":
       return <ContactCard key={index} data={section.data} />;
+
+      case "accordion":
+      return <Accordion key={index} data={section.data} />;
 
     default:
       return null;
