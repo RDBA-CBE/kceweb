@@ -1,3 +1,4 @@
+/* SECTION */
 .placement {
   background: url("/images/kce/home/placement-training.webp")
     center / cover no-repeat;
@@ -7,29 +8,38 @@
 
 /* OVERLAY */
 .placementOverlay {
-  background: rgba(10, 45, 75, 0.85);
+  background: rgba(0, 23, 41, 0.87);
   min-height: 380px;
-  padding: 70px 90px;
+  padding: 70px 0;
+}
+
+/* CONTAINER */
+.container {
+  max-width: 75%;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* CONTENT WRAPPER */
+.placementContent {
   display: flex;
-  align-items: center;         /* 🔑 vertical center */
-  justify-content: center;     /* 🔑 screen center */
-  gap: 80px;
+  align-items: center;
+  gap: 60px;
 }
 
 /* LEFT */
 .placementLeft {
-  max-width: 420px;
+  flex: 0 0 40%;
+  max-width: 520px;
   color: #fff;
 }
 
 .placementLeft h2 {
-  font-size: 36px;
   font-weight: 600;
   margin-bottom: 12px;
 }
 
 .placementLeft p {
-  font-size: 15px;
   line-height: 1.6;
   opacity: 0.9;
 }
@@ -41,55 +51,90 @@
   color: #fff;
   padding: 10px 24px;
   border-radius: 6px;
-  font-size: 14px;
   cursor: pointer;
 }
 
 /* RIGHT STATS */
 .placementStats {
+  flex: 1;
   display: flex;
-  align-items: center;      /* 🔑 vertical center */
-  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
   color: #fff;
 }
 
 .stat {
-  min-width: 140px;
+  min-width: 160px;
   text-align: center;
 }
 
 .stat h3 {
-  font-size: 44px;
-  font-weight: 600;
+  font-size: 52px;
 }
 
 .stat span {
-  font-size: 14px;
+  font-size: 22px;
   opacity: 0.85;
 }
 
 /* DIVIDER */
 .divider {
   width: 1px;
-  height: 64px;
-  background: rgba(255, 255, 255, 0.35);
-  margin: 0 35px;
+  height: 80px;
+  background: rgba(255, 255, 255, 0.55);
 }
 
-/* TABLET */
-@media (max-width: 1024px) {
-  .placementOverlay {
-    padding: 60px 40px;
-    gap: 60px;
+/* =====================
+   TABLET / SMALL DESKTOP
+===================== */
+@media (max-width: 1200px) {
+  .container {
+    max-width: 90%;
+  }
+
+  .placementLeft {
+    flex: 0 0 45%;
+  }
+
+  .placementContent {
+    gap: 50px;
+  }
+
+  .stat h3 {
+    font-size: 44px;
+  }
+
+  .stat span {
+    font-size: 18px;
   }
 }
 
-/* MOBILE */
+/* =====================
+   TABLET
+===================== */
+@media (max-width: 1024px) {
+  .container {
+    max-width: 92%;
+  }
+}
+
+/* =====================
+   MOBILE
+===================== */
 @media (max-width: 768px) {
   .placementOverlay {
+    padding: 50px 0;
+  }
+
+  .placementContent {
     flex-direction: column;
     text-align: center;
     gap: 40px;
+  }
+
+  .placementLeft {
+    max-width: 100%;
+    flex: 1;
   }
 
   .placementStats {
@@ -103,5 +148,9 @@
 
   .stat h3 {
     font-size: 36px;
+  }
+
+  .stat span {
+    font-size: 16px;
   }
 }

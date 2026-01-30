@@ -66,11 +66,18 @@ export default function LatestNewsSection() {
   ];
 
   const eventsData = [
-    { month: "DEC", day: "18", title: "National Conference On Sustainable Materials (SMATAI)" },
-    { month: "JAN", day: "11", title: "One Day National Level Workshop on Data Analytics" },
-    { month: "JAN", day: "22", title: "Machine Learning Techniques for EEG Processing" },
-    { month: "FEB", day: "05", title: "Future of Robotics and AI in Healthcare" },
-    { month: "MAR", day: "12", title: "Annual Tech Innovation Summit 2026" }
+    { month: "JAN", day: "23", title: "From Classical to Quantum: Machine Learning in the Era of Quantum Computing" },
+    { month: "DEC", day: "04", title: "Understanding Stocks, IPOs & Equity Market Instruments: A Beginner’s Roadmap" },
+    { month: "DEC", day: "10", title: "7th National Level Management Fest – “Takshak 2025” at Karpagam College of Engineering (Autonomous)" },
+    { month: "NOV", day: "14", title: "Workshop on “Click & Conquer: Digital Marketing Strategies”" },
+    { month: "SEP", day: "26", title: "Debunking Menstrual Myths and Taboos" },
+    { month: "AUG", day: "01", title: "Webinar on “Business Without Borders: Embracing Diversity in Leadership and Strategy”" },
+    { month: "SEP", day: "27", title: "One-Day Village Immersion Program at Sokkanoor village" },
+    { month: "SEP", day: "17", title: "Industrial visit for its students to Lakshmi Machine Works (LMW), TMD – Unit 1" },
+    { month: "SEP", day: "17", title: "Report on IDEA TO IPO: THE STARTUP JOURNEY" },
+    { month: "AUG", day: "1", title: "Report on Driving Logistics Efficiency in India: From Traditional Trucking to Tech-Driven Transport" },
+    
+   
   ];
 
   useEffect(() => {
@@ -82,7 +89,7 @@ export default function LatestNewsSection() {
 
   return (
     <section className="latest-news-wrapper">
-      <h1 className="latest-news-heading">Latest News</h1>
+      <h2 className="latest-news-heading">LATEST NEWS</h2>
       
       <div className="latest-news-grid">
         {/* Left: Featured News Stack */}
