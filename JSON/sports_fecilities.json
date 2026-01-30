@@ -49,6 +49,8 @@
     {
       "type": "table",
       "data": {
+        "sectionbg":"section-bg1 mb-1",
+
         "secTitle": "Outdoor Games",
         "desc": "To provide extensive playing facilities an area of 6 acres was leveled with massive machinery. The following courts have been laid down with standard specifications both for Men & Women students.",
         "table": [
@@ -253,6 +255,8 @@
     {
       "type": "table",
       "data": {
+        "sectionbg":"section-bg1 pt-1",
+
         "secTitle": "Indoor Games",
         "desc": "In addition to the above, an indoor stadium has been constructed in an area of 12,000 Sq.feet. The following play field facilities available in indoor stadium.",
         "table": [
