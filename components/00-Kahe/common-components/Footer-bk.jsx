@@ -13,7 +13,7 @@ import {
 
 const Footer = () => {
   const QUICK_LINKS = {
-    title: "QUICK LINKS",
+    title: "Quick Links",
     links: [
       { label: "Policies and Regulations", href: "#" },
       { label: "AICTE Extension of Approval", href: "#" },
@@ -31,7 +31,7 @@ const Footer = () => {
   };
 
   const INFO_ABOUT = {
-    title: "INFORMATION ABOUT",
+    title: "Information About",
     links: [
       { label: "Our Campus", href: "#" },
       { label: "Cafeteria", href: "#" },
@@ -54,7 +54,7 @@ const Footer = () => {
   };
 
   const INFO_FOR = {
-    title: " INFORMATION FOR",
+    title: "Information for",
     links: [
       { label: "Karpagam Information & Admission Center's", href: "#" },
       { label: "News and Events", href: "#" },
@@ -95,7 +95,7 @@ const Footer = () => {
           <div className="kce-ftr__college-logo">
             <div className=" p-1 rounded shadow-sm">
               <img 
-                src="/images/kce/logo/KCE-logo-white.png" 
+                src="/images/logo/KCE-2025-LOGO-1.webp" 
                 alt="KCE Logo" 
                 className="h-12 w-auto"
                
@@ -140,13 +140,13 @@ const Footer = () => {
           <a href="#" className="kce-ftr__social-icon" aria-label="Youtube"><Youtube size={20} fill="currentColor" /></a>
           {/* <a href="#" className="kce-ftr__social-icon" aria-label="Telegram"><Send size={24} /></a> */}
         </div>
-        <p className="ftrcopy">Copyright 2026 © KCE. Concept by <a href="https://irepute.in" target="_blank">repute</a></p>
       </div>
     </div>
 
+    <hr className="kce-ftr__divider-main" />
 
     <div className="kce-ftr__bottom">
-      <img src="images/kce/home/karpagam-footer.webp" />
+      <p>Copyright 2026 © Concept by repute</p>
     </div>
   </footer>
   );
