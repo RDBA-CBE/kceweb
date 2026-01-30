@@ -137,11 +137,11 @@ const Footer = () => {
         </div>
 
         <div className="kce-ftr__socials">
-          <a href="#" className="kce-ftr__social-icon" aria-label="Facebook"><Facebook size={20} fill="currentColor" /></a>
-          <a href="#" className="kce-ftr__social-icon" aria-label="Instagram"><Instagram size={20} /></a>
-          <a href="#" className="kce-ftr__social-icon" aria-label="X (Twitter)"><Twitter size={20} fill="currentColor" /></a>
+          <a href="https://www.facebook.com/wekceians/" className="kce-ftr__social-icon" aria-label="Facebook"><Facebook size={20} fill="currentColor" target="_blank"/></a>
+          <a href="https://www.instagram.com/wekceians/" className="kce-ftr__social-icon" aria-label="Instagram"><Instagram size={20} target="_blank"/></a>
+          <a href="https://x.com/wekceians" className="kce-ftr__social-icon" aria-label="X (Twitter)"><Twitter size={20} fill="currentColor" target="_blank"/></a>
           {/* <a href="#" className="kce-ftr__social-icon" aria-label="WhatsApp"><MessageCircle size={24} /></a> */}
-          <a href="#" className="kce-ftr__social-icon" aria-label="Youtube"><Youtube size={20} fill="currentColor" /></a>
+          <a href="https://www.youtube.com/@wekceians" className="kce-ftr__social-icon" aria-label="Youtube"><Youtube size={20} fill="currentColor" target="_blank"/></a>
           {/* <a href="#" className="kce-ftr__social-icon" aria-label="Telegram"><Send size={24} /></a> */}
         </div>
         <p className="ftrcopy">Copyright 2026 © KCE. Concept by <a href="https://irepute.in" target="_blank">repute</a></p>
