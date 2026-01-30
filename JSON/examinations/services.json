@@ -1,0 +1,36 @@
+{
+    "banner": {
+        "bannerImg": "/images/kce/banner_admission.jpg",
+        "title": "Services",
+        "breadcrumb": [
+           
+        ]
+    },
+    "sections": [
+        {
+            "type": "split-image-content",
+            "data": {
+                "imagePosition": "right",
+                "sectionbg": "section-bg1 mt-0 pt-0 ",
+                
+                "content": [
+                 
+                    {
+                        "type": "title",
+                        "mainTi": "Procedure for obtaining transcripts (Required for Higher studies in foreign Universities)"
+                    },
+                    {
+                        "type": "list",
+                        "items": [
+                            "The Candidate should submit a transcript request letter duly signed by the Head of the Department and the principal in Person / Person authorized by the Candidate (along with authorization letter and photocopy of the Government authorized proof of Identity of Person authorized) at the Office of the Controller of Examinations.",
+                            "The Person who is submitting the Application form for Transcripts should come and collect the Transcripts, if not able to come and collect the Transcripts, an Authorized Person (Along with the Authorization Letter to collect the Transcript along with a photocopy of the Government authorized Proof of Identity of Person collecting Transcripts) can collect the Transcript at the Office of the Controller of Examinations.",
+                            "The Candidate should have identified the Universities/Institutions for which the Transcripts are required. The names and addresses of the Universities/Institutions should be written on the official envelope (legal size cloth lined cover) for transcripts which will be supplied at the time of submitting the Application form.",
+                            "The prescribed fees has to be paid in cash at the cash counter in the college office.",
+                            "The Candidates will be issued the required number of Transcripts with grades of all the completed semesters printed on a single sheet duly signed by the Controller of Examinations."
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

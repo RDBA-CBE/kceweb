@@ -1,0 +1,412 @@
+{
+    "banner": {
+        "bannerImg": "/images/kce/banner_admission.jpg",
+        "title": "Time Table",
+        "breadcrumb": []
+    },
+    "sections": [
+        {
+            "type": "table",
+            "data": {
+                "secTitle": "Time Table - 2025",
+                "table": [
+                    {
+                        "content": [
+                            {
+                                "rowsPerPage": "999",
+                                "head": [
+                                    {
+                                        "id": "col1",
+                                        "label": "Name "
+                                    }
+                                ],
+                                "data": [
+                                    {
+                                        "col1": {
+                                            "text": "2023 Regulations MBA Timetable – Dec 2025",
+                                            "url": "https://kce.ac.in/new/wp-content/uploads/2025/11/2023-Regulations-MBA-Timetable.pdf"
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "2023 Regulations MCA Timetable – Dec 2025",
+                                            "url": "https://kce.ac.in/new/wp-content/uploads/2025/11/2023-Regulations-MCA-Timetable.pdf"
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "2023 Regulations ME Timetable – Dec 2025",
+                                            "url": "https://kce.ac.in/new/wp-content/uploads/2025/11/2023-Regulations-ME-Timetable.pdf"
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "2023 Regulations UG Timetable – Dec 2025",
+                                            "url": "https://kce.ac.in/new/wp-content/uploads/2025/11/2023-Regulations-UG-Timetable.pdf"
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "2021 Regulations UG Timetable – Dec 2025",
+                                            "url": "https://kce.ac.in/new/wp-content/uploads/2025/11/2021-Regulations-UG-Timetable.pdf"
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "UG Passed Out Arrear UG Timetable – Dec 2025",
+                                            "url": "https://kce.ac.in/new/wp-content/uploads/2025/11/UG-Passed-Out-Arrear-UG-Timetable.pdf"
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "2021 Regulations UG Time table – May 2025",
+                                            "url": "https://kce.ac.in/new/wp-content/uploads/2025/04/2021-Regulations-UG-Time-table-1.pdf"
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "2023 Regulations UG Time table – May 2025",
+                                            "url": "https://kce.ac.in/new/wp-content/uploads/2025/04/2023-Regulations-UG-Time-table.pdf"
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "MBA Time Table – May 2025",
+                                            "url": "https://kce.ac.in/new/wp-content/uploads/2025/04/MBA-Time-table.pdf"
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "MCA Time Table – May 2025",
+                                            "url": "https://kce.ac.in/new/wp-content/uploads/2025/04/MCA-Time-table.pdf"
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "ME Time Table – May 2025",
+                                            "url": "https://kce.ac.in/new/wp-content/uploads/2025/04/ME-Time-table.pdf"
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "UG Passed out Arrear Time table – May 2025",
+                                            "url": "https://kce.ac.in/new/wp-content/uploads/2025/04/UG-Passed-out-Arrear-Timetable-1.pdf"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "type": "table",
+            "data": {
+                "secTitle": "Time Table - December 2024",
+                "table": [
+                    {
+                        "content": [
+                            {
+                                "rowsPerPage": "999",
+                                "head": [
+                                    {
+                                        "id": "col1",
+                                        "label": "Name "
+                                    }
+                                ],
+                                "data": [
+                                    {
+                                        "col1": {
+                                            "text": "I Year MBA Time Table – December 2024",
+                                            "url": "https://kce.ac.in/new/wp-content/uploads/2024/11/I-Year-MBA-Timetable.pdf"
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "I Year MCA Time Table – December 2024",
+                                            "url": "https://kce.ac.in/new/wp-content/uploads/2024/11/I-Year-MCA-Timetable.pdf"
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "I Year ME(VLSI) Time Table – December 2024",
+                                            "url": "https://kce.ac.in/new/wp-content/uploads/2024/11/I-Year-MEVLSI-Timetable.pdf"
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "I Year UG Time Table – December 2024",
+                                            "url": "https://kce.ac.in/new/wp-content/uploads/2024/11/I-Year-UG-Timetable.pdf"
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "II Year MBA Time Table – December 2024",
+                                            "url": "https://kce.ac.in/new/wp-content/uploads/2024/11/II-Year-MBA-Timetable.pdf"
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "II Year MCA Time Table – December 2024",
+                                            "url": "https://kce.ac.in/new/wp-content/uploads/2024/11/II-Year-MCA-Timetable.pdf"
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "II Year ME(CS) Time Table – December 2024",
+                                            "url": "https://kce.ac.in/new/wp-content/uploads/2024/11/II-Year-MECS-Timetable.pdf"
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "II Year ME(MT) Time Table – December 2024",
+                                            "url": "https://kce.ac.in/new/wp-content/uploads/2024/11/II-Year-MEMT-Timetable.pdf"
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "II Year ME(VLSI) Time Table – December 2024",
+                                            "url": "https://kce.ac.in/new/wp-content/uploads/2024/11/II-Year-MEVLSI-Timetable.pdf"
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "II Year UG Time Table – December 2024",
+                                            "url": "https://kce.ac.in/new/wp-content/uploads/2024/11/II-Year-UG-Timetable.pdf"
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "IV and III Year UG Time Table – December 2024",
+                                            "url": "https://kce.ac.in/new/wp-content/uploads/2024/11/IV-and-III-Year-UG-Timetable.pdf"
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "UG Passed Out Arrear Time Table – December 2024",
+                                            "url": "https://kce.ac.in/new/wp-content/uploads/2024/11/UG-Passed-out-Arrear-Timetable.pdf"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "type": "table",
+            "data": {
+                "secTitle": "Time Table - May 2024",
+                "table": [
+                    {
+                        "content": [
+                            {
+                                "rowsPerPage": "999",
+                                "head": [
+                                    {
+                                        "id": "col1",
+                                        "label": "Name "
+                                    }
+                                ],
+                                "data": [
+                                    {
+                                        "col1": {
+                                            "text": "2023 Batch UG Time Table – May 2024",
+                                            "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/2023-Batch-UG-Time-Table_May-2024.pdf"
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "2023 Batch ME (VLSI) Time Table – May 2024",
+                                            "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/2023-Batch-ME-VLSI-Time-Table_May-2024.pdf"
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "2023 Batch ME (MT) Time Table – May 2024",
+                                            "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/2023-Batch-ME-MT-Time-Table_May-2024.pdf"
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "2023 Batch ME (CS) Time Table – May 2024",
+                                            "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/2023-Batch-ME-CS-Time-Table_May-2024.pdf"
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "2023 Batch MCA Time Table – May 2024",
+                                            "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/2023-Batch-MCA-Time-Table_May-2024.pdf"
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "2023 Batch MBA Time Table – May 2024",
+                                            "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/2023-Batch-MBA-Time-Table_May-2024.pdf"
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "2022 Batch MCA Time Table – May 2024",
+                                            "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/2022-Batch-MCA-Time-Table_May-2024.pdf"
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "2022 Batch MBA Time Table – May 2024",
+                                            "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/2022-Batch-MBA-Time-Table_May-2024.pdf"
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "2020, 2021, 2022 Batches of UG Time Table – May 2024",
+                                            "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/2020-2021-and-2022-Batches-of-UG-Time-Table_May-2024.pdf"
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "2019 Batch UG Arrear Exam Time Table – May 2024",
+                                            "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/UG-Arrear-Exam-Time-Table_May-2024.pdf"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "type": "table",
+            "data": {
+                "secTitle": "Time Table - December 2023",
+                "table": [
+                    {
+                        "content": [
+                            {
+                                "rowsPerPage": "999",
+                                "head": [
+                                    {
+                                        "id": "col1",
+                                        "label": "Name "
+                                    }
+                                ],
+                                "data": [
+                                    {
+                                        "col1": {
+                                            "text": "UG Time Table – December 2023",
+                                            "url": "https://kce.ac.in/new/wp-content/uploads/2024/01/UG_2023.pdf"
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "MBA Time Table – December 2023",
+                                            "url": "https://kce.ac.in/new/wp-content/uploads/2024/01/PG_MBA_2023-1.pdf"
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "2022 Batch MBA Time Table – December 2023",
+                                            "url": "https://kce.ac.in/new/wp-content/uploads/2024/01/PG_MBA_2022.pdf"
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "ME VLSI Time Table – December 2023",
+                                            "url": "https://kce.ac.in/new/wp-content/uploads/2024/01/PG_VLSI_2023-1.pdf"
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "MCA Time Table – December 2023",
+                                            "url": "https://kce.ac.in/new/wp-content/uploads/2024/01/PG_MCA_2023.pdf"
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "ME Mechatronics Time Table – December 2023",
+                                            "url": "https://kce.ac.in/new/wp-content/uploads/2024/01/PG_Mechatronics_2023.pdf"
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "ME – Communication Systems Time Table – December 2023",
+                                            "url": "https://kce.ac.in/new/wp-content/uploads/2024/01/PG_CS_2023.pdf"
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "2020, 2021, 2022 UG Batches – December 2023",
+                                            "url": "https://kce.ac.in/new/wp-content/uploads/2024/01/UG_202020212022.pdf"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "type": "table",
+            "data": {
+                "secTitle": "Time Table - 2022",
+                "table": [
+                    {
+                        "content": [
+                            {
+                                "rowsPerPage": "999",
+                                "head": [
+                                    {
+                                        "id": "col1",
+                                        "label": "Name "
+                                    }
+                                ],
+                                "data": [
+                                    {
+                                        "col1": {
+                                            "text": "UG Time Table – July 2022",
+                                            "url": "https://kce.ac.in/new/wp-content/uploads/2022/07/UG-Time-table_July-2022.pdf"
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "MCA Time Table – July 2022",
+                                            "url": "https://kce.ac.in/new/wp-content/uploads/2022/07/MCA-Timetable_July-2022.pdf"
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "MBA Time Table – July 2022",
+                                            "url": "https://kce.ac.in/new/wp-content/uploads/2022/07/MBA-Timetable_July-2022.pdf"
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "2020 Batch MCA Arrear – June 2022",
+                                            "url": "https://kce.ac.in/new/wp-content/uploads/2022/07/2020-Batch-MCA-Arrear_June-2022.pdf"
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "2020 Batch MBA Arrear – June 2022",
+                                            "url": "https://kce.ac.in/new/wp-content/uploads/2022/07/2020-Batch-MBA-Arrear_June-2022.pdf"
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "2018 Batch UG – June 2022",
+                                            "url": "https://kce.ac.in/new/wp-content/uploads/2022/07/2018-Batch-UG_June-2022.pdf"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

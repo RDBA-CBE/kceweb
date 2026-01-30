@@ -1,17 +1,45 @@
-'use client';
+"use client";
 
-import React from 'react';
-import SideMenu1 from '@/components/00-KCE/Examinations/sideMenu1.js';
-import data from '@/JSON/EXAMINATION/TIME-TABLE/page.json';
-import InnerBanner from '@/components/00-KCE/common/InnerBanner';
-import { department } from '@/utils/constant.util';
+import React from "react";
+import SideMenu from "@/components/00-KCE/ABOUT/sideMenu";
+import data from "@/JSON/examinations/time_table.json";
+import sideBarData from "@/JSON/sidebar.json";
+import InnerBanner from "@/components/00-KCE/common/InnerBanner";
+import RenderSection from "../RenderComponent/RenderSection";
 
 const TimeTable = () => {
-  const { pageTitle, sections, socialLinks, cta } = data;
+
+  const pageData = data;
+
+  const renderSectionWrapper = (section, index) => {
+    return (
+      <RenderSection
+        section={section}
+        index={index}
+        renderSection={renderSectionWrapper}
+      />
+    );
+  };
+
 
   return (
-    <section className='about-wrapper'>
-      <InnerBanner data={data?.banner} />
+    <section className="">
+      <InnerBanner
+        data={pageData?.banner}
+      />
+      <div className="section-wid section-bg1 ">
+        <div className="row sidebar-com">
+          {/* LEFT CONTENT */}
+          <div className="col-lg-9">
+            {pageData?.sections?.map((section, index) =>
+              renderSectionWrapper(section, index),
+            )}
+          </div>
+
+          {/* RIGHT STICKY MENU */}
+          <SideMenu data={sideBarData?.examination} />
+        </div>
+      </div>
     </section>
   );
 };
