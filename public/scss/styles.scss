@@ -313,6 +313,13 @@
   padding: 40px 0;
 }
 
+@media (max-width: 1600px) {
+  .section-wid {
+    width: 85%;
+    margin: auto;
+  }
+}
+
 @media (max-width: 1500px) {
   .section-wid {
     width: 92%;
