@@ -1,0 +1,18 @@
+{
+  "banner": {
+    "bannerImg": "/images/kce/banner_computer_technology.jpg",
+    "title": "Organizatonal Structre",
+    "breadcrumb": []
+  },
+  "sections": [
+    {
+      "type": "full-width-image",
+      "data": {
+        "sectionbg": "section-bg1",
+        "src": "https://kce.ac.in/new/wp-content/uploads/2022/07/organizational-structure-1.jpg",
+        "alt": "placement-kce-Image-",
+        "height": "auto"
+      }
+    }
+  ]
+}
