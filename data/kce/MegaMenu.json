@@ -146,89 +146,88 @@
       "hasMenuChild": true,
       "hasPositionStatic": true,
       "hasSideBanner": true,
-        "menuItems": [
-          {
-            "id": 1,
-            "title": "Clubs",
-            "link": "/KCE/infrastructure/clubs/"
-          },
-          {
-            "id": 2,
-            "title": "Arts & Culture",
-            "link": "/KCE/infrastructure/arts-culture/"
-          },
-          {
-            "id": 3,
-            "title": "Campus Events",
-            "link": "/KCE/infrastructure/campus-events/"
-          },
-          {
-            "id": 4,
-            "title": "Health and Fitness",
-            "link": "/KCE/infrastructure/health-and-fitness/"
-          },
-          {
-            "id": 5,
-            "title": "Karpagam Innovation Center",
-            "link": "/KCE/infrastructure/karpagam-innovation-centre/"
-          },
-          {
-            "id": 6,
-            "title": "National Innovation and Start-up Policy",
-            "link": "/KCE/infrastructure/national-innovation-and-start-up-policy/"
-          },
-          {
-            "id": 7,
-            "title": "KIC TV",
-            "link": "/KCE/infrastructure/student-media/"
-          },
-          {
-            "id": 8,
-            "title": "Hostel",
-            "link": "/KCE/infrastructure/hostel/"
-          },
-          {
-            "id": 9,
-            "title": "Cafeteria",
-            "link": "/KCE/infrastructure/cafeteria/"
-          },
-          {
-            "id": 10,
-            "title": "NSS",
-            "link": "/KCE/infrastructure/nss/"
-          },
-          {
-            "id": 11,
-            "title": "Entrepreneurship",
-            "link": "/KCE/infrastructure/entrepreneurship/"
-          },
-          {
-            "id": 12,
-            "title": "Library",
-            "link": "/KCE/library/"
-          },
-          {
-            "id": 13,
-            "title": "Transport",
-            "link": "/KCE/infrastructure/transport/"
-          },
-          {
-            "id": 14,
-            "title": "Banking",
-            "link": "/KCE/infrastructure/banking/"
-          },
-          {
-            "id": 15,
-            "title": "Infrastructure",
-            "link": "/KCE/infrastructure/"
-          }
-        ]
-      
+      "menuItems": [
+        {
+          "id": 1,
+          "title": "Clubs",
+          "link": "/KCE/infrastructure/clubs/"
+        },
+        {
+          "id": 2,
+          "title": "Arts & Culture",
+          "link": "/KCE/infrastructure/arts-culture/"
+        },
+        {
+          "id": 3,
+          "title": "Campus Events",
+          "link": "/KCE/infrastructure/campus-events/"
+        },
+        {
+          "id": 4,
+          "title": "Health and Fitness",
+          "link": "/KCE/infrastructure/health-and-fitness/"
+        },
+        {
+          "id": 5,
+          "title": "Karpagam Innovation Center",
+          "link": "/KCE/infrastructure/karpagam-innovation-centre/"
+        },
+        {
+          "id": 6,
+          "title": "National Innovation and Start-up Policy",
+          "link": "/KCE/infrastructure/national-innovation-and-start-up-policy/"
+        },
+        {
+          "id": 7,
+          "title": "KIC TV",
+          "link": "/KCE/infrastructure/student-media/"
+        },
+        {
+          "id": 8,
+          "title": "Hostel",
+          "link": "/KCE/infrastructure/hostel/"
+        },
+        {
+          "id": 9,
+          "title": "Cafeteria",
+          "link": "/KCE/infrastructure/cafeteria/"
+        },
+        {
+          "id": 10,
+          "title": "NSS",
+          "link": "/KCE/infrastructure/nss/"
+        },
+        {
+          "id": 11,
+          "title": "Entrepreneurship",
+          "link": "/KCE/infrastructure/entrepreneurship/"
+        },
+        {
+          "id": 12,
+          "title": "Library",
+          "link": "/KCE/library/"
+        },
+        {
+          "id": 13,
+          "title": "Transport",
+          "link": "/KCE/infrastructure/transport/"
+        },
+        {
+          "id": 14,
+          "title": "Banking",
+          "link": "/KCE/infrastructure/banking/"
+        },
+        {
+          "id": 15,
+          "title": "Infrastructure",
+          "link": "/KCE/infrastructure/"
+        }
+      ]
     },
     {
       "menuTitle": "Accreditations",
       "menuType": "Accreditations",
-      "link":"/KCE/accreditations",
+      "link": "/KCE/accreditations",
       "hasMegamenu": false,
       "hasMenuChild": false,
       "hasPositionStatic": false,
@@ -293,7 +292,7 @@
           "link": "https://kce.ac.in/category/news-event/",
           "desc": "Learn more about KAHE overview.",
           "src": "/images/banner/co-men.png",
-          "target":"_blank"
+          "target": "_blank"
         },
         {
           "id": 2,
@@ -314,14 +313,19 @@
     {
       "menuTitle": "Examinations",
       "menuType": "examinations",
-      "link":"/KCE/examinations",
       "hasMegamenu": true,
       "hasMenuChild": true,
       "hasPositionStatic": true,
       "hasSideBanner": true,
       "menuItems": [
+        {
+          "id": 1,
+          "title": "Overview",
+          "link": "/KCE/examinations",
+          "desc": "Learn more about KAHE overview.",
+          "src": "/images/banner/co-men.png"
+        },
 
-          
         {
           "id": 1,
           "title": "Instructions to the candidates",
@@ -376,7 +380,7 @@
     {
       "menuTitle": "Contact",
       "menuType": "contact",
-      "link":"/KCE/contact-us"
+      "link": "/KCE/contact-us"
     }
   ]
 }

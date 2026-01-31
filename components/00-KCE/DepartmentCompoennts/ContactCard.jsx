@@ -5,7 +5,7 @@ import React from 'react'
 
 const ContactCard = ({ data }) => {
   return (
-    <section className={data?.sectionbg || 'section-bg1'}>
+    <section className={data?.sectionbg || 'section-bg1'} id={data?.id}>
       <div className='contactus-section section-wid'>
         <div className='row g-5'>
           {/* Image Left */}

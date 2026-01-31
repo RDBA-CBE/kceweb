@@ -49,7 +49,7 @@ const Aboutpage = () => {
             <SplitImageContent data={Highlights} />
 
             <section className="abt ug-wall ">
-              <div className="container">
+              <div className="">
                 <h2 className="section-ti-sec">{course.title}</h2>
 
                 <div className="ug-ribbon">
@@ -64,7 +64,7 @@ const Aboutpage = () => {
           </div>
 
           {/* RIGHT STICKY MENU */}
-          <SideMenu active="About Karpagam" data={sideBarData?.profile} />
+          <SideMenu  data={sideBarData?.profile} />
         </div>
       </div>
     </section>

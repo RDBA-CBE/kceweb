@@ -508,7 +508,7 @@
 }
 
 .kahe.rbt-header .kahe-header-menu.rbt-header-wrapper {
-  background: #e6e4e4;
+  background: #cc6926;
 }
 
 .kahe.rbt-header .mainmenu-nav .mainmenu > li > a {
@@ -516,6 +516,7 @@
   line-height: normal;
   padding: 15px 17px;
   font-size: 14px;
+  color: #fff;
 }
 
 .mobile-child-submenu {
@@ -2064,12 +2065,31 @@ a.ps-card:hover .ps-title {
 }
 
 .kce-acc .rbt-accordion-style .card .card-header button {
-  font-size: 24px !important;
+  font-size: 20px !important;
   font-weight: 400;
 }
 
-.clr-ti{
+.clr-ti {
   color: #cc6926;
   padding-bottom: 10px;
   padding-top: 10px;
+}
+
+.popup-mobile-menu .mainmenu .has-menu-child-item > a.show-dd::after {
+  display: none !important;
+}
+
+.social-default.transparent-with-border li a {
+  background: #cc6926;
+  width: 38px;
+  height: 38px;
+  border: none;
+  color: #fff;
+
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.social-default li a i{
+  margin-top: -4px;
 }

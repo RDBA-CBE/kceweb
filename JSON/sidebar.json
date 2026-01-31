@@ -31,6 +31,10 @@
     ],
     "examination": [
         {
+            "label": "Overview",
+            "path": "/KCE/examinations/"
+        },
+        {
             "label": "Instructions to the candidates",
             "path": "/KCE/examinations/instructions-to-the-candidates/"
         },
@@ -57,7 +61,7 @@
         },
         {
             "label": "Contact",
-            "path": "/KCE/examinations/exam-contact"
+            "path": "/KCE/examinations/#exam-contact"
         }
     ]
 }

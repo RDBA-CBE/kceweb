@@ -37,7 +37,7 @@ export default function ManagementProPage() {
             ))}
           </div>
 
-          <SideMenu active="About Karpagam" data={sideBarData?.profile} />
+          <SideMenu  data={sideBarData?.profile} />
         </div>
       </div>
     </section>

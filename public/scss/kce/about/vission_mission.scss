@@ -141,14 +141,8 @@
      RESPONSIVE
   ================================ */
 @media (max-width: 992px) {
-  .vm-title {
-    font-size: 1.9rem;
-  }
 
-  .vm-text,
-  .vm-list li {
-    font-size: 1.05rem;
-  }
+
 }
 
 @media (max-width: 576px) {
@@ -156,7 +150,4 @@
     padding: 28px;
   }
 
-  .vm-title {
-    font-size: 1.7rem;
-  }
 }

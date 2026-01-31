@@ -46,7 +46,7 @@ const MobileMenuNav = () => {
 
   const toggleKey = (title) => {
     setActiveKeys((prev) =>
-      prev.includes(title) ? prev.filter((t) => t !== title) : [...prev, title]
+      prev.includes(title) ? prev.filter((t) => t !== title) : [...prev, title],
     );
   };
 
@@ -54,33 +54,41 @@ const MobileMenuNav = () => {
     <nav className="mainmenu-nav mobile-menu">
       <ul className="mainmenu">
         {MenuData.menuData.map((menu) => {
-          const isActive = activeMenuItem === menu.menuType;
-          const hasMegaMenu = menu.menuItems && menu.menuItems.length > 0;
+          const isOpen = activeMenuItem === menu.menuType;
+
+          const hasMegaMenu =
+            menu.hasMegamenu === true &&
+            Array.isArray(menu.menuItems) &&
+            menu.menuItems.length > 0;
+
+          console.log("hasMegaMenu", hasMegaMenu);
 
           return (
             <li
               key={menu.menuType}
               className={`with-megamenu has-menu-child-item ${
-                hasMegaMenu ? "position-static" : ""
+                menu.hasPositionStatic ? "position-static" : ""
               }`}
             >
               <Link
-                className={`${isActive ? "open" : ""}`}
-                href="#"
+                href={menu.link || "#"}
+                className={`${isOpen ? "open" : ""} ${!hasMegaMenu && "show-dd"}`}
                 onClick={(e) => {
-                   e.preventDefault(); 
-                  isMobile && toggleMenuItem(menu.menuType)}}
+                  if (hasMegaMenu && isMobile) {
+                    e.preventDefault();
+                    toggleMenuItem(menu.menuType);
+                  }
+                }}
               >
                 {menu.menuTitle}
-                <i className="feather-chevron-down"></i>
+                {hasMegaMenu && <i className="feather-chevron-down" />}
               </Link>
 
-              {/* Mega Menu */}
               {hasMegaMenu && (
                 <div
-                  className={`rbt-megamenu ${
-                    showThreeCols ? "grid-item-3" : "grid-item-2"
-                  } ${isActive ? "active d-block" : ""}`}
+                  className={`rbt-megamenu grid-item-2 ${
+                    isOpen ? "active d-block" : ""
+                  }`}
                 >
                   <div className="wrapper">
                     <div className="row row--15">

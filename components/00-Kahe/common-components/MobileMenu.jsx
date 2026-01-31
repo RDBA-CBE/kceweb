@@ -3,15 +3,15 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import logo from "../../../public/images/logo/logo.png";
+import logo from "../../../public/images/kce/logo/KCE-logo-color.png";
 
 import { useAppContext } from "@/context/Context";
 import Nav from "./Header-sub-components/Nav";
 import MobileMenuNav from "./Header-sub-components/MobileMenuNav";
+import { Mail, Smartphone } from "lucide-react";
 
 const MobileMenu = () => {
   const { mobile, setMobile } = useAppContext();
-
 
   return (
     <>
@@ -19,7 +19,7 @@ const MobileMenu = () => {
         <div className="backdrop" onClick={() => setMobile(!mobile)}></div>
         <div className="inner-wrapper">
           <div className="inner-top">
-            <div className="content">
+            <div className="content pe-0">
               <div className="logo">
                 <Link href="/">
                   <Image
@@ -39,19 +39,26 @@ const MobileMenu = () => {
                 </button>
               </div>
             </div>
-            <p className="description">
-              Histudy is a education website template. You can customize all.
-            </p>
-            <ul className="navbar-top-left rbt-information-list justify-content-start">
+
+            <ul className="navbar-top-left rbt-information-list justify-content-start mt-5 g-3">
               <li>
-                <Link href="mailto:hello@example.com">
-                  <i className="feather-mail"></i>example@gmail.com
-                </Link>
+                <a className="kce-hdr__contact-item" href="tel:914222619005">
+                  <Smartphone
+                    className="kce-hdr__icon"
+                    size={18}
+                    strokeWidth={1.5}
+                  />
+                  <span>+91 - 422 2619005</span>
+                </a>
               </li>
               <li>
-                <Link href="#">
-                  <i className="feather-phone"></i>(302) 555-0107
-                </Link>
+                <a
+                  className="kce-hdr__contact-item"
+                  href="mailto:info@kce.ac.in"
+                >
+                  <Mail className="kce-hdr__icon" size={18} strokeWidth={1.5} />
+                  <span>info@kce.ac.in</span>
+                </a>
               </li>
             </ul>
           </div>
@@ -60,26 +67,35 @@ const MobileMenu = () => {
 
           <div className="mobile-menu-bottom">
             <div className="social-share-wrapper">
-            
-              <ul className="social-icon social-default transparent-with-border justify-content-start mt--20">
+              <ul className="social-icon social-default transparent-with-border justify-content-start ">
                 <li>
-                  <Link href="https://www.facebook.com/">
-                    <i className="feather-facebook"></i>
+                  <Link href="https://www.facebook.com/wekceians/">
+                    <i className="fab fa-facebook"></i>
                   </Link>
                 </li>
                 <li>
-                  <Link href="https://www.twitter.com">
-                    <i className="feather-twitter"></i>
+                  <Link href="https://twitter.com/wekceians">
+                   𝕏
                   </Link>
                 </li>
                 <li>
-                  <Link href="https://www.instagram.com/">
-                    <i className="feather-instagram"></i>
+                  <Link href="https://www.instagram.com/wekceians/">
+                    <i className="fab fa-instagram"></i>
                   </Link>
                 </li>
                 <li>
-                  <Link href="https://www.linkdin.com/">
-                    <i className="feather-linkedin"></i>
+                  <Link href="https://www.youtube.com/@wekceians">
+                    <i className="fab fa-youtube"></i>
+                  </Link>
+                </li>
+                 <li>
+                  <Link href="https://www.youtube.com/@wekceians">
+                    <i className=" fab fa-pinterest"></i>
+                  </Link>
+                </li>
+                 <li>
+                  <Link href="https://www.youtube.com/@wekceians">
+                    <i className="fab fa-linkedin"></i>
                   </Link>
                 </li>
               </ul>

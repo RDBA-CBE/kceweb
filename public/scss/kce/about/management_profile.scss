@@ -9,7 +9,7 @@
   
   /* Leader Layout */
   .leader-row {
-    display: flex;
+    // display: flex;
     gap: 40px;
     padding: 40px 0;
     border-bottom: 1px solid #e5e5e5;
@@ -20,10 +20,20 @@
     flex-direction: row-reverse;
     justify-content: space-between;
   }
+
+  .leader-image {
+    float: left;
+    flex-shrink: 0;
+    padding-right: 30px;
+    padding-bottom: 10px;
+  }
   
   /* Image */
-  .leader-image {
+  .leader-row.reverse .leader-image {
+    float: right;
     flex-shrink: 0;
+    padding-left: 30px;
+     padding-bottom: 10px;
   }
   
   .leader-image img {
@@ -35,6 +45,7 @@
   
   /* Content */
   .leader-content {
+    width: 100%;
     position: relative;
     // padding-left: 25px;
   }
