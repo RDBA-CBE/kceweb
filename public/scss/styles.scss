@@ -315,7 +315,13 @@
 
 @media (max-width: 1500px) {
   .section-wid {
-    width: 90%;
+    width: 92%;
+    margin: auto;
+  }
+}
+@media (max-width: 1400px) {
+  .section-wid {
+    width: 92%;
     margin: auto;
   }
 }
