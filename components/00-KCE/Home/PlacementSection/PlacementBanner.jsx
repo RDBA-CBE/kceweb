@@ -42,7 +42,7 @@ export default function PlacementBanner() {
               visited by multinational companies year after year and has a
               strong placement record.
             </p>
-            <button className="placementBtn">KNOW MORE</button>
+            <a href="KCE/overview"><button className="placementBtn">KNOW MORE</button></a>
           </div>
 
           {/* RIGHT */}

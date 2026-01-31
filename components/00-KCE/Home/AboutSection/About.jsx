@@ -37,7 +37,9 @@ const About = ({ data = {} }) => {
             ))}
           </div>
 
-          <button className={styles.ctaButton}>Read More</button>
+          <a href="/KCE/profile">
+            <button className={styles.ctaButton}>Read More</button>
+          </a>
         </div>
 
         {/* Image Side */}

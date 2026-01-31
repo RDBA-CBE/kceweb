@@ -12,7 +12,7 @@ const FeaturedNewsItem = ({ data, isActive }) => (
     </div>
     <h2 className="featured-news-title">{data.title}</h2>
     <p className="featured-news-description">{data.description}</p>
-    <button className="btn-primary">KNOW MORE</button>
+   <a href="https://kce.ac.in/category/news-event/"> <button className="btn-primary">KNOW MORE</button></a>
   </div>
 );
 
@@ -34,7 +34,7 @@ const NewsList = ({ events }) => (
       </div>
     </div>
     <div className="sidebar-footer">
-      <button className="btn-primary btn-more">MORE NEWS</button>
+      <a href="https://kce.ac.in/category/news-event/"><button className="btn-primary btn-more">MORE NEWS</button></a>
     </div>
     <div className="decor-dots"></div>
   </div>
