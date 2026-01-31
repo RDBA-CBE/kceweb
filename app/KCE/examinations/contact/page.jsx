@@ -5,7 +5,7 @@ import SideMenu from "@/components/00-KCE/ABOUT/sideMenu";
 import data from "@/JSON/examinations/services.json";
 import sideBarData from "@/JSON/sidebar.json";
 import InnerBanner from "@/components/00-KCE/common/InnerBanner";
-import RenderSection from "../RenderComponent/RenderSection";
+import RenderSection from "@/components/00-KCE/RenderComponent/RenderSection";
 
 const ContactPage = () => {
 
