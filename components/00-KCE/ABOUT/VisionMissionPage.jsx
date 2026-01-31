@@ -13,7 +13,7 @@ const VisionMissionPage = () => {
     <section className="about-wrapper">
       <InnerBanner data={banner} />
 
-      <div className="section-wid section-bg1 my-5">
+      <div className="section-wid section-bg1">
         <div className="row">
           {/* LEFT CONTENT */}
           <div className="col-lg-9 about-content-area">
@@ -25,7 +25,7 @@ const VisionMissionPage = () => {
             </div>
 
             {/* MISSION */}
-            <div className="vm-card fade-up delay-1">
+            <div className="vm-card fade-up delay-1 mb-0">
               <span className="ti-badge">{content.mission.badge}</span>
               <h2 className="section-ti">{content.mission.title}</h2>
 

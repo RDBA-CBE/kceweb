@@ -16,7 +16,7 @@ const Aboutpage = () => {
   return (
     <section className=" about-wrapper ">
       <InnerBanner data={data?.banner} />
-      <div className="section-wid section-bg1 my-5">
+      <div className="section-wid section-bg1">
         <div className="row">
           {/* LEFT CONTENT */}
           <div className="col-lg-9 about-content-area sidebar-com">
@@ -48,7 +48,7 @@ const Aboutpage = () => {
 
             <SplitImageContent data={Highlights} />
 
-            <section className="abt ug-wall ">
+            <section className="abt ug-wall pt-0">
               <div className="">
                 <h2 className="section-ti-sec">{course.title}</h2>
 

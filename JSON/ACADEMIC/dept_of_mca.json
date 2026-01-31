@@ -66,13 +66,14 @@
     },
 
     {
-      "type": "card-grid",
+      "type": "image-overlay-content",
       "data": {
+        "bgImage": "/images/kce/academics/banner.jpg",
+
         "title": "Courses Offered",
-        "content": [
+        "list": [
           {
-            "id": 1,
-            "name": "B.E. Computer Science and Technology"
+            "title": "B.E. Computer Science and Technology"
           }
         ]
       }
@@ -240,7 +241,7 @@
       "type": "split-image-content",
       "data": {
         "imagePosition": "left",
-        "sectionbg": "section-bg1 my-4",
+        "sectionbg": "section-bg1 pt-0",
         "image": "/images/gallery/gallery-big.jpg",
         "content": [
           {
@@ -249,7 +250,9 @@
           },
           {
             "type": "paragraph",
-            "text": ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus commodi suscipit in maiores vero aliquam nam. Consequatur, nulla! At illo dignissimos accusantium, aut quas error consectetur consequatur officiis quae dolore!"]
+            "text": [
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus commodi suscipit in maiores vero aliquam nam. Consequatur, nulla! At illo dignissimos accusantium, aut quas error consectetur consequatur officiis quae dolore!"
+            ]
           },
           {
             "type": "button",

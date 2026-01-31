@@ -29,7 +29,9 @@ export default function CourseOffPage() {
             {/* RIGHT IMAGE */}
             <div className="col-lg-5 admission-right">
               <img src={admission.image.src} alt={admission.image.alt} />
-              <div className="admission-tag">{admission.image.tag}</div>
+              <a href="https://admission.kce.ac.in/" target="_blank">
+                <div className="admission-tag">{admission.image.tag}</div>
+              </a>
             </div>
           </div>
         </div>

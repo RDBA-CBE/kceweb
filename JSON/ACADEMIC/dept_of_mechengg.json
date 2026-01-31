@@ -591,220 +591,6 @@
     },
 
     {
-      "type": "pill-list",
-      "data": {
-        "title": "Smart Class Rooms",
-        "description": "Lorem ipsum dolor sit amet consectetur. Pulvinar nulla sapien velit ultrices neque pretium pulvinar. Urna netus sed et in. At sed urna vitae rhoncus convallis tellus nisi viverra.",
-        "items": [
-          {
-            "id": 1,
-            "label": "Click Here",
-            "url": "https://kce.ac.in/new/wp-content/uploads/2022/04/google-class-room-mech-dept.pdf"
-          }
-        ]
-      }
-    },
-    {
-      "type": "pill-list",
-      "data": {
-        "title": "Industry Powered Labs",
-        "description": "Lorem ipsum dolor sit amet consectetur. Pulvinar nulla sapien velit ultrices neque pretium pulvinar. Urna netus sed et in. At sed urna vitae rhoncus convallis tellus nisi viverra.",
-        "items": [
-          {
-            "id": 1,
-            "label": "Click Here",
-            "url": "https://kce.ac.in/new/wp-content/uploads/2022/05/Mech-Industry-powered-labs.pdf"
-          }
-        ]
-      }
-    },
-
-    {
-      "type": "table",
-      "data": {
-        "secTitle": "Google Class Rooms",
-        "table": [
-          {
-            "title": "2024-25 EVEN Semester",
-            "content": [
-              {
-                "head": [
-                  { "id": "col1", "label": "S.No" },
-                  { "id": "col2", "label": "Course Title" },
-                  { "id": "col3", "label": "Google Classroom Link" },
-                  { "id": "col4", "label": "Faculty" }
-                ],
-                "data": [
-                  {
-                    "col1": { "text": "1" },
-                    "col2": { "text": "Engineering Materials and Metallurgy" },
-                    "col3": {
-                      "text": "Click Here",
-                      "href": "https://classroom.google.com/c/NzQyODA5MTA3OTA3"
-                    },
-                    "col4": { "text": "Dr. K. Ravi Kumar, Dr. M. Goudilyan" }
-                  },
-                  {
-                    "col1": { "text": "2" },
-                    "col2": { "text": "Thermal Engineering" },
-                    "col3": {
-                      "text": "Click Here",
-                      "href": "https://classroom.google.com/c/NzMzMjk0ODA0MzYw"
-                    },
-                    "col4": { "text": "R. Arulmurugan" }
-                  },
-                  {
-                    "col1": { "text": "3" },
-                    "col2": { "text": "Strength of Materials" },
-                    "col3": {
-                      "text": "Click Here",
-                      "href": "https://classroom.google.com/u/0/c/NzQyNjgwMzU1NzIw"
-                    },
-                    "col4": { "text": "Dr. S. Vimal Anand" }
-                  },
-                  {
-                    "col1": { "text": "4" },
-                    "col2": { "text": "Strength of Materials" },
-                    "col3": {
-                      "text": "Click Here",
-                      "href": "https://classroom.google.com/c/NzMzMjk0ODY0NzA4"
-                    },
-                    "col4": { "text": "R. Arulmurugan" }
-                  },
-                  {
-                    "col1": { "text": "5" },
-                    "col2": { "text": "Manufacturing Technology" },
-                    "col3": {
-                      "text": "Click Here",
-                      "href": "https://classroom.google.com/c/NzQyODc3MzM3ODk3?cjc=jhqel4n"
-                    },
-                    "col4": {
-                      "text": "Dr. S. Vimal Anand, Dr. V. V. Arun Sankar"
-                    }
-                  },
-                  {
-                    "col1": { "text": "6" },
-                    "col2": { "text": "Manufacturing Technology" },
-                    "col3": {
-                      "text": "Click Here",
-                      "href": "https://classroom.google.com/u/0/c/NzQyODg1MDAwMTY2"
-                    },
-                    "col4": { "text": "Dr. S. Vimal Anand" }
-                  },
-                  {
-                    "col1": { "text": "7" },
-                    "col2": { "text": "Theory of Machines" },
-                    "col3": {
-                      "text": "Click Here",
-                      "href": "https://classroom.google.com/c/NzQyODcxNjQ1OTAy?cjc=edaoret"
-                    },
-                    "col4": { "text": "Mr. M. Rajesh, Mr. K. Arunkumar" }
-                  },
-                  {
-                    "col1": { "text": "8" },
-                    "col2": { "text": "Design of Transmission Systems" },
-                    "col3": {
-                      "text": "Click Here",
-                      "href": "https://classroom.google.com/c/NzQxODM2ODE1MjMz?cjc=irfmjto"
-                    },
-                    "col4": { "text": "Mr. R. Haridass, Mr. N. Subramani" }
-                  },
-                  {
-                    "col1": { "text": "9" },
-                    "col2": { "text": "Metrology and Measurements" },
-                    "col3": {
-                      "text": "Click Here",
-                      "href": "https://classroom.google.com/c/NzQyODAwODU5MTE3"
-                    },
-                    "col4": { "text": "Mr. S. Chitharthan, R. Sathish" }
-                  },
-                  {
-                    "col1": { "text": "10" },
-                    "col2": { "text": "Gas Dynamics and Jet Propulsion" },
-                    "col3": {
-                      "text": "Click Here",
-                      "href": "https://classroom.google.com/c/NzMzMjQ2ODUzNjg0?cjc=uljl3hk"
-                    },
-                    "col4": { "text": "Mr. N. Subramani, Dr. J. Ganesh Murali" }
-                  },
-                  {
-                    "col1": { "text": "11" },
-                    "col2": { "text": "Electric and Hybrid Vehicles" },
-                    "col3": {
-                      "text": "Click Here",
-                      "href": "https://classroom.google.com/c/NzQyMjE0NDcwNTU3?cjc=frb6srg"
-                    },
-                    "col4": { "text": "Dr. V. V. Arun Sankar" }
-                  },
-                  {
-                    "col1": { "text": "12" },
-                    "col2": { "text": "Finite Element Method" },
-                    "col3": {
-                      "text": "Click Here",
-                      "href": "https://classroom.google.com/c/NzMzMzA5NDg0MTIy?cjc=5dfdp55"
-                    },
-                    "col4": { "text": "Mr. R. Masilamani, Mr. R. Haridass" }
-                  },
-                  {
-                    "col1": { "text": "13" },
-                    "col2": {
-                      "text": "Heat, Ventilation and Air Conditioning"
-                    },
-                    "col3": {
-                      "text": "Click Here",
-                      "href": "https://classroom.google.com/c/NzMzMzA2MTQyNjYy?cjc=tcgk3cw"
-                    },
-                    "col4": { "text": "V. Kondusamy" }
-                  },
-                  {
-                    "col1": { "text": "14" },
-                    "col2": {
-                      "text": "Principles of Management and Engineering Ethics"
-                    },
-                    "col3": {
-                      "text": "Click Here",
-                      "href": "https://classroom.google.com/c/NzQyODY4ODU0MDA5?cjc=v5skpe4"
-                    },
-                    "col4": { "text": "V. Kondusamy" }
-                  },
-                  {
-                    "col1": { "text": "15" },
-                    "col2": {
-                      "text": "Principles of Management and Engineering Ethics"
-                    },
-                    "col3": {
-                      "text": "Click Here",
-                      "href": "https://classroom.google.com/c/NzMzMzA5NDA1MDAx?cjc=x7yh3cr"
-                    },
-                    "col4": { "text": "R. Masilamani" }
-                  },
-                  {
-                    "col1": { "text": "16" },
-                    "col2": { "text": "Industrial Robotics" },
-                    "col3": {
-                      "text": "Click Here",
-                      "href": "https://classroom.google.com/c/NzMzMzA4OTc1Njcx"
-                    },
-                    "col4": { "text": "R. Sathish, S. Chitharthan" }
-                  },
-                  {
-                    "col1": { "text": "17" },
-                    "col2": { "text": "Theory of Machines" },
-                    "col3": {
-                      "text": "Click Here",
-                      "href": "https://classroom.google.com/c/NzMzMzA5MzM4NzQ4"
-                    },
-                    "col4": { "text": "Mr. K. Arunkumar" }
-                  }
-                ]
-              }
-            ]
-          }
-        ]
-      }
-    },
-
-    {
       "type": "double-col-list",
       "data": {
         "columns": [
@@ -1066,7 +852,6 @@
             "urlText": "View",
             "src": ""
           }
-          
         ]
       }
     },
@@ -1180,6 +965,240 @@
             "url": "https://lecturenotes.in/notes/17054-finite-element-%20methods?utm_source=my_uploads&utm_medium=web&utm_campaign=material_page",
             "urlText": "View",
             "src": ""
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "logo-img",
+      "data": {
+        "title": "Mech – Youtube Channels",
+
+        "content": [
+          {
+            "images": [
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2021/11/karpagam-mech-channel-1-2.jpg"
+              },
+              {
+                "img": "https://kce.ac.in/new/wp-content/uploads/2021/11/karpagam-mech-channel-3.jpg"
+              }
+            ]
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "table",
+      "data": {
+        "secTitle": "Google Class Rooms",
+        "table": [
+          {
+            "title": "2024-25 EVEN Semester",
+            "content": [
+              {
+                "head": [
+                  { "id": "col1", "label": "S.No" },
+                  { "id": "col2", "label": "Course Title" },
+                  { "id": "col3", "label": "Google Classroom Link" },
+                  { "id": "col4", "label": "Faculty" }
+                ],
+                "data": [
+                  {
+                    "col1": { "text": "1" },
+                    "col2": { "text": "Engineering Materials and Metallurgy" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://classroom.google.com/c/NzQyODA5MTA3OTA3"
+                    },
+                    "col4": { "text": "Dr. K. Ravi Kumar, Dr. M. Goudilyan" }
+                  },
+                  {
+                    "col1": { "text": "2" },
+                    "col2": { "text": "Thermal Engineering" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://classroom.google.com/c/NzMzMjk0ODA0MzYw"
+                    },
+                    "col4": { "text": "R. Arulmurugan" }
+                  },
+                  {
+                    "col1": { "text": "3" },
+                    "col2": { "text": "Strength of Materials" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://classroom.google.com/u/0/c/NzQyNjgwMzU1NzIw"
+                    },
+                    "col4": { "text": "Dr. S. Vimal Anand" }
+                  },
+                  {
+                    "col1": { "text": "4" },
+                    "col2": { "text": "Strength of Materials" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://classroom.google.com/c/NzMzMjk0ODY0NzA4"
+                    },
+                    "col4": { "text": "R. Arulmurugan" }
+                  },
+                  {
+                    "col1": { "text": "5" },
+                    "col2": { "text": "Manufacturing Technology" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://classroom.google.com/c/NzQyODc3MzM3ODk3?cjc=jhqel4n"
+                    },
+                    "col4": {
+                      "text": "Dr. S. Vimal Anand, Dr. V. V. Arun Sankar"
+                    }
+                  },
+                  {
+                    "col1": { "text": "6" },
+                    "col2": { "text": "Manufacturing Technology" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://classroom.google.com/u/0/c/NzQyODg1MDAwMTY2"
+                    },
+                    "col4": { "text": "Dr. S. Vimal Anand" }
+                  },
+                  {
+                    "col1": { "text": "7" },
+                    "col2": { "text": "Theory of Machines" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://classroom.google.com/c/NzQyODcxNjQ1OTAy?cjc=edaoret"
+                    },
+                    "col4": { "text": "Mr. M. Rajesh, Mr. K. Arunkumar" }
+                  },
+                  {
+                    "col1": { "text": "8" },
+                    "col2": { "text": "Design of Transmission Systems" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://classroom.google.com/c/NzQxODM2ODE1MjMz?cjc=irfmjto"
+                    },
+                    "col4": { "text": "Mr. R. Haridass, Mr. N. Subramani" }
+                  },
+                  {
+                    "col1": { "text": "9" },
+                    "col2": { "text": "Metrology and Measurements" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://classroom.google.com/c/NzQyODAwODU5MTE3"
+                    },
+                    "col4": { "text": "Mr. S. Chitharthan, R. Sathish" }
+                  },
+                  {
+                    "col1": { "text": "10" },
+                    "col2": { "text": "Gas Dynamics and Jet Propulsion" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://classroom.google.com/c/NzMzMjQ2ODUzNjg0?cjc=uljl3hk"
+                    },
+                    "col4": { "text": "Mr. N. Subramani, Dr. J. Ganesh Murali" }
+                  },
+                  {
+                    "col1": { "text": "11" },
+                    "col2": { "text": "Electric and Hybrid Vehicles" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://classroom.google.com/c/NzQyMjE0NDcwNTU3?cjc=frb6srg"
+                    },
+                    "col4": { "text": "Dr. V. V. Arun Sankar" }
+                  },
+                  {
+                    "col1": { "text": "12" },
+                    "col2": { "text": "Finite Element Method" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://classroom.google.com/c/NzMzMzA5NDg0MTIy?cjc=5dfdp55"
+                    },
+                    "col4": { "text": "Mr. R. Masilamani, Mr. R. Haridass" }
+                  },
+                  {
+                    "col1": { "text": "13" },
+                    "col2": {
+                      "text": "Heat, Ventilation and Air Conditioning"
+                    },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://classroom.google.com/c/NzMzMzA2MTQyNjYy?cjc=tcgk3cw"
+                    },
+                    "col4": { "text": "V. Kondusamy" }
+                  },
+                  {
+                    "col1": { "text": "14" },
+                    "col2": {
+                      "text": "Principles of Management and Engineering Ethics"
+                    },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://classroom.google.com/c/NzQyODY4ODU0MDA5?cjc=v5skpe4"
+                    },
+                    "col4": { "text": "V. Kondusamy" }
+                  },
+                  {
+                    "col1": { "text": "15" },
+                    "col2": {
+                      "text": "Principles of Management and Engineering Ethics"
+                    },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://classroom.google.com/c/NzMzMzA5NDA1MDAx?cjc=x7yh3cr"
+                    },
+                    "col4": { "text": "R. Masilamani" }
+                  },
+                  {
+                    "col1": { "text": "16" },
+                    "col2": { "text": "Industrial Robotics" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://classroom.google.com/c/NzMzMzA4OTc1Njcx"
+                    },
+                    "col4": { "text": "R. Sathish, S. Chitharthan" }
+                  },
+                  {
+                    "col1": { "text": "17" },
+                    "col2": { "text": "Theory of Machines" },
+                    "col3": {
+                      "text": "Click Here",
+                      "href": "https://classroom.google.com/c/NzMzMzA5MzM4NzQ4"
+                    },
+                    "col4": { "text": "Mr. K. Arunkumar" }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "pill-list",
+      "data": {
+        "title": "Smart Class Rooms",
+        "description": "Lorem ipsum dolor sit amet consectetur. Pulvinar nulla sapien velit ultrices neque pretium pulvinar. Urna netus sed et in. At sed urna vitae rhoncus convallis tellus nisi viverra.",
+        "items": [
+          {
+            "id": 1,
+            "label": "Click Here",
+            "url": "https://kce.ac.in/new/wp-content/uploads/2022/04/google-class-room-mech-dept.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "type": "pill-list",
+      "data": {
+        "sectionbg":"section-bg3 pb--70",
+        "title": "Industry Powered Labs",
+        "description": "Lorem ipsum dolor sit amet consectetur. Pulvinar nulla sapien velit ultrices neque pretium pulvinar. Urna netus sed et in. At sed urna vitae rhoncus convallis tellus nisi viverra.",
+        "items": [
+          {
+            "id": 1,
+            "label": "Click Here",
+            "url": "https://kce.ac.in/new/wp-content/uploads/2022/05/Mech-Industry-powered-labs.pdf"
           }
         ]
       }

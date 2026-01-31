@@ -13,7 +13,7 @@ export default function SideMenu(props) {
     path?.replace(/\/$/, "");
 
   return (
-    <div className="col-lg-3 about-sidebar">
+    <div className="col-lg-3 about-sidebar d-none d-lg-block">
       <div className="about-sticky-menu fade-left">
         <ul>
           {data.map((item, index) => {

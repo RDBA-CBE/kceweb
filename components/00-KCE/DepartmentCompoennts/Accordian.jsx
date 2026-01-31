@@ -66,19 +66,23 @@ const Accordion = ({ data, fullData = null }) => {
         ))}
         {fullData?.button?.url && (
           <div className='pt-3'>
+           
+
             <Link
               href={fullData?.button?.url || '#'}
-              target='_blank'
-              className='px-5 py-3 mt-3 d-inline-flex align-items-center justify-content-center text-decoration-none '
-              style={{
-                backgroundColor: '#f2fff9',
-                color: '#1C3C4A',
-                borderRadius: '20px'
-              }}
-            >
-              <span className='faculty-ti'>{fullData?.button?.name}</span>
-              <i className='feather-chevron-right ms-2 '></i>
-            </Link>
+                className="kce-btn-primary rbt-btn hover-icon-reverse mt-4"
+                target="_blank"
+              >
+                <span className="icon-reverse-wrapper">
+                  <span className="btn-text">{fullData?.button?.name}</span>
+                  <span className="btn-icon">
+                    <i className="feather-arrow-right"></i>
+                  </span>
+                  <span className="btn-icon">
+                    <i className="feather-arrow-right"></i>
+                  </span>
+                </span>
+              </Link>
           </div>
         )}
       </div>

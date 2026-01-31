@@ -70,13 +70,7 @@ const RenderSection = ({ section, index, renderSection }) => {
       );
 
     case "icon-card":
-      return (
-        <section className="section-bg3">
-          <div className="section-wid">
-            <IconCard key={index} data={section.data} />
-          </div>
-        </section>
-      );
+      return <IconCard key={index} data={section.data} />;
 
     case "card-list1":
       return (
@@ -112,13 +106,7 @@ const RenderSection = ({ section, index, renderSection }) => {
       return <TableCom key={index} data={section.data} />;
 
     case "pill-list":
-      return (
-        <section className="section-bg3">
-          <div className="section-wid">
-            <PillList key={index} data={section.data} />
-          </div>
-        </section>
-      );
+      return <PillList key={index} data={section.data} />;
 
     case "double-col-list":
       return (
@@ -204,8 +192,8 @@ const RenderSection = ({ section, index, renderSection }) => {
     case "contact-card":
       return <ContactCard key={index} data={section.data} />;
 
-      case "accordion":
-      return <Accordion key={index} data={section.data}  fullData={section}/>;
+    case "accordion":
+      return <Accordion key={index} data={section.data} fullData={section} />;
 
     default:
       return null;

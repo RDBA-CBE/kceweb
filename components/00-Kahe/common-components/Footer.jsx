@@ -10,6 +10,7 @@ import {
   Youtube,
   Radio,
 } from "lucide-react";
+import { FaLinkedin, FaPinterest, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   const QUICK_LINKS = {
@@ -171,21 +172,21 @@ const Footer = () => {
             <div className="kce-ftr__contact-row">
               <Smartphone className="kce-ftr__icon" size={20} />
               <p className="kce-ftr__contact-text">
-                <a href="tel:918220333750">+91 82203 33750</a>,{" "}
-                <a href="tel:918220333620">+91 82203 33620</a>{" "}
+                <a href="tel:918220333750" >+91 82203 33750</a>,{" "}
+                <a href="tel:918220333620" >+91 82203 33620</a>{" "}
               </p>
             </div>
 
             <div className="kce-ftr__contact-row">
               <Phone className="kce-ftr__icon" size={20} />
               <p className="kce-ftr__contact-text">
-                <a href="tel:914222619005">+91 422 2619005</a>, <a href="tel:914222619006">+91 422 2619006</a>
+                <a href="tel:914222619005">+91 422 2619005</a>, <a href="tel:914222619006" >+91 422 2619006</a>
               </p>
             </div>
 
             <div className="kce-ftr__contact-row">
               <Mail className="kce-ftr__icon" size={20} />
-              <p className="kce-ftr__contact-text"><a href="mailto:info@kce.ac.in">info@kce.ac.in</a></p>
+              <p className="kce-ftr__contact-text"><a href="mailto:info@kce.ac.in" target="_blank">info@kce.ac.in</a></p>
             </div>
           </div>
 
@@ -194,6 +195,7 @@ const Footer = () => {
               href="https://www.facebook.com/wekceians/"
               className="kce-ftr__social-icon"
               aria-label="Facebook"
+              target="_blank"
             >
               <Facebook size={20} fill="currentColor" target="_blank" />
             </a>
@@ -201,6 +203,7 @@ const Footer = () => {
               href="https://www.instagram.com/wekceians/"
               className="kce-ftr__social-icon"
               aria-label="Instagram"
+              target="_blank"
             >
               <Instagram size={20} target="_blank" />
             </a>
@@ -209,6 +212,7 @@ const Footer = () => {
               className="kce-ftr__social-icon"
               aria-label="X (Twitter)"
               style={{ fontSize: "20px" }}
+              target="_blank"
             >
               𝕏
             </a>
@@ -217,8 +221,25 @@ const Footer = () => {
               href="https://www.youtube.com/@wekceians"
               className="kce-ftr__social-icon"
               aria-label="Youtube"
+              target="_blank"
             >
-              <Youtube size={20} fill="currentColor" target="_blank" />
+              <FaYoutube size={20} fill="currentColor" target="_blank" />
+            </a>
+            <a
+              href="https://in.pinterest.com/wekceians/"
+              className="kce-ftr__social-icon"
+              aria-label="Youtube"
+              target="_blank"
+            >
+              <FaPinterest size={20} fill="currentColor" target="_blank" />
+            </a>
+            <a
+              href="https://www.linkedin.com/school/wekceians/"
+              className="kce-ftr__social-icon"
+              aria-label="Youtube"
+              target="_blank"
+            >
+              <FaLinkedin size={20} fill="currentColor" target="_blank" />
             </a>
             {/* <a href="#" className="kce-ftr__social-icon" aria-label="Telegram"><Send size={24} /></a> */}
           </div>

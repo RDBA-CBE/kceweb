@@ -26,7 +26,7 @@
     "image": {
       "src": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1000&q=80",
       "alt": "Students admission discussion",
-      "tag": "ADMISSIONS 2025"
+      "tag": "ADMISSIONS 2027"
     }
   },
   "ug": {
@@ -62,7 +62,7 @@
       "Electronics & Communication Engineering",
       "Information Technology"
     ],
-    "note": "Recognized as a Research Institute by Anna University",
+    "note": "*Our institute is received “Research Institute Recognition” from Anna University",
     "line": "green"
   }
 }

@@ -320,7 +320,7 @@
     {
       "type": "split-image-content",
       "data": {
-        "sectionbg": "section-bg1 my-4",
+        "sectionbg": "section-bg1 pt-0",
         "image": "/images/gallery/gallery-big.jpg",
         "content": [
           {

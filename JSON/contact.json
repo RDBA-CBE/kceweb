@@ -35,6 +35,7 @@
     {
       "type": "contact-card",
       "data": {
+        "sectionbg":"section-bg1 pt-0 mt-0",
         "content": {
           "text": [
             {

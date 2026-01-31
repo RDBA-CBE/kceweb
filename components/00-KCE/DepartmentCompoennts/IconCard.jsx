@@ -3,7 +3,8 @@ import React from "react";
 
 const IconCard = ({data}) => {
   return (
-    <section className="lab-section  py-5">
+    <section className={data?.sectionbg || "section-bg3"}>
+      <div className="lab-section  py-5 section-wid">
       <h2 className="section-ti mb-4">{data?.title}</h2>
       <div className="row g-5 mt-5">
         {data?.content.map((item, index) => (
@@ -17,7 +18,9 @@ const IconCard = ({data}) => {
           </div>
         ))}
       </div>
+    </div>
     </section>
+    
   );
 };
 

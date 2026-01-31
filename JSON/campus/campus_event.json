@@ -42,8 +42,8 @@
       "type": "split-image-content",
       "data": {
         "imagePosition": "left",
-        "sectionbg": "section-bg1 my-4",
-        "image": "/images/gallery/gallery-big.jpg",
+        "sectionbg": "section-bg3",
+        "image": "/images/kce/image.jpg",
         "content": [
           {
             "type": "title",

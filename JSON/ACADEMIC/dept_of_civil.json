@@ -277,35 +277,12 @@
       }
     },
 
-    {
-      "type": "split-image-content",
-      "data": {
-        "secTitle": "HOD Profile",
-        "sectionbg": "section-bg3",
-        "image": "/images/kce/Portrait_Placeholder.png",
-        "content": [
-          {
-            "type": "title",
-            "title": "Dr. R. Sarankumar",
-            "subTi": "Professor & Head"
-          },
-          {
-            "type": "paragraph",
-            "text": [
-              "Dr. R. Sarankumar completed Bachelor Degree in Engineering in the stream of Electronics and Communication Engineering and Master Degree in Engineering in the stream of Communication Systems from Anna University in the year 2009 and 2011 respectively. He received Ph.D. degree from Anna University in 2018 in the faculty of Information and Communication Engineering. His area of interest includes Signal Processing, Cognitive Radio, Wireless Communications, Internet of Things and Machine Learning.",
-
-              "After gaining academic, research and administrative experience from Tamil Nadu and Andhra Pradesh, he is currently serving in the capacity of Head of the Department for Electronics and Communication Engineering. He has several publications in peer reviewed national and international journals and conferences. He has contributed for 4 patents. Three book chapters are published under his credit. He serves a reviewer for various reputed international journals and conferences. He received fund from AICTE under MODROBs and the project has been completed. He has comprehensive knowledge on Outcome Based Education. He is interested in the activities towards student development in multi-dimensional perspective."
-            ]
-          }
-        ]
-      }
-    },
-
+   
     {
       "type": "split-image-content",
       "data": {
         "imagePosition": "left",
-        "sectionbg": "section-bg1 my-4",
+        "sectionbg": "section-bg1 pt-0",
         "image": "/images/gallery/gallery-big.jpg",
         "content": [
           {
@@ -477,6 +454,7 @@
     {
       "type": "pill-list",
       "data": {
+        "sectionbg":"section-bg3 pb--70",
         "title": "Teaching and Learning",
         "description": "Lorem ipsum dolor sit amet consectetur. Pulvinar nulla sapien velit ultrices neque pretium pulvinar. Urna netus sed et in. At sed urna vitae rhoncus convallis tellus nisi viverra.",
         "items": [

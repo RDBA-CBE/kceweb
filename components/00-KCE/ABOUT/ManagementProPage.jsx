@@ -13,7 +13,7 @@ export default function ManagementProPage() {
     <section>
       <InnerBanner data={banner} />
 
-      <div className="section-wid section-bg1 my-5">
+      <div className="section-wid section-bg1">
         <div className="row">
           <div className="col-lg-9 management-content-area">
             {leaders.map((leader, i) => (

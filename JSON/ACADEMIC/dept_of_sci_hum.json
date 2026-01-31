@@ -42,6 +42,8 @@
     {
       "type": "icon-card",
       "data": {
+        "sectionbg": "section-bg1 py-2",
+        
         "title": "Lab Facilities",
         "content": [
           {
@@ -75,7 +77,8 @@
     {
       "type": "split-image-content",
       "data": {
-        "sectionbg": "section-bg1 my-4",
+        "sectionbg": "section-bg1 ",
+        "imagePosition": "left",
         "image": "/images/gallery/gallery-big.jpg",
         "content": [
           {
@@ -84,7 +87,9 @@
           },
           {
             "type": "paragraph",
-            "text": ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus commodi suscipit in maiores vero aliquam nam. Consequatur, nulla! At illo dignissimos accusantium, aut quas error consectetur consequatur officiis quae dolore!"]
+            "text": [
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus commodi suscipit in maiores vero aliquam nam. Consequatur, nulla! At illo dignissimos accusantium, aut quas error consectetur consequatur officiis quae dolore!"
+            ]
           },
           {
             "type": "button",
@@ -532,16 +537,19 @@
     {
       "type": "split-image-content",
       "data": {
-        "sectionbg": "section-bg1 my-4",
+        
+        "sectionbg": "section-bg1 ",
         "image": "/images/gallery/gallery-big.jpg",
         "content": [
           {
             "type": "title",
-            "mainTi": "Faculty"
+            "mainTi": "General Engineering"
           },
           {
             "type": "paragraph",
-            "text": [""]
+            "text": [
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus commodi suscipit in maiores vero aliquam nam. Consequatur, nulla! At illo dignissimos accusantium, aut quas error consectetur consequatur officiis quae dolore!"
+            ]
           },
           {
             "type": "button",

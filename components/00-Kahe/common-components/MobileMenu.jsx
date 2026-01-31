@@ -70,7 +70,7 @@ const MobileMenu = () => {
               <ul className="social-icon social-default transparent-with-border justify-content-start ">
                 <li>
                   <Link href="https://www.facebook.com/wekceians/">
-                    <i className="fab fa-facebook"></i>
+                    <i className="feather-facebook"></i>
                   </Link>
                 </li>
                 <li>
@@ -89,12 +89,12 @@ const MobileMenu = () => {
                   </Link>
                 </li>
                  <li>
-                  <Link href="https://www.youtube.com/@wekceians">
+                  <Link href="https://in.pinterest.com/wekceians/">
                     <i className=" fab fa-pinterest"></i>
                   </Link>
                 </li>
                  <li>
-                  <Link href="https://www.youtube.com/@wekceians">
+                  <Link href="https://www.linkedin.com/school/wekceians/">
                     <i className="fab fa-linkedin"></i>
                   </Link>
                 </li>

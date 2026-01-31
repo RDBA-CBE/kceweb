@@ -17,7 +17,7 @@
     {
       "type": "split-col-con",
       "data": {
-        "sectionbg": "section-bg3",
+        "sectionbg": "section-bg3 py-0",
         "content": [
           {
             "type": "column",

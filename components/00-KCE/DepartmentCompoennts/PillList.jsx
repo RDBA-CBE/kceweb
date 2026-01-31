@@ -3,11 +3,13 @@ import React from 'react';
 
 const PillList = ({ data }) => {
   return (
-    <section className='scr-section'>
+    <section className={data?.sectionbg || "section-bg3"}>
+      <div className='scr-section section-wid'>
       <div className='scr-container'>
         {/* Heading */}
         <div className='scr-header'>
           {data?.title && <h2 className='section-ti'>{data?.title}</h2>}
+          {data?.subTi && <h3 className='sub-ti'>{data?.subTi}</h3>}
 
           {data?.description && <p className=''>{data?.description}</p>}
         </div>
@@ -36,7 +38,9 @@ const PillList = ({ data }) => {
           )}
         </div>
       </div>
+    </div>
     </section>
+    
   );
 };
 

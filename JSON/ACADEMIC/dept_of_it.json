@@ -329,7 +329,7 @@
       "type": "split-image-content",
       "data": {
         "imagePosition": "left",
-        "sectionbg": "section-bg1 my-4",
+        "sectionbg": "section-bg1 pt-0",
         "image": "/images/gallery/gallery-big.jpg",
         "content": [
           {
@@ -338,7 +338,9 @@
           },
           {
             "type": "paragraph",
-            "text": ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus commodi suscipit in maiores vero aliquam nam. Consequatur, nulla! At illo dignissimos accusantium, aut quas error consectetur consequatur officiis quae dolore!"]
+            "text": [
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus commodi suscipit in maiores vero aliquam nam. Consequatur, nulla! At illo dignissimos accusantium, aut quas error consectetur consequatur officiis quae dolore!"
+            ]
           },
           {
             "type": "button",
@@ -543,57 +545,57 @@
       "type": "pill-list",
       "data": {
         "title": "Smart Class Rooms",
-        "description": "Lorem ipsum dolor sit amet consectetur. Pulvinar nulla sapien velit ultrices neque pretium pulvinar. Urna netus sed et in. At sed urna vitae rhoncus convallis tellus nisi viverra.",
-        "sections": [
+        "subTi": "Current Semester",
+        "items": [
           {
-            "subtitle": "Current Semester",
-            "items": [
-              {
-                "id": 1,
-                "label": "Google Classroom Link",
-                "url": "https://kce.ac.in/new/wp-content/uploads/2022/05/IT-Smart-classroom-links.pdf"
-              },
-              {
-                "id": 2,
-                "label": "15FD16 – Mobile Computing",
-                "url": "https://drive.google.com/drive/folders/0B6B7zizv13PgflNTRVBTME55NzFsTUxFSWxtenNvNFRiS2FQZUlHb185ZGNkZUNDem90RDQ?usp=sharing"
-              },
-              {
-                "id": 3,
-                "label": "15FD25 – Fundamentals of Data Structures",
-                "url": "https://drive.google.com/drive/folders/0BzJZhWtVLB1yfmNHQTg0cUE3MjNxRzBuNWlLb0EzQWFxdkpWZHg1WHRzTVlaVmgwbEtyQlE?usp=sharing"
-              },
-              {
-                "id": 4,
-                "label": "17FD24 – Data Structures and Algorithm in C",
-                "url": "https://drive.google.com/drive/folders/0B4khkfKx4Uh0fmhtLUJ5TVJNMkc0NlJIM2JzV08tTTNCOUVjTC1SLWFTRFRGWGE1MWw2S0k?usp=sharing"
-              },
-              {
-                "id": 5,
-                "label": "17FD10 – Data Warehousing and Data Mining",
-                "url": "https://drive.google.com/drive/folders/0B71S95Z6ewI5fklVNjBBMzFDanlRTjZKMDdOZ19mZE55VUJRcUluTGpxTUNZUkdmSkFrbTA?usp=sharing"
-              }
-            ]
+            "id": 1,
+            "label": "Google Classroom Link",
+            "url": "https://kce.ac.in/new/wp-content/uploads/2022/05/IT-Smart-classroom-links.pdf"
           },
           {
-            "subtitle": "Previous Semester",
-            "items": [
-              {
-                "id": 1,
-                "label": "15FD12 – Unix and Shell Programming",
-                "url": "https://drive.google.com/drive/folders/0BzJZhWtVLB1yflBvYnFWdzdrN2NoMGlmdUhyemdYVHRHQktFN0NZSndUODNUc1dnZExIdkE?usp=sharing"
-              },
-              {
-                "id": 2,
-                "label": "17FD04 – Computer Architecture",
-                "url": "https://drive.google.com/drive/folders/0Bxzw1APh7XZnfjYyUTFIVFpwaTQxcGk0aVZTM3Bza1VuaTVtVzZLdW4zNlMwUmJ4RUZQbG8?usp=sharing"
-              }
-            ]
+            "id": 2,
+            "label": "15FD16 – Mobile Computing",
+            "url": "https://drive.google.com/drive/folders/0B6B7zizv13PgflNTRVBTME55NzFsTUxFSWxtenNvNFRiS2FQZUlHb185ZGNkZUNDem90RDQ?usp=sharing"
+          },
+          {
+            "id": 3,
+            "label": "15FD25 – Fundamentals of Data Structures",
+            "url": "https://drive.google.com/drive/folders/0BzJZhWtVLB1yfmNHQTg0cUE3MjNxRzBuNWlLb0EzQWFxdkpWZHg1WHRzTVlaVmgwbEtyQlE?usp=sharing"
+          },
+          {
+            "id": 4,
+            "label": "17FD24 – Data Structures and Algorithm in C",
+            "url": "https://drive.google.com/drive/folders/0B4khkfKx4Uh0fmhtLUJ5TVJNMkc0NlJIM2JzV08tTTNCOUVjTC1SLWFTRFRGWGE1MWw2S0k?usp=sharing"
+          },
+          {
+            "id": 5,
+            "label": "17FD10 – Data Warehousing and Data Mining",
+            "url": "https://drive.google.com/drive/folders/0B71S95Z6ewI5fklVNjBBMzFDanlRTjZKMDdOZ19mZE55VUJRcUluTGpxTUNZUkdmSkFrbTA?usp=sharing"
           }
         ]
       }
     },
- {
+    {
+      "type": "pill-list",
+      "data": {
+        "sectionbg":"section-bg3 pb--70 pt-0 ",
+        "subTi": "Previous Semester",
+        "items": [
+          {
+            "id": 1,
+            "label": "15FD12 – Unix and Shell Programming",
+            "url": "https://drive.google.com/drive/folders/0BzJZhWtVLB1yflBvYnFWdzdrN2NoMGlmdUhyemdYVHRHQktFN0NZSndUODNUc1dnZExIdkE?usp=sharing"
+          },
+          {
+            "id": 2,
+            "label": "17FD04 – Computer Architecture",
+            "url": "https://drive.google.com/drive/folders/0Bxzw1APh7XZnfjYyUTFIVFpwaTQxcGk0aVZTM3Bza1VuaTVtVzZLdW4zNlMwUmJ4RUZQbG8?usp=sharing"
+          }
+        ]
+      }
+    },
+
+    {
       "type": "image-overlay-content",
       "data": {
         "bgImage": "/images/kce/academics/banner.jpg",
@@ -604,7 +606,6 @@
             "title": "Click Here",
             "url": "https://www.youtube.com/watch?v=0KDtdADJvE4&feature=youtu.be"
           }
-          
         ]
       }
     },
@@ -1305,26 +1306,32 @@
         ]
       }
     },
-{
-      "type": "pill-list",
+    {
+      "type": "split-image-content",
       "data": {
-        "title": "Seminar",
-        "subtitle":"Augmented Reality and Deep Learning with its Application in Medical Diagnosis",
-        "description": "CSIR sponsored Two National Level Seminar on Augmented Reality and Deep Learning with its Application in Medical Diagnosis on 21st and 22nd October 2019, jointly Organizing Department of IT and CSE.",
-        "sections": [
+        "imagePosition": "left",
+        "sectionbg": "section-bg1 ",
+        "image": "/images/blog/blog-grid-06.jpg",
+        "content": [
           {
-            
-            "items": [
-              {
-                "id": 1,
-                "label": "Read More",
-                "url": "http://kce.ac.in/wp-content/uploads/2019/11/Seminar-Brochure-Final.pdf"
-              }
+            "type": "title",
+            "mainTi": "Seminar",
+            "title": "Augmented Reality and Deep Learning with its Application in Medical Diagnosis"
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              "CSIR sponsored Two National Level Seminar on Augmented Reality and Deep Learning with its Application in Medical Diagnosis on 21st and 22nd October 2019, jointly Organizing Department of IT and CSE."
             ]
+          },
+
+          {
+            "type": "button",
+            "href": "http://kce.ac.in/wp-content/uploads/2019/11/Seminar-Brochure-Final.pdf",
+            "text": "Read More"
           }
         ]
       }
     }
-    
   ]
 }

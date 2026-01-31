@@ -25,9 +25,10 @@ const SilderCard = ({ isDesc, data }) => {
                 className="testimonial-item-3-activation swiper rbt-arrow-between gutter-swiper-30"
                 slidesPerView={1}
                 modules={[Navigation]}
+                autoHeight={true} 
                 navigation={{
-                  nextEl: ".rbt-arrow-left",
-                  prevEl: ".rbt-arrow-right",
+                  nextEl: ".rbt-arrow-right",
+                  prevEl: ".rbt-arrow-left",
                 }}
                 breakpoints={{
                   575: {

@@ -320,24 +320,10 @@
       "data": {
         "bgImage": "/images/kce/academics/banner.jpg",
 
-        "title": "Regulations",
+        "title": "Courses Offered",
         "list": [
           {
-            "title": "R2023",
-            "url": "https://kce.ac.in/new/wp-content/uploads/2023/07/EC.pdf"
-          }
-        ]
-      }
-    },
-
-    {
-      "type": "card-grid",
-      "data": {
-        "title": "Courses Offered",
-        "content": [
-          {
-            "id": 1,
-            "name": "MBA – Master of Business Administration"
+            "title": "MBA – Master of Business Administration"
           }
         ]
       }
@@ -405,7 +391,7 @@
 
                 "data": {
                   "title": "Programme Outcomes (POs)",
-                  "subtitle":"At the end of the programme the students will have ability",
+                  "desc": "At the end of the programme the students will have ability",
                   "content": [
                     {
                       "code": "",
@@ -460,7 +446,7 @@
       "type": "split-image-content",
       "data": {
         "imagePosition": "left",
-        "sectionbg": "section-bg1 my-4",
+        "sectionbg": "section-bg1 pt-0",
         "image": "/images/gallery/gallery-big.jpg",
         "content": [
           {
@@ -469,7 +455,9 @@
           },
           {
             "type": "paragraph",
-            "text": ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus commodi suscipit in maiores vero aliquam nam. Consequatur, nulla! At illo dignissimos accusantium, aut quas error consectetur consequatur officiis quae dolore!"]
+            "text": [
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus commodi suscipit in maiores vero aliquam nam. Consequatur, nulla! At illo dignissimos accusantium, aut quas error consectetur consequatur officiis quae dolore!"
+            ]
           },
           {
             "type": "button",
@@ -633,51 +621,8 @@
           }
         ]
       }
-    },
-
-    {
-      "type": "pill-list",
-      "data": {
-        "title": "Smart Class Rooms",
-        "description": "Lorem ipsum dolor sit amet consectetur. Pulvinar nulla sapien velit ultrices neque pretium pulvinar. Urna netus sed et in. At sed urna vitae rhoncus convallis tellus nisi viverra.",
-        "items": [
-          {
-            "id": 1,
-            "label": "23VDR301/ Digital System Design",
-            "url": "https://drive.google.com/drive/folders/1Dnbrc5pxl3gsdscx8Xlkz1OxwCuwEX8ZKoDs3KORWv-Lp8f5mwWIrPjnk8Jj285f0gbtLHn1?usp=drive_link"
-          },
-          {
-            "id": 2,
-            "label": "23ETR301/ Signals and Systems",
-            "url": "https://drive.google.com/drive/folders/1RLNdUzrkkwo3RXTg6b3ONO4vRAjSj4DNbxsHsbiIaYNXFj4szjKf2NIxCjHk_6fPqxg-M8T7?usp=drive_link"
-          },
-          {
-            "id": 3,
-            "label": "23ECR407/ Embedded Systems and IoT",
-            "url": "https://drive.google.com/drive/folders/1OBdTMK1BtyRAnI5acDe9wpiwLPiUf4rV7S-ajKbluOzc7dCJB7klnyYB5B-Fnz0vloZA0g2x?usp=drive_link"
-          },
-          {
-            "id": 4,
-            "label": "23ECR303/ Control Systems",
-            "url": "https://drive.google.com/drive/folders/1vStwQizUU6mgCGHsMcYR8nRygtzcZ3OKcMk5uVKFZc6CorCCMKZnf5GXAb1iAjPt5ZobO4EQ?usp=drive_link"
-          },
-          {
-            "id": 5,
-            "label": "23ECR406 / Analog Integrated Circuits",
-            "url": "https://drive.google.com/drive/folders/1F9ZYqnVu6ruCgn4NddsSwHY8OVHRNBobjv-yxXkV3NJ9Y7mJNZkm-8dUEz9mV27aWaYxpyYF?usp=drive_link"
-          },
-          {
-            "id": 6,
-            "label": "23ECR405/ Electromagnetic Fields",
-            "url": "https://drive.google.com/drive/folders/1XaVhWCSbpKtA4aZ_QT1QJLiZpVRVzgXQ4f00id2AfSscRxeVqSVbQlIr4hiajob2Kg6OX8Ts?usp=drive_link"
-          },
-          {
-            "id": 7,
-            "label": "23ECR404/ Microprocessors and Microcontrollers",
-            "url": "https://drive.google.com/drive/folders/1zLnnZSoxlJiHbn3YJxfSu5zuvEfQQQXoXlNU-wH9v37swZrvH2WpyjzOPt_yEJXLjxwmpseI?usp=drive_link"
-          }
-        ]
-      }
     }
+
+    
   ]
 }

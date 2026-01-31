@@ -656,6 +656,7 @@
     {
       "type": "pill-list",
       "data": {
+        "sectionbg":"section-bg3 pb--70",
         "title": "E-Contents for EVEN semester (2019-20)",
         "description": "",
         "items": [
