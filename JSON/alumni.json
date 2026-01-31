@@ -15,6 +15,10 @@
   "sections": [
     {
       "type": "accordion",
+      "button": {
+        "name": "Connect with KCE Alumni Association",
+        "url":"https://www.facebook.com/kcealumniassociation/"
+      },
       "data": [
         {
           "body": [
@@ -202,13 +206,12 @@
                     {
                       "title": "Sathiyamoorthi",
                       "position": "Class of 2012 Batch",
-                      "desc":"<p class='clr-ti'>Hi, This is Sathiyamoorthi,I Completed My B.E Mechanical Engineering in KCE in the year 2012. It was a great time, spent in KCE. This College was nothing less than what I had hoped for.<p><p>Supportive seniors and faculty, beautiful campus, quality education and amazing friends. The growth I have seen in myself due to KCE is invaluable. It taught me things far beyond bookish knowledge and helped me broaden my horizons.</p>"
+                      "desc": "<p class='clr-ti'>Hi, This is Sathiyamoorthi,I Completed My B.E Mechanical Engineering in KCE in the year 2012. It was a great time, spent in KCE. This College was nothing less than what I had hoped for.<p><p>Supportive seniors and faculty, beautiful campus, quality education and amazing friends. The growth I have seen in myself due to KCE is invaluable. It taught me things far beyond bookish knowledge and helped me broaden my horizons.</p>"
                     },
                     {
                       "title": "Mr. Chandra Mohan Shanmugam",
                       "position": "(Class of 2004 Batch)Project Manager – Robert Bosch",
-                      "desc":"<p class='clr-ti'>I am Chandra Mohan, a 2004 Mechanical Engineering passed out student of KCE.<p><p>After completing Diploma, amidst lot of confusion on which college would be the right one for me joined KCE to achieve my Engineering goal. It was this college that helped me achieve all my dreams. The faculty were very supportive and encouraged me to push boundaries to rise above expectations.</p>"
-
+                      "desc": "<p class='clr-ti'>I am Chandra Mohan, a 2004 Mechanical Engineering passed out student of KCE.<p><p>After completing Diploma, amidst lot of confusion on which college would be the right one for me joined KCE to achieve my Engineering goal. It was this college that helped me achieve all my dreams. The faculty were very supportive and encouraged me to push boundaries to rise above expectations.</p>"
                     }
                   ]
                 }

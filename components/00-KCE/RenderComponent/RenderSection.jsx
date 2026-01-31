@@ -205,7 +205,7 @@ const RenderSection = ({ section, index, renderSection }) => {
       return <ContactCard key={index} data={section.data} />;
 
       case "accordion":
-      return <Accordion key={index} data={section.data} />;
+      return <Accordion key={index} data={section.data}  fullData={section}/>;
 
     default:
       return null;
