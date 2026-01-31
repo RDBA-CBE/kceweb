@@ -306,7 +306,8 @@
           "title": "Campus Tour",
           "link": "https://www.youtube.com/watch?v=zIgsSFZRf6s",
           "desc": "Learn more about KAHE overview.",
-          "src": "/images/banner/co-men.png"
+          "src": "/images/banner/co-men.png",
+          "target":"_blank"
         }
       ]
     },
