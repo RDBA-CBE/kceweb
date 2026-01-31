@@ -372,7 +372,7 @@
         {
           "id": 3,
           "title": "Contact",
-          "link": "/KCE/examinations/exam-contact",
+          "link": "/KCE/examinations/#exam-contact",
           "desc": "Learn more about KAHE overview.",
           "src": "/images/banner/co-men.png"
         }
