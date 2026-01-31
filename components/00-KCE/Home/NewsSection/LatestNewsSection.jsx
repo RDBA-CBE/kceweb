@@ -46,22 +46,22 @@ export default function LatestNewsSection() {
 
   const featuredStories = [
     {
-      date: "December 10, 2025",
-      image: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=800&q=80",
-      title: "Sustainable Materials Conference",
-      description: "National Conference On 'sustainable Materials, Automotive Technologies And Artificial Intelligence (SMATAI)'"
+      date: "January 13, 2026",
+      image: "https://kce.ac.in/7th-national-level-management-fest-takshak-2025-at-karpagam-college-of-engineering-autonomous/",
+      title: "7th National Level Management Fest – “Takshak 2025” ",
+      description: ""
     },
     {
-      date: "January 15, 2026",
-      image: "https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=800&q=80",
-      title: "AI Integration in Automotive",
-      description: "Workshop on Machine Learning Techniques for EEG Processing and AI optimization."
+      date: "November 14, 2025",
+      image: "https://kce.ac.in/new/wp-content/uploads/2026/01/Poster-31-819x1024.jpg",
+      title: "“Click & Conquer: Digital Marketing Strategies”",
+      description: ""
     },
     {
-      date: "February 02, 2026",
-      image: "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80",
-      title: "Next-Gen Robotics Expo",
-      description: "Showcasing the latest breakthroughs in collaborative robotics and automation."
+      date: "August 1, 2025",
+      image: "https://kce.ac.in/new/wp-content/uploads/2026/01/Poster-4-819x1024.jpg",
+      title: "“Business Without Borders: Embracing Diversity in Leadership and Strategy”",
+      description: ""
     }
   ];
 
