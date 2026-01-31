@@ -38,11 +38,12 @@ const Header = ({ gapSpaceBetween, sticky, navigationEnd, container }) => {
           <div className="kce-hdr__main-flex">
             <div style={{ display: "flex", flexDirection: "row", gap: "10px" }}>
               <div className="kce-hdr__section kce-hdr__logo-area">
-                <img
+                <a href="/"> <img
                   src="/images/kce/logo/kce-logo.png"
                   alt="Karpagam College of Engineering"
                   className="kce-hdr__main-logo"
-                />
+                /></a>
+               
               </div>
 
               {/* TNEA Code Section */}

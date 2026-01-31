@@ -150,11 +150,11 @@ const Footer = () => {
           <div className="kce-ftr__brand-header">
             <div className="kce-ftr__college-logo">
               <div className=" p-1 rounded shadow-sm">
-                <img
+               <a href="/"><img
                   src="/images/kce/logo/KCE-logo-white.png"
                   alt="KCE Logo"
                   className="h-12 w-auto"
-                />
+                /></a> 
               </div>
             </div>
           </div>
