@@ -78,7 +78,7 @@ export default function LatestNewsSection() {
   const featuredStories = [
     {
       date: "January 13, 2026",
-      image: "https://kce.ac.in/7th-national-level-management-fest-takshak-2025-at-karpagam-college-of-engineering-autonomous/",
+      image: "https://kce.ac.in/new/wp-content/uploads/2026/01/IMG-20251208-WA0070-1090x1536.jpg",
       title: "7th National Level Management Fest – “Takshak 2025” ",
       description: ""
     },
