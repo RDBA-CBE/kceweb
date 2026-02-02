@@ -83,14 +83,18 @@
       }
     },
 
-    {
-      "type": "card-grid",
+   
+     {
+      "type": "edge-image-content",
       "data": {
-        "title": "Courses Offered",
+        "sectionbg": "section-bg1 my-5",
+        "imagePosition": "left",
+        "secTitle": "Courses Offered",
+        "image": "/images/kce/image-5.png",
         "content": [
           {
-            "id": 1,
-            "name": "B.E. Computer Science and Technology"
+            "type": "card",
+            "items": ["B.E. Computer Science and Technology"]
           }
         ]
       }

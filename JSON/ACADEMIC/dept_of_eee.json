@@ -80,23 +80,23 @@
       }
     },
 
-    {
-      "type": "card-grid",
+     {
+      "type": "edge-image-content",
       "data": {
-        "title": "Courses Offered",
+        "sectionbg": "section-bg1 my-5",
+        "imagePosition": "left",
+        "secTitle": "Courses Offered",
+        "image": "/images/kce/image-5.png",
         "content": [
           {
-            "id": 1,
-            "name": "B.E- Electrical and Electronics Engineering"
-          },
-          {
-            "id": 2,
-            "name": "PhD- Electrical Engineering"
+            "type": "card",
+            "items": ["B.E- Electrical and Electronics Engineering", "PhD- Electrical Engineering"]
           }
         ]
       }
     },
 
+   
     {
       "type": "icon-card",
       "data": {

@@ -83,25 +83,22 @@
     },
 
     {
-      "type": "card-grid",
+      "type": "edge-image-content",
       "data": {
-        "title": "Courses Offered",
+        "sectionbg": "section-bg1 my-5",
+        "imagePosition": "left",
+        "secTitle": "Courses Offered",
+        "image": "/images/kce/image-5.png",
         "content": [
           {
-            "id": 1,
-            "name": "B.E. Mechanical Engineering"
-          },
-          {
-            "id": 2,
-            "name": "M.E. Mechatronics"
-          },
-          {
-            "id": 3,
-            "name": "Ph.D Mechanical Engineering"
+            "type": "card",
+            "items": ["B.E. Mechanical Engineering", "M.E. Mechatronics", "Ph.D Mechanical Engineering"]
           }
         ]
       }
     },
+
+  
 
     {
       "type": "icon-card",

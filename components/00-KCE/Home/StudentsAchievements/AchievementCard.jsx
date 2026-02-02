@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./AchievementCard.module.css";
+import Link from "next/link";
 
 const AchievementCard = ({ data }) => {
   return (
@@ -9,7 +10,22 @@ const AchievementCard = ({ data }) => {
       <div className={styles.overlay}>
         <h4>{data.title}</h4>
         <p>{data.desc}</p>
-        <button>Know More</button>
+        <Link
+          href="#"
+          className="kce-btn-primary rbt-btn hover-icon-reverse mt-4"
+          target="_self"
+        >
+          <span className="icon-reverse-wrapper">
+            <span className="btn-text">Know More</span>
+            <span className="btn-icon">
+              <i className="feather-arrow-right"></i>
+            </span>
+            <span className="btn-icon">
+              <i className="feather-arrow-right"></i>
+            </span>
+          </span>
+        </Link>
+      
       </div>
     </div>
   );

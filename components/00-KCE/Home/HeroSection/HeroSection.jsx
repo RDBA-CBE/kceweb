@@ -38,9 +38,9 @@ export default function HeroSection() {
 
         {/* RIGHT – CTA */}
         <div className="cta-box">
-          <ActionCard title="PLACEMENT" />
-          <ActionCard title="CAMPUS LIFE" />
-          <ActionCard title="CENTERS OF EXCELLENCE" />
+          <ActionCard title="PLACEMENT" url={"/KCE/overview"} />
+          <ActionCard title="CAMPUS LIFE" url={"/KCE/infrastructure"}/>
+          <ActionCard title="CENTERS OF EXCELLENCE" url={"/KCE/centers-of-excellence"}/>
         </div>
       </div>
     </section>

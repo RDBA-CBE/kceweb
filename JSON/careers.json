@@ -23,8 +23,8 @@
       "type": "image-overlay-content",
       "data": {
         "bgImage": "/images/kce/academics/banner.jpg",
-
-        "title": "Senior Professors, Professors, Associate Professors and Assistant Professors in the Departments of",
+        "title":"Opening Positions",
+        "rightTi": "Senior Professors, Professors, Associate Professors and Assistant Professors in the Departments of",
         "subtitle": "Salary : As per AICTE norms with DA & AGP",
         "button":{
           "name":"Apply Online",

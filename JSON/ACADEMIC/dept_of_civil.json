@@ -83,13 +83,16 @@
     },
 
     {
-      "type": "card-grid",
+      "type": "edge-image-content",
       "data": {
-        "title": "Courses Offered",
+        "sectionbg": "section-bg1 my-5",
+        "imagePosition": "left",
+        "secTitle": "Courses Offered",
+        "image": "/images/kce/image-5.png",
         "content": [
           {
-            "id": 1,
-            "name": "B.E. Civil Engineering"
+            "type": "card",
+            "items": ["B.E. Civil Engineering"]
           }
         ]
       }
@@ -277,7 +280,6 @@
       }
     },
 
-   
     {
       "type": "split-image-content",
       "data": {
@@ -454,7 +456,7 @@
     {
       "type": "pill-list",
       "data": {
-        "sectionbg":"section-bg3 pb--70",
+        "sectionbg": "section-bg3 pb--70",
         "title": "Teaching and Learning",
         "description": "Lorem ipsum dolor sit amet consectetur. Pulvinar nulla sapien velit ultrices neque pretium pulvinar. Urna netus sed et in. At sed urna vitae rhoncus convallis tellus nisi viverra.",
         "items": [
@@ -493,10 +495,5 @@
         ]
       }
     }
-
-    
-    
-
-    
   ]
 }

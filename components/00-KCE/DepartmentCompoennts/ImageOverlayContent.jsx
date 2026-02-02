@@ -39,6 +39,8 @@ const ImageOverlayContent = ({ data }) => {
 
             {/* Right Column */}
             <div className='ioc-right-col'>
+               {data?.rightTi && <p className='sub-ti'>{data?.rightTi}</p>}
+               {data?.desc && <p className='mt-4'>{data?.desc}</p>}
               <ul className='ioc-list'>
                 {data?.list?.map((item, index) =>
                   item?.url ? (
