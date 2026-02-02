@@ -1,0 +1,80 @@
+{
+    "banner": {
+      "bannerImg": "/images/kce/banner_computer_technology.jpg",
+      "title": "Photo Gallery",
+      "breadcrumb": [
+        {
+          "label": "Home",
+          "href": "/"
+        },
+        {
+          "label": "Photo Gallery"
+        }
+      ]
+    },
+  
+    "sections": [
+     
+      {
+        "type": "gallery",
+        "data": {
+          "title": "Gallery",
+          "content": [
+            {
+              "images":[
+                { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/startupweekend-400x400-1.jpg" },
+                { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/KIC2-2-400x400-1.jpg" },
+                { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/KIC2-1-400x400-1.jpg" },
+                { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/KIC1-1-400x400-1.jpg" },
+                { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/KCE_awards-400x400-1.jpg" },
+                { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/culture2-400x400-1.jpg" },
+                { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Students_media6-400x400-1.jpg" },
+                { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Students_media4-400x400-1.jpg" },
+                { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Students_media5-400x400-1.jpg" },
+                { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/culture3-400x400-1.jpg" },
+                { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Students_media2-400x400-1.jpg" },
+                { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Guiness-world-Record-400x400-1.jpg" },
+                { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/culture1-400x400-1.jpg" },
+                { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Grammathu_Virundhu6-400x400-1.jpg" },
+                { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Grammathu_Virundhu2-400x400-1.jpg" },
+                { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Grammathu_Virundhu3-400x400-1.jpg" },
+                { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Grammathu_Virundhu-400x400-1.jpg" },
+                { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/IMG_9880-2-400x400-1.jpg" },
+                { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/IMG_9826-1-2-400x400-1.jpg" },
+                { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Sports5-400x400-1.jpg" },
+                { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/IMG_9823-1-400x400-1.jpg" },
+                { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Sports7-400x400-1.jpg" },
+                { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Sports3-400x400-1.jpg" },
+                { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Sports1-400x400-1.jpg" },
+                { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Club_Photo25-400x400-1.jpeg" },
+                { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Club_Photo26-400x400-1.jpeg" },
+                { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Club_Photo24-400x400-1.jpeg" },
+                { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Club_Photo20-400x400-1.jpeg" },
+                { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Club_Photo5-400x400-1.jpeg" },
+                { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Club_Photo8-400x400-1.jpeg" },
+                { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Club_Photo15-400x400-1.jpeg" },
+                { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/KCE_StoryTelling-400x400-1.jpg" },
+                { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Club_Photo7-400x400-1.jpeg" },
+                { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/IMG_1107-400x400-1.jpg" },
+                { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/DSCN9964-400x400-1.jpg" },
+                { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/23669179_315030322346240_7912225960938736028_o-400x400-1.jpg" },
+                { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/KCE_Startup_Weekend-400x400-1.jpg" },
+                { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/KCE_Startup_Weekend2-400x400-1.jpg" },
+                { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Club_Photo2-400x400-1.jpeg" },
+                { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/KCE_YouthDay-400x400-1.jpg" },
+                { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/KCE_Epiphany3-400x400-1.jpg" },
+                { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/KCE_Epiphany1-400x400-1.jpg" },
+                { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/KCE_Epiphany-400x400-1.jpg" },
+                { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/KCE_Challenges_of_a_Creative_Entrepreneur-400x400-1.jpg" },
+                { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/KCE_Startup_Concalve-400x400-1.jpg" },
+                { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/23593501_313709965811609_1260804819630471363_o-400x400-1.jpg" },
+                { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/DSCN9680-400x400-1.jpg" },
+                { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/IMG_5577-400x400-1.jpg" }
+              ]
+              
+            }
+          ]
+        }
+      }
+    ]
+  }

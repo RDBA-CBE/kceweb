@@ -1,6 +1,6 @@
 'use client'
 import React from 'react'
-import data from '@/JSON/MEDIA/photoGallery.json'
+import data from '@/JSON/media/photo_gallery.json'
 import InnerBanner from '@/components/00-KCE/common/InnerBanner'
 import RenderSection from '@/components/00-KCE/RenderComponent/RenderSection'
 
