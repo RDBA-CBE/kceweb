@@ -349,7 +349,7 @@ ul {
 
         &:hover {
             > a {
-                color: var(--color-primary);
+                color: #000;
             }
         }
 
@@ -673,7 +673,7 @@ ul {
                     &:hover,
                     &.active {
                         a {
-                            color: var(--color-primary);
+                            color: #000;
                             background: var(--black-opacity);
                         }
                     }
@@ -770,7 +770,7 @@ ul {
             }
             &:hover {
                 a {
-                    color: var(--color-primary);
+                    color: #000;
                     background: var(--black-opacity);
                 }
             }

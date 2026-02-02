@@ -20,7 +20,7 @@
         "imagePosition": "right",
         "sectionbg": "section-bg1 ",
 
-        "image": "/images/kce/image.jpg",
+        "image": "/images/kce/campus-facilities/library/about.webp",
         "content": [
           {
             "type": "title",
@@ -44,7 +44,7 @@
     {
       "type": "image-overlay-content",
       "data": {
-        "bgImage": "/images/kce/academics/banner.jpg",
+        "bgImage": "/images/kce/campus-facilities/library/library.webp",
 
         "title": "As the veritable abode of Knowledge, the Central Library of KCE houses,",
         "subtitle": "Library Timings: 8 am to 8 pm and Timings on Holidays: 9 am to 1 pm",
@@ -103,7 +103,7 @@
                 "data": {
                   "imagePosition": "left",
                   "sectionbg": "section-bg1",
-                  "image": "/images/kce/image.jpg",
+                  "image": "/images/kce/campus-facilities/library/classification system.webp",
                   "content": [
                     {
                       "type": "title",

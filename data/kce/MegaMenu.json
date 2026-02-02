@@ -346,7 +346,8 @@
           "title": "Result",
           "link": "https://karpagam.edu.in/Automation/studentOnline.do?param=login&Id=2",
           "desc": "Learn more about KAHE overview.",
-          "src": "/images/banner/co-men.png"
+          "src": "/images/banner/co-men.png",
+          "target":"_blank"
         },
         {
           "id": 3,

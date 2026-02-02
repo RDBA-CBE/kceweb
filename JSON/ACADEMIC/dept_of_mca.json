@@ -22,7 +22,7 @@
       "type": "image-overlay-card",
       "data": {
         "title": "About the Department",
-        "bgImg": "/images/kce/academics/banner.jpg",
+        "bgImg": "/images/kce/academics/mca/mca.webp",
         "description": [
           "The Department of Master of Computer Applications was established in 2001 with an intake of 40 students. It offers a two year regular MCA programme. The programme offers a number of in-depth core courses, specialization courses, Mini project, employability courses and application-oriented courses. The syllabus and courses are updated frequently with the latest industrial technologies. The curriculum of MCA is designed to meet the Industry needs. The Computer Applications Association organizes Industrial seminars, workshops and guest lectures apart from the curriculum. In addition to that, soft skills and programming training are provided to the students."
         ]
@@ -46,7 +46,7 @@
           {
             "title": "Our Vision",
             "description": "To be a nationally prominent and recognized department in academics and research activities with the aim of developing competent professionals to serve the society in the ever changing industry.",
-            "image": "/images/kce/academics/banner.jpg"
+            "image": "/images/kce/academics/mca/vision.webp"
           },
           {
             "title": "Our Mission",
@@ -59,7 +59,7 @@
                 ]
               }
             ],
-            "image": "/images/kce/academics/banner.jpg"
+            "image": "/images/kce/academics/mca/mision.webp"
           }
         ]
       }
@@ -242,7 +242,7 @@
       "data": {
         "imagePosition": "left",
         "sectionbg": "section-bg1 pt-0",
-        "image": "/images/gallery/gallery-big.jpg",
+        "image": "/images/kce/academics/faculty.webp",
         "content": [
           {
             "type": "title",

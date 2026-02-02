@@ -1,0 +1,40 @@
+{
+  "banner": {
+    "bannerImg": "/images/kce/banner_computer_technology.jpg",
+    "title": "Statutory",
+    "breadcrumb": [
+      {
+        "label": "Approval"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "link-card",
+      "data": {
+        "sectionbg": " section-bg1 mb-5",
+        "title": "Approval",
+        "content": [
+          {
+            "id": 1,
+            "title": "AICTE EOA",
+            "url": "https://kce.ac.in/approvals/aicte-eoa/",
+            "urlText": "View"
+          },
+          {
+            "id": 2,
+            "title": "AU Affiliation",
+            "url": "https://kce.ac.in/approvals/au-affiliation/",
+            "urlText": "View"
+          },
+          {
+            "id": 3,
+            "title": "UGC Autonomous",
+            "url": "https://kce.ac.in/approvals/ugc-autonomous/",
+            "urlText": "View"
+          }
+        ]
+      }
+    }
+  ]
+}

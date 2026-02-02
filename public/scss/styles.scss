@@ -1011,6 +1011,10 @@
   line-height: 1.7;
 }
 
+.bg-blue .ci-section .section-ti, .bg-blue .ci-section .sub-ti{
+  color: #fff;
+}
+
 /* CLEAR FLOAT (important) */
 .ci-content::after {
   content: "";
@@ -2230,4 +2234,13 @@ a.ps-card:hover .ps-title {
     padding: 0;
     margin: auto;
   }
+}
+
+
+.rbt-header .mainmenu-nav .mainmenu li.with-megamenu .rbt-megamenu .wrapper .mega-menu-item li a:hover{
+  color: #cc6926 !important  ;
+}
+
+.kce-hdr__contact-item :hover{
+  color: #cc6926 !important  ;
 }

@@ -23,7 +23,7 @@
       "data": {
         "imagePosition": "right",
         "sectionbg": "section-bg1 my-4",
-        "image": "/images/gallery/gallery-big.jpg",
+        "image": "/images/kce/campus-facilities/campus-events/kalam.webp",
         "content": [
           {
             "type": "title",
@@ -43,7 +43,7 @@
       "data": {
         "imagePosition": "left",
         "sectionbg": "section-bg3",
-        "image": "/images/kce/image.jpg",
+        "image": "/images/kce/campus-facilities/campus-events/dhruva.webp",
         "content": [
           {
             "type": "title",
