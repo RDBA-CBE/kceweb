@@ -22,7 +22,7 @@
       "type": "image-overlay-card",
       "data": {
         "title": "About the Department",
-        "bgImg": "/images/kce/academics/banner.jpg",
+        "bgImg": "/images/kce/academics/cyber-security/cyber-security.webp",
         "description": [
           "The department was established with an undergraduate programme in Computer Science and Engineering (Cyber Security) in 2020. This is a specialization branch of Computer Science and Engineering in which students get the technical knowledge in the Computer Science and Engineering, Cyber Security, Digital Forensic and emerging areas such as Device Security and Forensics. The department is well equipped with laboratories like Cryptography Lab, Network Security Lab, Internet and Web Application Security Lab, Ethical Hacking Lab, Vulnerability Assessment and Penetration Testing Lab, Malware Analysis, Secure Coding Lab, Cyber Forensics and Digital Forensics lab."
         ]
@@ -66,7 +66,7 @@
           {
             "title": "Our Vision",
             "description": "To develop technically cyber skilled professionals by imparting state-of-art innovative, multi-disciplinary teams to address contemporary and future cyber security through innovative and flexible environment.",
-            "image": "/images/kce/academics/banner.jpg"
+            "image": "/images/kce/academics/cyber-security/mision.webp"
           },
           {
             "title": "Our Mission",
@@ -79,7 +79,7 @@
                 ]
               }
             ],
-            "image": "/images/kce/academics/banner.jpg"
+            "image": "/images/kce/academics/cyber-security/vision.webp"
           }
         ]
       }
@@ -88,7 +88,7 @@
     {
       "type": "image-overlay-content",
       "data": {
-        "bgImage": "/images/kce/academics/banner.jpg",
+        "bgImage": "/images/kce/academics/regulation.webp",
 
         "title": "Regulations",
         "list": [
@@ -123,51 +123,51 @@
         "title": "Lab Facilities",
         "content": [
           {
-            "img": "/images/kce/icon.webp",
+            "img": "/images/kce/academics/lab-icon.svg",
             "title": "Cryptography and Information Security Lab"
           },
           {
-            "img": "/images/kce/icon.webp",
+            "img": "/images/kce/academics/lab-icon.svg",
             "title": "Computer Networks and Network Security Lab"
           },
           {
-            "img": "/images/kce/icon.webp",
+            "img": "/images/kce/academics/lab-icon.svg",
             "title": "Internet and Web Application Security Lab"
           },
           {
-            "img": "/images/kce/icon.webp",
+            "img": "/images/kce/academics/lab-icon.svg",
             "title": "Ethical Hacking Lab"
           },
           {
-            "img": "/images/kce/icon.webp",
+            "img": "/images/kce/academics/lab-icon.svg",
             "title": "Penetration Testing Lab"
           },
           {
-            "img": "/images/kce/icon.webp",
+            "img": "/images/kce/academics/lab-icon.svg",
             "title": "Malware Analysis Lab"
           },
           {
-            "img": "/images/kce/icon.webp",
+            "img": "/images/kce/academics/lab-icon.svg",
             "title": "Secure Coding Lab"
           },
           {
-            "img": "/images/kce/icon.webp",
+            "img": "/images/kce/academics/lab-icon.svg",
             "title": "Cyber Security and Machine Learning Lab"
           },
           {
-            "img": "/images/kce/icon.webp",
+            "img": "/images/kce/academics/lab-icon.svg",
             "title": "IoT Security Lab"
           },
           {
-            "img": "/images/kce/icon.webp",
+            "img": "/images/kce/academics/lab-icon.svg",
             "title": "Cloud Security Lab"
           },
           {
-            "img": "/images/kce/icon.webp",
+            "img": "/images/kce/academics/lab-icon.svg",
             "title": "Cyber Forensics Lab"
           },
           {
-            "img": "/images/kce/icon.webp",
+            "img": "/images/kce/academics/lab-icon.svg",
             "title": "Digital Forensics lab"
           }
         ]
@@ -320,7 +320,7 @@
       "type": "split-image-content",
       "data": {
         "sectionbg": "section-bg1 pt-0",
-        "image": "/images/gallery/gallery-big.jpg",
+        "image": "/images/kce/academics/faculty.webp",
         "content": [
           {
             "type": "title",

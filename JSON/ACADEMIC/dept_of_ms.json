@@ -335,11 +335,11 @@
         "title": "Lab Facilities",
         "content": [
           {
-            "img": "/images/kce/icon.webp",
+            "img": "/images/kce/academics/lab-icon.svg",
             "title": "MBA Lab 1"
           },
           {
-            "img": "/images/kce/icon.webp",
+            "img": "/images/kce/academics/lab-icon.svg",
             "title": "MBA Lab 2"
           }
         ]

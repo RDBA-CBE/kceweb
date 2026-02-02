@@ -85,11 +85,11 @@
         "title": "Lab Facilities",
         "content": [
           {
-            "img": "/images/kce/icon.webp",
+            "img": "/images/kce/academics/lab-icon.svg",
             "title": "Steven Paul Steve Jobs Laboratory"
           },
           {
-            "img": "/images/kce/icon.webp",
+            "img": "/images/kce/academics/lab-icon.svg",
             "title": "William Henry Bill Gates Laboratory"
           }
         ]

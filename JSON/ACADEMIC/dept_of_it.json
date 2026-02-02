@@ -22,7 +22,7 @@
       "type": "image-overlay-card",
       "data": {
         "title": "About the Department",
-        "bgImg": "/images/kce/academics/banner.jpg",
+        "bgImg": "/images/kce/academics/it/it.webp",
         "description": [
           "The Department of Information Technology was started in the academic year 2001. The Department is located in a newly constructed 70000 Sq.ft state-of-the art information Sciences Block. The block also houses a separate Laboratory block and one open Air Theater to seat 500 students."
         ]
@@ -46,7 +46,7 @@
           {
             "title": "Our Vision",
             "description": "To provide reliable and modern technology resources to the faculty and students to develop the competence in Information Technology and to endure with the rapidly changing world to serve the mankind.",
-            "image": "/images/kce/academics/banner.jpg"
+            "image": "/images/kce/academics/it/vision.webp"
           },
           {
             "title": "Our Mission",
@@ -64,7 +64,7 @@
                 "item": "To provide technical expertise to carry out research and development."
               }
             ],
-            "image": "/images/kce/academics/banner.jpg"
+            "image": "/images/kce/academics/it/mision.webp"
           }
         ]
       }
@@ -73,7 +73,7 @@
     {
       "type": "image-overlay-content",
       "data": {
-        "bgImage": "/images/kce/academics/banner.jpg",
+        "bgImage": "/images/kce/academics/regulation.webp",
 
         "title": "Regulations",
         "list": [
@@ -117,19 +117,19 @@
         "title": "Lab Facilities",
         "content": [
           {
-            "img": "/images/kce/icon.webp",
+            "img": "/images/kce/academics/lab-icon.svg",
             "title": "Watson Lab"
           },
           {
-            "img": "/images/kce/icon.webp",
+            "img": "/images/kce/academics/lab-icon.svg",
             "title": "Tarvolds Lab"
           },
           {
-            "img": "/images/kce/icon.webp",
+            "img": "/images/kce/academics/lab-icon.svg",
             "title": "Von Newman Lab"
           },
           {
-            "img": "/images/kce/icon.webp",
+            "img": "/images/kce/academics/lab-icon.svg",
             "title": "IT Project Lab"
           }
         ]
@@ -331,7 +331,7 @@
       "data": {
         "imagePosition": "left",
         "sectionbg": "section-bg1 pt-0",
-        "image": "/images/gallery/gallery-big.jpg",
+        "image": "/images/kce/academics/faculty.webp",
         "content": [
           {
             "type": "title",

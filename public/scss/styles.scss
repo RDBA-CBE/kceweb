@@ -423,7 +423,7 @@
 }
 
 .mainmenu-nav {
-  padding: 7px 0 !important;
+  // padding: 7px 0 !important;
 }
 
 .mainmenu .mobile-menu-bar .hamberger {
@@ -2134,6 +2134,8 @@ a.ps-card:hover .ps-title {
   width: auto;
   height: auto;
   object-fit: cover;
+  border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
 }
 
 /* LEFT IMAGE */

@@ -22,7 +22,7 @@
       "type": "image-overlay-card",
       "data": {
         "title": "About the Department",
-        "bgImg": "/images/kce/academics/banner.jpg",
+        "bgImg": "/images/kce/academics/ai/ai.webp",
         "description": [
           "The B. Tech. in Artificial Intelligence and Data Science program at Karpagam College of Engineering is designed to prepare students for the future of technical education in AI and Machine Learning (ML). The curriculum offers a comprehensive understanding of AI and ML technologies, with courses covering specialized areas such as computer vision, natural language processing, robotics, data analytics, and computer security. Students gain deep knowledge in algorithm analysis, modern computer architecture, foundations of AI, data science, and machine learning, among other core areas."
         ]
@@ -264,7 +264,7 @@
           {
             "title": "Our Vision",
             "description": "To become an integrative department through creativity and innovation in developing systems with Artificial Intelligence and Data Science to serve society.",
-            "image": "/images/kce/academics/banner.jpg"
+            "image": "/images/kce/academics/ai/vision.webp"
           },
           {
             "title": "Our Mission",
@@ -278,7 +278,7 @@
                 ]
               }
             ],
-            "image": "/images/kce/academics/banner.jpg"
+            "image": "/images/kce/academics/ai/mision.webp"
           }
         ]
       }
@@ -287,7 +287,7 @@
     {
       "type": "image-overlay-content",
       "data": {
-        "bgImage": "/images/kce/academics/banner.jpg",
+        "bgImage": "/images/kce/academics/regulation.webp",
 
         "title": "Regulations",
         "list": [
@@ -444,7 +444,7 @@
       "type": "split-image-content",
       "data": {
         "sectionbg": "section-bg1 my-4",
-        "image": "/images/gallery/gallery-big.jpg",
+        "image": "/images/kce/academics/faculty.webp",
         "content": [
           {
             "type": "title",
@@ -776,19 +776,19 @@
         "title": "Lab Facilities",
         "content": [
           {
-            "img": "/images/kce/icon.webp",
+            "img": "/images/kce/academics/lab-icon.svg",
             "title": "AI Tech Lab"
           },
           {
-            "img": "/images/kce/icon.webp",
+            "img": "/images/kce/academics/lab-icon.svg",
             "title": "Microsoft Lab"
           },
           {
-            "img": "/images/kce/icon.webp",
+            "img": "/images/kce/academics/lab-icon.svg",
             "title": "Data Centre"
           },
           {
-            "img": "/images/kce/icon.webp",
+            "img": "/images/kce/academics/lab-icon.svg",
             "title": "Computer Vision & IOT"
           }
         ]
@@ -864,28 +864,28 @@
             "desc": "The program is designed to build strong foundations in Artificial Intelligence, Data Science, and intelligent computing to meet current and future industry demands.",
             "counterList": [
               {
-                "icon": "/images/kce/icon.webp",
+                "icon": "/images/kce/academics/lab-icon.svg",
                 "num": "4 Years Duration",
                 "text": "Regular"
               },
               {
-                "icon": "/images/kce/icon.webp",
+                "icon": "/images/kce/academics/lab-icon.svg",
                 "num": "3 Years Duration",
                 "text": "Lateral Entry "
               },
               {
-                "icon": "/images/kce/icon.webp",
+                "icon": "/images/kce/academics/lab-icon.svg",
                 "num": "8 Semesters",
                 "text": "Regular"
               },
               {
-                "icon": "/images/kce/icon.webp",
+                "icon": "/images/kce/academics/lab-icon.svg",
                 "num": "6 Semesters",
                 "text": "Lateral Entry"
               },
 
               {
-                "icon": "/images/kce/icon.webp",
+                "icon": "/images/kce/academics/lab-icon.svg",
                 "num": "120",
                 "text": "Total Seats"
               }

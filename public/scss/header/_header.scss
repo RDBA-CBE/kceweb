@@ -507,7 +507,7 @@
     display: none !important;
   }
   .mobile-menu-bar {
-    display: flex  !important;
+    display: flex !important;
     align-items: center;
   }
 }
@@ -523,7 +523,7 @@
 
 @media (max-width: 768px) {
   .kce-hdr__container {
-    padding: 0 ;
+    padding: 0;
     flex-direction: column;
   }
   .kce-hdr__section {
@@ -532,9 +532,16 @@
   }
   .kce-hdr__main-logo {
     height: 60px;
+    width: 90%;
   }
 }
 
-.rbt-information-list li a span{
-    color: #000;
+@media (max-width: 400px) {
+  .kce-hdr__main-logo {
+    width: 80%;
+  }
+}
+
+.rbt-information-list li a span {
+  color: #000;
 }

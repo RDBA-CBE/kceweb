@@ -22,7 +22,7 @@
       "type": "image-overlay-card",
       "data": {
         "title": "About the Department",
-        "bgImg": "/images/kce/academics/banner.jpg",
+        "bgImg": "/images/kce/academics/cst/csd.webp",
         "description": [
           "B.E., Computer Science and Technology Department was established in the year 2020. It offers undergraduate Computer Science and Technology programme to create motivated, innovative, creative and thinking graduates to fill ICT positions across sectors who can conceptualize, design, analyse, and develop ICT applications to meet the modern day requirements. The Department was established in the year 2020. Students pursuing out of this programme will develop critical, innovative, creative thinking and problem solving abilities for a smooth transition from academic to real-life work environment."
         ]
@@ -48,7 +48,7 @@
           {
             "title": "Our Vision",
             "description": "To create computer professionals with a strong academic and technical background to achieve special distinction at the national and international arena and also to serve and lead the society.",
-            "image": "/images/kce/academics/banner.jpg"
+            "image": "/images/kce/academics/cst/mision.webp"
           },
           {
             "title": "Our Mission",
@@ -62,7 +62,7 @@
                 ]
               }
             ],
-            "image": "/images/kce/academics/banner.jpg"
+            "image": "/images/kce/academics/cst/vision.webp"
           }
         ]
       }
@@ -71,7 +71,7 @@
     {
       "type": "image-overlay-content",
       "data": {
-        "bgImage": "/images/kce/academics/banner.jpg",
+        "bgImage": "/images/kce/academics/regulation.webp",
 
         "title": "Regulations",
         "list": [
@@ -106,39 +106,39 @@
         "title": "Lab Facilities",
         "content": [
           {
-            "img": "/images/kce/icon.webp",
+            "img": "/images/kce/academics/lab-icon.svg",
             "title": "Electronic Devices and Circuits Laboratory-I"
           },
           {
-            "img": "/images/kce/icon.webp",
+            "img": "/images/kce/academics/lab-icon.svg",
             "title": "Electronic Devices and Circuits Laboratory-II"
           },
           {
-            "img": "/images/kce/icon.webp",
+            "img": "/images/kce/academics/lab-icon.svg",
             "title": "LIC / Digital Laboratory"
           },
           {
-            "img": "/images/kce/icon.webp",
+            "img": "/images/kce/academics/lab-icon.svg",
             "title": "VLSI / DSP Laboratory"
           },
           {
-            "img": "/images/kce/icon.webp",
+            "img": "/images/kce/academics/lab-icon.svg",
             "title": "Communication Laboratory"
           },
           {
-            "img": "/images/kce/icon.webp",
+            "img": "/images/kce/academics/lab-icon.svg",
             "title": "Microwave/Optical Laboratory"
           },
           {
-            "img": "/images/kce/icon.webp",
+            "img": "/images/kce/academics/lab-icon.svg",
             "title": "Microprocessors and Microcontrollers Laboratory"
           },
           {
-            "img": "/images/kce/icon.webp",
+            "img": "/images/kce/academics/lab-icon.svg",
             "title": "Networks Laboratory"
           },
           {
-            "img": "/images/kce/icon.webp",
+            "img": "/images/kce/academics/lab-icon.svg",
             "title": "Project/Research Laboratory"
           }
         ]
@@ -291,7 +291,7 @@
       "data": {
         "imagePosition": "left",
         "sectionbg": "section-bg1 pt-0",
-        "image": "/images/gallery/gallery-big.jpg",
+        "image": "/images/kce/academics/faculty.webp",
         "content": [
           {
             "type": "title",

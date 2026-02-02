@@ -39,7 +39,7 @@ const Header = ({ gapSpaceBetween, sticky, navigationEnd, container }) => {
             <div style={{ display: "flex", flexDirection: "row", gap: "10px" }}>
               <div className="kce-hdr__section kce-hdr__logo-area">
                 <a href="/"> <img
-                  src="/images/kce/logo/kce-logo.png"
+                  src="/images/kce/logo/KCE-logo-color.png"
                   alt="Karpagam College of Engineering"
                   className="kce-hdr__main-logo"
                 /></a>
