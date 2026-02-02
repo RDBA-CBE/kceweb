@@ -1,8 +1,8 @@
 import DeptOfMSPage from "@/components/00-KCE/Academics/DeptOfMSPage";
 
 export const metadata = {
-  title: "Management Studies - Best Colleges For MBA In Tamilnadu",
-  description: "KCE is one of the MBA colleges in Tamil Nadu, specializing in Management Studies. Elevate your career with strategic education and best learning opportunities.",
+  title: "Best MBA College in Coimbatore For Management Studies",
+  description: "Best MBA Colleges in Coimbatore offer industry-focused management programs, experienced faculty, and practical business learning.",
 };
 
 const page = () => {

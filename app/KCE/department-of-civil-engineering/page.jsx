@@ -1,8 +1,8 @@
 import DeptOfCIVILPage from "@/components/00-KCE/Academics/DeptOfCIVILPage";
 
 export const metadata = {
-  title: "Best Computer Science and Design Colleges in Coimbatore",
-  description: "KCE, one of the best computer science and design colleges in Coimbatore Shape your future with us. Explore innovative and quality education with premier College.",
+  title: "Top Civil Engineering College in Coimbatore",
+  description: "Join KCE, one of the Top Civil Engineering Colleges in Coimbatore, for applied learning, modern facilities, and excellent placements.",
 };
 
 const page = () => {

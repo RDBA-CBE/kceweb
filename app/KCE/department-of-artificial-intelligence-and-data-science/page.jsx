@@ -1,9 +1,9 @@
 import DeptOfAIDSPage from "@/components/00-KCE/Academics/DeptOfAIDSPage";
 
 export const metadata = {
-  title: "Best college for Engineering In Tamilnadu - KCE",
+  title: "B.Tech Artificial Intelligence College In Coimbatore",
   description:
-    "Unlock your potential in Engineering at KCE, the leading Engineering college in Tamilnadu, providing a nurturing environment for academic and personal growth.",
+    "Top B.Tech Artificial Intelligence Colleges in Coimbatore focus on robotics, data analytics, and innovative AI applications.",
 };
 
 const page = () => {
