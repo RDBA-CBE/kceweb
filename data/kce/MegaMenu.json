@@ -73,51 +73,56 @@
         },
         {
           "id": 7,
+          "title": "Department of Electronics Engineering [VLSI Design and Technology]",
+          "link": "/KCE/department-of-electronics-engineering-vlsi-design-and-technology/"
+        },
+        {
+          "id": 8,
           "title": "Department of Computer Science and Engineering (Cyber Security)",
           "link": "/KCE/department-of-computer-science-and-engineering-cyber-security/"
         },
         {
-          "id": 8,
+          "id": 9,
           "title": "Department of Computer Science and Engineering",
           "link": "/KCE/department-of-computer-science-and-engineering/"
         },
         {
-          "id": 9,
+          "id": 10,
           "title": "Department of Computer Science and Design",
           "link": "/KCE/department-of-computer-science-and-design/"
         },
         {
-          "id": 10,
+          "id": 11,
           "title": "Department of Computer Science and Technology",
           "link": "/KCE/department-of-computer-science-and-technology/"
         },
         {
-          "id": 11,
+          "id": 12,
           "title": "Department of Information Technology",
           "link": "/KCE/department-of-information-technology/"
         },
         {
-          "id": 12,
+          "id": 13,
           "title": "Department of Artificial Intelligence and Data Science",
           "link": "/KCE/department-of-artificial-intelligence-and-data-science/"
         },
         {
-          "id": 13,
+          "id": 14,
           "title": "Department of Science and Humanities",
           "link": "/KCE/department-of-science-and-humanities/"
         },
         {
-          "id": 14,
+          "id": 15,
           "title": "Department of MCA",
           "link": "/KCE/department-of-mca/"
         },
         {
-          "id": 15,
+          "id": 16,
           "title": "Department of Management Studies",
           "link": "/KCE/department-of-management-studies/"
         },
         {
-          "id": 16,
+          "id": 17,
           "title": "Professional Bodies",
           "link": "/KCE/professional-bodies/"
         }
@@ -307,7 +312,7 @@
           "link": "https://www.youtube.com/watch?v=zIgsSFZRf6s",
           "desc": "Learn more about KAHE overview.",
           "src": "/images/banner/co-men.png",
-          "target":"_blank"
+          "target": "_blank"
         }
       ]
     },
@@ -347,7 +352,7 @@
           "link": "https://karpagam.edu.in/Automation/studentOnline.do?param=login&Id=2",
           "desc": "Learn more about KAHE overview.",
           "src": "/images/banner/co-men.png",
-          "target":"_blank"
+          "target": "_blank"
         },
         {
           "id": 3,

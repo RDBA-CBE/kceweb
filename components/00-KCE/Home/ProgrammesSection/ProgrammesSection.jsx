@@ -14,6 +14,7 @@ const data = [
       "B.E. Electronics and Communication Engineering +",
       "B.E. Electrical and Electronics Engineering +",
       "B.E. Electronics and Telecommunications Engineering",
+      "Department of Electronics Engineering [VLSI Design and Technology]",
       "B.E. Mechanical Engineering +",
       "B.E. Computer Science and Design",
       "B.Tech. Information Technology +",
