@@ -30,6 +30,7 @@ import IconCard1 from "../DepartmentCompoennts/IconCard1";
 import FullWidthImage from "../DepartmentCompoennts/FullWidthImage";
 import ContactCard from "../DepartmentCompoennts/ContactCard";
 import Accordion from "../DepartmentCompoennts/Accordian";
+import EdgeImageContent from "../DepartmentCompoennts/EdgeImageContent";
 
 const RenderSection = ({ section, index, renderSection }) => {
   switch (section.type) {
@@ -101,6 +102,9 @@ const RenderSection = ({ section, index, renderSection }) => {
 
     case "split-image-content":
       return <SplitImageContent key={index} data={section.data} />;
+
+    case "edge-image-content":
+      return <EdgeImageContent key={index} data={section.data} />;
 
     case "table":
       return <TableCom key={index} data={section.data} />;

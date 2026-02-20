@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './About.module.css';
+import Link from 'next/link';
 
 const About = ({ data = {} }) => {
   // Destructure with fallbacks to avoid "undefined" errors
@@ -37,9 +38,23 @@ const About = ({ data = {} }) => {
             ))}
           </div>
 
-          <a href="/KCE/profile">
-            <button className={styles.ctaButton}>Read More</button>
-          </a>
+           <Link
+                href="/KCE/profile"
+                className="kce-btn-primary rbt-btn hover-icon-reverse mt-4"
+                target="_self"
+              >
+                <span className="icon-reverse-wrapper">
+                  <span className="btn-text">Read More</span>
+                  <span className="btn-icon">
+                    <i className="feather-arrow-right"></i>
+                  </span>
+                  <span className="btn-icon">
+                    <i className="feather-arrow-right"></i>
+                  </span>
+                </span>
+              </Link>
+
+         
         </div>
 
         {/* Image Side */}

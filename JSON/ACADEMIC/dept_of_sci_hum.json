@@ -22,7 +22,7 @@
       "type": "image-overlay-card",
       "data": {
         "title": "About the Department",
-        "bgImg": "/images/kce/academics/banner.jpg",
+        "bgImg": "/images/kce/academics/s&h/sh.webp",
         "description": [
           "Department of Science and Humanities comprises of Mathematics, Physics, Chemistry and English language. Science laboratories are well equipped to cater the needs of students. Department is adorned with adequate dedicated experienced faculty with specialization in diverse fields to impart knowledge and enhance skills. Department organizes periodic guest lectures and faculty development programme to inculcate Science in Engineering approach."
         ]
@@ -47,27 +47,27 @@
         "title": "Lab Facilities",
         "content": [
           {
-            "img": "/images/kce/icon.webp",
+            "img": "/images/kce/academics/lab-icon.svg",
             "title": "Charles Batchman Laboratory"
           },
           {
-            "img": "/images/kce/icon.webp",
+            "img": "/images/kce/academics/lab-icon.svg",
             "title": "Dennis Ritchie Laboratory"
           },
           {
-            "img": "/images/kce/icon.webp",
+            "img": "/images/kce/academics/lab-icon.svg",
             "title": "Chemistry Laboratory"
           },
           {
-            "img": "/images/kce/icon.webp",
+            "img": "/images/kce/academics/lab-icon.svg",
             "title": "Applied Physics Laboratory"
           },
           {
-            "img": "/images/kce/icon.webp",
+            "img": "/images/kce/academics/lab-icon.svg",
             "title": "Communication Laboratory"
           },
           {
-            "img": "/images/kce/icon.webp",
+            "img": "/images/kce/academics/lab-icon.svg",
             "title": "Mathematics Laboratory"
           }
         ]
@@ -79,7 +79,7 @@
       "data": {
         "sectionbg": "section-bg1 ",
         "imagePosition": "left",
-        "image": "/images/gallery/gallery-big.jpg",
+        "image": "/images/kce/academics/faculty.webp",
         "content": [
           {
             "type": "title",
@@ -539,7 +539,7 @@
       "data": {
         
         "sectionbg": "section-bg1 ",
-        "image": "/images/gallery/gallery-big.jpg",
+        "image": "/images/kce/academics/faculty.webp",
         "content": [
           {
             "type": "title",

@@ -1,9 +1,9 @@
 import DeptOfMechEnggPage from '@/components/00-KCE/Academics/DeptOfMechEnggPage';
 
 export const metadata = {
-  title: 'Best Mechanical Engineering Colleges in Tamilnadu - KCE',
+  title: 'Best Mechanical Engineering College in Coimbatore',
   description:
-    'KCE, the best mechanical engineering college in Coimbatore, is distinguished among the top colleges in Tamil Nadu. Immerse yourself in outstanding education.',
+    'Best Mechanical Engineering College in Coimbatore, KCE delivers practical training, innovative lab sessions, and industry-focused learning.',
 };
 
 const page = () => {

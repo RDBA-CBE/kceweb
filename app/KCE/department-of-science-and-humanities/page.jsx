@@ -1,9 +1,9 @@
 import DeptOfSciAndHumPage from '@/components/00-KCE/Academics/DeptOfSciAndHumPage';
 
 export const metadata = {
-  title: 'Best science and humanities colleges an coimbatore India | KCE',
+  title: 'Best Science and Humanities College in Coimbatore',
   description:
-    'KCE is one among the best science and humanities colleges in Coimbatore. Advanced labs and experienced faculties are the highlight of this department.',
+    'KCE is a leading science and humanities college in Coimbatore, offering advanced labs, skilled faculty, and practical learning programs.',
 };
 
 const page = () => {

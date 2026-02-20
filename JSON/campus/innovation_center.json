@@ -22,7 +22,7 @@
       "data": {
         "imagePosition": "right",
         "sectionbg": "section-bg1 my-4",
-        "image": "/images/gallery/gallery-big.jpg",
+        "image": "/images/kce/campus-facilities/innovation-center/ksdc.webp",
         "content": [
           {
             "type": "title",
@@ -42,7 +42,7 @@
       "data": {
         "imagePosition": "left",
         "sectionbg": "section-bg3",
-        "image": "/images/gallery/gallery-big.jpg",
+        "image": "/images/kce/campus-facilities/innovation-center/innovation-center.webp",
         "content": [
           {
             "type": "title",

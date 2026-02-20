@@ -48,11 +48,11 @@
 }
 
 .ctaButton {
-  background-color: #d97706; /* Orange */
+  background-color: #cc6926; /* Orange */
   color: white;
-  padding: 10px 25px;
+  padding: 12px 30px;
   border: none;
-  border-radius: 8px;
+  border-radius: 50px;
   cursor: pointer;
   text-transform: uppercase;
   transition: background 0.2s; margin: 15px 0;

@@ -1,8 +1,8 @@
 import DeptOfMCAPage from "@/components/00-KCE/Academics/DeptOfMCAPage";
 
 export const metadata = {
-  title: "Best Electronics and Telecommunication Engineering College | KCE",
-  description: "Discover excellence in Electronics and Telecommunication Engineering at KCE. Elevate your education with industry-aligned programs and cutting-edge curriculum"};
+  title: "Best MCA College in Coimbatore Overview",
+  description: "KCE is one of the Best MCA Colleges in Coimbatore, offering courses in cloud computing, data analytics, and practical computer applications."};
 
 const page = () => {
   return (

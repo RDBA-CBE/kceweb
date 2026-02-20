@@ -1,7 +1,7 @@
-export default function ActionCard({ title }) {
+export default function ActionCard({ title , url}) {
   return (
-    <button className="action-btn">
+   <a href={url}><button className="action-btn">
       {title}
-    </button>
+    </button></a> 
   );
 }

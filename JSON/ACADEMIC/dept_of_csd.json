@@ -22,7 +22,7 @@
       "type": "image-overlay-card",
       "data": {
         "title": "About the Department",
-        "bgImg": "/images/kce/academics/banner.jpg",
+        "bgImg": "/images/kce/academics/csd/csd.webp",
         "description": [
           "B.E. Computer Science and Design offered at Karpagam College of Engineering and established in the year 2021. Computer Science and Design Engineering programme has been developed to give students a solid foundation in computing as well as design principles, new media technologies, and applications. The Computer Science and Design (CSD) degree includes core design courses and solid programming foundations. Graduation in CSD seeks to offer a comprehensive career programme to equip students with the most up-to-date design technology to influence future generations. By taking this programme, students will be able to develop an interdisciplinary skill set that will prepare them for a variety of careers, including those in the arts, entertainment/games, animation, virtual and augmented reality, mobile application development, multimedia, product/web design, cybersecurity, and other interactive systems."
         ]
@@ -36,7 +36,7 @@
           {
             "title": "Our Vision",
             "description": "To produce computer design professionals by providing high quality education in the field of computer science and design technology to achieve strong employability research and thereby orient towards serving globalized and regional technology societies.",
-            "image": "/images/kce/academics/banner.jpg"
+            "image": "/images/kce/academics/csd/mision.webp"
           },
           {
             "title": "Our Mission",
@@ -49,7 +49,7 @@
                 ]
               }
             ],
-            "image": "/images/kce/academics/banner.jpg"
+            "image": "/images/kce/academics/csd/vision.webp"
           }
         ]
       }
@@ -58,7 +58,7 @@
     {
       "type": "image-overlay-content",
       "data": {
-        "bgImage": "/images/kce/academics/banner.jpg",
+        "bgImage": "/images/kce/academics/regulation.webp",
 
         "title": "Regulations",
         "list": [
@@ -71,17 +71,22 @@
     },
 
     {
-      "type": "card-grid",
+      "type": "edge-image-content",
       "data": {
-        "title": "Courses Offered",
+        "sectionbg": "section-bg1 my-5",
+        "imagePosition": "left",
+        "secTitle": "Courses Offered",
+        "image": "/images/kce/image-5.png",
         "content": [
           {
-            "id": 1,
-            "name": "B.E. Computer Science and Design"
+            "type": "card",
+            "items": ["B.E. Computer Science and Design"]
           }
         ]
       }
     },
+
+  
 
     {
       "type": "icon-card",
@@ -89,39 +94,39 @@
         "title": "Lab Facilities",
         "content": [
           {
-            "img": "/images/kce/icon.webp",
+            "img": "/images/kce/academics/lab-icon.svg",
             "title": "Electrical Machines Laboratory-I"
           },
           {
-            "img": "/images/kce/icon.webp",
+            "img": "/images/kce/academics/lab-icon.svg",
             "title": "Electrical Machines Laboratory-II"
           },
           {
-            "img": "/images/kce/icon.webp",
+            "img": "/images/kce/academics/lab-icon.svg",
             "title": "Measurements & Instrumentation Laboratory"
           },
           {
-            "img": "/images/kce/icon.webp",
+            "img": "/images/kce/academics/lab-icon.svg",
             "title": "Linear Integrated circuits Laboratory"
           },
           {
-            "img": "/images/kce/icon.webp",
+            "img": "/images/kce/academics/lab-icon.svg",
             "title": "Power Electronics Laboratory"
           },
           {
-            "img": "/images/kce/icon.webp",
+            "img": "/images/kce/academics/lab-icon.svg",
             "title": "Electrical circuits Laboratory"
           },
           {
-            "img": "/images/kce/icon.webp",
+            "img": "/images/kce/academics/lab-icon.svg",
             "title": "Control System Laboratory"
           },
           {
-            "img": "/images/kce/icon.webp",
+            "img": "/images/kce/academics/lab-icon.svg",
             "title": "Power System Simulation Laboratory"
           },
           {
-            "img": "/images/kce/icon.webp",
+            "img": "/images/kce/academics/lab-icon.svg",
             "title": "LabVIEW Academy"
           }
         ]
@@ -321,7 +326,7 @@
       "type": "split-image-content",
       "data": {
         "sectionbg": "section-bg1 pt-0",
-        "image": "/images/gallery/gallery-big.jpg",
+        "image": "/images/kce/academics/faculty.webp",
         "content": [
           {
             "type": "title",

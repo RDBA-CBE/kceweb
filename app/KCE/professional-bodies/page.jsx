@@ -1,8 +1,8 @@
 import ProBodies from "@/components/00-KCE/Academics/ProBodies";
 
 export const metadata = {
-  title: "Best college for Engineering In Tamilnadu - KCE",
-  description: "Unlock your potential in Engineering at KCE, the leading Engineering college in Tamilnadu, providing a nurturing environment for academic and personal growth.",
+  title: "Karpagam College Of Engineering Professional Bodies",
+  description: "Karpagam College of Engineering Professional Bodies encourage innovation, technical events, and professional growth for students.",
 };
 
 const page = () => {

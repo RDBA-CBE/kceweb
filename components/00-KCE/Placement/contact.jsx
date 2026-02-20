@@ -1,6 +1,6 @@
 'use client'
 import React from 'react'
-import data from '@/JSON/placements/contact.json'
+import data from '@/JSON/examinations/contact.json'
 import InnerBanner from '@/components/00-KCE/common/InnerBanner'
 import RenderSection from '@/components/00-KCE/RenderComponent/RenderSection'
 import SideMenu from '@/components/00-KCE/ABOUT/sideMenu'

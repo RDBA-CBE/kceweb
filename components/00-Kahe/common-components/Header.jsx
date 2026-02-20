@@ -32,7 +32,7 @@ const Header = () => {
         <HeaderMenu
           sticky="bg-gray header-sticky kahe-header-menu"
           gapSpaceBetween=" shadow-none"
-          container="section-wid"
+          container=""
           navigationEnd="rbt-navigation-start"
           btnClass="rbt-marquee-btn marquee-auto btn-border-gradient radius-round btn-sm hover-transform-none"
           btnText="Enroll Now"

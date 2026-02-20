@@ -8,12 +8,6 @@ import { buttonActions } from "@/utils/buttonActions";
 const SplitImageContent = ({ data }) => {
   const router = useRouter();
 
-  const goToCamGal = () => {
-    sessionStorage.setItem("camGalData", JSON.stringify(data));
-    sessionStorage.setItem("camGalUrl", window.location.href);
-    router.push(`/kahe/campus-gallery/${data.slug}`);
-  };
-
   const renderBlock = (block, index) => {
     switch (block.type) {
       case "paragraph": {
@@ -45,7 +39,7 @@ const SplitImageContent = ({ data }) => {
                   src={block?.bullet || "/images/kce/right.png"}
                   alt=""
                 />
-                 <span dangerouslySetInnerHTML={{__html:li}}></span>
+                <span dangerouslySetInnerHTML={{ __html: li }}></span>
               </li>
             ))}
           </ul>

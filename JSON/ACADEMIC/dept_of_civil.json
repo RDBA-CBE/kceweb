@@ -22,7 +22,7 @@
       "type": "image-overlay-card",
       "data": {
         "title": "About the Department",
-        "bgImg": "/images/kce/academics/banner.jpg",
+        "bgImg": "/images/kce/academics/civil/civil-engineering.webp",
         "description": [
           "The department of Civil Engineering was started in the year 2008. It offers under graduate course in Civil Engineering with an intake of 60 students. Our main goal is to be the Centre of Excellence for the development and dissemination of knowledge in Structural Engineering, Construction Engineering and Management, Water Resources and Management, Transportation, Environmental Engineering, Urban Engineering, Geotechnical Engineering, Remote sensing, GIS and its applications."
         ]
@@ -48,7 +48,7 @@
           {
             "title": "Our Vision",
             "description": "To produce technically knowledgeable and socially responsible Civil Engineers by inculcating value based technical education.",
-            "image": "/images/kce/academics/banner.jpg"
+            "image": "/images/kce/academics/civil/mision.webp"
           },
           {
             "title": "Our Mission",
@@ -61,7 +61,7 @@
                 ]
               }
             ],
-            "image": "/images/kce/academics/banner.jpg"
+            "image": "/images/kce/academics/civil/vision.webp"
           }
         ]
       }
@@ -70,7 +70,7 @@
     {
       "type": "image-overlay-content",
       "data": {
-        "bgImage": "/images/kce/academics/banner.jpg",
+        "bgImage": "/images/kce/academics/regulation.webp",
 
         "title": "Regulations",
         "list": [
@@ -83,13 +83,16 @@
     },
 
     {
-      "type": "card-grid",
+      "type": "edge-image-content",
       "data": {
-        "title": "Courses Offered",
+        "sectionbg": "section-bg1 my-5",
+        "imagePosition": "left",
+        "secTitle": "Courses Offered",
+        "image": "/images/kce/image-5.png",
         "content": [
           {
-            "id": 1,
-            "name": "B.E. Civil Engineering"
+            "type": "card",
+            "items": ["B.E. Civil Engineering"]
           }
         ]
       }
@@ -101,35 +104,35 @@
         "title": "Lab Facilities",
         "content": [
           {
-            "img": "/images/kce/icon.webp",
+            "img": "/images/kce/academics/lab-icon.svg",
             "title": "Strength of Materials Laboratory"
           },
           {
-            "img": "/images/kce/icon.webp",
+            "img": "/images/kce/academics/lab-icon.svg",
             "title": "Fluid Mechanics Laboratory"
           },
           {
-            "img": "/images/kce/icon.webp",
+            "img": "/images/kce/academics/lab-icon.svg",
             "title": "Construction Materials Laboratory"
           },
           {
-            "img": "/images/kce/icon.webp",
+            "img": "/images/kce/academics/lab-icon.svg",
             "title": "Concrete and Highway Laboratory"
           },
           {
-            "img": "/images/kce/icon.webp",
+            "img": "/images/kce/academics/lab-icon.svg",
             "title": "Soil Mechanics Laboratory"
           },
           {
-            "img": "/images/kce/icon.webp",
+            "img": "/images/kce/academics/lab-icon.svg",
             "title": "Survey Laboratory"
           },
           {
-            "img": "/images/kce/icon.webp",
+            "img": "/images/kce/academics/lab-icon.svg",
             "title": "Environmental Engineering Laboratory"
           },
           {
-            "img": "/images/kce/icon.webp",
+            "img": "/images/kce/academics/lab-icon.svg",
             "title": "Computer Aided Design and Drafting Laboratory"
           }
         ]
@@ -277,13 +280,12 @@
       }
     },
 
-   
     {
       "type": "split-image-content",
       "data": {
         "imagePosition": "left",
         "sectionbg": "section-bg1 pt-0",
-        "image": "/images/gallery/gallery-big.jpg",
+        "image": "/images/kce/academics/faculty.webp",
         "content": [
           {
             "type": "title",
@@ -454,7 +456,7 @@
     {
       "type": "pill-list",
       "data": {
-        "sectionbg":"section-bg3 pb--70",
+        "sectionbg": "section-bg3 pb--70",
         "title": "Teaching and Learning",
         "description": "Lorem ipsum dolor sit amet consectetur. Pulvinar nulla sapien velit ultrices neque pretium pulvinar. Urna netus sed et in. At sed urna vitae rhoncus convallis tellus nisi viverra.",
         "items": [
@@ -474,7 +476,7 @@
     {
       "type": "image-overlay-content",
       "data": {
-        "bgImage": "/images/kce/academics/banner.jpg",
+        "bgImage": "/images/kce/academics/curriculam.webp",
 
         "title": "Curriculum",
         "list": [
@@ -493,10 +495,5 @@
         ]
       }
     }
-
-    
-    
-
-    
   ]
 }

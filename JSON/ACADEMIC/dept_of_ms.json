@@ -22,7 +22,7 @@
       "type": "image-overlay-card",
       "data": {
         "title": "About the Department",
-        "bgImg": "/images/kce/academics/banner.jpg",
+        "bgImg": "/images/kce/academics/managemnet/management.webp",
         "description": [
           "The Department of Management Studies was established in the year 2002. It is a Centre for Excellence in preparing the students to be Corporate Ready leaders with philanthropic values and ethics. The Master of Business Administration (MBA) is a 4 semester regular programme spread over two academic years. The Department got its autonomy in the year 2007, since then it has freedom to design and develop curriculum to the current requirement of corporate community. The course structure is designed to impart knowledge of the core management concepts and techniques in the first year which are, thereafter, upgraded to advanced knowledge and practicing skills in the areas of specialization opted for by the students in the final year."
         ]
@@ -293,7 +293,7 @@
           {
             "title": "Our Vision",
             "description": "To create a unique academic space for nurturing the finest management thinking, creating innovative, futuristic, socially responsible and environmentally responsive practitioners, leaders and educators.",
-            "image": "/images/kce/academics/banner.jpg"
+            "image": "/images/kce/academics/managemnet/vision.webp"
           },
           {
             "title": "Our Mission",
@@ -309,7 +309,7 @@
                 ]
               }
             ],
-            "image": "/images/kce/academics/banner.jpg"
+            "image": "/images/kce/academics/managemnet/mision.webp"
           }
         ]
       }
@@ -335,11 +335,11 @@
         "title": "Lab Facilities",
         "content": [
           {
-            "img": "/images/kce/icon.webp",
+            "img": "/images/kce/academics/lab-icon.svg",
             "title": "MBA Lab 1"
           },
           {
-            "img": "/images/kce/icon.webp",
+            "img": "/images/kce/academics/lab-icon.svg",
             "title": "MBA Lab 2"
           }
         ]
@@ -447,7 +447,7 @@
       "data": {
         "imagePosition": "left",
         "sectionbg": "section-bg1 pt-0",
-        "image": "/images/gallery/gallery-big.jpg",
+        "image": "/images/kce/academics/faculty.webp",
         "content": [
           {
             "type": "title",

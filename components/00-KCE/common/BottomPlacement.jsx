@@ -6,21 +6,21 @@ const BottomPlacement = () => {
   return (
     <div className="rbt-call-to-action-area section-bg1 bg-blue">
       <section className="section-wid">
-        <div className="row g-5 align-items-center content-wrapper">
-          <div className="col-xxl-3 col-xl-3 col-lg-6">
+        <div className="row gx-5 align-items-center content-wrapper">
+          <div className="col-xl-5 col-lg-7">
             <div className="inner">
               <div className="content text-start">
                 <h2 className="section-ti text-white mb--0" >Placement Offers</h2>
               </div>
             </div>
           </div>
-          <div className="col-xxl-6 col-xl-6 col-lg-6">
+          <div className="col-xl-4 col-lg-2 d-none d-lg-block">
             {/* <div className="inner-content text-start">
               <p className="color-white">{data.desc}</p>
             </div> */}
           </div>
-          <div className="col-xxl-3 col-xl-3 col-lg-6">
-            <div className="call-to-btn text-start text-xl-end">
+          <div className="col-xl-3 col-lg-3">
+            <div className="call-to-btn text-start text-lg-end">
               <Link
                 href="/KCE/recruiters-list"
                 className="kce-btn-primary rbt-btn hover-icon-reverse mt-4"

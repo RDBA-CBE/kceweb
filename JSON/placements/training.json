@@ -21,7 +21,7 @@
         "imagePosition": "right",
         "sectionbg": "section-bg1 ",
 
-        "image": "/images/kce/image.jpg",
+        "image": "/images/kce/placement/training/training.webp",
         "content": [
           {
             "type": "paragraph",
@@ -40,7 +40,7 @@
         "imagePosition": "left",
         "sectionbg": "bg-blue py-5 text-white",
         "textColor": "text-white",
-        "image": "/images/kce/image.jpg",
+        "image": "/images/kce/placement/training/student-centric-activities.webp",
         "content": [
           {
             "type": "title",
@@ -65,7 +65,7 @@
         "imagePosition": "right",
         "sectionbg": "section-bg1 ",
 
-        "image": "/images/kce/image.jpg",
+        "image": "/images/kce/placement/training/capacity-development.webp",
         "content": [
           {
             "type": "title",

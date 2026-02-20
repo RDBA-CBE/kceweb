@@ -422,7 +422,7 @@ body {
 }
 
 .kce-ftr__link {
-  color: var(--kce-text);
+  color: #D7D6D6;
   text-decoration: none;
   font-size: 14px;
   transition: opacity 0.2s, color 0.2s;
@@ -513,11 +513,11 @@ body {
   line-height: 1.5;
   margin: 0;
   opacity: 0.9;
-
+ color: #D7D6D6;
 }
 
 .kce-ftr__contact-text a{
-    color: #fff;
+    color: #D7D6D6;
 }
 
 /* Social Strip Icons */
@@ -536,7 +536,7 @@ body {
   transform: scale(1.15);
 }
 
-.ftrcopy{font-size:14px;}
+.ftrcopy{font-size:14px;color: #D7D6D6 ;}
 .ftrcopy a{color: #cc6926; font-size:14px !important;}
 
 /* Bottom Copyright Bar */
@@ -550,6 +550,9 @@ body {
 .kce-ftr__bottom {
   padding: 1.5rem 0;
   text-align: center;
+}
+.kce-ftr__bottom img{
+    width: 100%;
 }
 
 .kce-ftr__bottom p {

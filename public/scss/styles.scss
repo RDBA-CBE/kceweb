@@ -312,6 +312,11 @@
   background: #ddebf0ba;
   padding: 40px 0;
 }
+@media (max-width: 1700px) {
+  .section-wid {
+    width: 80%;
+  }
+}
 
 @media (max-width: 1600px) {
   .section-wid {
@@ -418,7 +423,7 @@
 }
 
 .mainmenu-nav {
-  padding: 7px 0 !important;
+  // padding: 7px 0 !important;
 }
 
 .mainmenu .mobile-menu-bar .hamberger {
@@ -723,6 +728,7 @@
   font-size: 32px;
   font-weight: 500;
   margin-bottom: 25px;
+  color: #1a365d;
 }
 
 .section-ti-sec {
@@ -1003,6 +1009,10 @@
 
 .ci-text {
   line-height: 1.7;
+}
+
+.bg-blue .ci-section .section-ti, .bg-blue .ci-section .sub-ti{
+  color: #fff;
 }
 
 /* CLEAR FLOAT (important) */
@@ -2103,6 +2113,134 @@ a.ps-card:hover .ps-title {
   justify-content: center;
   align-items: center;
 }
-.social-default li a i{
+.social-default li a i {
   margin-top: -4px;
+}
+
+/* EDGE FLOAT IMAGE CONTENT */
+.efi-section {
+  position: relative;
+  overflow: hidden;
+}
+
+.efi-content {
+  position: relative;
+}
+
+/* FLOAT IMAGE */
+.efi-float-image {
+  width: auto;
+  height: auto;
+  max-width: 70%;
+}
+
+.efi-float-image img {
+  width: auto;
+  height: auto;
+  object-fit: cover;
+  border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+/* LEFT IMAGE */
+.efi-left .efi-float-image {
+  float: left;
+  margin-left: calc(-1 * (100vw - 100%) / 2);
+  margin-right: 80px;
+}
+.efi-con {
+  padding: 0 60px;
+}
+
+/* RIGHT IMAGE */
+.efi-right .efi-float-image {
+  float: right;
+  margin-right: calc(-1 * (100vw - 100%) / 2);
+  margin-left: 80px;
+}
+
+.efi-card-con {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  padding-left: 0;
+}
+
+.efi-card {
+  background: rgba(228, 122, 45, 0.3607843137);
+  padding: 15px 60px;
+  border-radius: 12px;
+  text-align: center;
+  transition: all 0.3s ease;
+  cursor: default;
+  width: fit-content;
+}
+
+/* CLEAR FLOAT */
+.clearfix {
+  clear: both;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 1600px) {
+  .efi-float-image {
+    max-width: 60%;
+  }
+}
+
+@media (max-width: 1440px) {
+  .efi-float-image {
+    max-width: 55%;
+    // height: 100%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .efi-float-image {
+    max-width: 55%;
+    height: 100%;
+  }
+
+  .efi-float-image img {
+    height: 100%;
+  }
+
+  .efi-card {
+    padding: 10px 15px;
+  }
+  .efi-left .efi-float-image {
+    margin-right: 20px;
+  }
+
+  .efi-right .efi-float-image {
+    margin-left: 20px;
+  }
+
+  .efi-card-con {
+    row-gap: 10px;
+  }
+}
+
+@media (max-width: 991px) {
+  .efi-float-image {
+    float: none !important;
+    margin: 0 0 20px 0 !important;
+    max-width: 100%;
+  }
+
+  .efi-con {
+    width: 92%;
+    padding: 0;
+    margin: auto;
+  }
+}
+
+
+.rbt-header .mainmenu-nav .mainmenu li.with-megamenu .rbt-megamenu .wrapper .mega-menu-item li a:hover{
+  color: #cc6926 !important  ;
+}
+
+.kce-hdr__contact-item :hover{
+  color: #cc6926 !important  ;
 }

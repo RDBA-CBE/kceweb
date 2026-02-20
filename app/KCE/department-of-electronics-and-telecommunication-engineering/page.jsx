@@ -1,8 +1,8 @@
 import DeptOfETEPage from "@/components/00-KCE/Academics/DeptOfETEPage";
 
 export const metadata = {
-  title: "Best Electronics and Telecommunication Engineering College | KCE",
-  description: "Discover excellence in Electronics and Telecommunication Engineering at KCE. Elevate your education with industry-aligned programs and cutting-edge curriculum"};
+  title: "Electronics and Telecommunications Engineering College in Coimbatore",
+  description: "Electronics and Telecommunications Engineering Colleges in Coimbatore, KCE, provide industry-focused learning and applied technical skills."};
 
 const page = () => {
   return (
