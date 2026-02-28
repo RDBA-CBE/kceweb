@@ -1,19 +1,25 @@
-const getLocalStorage = () => {
-  if (typeof window !== "undefined") {
-    let cart = localStorage.getItem("hiStudy");
+"use client";
 
-    if (cart) {
-      return JSON.parse(cart);
-    } else {
-      return [];
-    }
-  } else {
+/* ---------------------------------------------
+   Safe localStorage reader
+--------------------------------------------- */
+const getLocalStorage = () => {
+  if (typeof window === "undefined") return [];
+
+  try {
+    const cart = localStorage.getItem("hiStudy");
+    const parsed = cart ? JSON.parse(cart) : [];
+    return Array.isArray(parsed) ? parsed : [];
+  } catch (error) {
     return [];
   }
 };
 
+/* ---------------------------------------------
+   Initial State
+--------------------------------------------- */
 const init = {
-  cart: getLocalStorage(),
+  cart: getLocalStorage(), // ALWAYS array
   total_items: 0,
   total_amount: 0,
   shipping_fee: 80,
@@ -22,123 +28,170 @@ const init = {
   msg: "",
 };
 
+/* ---------------------------------------------
+   Cart Reducer
+--------------------------------------------- */
 export const CartReducer = (state = init, action) => {
-  if (action.type === "CART_REQ") {
-    return {
-      ...state,
-      loading: true,
-    };
-  } else if (action.type === "CART_REQ_OUT") {
-    return {
-      ...state,
-      loading: false,
-    };
-  } else if (action.type === "ADD_TO_CART") {
-    const { id, amount, product, category } = action.payload;
+  switch (action.type) {
+    case "CART_REQ":
+      return {
+        ...state,
+        loading: true,
+      };
 
-    const tempItem = state.cart.find((i) => i.id === id);
-    if (tempItem) {
-      const tempCart = state.cart.map((cartItem) => {
-        if (cartItem.id === id) {
-          let newAmount = cartItem.amount + amount;
-          if (newAmount > cartItem.max) {
-            newAmount = cartItem.max;
-          }
-          return { ...cartItem, amount: newAmount };
-        } else {
-          return cartItem;
+    case "CART_REQ_OUT":
+      return {
+        ...state,
+        loading: false,
+      };
+
+    /* -----------------------------------------
+       ADD TO CART
+    ----------------------------------------- */
+    case "ADD_TO_CART": {
+      const { id, amount = 1, product } = action.payload || {};
+
+      if (!id || !product) return state;
+
+      const cart = Array.isArray(state.cart) ? state.cart : [];
+
+      const existingItem = cart.find((i) => i.id === id);
+
+      if (existingItem) {
+        const updatedCart = cart.map((item) =>
+          item.id === id
+            ? {
+                ...item,
+                amount: Math.min(
+                  item.amount + amount,
+                  item.max || item.amount + amount
+                ),
+              }
+            : item
+        );
+
+        return {
+          ...state,
+          cart: updatedCart,
+          msg: "Already added!",
+        };
+      }
+
+      const newItem = {
+        id,
+        price: Number(product.price) || 0,
+        product,
+        amount,
+        max: product.max || 100,
+      };
+
+      return {
+        ...state,
+        cart: [...cart, newItem],
+        msg: "Item added successfully",
+      };
+    }
+
+    /* -----------------------------------------
+       TOGGLE CART ITEM AMOUNT
+    ----------------------------------------- */
+    case "TOGGLE_CART_AMOUNT": {
+      const { id, value } = action.payload || {};
+      const cart = Array.isArray(state.cart) ? state.cart : [];
+
+      const updatedCart = cart.map((item) => {
+        if (item.id !== id) return item;
+
+        if (value === "inc") {
+          return {
+            ...item,
+            amount: Math.min(item.amount + 1, item.max || item.amount + 1),
+          };
         }
+
+        if (value === "dec") {
+          return {
+            ...item,
+            amount: Math.max(item.amount - 1, 1),
+          };
+        }
+
+        return item;
       });
 
       return {
         ...state,
-        cart: tempCart,
-        msg: "already added !!!",
+        cart: updatedCart,
       };
-    } else {
-      const newItem = {
-        id: id,
-        price: product.price,
-        product,
-        amount,
-      };
+    }
+
+    /* -----------------------------------------
+       COUNT TOTALS (CRASH-PROOF)
+    ----------------------------------------- */
+    case "COUNT_CART_TOTALS": {
+      const cart = Array.isArray(state.cart) ? state.cart : [];
+
+      const totals = cart.reduce(
+        (acc, item) => {
+          const amount = Number(item.amount) || 0;
+          const price = Number(item.price) || 0;
+
+          acc.total_items += amount;
+          acc.total_amount += price * amount;
+
+          return acc;
+        },
+        {
+          total_items: 0,
+          total_amount: 0,
+        }
+      );
 
       return {
         ...state,
-        cart: [...state.cart, newItem],
-        msg: "item add successfully",
+        ...totals,
       };
     }
-  } else if (action.type === "TOGGLE_CART_AMOUNT") {
-    const { id, value } = action.payload;
 
-    const tempCart = state.cart.map((item) => {
-      if (item.id === id) {
-        if (value === "inc") {
-          let newAmount = item.amount + 1;
-          if (newAmount > item.max) {
-            newAmount = item.max;
-          }
+    /* -----------------------------------------
+       DELETE SINGLE ITEM
+    ----------------------------------------- */
+    case "DELETE_CART_ITEM": {
+      const cart = Array.isArray(state.cart) ? state.cart : [];
+      return {
+        ...state,
+        cart: cart.filter((item) => item.id !== action.payload),
+      };
+    }
 
-          return { ...item, amount: newAmount };
-        }
-        if (value === "dec") {
-          let newAmount = item.amount - 1;
-          if (newAmount < 1) {
-            newAmount = 1;
-          }
-          return { ...item, amount: newAmount };
-        }
-      }
-      return item;
-    });
-
-    return {
-      ...state,
-      cart: tempCart,
-    };
-  } else if (action.type === "COUNT_CART_TOTALS") {
-    const { total_items, total_amount } = state.cart.reduce(
-      (total, cartItem) => {
-        const { amount, price } = cartItem;
-
-        total.total_items += amount;
-        total.total_amount += price * amount;
-        return total;
-      },
-      {
+    /* -----------------------------------------
+       CLEAR CART
+    ----------------------------------------- */
+    case "CLEAR_CART":
+      return {
+        ...state,
+        cart: [],
         total_items: 0,
         total_amount: 0,
-      }
-    );
-    return {
-      ...state,
-      total_items,
-      total_amount,
-    };
-  } else if (action.type === "DELETE_CART_ITEM") {
-    const tempCart = state.cart.filter((item) => item.id !== action.payload);
-    return {
-      ...state,
-      cart: tempCart,
-    };
-  } else if (action.type === "CLEAR_CART") {
-    return {
-      ...state,
-      cart: [],
-    };
-  } else if (action.type === "SET_CART_ERROR") {
-    return {
-      ...state,
-      error: true,
-    };
-  } else if (action.type === "CLEAR_CART_ERROR") {
-    return {
-      ...state,
-      error: false,
-      msg: "",
-    };
-  } else {
-    return state;
+      };
+
+    /* -----------------------------------------
+       ERROR HANDLING
+    ----------------------------------------- */
+    case "SET_CART_ERROR":
+      return {
+        ...state,
+        error: true,
+      };
+
+    case "CLEAR_CART_ERROR":
+      return {
+        ...state,
+        error: false,
+        msg: "",
+      };
+
+    default:
+      return state;
   }
 };

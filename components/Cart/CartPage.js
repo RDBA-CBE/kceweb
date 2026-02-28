@@ -11,7 +11,7 @@ import CartItems from "./CartItems";
 const CartPage = () => {
   const dispatch = useDispatch();
   const { cart, total_amount, shipping_fee } = useSelector(
-    (state) => state.CartReducer
+    (state) => state?.CartReducer
   );
 
   useEffect(() => {
