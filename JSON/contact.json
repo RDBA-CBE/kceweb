@@ -24,7 +24,7 @@
             }
           ],
           "image": {
-            "src": "/images/kce/contact/admission-enquiries.webp",
+            "src": "/images/kce/contact/admission-enquiries.png",
             "alt": "Contact Building",
             "position": "right"
           }
@@ -63,7 +63,7 @@
             }
           ],
           "image": {
-            "src": "/images/kce/contact/office-enquiries.webp",
+            "src": "/images/kce/contact/office-enquiries.png",
             "alt": "Contact Building",
             "position": "left"
           }
