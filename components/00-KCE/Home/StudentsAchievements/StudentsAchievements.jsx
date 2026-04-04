@@ -14,7 +14,7 @@ const achievementsData = [
     img: "/images/kce/home/student-achievements/achievements-7.webp",
   },
   {
-    title: "Tancam's Hackathon For Women In Science & Engineering (Tnwise)",
+    title: "TANCAM's Hackathon For Women In Science & Engineering (TN wise)",
     img: "/images/kce/home/student-achievements/achievements-3.webp",
   },
   {
