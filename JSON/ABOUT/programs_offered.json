@@ -1,0 +1,67 @@
+{
+  "banner": {
+    "bannerImg": "/images/kce/banner_admission.jpg",
+    "title": "Programmes Offered",
+    "breadcrumb": [
+      { "label": "Home", "href": "/" },
+      { "label": "Programmes Offered" }
+    ]
+  },
+  "admission": {
+    "title": "Admission Procedure",
+    "blocks": [
+      {
+        "title": "Government Quota",
+        "text": "The Department of Technical Education (DoTE), Government of Tamil Nadu releases admission notifications through Anna University and leading newspapers."
+      },
+      {
+        "title": "Single Window Counseling",
+        "text": "Admissions are conducted through Single Window Counseling by Anna University, Chennai. Seat availability is updated daily on the University website."
+      },
+      {
+        "title": "Management Quota",
+        "text": "Consortium of Self Financing Engineering Colleges Management Association publishes advertisements regarding admission process and entrance tests."
+      }
+    ],
+    "image": {
+      "src": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1000&q=80",
+      "alt": "Students admission discussion",
+      "tag": "ADMISSIONS 2026"
+    }
+  },
+  "ug": {
+    "title": "UG Programmes",
+    "items": [
+      { "title": "B.E. Civil Engineering", "path": "/department-of-civil-engineering" },
+      { "title": "B.E. Computer Science and Engineering", "path": "/department-of-computer-science-and-engineering" },
+      { "title": "B.E. Computer Science and Engineering (CyberSecurity)", "path": "/department-of-computer-science-and-engineering-cyber-security" },
+      { "title": "B.E. Electronics and Communication Engineering", "path": "/department-of-electronics-and-communication-engineering" },
+      { "title": "B.E. Electrical and Electronics Engineering", "path": "/department-of-electrical-and-electronics-engineering" },
+      { "title": "B.E. Electronics and Telecommunications Engineering", "path": "/department-of-electronics-and-communication-engineering" },
+      { "title": "B.E. Electronics Engineering [VLSI Design and Technology]", "path": "/department-of-electronics-engineering-vlsi-design-and-technology" },
+      { "title": "B.E. Mechanical Engineering", "path": "/department-of-mechanical-engineering" },
+      { "title": "B.Tech. Artificial Intelligence and Data Sciences", "path": "/department-of-artificial-intelligence-and-data-science" },
+      { "title": "B.Tech. Information Technology", "path": "/department-of-information-technology" }
+    ],
+    "note": "+ Programmes Accredited by NBA"
+  },
+  "pg": {
+    "title": "PG Programmes",
+    "items": [
+      { "title": "MBA – Master of Business Administration", "path": "/department-of-management-studies" },
+      { "title": "MCA – Master of Computer Application", "path": "/department-of-mca" }
+    ],
+    "line": "blue"
+  },
+  "research": {
+    "title": "Research Programmes",
+    "items": [
+      "Mechanical Engineering",
+      "Electrical & Electronics Engineering",
+      "Electronics & Communication Engineering",
+      "Information Technology"
+    ],
+    "note": "*Our institute is received “Research Institute Recognition” from Anna University",
+    "line": "green"
+  }
+}
