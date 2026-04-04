@@ -47,18 +47,22 @@
   },
 
   "course": {
-    "title": "UG Programmes",
+    "title": "Programmes",
     "items": [
       "B.E. Civil Engineering",
       "B.E. Computer Science and Engineering",
       "B.E. Computer Science and Engineering (CyberSecurity)",
-      "B.E. Electronics and Communication Engineering",
+      "B.E. Electronics and Communication Engineering*",
       "B.E. Electrical and Electronics Engineering",
-      "B.E. Electronics and Telecommunications Engineering",
+      "B.E. Electrical and Electronics Engineering*",
       "B.E. Electronics Engineering [VLSI Design and Technology]",
-      "B.E. Mechanical Engineering",     
+      "B.E. Mechanical Engineering*",     
       "B.Tech. Artificial Intelligence and Data Sciences",
-      "B.Tech. Information Technology"
+      "B.Tech. Information Technology*",
+      "MBA-Master of Business Administration",
+      "MCA-Master of Computer Applications"
     ]
-  }
+    "note": "* Programmes Accredited by NBA"
+  },
+  
 }
