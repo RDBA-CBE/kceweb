@@ -115,6 +115,14 @@
   line-height: 22px;
 }
 
+.bg-blue .vm-list li::before {
+  background-image: url(../../../images/kce/right-white.png);
+} 
+
+.bg-blue .vm-liImg {
+  background-image: url(../../../images/kce/right-white.png);
+}
+
 /* ===============================
      ANIMATIONS
   ================================ */

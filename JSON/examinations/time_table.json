@@ -8,6 +8,7 @@
         {
             "type": "table",
             "data": {
+                "sectionbg": "pb-3",
                 "secTitle": "Time Table - 2025",
                 "table": [
                     {
@@ -103,6 +104,7 @@
         {
             "type": "table",
             "data": {
+                "sectionbg": "pb-3",
                 "secTitle": "Time Table - December 2024",
                 "table": [
                     {
@@ -198,6 +200,7 @@
         {
             "type": "table",
             "data": {
+                "sectionbg": "pb-3",
                 "secTitle": "Time Table - May 2024",
                 "table": [
                     {
@@ -281,6 +284,7 @@
         {
             "type": "table",
             "data": {
+                "sectionbg": "pb-3",
                 "secTitle": "Time Table - December 2023",
                 "table": [
                     {
@@ -352,6 +356,7 @@
         {
             "type": "table",
             "data": {
+                "sectionbg": "pb-3",
                 "secTitle": "Time Table - 2022",
                 "table": [
                     {

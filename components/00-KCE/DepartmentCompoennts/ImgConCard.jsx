@@ -6,10 +6,10 @@ const ImgConCard = ({ data }) => {
     <div className="">
       <div className="row align-items-stretch gx-5">
         {data?.content.map((item, index) => (
-          <div key={index} className="col-12 col-xl-6 d-flex">
+          <div key={index} className={`${data?.twoCol == false ? 'col-12 ' : 'col-12 col-xl-6'} d-flex`}>
             <div className={` coe-panel d-flex flex-column w-100`}>
               <div className="row align-items-center h-100">
-                <div className="col-lg-8 content">
+                <div className={`${item?.logo ? 'col-lg-8' : 'col-12'} content`}>
                   <h3 className="section-ti mt-1">{item?.title}</h3>
 
                   {item.subtitle && (
@@ -42,11 +42,11 @@ const ImgConCard = ({ data }) => {
                   )}
                 </div>
 
-                <div className="col-lg-4">
+                {item?.logo && <div className="col-lg-4">
                   <div className="logo-glass">
                     <img src={item?.logo} alt={item?.title} />
                   </div>
-                </div>
+                </div>}
               </div>
             </div>
           </div>

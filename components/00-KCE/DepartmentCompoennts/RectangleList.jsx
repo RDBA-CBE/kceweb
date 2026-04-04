@@ -11,7 +11,7 @@ const RectangleList = ({ data }) => {
             {data?.content?.map((item, index) => (
               <div className="col-lg-6 col-md-6 col-sm-12" key={index}>
                 {item.url ? (
-                  <Link href={item.url} className="ps-card">
+                  <Link href={item.url} className="ps-card" target="_blank">
                     <span className="ps-title">{item.title}</span>
                     <span className="ps-arrow">
                       {" "}

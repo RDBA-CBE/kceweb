@@ -62,6 +62,15 @@
         "alt":"placement-kce-Image-",
         "height":"auto"
       }
+    },
+     {
+      "type":"full-width-image",
+      "data":{
+        "sectionbg":"pt-0 pb-5",
+        "src":"https://kce.ac.in/new/wp-content/uploads/2024/03/Graph.jpg",
+        "alt":"Graph",
+        "height":"auto"
+      }
     }
   ]
 }
