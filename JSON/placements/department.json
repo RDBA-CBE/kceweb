@@ -429,42 +429,6 @@
           }
         ]
       }
-    },
-    {
-      "type": "full-width-image",
-      "data": {
-        "sectionbg": "py-2",
-        "src": "https://kce.ac.in/new/wp-content/uploads/2024/03/placement-kce-Image-.jpg",
-        "alt": "placement-kce-Image-",
-        "height": "auto"
-      }
-    },
-    {
-      "type": "full-width-image",
-      "data": {
-        "sectionbg": "section-bg1 mt-5 mb-0",
-        "src": "https://kce.ac.in/new/wp-content/uploads/2024/03/PG2-GRAPH-CHART-1.png",
-        "alt": "placement-kce-Image-",
-        "height": "auto"
-      }
-    },
-    {
-      "type": "full-width-image",
-      "data": {
-        "sectionbg": "pt-0 pb-5",
-        "src": "https://kce.ac.in/new/wp-content/uploads/2024/03/Web-26.jpg",
-        "alt": "placement-kce-Image-",
-        "height": "auto"
-      }
-    },
-    {
-      "type": "full-width-image",
-      "data": {
-        "sectionbg": "pt-0 pb-5",
-        "src": "https://kce.ac.in/new/wp-content/uploads/2024/03/Graph.jpg",
-        "alt": "Graph",
-        "height": "auto"
-      }
     }
   ]
 }
