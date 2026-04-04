@@ -7,15 +7,13 @@
 
   "pageTitle": "About Karpagam College of Engineering",
   "intro": [
-    "The Karpagam College of Engineering, established in the Year 2000, is an Autonomous institution, Approved by AICTE, New Delhi and Affiliated to Anna University, Chennai.",
-    "The college offers various Under Graduate and Post Graduate Engineering programmes. The College is accredited by NAAC with ‘A+’ Grade, TCS and Wipro with 4500 students and 426 teaching and non-teaching staff members."
+    "The Karpagam College of Engineering, established in the Year 2000, is an Autonomous institution, Approved by AICTE, New Delhi and Affiliated to Anna University, Chennai. The college offers various Under Graduate and Post Graduate Engineering programmes.The College is accredited by NAAC with ‘A+’ Grade, TCS and Wipro with 4500 students and 426 teaching and non-teaching staff members, Karpagam College of Engineering strives to impart quality education and an excellent career start to all its students."
   ],
   "imageSection": {
     "image": "/images/kce/about/about.webp",
     "content": [
-      "The Placement and Training facilities add a feather to its cap ensuring the students get placed on campus. The 10 Centers of Excellence strive to impart practical and experimental exposure to the students.",
-      "The College is situated at Myleripalayam, 15 kms from Coimbatore Central Railway station. The serene location surrounded by green fields creates a calm atmosphere conducive to learning and growth."
-    ]
+      "The Placement and Training facilities add a feather to its cap ensuring the students get placed on campus. The 10 Centers of Excellence strive to impart practical and experimental exposure to the students and serve as a window to the corporate world.",
+      "The College is situated at Myleripalayam, 15 kms from Coimbatore Central Railway station. The serene location surrounded by green fields and rich clusters of coconut groves creates a calm atmosphere conducive to learning and growth. Infrastructure with well-equiped laboratories and libraries, well maintained Playgrounds, Hostels, Food Court, Gymnasium and an Indoor Stadium." ]
   },
 
   "Highlights": {
@@ -36,7 +34,13 @@
           "Autonomous Learning Environment",
           "Successful Placement and Training cell",
           "Built up space of 7-lakh sq.ft",
-          "MoU with EMC2, Hexaware, INFOSYS, IBM, Oracle, UTL Technologies & Microchip, Tech Mahindra"
+          "MoU with EMC2, Hexaware, INFOSYS, IBM, Oracle, UTL Technologies & Microchip, Tech Mahindra",
+          "60 state-of-the-art laboratories.",
+          "A network of 1800 computers with 100 Mbps internet facility.",
+          "Experienced & Qualified Facility.",
+          "Fleet of 21 Buses connecting various part of the City & Pollachi.",
+          "Innovative Teaching Learning process",
+          "Auditorium to seat 2000 student"
         ]
       }
     ]
