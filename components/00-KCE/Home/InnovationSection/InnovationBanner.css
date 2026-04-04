@@ -1,0 +1,192 @@
+/* SECTION */
+.placement {
+  background: url("/images/kce/home/placement-training.webp")
+    center / cover no-repeat;
+  width: 100%;
+  position: relative;
+}
+
+/* OVERLAY */
+.placementOverlay {
+  background: rgba(0, 23, 41, 0.87);
+  min-height: 220px;
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+}
+
+/* CONTAINER */
+.placementContainer {
+  width: 90%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* STATS ROW */
+.placementStats {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  width: 100%;
+  color: #fff;
+}
+
+/* SINGLE STAT */
+.stat {
+  flex: 1 1 0;
+  min-width: 0;
+  text-align: center;
+  padding: 0 4px;
+}
+
+.stat h3 {
+  font-size: 46px;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.1;
+  white-space: nowrap;
+}
+
+.stat span {
+  display: block;
+  font-size: 15px;
+  opacity: 0.85;
+  margin-top: 6px;
+  white-space: nowrap;
+}
+
+/* DIVIDER */
+.divider {
+  flex-shrink: 0;
+  width: 1px;
+  height: 70px;
+  background: rgba(255, 255, 255, 0.45);
+  margin: 0 8px;
+}
+
+/* =====================
+   SMALL DESKTOP
+===================== */
+@media (max-width: 1200px) {
+  .stat h3 {
+    font-size: 38px;
+  }
+
+  .stat span {
+    font-size: 13px;
+  }
+
+  .divider {
+    height: 60px;
+    margin: 0 4px;
+  }
+}
+
+/* =====================
+   TABLET LANDSCAPE (iPad Pro / large tablet)
+===================== */
+@media (max-width: 1024px) {
+  .placementContainer {
+    width: 95%;
+  }
+
+  .placementStats {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px 0;
+  }
+
+  /* 4 per row on tablet landscape */
+  .stat {
+    flex: 0 0 25%;
+    min-width: 0;
+  }
+
+  .stat h3 {
+    font-size: 34px;
+  }
+
+  .stat span {
+    font-size: 13px;
+  }
+
+  .divider {
+    display: none;
+  }
+}
+
+/* =====================
+   TABLET PORTRAIT (iPad)
+===================== */
+@media (max-width: 820px) {
+  .placementContainer {
+    width: 95%;
+  }
+
+  .placementStats {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 28px 0;
+  }
+
+  /* 3 per row on iPad portrait */
+  .stat {
+    flex: 0 0 33.33%;
+  }
+
+  .stat h3 {
+    font-size: 30px;
+  }
+
+  .stat span {
+    font-size: 12px;
+  }
+}
+
+/* =====================
+   MOBILE
+===================== */
+@media (max-width: 600px) {
+  .placementOverlay {
+    padding: 40px 0;
+    min-height: auto;
+  }
+
+  .placementContainer {
+    width: 92%;
+  }
+
+  .placementStats {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px 0;
+  }
+
+  /* 2 per row on mobile */
+  .stat {
+    flex: 0 0 50%;
+  }
+
+  .stat h3 {
+    font-size: 28px;
+    white-space: nowrap;
+  }
+
+  .stat span {
+    font-size: 12px;
+  }
+}
+
+/* =====================
+   SMALL MOBILE
+===================== */
+@media (max-width: 380px) {
+  .stat {
+    flex: 0 0 100%;
+  }
+
+  .stat h3 {
+    font-size: 26px;
+  }
+}

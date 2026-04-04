@@ -6,16 +6,10 @@ const FullWidthImage = ({ data }) => {
       <div className="section-wid">
         {data?.title && <h2 className="section-ti">{data?.title}</h2>}
         <div
-          className="fullwidth-image-inner"
-          style={{ height: `${data?.height || "auto"} ` }}
+          className={`${data?.className || ""} fullwidth-image-inner`}
+          style={{ height: data?.height || "auto" }}
         >
-          <img
-            src={data?.src}
-            alt={data?.alt}
-            fill
-            priority
-            className="fullwidth-image"
-          />
+          <img src={data?.src} alt={data?.alt} className="fullwidth-image" />
         </div>
       </div>
     </section>

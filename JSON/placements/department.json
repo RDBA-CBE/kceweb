@@ -1,0 +1,470 @@
+{
+  "banner": {
+    "bannerImg": "/images/kce/banner_computer_technology.jpg",
+    "title": "Departments and Degree Programs",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Departments and Degree Programs"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "split-image-content",
+      "data": {
+        "imagePosition": "right",
+        "sectionbg": "section-bg1",
+        "image": "/images/kce/placement/overview.webp",
+        "content": [
+          {
+            "type": "title",
+            "mainTi": "Departments and Degree Programs"
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              "Smart is home to more than 20,000 students and 230,000 alumni with a wide variety of interests, ages and backgrounds, the University reflects the city’s dynamic mix of populations.",
+              "Smart offers the kind of education needed for leadership in a rapidly changing world. With an enduring dedication to the pursuit of excellence, University offers unparalleled student experiences across a broad spectrum of academic environments. Explore Smart University’s extensive, world-class online learning opportunities. The most current information about many academic programs of study at the Smart University will be found on the website of the school."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "split-col-con",
+      "data": {
+        "sectionbg": "section-bg3 ",
+        "content": [
+          {
+            "type": "column",
+            "blocks": [
+              {
+                "type": "title",
+                "text": "College of Business and Economics"
+              },
+              {
+                "type": "list",
+                "items": [
+                  {
+                    "id": 1,
+                    "label": "Accounting",
+                    "url": "/undergraduate-program/",
+                    "target": "_self"
+                  },
+                  {
+                    "id": 2,
+                    "label": "Economics and Statistics",
+                    "url": "/undergraduate-program/",
+                    "target": "_self"
+                  },
+                  {
+                    "id": 3,
+                    "label": "Finance and Law",
+                    "url": "/undergraduate-program/",
+                    "target": "_self"
+                  },
+                  {
+                    "id": 4,
+                    "label": "Information Systems",
+                    "url": "/undergraduate-program/",
+                    "target": "_self"
+                  },
+                  {
+                    "id": 5,
+                    "label": "Management",
+                    "url": "/undergraduate-program/",
+                    "target": "_self"
+                  },
+                  {
+                    "id": 6,
+                    "label": "Marketing",
+                    "url": "/undergraduate-program/",
+                    "target": "_self"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "column",
+            "blocks": [
+              {
+                "type": "title",
+                "text": "School of Health & Human Services"
+              },
+              {
+                "type": "list",
+                "items": [
+                  {
+                    "id": 1,
+                    "label": "Child and Family Studies",
+                    "url": "/undergraduate-program/",
+                    "target": "_self"
+                  },
+                  {
+                    "id": 2,
+                    "label": "Communication Disorders",
+                    "url": "/undergraduate-program/",
+                    "target": "_self"
+                  },
+                  {
+                    "id": 3,
+                    "label": "Public Health",
+                    "url": "/undergraduate-program/",
+                    "target": "_self"
+                  },
+                  {
+                    "id": 4,
+                    "label": "Criminal Justice and Criminalistics",
+                    "url": "/undergraduate-program/",
+                    "target": "_self"
+                  },
+                  {
+                    "id": 5,
+                    "label": "Kinesiology and Nutritional Science",
+                    "url": "/undergraduate-program/",
+                    "target": "_self"
+                  },
+                  {
+                    "id": 6,
+                    "label": "Nursing",
+                    "url": "/undergraduate-program/",
+                    "target": "_self"
+                  },
+                  {
+                    "id": 7,
+                    "label": "Social Work",
+                    "url": "/undergraduate-program/",
+                    "target": "_self"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "split-col-con",
+      "data": {
+        "sectionbg": "section-bg3 ",
+        "content": [
+          {
+            "type": "column",
+            "blocks": [
+              {
+                "type": "title",
+                "text": "College of Arts & Letters"
+              },
+              {
+                "type": "list",
+                "items": [
+                  {
+                    "id": 1,
+                    "label": "Art",
+                    "url": "/undergraduate-program/",
+                    "target": "_self"
+                  },
+                  {
+                    "id": 2,
+                    "label": "Communication Studies",
+                    "url": "/undergraduate-program/",
+                    "target": "_self"
+                  },
+                  {
+                    "id": 3,
+                    "label": "English",
+                    "url": "/undergraduate-program/",
+                    "target": "_self"
+                  },
+                  {
+                    "id": 4,
+                    "label": "Liberal Studies",
+                    "url": "/undergraduate-program/",
+                    "target": "_self"
+                  },
+                  {
+                    "id": 5,
+                    "label": "Modern Languages & Literatures",
+                    "url": "/undergraduate-program/",
+                    "target": "_self"
+                  },
+                  {
+                    "id": 6,
+                    "label": "Music, Theatre & Dance",
+                    "url": "/undergraduate-program/",
+                    "target": "_self"
+                  },
+                  {
+                    "id": 7,
+                    "label": "Philosophy",
+                    "url": "/undergraduate-program/",
+                    "target": "_self"
+                  },
+                  {
+                    "id": 8,
+                    "label": "Television, Film, & Media Studies",
+                    "url": "/undergraduate-program/",
+                    "target": "_self"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "column",
+            "blocks": [
+              {
+                "type": "title",
+                "text": "Graduate School of Education"
+              },
+              {
+                "type": "list",
+                "items": [
+                  {
+                    "id": 1,
+                    "label": "Geography",
+                    "url": "/undergraduate-program/",
+                    "target": "_self"
+                  },
+                  {
+                    "id": 2,
+                    "label": "Germanic, Slavic, and Semitic",
+                    "url": "/undergraduate-program/",
+                    "target": "_self"
+                  },
+                  {
+                    "id": 3,
+                    "label": "Global and International Studies",
+                    "url": "/undergraduate-program/",
+                    "target": "_self"
+                  },
+                  {
+                    "id": 4,
+                    "label": "Global Peace and Security",
+                    "url": "/undergraduate-program/",
+                    "target": "_self"
+                  },
+                  {
+                    "id": 5,
+                    "label": "Counseling, Clinical, and School Psychology",
+                    "url": "/undergraduate-program/",
+                    "target": "_self"
+                  },
+                  {
+                    "id": 6,
+                    "label": "Department of Education",
+                    "url": "/undergraduate-program/",
+                    "target": "_self"
+                  },
+                  {
+                    "id": 7,
+                    "label": "Teacher Education Program",
+                    "url": "/undergraduate-program/",
+                    "target": "_self"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "split-col-con",
+      "data": {
+        "sectionbg": "section-bg3 mb-5",
+        "content": [
+          {
+            "type": "column",
+            "blocks": [
+              {
+                "type": "title",
+                "text": "College of Engineering"
+              },
+              {
+                "type": "list",
+                "items": [
+                  {
+                    "id": 1,
+                    "label": "Civil Engineering",
+                    "url": "/undergraduate-program/",
+                    "target": "_self"
+                  },
+                  {
+                    "id": 2,
+                    "label": "Electrical & Computer Engineering",
+                    "url": "/undergraduate-program/",
+                    "target": "_self"
+                  },
+                  {
+                    "id": 3,
+                    "label": "Mechanical Engineering",
+                    "url": "/undergraduate-program/",
+                    "target": "_self"
+                  },
+                  {
+                    "id": 4,
+                    "label": "Computer Science",
+                    "url": "/undergraduate-program/",
+                    "target": "_self"
+                  },
+                  {
+                    "id": 5,
+                    "label": "Technology",
+                    "url": "/undergraduate-program/",
+                    "target": "_self"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "column",
+            "blocks": [
+              {
+                "type": "title",
+                "text": "School of Natural & Social Sciences"
+              },
+              {
+                "type": "list",
+                "items": [
+                  {
+                    "id": 1,
+                    "label": "Anthropology",
+                    "url": "/undergraduate-program/",
+                    "target": "_self"
+                  },
+                  {
+                    "id": 2,
+                    "label": "Asian and Asian-American Studies",
+                    "url": "/undergraduate-program/",
+                    "target": "_self"
+                  },
+                  {
+                    "id": 3,
+                    "label": "Biological Sciences",
+                    "url": "/undergraduate-program/",
+                    "target": "_self"
+                  },
+                  {
+                    "id": 4,
+                    "label": "Chicano Studies",
+                    "url": "/undergraduate-program/",
+                    "target": "_self"
+                  },
+                  {
+                    "id": 5,
+                    "label": "Chemistry & Biochemistry",
+                    "url": "/undergraduate-program/",
+                    "target": "_self"
+                  },
+                  {
+                    "id": 6,
+                    "label": "Geosciences and Environment",
+                    "url": "/undergraduate-program/",
+                    "target": "_self"
+                  },
+                  {
+                    "id": 7,
+                    "label": "History",
+                    "url": "/undergraduate-program/",
+                    "target": "_self"
+                  },
+                  {
+                    "id": 8,
+                    "label": "Latin American Studies",
+                    "url": "/undergraduate-program/",
+                    "target": "_self"
+                  },
+                  {
+                    "id": 9,
+                    "label": "Mathematics",
+                    "url": "/undergraduate-program/",
+                    "target": "_self"
+                  },
+                  {
+                    "id": 10,
+                    "label": "Natural Science",
+                    "url": "/undergraduate-program/",
+                    "target": "_self"
+                  },
+                  {
+                    "id": 11,
+                    "label": "Pan-African Studies",
+                    "url": "/undergraduate-program/",
+                    "target": "_self"
+                  },
+                  {
+                    "id": 12,
+                    "label": "Physics & Astronomy",
+                    "url": "/undergraduate-program/",
+                    "target": "_self"
+                  },
+                  {
+                    "id": 13,
+                    "label": "Political Science",
+                    "url": "/undergraduate-program/",
+                    "target": "_self"
+                  },
+                  {
+                    "id": 14,
+                    "label": "Psychology",
+                    "url": "/undergraduate-program/",
+                    "target": "_self"
+                  },
+                  {
+                    "id": 15,
+                    "label": "Sociology",
+                    "url": "/undergraduate-program/",
+                    "target": "_self"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "full-width-image",
+      "data": {
+        "sectionbg": "py-2",
+        "src": "https://kce.ac.in/new/wp-content/uploads/2024/03/placement-kce-Image-.jpg",
+        "alt": "placement-kce-Image-",
+        "height": "auto"
+      }
+    },
+    {
+      "type": "full-width-image",
+      "data": {
+        "sectionbg": "section-bg1 mt-5 mb-0",
+        "src": "https://kce.ac.in/new/wp-content/uploads/2024/03/PG2-GRAPH-CHART-1.png",
+        "alt": "placement-kce-Image-",
+        "height": "auto"
+      }
+    },
+    {
+      "type": "full-width-image",
+      "data": {
+        "sectionbg": "pt-0 pb-5",
+        "src": "https://kce.ac.in/new/wp-content/uploads/2024/03/Web-26.jpg",
+        "alt": "placement-kce-Image-",
+        "height": "auto"
+      }
+    },
+    {
+      "type": "full-width-image",
+      "data": {
+        "sectionbg": "pt-0 pb-5",
+        "src": "https://kce.ac.in/new/wp-content/uploads/2024/03/Graph.jpg",
+        "alt": "Graph",
+        "height": "auto"
+      }
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "banner": {
+    "title": "Undergraduate Program",
+    "bannerImg": "/images/kce/banner_computer_technology.jpg",
+
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      
+      {
+        "label": "Undergraduate Program"
+      }
+    ]
+  },
+                
+  "sections": [
+    {
+      "type": "split-image-content",
+      "data": {
+        "imagePosition": "left",
+        "sectionbg": "section-bg1 pb-2",
+        "image": "/images/blog/blog-grid-06.jpg",
+        "content": [
+          {
+            "type": "title",
+            "mainTi": "Undergraduate Program"
+          },
+          {
+            "type": "paragraph",
+            "text": [
+
+              "Biology is a diverse and exciting field. Both as preparation for specific professional careers and as the focus of a general liberal arts curriculum, a major in Biology is an excellent choice for many Smart students.",
+              "The Biology major can serve as a stepping-stone for a wide variety of career opportunities, such as medical, dental, or veterinary school, or for a graduate program in the biological and applied sciences. It can also serve as a valuable and satisfying focus of a liberal arts education for those not planning careers in science-related fields. Throughout these pages, students will find information from courses, how to declare the major and complete requirements to resources on campus for career services, advising, and research opportunities:"
+            ]
+          }
+        ]
+      }
+    },
+
+   
+
+
+    {
+      "type": "link-card",
+      "data": {
+        "content": [
+          {
+            "id": 1,
+            "title": "Advising",
+            "desc": "Our peer and staff advisors would love to answer your questions about the major.",
+            "url": "https://kce.ac.in/research/",
+            "urlText": "View Details",
+            "target": "_blank"
+          },
+          {
+            "id": 2,
+            "title": "How to Declare",
+            "desc": "Follow these simple steps to declare a major in Biology.",
+            "url": "https://kce.ac.in/research/",
+            "urlText": "View Details",
+            "target": "_blank"
+          },
+          {
+            "id": 3,
+            "title": "The Major",
+            "desc": "There are 3 ways to complete the Biology major. See which one is right for you.",
+            "url": "https://kce.ac.in/research/",
+            "urlText": "View Details",
+            "target": "_blank"
+          },
+          {
+            "id": 4,
+            "title": "Advising",
+            "desc": "Our peer and staff advisors would love to answer your questions about the major.",
+            "url": "https://kce.ac.in/research/",
+            "urlText": "View Details",
+            "target": "_blank"
+          },
+          {
+            "id": 5,
+            "title": "How to Declare",
+            "desc": "Follow these simple steps to declare a major in Biology.",
+            "url": "https://kce.ac.in/research/",
+            "urlText": "View Details",
+            "target": "_blank"
+          },
+          {
+            "id": 6,
+            "title": "The Major",
+            "desc": "There are 3 ways to complete the Biology major. See which one is right for you.",
+            "url": "https://kce.ac.in/research/",
+            "urlText": "View Details",
+            "target": "_blank"
+          },
+          {
+            "id": 7,
+            "title": "The Senior Reflection",
+            "desc": "Students are invited to undertake a year-long capstone experience in lieu.",
+            "url": "https://kce.ac.in/research/",
+            "urlText": "View Details",
+            "target": "_blank"
+          },
+          {
+            "id": 8,
+            "title": "Studying away from Smart",
+            "desc": "Yes, you can spend a quarter off campus & graduate in 4 years.",
+            "url": "https://kce.ac.in/research/",
+            "urlText": "View Details",
+            "target": "_blank"
+          },
+          {
+            "id": 9,
+            "title": "Transfer Credit",
+            "desc": "Learn how to transfer your courses for credit toward the Biology major.",
+            "url": "https://kce.ac.in/research/",
+            "urlText": "View Details",
+            "target": "_blank"
+          },
+          {
+            "id": 10,
+            "title": "Forms",
+            "desc": "Your one-stop shop for Biology forms!",
+            "url": "https://kce.ac.in/research/",
+            "urlText": "View Details",
+            "target": "_blank"
+          }
+        ]
+      }
+    }
+
+  
+  ]
+}

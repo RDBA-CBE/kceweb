@@ -18,36 +18,30 @@
             "data": {
                 "imagePosition": "right",
                 "sectionbg": "section-bg1 mt-0 pt-0 ",
-                
                 "content": [
-                    {
-                        "type": "title",
-                        "mainTi": "Achievements"
-                    },
-                    {
-                        "type": "title",
-                        "title": "It is kept open for 12 hours (8.00 am to 8.00 pm) with Internet browsing facility for all its users."
-                    },
                     {
                         "type": "list",
                         "items": [
-                            "Won Second prize in the poster presentation in the Two days State Level Confederacy organized by Anna University, Chennai on 08.02.2018 and 09.02.2018.",
-                            "R.Deepak, IV year Civil was nominated for <strong>International Youth Exchange Programme held at China</strong> by the Government of India during 2017-18.",
-                            "A MoU was signed between NSS unit and Edudharma for funding various activities through NSS.",
-                            "S.T.Nivetha, ECE received <strong>“Best NSS Volunteer Award”</strong> by the NSS Cell, Anna University, Chennai for the Academic year 2017-18.",
-                            "R.Deepak, Civil received <strong>“Best NSS Volunteer Award”</strong> by the NSS Cell, Anna University, Chennai for the Academic year 2017-18.",
-                            "A <strong>MoU</strong> was signed between NSS unit and Nizhal Mayyam for funding various activities through NSS.",
-                            "<strong>Youth Parliament:</strong> 104 volunteers participated and our college has won “Best group” and&nbsp; Ms.J.Bindhu, III year EEE had won “Best Speaker Award” along with a cash prize of Rs.2,000 and Mr.S.Pallavaraj , III year EEE had won “Best Speaker Award” along with a “Sony” headset.",
-                            "<strong>Election Duty:</strong> 11 Volunteers participated in the election duty during 2015-16.",
-                            "<strong>Swaach Bharat Mission:</strong> A team of 51 volunteers organized Swaach Bharat Mission Programme and Soft Skills training programme for School children at Kundah Kothagiri, The Nilgiris.",
-                            "<strong>Traffic Regulation Work, Ooty:</strong> A team of 10 boys volunteers are involved in Traffic regulation work at Ooty on all Saturdays and Sundays w.e.f 26.11.2016.",
-                            "<strong>Soft Skills Training Programme for tribal children:</strong> A team of 4 girls are involved in Soft Skills Training Programme for Panchayat Union Public School at Yellanalli, Ooty on all alternate Saturdays w.e.f 26.01.2017.",
-                            "<strong>Set up of a Library for tribal children:</strong> A library with 500 books was inaugurated for the benefit of tribal children at Kundah Kothagiri, The Nilgiris.",
-                            "<strong>One day Workshop: First Aid Training and Demonstration.</strong>",
-                            "Dr. P. Lakshmana Kumar, received the <strong>“Best NSS Programme Officer”</strong> award for the year 2020-21 by the NSS Cell, Anna University, Chennai",
-                            "Dr. P. Lakshmana Kumar, NSS Programme officer received <strong>Best Social Activist Award for tribal welfare activities at Nilgiris</strong> by ABJ Trust, Sivakisi",
-                            "NSS volunteers Mr.S.Kavin Raja and Ms.K.Kiruba Devi attended the <strong>“National Integration Camp”</strong> held at Jammu University, Jammu from 22nd to 28th February 2020",
-                            "Ms.S.T.Nivetha received <strong>Indira Gandhi Award</strong> for the year 2017 – 2018"
+                            "Admission to the Examination is provisional.",
+                            "The Hall Ticket is issued subject to the candidate satisfying the Attendance and other requirements as per Rules, Regulations and Introductions issued by the University from time to time. If it is found that the candidate fails to comply with the above requirements later on the Examination written by the candidate will be treated as Cancelled.",
+                            "A seat marked with Register Number will be provided to each Candidate. Candidate will occupy the allotted seat at least 5 minutes before the commencement of the Examination. In no case, Candidate shall be allowed to occupy a seat other than the seat allotted to Him /Her.",
+                            "Normally Candidate will not be permitted to enter the Hall after the commencement of the Examination. Only on Extraordinary circumstances, the Candidates will be permitted during the first 30 minutes of the Examination after obtaining the written permission from the Principal / Chief Superintendent. Candidate who desirous of writing the Examination shall not be permitted to enter the Hall after the expiry of the first 30 minutes.",
+                            "Candidate shall not be allowed to leave the Examination Hall before the expiry of 45 minutes from the commencement of Examination. The Candidate who leaves the Examination Hall during the period allotted for a course will not be allowed to Re-enter the Hall within that period.",
+                            "Candidates who are suffering from Infections diseases of any kind shall not be admitted to the Examination Hall.",
+                            "Strict Silence should be maintained in Examination Hall.",
+                            "Candidates are to require bringing their own Pens, Pencils and Erasers. Candidates should use only blue or black ink while answering the papers.",
+                            "Before proceeding to answer the paper, the Candidate should write His / Her Register Number , Semester, Course and Date of the Examination at the appropriate space provided in the first page of the answer book and nowhere else in the Answer book or in any Additional attachment like Drawing Sheet, Smith Chart etc.,",
+                            "If a Candidate writes His / Her Register Number or any part of the Answer book / Sheets other than the one provided for or puts any special mark or writes anything which may disclose, the Identity of the Candidate / College /He / She will render Himself /Herself liable for Disciplinary action.",
+                            "Writing of Wrong Register Number in the Answer book will entail rejection of the Answer book.",
+                            "Candidates are not allowed to exceed the prescribed Time Assigned to each paper.",
+                            "Candidates shall not talk to / ask the other Candidates questions of any kind during the Examination.",
+                            "Candidates shall not carry any Written / Printed matter, any material, Cell phone, Pen drive iPod, Programmable Calculator, or any unauthorized Data Sheet/ Table into the Examination Hall and if anything is found in their possession they shall be liable for Disciplinary action.",
+                            "No Candidate shall pass any part or whole of Answer papers or Question papers to any other Candidates. No Candidate allows another Candidate to copy from His /Her Answer papers or Copy from the answer paper of another Candidate. If found committing such Malpractices, the involved Candidates shall be liable for Disciplinary action.",
+                            "Candidates found Guilty of using unfair means any nature shall be liable for Disciplinary action.",
+                            "Candidates will have to hand over the Answer books to the Invigilator / Chief Superintendent before leaving the Examination Hall.",
+                            "Candidates should produce the Hall Ticket and ID card on demand by the Invigilator / Chief Superintendent / Anna University Representative /Squad members.",
+                            "Candidates shall not write anything in the Hall Ticket.",
+                            "Candidates shall write only the Register Number in the space provided in the Question paper. Any other writing in the Question paper is prohibited and punishable."
                         ]
                     }
                 ]

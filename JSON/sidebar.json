@@ -63,5 +63,57 @@
             "label": "Contact",
             "path": "/examinations/#exam-contact"
         }
+    ],
+    "undergraduateProgram": [
+        {
+            "label": "Advising",
+            "path": "https://kce.ac.in/research/",
+            "target": "_blank"
+        },
+        {
+            "label": "How to Declare",
+            "path": "https://kce.ac.in/research/",
+            "target": "_blank"
+        },
+        {
+            "label": "The Major",
+            "path": "https://kce.ac.in/research/",
+            "target": "_blank"
+        },
+        {
+            "label": "Honers Programs",
+            "path": "https://kce.ac.in/research/",
+            "target": "_blank"
+        },
+        {
+            "label": "Doing Research",
+            "path": "https://kce.ac.in/research/",
+            "target": "_blank"
+        },
+        {
+            "label": "The Minor",
+            "path": "https://kce.ac.in/research/",
+            "target": "_blank"
+        },
+        {
+            "label": "The Senior Reflection",
+            "path": "https://kce.ac.in/research/",
+            "target": "_blank"
+        },
+        {
+            "label": "Studying away from Smart",
+            "path": "https://kce.ac.in/research/",
+            "target": "_blank"
+        },
+        {
+            "label": "Transfer Credit",
+            "path": "https://kce.ac.in/research/",
+            "target": "_blank"
+        },
+        {
+            "label": "Forms",
+            "path": "https://kce.ac.in/research/",
+            "target": "_blank"
+        }
     ]
 }

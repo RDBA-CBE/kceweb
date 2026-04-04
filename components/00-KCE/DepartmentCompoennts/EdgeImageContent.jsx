@@ -1,5 +1,6 @@
 "use client";
 
+import React from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { buttonActions } from "@/utils/buttonActions";
@@ -12,11 +13,15 @@ const EdgeImageContent = ({ data }) => {
     switch (block.type) {
       case "paragraph": {
         const texts = Array.isArray(block.text) ? block.text : [block.text];
-        return texts.map((text, i) => (
-          <p key={`${index}-${i}`} className="ci-text">
-            {text}
-          </p>
-        ));
+        return (
+          <React.Fragment key={index}>
+            {texts?.map((text, i) => (
+              <p key={i} className="ci-text">
+                {text}
+              </p>
+            ))}
+          </React.Fragment>
+        );
       }
 
       case "title":

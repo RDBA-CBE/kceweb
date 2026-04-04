@@ -6,14 +6,14 @@ const SplitColContent = ({ data }) => {
   const renderBlock = (block, index) => {
     switch (block.type) {
       case "title":
-        return <h3 className="section-ti">{block.text}</h3>;
+        return <h3 key={index} className="section-ti">{block.text}</h3>;
 
       case "paragraph":
-        return <p>{block.text}</p>;
+        return <p key={index}>{block.text}</p>;
 
       case "images":
         return (
-          <div className="logo-group-logos pt-5 row pb-5">
+          <div key={index} className="logo-group-logos pt-5 row pb-5">
             {block.items?.map((logo, i) => (
               <div className="logo-box col-6 col-sm-4" key={i}>
                 <img src={logo.src} alt={logo.alt || "logo"} />
@@ -40,13 +40,14 @@ const SplitColContent = ({ data }) => {
 
       case "list":
         return (
-          <ul className="dcl-list pt-2">
-            {block.items.map((item) => (
-              <li key={item.id}>
+          <ul key={index} className="dcl-list pt-2">
+            {block.items.map((item, i) => (
+              <li key={item.id ?? i}>
                 {item.url ? (
                   <a
                     href={item.url}
-                    target="_blank"
+                    target={block.target || "_blank"}
+
                     rel="noopener noreferrer"
                     className="dcl-item"
                   >

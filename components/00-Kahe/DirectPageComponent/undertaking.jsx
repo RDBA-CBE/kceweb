@@ -11,6 +11,7 @@ export default function UnderTakingPage() {
   const renderSectionWrapper = (section, index) => {
     return (
       <RenderSection
+        key={index}
         section={section}
         index={index}
         renderSection={renderSectionWrapper}

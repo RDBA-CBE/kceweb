@@ -1,0 +1,56 @@
+{
+  "banner": {
+    "bannerImg": "/images/kce/banner_admission.jpg",
+    "title": "UGC Autonomous",
+    "breadcrumb": []
+  },
+  "sections": [
+    {
+      "type": "table",
+      "data": {
+        "secTitle": "UGC Autonomous",
+        "table": [
+          {
+            "content": [
+              {
+                "rowsPerPage": "999",
+                "head": [
+                  {
+                    "id": "col1",
+                    "label": "Name"
+                  }
+                ],
+                "data": [
+                  {
+                    "col1": {
+                      "text": "2022-27 Autonomous from UGC",
+                      "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/2022-27-Autonomous-from-UGC.pdf"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "2016-22 Autonomous Copy from Anna University_Signed",
+                      "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/2016-22-Autonomous-Copy-from-Anna-University_Signed.pdf"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "2016-22 Autonomous copies from UGC",
+                      "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/2016-22-Autonomous-copies-from-UGC.pdf"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "2010-11 Autonomous Copy from UGC",
+                      "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/2010-11-Autonomous-Copy-from-UGC.pdf"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
