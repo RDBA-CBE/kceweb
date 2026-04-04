@@ -15,6 +15,10 @@ const LinkCard = ({ data }) => {
                 <div className="eres-card h-100">
                   <p className="eres-card-title sub-ti">{item.title}</p>
 
+                  {item?.desc && (
+                    <p className="eres-card-desc">{item.desc}</p>
+                  )}
+
                   <a
                     href={item.url}
                     target={item?.target || "_blank"}

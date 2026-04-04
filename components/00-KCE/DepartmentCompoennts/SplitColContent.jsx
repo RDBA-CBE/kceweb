@@ -46,7 +46,8 @@ const SplitColContent = ({ data }) => {
                 {item.url ? (
                   <a
                     href={item.url}
-                    target="_blank"
+                    target={block.target || "_blank"}
+
                     rel="noopener noreferrer"
                     className="dcl-item"
                   >
