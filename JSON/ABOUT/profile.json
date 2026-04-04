@@ -15,17 +15,19 @@
   ],
 
   "imageSection": {
-    "image": "/images/kce/about/about.webp",
+    "image": "/images/kce/about/1.png",
     "content": [
-      "The Placement and Training facilities add a feather to its cap ensuring the students get placed on campus. The 10 Centers of Excellence strive to impart practical and experimental exposure to the students and serve as a window to the corporate world.",
-      "The College is situated at Myleripalayam, 15 kms from Coimbatore Central Railway station. The serene location surrounded by green fields and rich clusters of coconut groves creates a calm atmosphere conducive to learning and growth. Infrastructure with well-equiped laboratories and libraries, well maintained Playgrounds, Hostels, Food Court, Gymnasium and an Indoor Stadium."
+      "The Placement and Training facilities add a feather to its cap ensuring the students get placed on campus.",
+      "The 10 Centers of Excellence strive to impart practical and experimental exposure to the students and serve as a window to the corporate world.",
+      "The College is situated at Myleripalayam, 15 kms from Coimbatore Central Railway station. The serene location surrounded by green fields and rich clusters of coconut groves creates a calm atmosphere conducive to learning and growth.",
+      "Infrastructure with well-equiped laboratories and libraries, well maintained Playgrounds, Hostels, Food Court, Gymnasium and an Indoor Stadium."
     ]
   },
 
   "Highlights": {
     "imagePosition": "right",
     "sectionbg": "section-bg1 my-4",
-    "image": "/images/gallery/gallery-big.jpg",
+    "image": "/images/kce/about/2.png",
     "content": [
       {
         "type": "title",
