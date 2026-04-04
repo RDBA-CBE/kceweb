@@ -680,223 +680,217 @@
         "table": [
           {
             "title": "ACY:2023-24 (ODD)",
-            "content": [
-              {
-                "head": [
-                  { "id": "col1", "label": "Sl. No" },
-                  { "id": "col2", "label": "Name" },
-                  { "id": "col3", "label": "Subject Code / Name" },
-                  { "id": "col4", "label": "Link" }
-                ],
-                "data": [
-                  {
-                    "col1": { "text": "1" },
-                    "col2": { "text": "Dr.C.Kumar" },
-                    "col3": { "text": "21ED03 / Digital Electronics" },
-                    "col4": {
-                      "text": "Click",
-                      "href": "https://classroom.google.com/c/NjI5MjI4MjE5Mjcw"
-                    }
-                  },
-                  {
-                    "col1": { "text": "2" },
-                    "col2": { "text": "Dr.V.Tamilselvan" },
-                    "col3": {
-                      "text": "21ED19 / Transmission and Distribution"
-                    },
-                    "col4": {
-                      "text": "Click",
-                      "href": "https://classroom.google.com/c/NjEyMjcyMDYxODcx"
-                    }
-                  },
-                  {
-                    "col1": { "text": "3" },
-                    "col2": { "text": "Dr.E.Govindakumar" },
-                    "col3": { "text": "21ED07 / Control Systems Engineering" },
-                    "col4": {
-                      "text": "Click",
-                      "href": "https://classroom.google.com/c/NjA3Mjk0NTM4OTk1"
-                    }
-                  },
-                  {
-                    "col1": { "text": "4" },
-                    "col2": { "text": "Dr.S.Vimalraj" },
-                    "col3": { "text": "18NE09 / Robotics and Automaton" },
-                    "col4": {
-                      "text": "Click",
-                      "href": "https://classroom.google.com/c/NjEyNDEzNTcyNDAx"
-                    }
-                  },
-                  {
-                    "col1": { "text": "" },
-                    "col2": { "text": "" },
-                    "col3": {
-                      "text": "21MC12 / Measurements and Instrumentation"
-                    },
-                    "col4": {
-                      "text": "Click",
-                      "href": "https://classroom.google.com/c/NjEzNDMyODk2Mzk5"
-                    }
-                  },
-                  {
-                    "col1": { "text": "5" },
-                    "col2": { "text": "Dr.M.Sivaramkrishnan" },
-                    "col3": {
-                      "text": "18EE21 / Energy Auditing and Management"
-                    },
-                    "col4": {
-                      "text": "Click",
-                      "href": "https://classroom.google.com/c/NjEyMzk3OTMwMTg2?cjc=vlednjg"
-                    }
-                  },
-                  {
-                    "col1": { "text": "" },
-                    "col2": { "text": "" },
-                    "col3": { "text": "21LE05 / Medical Electronics" },
-                    "col4": {
-                      "text": "Click",
-                      "href": "https://classroom.google.com/c/NjEyNTk3NDQ4MDY2?cjc=mwtyjvg"
-                    }
-                  },
-                  {
-                    "col1": { "text": "6" },
-                    "col2": { "text": "Dr.C.S.Sundar Ganesh" },
-                    "col3": {
-                      "text": "18ED22 / Electric Energy Utilization and Conservation"
-                    },
-                    "col4": {
-                      "text": "Click",
-                      "href": "https://classroom.google.com/u/2/c/NjExMzk4MTkwNDQz"
-                    }
-                  },
-                  {
-                    "col1": { "text": "" },
-                    "col2": { "text": "" },
-                    "col3": { "text": "21ED11 / Embedded Systems" },
-                    "col4": {
-                      "text": "Click",
-                      "href": "https://classroom.google.com/u/2/c/NjEyNDY3MTkyNTA1"
-                    }
-                  },
-                  {
-                    "col1": { "text": "7" },
-                    "col2": { "text": "Mr.P.Palpandian" },
-                    "col3": {
-                      "text": "18ED26 / Permanent Magnet and Reluctance Machines"
-                    },
-                    "col4": {
-                      "text": "Click",
-                      "href": "https://classroom.google.com/c/NTIyNjQ4NjIxMTA0"
-                    }
-                  },
-                  {
-                    "col1": { "text": "" },
-                    "col2": { "text": "" },
-                    "col3": {
-                      "text": "21ED15 / Transformers and Induction Machines"
-                    },
-                    "col4": {
-                      "text": "Click",
-                      "href": "https://classroom.google.com/c/NjEyNDE5NTQyODMx"
-                    }
-                  },
-                  {
-                    "col1": { "text": "8" },
-                    "col2": { "text": "Mr.R.Krishna Kumar" },
-                    "col3": { "text": "21MC08 / Electric Drives and Control" },
-                    "col4": {
-                      "text": "Click",
-                      "href": "https://classroom.google.com/c/NjIyMzk1NjI0MTg2"
-                    }
-                  },
-                  {
-                    "col1": { "text": "9" },
-                    "col2": { "text": "Mr.V.Govindaraj" },
-                    "col3": {
-                      "text": "21ED15 / Transformers and Induction Machines"
-                    },
-                    "col4": {
-                      "text": "Click",
-                      "href": "https://classroom.google.com/c/NTIyNzIwNjM5NjE2"
-                    }
-                  },
-                  {
-                    "col1": { "text": "" },
-                    "col2": { "text": "" },
-                    "col3": {
-                      "text": "21ED19 / Transmission and Distribution"
-                    },
-                    "col4": {
-                      "text": "Click",
-                      "href": "https://classroom.google.com/c/NjEyNTc0MjE4NDYw"
-                    }
-                  },
-                  {
-                    "col1": { "text": "10" },
-                    "col2": { "text": "Mr.P.Gajendran" },
-                    "col3": { "text": "21ED11 / Embedded Systems" },
-                    "col4": {
-                      "text": "Click",
-                      "href": "https://classroom.google.com/c/NjEyNDk4Mjg2MTg2"
-                    }
-                  },
-                  {
-                    "col1": { "text": "" },
-                    "col2": { "text": "" },
-                    "col3": { "text": "Electric Circuits" },
-                    "col4": {
-                      "text": "Click",
-                      "href": "https://classroom.google.com/c/NjI1NTU1NjEwNDA5"
-                    }
-                  },
-                  {
-                    "col1": { "text": "11" },
-                    "col2": { "text": "Mrs.R.Vidyalakshmi" },
-                    "col3": { "text": "18ED18 / Electric Drives and Control" },
-                    "col4": {
-                      "text": "Click",
-                      "href": "https://classroom.google.com/c/NjEyNDAzMDE4NzI1"
-                    }
-                  },
-                  {
-                    "col1": { "text": "" },
-                    "col2": { "text": "" },
-                    "col3": { "text": "21ED07 / Control Systems Engineering" },
-                    "col4": {
-                      "text": "Click",
-                      "href": "https://classroom.google.com/c/NjEyNTgzMjA1ODAy"
-                    }
-                  },
-                  {
-                    "col1": { "text": "" },
-                    "col2": { "text": "" },
-                    "col3": { "text": "Electric Circuits" },
-                    "col4": {
-                      "text": "Click",
-                      "href": "https://classroom.google.com/c/NjI4OTkxMTQ0MDE2"
-                    }
-                  },
-                  {
-                    "col1": { "text": "12" },
-                    "col2": { "text": "Mrs.A.Anci Manon Mary" },
-                    "col3": { "text": "21EC11 / Electronic Circuits" },
-                    "col4": {
-                      "text": "Click",
-                      "href": "https://classroom.google.com/c/NjI5ODM5NzgyODQ1"
-                    }
-                  },
-                  {
-                    "col1": { "text": "13" },
-                    "col2": { "text": "Mr.M.Muthukumaran" },
-                    "col3": { "text": "21EC11 / Electronic Circuits" },
-                    "col4": {
-                      "text": "Click",
-                      "href": "https://classroom.google.com/c/NTI5ODMyOTQ1ODcy"
-                    }
-                  }
-                ]
-              }
-            ]
+            
+  "content": [
+    {
+      "head": [
+        { "id": "col1", "label": "Sl. No" },
+        { "id": "col2", "label": "Name" },
+        { "id": "col3", "label": "Subject Code / Name" },
+        { "id": "col4", "label": "Link" }
+      ],
+      "data": [
+        {
+          "col1": { "text": "1" },
+          "col2": { "text": "Dr.C.Kumar" },
+          "col3": { "text": "21ED03/Digital Electronics" },
+          "col4": {
+            "text": "Click",
+            "href": "https://classroom.google.com/c/NjI5MjI4MjE5Mjcw"
+          }
+        },
+        {
+          "col1": { "text": "2" },
+          "col2": { "text": "Dr.V.Tamilselvan" },
+          "col3": { "text": "21ED19/Transmission and Distribution" },
+          "col4": {
+            "text": "Click",
+            "href": "https://classroom.google.com/c/NjEyMjcyMDYxODcx"
+          }
+        },
+        {
+          "col1": { "text": "3" },
+          "col2": { "text": "Dr.E.Govindakumar" },
+          "col3": { "text": "21ED07/Control Systems Engineering" },
+          "col4": {
+            "text": "Click",
+            "href": "https://classroom.google.com/c/NjA3Mjk0NTM4OTk1"
+          }
+        },
+        {
+          "col1": { "text": "4" },
+          "col2": { "text": "Dr.S.Vimalraj" },
+          "col3": { "text": "18NE09/Robotics and Automaton" },
+          "col4": {
+            "text": "Click",
+            "href": "https://classroom.google.com/c/NjEyNDEzNTcyNDAx"
+          }
+        },
+        {
+          "col1": { "text": "" },
+          "col2": { "text": "" },
+          "col3": { "text": "21MC12/Measurements and Instrumentation" },
+          "col4": {
+            "text": "Click",
+            "href": "https://classroom.google.com/c/NjEzNDMyODk2Mzk5"
+          }
+        },
+        {
+          "col1": { "text": "5" },
+          "col2": { "text": "Dr.M.Sivaramkrishnan" },
+          "col3": { "text": "18EE21/Energy Auditing and Management" },
+          "col4": {
+            "text": "Click",
+            "href": "https://classroom.google.com/c/NjEyMzk3OTMwMTg2?cjc=vlednjg"
+          }
+        },
+        {
+          "col1": { "text": "" },
+          "col2": { "text": "" },
+          "col3": { "text": "21LE05/Medical Electronics" },
+          "col4": {
+            "text": "Click",
+            "href": "https://classroom.google.com/c/NjEyNTk3NDQ4MDY2?cjc=mwtyjvg"
+          }
+        },
+        {
+          "col1": { "text": "6" },
+          "col2": { "text": "Dr.C.S.Sundar Ganesh" },
+          "col3": {
+            "text": "18ED22/Electric Energy Utilization and Conservation"
+          },
+          "col4": {
+            "text": "Click",
+            "href": "https://classroom.google.com/u/2/c/NjExMzk4MTkwNDQz"
+          }
+        },
+        {
+          "col1": { "text": "" },
+          "col2": { "text": "" },
+          "col3": { "text": "21ED11/Embedded Systems" },
+          "col4": {
+            "text": "Click",
+            "href": "https://classroom.google.com/u/2/c/NjEyNDY3MTkyNTA1"
+          }
+        },
+        {
+          "col1": { "text": "7" },
+          "col2": { "text": "Mr.P.Palpandian" },
+          "col3": {
+            "text": "18ED26/Permanent Magnet and Reluctance Machines"
+          },
+          "col4": {
+            "text": "Click",
+            "href": "https://classroom.google.com/c/NTIyNjQ4NjIxMTA0"
+          }
+        },
+        {
+          "col1": { "text": "" },
+          "col2": { "text": "" },
+          "col3": {
+            "text": "21ED15/Transformers and Induction Machines"
+          },
+          "col4": {
+            "text": "Click",
+            "href": "https://classroom.google.com/c/NjEyNDE5NTQyODMx"
+          }
+        },
+        {
+          "col1": { "text": "8" },
+          "col2": { "text": "Mr.R.Krishna Kumar" },
+          "col3": { "text": "21MC08/Electric Drives and Control" },
+          "col4": {
+            "text": "Click",
+            "href": "https://classroom.google.com/c/NjIyMzk1NjI0MTg2"
+          }
+        },
+        {
+          "col1": { "text": "9" },
+          "col2": { "text": "Mr.V.Govindaraj" },
+          "col3": {
+            "text": "21ED15/Transformers and Induction Machines"
+          },
+          "col4": {
+            "text": "Click",
+            "href": "https://classroom.google.com/c/NTIyNzIwNjM5NjE2"
+          }
+        },
+        {
+          "col1": { "text": "" },
+          "col2": { "text": "" },
+          "col3": { "text": "21ED19/Transmission and Distribution" },
+          "col4": {
+            "text": "Click",
+            "href": "https://classroom.google.com/c/NjEyNTc0MjE4NDYw"
+          }
+        },
+        {
+          "col1": { "text": "10" },
+          "col2": { "text": "Mr.P.Gajendran" },
+          "col3": { "text": "21ED11/Embedded Systems" },
+          "col4": {
+            "text": "Click",
+            "href": "https://classroom.google.com/c/NjEyNDk4Mjg2MTg2"
+          }
+        },
+        {
+          "col1": { "text": "" },
+          "col2": { "text": "" },
+          "col3": { "text": "Electric Circuits" },
+          "col4": {
+            "text": "Click",
+            "href": "https://classroom.google.com/c/NjI1NTU1NjEwNDA5"
+          }
+        },
+        {
+          "col1": { "text": "11" },
+          "col2": { "text": "Mrs.R.Vidyalakshmi" },
+          "col3": { "text": "18ED18/Electric Drives and Control" },
+          "col4": {
+            "text": "Click",
+            "href": "https://classroom.google.com/c/NjEyNDAzMDE4NzI1"
+          }
+        },
+        {
+          "col1": { "text": "" },
+          "col2": { "text": "" },
+          "col3": { "text": "21ED07/Control Systems Engineering" },
+          "col4": {
+            "text": "Click",
+            "href": "https://classroom.google.com/c/NjEyNTgzMjA1ODAy"
+          }
+        },
+        {
+          "col1": { "text": "" },
+          "col2": { "text": "" },
+          "col3": { "text": "Electric Circuits" },
+          "col4": {
+            "text": "Click",
+            "href": "https://classroom.google.com/c/NjI4OTkxMTQ0MDE2"
+          }
+        },
+        {
+          "col1": { "text": "12" },
+          "col2": { "text": "Mrs.A.Anci Manon Mary" },
+          "col3": { "text": "21EC11/Electronic Circuits" },
+          "col4": {
+            "text": "Click",
+            "href": "https://classroom.google.com/c/NjI5ODM5NzgyODQ1"
+          }
+        },
+        {
+          "col1": { "text": "13" },
+          "col2": { "text": "Mr.M.Muthukumaran" },
+          "col3": { "text": "21EC11/Electronic Circuits" },
+          "col4": {
+            "text": "Click",
+            "href": "https://classroom.google.com/c/NTI5ODMyOTQ1ODcy"
+          }
+        }
+      ]
+    }
+  ]
+
           },
           {
             "title": "ACY:2023-24 (EVEN)",
