@@ -5,52 +5,55 @@ import styles from "./ProgrammesSection.module.css";
 const data = [
   {
     title: "UG Programmes",
-    desc: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh",
+    desc: "Explore KCE’s undergraduate programmes that combine academic excellence with practical learning, empowering students to build successful futures.",
     items: [
       "B.E. Civil Engineering",
       "B.E. Computer Science and Engineering",
       "B.E. Computer Science and Engineering (CyberSecurity)",
-      "B.E. Computer Science and Technology",
-      "B.E. Electronics and Communication Engineering +",
-      "B.E. Electrical and Electronics Engineering +",
+      // "B.E. Computer Science and Technology",
+      "B.E. Electronics and Communication Engineering",
+      "B.E. Electrical and Electronics Engineering",
       "B.E. Electronics and Telecommunications Engineering",
-      "Department of Electronics Engineering [VLSI Design and Technology]",
-      "B.E. Mechanical Engineering +",
-      "B.E. Computer Science and Design",
-      "B.Tech. Information Technology +",
+      "B.E. Electronics Engineering [VLSI Design and Technology]",
+      "B.E. Mechanical Engineering",
+      // "B.E. Computer Science and Design",
       "B.Tech. Artificial Intelligence and Data Sciences",
+      "B.Tech. Information Technology",
+      
     ],
   },
   {
     title: "PG Programmes",
-    desc: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh",
+    desc: "At KCE, our postgraduate programmes are crafted to foster intellectual growth, research excellence, and professional advancement. We empower students to become innovators, leaders, and experts in their fields.",
     items: [
-      "B.E. Mechanical Engineering +",
-      "B.E. Computer Science and Design",
-      "B.Tech. Information Technology +",
-      "B.Tech. Artificial Intelligence and Data Sciences",
+      // "B.E. Mechanical Engineering +",
+      // "B.E. Computer Science and Design",
+      // "B.Tech. Information Technology +",
+      // "B.Tech. Artificial Intelligence and Data Sciences",
+      "MBA-Master of Business Administration",
+      "MCA-Master of Computer Applications"
     ],
   },
-  {
-    title: "Doctorate",
-    desc: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh",
-    items: [
-   "Ph.D. Civil Engineering",
-    "Ph.D. Electrical & Electronics Engineering",
-    "Ph.D. Electronics and Communication Engineering",
-    "Ph.D. Electronics Engineering (VLSI Design and Technology)",
-    "Ph.D. Information Technology",
-    "Ph.D. Computer Science and Engineering",
-    "Ph.D. Artificial Intelligence and Data Science",
-    "Ph.D. English",
-    "Ph.D. Mathematics",
-    "Ph.D. Physics",
-    "Ph.D. Chemistry",
-    "Ph.D. MBA",
-    "Ph.D. MCA"
+  // {
+  //   title: "Doctorate",
+  //   desc: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh",
+  //   items: [
+  //  "Ph.D. Civil Engineering",
+  //   "Ph.D. Electrical & Electronics Engineering",
+  //   "Ph.D. Electronics and Communication Engineering",
+  //   "Ph.D. Electronics Engineering (VLSI Design and Technology)",
+  //   "Ph.D. Information Technology",
+  //   "Ph.D. Computer Science and Engineering",
+  //   "Ph.D. Artificial Intelligence and Data Science",
+  //   "Ph.D. English",
+  //   "Ph.D. Mathematics",
+  //   "Ph.D. Physics",
+  //   "Ph.D. Chemistry",
+  //   "Ph.D. MBA",
+  //   "Ph.D. MCA"
 
-    ],
-  },
+  //   ],
+  // },
 ];
 
 export default function ProgrammesSection() {

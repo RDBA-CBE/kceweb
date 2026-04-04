@@ -14,99 +14,99 @@
   },
 
   "sections": [
-    {
-      "type": "img-con-card",
+
+     {
+      "type": "logo-img",
       "data": {
+        "title": "Circuit Engineering",
+      
         "content": [
           {
-            "title": "EMC Corporation",
-            "subtitle": "Academic Alliance Center",
-            "logo": "/images/kce/EMC-Corporation-435x280.webp",
-            "points": [
-              "Faculty members were trained at EMC Corporation and equipped to train students on Information Storage Management.",
-              "654 students were trained on Information Storage Management.",
-              "KCE was selected and awarded by EMC Corporation for being one among the TOP 5 academic alliance colleges in Tamil Nadu."
+            "images": [
+              {
+                "img": "/images/kce/home/coe-logo/qnx.svg"
+               
+              },
+              {
+                "img": "/images/kce/home/coe-logo/hcl.svg"
+               
+              }
+             
             ]
-          },
-          {
-            "title": "Infosys Campus Connect",
+          }
+        ]
+      }
+    },
 
-            "logo": "/images/kce/re.webp",
-            "points": [
-              "Advanced Partner College status and rated among TOP 3 performers under Infosys, Chennai.",
-              "2000+ students have been trained in 9 technical modules of Infosys so far.",
-              "During the last 3 years, 222 students had undergone internship at Infosys."
-            ]
-          },
+     {
+      "type": "logo-img",
+      "data": {
+        "title": "Computing Sciences",
+      
+        "content": [
           {
-            "title": "Oracle Workforce Development Center",
+            "images": [
+              {
+                "img": "/images/kce/home/coe-logo/oracle.svg"
+                
+              },
+              {
+                "img": "/images/kce/home/coe-logo/hcl.svg"
+                
+              },
+              {
+                "img": "/images/kce/home/coe-logo/ntt data.svg"
+                
+              },
+              {
+                "img": "/images/kce/home/coe-logo/tech mahindra.svg"
+                
+              },
+              {
+                "img": "/images/kce/home/coe-logo/wipro.svg"
+                
+              },
+               {
+                "img": "/images/kce/home/coe-logo/azure.svg"
+                
+              },
+               {
+                "img": "/images/kce/home/coe-logo/juniper.svg"
+                
+              },
+               {
+                "img": "/images/kce/home/coe-logo/paloalto.svg"
+                
+              }
+              
+            ]
+          }
+        ]
+      }
+    },
 
-            "logo": "/images/kce/ORACLE-WORKFORCE-DEVELOPEENT.webp",
-            "points": [
-              "Faculty members were trained by Oracle Corporation and students were trained at the institution on Oracle Technology Products.",
-              "119 students were trained in Oracle 9i: Introduction to SQL.",
-              "114 students were trained in Oracle 9i: DBAI.",
-              "96 students were trained in Oracle 10g: Introduction to SQL."
+     {
+      "type": "logo-img",
+      "data": {
+        "title": "Core Engineering",
+      
+        "content": [
+          {
+            "images": [
+              {
+                "img": "/images/kce/home/coe-logo/ui path.svg"
+                
+              },
+              {
+                "img": "/images/kce/home/coe-logo/dassault.svg"
+              
+              },
+              {
+                "img": "/images/kce/home/coe-logo/fronius.svg"
+              
+              }
+             
             ]
-          },
-          {
-            "title": "National Instruments LabView Academy",
-            "subtitle": "National Instruments LabView Academy for Virtual Instrumentation",
-            "logo": "/images/kce/LV_Academy_logo_16x9-435x280.webp",
-            "points": [
-              "Recognized as Training Center for Professional Certification from National Instruments, USA.",
-              "About 250+ students have undergone training so far."
-            ]
-          },
-          {
-            "title": "B&R Center of excellence",
-            "logo": "/images/kce/br.webp",
-            "text": "Provides Training in Industrial Automation in collaboration with B&R Automation."
-          },
-
-          {
-            "title": "MEMS Center of Excellence",
-            "subtitle": "",
-            "logo": "https://kce.ac.in/new/wp-content/uploads/2020/03/CENTERS-OF-EXCELLENCE.jpg",
-            "points": [
-              "Established in 2008 with the support from BEL, NPMASS, IISc and ISSS.",
-              "The project is funded by Central Govt Agencies through IISc for the development of MEMS based applications.",
-              "About 300 students have undergone training so far."
-            ]
-          },
-          {
-            "title": "WIPRO - Mission 10X Programme",
-            "subtitle": "",
-            "logo": "https://kce.ac.in/new/wp-content/uploads/2020/03/0.png",
-            "points": [
-              "Participating since 2007.",
-              "Hosted Mission 10X Programme in the college campus"
-            ]
-          },
-          {
-            "title": "Microsoft Center of Excellence",
-            "subtitle": "",
-            "logo": "https://kce.ac.in/new/wp-content/uploads/2020/03/download.png",
-            "points": [
-              "College has a fully sponsored technical services lab which is one among the four in INDIA.",
-              "Microsoft Technical Service lab established at KCE was launched on Dec. 30th of 2013.",
-              "This lab will be leveraged as a training facility, equipped with tools customised for students with a complete experience of working in a technical service environment on campus.",
-              "It is aimed at assisting students to harness and develop their potential to grow into future leaders and decision makers in the field of technical service."
-            ]
-          },
-          {
-            "title": "Tech Mahindra Center of Excellence for Infrastructure Management Services",
-            "subtitle": "",
-            "logo": "https://kce.ac.in/new/wp-content/uploads/2020/03/tech-mahindra-gold-435x213.png",
-            "text": "College has a fully sponsored technical services lab which is one among the five in INDIA."
-          },
-          {
-            "title": "Data Science and Analytics Centre",
-            "subtitle": "",
-            "logo": "https://kce.ac.in/new/wp-content/uploads/2020/05/DSAC-logo.png",
-            "text": "Data Science & Analytics Centre (DSAC) is a Centre of excellence in Karpagam College of Engineering established with a motto to train future data scientists with state of the art of technology in big data analytics.The centre chains the expertise of researchers in mathematics/statistics and engineering. These specialists use cutting-edge analytics, informatics and computing methodologies to conduct the study and develop innovative solutions to address high-impact problems across disciplines",
-            "url": " http://www.dsackce.com/",
-            "urlText": "Read More"
           }
         ]
       }

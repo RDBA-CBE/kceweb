@@ -34,6 +34,64 @@
         ]
       }
     },
+
+     {
+      "type": "icon-card",
+      "data": {
+        "title": "Training for Higher Education",
+        "content": [
+          {
+            "img": "/images/kce/academics/lab-icon.svg",
+            "title": "GATE"
+          },
+          {
+            "img": "/images/kce/academics/lab-icon.svg",
+            "title": "CAT"
+          },
+          {
+            "img": "/images/kce/academics/lab-icon.svg",
+            "title": "GRE"
+          },
+          {
+            "img": "/images/kce/academics/lab-icon.svg",
+            "title": "TOEFL"
+          },
+          {
+            "img": "/images/kce/academics/lab-icon.svg",
+            "title": "IELTS"
+          }
+        ]
+      }
+    },
+     {
+      "type": "icon-card",
+      "data": {
+        "sectionbg": "section-bg1",
+        "title": "Training for Government Exams",
+        "content": [
+          {
+            "img": "/images/kce/academics/lab-icon.svg",
+            "title": "UPSC"
+          },
+          {
+            "img": "/images/kce/academics/lab-icon.svg",
+            "title": "TNPSC"
+          },
+          {
+            "img": "/images/kce/academics/lab-icon.svg",
+            "title": "SSC"
+          },
+          {
+            "img": "/images/kce/academics/lab-icon.svg",
+            "title": "BANKING"
+          },
+          {
+            "img": "/images/kce/academics/lab-icon.svg",
+            "title": "RRB"
+          }
+        ]
+      }
+    },
     {
       "type": "split-image-content",
       "data": {

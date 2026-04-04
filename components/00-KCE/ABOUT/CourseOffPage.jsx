@@ -55,8 +55,28 @@ export default function CourseOffPage() {
         </div>
       </section>
 
+
+      {/* PG Programmes */}
+
+      <section className="abt ug-wall">
+        <div className="container">
+          <h2 className="section-ti-sec">{pg.title}</h2>
+
+          <div className="ug-ribbon">
+            {pg.items.map((item, index) => (
+              <div key={index} className="ug-ribbon-item">
+                <span className="prog-name">{item.replace("+", "")}</span>
+                {item.includes("+") && <span className="prog-badge">NBA</span>}
+              </div>
+            ))}
+          </div>
+
+          {/* <p className="ug-wall-note">{pg.note}</p> */}
+        </div>
+      </section>
+
       {/* PG & Research */}
-      <section className="rail-section">
+      {/* <section className="rail-section">
         <div className="section-wid">
           <div className="row gy-5">
             <div className="col-lg-6">
@@ -85,7 +105,7 @@ export default function CourseOffPage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 }

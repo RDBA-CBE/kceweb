@@ -6,30 +6,29 @@ import AchievementCard from "./AchievementCard";
 
 const achievementsData = [
   {
-    title: "Lorem ipsum",
-    desc: "Lorem ipsum dolor sit amet, consectetuer",
-    img: "/images/kce/home/student-achievements/1.webp",
+    title: "National Welding League Of Women Students (Nwl 2026).",
+    img: "/images/kce/home/student-achievements/achievements-1.webp",
   },
   {
-    title: "Lorem ipsum",
-    desc: "Lorem ipsum dolor sit amet, consectetuer",
-    img: "/images/kce/home/student-achievements/2.webp",
+    title: "Gatestack Crew",
+    img: "/images/kce/home/student-achievements/achievements-7.webp",
   },
   {
-    title: "Lorem ipsum",
-    desc: "Lorem ipsum dolor sit amet, consectetuer",
-    img: "/images/kce/home/student-achievements/3.webp",
+    title: "Tancam's Hackathon For Women In Science & Engineering (Tnwise)",
+    img: "/images/kce/home/student-achievements/achievements-3.webp",
   },
   {
-    title: "Lorem ipsum",
-    desc: "Lorem ipsum dolor sit amet, consectetuer",
-    img: "/images/kce/home/student-achievements/4.webp",
+    title: "Build The Future Bimcontest 2025",
+    img: "/images/kce/home/student-achievements/achievements-6.webp",
   },
   {
-    title: "Lorem ipsum",
-    desc: "Lorem ipsum dolor sit amet, consectetuer",
-    img: "/images/kce/home/student-achievements/5.webp",
+    title: "Yuvai Global Youth Challenge",
+    img: "/images/kce/home/student-achievements/achievements-4.webp",
   },
+  {
+    title: "De Montfort University-Dubai",
+    img: "/images/kce/home/student-achievements/achievements-2.webp",
+  }
 ];
 
 const StudentsAchievements = () => {

@@ -64,7 +64,7 @@ export default function PlacementBanner() {
           <div className="placementStats">
             <div className="stat">
               <h3>
-                <CountUp end={1154} />+
+                <CountUp end={1544} />+
               </h3>
               <span>Placements</span>
             </div>
@@ -73,7 +73,7 @@ export default function PlacementBanner() {
 
             <div className="stat">
               <h3>
-                <CountUp end={156} />+
+                <CountUp end={232} />+
               </h3>
               <span>Companies</span>
             </div>
@@ -82,7 +82,7 @@ export default function PlacementBanner() {
 
             <div className="stat">
               <h3>
-                <CountUp end={28} />
+                <CountUp end={43} />
               </h3>
               <span>LPA - Max Salary</span>
             </div>

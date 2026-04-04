@@ -11,7 +11,7 @@ const AchievementCard = ({ data }) => {
         <h4>{data.title}</h4>
         <p>{data.desc}</p>
         <Link
-          href="#"
+          href="/acheivemnets"
           className="kce-btn-primary rbt-btn hover-icon-reverse mt-4"
           target="_self"
         >
