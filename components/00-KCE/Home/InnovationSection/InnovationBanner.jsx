@@ -37,9 +37,7 @@ export default function InnovationBanner({ data }) {
           <div className="placementStats">
             {stats.map((item, index) => (
               <React.Fragment key={item.id}>
-                {item.divider && index !== 0 && (
-                  <div className="divider" />
-                )}
+                {index !== 0 && <div className="divider" />}
                 <div className="stat">
                   <h3>
                     <CountUp end={item.count} />
