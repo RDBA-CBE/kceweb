@@ -17,6 +17,7 @@
     ]
   },
   "sections": [
+   
     {
       "type": "split-image-content",
       "data": {
@@ -34,6 +35,21 @@
               "KIC encourages and accelerates development of indigenous products and packages. The centre bridges the gap between R&D and commercialization. KIC facilitates entrepreneurial training and IPR facilitation. We also promote the involvement of faculty in startup activities. KIC ensures interaction between education and industry and alignment of education with exact market demands. The centre organizes Entrepreneurship Awareness Camps, Entrepreneurship Development Programmes, Faculty Development Programmes and Skill Development Programmes in the institution. Centre initiates innovative student projects each year for new innovative product development. KIC arranges interaction with entrepreneurs and offers mentorship schemes for student entrepreneurs. It believes in innovation through offering a wide range of Branded programs at one stop that no other centre is offering in the education space. The centre is equipped with an ambitious, workable plan to provide Skill Development Education to the youth of the Nation. KIC makes the innovative ideas to blossom."
             ]
           }
+        ]
+      }
+    },
+    {
+      "type": "stats-banner",
+      "data": {
+        "stats": [
+          { "id": 1, "count": 1154, "suffix": "+", "label": "Placements" },
+          { "id": 2, "count": 156, "suffix": "+", "label": "Companies", "divider": true },
+          { "id": 3, "count": 28, "suffix": "", "label": "LPA - Max Salary", "divider": true },
+          { "id": 4, "count": 50, "suffix": "+", "label": "Startups" },
+          { "id": 5, "count": 120, "suffix": "+", "label": "Patents Filed" },
+          { "id": 6, "count": 35, "suffix": "+", "label": "Industry Partners" },
+          { "id": 7, "count": 200, "suffix": "+", "label": "Projects" },
+          { "id": 8, "count": 10, "suffix": "+", "label": "Years of Excellence" }
         ]
       }
     },

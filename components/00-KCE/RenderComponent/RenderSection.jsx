@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import InnovationBanner from "../Home/InnovationSection/InnovationBanner";
 import ImageOverlayCard from "../DepartmentCompoennts/ImageOverlayCard";
 import PlainPara from "../DepartmentCompoennts/PlainPara";
 import HalfCardImage from "../DepartmentCompoennts/HalfCardImage";
@@ -198,6 +199,9 @@ const RenderSection = ({ section, index, renderSection }) => {
 
     case "accordion":
       return <Accordion key={index} data={section.data} fullData={section} />;
+
+    case "stats-banner":
+      return <InnovationBanner key={index} data={section.data} />;
 
     default:
       return null;
