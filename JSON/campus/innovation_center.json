@@ -44,14 +44,14 @@
       "type": "stats-banner",
       "data": {
         "stats": [
-          { "id": 1, "count": 1154, "suffix": "+", "label": "Placements" },
-          { "id": 2, "count": 156, "suffix": "+", "label": "Companies", "divider": true },
-          { "id": 3, "count": 28, "suffix": "", "label": "LPA - Max Salary", "divider": true },
-          { "id": 4, "count": 50, "suffix": "+", "label": "Startups" },
-          { "id": 5, "count": 120, "suffix": "+", "label": "Patents Filed" },
-          { "id": 6, "count": 35, "suffix": "+", "label": "Industry Partners" },
-          { "id": 7, "count": 200, "suffix": "+", "label": "Projects" },
-          { "id": 8, "count": 10, "suffix": "+", "label": "Years of Excellence" }
+          { "id": 1, "count": 207, "suffix": "+", "label": "MoUs" },
+          { "id": 2, "count": 180, "suffix": "+", "label": "Activities", "divider": true },
+          { "id": 3, "count": 12, "suffix": "", "label": "Startups", "divider": true },
+          { "id": 4, "count": 31, "suffix": "+", "label": "Prizes & Accolades" },
+          { "id": 5, "count": 1000, "suffix": "+", "label": "Internships" },
+          { "id": 6, "count": 154, "suffix": "+", "label": "Industry Partners" },
+          { "id": 7, "count": 100, "suffix": "+", "label": "Leadership Programs" },
+          { "id": 8, "count": 264, "suffix": "+", "label": "Workshops / Seminars Organized" }
         ]
       }
     },
