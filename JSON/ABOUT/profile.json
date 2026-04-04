@@ -2,25 +2,30 @@
   "banner": {
     "bannerImg": "/images/kce/banner_admission.jpg",
     "title": "Profile",
-    "breadcrumb": [{ "label": "Home", "href": "/" }, { "label": "Profile" }]
+    "breadcrumb": [
+      { "label": "Home", "href": "/" },
+      { "label": "Profile" }
+    ]
   },
 
   "pageTitle": "About Karpagam College of Engineering",
+
   "intro": [
     "The Karpagam College of Engineering, established in the Year 2000, is an Autonomous institution, Approved by AICTE, New Delhi and Affiliated to Anna University, Chennai. The college offers various Under Graduate and Post Graduate Engineering programmes.The College is accredited by NAAC with ‘A+’ Grade, TCS and Wipro with 4500 students and 426 teaching and non-teaching staff members, Karpagam College of Engineering strives to impart quality education and an excellent career start to all its students."
   ],
+
   "imageSection": {
     "image": "/images/kce/about/about.webp",
     "content": [
       "The Placement and Training facilities add a feather to its cap ensuring the students get placed on campus. The 10 Centers of Excellence strive to impart practical and experimental exposure to the students and serve as a window to the corporate world.",
-      "The College is situated at Myleripalayam, 15 kms from Coimbatore Central Railway station. The serene location surrounded by green fields and rich clusters of coconut groves creates a calm atmosphere conducive to learning and growth. Infrastructure with well-equiped laboratories and libraries, well maintained Playgrounds, Hostels, Food Court, Gymnasium and an Indoor Stadium." ]
+      "The College is situated at Myleripalayam, 15 kms from Coimbatore Central Railway station. The serene location surrounded by green fields and rich clusters of coconut groves creates a calm atmosphere conducive to learning and growth. Infrastructure with well-equiped laboratories and libraries, well maintained Playgrounds, Hostels, Food Court, Gymnasium and an Indoor Stadium."
+    ]
   },
 
   "Highlights": {
     "imagePosition": "right",
     "sectionbg": "section-bg1 my-4",
     "image": "/images/gallery/gallery-big.jpg",
-
     "content": [
       {
         "type": "title",
@@ -55,12 +60,12 @@
       "B.E. Electronics and Communication Engineering*",
       "B.E. Electrical and Electronics Engineering*",
       "B.E. Electronics Engineering (VLSI Design and Technology)",
-      "B.E. Mechanical Engineering*",  
+      "B.E. Mechanical Engineering*",
       "B.Tech. Artificial Intelligence and Data Sciences",
       "B.Tech. Information Technology*",
       "MBA-Master of Business Administration",
       "MCA-Master of Computer Applications"
-    ]
-     },
-  
+    ],
+    "note": "* Programmes Accredited by NBA"
+  }
 }
