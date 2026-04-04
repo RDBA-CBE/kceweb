@@ -28,6 +28,8 @@ export default function SideMenu(props) {
                 onClick={() => {
                   if (onMenuClick) {
                     onMenuClick(item.label);
+                  } else if (item.target === "_blank") {
+                    window.open(item.path, "_blank", "noopener,noreferrer");
                   } else {
                     router.push(item.path);
                   }

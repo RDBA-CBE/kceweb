@@ -9,6 +9,7 @@ export default function CafeteriaPage() {
   const renderSectionWrapper = (section, index) => {
     return (
       <RenderSection
+        key={index}
         section={section}
         index={index}
         renderSection={renderSectionWrapper}

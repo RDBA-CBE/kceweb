@@ -83,6 +83,10 @@
             "id": "ls"
           },
           {
+            "title": "Technical Sections",
+            "id": "ts"
+          },
+          {
             "title": "Circulation Section",
             "id": "cir"
           },
@@ -180,6 +184,37 @@
               }
             ]
           },
+          "ts": {
+            "sections": [
+              {
+                "type": "split-image-content",
+                "data": {
+                  "imagePosition": "left",
+                  "sectionbg": "section-bg1",
+                  "image": "/images/kce/image.jpg",
+                  "content": [
+                    {
+                      "type": "title",
+                      "mainTi": "Technical Sections"
+                    },
+                    {
+                      "type": "list",
+                      "items": [
+                        "Books accessing",
+                        "Classification",
+                        "Seal and Bar code affixing",
+                        "Binding work",
+                        "Updating in computerStack Section",
+                        "Staff / Student registration"
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+
+     
 
           "cir": {
             "sections": [

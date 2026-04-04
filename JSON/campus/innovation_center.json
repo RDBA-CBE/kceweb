@@ -17,6 +17,7 @@
     ]
   },
   "sections": [
+   
     {
       "type": "split-image-content",
       "data": {
@@ -34,6 +35,23 @@
               "KIC encourages and accelerates development of indigenous products and packages. The centre bridges the gap between R&D and commercialization. KIC facilitates entrepreneurial training and IPR facilitation. We also promote the involvement of faculty in startup activities. KIC ensures interaction between education and industry and alignment of education with exact market demands. The centre organizes Entrepreneurship Awareness Camps, Entrepreneurship Development Programmes, Faculty Development Programmes and Skill Development Programmes in the institution. Centre initiates innovative student projects each year for new innovative product development. KIC arranges interaction with entrepreneurs and offers mentorship schemes for student entrepreneurs. It believes in innovation through offering a wide range of Branded programs at one stop that no other centre is offering in the education space. The centre is equipped with an ambitious, workable plan to provide Skill Development Education to the youth of the Nation. KIC makes the innovative ideas to blossom."
             ]
           }
+        ]
+      }
+    },
+
+
+    {
+      "type": "stats-banner",
+      "data": {
+        "stats": [
+          { "id": 1, "count": 207, "suffix": "+", "label": "MoUs" },
+          { "id": 2, "count": 180, "suffix": "+", "label": "Activities", "divider": true },
+          { "id": 3, "count": 12, "suffix": "", "label": "Startups", "divider": true },
+          { "id": 4, "count": 31, "suffix": "+", "label": "Prizes & Accolades" },
+          { "id": 5, "count": 1000, "suffix": "+", "label": "Internships" },
+          { "id": 6, "count": 154, "suffix": "+", "label": "Industry Partners" },
+          { "id": 7, "count": 100, "suffix": "+", "label": "Leadership Programs" },
+          { "id": 8, "count": 264, "suffix": "+", "label": "Workshops / Seminars Organized" }
         ]
       }
     },

@@ -1,0 +1,47 @@
+{
+  "banner": {
+    "bannerImg": "/images/kce/banner_computer_technology.jpg",
+    "title": "NAAC",
+    "breadcrumb": [
+     
+
+      {
+        "label": "NAAC"
+      }
+    ]
+  },
+  "sections": [
+   
+
+    {
+      "type": "link-card",
+      "data": {
+        "sectionbg": " section-bg1",
+        "title": "",
+        "content": [
+        
+          {
+            "id": 1,
+            "title": "Facilities’ for E-content",
+            "url": "https://kce.ac.in/new/wp-content/uploads/2020/06/Facility-for-e-content.pdf",
+            "urlText": "View "
+          },
+          {
+            "id": 2,
+            "title": "PO & PSO",
+            "url": "https://kce.ac.in/new/wp-content/uploads/2020/06/PO-PSO.pdf",
+            "urlText": "View "
+          },
+          {
+            "id": 3,
+            "title": "Research Ethics Policy",
+            "url": "https://kce.ac.in/file/Research-Ethics-Policy.pdf",
+            "urlText": "View "
+          }
+        ]
+        
+        
+      }
+    }
+  ]
+}

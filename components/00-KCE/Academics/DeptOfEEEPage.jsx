@@ -11,6 +11,7 @@ export default function DeptOfEEEPage() {
   const renderSectionWrapper = (section, index) => {
     return (
       <RenderSection
+        key={index}
         section={section}
         index={index}
         renderSection={renderSectionWrapper}

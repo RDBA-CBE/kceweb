@@ -1,0 +1,194 @@
+{
+  "banner": {
+    "bannerImg": "/images/kce/banner_admission.jpg",
+    "title": "AU Affiliation",
+    "breadcrumb": []
+  },
+  "sections": [
+    {
+      "type": "table",
+      "data": {
+        "secTitle": "AU Affiliation",
+        "table": [
+          {
+            "content": [
+              {
+                "rowsPerPage": "999",
+                "head": [
+                  {
+                    "id": "col1",
+                    "label": "Name"
+                  }
+                ],
+                "data": [
+                  {
+                    "col1": {
+                      "text": "Anna University Affiliation Copy 2024-25",
+                      "url": "https://kce.ac.in/new/wp-content/uploads/2025/06/Anna-University-Affiliation-Copy-2024-25.pdf"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Anna University Affiliation Copy 2023-24",
+                      "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/Anna-University-Affiliation-Copy-2023-24.pdf"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Anna University Affiliation Copy 2022-23",
+                      "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/Anna-University-Affiliation-Copy-2022-23.pdf"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Anna University Affiliation Copy 2021-22",
+                      "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/Anna-University-Affiliation-Copy-2021-22.pdf"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Anna University Affiliation Copy 2020-21",
+                      "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/Anna-University-Affiliation-Copy-2020-21-1.pdf"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Anna University Affiliation Copy 2019-20",
+                      "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/Anna-University-Affiliation-Copy-2019-20.pdf"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Anna University Affiliation Copy 2018-19",
+                      "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/Anna-University-Affiliation-Copy-2018-19.pdf"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Anna University Affiliation Copy 2017-18",
+                      "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/Anna-University-Affiliation-Copy-2017-18.pdf"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Anna University Affiliation Copy 2016-17",
+                      "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/Anna-University-Affiliation-Copy-2016-17.pdf"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Anna University Affiliation Copy 2015-16",
+                      "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/Anna-University-Affiliation-Copy-2015-16.pdf"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Anna University Affiliation Copy 2014-15",
+                      "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/Anna-University-Affiliation-Copy-2014-15.pdf"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Anna University Affiliation Copy 2013-14",
+                      "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/Anna-University-Affiliation-Copy-2013-14.pdf"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Anna University Affiliation Copy 2012-13",
+                      "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/Anna-University-Affiliation-Copy-2012-13.pdf"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Anna University Affiliation Copy 2011-12",
+                      "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/Anna-University-Affiliation-Copy-2011-12.pdf"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Anna University Affiliation Copy 2010-11",
+                      "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/Anna-University-Affiliation-Copy-2010-11.pdf"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Anna University Affiliation Copy 2009-10",
+                      "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/Anna-University-Affiliation-Copy-2009-10.pdf"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Anna University Affiliation Copy 2008-09",
+                      "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/Anna-University-Affiliation-Copy-2008-09.pdf"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Anna University Affiliation Copy 2007-08",
+                      "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/Anna-University-Affiliation-Copy-2007-08.pdf"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Anna University Affiliation Copy 2006-07",
+                      "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/Anna-University-Affiliation-Copy-2006-07.pdf"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Anna University Affiliation Copy 2005-06",
+                      "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/Anna-University-Affiliation-Copy-2005-06.pdf"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Anna University Affiliation Copy 2004-05",
+                      "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/Anna-University-Affiliation-Copy-2004-05.pdf"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Anna University Affiliation Copy 2003-04",
+                      "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/Anna-University-Affiliation-Copy-2003-04.pdf"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Anna University Affiliation Copy 2002-03",
+                      "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/Anna-University-Affiliation-Copy-2002-03.pdf"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Anna University Affiliation Copy 2001-02",
+                      "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/Anna-University-Affiliation-Copy-2001-02.pdf"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Permanent Affiliation Auto",
+                      "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/Permanent-Affiliation-Auto.pdf"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Permanent Affiliation – CSE, IT, ECE, EEE, Mech, MBA",
+                      "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/Permanent-Affiliation-CSE-IT-ECE-EEE-Mech-MBA.pdf"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Permanent Affiliation EIE Civil",
+                      "url": "https://kce.ac.in/new/wp-content/uploads/2024/05/Permanent-Affiliation-EIE-Civil.pdf"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -88,7 +88,7 @@
         "sectionbg": "section-bg1 my-5",
         "imagePosition": "left",
         "secTitle": "Courses Offered",
-        "image": "/images/kce/image-5.png",
+        "image": "/images/kce/academics/courses-offered.webp",
         "content": [
           {
             "type": "card",

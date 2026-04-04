@@ -16,10 +16,10 @@ const PillList = ({ data }) => {
 
         {/* List */}
         <div className="scr-list">
-          {data?.items?.map((item) =>
+          {data?.items?.map((item, index) =>
             item?.url ? (
-              <Link href={item?.url || "#"} target={item?.target || "_blank"}>
-                <div className="scr-card" key={item.id}>
+              <Link key={item.id ?? index} href={item?.url || "#"} target={item?.target || "_blank"}>
+                <div className="scr-card">
                   <span className="scr-card-text">
                     {item?.bullet && <span className="dcl-bullet">✓</span>}
                     {item.label}
@@ -28,7 +28,7 @@ const PillList = ({ data }) => {
                 </div>
               </Link>
             ) : (
-              <div className="scr-card" key={item.id}>
+              <div className="scr-card" key={item.id ?? index}>
                 <span className="scr-card-text">
                   {item?.bullet && <span className="dcl-bullet">✓</span>}
                   {item.label}

@@ -60,7 +60,7 @@ const Footer = () => {
       { label: "Our Campus", href: "/infrastructure/" },
       { label: "Cafeteria", href: "/infrastructure/cafeteria/" },
       { label: "Programmes Offered", href: "/courses-offered/" },
-      { label: "Academic Calendar", href: "//academic-calendar/" },
+      { label: "Academic Calendar", href: "/academic-calendar/" },
       { label: "Sports Facilities", href: "/sports-facilities/" },
       { label: "Auditorium", href: "/auditorium/" },
       { label: "E-FACILITY", href: "/e-facility/" },
