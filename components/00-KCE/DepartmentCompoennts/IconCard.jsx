@@ -13,7 +13,7 @@ const IconCard = ({data}) => {
               <div className="lab-icon">
                 <img src={item?.img} alt="" />
               </div>
-              <p className="">{item?.title}</p>
+              <p className="" dangerouslySetInnerHTML={{__html:item?.title}}></p>
             </div>
           </div>
         ))}

@@ -37,6 +37,8 @@
         ]
       }
     },
+
+
     {
       "type": "split-image-content",
       "data": {
