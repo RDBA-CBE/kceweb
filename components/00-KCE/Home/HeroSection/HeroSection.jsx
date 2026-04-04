@@ -21,9 +21,10 @@ export default function HeroSection() {
       <div className="hero-bottom">
         {/* LEFT – Stats */}
        <div className="stats-box">
-  <StatCard value="12.0k+" label="Section One" />
-  <StatCard value="34.0k+" label="Section Two" />
-  <StatCard value={(
+  <StatCard value="1154+" label="Placements" />
+  <StatCard value="156+" label="Companies" />
+  <StatCard value="28" label="LPA - Max Salary" />
+  {/* <StatCard value={(
       <div style={{ display: "flex", gap: "4px" }}>
         <img src="/images/kce/home/avatar.png" alt="" style={{ width: "42px", borderRadius: "50%" }} />
         <img src="/images/kce/home/avatar.png" alt="" style={{ width: "42px", borderRadius: "50%" }} />
@@ -33,7 +34,7 @@ export default function HeroSection() {
     )} 
     label="Lorem ipsum" 
     isLast 
-  />
+  /> */}
 </div>
 
         {/* RIGHT – CTA */}

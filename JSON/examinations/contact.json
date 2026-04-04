@@ -32,17 +32,17 @@
     {
       "type": "split-image-content",
       "data": {
-        "imagePosition": "left",
-        "sectionbg": "section-bg1 ",
-        "image": "/images/gallery/gallery-big.jpg",
+        "imagePosition": "right",
+        "sectionbg": "section-bg1 mt-0 pt-0 pb-0",
+
         "content": [
           {
             "type": "title",
-            "mainTi": "The current rules of the examinations "
+            "mainTi": "The current rules of the examinations"
           },
           {
-            "type": "paragraph",
-            "text": [
+            "type": "list",
+            "items": [
               "A candidate is permitted to use geometric tools, non-programmable calculators and approved tables and data books only during the theory and the practical examinations. No other material / gadget (including cell phone) should be brought inside the examination hall.",
               "A candidate should neither possess / refer to any forbidden material in any form nor should seek/obtain assistance in any form from any person / source towards answering the questions during the examinations. He/she should not assist any other candidates in any form towards answering the questions during the examinations. The candidate should not reveal his / her identity in any form in the answer scripts. The candidate should not indulge in canvassing either directly or indirectly for the award of more than the deserving marks in the examinations. The candidate should maintain discipline and decorum during the examinations."
             ]
@@ -56,6 +56,7 @@
         ]
       }
     },
+
     {
       "type": "contact-card",
       "data": {
