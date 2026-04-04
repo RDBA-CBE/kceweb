@@ -46,9 +46,9 @@
         "imagePosition": "left",
         "sectionbg": "section-bg1 mt-5",
         "images": [
-          "https://kce.ac.in/new/wp-content/uploads/2024/03/img-0487-2048x1366.jpg",
-          "https://kce.ac.in/new/wp-content/uploads/2024/03/pic-1-768x512.jpg",
-          "https://kce.ac.in/new/wp-content/uploads/2024/03/pic-2-768x512.jpg"
+          "https://blog.kce.ac.in/new/wp-content/uploads/2024/03/img-0487-2048x1366.jpg",
+          "https://blog.kce.ac.in/new/wp-content/uploads/2024/03/pic-1-768x512.jpg",
+          "https://blog.kce.ac.in/new/wp-content/uploads/2024/03/pic-2-768x512.jpg"
         ],
         "content": [
           {
@@ -149,28 +149,28 @@
           {
             "images": [
               {
-                "img": "https://kce.ac.in/new/wp-content/uploads/2024/03/nvidia.jpg"
+                "img": "https://blog.kce.ac.in/new/wp-content/uploads/2024/03/nvidia.jpg"
               },
               {
-                "img": "https://kce.ac.in/new/wp-content/uploads/2024/03/tableau.jpg"
+                "img": "https://blog.kce.ac.in/new/wp-content/uploads/2024/03/tableau.jpg"
               },
               {
-                "img": "https://kce.ac.in/new/wp-content/uploads/2024/03/databricks.jpg"
+                "img": "https://blog.kce.ac.in/new/wp-content/uploads/2024/03/databricks.jpg"
               },
               {
-                "img": "https://kce.ac.in/new/wp-content/uploads/2024/03/qlik.jpg"
+                "img": "https://blog.kce.ac.in/new/wp-content/uploads/2024/03/qlik.jpg"
               },
               {
-                "img": "https://kce.ac.in/new/wp-content/uploads/2024/03/jetbrains.jpg"
+                "img": "https://blog.kce.ac.in/new/wp-content/uploads/2024/03/jetbrains.jpg"
               },
               {
-                "img": "https://kce.ac.in/new/wp-content/uploads/2024/03/ysd.jpg"
+                "img": "https://blog.kce.ac.in/new/wp-content/uploads/2024/03/ysd.jpg"
               },
               {
-                "img": "https://kce.ac.in/new/wp-content/uploads/2024/03/datacamp.jpg"
+                "img": "https://blog.kce.ac.in/new/wp-content/uploads/2024/03/datacamp.jpg"
               },
               {
-                "img": "https://kce.ac.in/new/wp-content/uploads/2024/03/krypc.jpg"
+                "img": "https://blog.kce.ac.in/new/wp-content/uploads/2024/03/krypc.jpg"
               }
             ]
           }
@@ -198,15 +198,15 @@
                 "type": "images",
                 "items": [
                   {
-                    "src": "https://kce.ac.in/new/wp-content/uploads/2024/03/e-cell-bombay.jpg",
+                    "src": "https://blog.kce.ac.in/new/wp-content/uploads/2024/03/e-cell-bombay.jpg",
                     "alt": "E-Cell IIT Bombay"
                   },
                   {
-                    "src": "https://kce.ac.in/new/wp-content/uploads/2024/03/universys-1.jpg",
+                    "src": "https://blog.kce.ac.in/new/wp-content/uploads/2024/03/universys-1.jpg",
                     "alt": "Universys"
                   },
                   {
-                    "src": "https://kce.ac.in/new/wp-content/uploads/2024/03/aim-half-width.jpg",
+                    "src": "https://blog.kce.ac.in/new/wp-content/uploads/2024/03/aim-half-width.jpg",
                     "alt": "Analytics India Magazine"
                   }
                 ]
@@ -228,15 +228,15 @@
                 "type": "images",
                 "items": [
                   {
-                    "src": "https://kce.ac.in/new/wp-content/uploads/2024/03/ACM.jpg",
+                    "src": "https://blog.kce.ac.in/new/wp-content/uploads/2024/03/ACM.jpg",
                     "alt": "ACM"
                   },
                   {
-                    "src": "https://kce.ac.in/new/wp-content/uploads/2024/03/IEEE.jpg",
+                    "src": "https://blog.kce.ac.in/new/wp-content/uploads/2024/03/IEEE.jpg",
                     "alt": "IEEE"
                   },
                   {
-                    "src": "https://kce.ac.in/new/wp-content/uploads/2024/03/ISTE.jpg",
+                    "src": "https://blog.kce.ac.in/new/wp-content/uploads/2024/03/ISTE.jpg",
                     "alt": "ISTE"
                   }
                 ]
@@ -293,7 +293,7 @@
         "list": [
           {
             "title": "R2023",
-            "url": "https://kce.ac.in/new/wp-content/uploads/2023/07/AD.pdf"
+            "url": "https://blog.kce.ac.in/new/wp-content/uploads/2023/07/AD.pdf"
           }
         ]
       }

@@ -462,7 +462,7 @@
           {
             "title": "MEMS Center of Excellence",
             "subtitle": "",
-            "logo": "https://kce.ac.in/new/wp-content/uploads/2020/03/CENTERS-OF-EXCELLENCE.jpg",
+            "logo": "https://blog.kce.ac.in/new/wp-content/uploads/2020/03/CENTERS-OF-EXCELLENCE.jpg",
             "points": [
               "Established in 2008 with the support from BEL, NPMASS, IISc and ISSS.",
               "The project is funded by Central Govt Agencies through IISc for the development of MEMS based applications.",
@@ -472,7 +472,7 @@
           {
             "title": "WIPRO - Mission 10X Programme",
             "subtitle": "",
-            "logo": "https://kce.ac.in/new/wp-content/uploads/2020/03/0.png",
+            "logo": "https://blog.kce.ac.in/new/wp-content/uploads/2020/03/0.png",
             "points": [
               "Participating since 2007.",
               "Hosted Mission 10X Programme in the college campus"
@@ -481,7 +481,7 @@
           {
             "title": "Microsoft Center of Excellence",
             "subtitle": "",
-            "logo": "https://kce.ac.in/new/wp-content/uploads/2020/03/download.png",
+            "logo": "https://blog.kce.ac.in/new/wp-content/uploads/2020/03/download.png",
             "points": [
               "College has a fully sponsored technical services lab which is one among the four in INDIA.",
               "Microsoft Technical Service lab established at KCE was launched on Dec. 30th of 2013.",
@@ -492,13 +492,13 @@
           {
             "title": "Tech Mahindra Center of Excellence for Infrastructure Management Services",
             "subtitle": "",
-            "logo": "https://kce.ac.in/new/wp-content/uploads/2020/03/tech-mahindra-gold-435x213.png",
+            "logo": "https://blog.kce.ac.in/new/wp-content/uploads/2020/03/tech-mahindra-gold-435x213.png",
             "text": "College has a fully sponsored technical services lab which is one among the five in INDIA."
           },
           {
             "title": "Data Science and Analytics Centre",
             "subtitle": "",
-            "logo": "https://kce.ac.in/new/wp-content/uploads/2020/05/DSAC-logo.png",
+            "logo": "https://blog.kce.ac.in/new/wp-content/uploads/2020/05/DSAC-logo.png",
             "text": "Data Science & Analytics Centre (DSAC) is a Centre of excellence in Karpagam College of Engineering established with a motto to train future data scientists with state of the art of technology in big data analytics.The centre chains the expertise of researchers in mathematics/statistics and engineering. These specialists use cutting-edge analytics, informatics and computing methodologies to conduct the study and develop innovative solutions to address high-impact problems across disciplines",
             "url": " http://www.dsackce.com/",
             "urlText": "Read More"

@@ -78,19 +78,19 @@ export default function LatestNewsSection() {
   const featuredStories = [
     {
       date: "January 13, 2026",
-      image: "https://kce.ac.in/new/wp-content/uploads/2026/01/IMG-20251208-WA0070-1090x1536.jpg",
+      image: "https://blog.kce.ac.in/new/wp-content/uploads/2026/01/IMG-20251208-WA0070-1090x1536.jpg",
       title: "7th National Level Management Fest – “Takshak 2025” ",
       description: ""
     },
     {
       date: "November 14, 2025",
-      image: "https://kce.ac.in/new/wp-content/uploads/2026/01/Poster-31-819x1024.jpg",
+      image: "https://blog.kce.ac.in/new/wp-content/uploads/2026/01/Poster-31-819x1024.jpg",
       title: "“Click & Conquer: Digital Marketing Strategies”",
       description: ""
     },
     {
       date: "August 1, 2025",
-      image: "https://kce.ac.in/new/wp-content/uploads/2026/01/Poster-4-819x1024.jpg",
+      image: "https://blog.kce.ac.in/new/wp-content/uploads/2026/01/Poster-4-819x1024.jpg",
       title: "“Business Without Borders: Embracing Diversity in Leadership and Strategy”",
       description: ""
     }
