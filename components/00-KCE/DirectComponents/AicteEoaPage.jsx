@@ -14,6 +14,7 @@ const AicteEoaPage = () => {
   const renderSectionWrapper = (section, index) => {
     return (
       <RenderSection
+        key={index}
         section={section}
         index={index}
         renderSection={renderSectionWrapper}
@@ -37,7 +38,7 @@ const AicteEoaPage = () => {
           </div>
 
           {/* RIGHT STICKY MENU */}
-          <SideMenu data={sideBarData?.examination} />
+          {/* <SideMenu data={sideBarData?.examination} /> */}
         </div>
       </div>
     </section>

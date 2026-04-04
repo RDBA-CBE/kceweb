@@ -48,15 +48,15 @@ const RenderSection = ({ section, index, renderSection }) => {
 
     case "plain-para":
       return (
-        <section className="section-bg3">
-          <PlainPara key={index} data={section.data} />
+        <section key={index} className="section-bg3">
+          <PlainPara data={section.data} />
         </section>
       );
 
     case "half-card-img":
       return (
-        <section className="section-wid section-bg1">
-          <HalfCardImage key={index} data={section.data} />
+        <section key={index} className="section-wid section-bg1">
+          <HalfCardImage data={section.data} />
         </section>
       );
 
@@ -65,8 +65,8 @@ const RenderSection = ({ section, index, renderSection }) => {
 
     case "card-grid":
       return (
-        <section className="section-wid section-bg1">
-          <CardGrid key={index} data={section.data} />
+        <section key={index} className="section-wid section-bg1">
+          <CardGrid data={section.data} />
         </section>
       );
 
@@ -75,27 +75,27 @@ const RenderSection = ({ section, index, renderSection }) => {
 
     case "card-list1":
       return (
-        <section className="section-bg1">
+        <section key={index} className="section-bg1">
           <div className="section-wid">
-            <CardList1 key={index} data={section.data} />
+            <CardList1 data={section.data} />
           </div>
         </section>
       );
 
     case "card-list2":
       return (
-        <section className="section-bg1">
+        <section key={index} className="section-bg1">
           <div className="section-wid">
-            <CardList2 key={index} data={section.data} />
+            <CardList2 data={section.data} />
           </div>
         </section>
       );
 
     case "card-list3":
       return (
-        <section className="section-bg1">
+        <section key={index} className="section-bg1">
           <div className="section-wid">
-            <CardList3 key={index} data={section.data} />
+            <CardList3 data={section.data} />
           </div>
         </section>
       );
@@ -114,54 +114,54 @@ const RenderSection = ({ section, index, renderSection }) => {
 
     case "double-col-list":
       return (
-        <section className="section-bg3">
+        <section key={index} className="section-bg3">
           <div className="section-wid">
-            <DoubleColList key={index} data={section.data} />
+            <DoubleColList data={section.data} />
           </div>
         </section>
       );
 
     case "video-card":
       return (
-        <section className="section-bg1">
+        <section key={index} className="section-bg1">
           <div className="section-wid">
-            <VideoCardSection key={index} data={section.data} />
+            <VideoCardSection data={section.data} />
           </div>
         </section>
       );
 
     case "content-counter-style":
       return (
-        <section className="section-bg1">
+        <section key={index} className="section-bg1">
           <div className="section-wid">
-            <ContentCounterStyle key={index} data={section.data} />
+            <ContentCounterStyle data={section.data} />
           </div>
         </section>
       );
 
     case "logo-img":
       return (
-        <section className="section-bg1">
+        <section key={index} className="section-bg1">
           <div className="section-wid">
-            <LogoImage key={index} data={section.data} />
+            <LogoImage data={section.data} />
           </div>
         </section>
       );
 
     case "gallery":
       return (
-        <section className="section-bg1">
+        <section key={index} className="section-bg1">
           <div className="section-wid">
-            <GalleryGrid key={index} data={section.data} />
+            <GalleryGrid data={section.data} />
           </div>
         </section>
       );
 
     case "img-con-card":
       return (
-        <section className="section-bg1">
+        <section key={index} className="section-bg1">
           <div className="section-wid">
-            <ImgConCard key={index} data={section.data} />
+            <ImgConCard data={section.data} />
           </div>
         </section>
       );

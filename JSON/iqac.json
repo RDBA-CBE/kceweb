@@ -445,32 +445,42 @@
           {
             "id": 1,
             "title": "NIRF Ranking",
-            "url": "https://kce.ac.in/ranking/",
-            "urlText": "View Details"
+            "url": "/ranking/",
+            "urlText": "View Details",
+            "target":"_self"
           },
           {
             "id": 2,
             "title": "NAAC",
-            "url": "https://kce.ac.in/naac-kce/",
-            "urlText": "View Details"
+            "url": "/naac-kce/",
+            "urlText": "View Details",
+            "target":"_self"
+
           },
           {
             "id": 3,
             "title": "Audit Report",
-            "url": "https://kce.ac.in/audit-report/",
-            "urlText": "View Details"
+            "url": "/audit-report/",
+            "urlText": "View Details",
+            "target":"_self"
+
+            
           },
           {
             "id": 1,
             "title": "Approvals",
-            "url": "https://kce.ac.in/approvals/",
-            "urlText": "View Details"
+            "url": "/approvals/",
+            "urlText": "View Details",
+            "target":"_self"
+
           },
           {
             "id": 2,
             "title": "Undertaking",
-            "url": "https://kce.ac.in/undertaking/",
-            "urlText": "View Details"
+            "url": "/undertaking/",
+            "urlText": "View Details",
+            "target":"_self"
+
           }
         ]
       }

@@ -1,5 +1,6 @@
 "use client";
 
+import React from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 
@@ -13,20 +14,24 @@ const SplitImageContent = ({ data }) => {
       case "paragraph": {
         const texts = Array.isArray(block.text) ? block.text : [block.text];
 
-        return texts.map((text, index) => (
-          <p key={index} className="ci-text">
-            {text}
-          </p>
-        ));
+        return (
+          <React.Fragment key={index}>
+            {texts?.map((text, i) => (
+              <p key={i} className="ci-text">
+                {text}
+              </p>
+            ))}
+          </React.Fragment>
+        );
       }
 
       case "title":
         return (
-          <>
+          <React.Fragment key={index}>
             <h3 className="section-ti">{block.mainTi}</h3>
             <h4 className="sub-ti">{block.title}</h4>
             <p className="ti-badge-wbg">{block.subTi}</p>
-          </>
+          </React.Fragment>
         );
 
       case "list":

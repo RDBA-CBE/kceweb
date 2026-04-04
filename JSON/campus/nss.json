@@ -7,13 +7,11 @@
         "label": "Home",
         "href": "/"
       },
-
       {
         "label": "NSS"
       }
     ]
   },
-
   "sections": [
     {
       "type": "quote-sec",
@@ -27,13 +25,11 @@
         "quote": "The Future is Bright"
       }
     },
-
     {
       "type": "split-image-content",
       "data": {
         "imagePosition": "right",
         "sectionbg": "section-bg1 ",
-
         "image": "/images/kce/campus-facilities/nss/achievments.webp",
         "content": [
           {
@@ -46,7 +42,6 @@
           },
           {
             "type": "list",
-
             "items": [
               "Won Second prize in the poster presentation in the Two days State Level Confederacy organized by Anna University, Chennai on 08.02.2018 and 09.02.2018.",
               "R.Deepak, IV year Civil was nominated for <strong>International Youth Exchange Programme held at China</strong> by the Government of India during 2017-18.",
@@ -70,7 +65,6 @@
         ]
       }
     },
-
     {
       "type": "split-col-con",
       "data": {
@@ -83,12 +77,10 @@
                 "type": "title",
                 "text": "Special Camp(2017-18)"
               },
-
               {
                 "type": "paragraph",
                 "text": "A team of 45 NSS volunteers organized Special Camp at Peedampalli village near Sulur during 15.09.2017 to 25.09.2017. They carried out the following activities."
               },
-
               {
                 "type": "list",
                 "items": [
@@ -135,7 +127,6 @@
                 "type": "paragraph",
                 "text": "A team of 45 NSS volunteers organized Special Camp at Peedampalli village near Sulur during 25.02.2019 to 03.03.2019. They carried out the following activities."
               },
-
               {
                 "type": "list",
                 "items": [
@@ -170,9 +161,6 @@
         ]
       }
     },
-
-   
-
     {
       "type": "link-card",
       "data": {
@@ -196,11 +184,22 @@
             "title": "2018-2019",
             "url": "https://kce.ac.in/nss-activity-2018-2019/",
             "urlText": "View Details"
+          },
+          {
+            "id": 4,
+            "title": "2017-2018",
+            "url": "https://kce.ac.in/nss-activity-2017-2018/",
+            "urlText": "View Details"
+          },
+          {
+            "id": 5,
+            "title": "2016-2017",
+            "url": "https://kce.ac.in/nss-activity-2016-2017/",
+            "urlText": "View Details"
           }
         ]
       }
     },
-
     {
       "type": "gallery",
       "data": {
@@ -264,13 +263,11 @@
         ]
       }
     },
-
-     {
+    {
       "type": "icon-card1",
       "data": {
         "title": "KCE relies on a team of incredible volunteers for continued success in everything we do…",
         "desc": "Volunteering gets added to your co-curricular record. There are so many reasons why volunteering is a great idea. Here are a few:",
-
         "content": [
           {
             "src": "/images/kce/vision.png",
@@ -303,6 +300,5 @@
         ]
       }
     }
-
   ]
 }

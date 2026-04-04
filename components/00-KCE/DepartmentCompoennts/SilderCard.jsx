@@ -65,9 +65,17 @@ const SilderCard = ({ isDesc, data }) => {
                                 <h5 className="sub-ti mb-2">
                                   {data.title}
                                 </h5>
-                                <span>
-                                  {data.position} <i>{data.company}</i>
-                                </span>
+
+                                {data?.url ? (
+                                  <a href={data.url} target="_blank" rel="noopener noreferrer" style={{ textDecoration: "underline" }}>
+                                    {data.position} <i>{data.company}</i>
+                                  </a>
+                                ) : (
+                                  <span>
+                                    {data.position} <i>{data.company}</i>
+                                  </span>
+                                )}
+
                               </div>
                             </div>
                             <div className="description">

@@ -10,8 +10,8 @@ const LinkCard = ({ data }) => {
           )}
 
           <div className="row g-5 pt-4">
-            {data.content.map((item) => (
-              <div className="col-lg-4 col-md-6" key={item.id}>
+            {data.content?.map((item,i) => (
+              <div className="col-lg-4 col-md-6" key={i}>
                 <div className="eres-card h-100">
                   <p className="eres-card-title sub-ti">{item.title}</p>
 
