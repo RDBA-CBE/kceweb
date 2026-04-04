@@ -39,7 +39,7 @@ const About = ({ data = {} }) => {
           </div>
 
            <Link
-                href="/KCE/profile"
+                href="/profile"
                 className="kce-btn-primary rbt-btn hover-icon-reverse mt-4"
                 target="_self"
               >

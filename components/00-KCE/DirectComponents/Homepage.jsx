@@ -2,9 +2,7 @@
 
 import React from "react";
 
-import Cart from "@/components/Header/Offcanvas/Cart";
 
-import MainDemo from "@/components/01-Main-Demo/01-Main-Demo";
 import { getAllPostsMeta } from "@/mdx";
 import About from "../Home/AboutSection/About";
 import HeroSection from "../Home/HeroSection/HeroSection";

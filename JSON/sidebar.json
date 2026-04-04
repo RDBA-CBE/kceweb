@@ -2,45 +2,45 @@
     "profile": [
         {
             "label": "About Karpagam",
-            "path": "/KCE/profile"
+            "path": "/profile"
         },
         {
             "label": "Vision & Mission",
-            "path": "/KCE/vision-mission"
+            "path": "/vision-mission"
         },
         {
             "label": "Management Profile",
-            "path": "/KCE/management-profile"
+            "path": "/management-profile"
         },
         {
             "label": "Programmes Offered",
-            "path": "/KCE/courses-offered"
+            "path": "/courses-offered"
         },
         {
             "label": "Centers of Excellence",
-            "path": "/KCE/centers-of-excellence"
+            "path": "/centers-of-excellence"
         },
         {
             "label": "Accreditations",
-            "path": "/KCE/accreditations/"
+            "path": "/accreditations/"
         },
         {
             "label": "Placement",
-            "path": "/KCE/overview/"
+            "path": "/overview/"
         }
     ],
     "examination": [
         {
             "label": "Overview",
-            "path": "/KCE/examinations/"
+            "path": "/examinations/"
         },
         {
             "label": "Instructions to the candidates",
-            "path": "/KCE/examinations/instructions-to-the-candidates/"
+            "path": "/examinations/instructions-to-the-candidates/"
         },
         {
             "label": "Rules and Regulations",
-            "path": "/KCE/examinations/rules-and-regulations/"
+            "path": "/examinations/rules-and-regulations/"
         },
         {
             "label": "Result",
@@ -49,19 +49,19 @@
         },
         {
             "label": "Services",
-            "path": "/KCE/examinations/services/"
+            "path": "/examinations/services/"
         },
         {
             "label": "Time Table",
-            "path": "/KCE/examinations/time-table/"
+            "path": "/examinations/time-table/"
         },
         {
             "label": "Downloads",
-            "path": "/KCE/examinations/downloads/"
+            "path": "/examinations/downloads/"
         },
         {
             "label": "Contact",
-            "path": "/KCE/examinations/#exam-contact"
+            "path": "/examinations/#exam-contact"
         }
     ]
 }

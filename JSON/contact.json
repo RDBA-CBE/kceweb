@@ -18,7 +18,7 @@
               ],
               "button":{
                 "text":"Admission Centre",
-                "href":"/KCE/admission",
+                "href":"/admission",
                 "target": "_self"
               }
             }

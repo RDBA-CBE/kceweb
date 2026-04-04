@@ -8,13 +8,13 @@ export default function SideMenu1(props) {
   const router = useRouter();
 
   const defaultMenuItems = [
-    { label: "Instructions to the Candidates", path: "/KCE/examinations/instructions-to-the-candidates" },
-    { label: "Rules and Regulations", path: "/KCE/examinations/rules-and-regulations" },
-    { label: "Result", path: "/KCE/examinations/result" },
-    { label: "Services", path: "/KCE/examinations/services" },
-    { label: "Time Table", path: "/KCE/examinations/time-table" },
-    { label: "Downloads", path: "/KCE/examinations/downloads" },
-    { label: "Contact", path: "/KCE/examinations/contact" },
+    { label: "Instructions to the Candidates", path: "/examinations/instructions-to-the-candidates" },
+    { label: "Rules and Regulations", path: "/examinations/rules-and-regulations" },
+    { label: "Result", path: "/examinations/result" },
+    { label: "Services", path: "/examinations/services" },
+    { label: "Time Table", path: "/examinations/time-table" },
+    { label: "Downloads", path: "/examinations/downloads" },
+    { label: "Contact", path: "/examinations/contact" },
   ];
 
   const items = menuItems || defaultMenuItems;
@@ -65,13 +65,13 @@ export default function SideMenu1(props) {
 //   const menuItems = [
 //     {
 //       label: "About Karpagam",
-//       path: "/KCE/profile",
+//       path: "/profile",
 //       icon: <FaUniversity />,
 //       description: "College overview"
 //     },
 //     {
 //       label: "Vision & Mission",
-//       path: "/KCE/vision-mission",
+//       path: "/vision-mission",
 //       icon: <FaEye />,
 //       description: "Our goals & objectives"
 //     },

@@ -23,7 +23,7 @@ const Footer = () => {
       },
       {
         label: "AICTE Extension of Approval",
-        href: "/KCE/approvals/aicte-eoa/",
+        href: "/approvals/aicte-eoa/",
       },
       {
         label: "Anna University Provisional Affiliation",
@@ -35,17 +35,17 @@ const Footer = () => {
         href: "https://kce.ac.in/new/wp-content/uploads/2021/11/Anna-University-Permanent-Affiliation.pdf",
         target: "_blank",
       },
-      { label: "Mandatory Disclosure", href: "/KCE/mandatory-disclosure/" },
-      { label: "Accreditation Status", href: "/KCE/accreditations/" },
-      { label: "Statutory", href: "/KCE/statutory/" },
-      { label: "Non-Statutory", href: "/KCE/non-statutory/" },
-      { label: "Undertaking", href: "/KCE/undertaking/" },
+      { label: "Mandatory Disclosure", href: "/mandatory-disclosure/" },
+      { label: "Accreditation Status", href: "/accreditations/" },
+      { label: "Statutory", href: "/statutory/" },
+      { label: "Non-Statutory", href: "/non-statutory/" },
+      { label: "Undertaking", href: "/undertaking/" },
       {
         label: "Institute Strategic Plan",
         href: "https://kce.ac.in/new/wp-content/uploads/2024/08/INSTITUTE-STRATEGIC-PLAN.pdf",
         target: "_blank",
       },
-      { label: "Audit Report", href: "/KCE//audit-report/" },
+      { label: "Audit Report", href: "/audit-report/" },
       {
         label: "Handbook on Basics of Cyber Hygiene",
         href: "https://kce.ac.in/new/wp-content/uploads/2025/09/4580600_A_Handbook_on_Basics_of_Cyber_Hygiene.pdf",
@@ -57,13 +57,13 @@ const Footer = () => {
   const INFO_ABOUT = {
     title: "INFORMATION ABOUT",
     links: [
-      { label: "Our Campus", href: "/KCE/infrastructure/" },
-      { label: "Cafeteria", href: "/KCE/infrastructure/cafeteria/" },
-      { label: "Programmes Offered", href: "/KCE/courses-offered/" },
-      { label: "Academic Calendar", href: "/KCE//academic-calendar/" },
-      { label: "Sports Facilities", href: "/KCE/sports-facilities/" },
-      { label: "Auditorium", href: "/KCE/auditorium/" },
-      { label: "E-FACILITY", href: "/KCE/e-facility/" },
+      { label: "Our Campus", href: "/infrastructure/" },
+      { label: "Cafeteria", href: "/infrastructure/cafeteria/" },
+      { label: "Programmes Offered", href: "/courses-offered/" },
+      { label: "Academic Calendar", href: "//academic-calendar/" },
+      { label: "Sports Facilities", href: "/sports-facilities/" },
+      { label: "Auditorium", href: "/auditorium/" },
+      { label: "E-FACILITY", href: "/e-facility/" },
 
       {
         label: "KCE-Help Desk",
@@ -103,7 +103,7 @@ const Footer = () => {
     links: [
       {
         label: "Karpagam Information & Admission Center's",
-        href: "/KCE/karpagam-information-admission-centers/",
+        href: "/karpagam-information-admission-centers/",
       },
       {
         label: "News and Events",
@@ -111,17 +111,17 @@ const Footer = () => {
         target: "_blank",
       },
       { label: "Applications FAQ", href: "#" },
-      { label: "Media", href: "/KCE/photo-gallery/" },
-      { label: "Alumni Success Stories", href: "/KCE/alumni-success-stories/" },
-      { label: "Placement", href: "/KCE/overview/" },
-      { label: "Hostel", href: "/KCE/infrastructure/hostel/" },
+      { label: "Media", href: "/photo-gallery/" },
+      { label: "Alumni Success Stories", href: "/alumni-success-stories/" },
+      { label: "Placement", href: "/overview/" },
+      { label: "Hostel", href: "/infrastructure/hostel/" },
       { label: "Blog", href: "https://kce.ac.in/blog/", target: "_blank" },
       {
         label: "Admission Enquiry",
         href: "https://admission.kce.ac.in/",
         target: "_blank",
       },
-      { label: "Careers", href: "/KCE//careers/" },
+      { label: "Careers", href: "/careers/" },
     ],
   };
   return (

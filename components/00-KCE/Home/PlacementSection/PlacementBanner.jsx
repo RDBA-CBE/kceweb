@@ -44,7 +44,7 @@ export default function PlacementBanner() {
               record.
             </p>
             <Link
-              href="/KCE/overview"
+              href="/overview"
               className="kce-btn-primary rbt-btn hover-icon-reverse mt-4"
               target="_blank"
             >
