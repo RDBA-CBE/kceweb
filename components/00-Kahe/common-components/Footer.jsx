@@ -107,7 +107,7 @@ const Footer = () => {
       },
       {
         label: "News and Events",
-        href: "https://kce.ac.in/category/news-event/",
+        href: "https://blog.kce.ac.in/category/news-event/",
         target: "_blank",
       },
       { label: "Applications FAQ", href: "#" },
