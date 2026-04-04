@@ -12,16 +12,53 @@
     "vision": {
       "badge": "Vision",
       "title": "Our Vision",
-      "text": "To become one of the best institutions at the National and International level by incorporating innovative teaching-learning methods to enable the students to secure a high-value career, motivate to pursue higher education and research to serve the society."
+      "text": "To become one of the best institutions at the National and International level by incorporating innovative teaching-learning methods to enable the students to secure a high-value career, motivate to pursue higher education and research to serve the society"
     },
     "mission": {
       "badge": "Mission",
       "title": "Our Mission",
       "points": [
-        "To bring out knowledgeable engineers and professionals by having qualified faculty members and necessary infrastructure.",
-        "To work in close association with stakeholders through enhanced industry–institute interaction and need-based research.",
-        "To organize co-curricular and extracurricular activities for character and personality development to serve and lead society."
+        "To bring out knowledgeable engineers and professionals in their field of specialization by having qualified and trained faculty members and staff besides necessary infrastructure and to create highly conducive teaching and learning environment. ",
+        "To work in close association with stakeholders by way of enhanced industry - institute interaction, to take up need based research and industry specific programmes.",
+        "To organize co-curricular and extracurricular activities for character and personality development to produce highly competent and motivated engineers and professionals to serve and lead the society."
       ]
+    },
+
+    "iconCard" :{
+      "type": "icon-card1",
+      "data": {
+        "title": "CORE VALUES",
+
+        "content": [
+          {
+            "src": "/images/kce/vision.png",
+            "title":"EXCELLENCE & INNOVATION:",
+            "text": "To foster a culture of excellence and innovation, empowering students to develop cutting edge solutions that address real- world challenges and contribute to technological advancement."
+          },
+
+           {
+            "src": "/images/kce/vision.png",
+            "title":"INTEGRITY & ACCOUNTABILITY:",
+            "text": "To instill a strong sense of integrity and accountability in our learners, ensuring they uphold the highest ethical standards in their professional endeavors and take responsibility for their actions. "
+          },
+          {
+            "src": "/images/kce/vision.png",
+            "title":"SUSTAINABILITY & ENVIRONMENTAL STEWARDSHIP:",
+            "text": "To promote sustainability and environmentalstewardship, integrating eco-friendly practices into engineering solutions and encouraging students to develop technologies that protect and preserve our planet. "
+          },
+            {
+            "src": "/images/kce/vision.png",
+            "title":"RESPECT & INCLUSIVENESS:",
+            "text": "To cultivate an environment of respect and inclusiveness, embracing diversity and ensuring equal opportunities for all students, fostering a community where every individual is valued anp supported. "
+          },
+           {
+            "src": "/images/kce/vision.png",
+            "title":"GLOBAL STANDARDS & SOCIAL RESPONSIBILITY: ",
+            "text": "To align with global standards of excellence, preparing students to meet international benchmarks and encouraging them to contribute positively to society through socially responsible engineering practices."
+          }
+          
+        ]
+      }
     }
   },
   "sideMenu": {

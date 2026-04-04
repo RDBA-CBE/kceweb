@@ -380,7 +380,7 @@
       "type": "table",
       "data": {
         "sectionbg": "pt-2",
-        "secTitle": "Research Projects – Year-wise Details",
+        "secTitle": "Research Projects ",
         "table": [
           {
             "content": [
@@ -427,6 +427,7 @@
     {
       "type": "tabs",
       "data": {
+        "tabTitle":"Centre of Excellence - Research facility available details ",
         "navigation": [
           {
             "title": "EEE",
@@ -730,7 +731,7 @@
                   "content": [
                     {
                       "type": "title",
-                      "mainTi": "ECE",
+                      "mainTi": "AIDS",
                       "title": "Data Science and Analytics Centre"
                     },
                     {
@@ -754,7 +755,7 @@
                   "content": [
                     {
                       "type": "title",
-                      "mainTi": "ECE",
+                      "mainTi": "AIDS",
                       "title": "Computer Vision and IoT"
                     },
                     {

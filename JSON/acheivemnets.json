@@ -1,0 +1,22 @@
+{
+  
+  "banner": {
+    "bannerImg": "/images/kce/banner_computer_technology.jpg",
+    "title": "Acheivements",
+    "breadcrumb": []
+  },
+  "sections": [
+   {
+      "type":"full-width-image",
+      "data":{
+     
+
+        "sectionbg":"section-bg1  mb-1" ,
+        "src":"/images/kce/achievements poster2.webp",
+        "alt":"placement-kce-Image-",
+        "height":"auto"
+      }
+    }
+  ]
+ 
+}

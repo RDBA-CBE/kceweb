@@ -163,42 +163,129 @@
       "type": "logo-img",
       "data": {
         "title": "Electives",
-        "desc": "17 Industry collaborated electives in association with",
+        "desc": "35+ Industry collaborated electives in association with",
         "content": [
           {
             "images": [
               {
-                "img": "https://kce.ac.in/new/wp-content/uploads/2020/06/global-edge.jpg",
-                "title": "Global Edge"
+                "img": "/images/kce/industry-logos/1.svg"
+              
               },
               {
-                "img": "https://kce.ac.in/new/wp-content/uploads/2020/06/infosys-nav.jpg",
-                "title": "Infosys"
+                "img": "/images/kce/industry-logos/2.svg"
+                
               },
               {
-                "img": "https://kce.ac.in/new/wp-content/uploads/2020/06/emc-2.jpg",
-                "title": "EMC²"
+                "img": "/images/kce/industry-logos/3.svg "
+              
               },
               {
-                "img": "https://kce.ac.in/new/wp-content/uploads/2020/06/microsoft.jpg",
-                "title": "Microsoft"
+                "img": "/images/kce/industry-logos/4.svg"
+                
               },
               {
-                "img": "https://kce.ac.in/new/wp-content/uploads/2020/06/national.jpg",
-                "title": "National Instruments"
+                "img": "/images/kce/industry-logos/5.svg"
+                
               },
               {
-                "img": "https://kce.ac.in/new/wp-content/uploads/2020/06/agiit.jpg",
-                "title": "AGIIT"
+                "img": "/images/kce/industry-logos/6.svg"
+
               },
               {
-                "img": "https://kce.ac.in/new/wp-content/uploads/2020/06/pyramid-design.jpg",
-                "title": "Pyramiid Design"
+                "img": "/images/kce/industry-logos/7.svg"
+                
               },
               {
-                "img": "https://kce.ac.in/new/wp-content/uploads/2020/06/medisim.jpg",
-                "title": "Medisim Structures"
+                "img": "/images/kce/industry-logos/8.svg"
+               
+              },
+               {
+                "img": "/images/kce/industry-logos/9.svg"
+               
+              },
+               {
+                "img": "/images/kce/industry-logos/10.svg"
+               
+              },
+               {
+                "img": "/images/kce/industry-logos/11.svg"
+               
+              },
+               {
+                "img": "/images/kce/industry-logos/12.svg"
+               
+              },
+               {
+                "img": "/images/kce/industry-logos/14.svg"
+               
+              },
+                             {
+                "img": "/images/kce/industry-logos/15.svg"
+               
+              },               {
+                "img": "/images/kce/industry-logos/16.svg"
+               
+              },
+                             {
+                "img": "/images/kce/industry-logos/17.svg"
+               
+              },
+                             {
+                "img": "/images/kce/industry-logos/18.svg"
+               
+              },
+                             {
+                "img": "/images/kce/industry-logos/19.svg"
+               
+              },
+                             {
+                "img": "/images/kce/industry-logos/20.svg"
+               
+              },
+                             {
+                "img": "/images/kce/industry-logos/21.svg"
+               
+              },               {
+                "img": "/images/kce/industry-logos/22.svg"
+               
+              },
+                             {
+                "img": "/images/kce/industry-logos/23.svg"
+               
+              },
+                             {
+                "img": "/images/kce/industry-logos/24.svg"
+               
+              },
+               {
+                "img": "/images/kce/industry-logos/25.svg"
+               
+              },
+               {
+                "img": "/images/kce/industry-logos/26.svg"
+               
+              },
+               {
+                "img": "/images/kce/industry-logos/27.svg"
+               
+              },
+               {
+                "img": "/images/kce/industry-logos/28.svg"
+               
+              },
+               {
+                "img": "/images/kce/industry-logos/29.svg"
+               
+              },
+               {
+                "img": "/images/kce/industry-logos/30.svg"
+               
+              },
+               {
+                "img": "/images/kce/industry-logos/31.svg"
+               
               }
+
             ]
           }
         ]

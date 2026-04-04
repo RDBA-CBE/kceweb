@@ -47,85 +47,64 @@
       "hasSideBanner": true,
       "menuItems": [
         {
-          "id": 2,
+          "id": 1,
           "title": "Department of Civil Engineering",
           "link": "/department-of-civil-engineering/"
         },
         {
+          "id": 2,
+          "title": "Department of Computer Science and Engineering",
+          "link": "/department-of-computer-science-and-engineering/"
+        },
+         {
           "id": 3,
-          "title": "Department of Electronics and Communication Engineering",
-          "link": "/department-of-electronics-and-communication-engineering/"
-        },
-        {
-          "id": 4,
-          "title": "Department of Electrical and Electronics Engineering",
-          "link": "/department-of-electrical-and-electronics-engineering/"
-        },
-        {
-          "id": 5,
-          "title": "Department of Mechanical Engineering",
-          "link": "/department-of-mechanical-engineering/"
-        },
-        {
-          "id": 6,
-          "title": "Department of Electronics and Telecommunication Engineering",
-          "link": "/department-of-electronics-and-telecommunication-engineering/"
-        },
-        {
-          "id": 7,
-          "title": "Department of Electronics Engineering [VLSI Design and Technology]",
-          "link": "/department-of-electronics-engineering-vlsi-design-and-technology/"
-        },
-        {
-          "id": 8,
           "title": "Department of Computer Science and Engineering (Cyber Security)",
           "link": "/department-of-computer-science-and-engineering-cyber-security/"
         },
         {
-          "id": 9,
-          "title": "Department of Computer Science and Engineering",
-          "link": "/department-of-computer-science-and-engineering/"
+          "id": 4,
+          "title": "Department of Electronics and Communication Engineering",
+          "link": "/department-of-electronics-and-communication-engineering/"
         },
         {
-          "id": 10,
-          "title": "Department of Computer Science and Design",
-          "link": "/department-of-computer-science-and-design/"
+          "id": 5,
+          "title": "Department of Electrical and Electronics Engineering",
+          "link": "/department-of-electrical-and-electronics-engineering/"
         },
         {
-          "id": 11,
-          "title": "Department of Computer Science and Technology",
-          "link": "/department-of-computer-science-and-technology/"
+          "id": 6,
+          "title": "Department of Electronics Engineering (VLSI Design and Technology)",
+          "link": "/department-of-electronics-engineering-vlsi-design-and-technology/"
         },
         {
-          "id": 12,
-          "title": "Department of Information Technology",
-          "link": "/department-of-information-technology/"
+          "id": 7,
+          "title": "Department of Mechanical Engineering",
+          "link": "/department-of-mechanical-engineering/"
         },
         {
-          "id": 13,
+          "id": 8,
           "title": "Department of Artificial Intelligence and Data Science",
           "link": "/department-of-artificial-intelligence-and-data-science/"
         },
-        {
-          "id": 14,
-          "title": "Department of Science and Humanities",
-          "link": "/department-of-science-and-humanities/"
+        
+       {
+          "id": 9,
+          "title": "Department of Information Technology",
+          "link": "/department-of-information-technology/"
         },
-        {
-          "id": 15,
-          "title": "Department of MCA",
-          "link": "/department-of-mca/"
-        },
-        {
-          "id": 16,
-          "title": "Department of Management Studies",
+         {
+          "id": 10,
+          "title": "Department of MBA",
           "link": "/department-of-management-studies/"
         },
-        {
-          "id": 17,
-          "title": "Professional Bodies",
-          "link": "/professional-bodies/"
+         {
+          "id": 11,
+          "title": "Department of MCA",
+          "link": "/department-of-mca/"
         }
+       
+        
+       
       ]
     },
     {

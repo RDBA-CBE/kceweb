@@ -21,9 +21,9 @@ export default function HeroSection() {
       <div className="hero-bottom">
         {/* LEFT – Stats */}
        <div className="stats-box">
-  <StatCard value="1154+" label="Placements" />
-  <StatCard value="156+" label="Companies" />
-  <StatCard value="28" label="LPA - Max Salary" />
+  <StatCard value="1544+" label="Placements" />
+  <StatCard value="232+" label="Companies" />
+  <StatCard value="43" label="LPA - Max Salary" />
   {/* <StatCard value={(
       <div style={{ display: "flex", gap: "4px" }}>
         <img src="/images/kce/home/avatar.png" alt="" style={{ width: "42px", borderRadius: "50%" }} />

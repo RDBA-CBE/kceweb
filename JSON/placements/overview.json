@@ -39,7 +39,7 @@
       "type":"full-width-image",
       "data":{
         "sectionbg":"py-2",
-        "src":"https://kce.ac.in/new/wp-content/uploads/2024/03/placement-kce-Image-.jpg",
+        "src":"/images/kce/placement/training/place-1.png",
         "alt":"placement-kce-Image-",
         "height":"auto"
       }
@@ -58,12 +58,12 @@
       "type":"full-width-image",
       "data":{
         "sectionbg":"pt-0 pb-5",
-        "src":"https://kce.ac.in/new/wp-content/uploads/2024/03/Web-26.jpg",
+        "src":"/images/kce/placement/training/PROMINENT RECRUITERS.webp",
         "alt":"placement-kce-Image-",
         "height":"auto"
       }
     },
-     {
+    {
       "type":"full-width-image",
       "data":{
         "sectionbg":"pt-0 pb-5",
