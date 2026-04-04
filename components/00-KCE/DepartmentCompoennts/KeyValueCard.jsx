@@ -20,10 +20,10 @@ const KeyValueCard = ({ data }) => {
               {/* Details */}
               <div className='startup-content'>
                 {item?.details?.map((detail, i) => (
-                  <div className='startup-row' key={i}>
-                    <span>{detail.label}</span>
+                  <div className='startup-row ' key={i}>
+                    <span>{detail.label} {' '} :{' '}</span>
                     <p>
-                      :{' '}
+                     
                       {detail.url ? (
                         <a href={detail.url} target='_blank' rel='noreferrer'>
                           {detail.value || detail.url}

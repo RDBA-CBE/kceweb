@@ -1,36 +1,138 @@
 {
-    "banner": {
-        "bannerImg": "/images/kce/banner_admission.jpg",
-        "title": "Services",
-        "breadcrumb": [
-           
+  "banner": {
+    "bannerImg": "/images/kce/banner_admission.jpg",
+    "title": "Services",
+    "breadcrumb": []
+  },
+  "sections": [
+    {
+      "type": "split-image-content",
+      "data": {
+        "imagePosition": "right",
+        "sectionbg": "section-bg1 mt-0 pt-0 pb-0 mb-0",
+
+        "content": [
+          {
+            "type": "title",
+            "mainTi": "Procedure for obtaining transcripts (Required for Higher studies in foreign Universities)"
+          },
+          {
+            "type": "list",
+            "items": [
+              "The Candidate should submit a transcript request letter duly signed by the Head of the Department and the principal in Person / Person authorized by the Candidate (along with authorization letter and photocopy of the Government authorized proof of Identity of Person authorized) at the Office of the Controller of Examinations.",
+              "The Person who is submitting the Application form for Transcripts should come and collect the Transcripts, if not able to come and collect the Transcripts, an Authorized Person (Along with the Authorization Letter to collect the Transcript along with a photocopy of the Government authorized Proof of Identity of Person collecting Transcripts) can collect the Transcript at the Office of the Controller of Examinations.",
+              "The Candidate should have identified the Universities/Institutions for which the Transcripts are required. The names and addresses of the Universities/Institutions should be written on the official envelope (legal size cloth lined cover) for transcripts which will be supplied at the time of submitting the Application form.",
+              "The prescribed fees has to be paid in cash at the cash counter in the college office.",
+              "The Candidates will be issued the required number of Transcripts with grades of all the completed semesters printed on a single sheet duly signed by the Controller of Examinations."
+            ]
+          }
         ]
+      }
     },
-    "sections": [
-        {
-            "type": "split-image-content",
-            "data": {
-                "imagePosition": "right",
-                "sectionbg": "section-bg1 mt-0 pt-0 ",
-                
-                "content": [
-                 
-                    {
-                        "type": "title",
-                        "mainTi": "Procedure for obtaining transcripts (Required for Higher studies in foreign Universities)"
-                    },
-                    {
-                        "type": "list",
-                        "items": [
-                            "The Candidate should submit a transcript request letter duly signed by the Head of the Department and the principal in Person / Person authorized by the Candidate (along with authorization letter and photocopy of the Government authorized proof of Identity of Person authorized) at the Office of the Controller of Examinations.",
-                            "The Person who is submitting the Application form for Transcripts should come and collect the Transcripts, if not able to come and collect the Transcripts, an Authorized Person (Along with the Authorization Letter to collect the Transcript along with a photocopy of the Government authorized Proof of Identity of Person collecting Transcripts) can collect the Transcript at the Office of the Controller of Examinations.",
-                            "The Candidate should have identified the Universities/Institutions for which the Transcripts are required. The names and addresses of the Universities/Institutions should be written on the official envelope (legal size cloth lined cover) for transcripts which will be supplied at the time of submitting the Application form.",
-                            "The prescribed fees has to be paid in cash at the cash counter in the college office.",
-                            "The Candidates will be issued the required number of Transcripts with grades of all the completed semesters printed on a single sheet duly signed by the Controller of Examinations."
-                        ]
-                    }
-                ]
-            }
-        }
-    ]
+
+    {
+      "type": "img-con-card",
+      "data": {
+        "twoCol": false,
+        "content": [
+          {
+            "title": "Documents required for applying transcript",
+
+            "points": [
+              "Photocopy of X or XII Mark sheet or Birth Certificate.",
+              "Photocopy of Aadhaar Card / Driving License / Voter ID Card",
+              "Photocopy of Consolidated Grade Statement",
+              "Photocopy of Degree Certificate or Provisional Certificate",
+              "Photocopy of each semester Statement of Grade for current students.",
+              "Passport size photo."
+            ]
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "split-image-content",
+      "data": {
+        "imagePosition": "right",
+        "sectionbg": "section-bg1 mt-0 pt-0 pb-0 mb-0",
+
+        "content": [
+          {
+            "type": "title",
+            "mainTi": "Documents required for WES / CES / ICAS Form Authentication:"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Candidate has to download WES/CES/ICAS form from WES/CES/ICAS website after filling Part – A Section of WES/CES/ICAS form; the candidate has to submit the hardcopy of the same to obtain the WES/CES/ICAS authentication from the Office of the Controller of Examinations.",
+              "Photocopy of Consolidated Grade Statement.",
+              "Photocopy of Aadhaar Card / Driving License / Voter ID Card",
+              "Photocopy of Degree Certificate or Provisional Certificate",
+              "Photocopy of Transfer certificate / Course completion certificate"
+            ]
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "img-con-card",
+      "data": {
+        "twoCol": false,
+        "content": [
+          {
+            "title": "Documents required for CGPA TO % Conversion Certificate:",
+
+            "points": [
+              "Photocopy of Consolidated Grade Statement",
+              "Photocopy of ID Card / Aadhaar Card / Driving License / Voter ID Card",
+              "Photocopy of Degree Certificate or Provisional Certificate",
+              "Photocopy of each semester Statement of Grade for current students"
+            ]
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "split-image-content",
+      "data": {
+        "imagePosition": "right",
+        "sectionbg": "section-bg1 mt-0 pt-0 pb-0",
+
+        "content": [
+          {
+            "type": "title",
+            "mainTi": "Procedure for obtaining duplicate Consolidated grade / semester grade sheet"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Duplicate Consolidated Grade / Semester Grade Sheet will be issued only when it is lost or destroyed irrevocably.",
+              "<strong>only by the candidate </strong>and should be submitted to the Office of the Controller of Examinations. Request should be made <strong>Request received on behalf of the candidate will not be accepted.</strong>",
+               "The prescribed fees has to be paid in cash at the cash counter in the college office.",
+              "Fee once paid will not be refunded or adjusted for any other certificate under any circumstances.",
+              "Duplicate Consolidated Grade / Semester Grade Sheet will be issued only when it is lost or destroyed irrevocably."
+            ]
+          },
+         
+          {
+            "type": "title",
+            "subTi": "The following documents should be enclosed along with the request letter."
+          },
+          {
+            "type": "list",
+            "items": [
+              "<strong>A non – traceable certificate</strong> received from local Police authorities.",
+              "Declaration explaining the circumstances under which the original certificate was lost.",
+              "The declaration should be duly executed in the prescribed format before the <strong>witness of Notary Public </strong>with full postal address.",
+              "Photocopy of the Grade Sheet/ Consolidated Statement of Grades for which duplicate is required.",
+              "Photocopy of Aadhaar Card / Driving License / Voter ID Card."
+            ]
+          }
+        ]
+      }
+    }
+  ]
 }

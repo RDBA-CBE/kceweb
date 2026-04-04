@@ -20,7 +20,7 @@
     {
       "type": "quote-sec",
       "data": {
-        "title": " Lorem ipsum dolor sit amet consectetu",
+        "title": "KCE offers a wide range of student clubs that help students connect, engage, and explore their talents.",
         "content": [
           "KCE has many student clubs to connect, engage and explore the talents of the students! Student clubs allow for further exploration and discovery in academic and non- academic areas,enabling growth experiences and learning beyond the classroom  setting. Through this, students are able to develop and hone their leadership skills, as well as appreciate the value of teamwork and  cooperation."
         ],
@@ -158,14 +158,14 @@
         "content": [
           {
             "images": [
-              { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Sports5-400x400-1-150x150.jpg" },
-              { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Sports3-400x400-1-150x150.jpg" },
-              { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Sports2-400x400-1-150x150.jpg" },
-              { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Sports1-400x400-1-150x150.jpg" },
-              { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Sports6-400x400-1-150x150.jpg" },
-              { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Sports7-400x400-1-150x150.jpg" },
-              { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/KCE_awards-400x400-1-150x150.jpg" },
-              { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/KCE_KSL-400x400-1-150x150.jpg" }
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Sports5-400x400-1.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Sports3-400x400-1.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Sports2-400x400-1.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Sports1-400x400-1.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Sports6-400x400-1.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/Sports7-400x400-1.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/KCE_awards-400x400-1.jpg" },
+              { "img": "https://kce.ac.in/new/wp-content/uploads/2020/01/KCE_KSL-400x400-1.jpg" }
             ]
           }
         ]

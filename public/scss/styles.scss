@@ -1678,7 +1678,7 @@
 
 .startup-row span {
   font-weight: 800;
-  white-space: nowrap;
+  // white-space: nowrap;
 }
 
 .startup-row p {
@@ -1701,6 +1701,13 @@
     flex-direction: column;
     align-items: flex-start;
   }
+  .startup-content {
+  display: grid;
+  grid-template-columns:  1fr;
+  }
+  .startup-row {
+  display: block;
+}
 }
 
 .logo-groups-section {
@@ -2008,7 +2015,7 @@ a.ps-card:hover .ps-title {
 /* ContactUsSection.css */
 
 .contactus-item {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #cc6926;
   padding-bottom: 15px;
 }
 
@@ -2025,14 +2032,14 @@ a.ps-card:hover .ps-title {
   width: 45px;
   height: 45px;
   border-radius: 50%;
-  background-color: #ddebf0ba;
+  background-color: #cc682675;
   color: #000;
   font-size: 18px;
   transition: all 0.3s ease;
 }
 
 .contactus-social a:hover {
-  background-color: #1c3c4a;
+  background-color: #cc6926;
   color: #fff;
 }
 

@@ -12,7 +12,7 @@
           "text": [
             {
               "secTitle": "For Admission Enquiries:",
-              "description": "Lorem ipsum dolor sit amet consectetur. Pulvinar nulla sapien velit ultrices neque pretium pulvinar. Urna netus sed et in. At sed urna vitae rhoncus convallis tellus nisi viverra.",
+              
               "contactDetails": [
                 { "label": "Mobile", "value": "8220333750, 8220333620" }
               ],
@@ -40,7 +40,7 @@
           "text": [
             {
               "secTitle": "For Office / Other Enquiries:",
-              "description": "Lorem ipsum dolor sit amet consectetur. Pulvinar nulla sapien velit ultrices neque pretium pulvinar. Urna netus sed et in. At sed urna vitae rhoncus convallis tellus nisi viverra.",
+              
               "contactDetails": [
                 { "label": "Phone", "value": "+91 – 422 2619005" },
                 { "label": "Email", "value": "info@kce.ac.in" }
