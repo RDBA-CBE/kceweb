@@ -696,7 +696,7 @@
           "col3": { "text": "21ED03/Digital Electronics" },
           "col4": {
             "text": "Click",
-            "href": "https://classroom.google.com/c/NjI5MjI4MjE5Mjcw"
+            "url": "https://classroom.google.com/c/NjI5MjI4MjE5Mjcw"
           }
         },
         {
@@ -705,7 +705,7 @@
           "col3": { "text": "21ED19/Transmission and Distribution" },
           "col4": {
             "text": "Click",
-            "href": "https://classroom.google.com/c/NjEyMjcyMDYxODcx"
+            "url": "https://classroom.google.com/c/NjEyMjcyMDYxODcx"
           }
         },
         {
@@ -714,7 +714,7 @@
           "col3": { "text": "21ED07/Control Systems Engineering" },
           "col4": {
             "text": "Click",
-            "href": "https://classroom.google.com/c/NjA3Mjk0NTM4OTk1"
+            "url": "https://classroom.google.com/c/NjA3Mjk0NTM4OTk1"
           }
         },
         {
@@ -723,7 +723,7 @@
           "col3": { "text": "18NE09/Robotics and Automaton" },
           "col4": {
             "text": "Click",
-            "href": "https://classroom.google.com/c/NjEyNDEzNTcyNDAx"
+            "url": "https://classroom.google.com/c/NjEyNDEzNTcyNDAx"
           }
         },
         {
@@ -732,7 +732,7 @@
           "col3": { "text": "21MC12/Measurements and Instrumentation" },
           "col4": {
             "text": "Click",
-            "href": "https://classroom.google.com/c/NjEzNDMyODk2Mzk5"
+            "url": "https://classroom.google.com/c/NjEzNDMyODk2Mzk5"
           }
         },
         {
@@ -741,7 +741,7 @@
           "col3": { "text": "18EE21/Energy Auditing and Management" },
           "col4": {
             "text": "Click",
-            "href": "https://classroom.google.com/c/NjEyMzk3OTMwMTg2?cjc=vlednjg"
+            "url": "https://classroom.google.com/c/NjEyMzk3OTMwMTg2?cjc=vlednjg"
           }
         },
         {
@@ -750,7 +750,7 @@
           "col3": { "text": "21LE05/Medical Electronics" },
           "col4": {
             "text": "Click",
-            "href": "https://classroom.google.com/c/NjEyNTk3NDQ4MDY2?cjc=mwtyjvg"
+            "url": "https://classroom.google.com/c/NjEyNTk3NDQ4MDY2?cjc=mwtyjvg"
           }
         },
         {
@@ -761,7 +761,7 @@
           },
           "col4": {
             "text": "Click",
-            "href": "https://classroom.google.com/u/2/c/NjExMzk4MTkwNDQz"
+            "url": "https://classroom.google.com/u/2/c/NjExMzk4MTkwNDQz"
           }
         },
         {
@@ -770,7 +770,7 @@
           "col3": { "text": "21ED11/Embedded Systems" },
           "col4": {
             "text": "Click",
-            "href": "https://classroom.google.com/u/2/c/NjEyNDY3MTkyNTA1"
+            "url": "https://classroom.google.com/u/2/c/NjEyNDY3MTkyNTA1"
           }
         },
         {
@@ -781,7 +781,7 @@
           },
           "col4": {
             "text": "Click",
-            "href": "https://classroom.google.com/c/NTIyNjQ4NjIxMTA0"
+            "url": "https://classroom.google.com/c/NTIyNjQ4NjIxMTA0"
           }
         },
         {
@@ -792,7 +792,7 @@
           },
           "col4": {
             "text": "Click",
-            "href": "https://classroom.google.com/c/NjEyNDE5NTQyODMx"
+            "url": "https://classroom.google.com/c/NjEyNDE5NTQyODMx"
           }
         },
         {
@@ -801,7 +801,7 @@
           "col3": { "text": "21MC08/Electric Drives and Control" },
           "col4": {
             "text": "Click",
-            "href": "https://classroom.google.com/c/NjIyMzk1NjI0MTg2"
+            "url": "https://classroom.google.com/c/NjIyMzk1NjI0MTg2"
           }
         },
         {
@@ -812,7 +812,7 @@
           },
           "col4": {
             "text": "Click",
-            "href": "https://classroom.google.com/c/NTIyNzIwNjM5NjE2"
+            "url": "https://classroom.google.com/c/NTIyNzIwNjM5NjE2"
           }
         },
         {
@@ -821,7 +821,7 @@
           "col3": { "text": "21ED19/Transmission and Distribution" },
           "col4": {
             "text": "Click",
-            "href": "https://classroom.google.com/c/NjEyNTc0MjE4NDYw"
+            "url": "https://classroom.google.com/c/NjEyNTc0MjE4NDYw"
           }
         },
         {
@@ -830,7 +830,7 @@
           "col3": { "text": "21ED11/Embedded Systems" },
           "col4": {
             "text": "Click",
-            "href": "https://classroom.google.com/c/NjEyNDk4Mjg2MTg2"
+            "url": "https://classroom.google.com/c/NjEyNDk4Mjg2MTg2"
           }
         },
         {
@@ -839,7 +839,7 @@
           "col3": { "text": "Electric Circuits" },
           "col4": {
             "text": "Click",
-            "href": "https://classroom.google.com/c/NjI1NTU1NjEwNDA5"
+            "url": "https://classroom.google.com/c/NjI1NTU1NjEwNDA5"
           }
         },
         {
@@ -848,7 +848,7 @@
           "col3": { "text": "18ED18/Electric Drives and Control" },
           "col4": {
             "text": "Click",
-            "href": "https://classroom.google.com/c/NjEyNDAzMDE4NzI1"
+            "url": "https://classroom.google.com/c/NjEyNDAzMDE4NzI1"
           }
         },
         {
@@ -857,7 +857,7 @@
           "col3": { "text": "21ED07/Control Systems Engineering" },
           "col4": {
             "text": "Click",
-            "href": "https://classroom.google.com/c/NjEyNTgzMjA1ODAy"
+            "url": "https://classroom.google.com/c/NjEyNTgzMjA1ODAy"
           }
         },
         {
@@ -866,7 +866,7 @@
           "col3": { "text": "Electric Circuits" },
           "col4": {
             "text": "Click",
-            "href": "https://classroom.google.com/c/NjI4OTkxMTQ0MDE2"
+            "url": "https://classroom.google.com/c/NjI4OTkxMTQ0MDE2"
           }
         },
         {
@@ -875,7 +875,7 @@
           "col3": { "text": "21EC11/Electronic Circuits" },
           "col4": {
             "text": "Click",
-            "href": "https://classroom.google.com/c/NjI5ODM5NzgyODQ1"
+            "url": "https://classroom.google.com/c/NjI5ODM5NzgyODQ1"
           }
         },
         {
@@ -884,7 +884,7 @@
           "col3": { "text": "21EC11/Electronic Circuits" },
           "col4": {
             "text": "Click",
-            "href": "https://classroom.google.com/c/NTI5ODMyOTQ1ODcy"
+            "url": "https://classroom.google.com/c/NTI5ODMyOTQ1ODcy"
           }
         }
       ]
@@ -909,7 +909,7 @@
                     "col3": { "text": "21EE06 / Renewable Energy Sources" },
                     "col4": {
                       "text": "Click",
-                      "href": "https://classroom.google.com/c/NjQ3OTA3NTg1NTM4"
+                    "url": "https://classroom.google.com/c/NjQ3OTA3NTg1NTM4"
                     }
                   },
                   {
@@ -920,7 +920,7 @@
                     },
                     "col4": {
                       "text": "Click",
-                      "href": "https://classroom.google.com/c/NjUwNjI2Nzk0MTEy?cjc=gijhm7t"
+                    "url": "https://classroom.google.com/c/NjUwNjI2Nzk0MTEy?cjc=gijhm7t"
                     }
                   },
                   {
@@ -929,7 +929,7 @@
                     "col3": { "text": "21EE07 / Sensors and Transducers" },
                     "col4": {
                       "text": "Click",
-                      "href": "https://classroom.google.com/c/NjU4MzgzMjM0MjE4"
+                    "url": "https://classroom.google.com/c/NjU4MzgzMjM0MjE4"
                     }
                   },
                   {
@@ -938,7 +938,7 @@
                     "col3": { "text": "21EE07 / Sensors and Transducers" },
                     "col4": {
                       "text": "Click",
-                      "href": "https://classroom.google.com/c/NjQ3OTc0MTY1NDY2"
+                    "url": "https://classroom.google.com/c/NjQ3OTc0MTY1NDY2"
                     }
                   },
                   {
@@ -949,7 +949,7 @@
                     },
                     "col4": {
                       "text": "Click",
-                      "href": "https://classroom.google.com/c/NjUzMjM2ODAzMzA5?cjc=kjhmitk"
+                    "url": "https://classroom.google.com/c/NjUzMjM2ODAzMzA5?cjc=kjhmitk"
                     }
                   },
                   {
@@ -958,7 +958,7 @@
                     "col3": { "text": "21ED28 / Virtual Instrumentation" },
                     "col4": {
                       "text": "Click",
-                      "href": "https://classroom.google.com/c/NjQ0NzQwMTAwMDQ0?cjc=klctsks"
+                    "url": "https://classroom.google.com/c/NjQ0NzQwMTAwMDQ0?cjc=klctsks"
                     }
                   },
                   {
@@ -967,7 +967,7 @@
                     "col3": { "text": "21ED14 / DC and Synchronous Machines" },
                     "col4": {
                       "text": "Click",
-                      "href": "https://classroom.google.com/c/NjQ4ODA3NDg3ODY5?cjc=korpbub"
+                    "url": "https://classroom.google.com/c/NjQ4ODA3NDg3ODY5?cjc=korpbub"
                     }
                   },
                   {
@@ -976,7 +976,7 @@
                     "col3": { "text": "21ED09 / Power Electronics" },
                     "col4": {
                       "text": "Click",
-                      "href": "https://classroom.google.com/c/NjM5MzEwODQ0MDI4?cjc=p5aon7s"
+                    "url": "https://classroom.google.com/c/NjM5MzEwODQ0MDI4?cjc=p5aon7s"
                     }
                   },
                   {
@@ -987,7 +987,7 @@
                     },
                     "col4": {
                       "text": "Click",
-                      "href": "https://classroom.google.com/c/NjUwNjg0NDIzOTIz?cjc=i4myteh"
+                    "url": "https://classroom.google.com/c/NjUwNjg0NDIzOTIz?cjc=i4myteh"
                     }
                   },
                   {
@@ -998,7 +998,7 @@
                     },
                     "col4": {
                       "text": "Click",
-                      "href": "https://classroom.google.com/u/1/c/NjI4OTEyNzEzMzU3"
+                    "url": "https://classroom.google.com/u/1/c/NjI4OTEyNzEzMzU3"
                     }
                   },
                   {
@@ -1007,7 +1007,7 @@
                     "col3": { "text": "21ED09 / Power Electronics" },
                     "col4": {
                       "text": "Click",
-                      "href": "https://classroom.google.com/c/NjU0MDc0Mzc0MzUx?cjc=auzg4yf"
+                    "url": "https://classroom.google.com/c/NjU0MDc0Mzc0MzUx?cjc=auzg4yf"
                     }
                   },
                   {
@@ -1016,7 +1016,7 @@
                     "col3": { "text": "21ED14 / DC and Synchronous Machines" },
                     "col4": {
                       "text": "Click",
-                      "href": "https://classroom.google.com/c/NjYzOTkwNTg0MTgx?cjc=sbecpe6"
+                    "url": "https://classroom.google.com/c/NjYzOTkwNTg0MTgx?cjc=sbecpe6"
                     }
                   },
                   {
@@ -1033,7 +1033,7 @@
                     },
                     "col4": {
                       "text": "Click",
-                      "href": "https://classroom.google.com/c/NjQ2ODI0NTIyODQ2?cjc=uw4xcw5"
+                    "url": "https://classroom.google.com/c/NjQ2ODI0NTIyODQ2?cjc=uw4xcw5"
                     }
                   }
                 ]
@@ -1059,7 +1059,7 @@
                     },
                     "col4": {
                       "text": "Click",
-                      "href": "https://classroom.google.com/c/NjEyMzk3OTMwMTg2?cjc=vlednjg"
+                    "url": "https://classroom.google.com/c/NjEyMzk3OTMwMTg2?cjc=vlednjg"
                     }
                   },
                   {
@@ -1070,7 +1070,7 @@
                     },
                     "col4": {
                       "text": "Click",
-                      "href": "https://classroom.google.com/c/NTIyNjQ4NjIxMTA0"
+                    "url": "https://classroom.google.com/c/NTIyNjQ4NjIxMTA0"
                     }
                   },
                   {
@@ -1081,7 +1081,7 @@
                     },
                     "col4": {
                       "text": "Click",
-                      "href": "https://classroom.google.com/u/2/c/NjExMzk4MTkwNDQz"
+                    "url": "https://classroom.google.com/u/2/c/NjExMzk4MTkwNDQz"
                     }
                   },
                   {
@@ -1090,7 +1090,7 @@
                     "col3": { "text": "18ED18 / Electric Drives and Control" },
                     "col4": {
                       "text": "Click",
-                      "href": "https://classroom.google.com/c/NjEyNDAzMDE4NzI1"
+                    "url": "https://classroom.google.com/c/NjEyNDAzMDE4NzI1"
                     }
                   },
                   {
@@ -1099,7 +1099,7 @@
                     "col3": { "text": "18NE09 / Robotics and Automaton" },
                     "col4": {
                       "text": "Click",
-                      "href": "https://classroom.google.com/c/NjEyNDEzNTcyNDAx"
+                    "url": "https://classroom.google.com/c/NjEyNDEzNTcyNDAx"
                     }
                   },
                   {
@@ -1108,7 +1108,7 @@
                     "col3": { "text": "21EC11 / Electronic Circuits" },
                     "col4": {
                       "text": "Click",
-                      "href": "https://classroom.google.com/c/NjI5ODM5NzgyODQ1"
+                    "url": "https://classroom.google.com/c/NjI5ODM5NzgyODQ1"
                     }
                   },
                   {
@@ -1117,7 +1117,7 @@
                     "col3": { "text": "21EC11 / Electronic Circuits" },
                     "col4": {
                       "text": "Click",
-                      "href": "https://classroom.google.com/c/NTI5ODMyOTQ1ODcy"
+                    "url": "https://classroom.google.com/c/NTI5ODMyOTQ1ODcy"
                     }
                   },
                   {
@@ -1126,7 +1126,7 @@
                     "col3": { "text": "21ED03 / Digital Electronics" },
                     "col4": {
                       "text": "Click",
-                      "href": "https://classroom.google.com/c/NjI5MjI4MjE5Mjcw"
+                    "url": "https://classroom.google.com/c/NjI5MjI4MjE5Mjcw"
                     }
                   },
                   {
@@ -1135,7 +1135,7 @@
                     "col3": { "text": "21ED03 / Digital Electronics" },
                     "col4": {
                       "text": "Click",
-                      "href": "https://classroom.google.com/c/NTI5NjMzOTc0MTk3"
+                    "url": "https://classroom.google.com/c/NTI5NjMzOTc0MTk3"
                     }
                   },
                   {
@@ -1144,7 +1144,7 @@
                     "col3": { "text": "21ED07 / Control Systems Engineering" },
                     "col4": {
                       "text": "Click",
-                      "href": "https://classroom.google.com/c/NjA3Mjk0NTM4OTk1"
+                    "url": "https://classroom.google.com/c/NjA3Mjk0NTM4OTk1"
                     }
                   },
                   {
@@ -1153,7 +1153,7 @@
                     "col3": { "text": "21ED07 / Control Systems Engineering" },
                     "col4": {
                       "text": "Click",
-                      "href": "https://classroom.google.com/c/NjEyNTgzMjA1ODAy"
+                    "url": "https://classroom.google.com/c/NjEyNTgzMjA1ODAy"
                     }
                   },
                   {
@@ -1164,7 +1164,7 @@
                     },
                     "col4": {
                       "text": "Click",
-                      "href": "https://classroom.google.com/c/NjEyNDE5NTQyODMx"
+                    "url": "https://classroom.google.com/c/NjEyNDE5NTQyODMx"
                     }
                   },
                   {
@@ -1175,7 +1175,7 @@
                     },
                     "col4": {
                       "text": "Click",
-                      "href": "https://classroom.google.com/c/NTIyNzIwNjM5NjE2"
+                    "url": "https://classroom.google.com/c/NTIyNzIwNjM5NjE2"
                     }
                   },
                   {
@@ -1184,7 +1184,7 @@
                     "col3": { "text": "21ED11 / Embedded Systems" },
                     "col4": {
                       "text": "Click",
-                      "href": "https://classroom.google.com/u/2/c/NjEyNDY3MTkyNTA1"
+                    "url": "https://classroom.google.com/u/2/c/NjEyNDY3MTkyNTA1"
                     }
                   },
                   {
@@ -1193,7 +1193,7 @@
                     "col3": { "text": "21ED11 / Embedded Systems" },
                     "col4": {
                       "text": "Click",
-                      "href": "https://classroom.google.com/c/NjEyNDk4Mjg2MTg2"
+                    "url": "https://classroom.google.com/c/NjEyNDk4Mjg2MTg2"
                     }
                   },
                   {
@@ -1204,7 +1204,7 @@
                     },
                     "col4": {
                       "text": "Click",
-                      "href": "https://classroom.google.com/c/NjEyNTc0MjE4NDYw"
+                    "url": "https://classroom.google.com/c/NjEyNTc0MjE4NDYw"
                     }
                   },
                   {
@@ -1215,7 +1215,7 @@
                     },
                     "col4": {
                       "text": "Click",
-                      "href": "https://classroom.google.com/c/NjEyMjcyMDYxODcx"
+                    "url": "https://classroom.google.com/c/NjEyMjcyMDYxODcx"
                     }
                   },
                   {
@@ -1224,7 +1224,7 @@
                     "col3": { "text": "21LE05 / Medical Electronics" },
                     "col4": {
                       "text": "Click",
-                      "href": "https://classroom.google.com/c/NjEyNTk3NDQ4MDY2?cjc=mwtyjvg"
+                    "url": "https://classroom.google.com/c/NjEyNTk3NDQ4MDY2?cjc=mwtyjvg"
                     }
                   },
                   {
@@ -1233,7 +1233,7 @@
                     "col3": { "text": "21LE05 / Medical Electronics" },
                     "col4": {
                       "text": "Click",
-                      "href": "https://classroom.google.com/c/NTIyNzE1NTUxOTM0"
+                    "url": "https://classroom.google.com/c/NTIyNzE1NTUxOTM0"
                     }
                   },
                   {
@@ -1242,7 +1242,7 @@
                     "col3": { "text": "21EC06 / Electric Circuits" },
                     "col4": {
                       "text": "Click",
-                      "href": "https://classroom.google.com/c/NjI4OTkxMTQ0MDE2"
+                    "url": "https://classroom.google.com/c/NjI4OTkxMTQ0MDE2"
                     }
                   },
                   {
@@ -1251,7 +1251,7 @@
                     "col3": { "text": "21EC06 / Electric Circuits" },
                     "col4": {
                       "text": "Click",
-                      "href": "https://classroom.google.com/c/NjI1NTU1NjEwNDA5"
+                    "url": "https://classroom.google.com/c/NjI1NTU1NjEwNDA5"
                     }
                   },
                   {
@@ -1260,7 +1260,7 @@
                     "col3": { "text": "21MC08 / Electric Drives and Control" },
                     "col4": {
                       "text": "Click",
-                      "href": "https://classroom.google.com/c/NjIyMzk1NjI0MTg2"
+                    "url": "https://classroom.google.com/c/NjIyMzk1NjI0MTg2"
                     }
                   },
                   {
@@ -1269,7 +1269,7 @@
                     "col3": { "text": "18EE06 / Renewable Energy Sources" },
                     "col4": {
                       "text": "Click",
-                      "href": "https://classroom.google.com/w/NTIyODM4NTkzMTky/t/all"
+                    "url": "https://classroom.google.com/w/NTIyODM4NTkzMTky/t/all"
                     }
                   },
                   {
@@ -1280,7 +1280,7 @@
                     },
                     "col4": {
                       "text": "Click",
-                      "href": "https://classroom.google.com/c/NjEzNDMyODk2Mzk5"
+                    "url": "https://classroom.google.com/c/NjEzNDMyODk2Mzk5"
                     }
                   }
                 ]
@@ -1306,7 +1306,7 @@
                     },
                     "col4": {
                       "text": "Click",
-                      "href": "https://classroom.google.com/c/NTA5MjE4NjQyNTUw?cjc=f4s46uj"
+                     "url": "https://classroom.google.com/c/NTA5MjE4NjQyNTUw?cjc=f4s46uj"
                     }
                   },
                   {
@@ -1315,7 +1315,7 @@
                     "col3": { "text": "18EE22 / Consumer Electronics" },
                     "col4": {
                       "text": "Click",
-                      "href": "https://classroom.google.com/c/NTk5OTM3MjQ1MjAx?cjc=uutwa5h"
+                     "url": "https://classroom.google.com/c/NTk5OTM3MjQ1MjAx?cjc=uutwa5h"
                     }
                   },
                   {
@@ -1326,7 +1326,7 @@
                     },
                     "col4": {
                       "text": "Click",
-                      "href": "https://classroom.google.com/c/NTExNjk0Mjk1MTEy?cjc=yavocbs"
+                     "url": "https://classroom.google.com/c/NTExNjk0Mjk1MTEy?cjc=yavocbs"
                     }
                   },
                   {
@@ -1337,7 +1337,7 @@
                     },
                     "col4": {
                       "text": "Click",
-                      "href": "https://classroom.google.com/c/NTM4NDE0MjkxMzAy?cjc=m7jguvn"
+                     "url": "https://classroom.google.com/c/NTM4NDE0MjkxMzAy?cjc=m7jguvn"
                     }
                   },
                   {
@@ -1348,7 +1348,7 @@
                     },
                     "col4": {
                       "text": "Click",
-                      "href": "https://classroom.google.com/c/NTI2Mjc2MDcwNjcy"
+                     "url": "https://classroom.google.com/c/NTI2Mjc2MDcwNjcy"
                     }
                   },
                   {
@@ -1359,7 +1359,7 @@
                     },
                     "col4": {
                       "text": "Click",
-                      "href": "https://classroom.google.com/c/NTExNjk4NzYxNDI5?cjc=pvsxcsb"
+                     "url": "https://classroom.google.com/c/NTExNjk4NzYxNDI5?cjc=pvsxcsb"
                     }
                   },
                   {
@@ -1370,7 +1370,7 @@
                     },
                     "col4": {
                       "text": "Click",
-                      "href": "https://classroom.google.com/c/NTgwOTU5NTgwMTU1"
+                     "url": "https://classroom.google.com/c/NTgwOTU5NTgwMTU1"
                     }
                   },
                   {
@@ -1379,7 +1379,7 @@
                     "col3": { "text": "18ED28 / Virtual Instrumentation" },
                     "col4": {
                       "text": "Click",
-                      "href": "https://classroom.google.com/c/NTA5Mjg4MjQ2MjU1"
+                     "url": "https://classroom.google.com/c/NTA5Mjg4MjQ2MjU1"
                     }
                   },
                   {
@@ -1388,7 +1388,7 @@
                     "col3": { "text": "18ED28 / Virtual Instrumentation" },
                     "col4": {
                       "text": "Click",
-                      "href": "https://classroom.google.com/u/2/c/NTgwNzM0NDM3MjIw"
+                     "url": "https://classroom.google.com/u/2/c/NTgwNzM0NDM3MjIw"
                     }
                   },
                   {
@@ -1397,7 +1397,7 @@
                     "col3": { "text": "18ED09 / Power Electronics" },
                     "col4": {
                       "text": "Click",
-                      "href": "https://classroom.google.com/c/NTExOTAyMTM4MjQx"
+                     "url": "https://classroom.google.com/c/NTExOTAyMTM4MjQx"
                     }
                   },
                   {
@@ -1406,7 +1406,7 @@
                     "col3": { "text": "18ED09 / Power Electronics" },
                     "col4": {
                       "text": "Click",
-                      "href": "https://classroom.google.com/c/NTgxNTM2MzMwOTAw"
+                     "url": "https://classroom.google.com/c/NTgxNTM2MzMwOTAw"
                     }
                   },
                   {
@@ -1415,7 +1415,7 @@
                     "col3": { "text": "18EE07 / Sensors and Transducers" },
                     "col4": {
                       "text": "Click",
-                      "href": "https://classroom.google.com/w/NTgxMTg3MjY3OTUw/t/all"
+                     "url": "https://classroom.google.com/w/NTgxMTg3MjY3OTUw/t/all"
                     }
                   },
                   {
@@ -1424,7 +1424,7 @@
                     "col3": { "text": "18EE07 / Sensors and Transducers" },
                     "col4": {
                       "text": "Click",
-                      "href": "https://classroom.google.com/c/NTEzNzM2Mzk2OTM3"
+                     "url": "https://classroom.google.com/c/NTEzNzM2Mzk2OTM3"
                     }
                   },
                   {
@@ -1433,7 +1433,7 @@
                     "col3": { "text": "18EE06 / Renewable Energy Sources" },
                     "col4": {
                       "text": "Click",
-                      "href": "https://classroom.google.com/c/NTExOTA0Nzg3MDkx"
+                     "url": "https://classroom.google.com/c/NTExOTA0Nzg3MDkx"
                     }
                   },
                   {
@@ -1442,7 +1442,7 @@
                     "col3": { "text": "18EE06 / Renewable Energy Sources" },
                     "col4": {
                       "text": "Click",
-                      "href": "https://classroom.google.com/c/NTgxMTkwMTMxNjEz"
+                     "url": "https://classroom.google.com/c/NTgxMTkwMTMxNjEz"
                     }
                   },
                   {
@@ -1451,7 +1451,7 @@
                     "col3": { "text": "21ED14 / DC and Synchronous Machines" },
                     "col4": {
                       "text": "Click",
-                      "href": "https://classroom.google.com/c/NTgxMDI5OTUyNDk3"
+                     "url": "https://classroom.google.com/c/NTgxMDI5OTUyNDk3"
                     }
                   },
                   {
@@ -1460,7 +1460,7 @@
                     "col3": { "text": "21ED14 / DC and Synchronous Machines" },
                     "col4": {
                       "text": "Click",
-                      "href": "https://classroom.google.com/c/NTgxNTM3NTIyNzc1"
+                     "url": "https://classroom.google.com/c/NTgxNTM3NTIyNzc1"
                     }
                   },
                   {
@@ -1471,7 +1471,7 @@
                     },
                     "col4": {
                       "text": "Click",
-                      "href": "https://classroom.google.com/u/1/c/NTA5Mjg4MDkxODA4"
+                     "url": "https://classroom.google.com/u/1/c/NTA5Mjg4MDkxODA4"
                     }
                   },
                   {
@@ -1482,7 +1482,7 @@
                     },
                     "col4": {
                       "text": "Click",
-                      "href": "https://classroom.google.com/u/1/c/NTg0NDA3MDkwNzI0"
+                     "url": "https://classroom.google.com/u/1/c/NTg0NDA3MDkwNzI0"
                     }
                   }
                 ]
