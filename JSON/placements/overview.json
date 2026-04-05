@@ -48,7 +48,7 @@
       "type": "table",
       "data": {
         "secTitle": "Placements Statistics",
-        
+        "desc1": "* Ongoing",
         "table": [
           {
             "content": [
@@ -61,7 +61,7 @@
                 ],
                 "data": [
                   {
-                    "col1": { "text": "2026 a * n Ongoing" },
+                    "col1": { "text": "2026 *" },
                     "col2": { "text": "43" },
                     "col3": { "text": "912" },
                     "col4": { "text": "232" }
