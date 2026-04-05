@@ -37,9 +37,9 @@
 }
 
 /* TEXT */
-.card h4 {
+.card h5 {
   margin-top: 18px;
-  color: #6b6b6b;
+  color: #cc6926; margin-bottom: 0px; 
 }
 
 .card p {

@@ -8,7 +8,7 @@ const AchievementCard = ({ data }) => {
       <img src={data.img} alt={data.title} />
 
       <div className={styles.overlay}>
-        <h4>{data.title}</h4>
+        <h5>{data.title}</h5>
         <p>{data.desc}</p>
         <Link
           href="/acheivemnets"

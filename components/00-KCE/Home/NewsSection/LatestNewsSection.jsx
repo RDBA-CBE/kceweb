@@ -11,7 +11,7 @@ const FeaturedNewsItem = ({ data, isActive }) => (
     <div className="featured-news-image">
       <img src={data.image} alt={data.title} />
     </div>
-    <h2 className="featured-news-title">{data.title}</h2>
+    <h3 className="featured-news-title">{data.title}</h3>
     <p className="featured-news-description">{data.description}</p>
     
 

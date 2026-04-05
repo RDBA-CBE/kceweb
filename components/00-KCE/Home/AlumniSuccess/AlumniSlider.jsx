@@ -58,7 +58,7 @@ const AlumniSlider = () => {
           <SwiperSlide key={index} className={styles.slide}>
             <div className={styles.card}>
               <img src={item.img} alt={item.name} />
-              <h4>{item.name}</h4>
+              <h5>{item.name}</h5>
               <p>{item.desc}</p>
             </div>
           </SwiperSlide>
