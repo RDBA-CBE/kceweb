@@ -12,7 +12,16 @@ const logos = [
     "images/kce/home/industry-logos/skava.svg",
     "images/kce/home/industry-logos/tata.svg",
     "images/kce/home/industry-logos/wipro.svg",
-    "images/kce/home/industry-logos/zoho.svg"
+    "images/kce/home/industry-logos/zoho.svg",
+    "images/kce/home/industry-logos/hcl.svg",
+    "images/kce/home/industry-logos/ntt-data.svg",
+     "images/kce/home/industry-logos/virtusa.svg",
+      "images/kce/home/industry-logos/Accenture.svg",
+      "images/kce/home/industry-logos/tessolve.svg",
+       "images/kce/home/industry-logos/aspire.svg",
+      "images/kce/home/industry-logos/hexaware.svg",
+       "images/kce/home/industry-logos/shynisphere.svg",
+        "images/kce/home/industry-logos/boredmonk.svg"
 ];
 
 export default function IndustryPartners() {

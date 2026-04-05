@@ -1,14 +1,14 @@
 {
   "banner": {
     "bannerImg": "/images/kce/banner_computer_technology.jpg",
-    "title": "Overview",
+    "title": "Placement",
     "breadcrumb": [
     {
         "label": "Home",
         "href": "/"
       },
       {
-        "label": "Overview"
+        "label": "Placement Overview"
         
       }
     ]

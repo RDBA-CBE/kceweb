@@ -19,7 +19,7 @@
   padding: 0 24px;
   z-index: 2;
 }
-
+.container h5{margin-top:20px !important;}
 .heading {
   letter-spacing: 2px;
   margin-bottom: 50px;
@@ -38,7 +38,7 @@
  position: relative; margin-right: 10%;
   width: 100%;
   max-width: 400px;
-  height: 560px;
+  height: 580px;
   overflow: hidden; border-radius: 25px;
   background: url("/images/kce/logo-card/orange-card1.png") center / cover no-repeat;
 }
@@ -83,7 +83,7 @@
 
 /* RIGHT LIST */
 .list {
-  margin-top: 30px;
+  margin-top: 0px;
 }
 
 .listItem {

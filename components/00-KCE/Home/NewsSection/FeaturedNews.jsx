@@ -7,7 +7,7 @@ const FeaturedNews = ({ data }) => {
       <div className="featured-news-image">
         <img src={data.image} alt="Featured" />
       </div>
-      <h2 className="featured-news-title">{data.title}</h2>
+      <h3 className="featured-news-title">{data.title}</h3>
       <p className="featured-news-description">{data.description}</p>
       <button className="btn-primary">KNOW MORE</button>
     </div>
