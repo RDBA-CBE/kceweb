@@ -630,7 +630,7 @@
                     "col2": { "text": "Information Security" },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://classroom.google.com/c/NzAxOTg0MTA2OTIy?cjc=vcdhjrv"
+                      "url": "https://classroom.google.com/c/NzAxOTg0MTA2OTIy?cjc=vcdhjrv"
                     }
                   },
                   {
@@ -638,7 +638,7 @@
                     "col2": { "text": "Object Oriented Analysis and Design" },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://classroom.google.com/c/Njk3NTY4NzIxNDA2?cjc=ndtw3rh"
+                      "url": "https://classroom.google.com/c/Njk3NTY4NzIxNDA2?cjc=ndtw3rh"
                     }
                   },
                   {
@@ -646,7 +646,7 @@
                     "col2": { "text": "High Speed Networks" },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://classroom.google.com/w/NjkzNTgyNjk2Njc2/t/all"
+                      "url": "https://classroom.google.com/w/NjkzNTgyNjk2Njc2/t/all"
                     }
                   },
                   {
@@ -654,7 +654,7 @@
                     "col2": { "text": "Machine Learning Techniques" },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://classroom.google.com/c/NzAxMjQ3MDc1ODQ1"
+                      "url": "https://classroom.google.com/c/NzAxMjQ3MDc1ODQ1"
                     }
                   },
                   {
@@ -662,7 +662,7 @@
                     "col2": { "text": "Automata Theory and Compiler Design" },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://classroom.google.com/c/NjkzODQ2NTc2ODY0?cjc=f4qqtie"
+                      "url": "https://classroom.google.com/c/NjkzODQ2NTc2ODY0?cjc=f4qqtie"
                     }
                   },
                   {
@@ -670,7 +670,7 @@
                     "col2": { "text": "Artificial Intelligence" },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://classroom.google.com/c/Njk4NDY5NDg1MTg0"
+                      "url": "https://classroom.google.com/c/Njk4NDY5NDg1MTg0"
                     }
                   },
                   {
@@ -678,7 +678,7 @@
                     "col2": { "text": "Design and Analysis of Algorithm" },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://classroom.google.com/u/2/w/NjkzNjkzMTUxMTgx/t/all"
+                      "url": "https://classroom.google.com/u/2/w/NjkzNjkzMTUxMTgx/t/all"
                     }
                   },
                   {
@@ -688,7 +688,7 @@
                     },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://classroom.google.com/c/Njg5OTkzMzc5Nzg1"
+                      "url": "https://classroom.google.com/c/Njg5OTkzMzc5Nzg1"
                     }
                   },
                   {
@@ -696,7 +696,7 @@
                     "col2": { "text": "Cryptography and Network Security" },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://classroom.google.com/c/NjkzNjc0Mjg3Mjcw"
+                      "url": "https://classroom.google.com/c/NjkzNjc0Mjg3Mjcw"
                     }
                   },
                   {
@@ -704,7 +704,7 @@
                     "col2": { "text": "Computer Architecture" },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://classroom.google.com/c/NjkzNTc0NDE5ODEz"
+                      "url": "https://classroom.google.com/c/NjkzNTc0NDE5ODEz"
                     }
                   },
                   {
@@ -712,7 +712,7 @@
                     "col2": { "text": "Java Programming" },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://classroom.google.com/u/2/c/NjkzODU3ODgyMzA4"
+                      "url": "https://classroom.google.com/u/2/c/NjkzODU3ODgyMzA4"
                     }
                   },
                   {
@@ -720,7 +720,7 @@
                     "col2": { "text": "Database Management Systems" },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://classroom.google.com/c/Njk3NDU5OTIzOTkw?cjc=amu4r7a"
+                      "url": "https://classroom.google.com/c/Njk3NDU5OTIzOTkw?cjc=amu4r7a"
                     }
                   },
                   {
@@ -728,7 +728,7 @@
                     "col2": { "text": "Design and Analysis of Algorithms" },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://classroom.google.com/u/2/w/NjkzNjkzNDAyNDU1/t/all"
+                      "url": "https://classroom.google.com/u/2/w/NjkzNjkzNDAyNDU1/t/all"
                     }
                   },
                   {
@@ -736,7 +736,7 @@
                     "col2": { "text": "Operating Systems" },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://classroom.google.com/c/NjgwOTM4MDc2MDM2?cjc=aok4cw5"
+                      "url": "https://classroom.google.com/c/NjgwOTM4MDc2MDM2?cjc=aok4cw5"
                     }
                   },
                   {
@@ -746,7 +746,7 @@
                     },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://classroom.google.com/c/NzQyNTc0MzExNjQz?cjc=adcjcjk"
+                      "url": "https://classroom.google.com/c/NzQyNTc0MzExNjQz?cjc=adcjcjk"
                     }
                   },
                   {
@@ -754,7 +754,7 @@
                     "col2": { "text": "Cloud Computing" },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://classroom.google.com/c/NzMyODY1MDA4NDc2"
+                      "url": "https://classroom.google.com/c/NzMyODY1MDA4NDc2"
                     }
                   },
                   {
@@ -762,7 +762,7 @@
                     "col2": { "text": "Data Warehousing and Data Mining" },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://classroom.google.com/c/NzE2MTYxNjY1NDg0"
+                      "url": "https://classroom.google.com/c/NzE2MTYxNjY1NDg0"
                     }
                   },
                   {
@@ -770,7 +770,7 @@
                     "col2": { "text": "Big Data Analytics" },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://classroom.google.com/c/NzMyNTQ3MTkzOTI5?cjc=t2fvcia"
+                      "url": "https://classroom.google.com/c/NzMyNTQ3MTkzOTI5?cjc=t2fvcia"
                     }
                   },
                   {
@@ -778,7 +778,7 @@
                     "col2": { "text": "Software Engineering" },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://classroom.google.com/c/NzQyOTM0NjAxMDQ1"
+                      "url": "https://classroom.google.com/c/NzQyOTM0NjAxMDQ1"
                     }
                   },
                   {
@@ -786,7 +786,7 @@
                     "col2": { "text": "Artificial Intelligence" },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://classroom.google.com/c/NzQwMjY3MjEyMTc4?cjc=jvxz4s5"
+                      "url": "https://classroom.google.com/c/NzQwMjY3MjEyMTc4?cjc=jvxz4s5"
                     }
                   },
                   {
@@ -794,7 +794,7 @@
                     "col2": { "text": "Advanced Algorithms" },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://classroom.google.com/u/2/w/NzMzMDM0NDYzNzAx/t/all"
+                      "url": "https://classroom.google.com/u/2/w/NzMzMDM0NDYzNzAx/t/all"
                     }
                   },
                   {
@@ -802,7 +802,7 @@
                     "col2": { "text": "Communication and Networks" },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://classroom.google.com/c/NzMyODY1MDA4NDc2"
+                      "url": "https://classroom.google.com/c/NzMyODY1MDA4NDc2"
                     }
                   },
                   {
@@ -810,7 +810,7 @@
                     "col2": { "text": "Web Application Development" },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://classroom.google.com/u/1/c/NzQyODIxOTg2MjEz"
+                      "url": "https://classroom.google.com/u/1/c/NzQyODIxOTg2MjEz"
                     }
                   }
                 ]
@@ -1030,7 +1030,7 @@
                     "col2": { "text": "Operating Systems" },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://classroom.google.com/u/1/c/NTQxMDE2NjQ1MTE3"
+                      "url": "https://classroom.google.com/u/1/c/NTQxMDE2NjQ1MTE3"
                     }
                   },
                   {
@@ -1038,7 +1038,7 @@
                     "col2": { "text": "Mobile Computing And Communication" },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://classroom.google.com/c/NTgxNzA4NzM2MDE0?cjc=qjkqfkp"
+                      "url": "https://classroom.google.com/c/NTgxNzA4NzM2MDE0?cjc=qjkqfkp"
                     }
                   },
                   {
@@ -1046,7 +1046,7 @@
                     "col2": { "text": "Computer Graphics And Multimedia" },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://drive.google.com/drive/u/0/folders/1lZnP_afbLEZV4i5mvGuwW5GTvl5aBGRSWLo6HWbjh8v9vjLjpPGtLfxWoI91YSW8RcpEdMr3"
+                      "url": "https://drive.google.com/drive/u/0/folders/1lZnP_afbLEZV4i5mvGuwW5GTvl5aBGRSWLo6HWbjh8v9vjLjpPGtLfxWoI91YSW8RcpEdMr3"
                     }
                   },
                   {
@@ -1054,7 +1054,7 @@
                     "col2": { "text": "Computer Graphics And Multimedia" },
                     "col3": {
                       "text": "Click Here",
-                      "href": "http://shorturl.at/ckCMR"
+                      "url": "http://shorturl.at/ckCMR"
                     }
                   },
                   {
@@ -1062,7 +1062,7 @@
                     "col2": { "text": "Cryptography And Network Security" },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://drive.google.com/drive/folders/1Kq0oSD776fuG4LluUBBUg8dzzUxKKReZL0bgSqBXIu6z7CjIpOShNgQXgui5Y0C2a3T_iQnQ"
+                      "url": "https://drive.google.com/drive/folders/1Kq0oSD776fuG4LluUBBUg8dzzUxKKReZL0bgSqBXIu6z7CjIpOShNgQXgui5Y0C2a3T_iQnQ"
                     }
                   },
                   {
@@ -1072,7 +1072,7 @@
                     },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://drive.google.com/drive/folders/1Bo4C7_ux1Ke6tvvdzZg5VpPlkKquS_JcSd_L0P9jy8sNYugdrk-9MB8Z5uQLlK1U5eHRo4wL"
+                      "url": "https://drive.google.com/drive/folders/1Bo4C7_ux1Ke6tvvdzZg5VpPlkKquS_JcSd_L0P9jy8sNYugdrk-9MB8Z5uQLlK1U5eHRo4wL"
                     }
                   },
                   {
@@ -1080,7 +1080,7 @@
                     "col2": { "text": "Advanced Java Programming" },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://drive.google.com/drive/u/2/folders/15Ow28Y09neKEc1RRKli2ICreYLmRwhUwUyqstxwN-cojFwZj3i914VxVxxg5r5YSfpFfU4SU"
+                      "url": "https://drive.google.com/drive/u/2/folders/15Ow28Y09neKEc1RRKli2ICreYLmRwhUwUyqstxwN-cojFwZj3i914VxVxxg5r5YSfpFfU4SU"
                     }
                   },
                   {
@@ -1088,7 +1088,7 @@
                     "col2": { "text": "Operating Systems" },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://drive.google.com/drive/folders/1SDSFG-bzBySvVT3gMZdMCdF-duZKo4wOkAl-Yk7iaI3WqkaLWwk58H_BH397FloOae0INw21"
+                      "url": "https://drive.google.com/drive/folders/1SDSFG-bzBySvVT3gMZdMCdF-duZKo4wOkAl-Yk7iaI3WqkaLWwk58H_BH397FloOae0INw21"
                     }
                   },
                   {
@@ -1096,7 +1096,7 @@
                     "col2": { "text": "Cloud Computing Technique" },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://drive.google.com/drive/folders/1TWAsb-JIzFMe51sssDXdmy3FUnJUNVqwOFbASXbgw7ttojgvLVYydRhtHquiQLZd6ClbDGUV"
+                      "url": "https://drive.google.com/drive/folders/1TWAsb-JIzFMe51sssDXdmy3FUnJUNVqwOFbASXbgw7ttojgvLVYydRhtHquiQLZd6ClbDGUV"
                     }
                   },
                   {
@@ -1104,7 +1104,7 @@
                     "col2": { "text": "Advanced Java Programming" },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://drive.google.com/drive/folders/1uXSOoCdxQrgqMLe6eNg_ug2-I6dZV-23hk9dADCBM5Lj_AsMdjz-lsB6bywAg-1Khd3Lbn_6"
+                      "url": "https://drive.google.com/drive/folders/1uXSOoCdxQrgqMLe6eNg_ug2-I6dZV-23hk9dADCBM5Lj_AsMdjz-lsB6bywAg-1Khd3Lbn_6"
                     }
                   },
                   {
@@ -1112,7 +1112,7 @@
                     "col2": { "text": "Advanced Java Programming" },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://drive.google.com/drive/folders/1F9gf2VvxoU06yuvuJyoRJ6v7vRbzGcUqiFz8nDeVLKpKWX7yEOqY2xFSHgVxHBU7VUG_7rsX"
+                      "url": "https://drive.google.com/drive/folders/1F9gf2VvxoU06yuvuJyoRJ6v7vRbzGcUqiFz8nDeVLKpKWX7yEOqY2xFSHgVxHBU7VUG_7rsX"
                     }
                   },
                   {
@@ -1120,7 +1120,7 @@
                     "col2": { "text": "Advanced Data Structures" },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://drive.google.com/drive/u/1/folders/1FzfC7woGrSxrVnZY6n4pifpZv9Qxm8SL4XOnNlEtwJyNk96BI4WQ9r5TxrAywtdvCgwErbmR"
+                      "url": "https://drive.google.com/drive/u/1/folders/1FzfC7woGrSxrVnZY6n4pifpZv9Qxm8SL4XOnNlEtwJyNk96BI4WQ9r5TxrAywtdvCgwErbmR"
                     }
                   },
                   {
@@ -1128,7 +1128,7 @@
                     "col2": { "text": "Computer Architecture" },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://drive.google.com/drive/folders/1B5GLWR7DWEih7b85obprAzLcbr07AN5_XmJWC0vr54V4wZh0KHeGXiXGna7XYB9N63_xLCM2"
+                      "url": "https://drive.google.com/drive/folders/1B5GLWR7DWEih7b85obprAzLcbr07AN5_XmJWC0vr54V4wZh0KHeGXiXGna7XYB9N63_xLCM2"
                     }
                   },
                   {
@@ -1136,7 +1136,7 @@
                     "col2": { "text": "Data Structures" },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://drive.google.com/drive/folders/1v2RXAnhjCwCRyvBS9trdzqYxq0BW7wL8aoh1qA66kRQJbnTPeH55y3wZhI6CmIFyttEw5yTn"
+                      "url": "https://drive.google.com/drive/folders/1v2RXAnhjCwCRyvBS9trdzqYxq0BW7wL8aoh1qA66kRQJbnTPeH55y3wZhI6CmIFyttEw5yTn"
                     }
                   },
                   {
@@ -1144,7 +1144,7 @@
                     "col2": { "text": "Data Warehousing And Data Mining" },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://drive.google.com/drive/u/1/folders/1FYnhbIGiMDGhbZV2vEQ2wl0YcHAuiwB5oPjMTXkSZ4xlv0iC7EUQgDCQJI6lr_kVSyb0Vv1Q"
+                      "url": "https://drive.google.com/drive/u/1/folders/1FYnhbIGiMDGhbZV2vEQ2wl0YcHAuiwB5oPjMTXkSZ4xlv0iC7EUQgDCQJI6lr_kVSyb0Vv1Q"
                     }
                   },
                   {
@@ -1152,7 +1152,7 @@
                     "col2": { "text": "Industry 4.0" },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://drive.google.com/drive/folders/1P21RS3HNJen5eLldP679A8scBUOUEsyU5qA5KlI00bFfyKOktjQZTmpbJcaZUKEQ-1sk11W-?authuser=0"
+                      "url": "https://drive.google.com/drive/folders/1P21RS3HNJen5eLldP679A8scBUOUEsyU5qA5KlI00bFfyKOktjQZTmpbJcaZUKEQ-1sk11W-?authuser=0"
                     }
                   }
                 ]
@@ -1174,7 +1174,7 @@
                     "col2": { "text": "Operating System" },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://classroom.google.com/u/0/c/NDY3MTQzMDExNzQ4"
+                      "url": "https://classroom.google.com/u/0/c/NDY3MTQzMDExNzQ4"
                     }
                   },
                   {
@@ -1182,7 +1182,7 @@
                     "col2": { "text": "Advanced Java Programming" },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://classroom.google.com/c/NDc3MTMxNTIzODkw?cjc=iecqp6b"
+                      "url": "https://classroom.google.com/c/NDc3MTMxNTIzODkw?cjc=iecqp6b"
                     }
                   },
                   {
@@ -1190,7 +1190,7 @@
                     "col2": { "text": "Advanced Data Structures" },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://classroom.google.com/u/1/c/NDc1MTUwMTkxNDg0"
+                      "url": "https://classroom.google.com/u/1/c/NDc1MTUwMTkxNDg0"
                     }
                   },
                   {
@@ -1198,7 +1198,7 @@
                     "col2": { "text": "Cryptography And Network Security" },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://classroom.google.com/u/4/c/NDgzNTY0ODI2NDI0"
+                      "url": "https://classroom.google.com/u/4/c/NDgzNTY0ODI2NDI0"
                     }
                   },
                   {
@@ -1206,7 +1206,7 @@
                     "col2": { "text": "Data Structures" },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://classroom.google.com/c/MjI2NDkzMjM4MTk3?cjc=wpxzblv"
+                      "url": "https://classroom.google.com/c/MjI2NDkzMjM4MTk3?cjc=wpxzblv"
                     }
                   },
                   {
@@ -1214,7 +1214,7 @@
                     "col2": { "text": "Programming Logic Design" },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://classroom.google.com/c/NDM1MjAwNzEwMjUy?cjc=manx5ah"
+                      "url": "https://classroom.google.com/c/NDM1MjAwNzEwMjUy?cjc=manx5ah"
                     }
                   },
                   {
@@ -1222,7 +1222,7 @@
                     "col2": { "text": "Advanced C Programming" },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://classroom.google.com/c/NDg0OTE3MzgzMTE5?cjc=c2cq6v4"
+                      "url": "https://classroom.google.com/c/NDg0OTE3MzgzMTE5?cjc=c2cq6v4"
                     }
                   },
                   {
@@ -1230,7 +1230,7 @@
                     "col2": { "text": "Computer Graphics And Multimedia" },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://classroom.google.com/c/NDc0ODQzNzc4MTM3?cjc=2ckdnj6"
+                      "url": "https://classroom.google.com/c/NDc0ODQzNzc4MTM3?cjc=2ckdnj6"
                     }
                   }
                 ]

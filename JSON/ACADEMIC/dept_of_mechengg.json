@@ -1008,7 +1008,7 @@
                     "col2": { "text": "Engineering Materials and Metallurgy" },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://classroom.google.com/c/NzQyODA5MTA3OTA3"
+                      "url": "https://classroom.google.com/c/NzQyODA5MTA3OTA3"
                     },
                     "col4": { "text": "Dr. K. Ravi Kumar, Dr. M. Goudilyan" }
                   },
@@ -1017,7 +1017,7 @@
                     "col2": { "text": "Thermal Engineering" },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://classroom.google.com/c/NzMzMjk0ODA0MzYw"
+                      "url": "https://classroom.google.com/c/NzMzMjk0ODA0MzYw"
                     },
                     "col4": { "text": "R. Arulmurugan" }
                   },
@@ -1026,7 +1026,7 @@
                     "col2": { "text": "Strength of Materials" },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://classroom.google.com/u/0/c/NzQyNjgwMzU1NzIw"
+                      "url": "https://classroom.google.com/u/0/c/NzQyNjgwMzU1NzIw"
                     },
                     "col4": { "text": "Dr. S. Vimal Anand" }
                   },
@@ -1035,7 +1035,7 @@
                     "col2": { "text": "Strength of Materials" },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://classroom.google.com/c/NzMzMjk0ODY0NzA4"
+                      "url": "https://classroom.google.com/c/NzMzMjk0ODY0NzA4"
                     },
                     "col4": { "text": "R. Arulmurugan" }
                   },
@@ -1044,7 +1044,7 @@
                     "col2": { "text": "Manufacturing Technology" },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://classroom.google.com/c/NzQyODc3MzM3ODk3?cjc=jhqel4n"
+                      "url": "https://classroom.google.com/c/NzQyODc3MzM3ODk3?cjc=jhqel4n"
                     },
                     "col4": {
                       "text": "Dr. S. Vimal Anand, Dr. V. V. Arun Sankar"
@@ -1055,7 +1055,7 @@
                     "col2": { "text": "Manufacturing Technology" },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://classroom.google.com/u/0/c/NzQyODg1MDAwMTY2"
+                      "url": "https://classroom.google.com/u/0/c/NzQyODg1MDAwMTY2"
                     },
                     "col4": { "text": "Dr. S. Vimal Anand" }
                   },
@@ -1064,7 +1064,7 @@
                     "col2": { "text": "Theory of Machines" },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://classroom.google.com/c/NzQyODcxNjQ1OTAy?cjc=edaoret"
+                      "url": "https://classroom.google.com/c/NzQyODcxNjQ1OTAy?cjc=edaoret"
                     },
                     "col4": { "text": "Mr. M. Rajesh, Mr. K. Arunkumar" }
                   },
@@ -1073,7 +1073,7 @@
                     "col2": { "text": "Design of Transmission Systems" },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://classroom.google.com/c/NzQxODM2ODE1MjMz?cjc=irfmjto"
+                      "url": "https://classroom.google.com/c/NzQxODM2ODE1MjMz?cjc=irfmjto"
                     },
                     "col4": { "text": "Mr. R. Haridass, Mr. N. Subramani" }
                   },
@@ -1082,7 +1082,7 @@
                     "col2": { "text": "Metrology and Measurements" },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://classroom.google.com/c/NzQyODAwODU5MTE3"
+                      "url": "https://classroom.google.com/c/NzQyODAwODU5MTE3"
                     },
                     "col4": { "text": "Mr. S. Chitharthan, R. Sathish" }
                   },
@@ -1091,7 +1091,7 @@
                     "col2": { "text": "Gas Dynamics and Jet Propulsion" },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://classroom.google.com/c/NzMzMjQ2ODUzNjg0?cjc=uljl3hk"
+                      "url": "https://classroom.google.com/c/NzMzMjQ2ODUzNjg0?cjc=uljl3hk"
                     },
                     "col4": { "text": "Mr. N. Subramani, Dr. J. Ganesh Murali" }
                   },
@@ -1100,7 +1100,7 @@
                     "col2": { "text": "Electric and Hybrid Vehicles" },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://classroom.google.com/c/NzQyMjE0NDcwNTU3?cjc=frb6srg"
+                      "url": "https://classroom.google.com/c/NzQyMjE0NDcwNTU3?cjc=frb6srg"
                     },
                     "col4": { "text": "Dr. V. V. Arun Sankar" }
                   },
@@ -1109,7 +1109,7 @@
                     "col2": { "text": "Finite Element Method" },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://classroom.google.com/c/NzMzMzA5NDg0MTIy?cjc=5dfdp55"
+                      "url": "https://classroom.google.com/c/NzMzMzA5NDg0MTIy?cjc=5dfdp55"
                     },
                     "col4": { "text": "Mr. R. Masilamani, Mr. R. Haridass" }
                   },
@@ -1120,7 +1120,7 @@
                     },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://classroom.google.com/c/NzMzMzA2MTQyNjYy?cjc=tcgk3cw"
+                      "url": "https://classroom.google.com/c/NzMzMzA2MTQyNjYy?cjc=tcgk3cw"
                     },
                     "col4": { "text": "V. Kondusamy" }
                   },
@@ -1131,7 +1131,7 @@
                     },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://classroom.google.com/c/NzQyODY4ODU0MDA5?cjc=v5skpe4"
+                      "url": "https://classroom.google.com/c/NzQyODY4ODU0MDA5?cjc=v5skpe4"
                     },
                     "col4": { "text": "V. Kondusamy" }
                   },
@@ -1142,7 +1142,7 @@
                     },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://classroom.google.com/c/NzMzMzA5NDA1MDAx?cjc=x7yh3cr"
+                      "url": "https://classroom.google.com/c/NzMzMzA5NDA1MDAx?cjc=x7yh3cr"
                     },
                     "col4": { "text": "R. Masilamani" }
                   },
@@ -1151,7 +1151,7 @@
                     "col2": { "text": "Industrial Robotics" },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://classroom.google.com/c/NzMzMzA4OTc1Njcx"
+                      "url": "https://classroom.google.com/c/NzMzMzA4OTc1Njcx"
                     },
                     "col4": { "text": "R. Sathish, S. Chitharthan" }
                   },
@@ -1160,7 +1160,7 @@
                     "col2": { "text": "Theory of Machines" },
                     "col3": {
                       "text": "Click Here",
-                      "href": "https://classroom.google.com/c/NzMzMzA5MzM4NzQ4"
+                      "url": "https://classroom.google.com/c/NzMzMzA5MzM4NzQ4"
                     },
                     "col4": { "text": "Mr. K. Arunkumar" }
                   }
