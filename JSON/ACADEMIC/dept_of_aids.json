@@ -16,7 +16,6 @@
       }
     ]
   },
-
   "sections": [
     {
       "type": "image-overlay-card",
@@ -28,18 +27,15 @@
         ]
       }
     },
-
     {
       "type": "plain-para",
       "data": {
         "content": [
           "The program, spanning 4 years and divided into 8 semesters, equips students with the skills and expertise needed for R&D positions in industry, academia, and research laboratories. It also emphasizes practical applications through elective courses in domains like robotics, medical signal processing, data mining, business analytics, and more.",
-
           "Upon completion, graduates have opportunities for fully paid internships and placements at top companies like Intel, Cerner, Robert Bosch, DELL, etc. The program’s focus on AI and data science prepares students for high-paying careers in industries such as manufacturing, e-commerce, banking, finance, transport, and healthcare, where intelligent business solutions and big data solutions are in high demand."
         ]
       }
     },
-
     {
       "type": "img-slider-content",
       "data": {
@@ -77,7 +73,6 @@
         ]
       }
     },
-
     {
       "type": "key-value-cards",
       "data": {
@@ -139,7 +134,6 @@
         ]
       }
     },
-
     {
       "type": "logo-img",
       "data": {
@@ -177,7 +171,6 @@
         ]
       }
     },
-
     {
       "type": "split-col-con",
       "data": {
@@ -256,7 +249,6 @@
         ]
       }
     },
-
     {
       "type": "half-card-img",
       "data": {
@@ -283,12 +275,10 @@
         ]
       }
     },
-
     {
       "type": "image-overlay-content",
       "data": {
         "bgImage": "/images/kce/academics/regulation.webp",
-
         "title": "Regulations",
         "list": [
           {
@@ -298,7 +288,6 @@
         ]
       }
     },
-
     {
       "type": "tabs",
       "data": {
@@ -345,7 +334,6 @@
             "sections": [
               {
                 "type": "card-list2",
-
                 "data": {
                   "title": "Programme Outcomes (POs)",
                   "content": [
@@ -414,14 +402,12 @@
               }
             ]
           },
-
           "pso": {
             "sections": [
               {
                 "type": "card-list3",
                 "data": {
                   "title": "Program Specific Outcomes (PSOs)",
-
                   "content": [
                     {
                       "code": "PSO1",
@@ -439,7 +425,6 @@
         }
       }
     },
-
     {
       "type": "split-image-content",
       "data": {
@@ -485,223 +470,194 @@
               },
               "sectionTi": "Our faculty",
               "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
-
               "faculty": [
                 {
-                  "id": 0,
-                  "name": "Dr. Karthigaikumar P",
-                  "designation": "Principal",
-                  "degree": "M.E, Ph.D",
-                  "src": "/images/kce/Portrait_Placeholder.png"
-                },
-                {
                   "id": 1,
-                  "name": "Dr. Sophia S",
-                  "designation": "Dean – Academics",
-                  "degree": "M.E, Ph.D",
-                  "src": "/images/kce/Portrait_Placeholder.png"
-                },
-                {
-                  "id": 2,
-                  "name": "Dr. Sarankumar R",
+                  "name": "Dr. Vijaya G",
                   "designation": "Professor / Head",
                   "degree": "M.E, Ph.D",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
-                  "id": 3,
-                  "name": "Dr. Rajendran A",
+                  "id": 2,
+                  "name": "Dr. Murugeswari P",
                   "designation": "Professor",
-                  "degree": "M.S, Ph.D",
+                  "degree": "M.Tech., Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 3,
+                  "name": "Dr. Bhuvaneshwari K S",
+                  "designation": "Professor",
+                  "degree": "M.E, Ph.D",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
                   "id": 4,
-                  "name": "Dr. Saravanakumar G",
+                  "name": "Dr. Kiruthiga G",
                   "designation": "Professor",
-                  "degree": "M.Tech, Ph.D",
+                  "degree": "M.E, Ph.D",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
                   "id": 5,
-                  "name": "Dr. Sheela Sobana Rani K",
+                  "name": "Dr. Chitra Devi N",
                   "designation": "Professor",
                   "degree": "M.E, Ph.D",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
                   "id": 6,
-                  "name": "Dr. Balambigai S",
+                  "name": "Dr. Surendran D",
                   "designation": "Professor",
                   "degree": "M.E, Ph.D",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
                   "id": 7,
-                  "name": "Dr. Mohankumar J",
+                  "name": "Dr. Sherubha P",
                   "designation": "Professor",
-                  "degree": "M.E, Ph.D",
+                  "degree": "M.Tech, Ph.D",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
                   "id": 8,
-                  "name": "Dr. Priya C",
+                  "name": "Dr. Nithyavathy R",
                   "designation": "Associate Professor",
                   "degree": "M.E, Ph.D",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
                   "id": 9,
-                  "name": "Dr. Deepa S",
+                  "name": "Dr. Keerthika R",
                   "designation": "Associate Professor",
-                  "degree": "M.E, Ph.D",
+                  "degree": "M.Tech, Ph.D",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
                   "id": 10,
-                  "name": "Dr. Swamynathan S.M",
-                  "designation": "Associate Professor",
+                  "name": "Dr. Castro S",
+                  "designation": "Assistant Professor",
                   "degree": "M.E, Ph.D",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
                   "id": 11,
-                  "name": "Dr. Suresh Babu A",
-                  "designation": "Associate Professor",
-                  "degree": "M.E, Ph.D",
+                  "name": "Ms. Vishnupriya K",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
                   "id": 12,
-                  "name": "Dr. Maruthi Shankar B",
-                  "designation": "Associate Professor",
-                  "degree": "M.E, Ph.D",
+                  "name": "Mr. Mohammed Ansar Ali MA",
+                  "designation": "Assistant Professor",
+                  "degree": "M.Tech.",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
                   "id": 13,
-                  "name": "Mr. Manikandan S",
+                  "name": "Ms. Akila K",
                   "designation": "Assistant Professor",
                   "degree": "M.E",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
                   "id": 14,
-                  "name": "Mr. Premananthan G",
+                  "name": "Ms.Hemalatha S",
                   "designation": "Assistant Professor",
                   "degree": "M.E",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
                   "id": 15,
-                  "name": "Dr. Arul Murugan C",
+                  "name": "Ms. Ramya M",
                   "designation": "Assistant Professor",
-                  "degree": "M.E, Ph.D",
+                  "degree": "M.E",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
                   "id": 16,
-                  "name": "Mrs. Deepika R",
+                  "name": "Mr. Shivaji Rao G",
                   "designation": "Assistant Professor",
                   "degree": "M.E",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
                   "id": 17,
-                  "name": "Ms. Saranya L",
+                  "name": "Ms. Pushpalatha M",
                   "designation": "Assistant Professor",
                   "degree": "M.E",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
                   "id": 18,
-                  "name": "Mr. Jayadevan N M",
+                  "name": "Mr. Jegathesh P",
                   "designation": "Assistant Professor",
-                  "degree": "M.E",
+                  "degree": "M.Tech",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
                   "id": 19,
-                  "name": "Mrs. Vasumathi A",
+                  "name": "Ms. PonHiniya D Slyvia D",
                   "designation": "Assistant Professor",
                   "degree": "M.E",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
                   "id": 20,
-                  "name": "Ms. Archana P",
+                  "name": "Ms.Srimathi T",
                   "designation": "Assistant Professor",
                   "degree": "M.E",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
                   "id": 21,
-                  "name": "Mrs. Happila T",
+                  "name": "Mr. Mahesh D",
                   "designation": "Assistant Professor",
-                  "degree": "M.Tech",
+                  "degree": "M.E",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
                   "id": 22,
-                  "name": "Ms. Agnipriya A",
+                  "name": "Ms. Dhivya P",
                   "designation": "Assistant Professor",
                   "degree": "M.E",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
                   "id": 23,
-                  "name": "Ms. Tharani Priya S",
+                  "name": "Ms. Abinaya V",
                   "designation": "Assistant Professor",
                   "degree": "M.E",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
                   "id": 24,
-                  "name": "Ms. Lavanya V",
+                  "name": "Ms.Saranya vyshali",
                   "designation": "Assistant Professor",
                   "degree": "M.E",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
                   "id": 25,
-                  "name": "Ms. Anandhi K",
+                  "name": "Mr. Surenther I",
                   "designation": "Assistant Professor",
                   "degree": "M.E",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
                   "id": 26,
-                  "name": "Ms. Mariselvi K",
+                  "name": "Mr. Narayanan EP",
                   "designation": "Assistant Professor",
                   "degree": "M.E",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
                   "id": 27,
-                  "name": "Ms. Kalpana M",
+                  "name": "Ms. Uma V",
                   "designation": "Assistant Professor",
                   "degree": "M.E",
-                  "src": "/images/kce/Portrait_Placeholder.png"
-                },
-                {
-                  "id": 28,
-                  "name": "Mr. Sabarinathan D",
-                  "designation": "Assistant Professor",
-                  "degree": "M.E",
-                  "src": "/images/kce/Portrait_Placeholder.png"
-                },
-                {
-                  "id": 29,
-                  "name": "Ms. Priya Devi T",
-                  "designation": "Assistant Professor",
-                  "degree": "M.E",
-                  "src": "/images/kce/Portrait_Placeholder.png"
-                },
-                {
-                  "id": 30,
-                  "name": "Dr. Parthibaraj A",
-                  "designation": "Assistant Professor",
-                  "degree": "M.E, Ph.D",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 }
               ]
@@ -710,7 +666,6 @@
         ]
       }
     },
-
     {
       "type": "table",
       "data": {
@@ -720,48 +675,104 @@
             "content": [
               {
                 "head": [
-                  { "id": "col1", "label": "Core" },
-                  { "id": "col2", "label": "Addition to Core" }
+                  {
+                    "id": "col1",
+                    "label": "Core"
+                  },
+                  {
+                    "id": "col2",
+                    "label": "Addition to Core"
+                  }
                 ],
                 "data": [
                   {
-                    "col1": { "text": "Data Science" },
-                    "col2": { "text": "Apache Spark" }
+                    "col1": {
+                      "text": "Data Science"
+                    },
+                    "col2": {
+                      "text": "Apache Spark"
+                    }
                   },
                   {
-                    "col1": { "text": "Data Analytics" },
-                    "col2": { "text": "Apache Kafka" }
+                    "col1": {
+                      "text": "Data Analytics"
+                    },
+                    "col2": {
+                      "text": "Apache Kafka"
+                    }
                   },
                   {
-                    "col1": { "text": "R Program" },
-                    "col2": { "text": "Apache Hadoop" }
+                    "col1": {
+                      "text": "R Program"
+                    },
+                    "col2": {
+                      "text": "Apache Hadoop"
+                    }
                   },
                   {
-                    "col1": { "text": "Foundation of AI" },
-                    "col2": { "text": "Sqoop" }
+                    "col1": {
+                      "text": "Foundation of AI"
+                    },
+                    "col2": {
+                      "text": "Sqoop"
+                    }
                   },
                   {
-                    "col1": { "text": "Machine Learning" },
-                    "col2": { "text": "Flume" }
+                    "col1": {
+                      "text": "Machine Learning"
+                    },
+                    "col2": {
+                      "text": "Flume"
+                    }
                   },
                   {
-                    "col1": { "text": "Deep Learning" },
-                    "col2": { "text": "Data Visualization" }
+                    "col1": {
+                      "text": "Deep Learning"
+                    },
+                    "col2": {
+                      "text": "Data Visualization"
+                    }
                   },
                   {
-                    "col1": { "text": "RPA / Robotics" },
-                    "col2": { "text": " " }
+                    "col1": {
+                      "text": "RPA / Robotics"
+                    },
+                    "col2": {
+                      "text": " "
+                    }
                   },
                   {
-                    "col1": { "text": "Data Visualization" },
-                    "col2": { "text": " " }
+                    "col1": {
+                      "text": "Data Visualization"
+                    },
+                    "col2": {
+                      "text": " "
+                    }
                   },
                   {
-                    "col1": { "text": "Computer Vision" },
-                    "col2": { "text": " " }
+                    "col1": {
+                      "text": "Computer Vision"
+                    },
+                    "col2": {
+                      "text": " "
+                    }
                   },
-                  { "col1": { "text": "NLP" }, "col2": { "text": " " } },
-                  { "col1": { "text": "Auto ML" }, "col2": { "text": " " } }
+                  {
+                    "col1": {
+                      "text": "NLP"
+                    },
+                    "col2": {
+                      "text": " "
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Auto ML"
+                    },
+                    "col2": {
+                      "text": " "
+                    }
+                  }
                 ]
               }
             ]
@@ -769,7 +780,6 @@
         ]
       }
     },
-
     {
       "type": "icon-card",
       "data": {
@@ -794,26 +804,39 @@
         ]
       }
     },
-
     {
       "type": "image-overlay-content",
       "data": {
         "bgImage": "/images/kce/academics/banner.jpg",
-
         "title": "Job Opportunities",
         "list": [
-          { "title": "Artificial Intelligence Engineer" },
-          { "title": "Data Scientist" },
-          { "title": "Business Intelligence Developer" },
-          { "title": "Data Analyst" },
-          { "title": "Product Analyst" },
-          { "title": "Full stack developer" },
-          { "title": "Machine Learning Engineer" },
-          { "title": "Machine Learning Architect" }
+          {
+            "title": "Artificial Intelligence Engineer"
+          },
+          {
+            "title": "Data Scientist"
+          },
+          {
+            "title": "Business Intelligence Developer"
+          },
+          {
+            "title": "Data Analyst"
+          },
+          {
+            "title": "Product Analyst"
+          },
+          {
+            "title": "Full stack developer"
+          },
+          {
+            "title": "Machine Learning Engineer"
+          },
+          {
+            "title": "Machine Learning Architect"
+          }
         ]
       }
     },
-
     {
       "type": "table",
       "data": {
@@ -823,27 +846,56 @@
             "content": [
               {
                 "head": [
-                  { "id": "col1", "label": "IN GLOBAL" },
-                  { "id": "col2", "label": "IN INDIA" }
+                  {
+                    "id": "col1",
+                    "label": "IN GLOBAL"
+                  },
+                  {
+                    "id": "col2",
+                    "label": "IN INDIA"
+                  }
                 ],
                 "data": [
                   {
-                    "col1": { "text": "Amazon" },
-                    "col2": { "text": "Tata Consultancy Services" }
+                    "col1": {
+                      "text": "Amazon"
+                    },
+                    "col2": {
+                      "text": "Tata Consultancy Services"
+                    }
                   },
                   {
-                    "col1": { "text": "Google" },
-                    "col2": { "text": "Accenture" }
+                    "col1": {
+                      "text": "Google"
+                    },
+                    "col2": {
+                      "text": "Accenture"
+                    }
                   },
                   {
-                    "col1": { "text": "Databricks" },
-                    "col2": { "text": "Tiger Analytics" }
+                    "col1": {
+                      "text": "Databricks"
+                    },
+                    "col2": {
+                      "text": "Tiger Analytics"
+                    }
                   },
                   {
-                    "col1": { "text": "DataRobot" },
-                    "col2": { "text": "Amazon India" }
+                    "col1": {
+                      "text": "DataRobot"
+                    },
+                    "col2": {
+                      "text": "Amazon India"
+                    }
                   },
-                  { "col1": { "text": "" }, "col2": { "text": "CTS" } }
+                  {
+                    "col1": {
+                      "text": ""
+                    },
+                    "col2": {
+                      "text": "CTS"
+                    }
+                  }
                 ]
               }
             ]
@@ -851,14 +903,12 @@
         ]
       }
     },
-
     {
       "type": "content-counter-style",
       "data": {
         "content": [
           {
             "img": "/images/kce/image-2.jpg",
-
             "title": "PROGRAMS",
             "subtitle": "B.Tech – Artificial Intelligence and Data Science",
             "desc": "The program is designed to build strong foundations in Artificial Intelligence, Data Science, and intelligent computing to meet current and future industry demands.",
@@ -883,7 +933,6 @@
                 "num": "6 Semesters",
                 "text": "Lateral Entry"
               },
-
               {
                 "icon": "/images/kce/academics/lab-icon.svg",
                 "num": "120",
@@ -898,10 +947,11 @@
                   "Must have secured a pass in Physics, Chemistry and Mathematics in the qualifying examination."
                 ]
               },
-
               {
                 "title": "Scope for Higher Studies",
-                "list": ["M.E. / M. Tech. / MBA / M.S. / Researcher"]
+                "list": [
+                  "M.E. / M. Tech. / MBA / M.S. / Researcher"
+                ]
               }
             ]
           }
