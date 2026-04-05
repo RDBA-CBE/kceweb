@@ -362,197 +362,193 @@
 
               "faculty": [
                 {
-                  "faculty": [
-                    {
-                      "id": 1,
-                      "name": "Dr. Prabakar D",
-                      "designation": "Professor / Head",
-                      "degree": "M.E, Ph.D",
-                      "src": "/images/kce/Portrait_Placeholder.png"
-                    },
-                    {
-                      "id": 2,
-                      "name": "Dr. Sangeetha S",
-                      "designation": "Professor",
-                      "degree": "M.E, Ph.D",
-                      "src": "/images/kce/Portrait_Placeholder.png"
-                    },
-                    {
-                      "id": 3,
-                      "name": "Dr. Kannimuthu S",
-                      "designation": "Professor",
-                      "degree": "M.E, Ph.D",
-                      "src": "/images/kce/Portrait_Placeholder.png"
-                    },
-                    {
-                      "id": 4,
-                      "name": "Dr. Prabha D",
-                      "designation": "Professor",
-                      "degree": "M.E, Ph.D",
-                      "src": "/images/kce/Portrait_Placeholder.png"
-                    },
-                    {
-                      "id": 5,
-                      "name": "Dr. Sujaritha M",
-                      "designation": "Professor",
-                      "degree": "M.E, Ph.D",
-                      "src": "/images/kce/Portrait_Placeholder.png"
-                    },
-                    {
-                      "id": 6,
-                      "name": "Dr. Arul Antran Vijay S",
-                      "designation": "Associate Professor",
-                      "degree": "M.Tech., Ph.D",
-                      "src": "/images/kce/Portrait_Placeholder.png"
-                    },
-                    {
-                      "id": 7,
-                      "name": "Dr. Jasmine J",
-                      "designation": "Associate Professor",
-                      "degree": "M.E, Ph.D",
-                      "src": "/images/kce/Portrait_Placeholder.png"
-                    },
-                    {
-                      "id": 8,
-                      "name": "Dr. Arun Kumar P M.",
-                      "designation": "Associate Professor",
-                      "degree": "M.E, Ph.D",
-                      "src": "/images/kce/Portrait_Placeholder.png"
-                    },
-                    {
-                      "id": 9,
-                      "name": "Dr. Babu M",
-                      "designation": "Associate Professor",
-                      "degree": "M.E, Ph.D",
-                      "src": "/images/kce/Portrait_Placeholder.png"
-                    },
-                    {
-                      "id": 10,
-                      "name": "Ms. Aarthi D",
-                      "designation": "Assistant Professor",
-                      "degree": "M.E",
-                      "src": "/images/kce/Portrait_Placeholder.png"
-                    },
-                    {
-                      "id": 11,
-                      "name": "Ms. Rajapriya D",
-                      "designation": "Assistant Professor",
-                      "degree": "M.E",
-                      "src": "/images/kce/Portrait_Placeholder.png"
-                    },
-                    {
-                      "id": 12,
-                      "name": "Dr. Senthil P",
-                      "designation": "Assistant Professor",
-                      "degree": "M.Tech., Ph.D",
-                      "src": "/images/kce/Portrait_Placeholder.png"
-                    },
-                    {
-                      "id": 13,
-                      "name": "Mr. Ramaraj S",
-                      "designation": "Assistant Professor",
-                      "degree": "M.E",
-                      "src": "/images/kce/Portrait_Placeholder.png"
-                    },
-                    {
-                      "id": 14,
-                      "name": "Mr. Venkatesh R",
-                      "designation": "Assistant Professor",
-                      "degree": "M.E",
-                      "src": "/images/kce/Portrait_Placeholder.png"
-                    },
-                    {
-                      "id": 15,
-                      "name": "Ms. Vidya Prabha CV",
-                      "designation": "Assistant Professor",
-                      "degree": "M.E",
-                      "src": "/images/kce/Portrait_Placeholder.png"
-                    },
-                    {
-                      "id": 16,
-                      "name": "Ms. Mariyammal C",
-                      "designation": "Assistant Professor",
-                      "degree": "M.E",
-                      "src": "/images/kce/Portrait_Placeholder.png"
-                    },
-                    {
-                      "id": 17,
-                      "name": "Dr. Monisha R",
-                      "designation": "Assistant Professor",
-                      "degree": "M.E, Ph.D",
-                      "src": "/images/kce/Portrait_Placeholder.png"
-                    },
-                    {
-                      "id": 18,
-                      "name": "Mr. Deena Dhayalan R",
-                      "designation": "Assistant Professor",
-                      "degree": "M.E",
-                      "src": "/images/kce/Portrait_Placeholder.png"
-                    },
-                    {
-                      "id": 19,
-                      "name": "Mr. Prameen D",
-                      "designation": "Assistant Professor",
-                      "degree": "M.E",
-                      "src": "/images/kce/Portrait_Placeholder.png"
-                    },
-                    {
-                      "id": 20,
-                      "name": "Ms. Banu Priya M",
-                      "designation": "Assistant Professor",
-                      "degree": "M.E",
-                      "src": "/images/kce/Portrait_Placeholder.png"
-                    },
-                    {
-                      "id": 21,
-                      "name": "Ms. Sabina Parveen",
-                      "designation": "Assistant Professor",
-                      "degree": "M.E",
-                      "src": "/images/kce/Portrait_Placeholder.png"
-                    },
-                    {
-                      "id": 22,
-                      "name": "Ms. Indhumathi R",
-                      "designation": "Assistant Professor",
-                      "degree": "M.E",
-                      "src": "/images/kce/Portrait_Placeholder.png"
-                    },
-                    {
-                      "id": 23,
-                      "name": "Ms. Ramya S",
-                      "designation": "Assistant Professor",
-                      "degree": "M.E",
-                      "src": "/images/kce/Portrait_Placeholder.png"
-                    },
-                    {
-                      "id": 24,
-                      "name": "Ms. Umadevi M",
-                      "designation": "Assistant Professor",
-                      "degree": "M.E",
-                      "src": "/images/kce/Portrait_Placeholder.png"
-                    },
-                    {
-                      "id": 25,
-                      "name": "Ms. Kokila V",
-                      "designation": "Assistant Professor",
-                      "degree": "M.E",
-                      "src": "/images/kce/Portrait_Placeholder.png"
-                    },
-                    {
-                      "id": 26,
-                      "name": "Mr. Praveen P",
-                      "designation": "Assistant Professor",
-                      "degree": "M.E",
-                      "src": "/images/kce/Portrait_Placeholder.png"
-                    },
-                    {
-                      "id": 27,
-                      "name": "Mr. Rajeshkumar R",
-                      "designation": "Assistant Professor",
-                      "degree": "M.E",
-                      "src": "/images/kce/Portrait_Placeholder.png"
-                    }
-                  ]
+                  "id": 1,
+                  "name": "Dr. Prabakar D",
+                  "designation": "Professor / Head",
+                  "degree": "M.E, Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 2,
+                  "name": "Dr. Sangeetha S",
+                  "designation": "Professor",
+                  "degree": "M.E, Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 3,
+                  "name": "Dr. Kannimuthu S",
+                  "designation": "Professor",
+                  "degree": "M.E, Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 4,
+                  "name": "Dr. Prabha D",
+                  "designation": "Professor",
+                  "degree": "M.E, Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 5,
+                  "name": "Dr. Sujaritha M",
+                  "designation": "Professor",
+                  "degree": "M.E, Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 6,
+                  "name": "Dr. Arul Antran Vijay S",
+                  "designation": "Associate Professor",
+                  "degree": "M.Tech., Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 7,
+                  "name": "Dr. Jasmine J",
+                  "designation": "Associate Professor",
+                  "degree": "M.E, Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 8,
+                  "name": "Dr. Arun Kumar P M.",
+                  "designation": "Associate Professor",
+                  "degree": "M.E, Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 9,
+                  "name": "Dr. Babu M",
+                  "designation": "Associate Professor",
+                  "degree": "M.E, Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 10,
+                  "name": "Ms. Aarthi D",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 11,
+                  "name": "Ms. Rajapriya D",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 12,
+                  "name": "Dr. Senthil P",
+                  "designation": "Assistant Professor",
+                  "degree": "M.Tech., Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 13,
+                  "name": "Mr. Ramaraj S",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 14,
+                  "name": "Mr. Venkatesh R",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 15,
+                  "name": "Ms. Vidya Prabha CV",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 16,
+                  "name": "Ms. Mariyammal C",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 17,
+                  "name": "Dr. Monisha R",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E, Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 18,
+                  "name": "Mr. Deena Dhayalan R",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 19,
+                  "name": "Mr. Prameen D",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 20,
+                  "name": "Ms. Banu Priya M",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 21,
+                  "name": "Ms. Sabina Parveen",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 22,
+                  "name": "Ms. Indhumathi R",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 23,
+                  "name": "Ms. Ramya S",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 24,
+                  "name": "Ms. Umadevi M",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 25,
+                  "name": "Ms. Kokila V",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 26,
+                  "name": "Mr. Praveen P",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 27,
+                  "name": "Mr. Rajeshkumar R",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
                 }
               ]
             }

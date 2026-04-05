@@ -14,7 +14,6 @@ const FacultyPage = () => {
   }, []);
 
   if (!facultyContent) return <div>Loading...</div>;
-  console.log("facultyContent", facultyContent);
 
   return (
     <>
@@ -31,8 +30,8 @@ const FacultyPage = () => {
 
           {/* Faculty Grid */}
           <div className="row g-5 py-5">
-            {facultyContent?.faculty.map((faculty) => (
-              <div key={faculty.id} className="col-xl-3 col-lg-4 col-md-6">
+            {facultyContent?.faculty.map((faculty,i) => (
+              <div key={i} className="col-xl-3 col-lg-4 col-md-6">
                 <div className="faculty-modern-card">
                   <div className="faculty-avatar">
                     <img src={faculty.src} alt={faculty.name} />

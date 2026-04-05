@@ -461,10 +461,10 @@
             "text": "View Faculty",
             "action": "goToFaculty",
             "newpageData": {
-              "slug": "department-of-electronics-and-communication-engineering",
+              "slug": "department-of-artificial-intelligence-and-data-science",
               "banner": {
                 "bannerImg": "/images/kce/banner_computer_technology.jpg",
-                "title": "Department of Electronics and Communication Engineering",
+                "title": "Department of Artificial Intelligence and Data Science",
                 "breadcrumb": [
                   {
                     "label": "Home",
@@ -475,8 +475,8 @@
                     "href": "/departments"
                   },
                   {
-                    "href": "/departments/department-of-electronics-and-communication-engineering",
-                    "label": "Department of Electronics and Communication Engineering"
+                    "href": "/department-of-artificial-intelligence-and-data-science",
+                    "label": "Department of Artificial Intelligence and Data Science"
                   },
                   {
                     "label": "Faculty"

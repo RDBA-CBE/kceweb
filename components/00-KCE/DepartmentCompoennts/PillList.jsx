@@ -18,7 +18,7 @@ const PillList = ({ data }) => {
         <div className="scr-list">
           {data?.items?.map((item, index) =>
             item?.url ? (
-              <Link key={item.id ?? index} href={item?.url || "#"} target={item?.target || "_blank"}>
+              <Link key={ index} href={item?.url || "#"} target={item?.target || "_blank"}>
                 <div className="scr-card">
                   <span className="scr-card-text">
                     {item?.bullet && <span className="dcl-bullet">✓</span>}
