@@ -93,7 +93,7 @@
       }
     },
 
-     {
+    {
       "type": "edge-image-content",
       "data": {
         "sectionbg": "section-bg1 my-5",

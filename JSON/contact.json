@@ -14,13 +14,9 @@
               "secTitle": "For Admission Enquiries:",
               
               "contactDetails": [
-                { "label": "Mobile", "value": "8220333750, 8220333620" }
-              ],
-              "button":{
-                "text":"Admission Centre",
-                "href":"/admission",
-                "target": "_self"
-              }
+                { "label": "Mobile", "value": "8220333750, 8220333620, 8220333850" }
+              ]
+              
             }
           ],
           "image": {
