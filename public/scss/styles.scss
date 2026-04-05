@@ -537,6 +537,21 @@
   color: #fff;
 }
 
+.popup-mobile-menu .mainmenu > li > a {
+  color: var(--color-heading) !important;
+  background: transparent !important;
+}
+
+.popup-mobile-menu .mainmenu > li:hover > a,
+.popup-mobile-menu .mainmenu li:hover > a {
+  color: #cc6926 !important;
+  background: transparent !important;
+}
+
+.popup-mobile-menu .mainmenu li:hover > a i {
+  color: #cc6926 !important;
+}
+
 .mobile-child-submenu {
   padding-left: 20px;
   margin-top: 5px;
@@ -2115,10 +2130,15 @@ a.ps-card:hover .ps-title {
   height: 38px;
   border: none;
   color: #fff;
-
   position: relative;
   justify-content: center;
   align-items: center;
+  transition: background 0.3s ease;
+}
+
+.social-default.transparent-with-border li a:hover {
+  background: #1c3c4a;
+  color: #fff;
 }
 .social-default li a i {
   margin-top: -4px;

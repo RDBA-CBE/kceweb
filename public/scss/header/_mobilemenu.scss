@@ -189,12 +189,51 @@
 
   
 
+    // Disable desktop hover trigger
+    li:hover .rbt-megamenu,
+    .with-megamenu:hover .rbt-megamenu {
+      visibility: hidden !important;
+      opacity: 0 !important;
+      clip: rect(0, 200vw, 0, 0) !important;
+      display: none !important;
+    }
+
+    // Override dark wrapper background
+    .rbt-megamenu .wrapper,
+    .rbt-megamenu.menu-skin-dark .wrapper {
+      background: transparent !important;
+      box-shadow: none !important;
+      padding: 0 !important;
+      border-radius: 0 !important;
+      overflow: visible !important;
+    }
+
+    // Override link colors inside megamenu
+    .rbt-megamenu a,
+    .rbt-megamenu li a {
+      color: var(--color-heading) !important;
+    }
+
     .rbt-megamenu {
       padding: 0;
       max-width: 100%;
       list-style: none;
       padding-left: 14px;
       display: none;
+      position: static !important;
+      width: 100% !important;
+      box-shadow: none !important;
+      border: none !important;
+      background: transparent !important;
+      clip: unset !important;
+      transition: none !important;
+    }
+
+    .rbt-megamenu.active.d-block {
+      display: block !important;
+      visibility: visible !important;
+      opacity: 1 !important;
+      clip: unset !important;
     }
 
     .mega-menu-item {

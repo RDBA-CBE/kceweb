@@ -54,9 +54,9 @@ const SplitImageContent = ({ data }) => {
         return (
           <p key={index}>
             <Link href={block.href} class="read-more-btn" target="_blank">
-              <span class="rbt-btn-link">
+              <span className="rbt-btn-link">
                 {block.text}
-                <i class="feather-arrow-up-right"></i>
+                <i className="feather-arrow-up-right"></i>
               </span>
             </Link>
           </p>

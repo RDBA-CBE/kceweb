@@ -5,8 +5,10 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 import MenuData from "../../../../data/kce/MegaMenu.json";
 import MobileMenuList from "./MobileMenuList";
+import { useAppContext } from "@/context/Context";
 
 const MobileMenuNav = () => {
+  const { setMobile } = useAppContext();
   const [activeMenuItem, setActiveMenuItem] = useState(null);
   const [activeSub, setActiveSub] = useState(null);
   const [isMobile, setIsMobile] = useState(false);
@@ -61,7 +63,6 @@ const MobileMenuNav = () => {
             Array.isArray(menu.menuItems) &&
             menu.menuItems.length > 0;
 
-          console.log("hasMegaMenu", hasMegaMenu);
 
           return (
             <li
@@ -77,6 +78,8 @@ const MobileMenuNav = () => {
                   if (hasMegaMenu && isMobile) {
                     e.preventDefault();
                     toggleMenuItem(menu.menuType);
+                  } else if (!hasMegaMenu) {
+                    setMobile(true);
                   }
                 }}
               >
