@@ -237,12 +237,12 @@
               {
                 "type": "link",
                 "text": "Department Achievements",
-                "url": "KCE/ai-ds-department-achievements"
+                "url": "ai-ds-department-achievements"
               },
               {
                 "type": "link",
                 "text": "Association Activites",
-                "url": "KCE/ai-ds-association-activity"
+                "url": "ai-ds-association-activity"
               }
             ]
           }
