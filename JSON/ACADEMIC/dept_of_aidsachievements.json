@@ -1,0 +1,952 @@
+{
+  "banner": {
+    "bannerImg": "/images/kce/banner_computer_technology.jpg",
+    "title": "AI & DS Department Achievements",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Departments",
+        "href": "/departments"
+      },
+      {
+        "label": "AI & DS Department Achievements"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "image-overlay-card",
+      "data": {
+        "title": "TNEV",
+        "bgImg": "/images/kce/academics/ai/ai.webp",
+        "description": [
+          "Team TNEV achieves a milestone as Commissioner Balasubramaniam approves testing their product, TNEV, at a signal junction near Government Hospital, Coimbatore. The Deputy Commissioner of Police, Traffic, and partners from Royal University, Analog and Digital Labs, and Uyir support the implementation. This collaboration highlights the potential of TNEV’s technology in enhancing emergency vehicle response and traffic management, marking a significant step toward a safer future. Stay tuned for updates on TNEV’s progress in this testing phase."]
+      }
+    },
+    {
+      "type": "plain-para",
+      "data": {
+        "content": [
+          "The program, spanning 4 years and divided into 8 semesters, equips students with the skills and expertise needed for R&D positions in industry, academia, and research laboratories. It also emphasizes practical applications through elective courses in domains like robotics, medical signal processing, data mining, business analytics, and more.",
+          "Upon completion, graduates have opportunities for fully paid internships and placements at top companies like Intel, Cerner, Robert Bosch, DELL, etc. The program’s focus on AI and data science prepares students for high-paying careers in industries such as manufacturing, e-commerce, banking, finance, transport, and healthcare, where intelligent business solutions and big data solutions are in high demand."
+        ]
+      }
+    },
+    {
+      "type": "img-slider-content",
+      "data": {
+        "imagePosition": "left",
+        "sectionbg": "section-bg1 mt-5",
+        "images": [
+          "https://blog.kce.ac.in/new/wp-content/uploads/2024/03/img-0487-2048x1366.jpg",
+          "https://blog.kce.ac.in/new/wp-content/uploads/2024/03/pic-1-768x512.jpg",
+          "https://blog.kce.ac.in/new/wp-content/uploads/2024/03/pic-2-768x512.jpg"
+        ],
+        "content": [
+          {
+            "type": "title",
+            "mainTi": "Analytics India Magazine"
+          },
+          {
+            "type": "list",
+            "items": [
+              "The Department of Artificial Intelligence and Data Science launched the annual Industrial Collaboration Conference visit to the MLDS machine learning developers summit – with Analytical India magazine, Bangalore.",
+              "The Department of Artificial Intelligence and Data Science launched an official website and a student portfolio website for students’ placement training and development.",
+              "The Department of Artificial Intelligence and Data Science officially maintains LMS to provide industry-ready course content "
+            ]
+          }
+          
+          
+        ]
+      }
+    },
+    {
+      "type": "key-value-cards",
+      "data": {
+        "sectionbg": "section-bg1",
+        "title": "Startup",
+        "content": [
+          {
+            "media": {
+              "type": "image",
+              "src": "/images/kce/academics/INSIFLO.png",
+              "alt": "Insiflo AI Private Limited"
+            },
+            "details": [
+              {
+                "label": "Name Of The Startup",
+                "value": "Insiflo AI Private Limited"
+              },
+              {
+                "label": "Name Of The Students",
+                "value": "Dhanavishnu A, Paushigaa S"
+              },
+              {
+                "label": "Funds Received For A Startup",
+                "value": "Microsoft Startup Fund"
+              },
+              {
+                "label": "Website",
+                "url": "https://insifloai.com/",
+                "value": "https://insifloai.com/"
+              }
+            ]
+          },
+          {
+            "media": {
+              "type": "image",
+              "src": "/images/kce/academics/inogar.png",
+              "alt": "Inogar Private Limited"
+            },
+            "details": [
+              {
+                "label": "Name Of The Startup",
+                "value": "Inogar Private Limited"
+              },
+              {
+                "label": "Name Of The Students",
+                "value": "Somanath T.G, Shaafiqe M, Dhyaneshwaran"
+              },
+              {
+                "label": "Funds Received For A Startup",
+                "value": "Raw Materials Support From Royal University"
+              },
+              {
+                "label": "Website",
+                "url": "https://www.inogarzone.com/",
+                "value": "https://www.inogarzone.com/"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "logo-img",
+      "data": {
+        "title": "MoU and Academic Partners",
+        "desc": "Qlik, Tableau, NVIDIA, Databricks, Datacamp, JetBrains, and YardStick Digital Solutions, Krypc Technologies Pvt Ltd.",
+        "content": [
+          {
+            "images": [
+              {
+                "img": "https://blog.kce.ac.in/new/wp-content/uploads/2024/03/nvidia.jpg"
+              },
+              {
+                "img": "https://blog.kce.ac.in/new/wp-content/uploads/2024/03/tableau.jpg"
+              },
+              {
+                "img": "https://blog.kce.ac.in/new/wp-content/uploads/2024/03/databricks.jpg"
+              },
+              {
+                "img": "https://blog.kce.ac.in/new/wp-content/uploads/2024/03/qlik.jpg"
+              },
+              {
+                "img": "https://blog.kce.ac.in/new/wp-content/uploads/2024/03/jetbrains.jpg"
+              },
+              {
+                "img": "https://blog.kce.ac.in/new/wp-content/uploads/2024/03/ysd.jpg"
+              },
+              {
+                "img": "https://blog.kce.ac.in/new/wp-content/uploads/2024/03/datacamp.jpg"
+              },
+              {
+                "img": "https://blog.kce.ac.in/new/wp-content/uploads/2024/03/krypc.jpg"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "split-col-con",
+      "data": {
+        "sectionbg": "section-bg3",
+        "content": [
+          {
+            "type": "column",
+            "blocks": [
+              {
+                "type": "title",
+                "text": "Collaboration"
+              },
+              {
+                "type": "paragraph",
+                "text": "IIT Bombay Entrepreneurship cell, Royal Universys Webnet Private Limited, Analytics India Magazine."
+              },
+              {
+                "type": "images",
+                "items": [
+                  {
+                    "src": "https://blog.kce.ac.in/new/wp-content/uploads/2024/03/e-cell-bombay.jpg",
+                    "alt": "E-Cell IIT Bombay"
+                  },
+                  {
+                    "src": "https://blog.kce.ac.in/new/wp-content/uploads/2024/03/universys-1.jpg",
+                    "alt": "Universys"
+                  },
+                  {
+                    "src": "https://blog.kce.ac.in/new/wp-content/uploads/2024/03/aim-half-width.jpg",
+                    "alt": "Analytics India Magazine"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "column",
+            "blocks": [
+              {
+                "type": "title",
+                "text": "Professional Bodies Membership"
+              },
+              {
+                "type": "paragraph",
+                "text": "IIT Bombay Entrepreneurship cell, Royal Universys Webnet Private Limited, Analytics India Magazine."
+              },
+              {
+                "type": "images",
+                "items": [
+                  {
+                    "src": "https://blog.kce.ac.in/new/wp-content/uploads/2024/03/ACM.jpg",
+                    "alt": "ACM"
+                  },
+                  {
+                    "src": "https://blog.kce.ac.in/new/wp-content/uploads/2024/03/IEEE.jpg",
+                    "alt": "IEEE"
+                  },
+                  {
+                    "src": "https://blog.kce.ac.in/new/wp-content/uploads/2024/03/ISTE.jpg",
+                    "alt": "ISTE"
+                  }
+                ]
+              },
+              {
+                "type": "link",
+                "text": "Department Achievements",
+                "url": "KCE/ai-ds-department-achievements"
+              },
+              {
+                "type": "link",
+                "text": "Association Activites",
+                "url": "KCE/ai-ds-association-activity"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "half-card-img",
+      "data": {
+        "content": [
+          {
+            "title": "Our Vision",
+            "description": "To become an integrative department through creativity and innovation in developing systems with Artificial Intelligence and Data Science to serve society.",
+            "image": "/images/kce/academics/ai/vision.webp"
+          },
+          {
+            "title": "Our Mission",
+            "list": [
+              {
+                "item": [
+                  "Engage collaborative activities with the industry to produce industry-ready and future-ready talent.",
+                  "Foster the spirit of lifelong learning in students through practical and social exposure beyond the classroom.",
+                  "Provide multi-disciplinary research and innovation driven academic environments.",
+                  "Practice and instil the highest standards of professional ethics, transparency and accountability at all levels."
+                ]
+              }
+            ],
+            "image": "/images/kce/academics/ai/mision.webp"
+          }
+        ]
+      }
+    },
+    {
+      "type": "image-overlay-content",
+      "data": {
+        "bgImage": "/images/kce/academics/regulation.webp",
+        "title": "Regulations",
+        "list": [
+          {
+            "title": "R2023",
+            "url": "https://blog.kce.ac.in/new/wp-content/uploads/2023/07/AD.pdf"
+          }
+        ]
+      }
+    },
+    {
+      "type": "tabs",
+      "data": {
+        "navigation": [
+          {
+            "title": "Programme Educational Objectives",
+            "id": "peo"
+          },
+          {
+            "title": "Programme Outcomes",
+            "id": "po"
+          },
+          {
+            "title": "Program Specific Outcomes",
+            "id": "pso"
+          }
+        ],
+        "content": {
+          "peo": {
+            "sections": [
+              {
+                "type": "card-list1",
+                "data": {
+                  "title": "Programme Educational Objectives",
+                  "content": [
+                    {
+                      "code": "PEO1",
+                      "description": "Graduates will be able to demonstrate technical skills, competency in Artificial Intelligence and Data Science, exhibit proficiency and team management capability with proper communication in the job environment."
+                    },
+                    {
+                      "code": "PEO2",
+                      "description": "Graduates will be able to work effectively in multidisciplinary engineering projects and support the growth of the economy of a nation by becoming entrepreneurs with a lifelong learning practice."
+                    },
+                    {
+                      "code": "PEO3",
+                      "description": "Graduates will be able to carry out the research in the contemporary areas of Artificial Intelligence, Data Science and address the basic needs of the society."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "po": {
+            "sections": [
+              {
+                "type": "card-list2",
+                "data": {
+                  "title": "Programme Outcomes (POs)",
+                  "content": [
+                    {
+                      "code": "PO1",
+                      "title": "Engineering knowledge",
+                      "description": "Apply the knowledge of mathematics, science, engineering fundamentals, and an engineering specialization to the solution of complex engineering problems."
+                    },
+                    {
+                      "code": "PO2",
+                      "title": "Problem analysis",
+                      "description": "Identify, formulate, review research literature, and analyze complex engineering problems reaching substantiated conclusions using first principles of mathematics, natural sciences, and engineering sciences."
+                    },
+                    {
+                      "code": "PO3",
+                      "title": "Design/development of solutions",
+                      "description": "Design solutions for complex engineering problems and design system components or processes that meet the specified needs with appropriate consideration for the public health and safety, and the cultural, societal, and environmental considerations."
+                    },
+                    {
+                      "code": "PO4",
+                      "title": "Conduct investigations of complex problems",
+                      "description": "Use research-based knowledge and research methods including design of experiments, analysis and interpretation of data, and synthesis of the information to provide valid conclusions."
+                    },
+                    {
+                      "code": "PO5",
+                      "title": "Modern tool usage",
+                      "description": "Create, select, and apply appropriate techniques, resources, and modern engineering and IT tools including prediction and modeling to complex engineering activities with an understanding of the limitations."
+                    },
+                    {
+                      "code": "PO6",
+                      "title": "The engineer and society",
+                      "description": "Apply reasoning informed by the contextual knowledge to assess societal, health, safety, legal and cultural issues and the consequent responsibilities relevant to the professional engineering practice."
+                    },
+                    {
+                      "code": "PO7",
+                      "title": "Environment and sustainability",
+                      "description": "Understand the impact of the professional engineering solutions in societal and environmental contexts, and demonstrate the knowledge of, and need for sustainable development."
+                    },
+                    {
+                      "code": "PO8",
+                      "title": "Ethics",
+                      "description": "Apply ethical principles and commit to professional ethics and responsibilities and norms of the engineering practice."
+                    },
+                    {
+                      "code": "PO9",
+                      "title": "Individual and team work",
+                      "description": "Function effectively as an individual, and as a member or leader in diverse teams, and in multidisciplinary settings."
+                    },
+                    {
+                      "code": "PO10",
+                      "title": "Communication",
+                      "description": "Communicate effectively on complex engineering activities with the engineering community and with society at large, such as, being able to comprehend and write effective reports and design documentation, make effective presentations, and give and receive clear instructions."
+                    },
+                    {
+                      "code": "PO11",
+                      "title": "Project management and finance",
+                      "description": "Demonstrate knowledge and understanding of the engineering and management principles and apply these to one’s own work, as a member and leader in a team, to manage projects and in multidisciplinary environments."
+                    },
+                    {
+                      "code": "PO12",
+                      "title": "Life-long learning",
+                      "description": "Recognize the need for, and have the preparation and ability to engage in independent and life-long learning in the broadest context of technological change."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "pso": {
+            "sections": [
+              {
+                "type": "card-list3",
+                "data": {
+                  "title": "Program Specific Outcomes (PSOs)",
+                  "content": [
+                    {
+                      "code": "PSO1",
+                      "description": "Demonstrate the knowledge of Artificial Intelligence, Machine Learning and Data Science for designing and developing intelligent systems"
+                    },
+                    {
+                      "code": "PSO2",
+                      "description": "Implement Artificial Intelligence and data science methods for solving a problem in multi-disciplinary areas and design novel algorithms."
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "type": "split-image-content",
+      "data": {
+        "sectionbg": "section-bg1 my-4",
+        "image": "/images/kce/academics/faculty.webp",
+        "content": [
+          {
+            "type": "title",
+            "mainTi": "Faculty"
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus commodi suscipit in maiores vero aliquam nam. Consequatur, nulla! At illo dignissimos accusantium, aut quas error consectetur consequatur officiis quae dolore!"
+            ]
+          },
+          {
+            "type": "button",
+            "text": "View Faculty",
+            "action": "goToFaculty",
+            "newpageData": {
+              "slug": "department-of-artificial-intelligence-and-data-science",
+              "banner": {
+                "bannerImg": "/images/kce/banner_computer_technology.jpg",
+                "title": "Department of Artificial Intelligence and Data Science",
+                "breadcrumb": [
+                  {
+                    "label": "Home",
+                    "href": "/"
+                  },
+                  {
+                    "label": "Departments",
+                    "href": "/departments"
+                  },
+                  {
+                    "href": "/department-of-artificial-intelligence-and-data-science",
+                    "label": "Department of Artificial Intelligence and Data Science"
+                  },
+                  {
+                    "label": "Faculty"
+                  }
+                ]
+              },
+              "sectionTi": "Our faculty",
+              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+              "faculty": [
+                {
+                  "id": 1,
+                  "name": "Dr. Vijaya G",
+                  "designation": "Professor / Head",
+                  "degree": "M.E, Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 2,
+                  "name": "Dr. Murugeswari P",
+                  "designation": "Professor",
+                  "degree": "M.Tech., Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 3,
+                  "name": "Dr. Bhuvaneshwari K S",
+                  "designation": "Professor",
+                  "degree": "M.E, Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 4,
+                  "name": "Dr. Kiruthiga G",
+                  "designation": "Professor",
+                  "degree": "M.E, Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 5,
+                  "name": "Dr. Chitra Devi N",
+                  "designation": "Professor",
+                  "degree": "M.E, Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 6,
+                  "name": "Dr. Surendran D",
+                  "designation": "Professor",
+                  "degree": "M.E, Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 7,
+                  "name": "Dr. Sherubha P",
+                  "designation": "Professor",
+                  "degree": "M.Tech, Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 8,
+                  "name": "Dr. Nithyavathy R",
+                  "designation": "Associate Professor",
+                  "degree": "M.E, Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 9,
+                  "name": "Dr. Keerthika R",
+                  "designation": "Associate Professor",
+                  "degree": "M.Tech, Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 10,
+                  "name": "Dr. Castro S",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E, Ph.D",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 11,
+                  "name": "Ms. Vishnupriya K",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 12,
+                  "name": "Mr. Mohammed Ansar Ali MA",
+                  "designation": "Assistant Professor",
+                  "degree": "M.Tech.",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 13,
+                  "name": "Ms. Akila K",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 14,
+                  "name": "Ms.Hemalatha S",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 15,
+                  "name": "Ms. Ramya M",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 16,
+                  "name": "Mr. Shivaji Rao G",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 17,
+                  "name": "Ms. Pushpalatha M",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 18,
+                  "name": "Mr. Jegathesh P",
+                  "designation": "Assistant Professor",
+                  "degree": "M.Tech",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 19,
+                  "name": "Ms. PonHiniya D Slyvia D",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 20,
+                  "name": "Ms.Srimathi T",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 21,
+                  "name": "Mr. Mahesh D",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 22,
+                  "name": "Ms. Dhivya P",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 23,
+                  "name": "Ms. Abinaya V",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 24,
+                  "name": "Ms.Saranya vyshali",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 25,
+                  "name": "Mr. Surenther I",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 26,
+                  "name": "Mr. Narayanan EP",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 27,
+                  "name": "Ms. Uma V",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "table",
+      "data": {
+        "secTitle": "Domain to Deliver",
+        "table": [
+          {
+            "content": [
+              {
+                "head": [
+                  {
+                    "id": "col1",
+                    "label": "Core"
+                  },
+                  {
+                    "id": "col2",
+                    "label": "Addition to Core"
+                  }
+                ],
+                "data": [
+                  {
+                    "col1": {
+                      "text": "Data Science"
+                    },
+                    "col2": {
+                      "text": "Apache Spark"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Data Analytics"
+                    },
+                    "col2": {
+                      "text": "Apache Kafka"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "R Program"
+                    },
+                    "col2": {
+                      "text": "Apache Hadoop"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Foundation of AI"
+                    },
+                    "col2": {
+                      "text": "Sqoop"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Machine Learning"
+                    },
+                    "col2": {
+                      "text": "Flume"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Deep Learning"
+                    },
+                    "col2": {
+                      "text": "Data Visualization"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "RPA / Robotics"
+                    },
+                    "col2": {
+                      "text": " "
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Data Visualization"
+                    },
+                    "col2": {
+                      "text": " "
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Computer Vision"
+                    },
+                    "col2": {
+                      "text": " "
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "NLP"
+                    },
+                    "col2": {
+                      "text": " "
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Auto ML"
+                    },
+                    "col2": {
+                      "text": " "
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "icon-card",
+      "data": {
+        "title": "Lab Facilities",
+        "content": [
+          {
+            "img": "/images/kce/academics/lab-icon.svg",
+            "title": "AI Tech Lab"
+          },
+          {
+            "img": "/images/kce/academics/lab-icon.svg",
+            "title": "Microsoft Lab"
+          },
+          {
+            "img": "/images/kce/academics/lab-icon.svg",
+            "title": "Data Centre"
+          },
+          {
+            "img": "/images/kce/academics/lab-icon.svg",
+            "title": "Computer Vision & IOT"
+          }
+        ]
+      }
+    },
+    {
+      "type": "image-overlay-content",
+      "data": {
+        "bgImage": "/images/kce/academics/banner.jpg",
+        "title": "Job Opportunities",
+        "list": [
+          {
+            "title": "Artificial Intelligence Engineer"
+          },
+          {
+            "title": "Data Scientist"
+          },
+          {
+            "title": "Business Intelligence Developer"
+          },
+          {
+            "title": "Data Analyst"
+          },
+          {
+            "title": "Product Analyst"
+          },
+          {
+            "title": "Full stack developer"
+          },
+          {
+            "title": "Machine Learning Engineer"
+          },
+          {
+            "title": "Machine Learning Architect"
+          }
+        ]
+      }
+    },
+    {
+      "type": "table",
+      "data": {
+        "secTitle": "Top companies Using AI and Data Science",
+        "table": [
+          {
+            "content": [
+              {
+                "head": [
+                  {
+                    "id": "col1",
+                    "label": "IN GLOBAL"
+                  },
+                  {
+                    "id": "col2",
+                    "label": "IN INDIA"
+                  }
+                ],
+                "data": [
+                  {
+                    "col1": {
+                      "text": "Amazon"
+                    },
+                    "col2": {
+                      "text": "Tata Consultancy Services"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Google"
+                    },
+                    "col2": {
+                      "text": "Accenture"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Databricks"
+                    },
+                    "col2": {
+                      "text": "Tiger Analytics"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "DataRobot"
+                    },
+                    "col2": {
+                      "text": "Amazon India"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": ""
+                    },
+                    "col2": {
+                      "text": "CTS"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "content-counter-style",
+      "data": {
+        "content": [
+          {
+            "img": "/images/kce/image-2.jpg",
+            "title": "PROGRAMS",
+            "subtitle": "B.Tech – Artificial Intelligence and Data Science",
+            "desc": "The program is designed to build strong foundations in Artificial Intelligence, Data Science, and intelligent computing to meet current and future industry demands.",
+            "counterList": [
+              {
+                "icon": "/images/kce/academics/lab-icon.svg",
+                "num": "4 Years Duration",
+                "text": "Regular"
+              },
+              {
+                "icon": "/images/kce/academics/lab-icon.svg",
+                "num": "3 Years Duration",
+                "text": "Lateral Entry "
+              },
+              {
+                "icon": "/images/kce/academics/lab-icon.svg",
+                "num": "8 Semesters",
+                "text": "Regular"
+              },
+              {
+                "icon": "/images/kce/academics/lab-icon.svg",
+                "num": "6 Semesters",
+                "text": "Lateral Entry"
+              },
+              {
+                "icon": "/images/kce/academics/lab-icon.svg",
+                "num": "120",
+                "text": "Total Seats"
+              }
+            ],
+            "pointList": [
+              {
+                "title": "Eligibility",
+                "list": [
+                  "10+2 system of Education",
+                  "Must have secured a pass in Physics, Chemistry and Mathematics in the qualifying examination."
+                ]
+              },
+              {
+                "title": "Scope for Higher Studies",
+                "list": [
+                  "M.E. / M. Tech. / MBA / M.S. / Researcher"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
