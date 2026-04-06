@@ -28,9 +28,9 @@ const SplitImageContent = ({ data }) => {
       case "title":
         return (
           <React.Fragment key={index}>
-            <h3 className="section-ti">{block.mainTi}</h3>
-            <h4 className="sub-ti">{block.title}</h4>
-            <p className="ti-badge-wbg">{block.subTi}</p>
+            {block.mainTi && <h3 className="section-ti">{block.mainTi}</h3>}
+            {block.title && <h4 className="sub-ti">{block.title}</h4>}
+            {block.subTi && <p className="ti-badge-wbg">{block.subTi}</p>}
           </React.Fragment>
         );
 

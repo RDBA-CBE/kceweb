@@ -1,6 +1,11 @@
 {
   "menuData": [
     {
+      "menuTitle": "Home",
+      "menuType": "home",
+      "link": "/"
+    },
+    {
       "menuTitle": "About",
       "menuType": "about",
       "hasMegamenu": true,
@@ -45,6 +50,7 @@
       "hasMenuChild": true,
       "hasPositionStatic": true,
       "hasSideBanner": true,
+      "navWidth": "500px",
       "menuItems": [
         {
           "id": 1,
@@ -130,6 +136,7 @@
       "hasMenuChild": true,
       "hasPositionStatic": true,
       "hasSideBanner": true,
+      "navWidth": "400px",
       "menuItems": [
         {
           "id": 1,

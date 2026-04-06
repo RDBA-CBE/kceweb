@@ -1,0 +1,19 @@
+{
+  "banner": {
+    "bannerImg": "/images/kce/banner_computer_technology.jpg",
+    "title": "Admission Enquiry",
+    "breadcrumb": [
+    {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Admission Enquiry"
+        
+      }
+    ]
+  },
+  "sections": [
+   {}
+  ]
+}

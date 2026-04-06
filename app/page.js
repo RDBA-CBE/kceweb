@@ -1,4 +1,5 @@
 import Homepage from "@/components/00-KCE/DirectComponents/Homepage";
+import HomePopup from "@/components/00-KCE/common/HomePopup";
 
 export const metadata = {
   title: "Best Engineering Colleges in Coimbatore,Tamilnadu | KCE",
@@ -8,6 +9,7 @@ export const metadata = {
 const HomePage = async () => {
   return (
     <>
+      <HomePopup />
       <Homepage />
     </>
   );

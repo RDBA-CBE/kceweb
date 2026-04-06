@@ -1,22 +1,83 @@
 {
-  
   "banner": {
     "bannerImg": "/images/kce/banner_computer_technology.jpg",
     "title": "Acheivements",
     "breadcrumb": []
   },
   "sections": [
-   {
-      "type":"full-width-image",
-      "data":{
-     
+    {
+      "type": "full-width-image",
+      "data": {
+        "sectionbg": "section-bg1  mb-1",
+        "src": "/images/kce/kce-ach.jpg",
+        "alt": "placement-kce-Image-",
+        "height": "auto"
+      }
+    },
 
-        "sectionbg":"section-bg1  mb-1" ,
-        "src":"/images/kce/kce-ach.jpg",
-        "alt":"placement-kce-Image-",
-        "height":"auto"
+    {
+      "type": "split-image-content",
+      "data": {
+        "imagePosition": "right",
+        "sectionbg": "section-bg1",
+        "image": "/images/kce/placement/training/student-centric-activities.webp",
+        "content": [
+          {
+            "type": "title",
+            "mainTi": "WINNERS",
+            "title": "NATIONAL WELDING LEAGUE OF WOMEN STUDENTS (NWL 2026)."
+          },
+          {
+            "type": "paragraph",
+            "text": "Conducted by"
+          },
+          {
+            "type": "title",
+            
+            "title": "Fronius & C. V. Raman Global University held on 8th March 2026, Odisha."
+          }
+        ]
+      }
+    },
+
+     {
+      "type": "split-image-content",
+      "data": {
+        "imagePosition": "left",
+        "sectionbg": "bg-blue py-5 text-white",
+        "textColor": "text-white",
+        "image": "/images/kce/placement/training/student-centric-activities.webp",
+       "content": [
+          {
+            "type": "title",
+            "mainTi": "FINALIST",
+            "title": "GateStack Crew"
+          },
+          {
+            "type": "paragraph",
+            "text": "Our Team GateStack Crew has been selected as a FINALIST recognizing excellence in VLSI & Semiconductor Design from 550 proposals with 3739 students"
+          }
+         
+        ]
+      }
+    },
+
+    {
+      "type": "split-image-content",
+      "data": {
+        "imagePosition": "right",
+        "sectionbg": "section-bg1",
+        "image": "/images/kce/placement/training/student-centric-activities.webp",
+        "content": [
+          {
+            "type": "title",
+            "mainTi": "WINNERS",
+            "title": "TANCAM'S HAСКАТНОN FOR WOMEN IN SCIENCE & ENGINEERING (TNWISE)"
+          }
+        ]
       }
     }
+
+    
   ]
- 
 }

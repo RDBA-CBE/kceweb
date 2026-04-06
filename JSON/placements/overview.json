@@ -49,8 +49,10 @@
       "data": {
         "secTitle": "Placements Statistics",
         "desc1": "* Ongoing",
+        "desc1padding": "overview-spacing",
         "table": [
           {
+            "tablealignment": "tablealignment",
             "content": [
               {
                 "head": [
@@ -93,6 +95,17 @@
       "data":{
         "sectionbg":"pt-0 pb-5",
         "src":"/images/kce/placement/training/PROMINENT RECRUITERS.webp",
+        "alt":"placement-kce-Image-",
+        "height":"auto"
+      }
+    
+    },
+
+     {
+      "type":"full-width-image",
+      "data":{
+        "sectionbg":"pt-0 pb-5",
+        "src":"/images/kce/placement/Graph.webp",
         "alt":"placement-kce-Image-",
         "height":"auto"
       }

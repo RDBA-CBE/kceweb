@@ -49,13 +49,16 @@ const TableCom = ({ data }) => {
                       key={i}
                       table={table}
                       rowsPerPage={table.rowsPerPage}
+                      tablealignment={item.tablealignment || "null"}
                     />
                   ))}
                 </div>
+
+                {data?.desc1 && <p className={`${data.desc1padding}`}>{data.desc1}</p>}
               </div>
             ))}
 
-            {data?.desc1 && <p>{data.desc1}</p>}
+            
           </div>
         </div>
       </div>
@@ -69,7 +72,7 @@ export default TableCom;
    PAGINATED TABLE
 -------------------------------------------------- */
 
-const PaginatedTable = ({ table, rowsPerPage = 10 }) => {
+const PaginatedTable = ({ table, rowsPerPage = 10 , tablealignment}) => {
   const [currentPage, setCurrentPage] = useState(1);
 
   const totalRows = table.data.length;
@@ -125,7 +128,7 @@ const PaginatedTable = ({ table, rowsPerPage = 10 }) => {
   return (
     <div className="rbt-dashboard-table table-responsive mb-4 page-table">
       {/* TABLE */}
-      <table className="rbt-table table table-borderless">
+      <table className={`${tablealignment} rbt-table table table-borderless`}>
         <thead>
           <tr>
             {table.head.map((col) => (

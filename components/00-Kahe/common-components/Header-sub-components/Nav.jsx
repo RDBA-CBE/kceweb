@@ -20,7 +20,22 @@ const Nav = () => {
 
   const pathname = usePathname();
 
-  const isActive = (href) => pathname.startsWith(href);
+  const normalize = (href) => href?.split("?")[0].split("#")[0].replace(/\/+$/, "") || "";
+
+  const isActive = (href) => {
+    if (!href || href === "#") return false;
+    return normalize(pathname) === normalize(href);
+  };
+
+  const isItemActive = (item) =>
+    isActive(item.link) ||
+    (item.children && item.children.some((child) => isActive(child.link)));
+
+  const isMenuActive = (menu) => {
+    if (menu.link && isActive(menu.link)) return true;
+    if (menu.menuItems) return menu.menuItems.some(isItemActive);
+    return false;
+  };
 
   // Detect mobile screen
   useEffect(() => {
@@ -112,7 +127,8 @@ const Nav = () => {
             >
               {/* TOP LEVEL BUTTON */}
               <Link
-                className={`${isOpen ? "open" : ""}`}
+                className={`${isOpen ? "open" : ""} ${isMenuActive(menu) ? "active" : ""}`}
+                style={isMenuActive(menu) ? { color: "#000" } : {}}
                 href={menu.link ? menu.link : "#"}
                 target={menu.target ? menu.target : "_self"}
                 onClick={() => isMobile && toggleMenuItem(menu.menuType)}
@@ -134,6 +150,9 @@ const Nav = () => {
                         : "grid-item-1"
                   } ${isOpen ? "active d-block" : ""}`}
                   onMouseLeave={handleMouseLeave}
+                  style={{
+                    width: menu.navWidth ? menu.navWidth : "300px",  
+                  }}
                 >
                   <div className="wrapper">
                     <div className="row row--15">
@@ -162,8 +181,9 @@ const Nav = () => {
                             >
                               <Link
                                 className={`${showThreeCols ? "open" : ""} ${
-                                  activeSub === item ? "active" : ""
+                                  activeSub === item || isItemActive(item) ? "active" : ""
                                 }`}
+                                style={isItemActive(item) ? { color: "#000" } : {}}
                                 href={item.link}
                                 target={item.target ? item.target : "_self"}
                                 onClick={(e) => {
@@ -209,10 +229,9 @@ const Nav = () => {
                               >
                                 <Link
                                   className={`${child.title} ${
-                                    activeChildMenu === child.title
-                                      ? "open"
-                                      : ""
-                                  }`}
+                                    activeChildMenu === child.title ? "open" : ""
+                                  } ${isActive(child.link) ? "active" : ""}`}
+                                  style={isActive(child.link) ? { color: "#000" } : {}}
                                   href={child.link}
                                   target={child.target ? child.target : "_self"}
                                   onClick={(e) => {
@@ -249,12 +268,10 @@ const Nav = () => {
                                       <li key={g}>
                                         <Link
                                           href={grand.link}
+                                          className={isActive(grand.link) ? "active" : ""}
+                                          style={isActive(grand.link) ? { color: "#000" } : {}}
                                           onClick={() => setActiveChild(grand)}
-                                          target={
-                                            grand.target
-                                              ? grand.target
-                                              : "_self"
-                                          }
+                                          target={grand.target ? grand.target : "_self"}
                                         >
                                           {grand.title}
                                         </Link>

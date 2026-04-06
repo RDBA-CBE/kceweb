@@ -494,6 +494,14 @@
   }
 }
 
+@media (max-width: 1330px) {
+ 
+  .kce-hdr__main-logo {
+    height: 75px;
+    width: 90%;
+  }
+}
+
 @media (max-width: 1200px) {
   .kce-hdr {
     display: flex;
