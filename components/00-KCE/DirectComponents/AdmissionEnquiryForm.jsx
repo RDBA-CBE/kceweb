@@ -68,10 +68,10 @@ const AdmissionEnquiryForm = () => {
   return (
     <>
       <iframe
-        src="https://blog.kce.ac.in/admissions-enquiry/"
+        src="/api/proxy-form"
         width="100%"
         height="600px"
-        
+        style={{ border: "none" }}
       ></iframe>
     </>
     // <form onSubmit={handleSubmit}>
