@@ -1,0 +1,98 @@
+{
+  "banner": {
+    "bannerImg": "/images/kce/banner_computer_technology.jpg",
+    "title": "AI & DS Association  Activity",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Departments",
+        "href": "/departments"
+      },
+      {
+        "label": "AI & DS Association  Activity"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "split-image-content",
+      "data": {
+        "sectionbg": "section-bg1 mt-5",
+        "content": [
+          {
+            "type": "title",
+            "mainTi": "Associations"
+          },
+          {
+            "type": "list",
+            "items": [
+              "The Data Times article club",
+              "Orator’s club",
+              "TroubleShooter’s coding club",
+              "Cozy Cultural Club",
+              "Public Relations CLUB",
+              "AI – Innovation Club"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "split-image-content",
+      "data": {
+        "sectionbg": "section-bg1",
+        "content": [
+          {
+            "type": "title",
+            "mainTi": "Freshman Onboarding Program"
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              "The freshman onboarding program organized by the Department Association introduces new students to campus life, academic resources, and extracurricular opportunities, fostering a smooth transition into college. It aims to create a supportive and inclusive environment where freshmen can thrive academically and socially."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "gallery",
+      "data": {
+        "title": "Club Events",
+        "content": [
+          {
+            "images": [
+              {
+                "img": "https://blog.kce.ac.in/new/wp-content/uploads/2020/01/about-img-400x400-1.jpg"
+              },
+              {
+                "img": "https://blog.kce.ac.in/new/wp-content/uploads/2020/01/KIC1-1-400x400-1.jpg"
+              },
+              {
+                "img": "https://blog.kce.ac.in/new/wp-content/uploads/2020/01/KIC2-1-400x400-1.jpg"
+              },
+              {
+                "img": "https://blog.kce.ac.in/new/wp-content/uploads/2020/01/startupweekend-400x400-1.jpg"
+              },
+              {
+                "img": "https://blog.kce.ac.in/new/wp-content/uploads/2020/01/KIC2-2-400x400-1.jpg"
+              },
+              {
+                "img": "https://blog.kce.ac.in/new/wp-content/uploads/2020/01/KIC1-2-400x400-1-1.jpg"
+              },
+              {
+                "img": "https://blog.kce.ac.in/new/wp-content/uploads/2020/01/Guiness-world-Record-400x400-1.jpg"
+              },
+              {
+                "img": "https://blog.kce.ac.in/new/wp-content/uploads/2020/01/KCE_StoryTelling-400x400-1.jpg"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
