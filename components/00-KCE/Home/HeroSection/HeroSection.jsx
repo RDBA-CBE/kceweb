@@ -14,6 +14,7 @@ export default function HeroSection() {
           "/images/kce/home/banner/b1.jpg",
          "/images/kce/home/banner/banner-img2.webp",
          "/images/kce/home/banner/banner-img3.webp",
+          "/images/kce/home/banner/banner-img5.webp"
         ]}
       />
 
