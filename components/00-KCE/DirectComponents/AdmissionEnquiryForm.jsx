@@ -50,7 +50,10 @@ const AdmissionEnquiryForm = () => {
             margin: "0 auto 20px",
           }}
         >
-          <i className="feather-check" style={{ color: "#fff", fontSize: 28 }} />
+          <i
+            className="feather-check"
+            style={{ color: "#fff", fontSize: 28 }}
+          />
         </div>
         <h4 className="mb-2" style={{ color: "var(--color-heading)" }}>
           Thank you for your enquiry!
@@ -63,97 +66,105 @@ const AdmissionEnquiryForm = () => {
   }
 
   return (
-    <form onSubmit={handleSubmit}>
-      <div className="row g-4">
+    <>
+      <iframe
+        src="https://blog.kce.ac.in/admissions-enquiry/"
+        width="100%"
+        height="600px"
+        
+      ></iframe>
+    </>
+    // <form onSubmit={handleSubmit}>
+    //   <div className="row g-4">
 
-        <div className="col-md-6">
-          <div className="form-group" style={{ display: "block", marginBottom: 0 }}>
-            {/* <label className="form-label" style={labelStyle}>Full Name <span style={{ color: "var(--kce-accent)" }}>*</span></label> */}
-            <input
-              type="text"
-              name="name"
-              placeholder="Enter your full name"
-              value={form.name}
-              onChange={handleChange}
-              required
-            />
-          </div>
-        </div>
+    //     <div className="col-md-6">
+    //       <div className="form-group" style={{ display: "block", marginBottom: 0 }}>
+    //         {/* <label className="form-label" style={labelStyle}>Full Name <span style={{ color: "var(--kce-accent)" }}>*</span></label> */}
+    //         <input
+    //           type="text"
+    //           name="name"
+    //           placeholder="Enter your full name"
+    //           value={form.name}
+    //           onChange={handleChange}
+    //           required
+    //         />
+    //       </div>
+    //     </div>
 
-        <div className="col-md-6">
-          <div className="form-group" style={{ display: "block", marginBottom: 0 }}>
-            {/* <label className="form-label" style={labelStyle}>Email Address <span style={{ color: "var(--kce-accent)" }}>*</span></label> */}
-            <input
-              type="email"
-              name="email"
-              placeholder="Enter your email"
-              value={form.email}
-              onChange={handleChange}
-              required
-            />
-          </div>
-        </div>
+    //     <div className="col-md-6">
+    //       <div className="form-group" style={{ display: "block", marginBottom: 0 }}>
+    //         {/* <label className="form-label" style={labelStyle}>Email Address <span style={{ color: "var(--kce-accent)" }}>*</span></label> */}
+    //         <input
+    //           type="email"
+    //           name="email"
+    //           placeholder="Enter your email"
+    //           value={form.email}
+    //           onChange={handleChange}
+    //           required
+    //         />
+    //       </div>
+    //     </div>
 
-        <div className="col-md-6">
-          <div className="form-group" style={{ display: "block", marginBottom: 0 }}>
-            {/* <label className="form-label" style={labelStyle}>Phone Number <span style={{ color: "var(--kce-accent)" }}>*</span></label> */}
-            <input
-              type="tel"
-              name="phone"
-              placeholder="10-digit mobile number"
-              value={form.phone}
-              onChange={handleChange}
-              required
-              pattern="[0-9]{10}"
-              title="Enter a valid 10-digit phone number"
-            />
-          </div>
-        </div>
+    //     <div className="col-md-6">
+    //       <div className="form-group" style={{ display: "block", marginBottom: 0 }}>
+    //         {/* <label className="form-label" style={labelStyle}>Phone Number <span style={{ color: "var(--kce-accent)" }}>*</span></label> */}
+    //         <input
+    //           type="tel"
+    //           name="phone"
+    //           placeholder="10-digit mobile number"
+    //           value={form.phone}
+    //           onChange={handleChange}
+    //           required
+    //           pattern="[0-9]{10}"
+    //           title="Enter a valid 10-digit phone number"
+    //         />
+    //       </div>
+    //     </div>
 
-        <div className="col-md-6">
-          <div className="form-group" style={{ display: "block", marginBottom: 0 }}>
-            {/* <label className="form-label" style={labelStyle}>Department <span style={{ color: "var(--kce-accent)" }}>*</span></label> */}
-            <select
-              name="department"
-              value={form.department}
-              onChange={handleChange}
-              required
-              style={{ height: 50 }}
-            >
-              <option value="">Select a department</option>
-              {departments.map((dept) => (
-                <option key={dept} value={dept}>{dept}</option>
-              ))}
-            </select>
-          </div>
-        </div>
+    //     <div className="col-md-6">
+    //       <div className="form-group" style={{ display: "block", marginBottom: 0 }}>
+    //         {/* <label className="form-label" style={labelStyle}>Department <span style={{ color: "var(--kce-accent)" }}>*</span></label> */}
+    //         <select
+    //           name="department"
+    //           value={form.department}
+    //           onChange={handleChange}
+    //           required
+    //           style={{ height: 50 }}
+    //         >
+    //           <option value="">Select a department</option>
+    //           {departments.map((dept) => (
+    //             <option key={dept} value={dept}>{dept}</option>
+    //           ))}
+    //         </select>
+    //       </div>
+    //     </div>
 
-        <div className="col-12">
-          <div className="form-group" style={{ display: "block", marginBottom: 0 }}>
-            {/* <label className="form-label" style={labelStyle}>Message <span style={{ color: "var(--color-gray)" }}>(optional)</span></label> */}
-            <textarea
-              name="message"
-              placeholder="Any specific queries or information you'd like to share..."
-              rows={4}
-              value={form.message}
-              onChange={handleChange}
-              style={{ minHeight: 120 }}
-            />
-          </div>
-        </div>
+    //     <div className="col-12">
+    //       <div className="form-group" style={{ display: "block", marginBottom: 0 }}>
+    //         {/* <label className="form-label" style={labelStyle}>Message <span style={{ color: "var(--color-gray)" }}>(optional)</span></label> */}
+    //         <textarea
+    //           name="message"
+    //           placeholder="Any specific queries or information you'd like to share..."
+    //           rows={4}
+    //           value={form.message}
+    //           onChange={handleChange}
+    //           style={{ minHeight: 120 }}
+    //         />
+    //       </div>
+    //     </div>
 
-        <div className="col-12 mt-2">
-          <button
-            type="submit"
-            className="kce-btn-primary rbt-btn hover-icon-reverse mt-4"
-            // style={{ height: 52, padding: "0 40px", fontSize: 16, fontWeight: 600, border: "none", borderRadius: "var(--radius)", cursor: "pointer" }}
-          >
-            Submit Enquiry <i className="feather-arrow-right ms-2" />
-          </button>
-        </div>
+    //     <div className="col-12 mt-2">
+    //       <button
+    //         type="submit"
+    //         className="kce-btn-primary rbt-btn hover-icon-reverse mt-4"
+    //         // style={{ height: 52, padding: "0 40px", fontSize: 16, fontWeight: 600, border: "none", borderRadius: "var(--radius)", cursor: "pointer" }}
+    //       >
+    //         Submit Enquiry <i className="feather-arrow-right ms-2" />
+    //       </button>
+    //     </div>
 
-      </div>
-    </form>
+    //   </div>
+    // </form>
   );
 };
 
