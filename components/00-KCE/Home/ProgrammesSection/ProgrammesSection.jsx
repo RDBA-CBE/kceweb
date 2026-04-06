@@ -76,11 +76,7 @@ export default function ProgrammesSection() {
           <div className={styles.orangeCard}>
             <div className={styles.orangeContent}>
               {data.map((item, i) => (
-                <div
-                  key={i}
-                  className={styles.tab}
-                  onClick={() => setActive(i)}
-                >
+                <div key={i} className={`${styles.tab} ${active === i ? styles.activeTab : ""}`}  onClick={() => setActive(i)}>
                   <h3>› {item.title}</h3>
                   {item.desc && <p>{item.desc}</p>}
                 </div>
@@ -100,7 +96,6 @@ export default function ProgrammesSection() {
                   <h5 className={styles.groupTitle}>
                     {group.groupTitle}
                   </h5>
-
                   {group.list.map((item, i) => (
                     <div key={i} className={styles.listItem}>
                       <span>›</span> {item}

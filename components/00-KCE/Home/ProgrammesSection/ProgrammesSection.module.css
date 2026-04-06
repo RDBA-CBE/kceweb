@@ -60,12 +60,20 @@
 }
 
 .tab h3 {
-  color: #fff;
+  color: #fff; font-weight: 100 !important;
 }
 
 .tab p {
   line-height: 1.6;
   margin-top: 6px;
+}
+
+.tab.activeTab h3 {
+  text-decoration: underline;
+  text-underline-offset: 6px; /* spacing */
+  text-decoration-thickness: 2px;
+  text-decoration-color: #c56613; /* orange */
+  font-weight: 600 !important;
 }
 
 /* LOGO */
