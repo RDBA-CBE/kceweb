@@ -1,0 +1,30 @@
+{
+  "banner": {
+    "bannerImg": "/images/kce/banner_computer_technology.jpg",
+    "title": "Academics Internship",
+    "breadcrumb": [
+    {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Academics Internship"
+        
+      }
+    ]
+  },
+  "sections": [
+   
+
+     {
+      "type":"full-width-image",
+      "data":{
+        
+        "src":"/images/kce/academics.png",
+        "alt":"placement-kce-Image-",
+        "height":"auto"
+      }
+    
+    }
+  ]
+}

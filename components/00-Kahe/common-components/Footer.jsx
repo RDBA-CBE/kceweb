@@ -87,7 +87,7 @@ const Footer = () => {
       },
       {
         label: "Online payment",
-        href: "https://admissions.kifees.com/",
+        href: "/acheivements",
         target: "_blank",
       },
     ],

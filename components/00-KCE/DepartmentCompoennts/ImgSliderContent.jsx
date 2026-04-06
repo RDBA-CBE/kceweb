@@ -43,7 +43,7 @@ const ImgSliderContent = ({ data }) => {
 
                 case "paragraph":
                   return item.text?.map((para, i) => (
-                    <p key={`${idx}-${i}`}>{para}</p>
+                    <p key={`${idx}-${i}`} dangerouslySetInnerHTML={{__html:para}}></p>
                   ));
 
                 case "logo":

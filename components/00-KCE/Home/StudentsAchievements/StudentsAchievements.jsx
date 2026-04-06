@@ -21,14 +21,14 @@ const achievementsData = [
     title: "Build The Future Bimcontest 2025",
     img: "/images/kce/home/student-achievements/achievements-6.webp",
   },
-  {
-    title: "Yuvai Global Youth Challenge",
-    img: "/images/kce/home/student-achievements/achievements-4.webp",
-  },
-  {
-    title: "De Montfort University-Dubai",
-    img: "/images/kce/home/student-achievements/achievements-2.webp",
-  }
+  // {
+  //   title: "Yuvai Global Youth Challenge",
+  //   img: "/images/kce/home/student-achievements/achievements-4.webp",
+  // },
+  // {
+  //   title: "De Montfort University-Dubai",
+  //   img: "/images/kce/home/student-achievements/achievements-2.webp",
+  // }
 ];
 
 const StudentsAchievements = () => {
@@ -53,7 +53,7 @@ const StudentsAchievements = () => {
       <h2 className={styles.title}>STUDENTS ACHIEVEMENTS</h2>
 
       {/* arrows live in grey area */}
-      <div className={styles.arrows}>
+      {/* <div className={styles.arrows}>
         <button
           onClick={() => setIndex((i) => Math.max(i - 1, 0))}
           disabled={index === 0}
@@ -66,7 +66,7 @@ const StudentsAchievements = () => {
         >
           ›
         </button>
-      </div>
+      </div> */}
 
       <div className={styles.sliderWrapper}>
         <div

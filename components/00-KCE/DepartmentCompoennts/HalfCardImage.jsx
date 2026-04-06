@@ -2,7 +2,7 @@ import React from "react";
 
 const HalfCardImage = ({ data }) => {
   return (
-    <div className="container HalfCardImage">
+    <div className=" HalfCardImage">
       <div className=" py-5">
         {data?.content?.map((item, index) => {
           const isReverse = index % 2 !== 0;
