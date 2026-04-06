@@ -17,12 +17,11 @@ const SplitImageContent = ({ data }) => {
         return (
           <React.Fragment key={index}>
             {texts?.map((text, i) => (
-              <p key={i} className="ci-text">
-                {text}
-              </p>
+              <p key={i} className="ci-text" dangerouslySetInnerHTML={{ __html: text }}></p>
             ))}
           </React.Fragment>
         );
+
       }
 
       case "title":

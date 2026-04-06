@@ -154,11 +154,261 @@
         "sectionbg": "section-bg1",
         "image": "/images/kce/placement/overview.webp",
         "content": [
-          
           {
             "type": "paragraph",
             "text": [
-              "AD 25 Batch students ARUN R, THOUSIHA S, and HARISH M, won 3rd place in the DATATHON competition at RHAPSODY conducted by the Indian Institute of Science, Bangalore held on October 14, 2023." ]
+              "AD 25 Batch students ARUN R, THOUSIHA S, and HARISH M, won 3rd place in the DATATHON competition at RHAPSODY conducted by the Indian Institute of Science, Bangalore held on October 14, 2023."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "split-image-content",
+      "data": {
+        "imagePosition": "right",
+        "sectionbg": "section-bg1",
+        "image": "/images/kce/placement/overview.webp",
+        "content": [
+          {
+            "type": "title",
+            "mainTi": "Data Visualization Competition at 'Invente'23'"
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              "AD 25 Batch students DHANUSH A, HARIHARAN K, and THANGAPANDI V, Won 2nd Place in the Data Visualization Competition at “Invente’23” conducted by SSN College of Engineering and Shiv Nadar University (Deemed to be University), Chennai held on October 6, 2023"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "split-image-content",
+      "data": {
+        "imagePosition": "left",
+        "sectionbg": "section-bg1",
+        "image": "/images/kce/placement/overview.webp",
+        "content": [
+          {
+            "type": "title",
+            "mainTi": "CODE WITH COMALI Competition at 'Invente'23'"
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              "AD 25 Batch students ARUN S K, RAMASAMY V, Won 1st Place in ML ALCHEMY Competition at “Invente’23” conducted by SSN College of Engineering and Shiv Nadar University (Deemed to be University), Chennai, held on October 6, 2023"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "split-image-content",
+      "data": {
+        "imagePosition": "right",
+        "sectionbg": "section-bg1",
+        "image": "/images/kce/placement/overview.webp",
+        "content": [
+          {
+            "type": "title",
+            "mainTi": "ML ALCHEMY Competition at 'Invente'23'"
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              "AD 25 Batch students ARUN S K, RAMASAMY V, Won 1st Place in ML ALCHEMY Competition at “Invente’23” conducted by SSN College of Engineering and Shiv Nadar University (Deemed to be University), Chennai, held on October 6, 2023"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "split-image-content",
+      "data": {
+        "imagePosition": "left",
+        "sectionbg": "section-bg1",
+        "image": "/images/kce/placement/overview.webp",
+        "content": [
+          {
+            "type": "title",
+            "mainTi": "Technical Debate (You or Me) at 'Invente'2'"
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              "AD 25 Batch student Thangapandi. V, Won 2nd Place in Technical Debate (You or Me) at “Invente’23” conducted by SSN College of Engineering and Shiv Nadar University (Deemed to be University), Chennai held on October 7, 2023,"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "split-image-content",
+      "data": {
+        "imagePosition": "right",
+        "sectionbg": "section-bg1",
+        "image": "/images/kce/placement/overview.webp",
+        "content": [
+          {
+            "type": "title",
+            "mainTi": "Nexus 2023 - GCT"
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              "AD 24 Batch Student Mr. Tony Alosius Won ” Prize” in Paper Preparation on the topic “SwiftwingAI – Autonomous drone delivery system” at Nexus 2023 – GCT, Coimbatore held on March 31, 2023"
+            ]
+          }
+        ]
+      }
+    },
+    
+    {
+      "type": "img-slider-content",
+      "data": {
+        "imagePosition": "left",
+        "sectionbg": "section-bg1 mt-5",
+        "content": [
+          {
+            "type": "title",
+            "mainTi": "Illuminate (National Social Entrepreneurship Fest)"
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              "<b>ORGANIZER:</b> Jain (Deemed-to-be University), Bengaluru<br><b>LOCATION:</b> Bengaluru, Karnataka<br><b>DATE:</b> 05-02-2023 and 06-02-2023<br><b>POSITION:</b> First Prize"]
+          }
+        ],
+        "images": [
+          "https://blog.kce.ac.in/new/wp-content/uploads/2024/03/event-8-1-768x576.jpg",
+          "https://blog.kce.ac.in/new/wp-content/uploads/2024/03/events-8-2-1024x1024.jpg",
+          "https://blog.kce.ac.in/new/wp-content/uploads/2024/03/events-8-3-768x403.png"
+        ]
+      }
+    },
+    {
+      "type": "split-image-content",
+      "data": {
+        "imagePosition": "left",
+        "sectionbg": "section-bg1",
+        "image": "/images/kce/placement/overview.webp",
+        "content": [
+          {
+            "type": "title",
+            "mainTi": "XCELERATE (E-SUMMIT 23)"
+          },
+          {
+            "type": "paragraph",
+            "text": "<b>ORGANIZER:</b> Shiv Nadar University (SNU), Greater Noida<br><b>LOCATION:</b> Greater Noida, Uttar Pradesh<br><b>DATE:</b> 27-01-2023 to 29-01-2023<br><b>POSITION:</b> First Position"
+          }
+        ]
+      }
+    },
+    {
+      "type": "split-image-content",
+      "data": {
+        "imagePosition": "right",
+        "sectionbg": "section-bg1",
+        "image": "/images/kce/placement/overview.webp",
+        "content": [
+          {
+            "type": "title",
+            "mainTi": "Pitch Tank (Samriddhi 2022))"
+          },
+          {
+            "type": "paragraph",
+            "text": "<b>ORGANIZER:</b> Goa Institute of Management, Goa<br><b>LOCATION:</b> Poriem, Goa<br><b>DATE:</b> 17-12-2022<br><b>POSITION:</b> National Level Finalist"
+          }
+        ]
+      }
+    },
+    {
+      "type": "split-image-content",
+      "data": {
+        "imagePosition": "left",
+        "sectionbg": "section-bg1",
+        "image": "/images/kce/placement/overview.webp",
+        "content": [
+          {
+            "type": "title",
+            "mainTi": "Ideastrom (Enyugma '22) "
+          },
+          {
+            "type": "paragraph",
+            "text": "<b>ORGANIZER:</b> Indian Institute of Information Technology (IIIT), Bhagalpur<br><b>LOCATION:</b> Bhagalpur, Bihar<br><b>DATE:</b> 11-12-2022<br><b>POSITION:</b> First Position"
+          }
+        ]
+      }
+    },
+    {
+      "type": "split-image-content",
+      "data": {
+        "imagePosition": "right",
+        "sectionbg": "section-bg1",
+        "image": "/images/kce/placement/overview.webp",
+        "content": [
+          {
+            "type": "title",
+            "mainTi": "National innovative Challenge"
+          },
+          {
+            "type": "paragraph",
+            "text": "<b>ORGANIZER:</b> Panipat Institute of Engineering and technology (PIET)<br><b>LOCATION:</b> Panipat, Haryana<br><b>DATE:</b> 10-12-2022<br><b>POSITION:</b> Best Jury’s Award"
+          }
+        ]
+      }
+    },
+    {
+      "type": "split-image-content",
+      "data": {
+        "imagePosition": "left",
+        "sectionbg": "section-bg1",
+        "image": "/images/kce/placement/overview.webp",
+        "content": [
+          {
+            "type": "title",
+            "mainTi": " Entreocial-Social Entrepreneurship Business Plan "
+          },
+          {
+            "type": "paragraph",
+            "text": "<b>ORGANIZER:</b> Birla Institute of Management Technology (BIMTECH)<br><b>LOCATION:</b> Greater Noida, Uttar Pradesh<br><b>DATE:</b> 27-11-2022<br><b>POSITION:</b> First Position"
+          }
+        ]
+      }
+    },
+    {
+      "type": "split-image-content",
+      "data": {
+        "imagePosition": "right",
+        "sectionbg": "section-bg1",
+        "content": [
+          {
+            "type": "title",
+            "mainTi": "Your Dream City"
+          },
+          {
+            "type": "paragraph",
+            "text": "<b>ORGANIZER:</b> XIM University, Bhubaneswar<br><b>LOCATION:</b> (ONLINE)<br><b>DATE:</b> 27-10-2022<br><b>POSITION:</b> Second Prize"
+          }
+        ]
+      }
+    },
+    {
+      "type": "split-image-content",
+      "data": {
+        "imagePosition": "left",
+        "sectionbg": "section-bg1",
+        "image": "/images/kce/placement/overview.webp",
+        "content": [
+          {
+            "type": "title",
+            "mainTi": "Visai 2022 (Unesco)",
+            "subTi": "INTERNATIONAL PROJECT COMPETITION & EXHIBITION 2022"
+          },
+          {
+            "type": "paragraph",
+            "text": "<b>ORGANIZER:</b> Vel Tech Rangarajan Dr.Sagunthala R&amp;D Institute of Science and Technology<br><b>LOCATION:</b> Chennai (ONLINE)<br><b>DATE:</b> 05-02-2022<br><b>POSITION:</b> First Prize"
           }
         ]
       }
