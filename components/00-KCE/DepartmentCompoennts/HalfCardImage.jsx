@@ -2,6 +2,7 @@ import React from "react";
 
 const HalfCardImage = ({ data }) => {
   return (
+     <section className={`section-wid ${data?.sectionbg || "section-bg1"}`}>
     <div className=" HalfCardImage">
       <div className=" py-5">
         {data?.content?.map((item, index) => {
@@ -51,6 +52,7 @@ const HalfCardImage = ({ data }) => {
         })}
       </div>
     </div>
+    </section>
   );
 };
 

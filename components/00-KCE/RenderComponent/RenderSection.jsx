@@ -57,9 +57,9 @@ const RenderSection = ({ section, index, renderSection }) => {
 
     case "half-card-img":
       return (
-        <section key={index} className="section-wid section-bg1">
-          <HalfCardImage data={section.data} />
-        </section>
+        
+          <HalfCardImage data={section.data} key={index}  />
+        
       );
 
     case "half-card-img-new":
@@ -74,9 +74,9 @@ const RenderSection = ({ section, index, renderSection }) => {
 
     case "card-grid":
       return (
-        <section key={index} className="section-wid section-bg1">
-          <CardGrid data={section.data} />
-        </section>
+        
+          <CardGrid data={section.data}  key={index}/>
+       
       );
 
     case "icon-card":

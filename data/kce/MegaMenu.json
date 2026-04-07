@@ -237,7 +237,7 @@
         {
           "id": 1,
           "title": "Overview",
-          "link": "/overview/",
+          "link": "/placement-overview/",
           "desc": "Learn more about KAHE overview.",
           "src": "/images/banner/co-men.png"
         },
@@ -251,7 +251,7 @@
         {
           "id": 3,
           "title": "Recruiters List",
-          "link": "/overview/",
+          "link": "/placement-overview/",
           "desc": "Learn more about KAHE overview.",
           "src": "/images/banner/co-men.png"
         },

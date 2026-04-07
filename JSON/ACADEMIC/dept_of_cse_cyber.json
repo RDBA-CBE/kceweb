@@ -38,9 +38,10 @@
         ]
       }
     },
-     {
+    {
       "type": "card-grid",
       "data": {
+        "sectionbg":"section-bg1 my-0 py-0 py-md-5",
         "title": "The clubs",
         "content": [
           {
@@ -62,6 +63,7 @@
     {
       "type": "half-card-img",
       "data": {
+        "sectionbg":"section-bg1 pt-0 pt-md-5",
         "content": [
           {
             "title": "Our Vision",
@@ -115,7 +117,6 @@
         ]
       }
     },
-
 
     {
       "type": "icon-card",
@@ -202,7 +203,8 @@
                   "content": [
                     {
                       "code": "PEO1",
-                      "description": "Graduates will be able to comprehend mathematics, science, engineering fundamentals, laboratory and work-based experiences to formulate and solve problems related to the domain of Cyber Security, Cyber Forensics and develop proficiency in computer-based engineering and the use of computation tools."},
+                      "description": "Graduates will be able to comprehend mathematics, science, engineering fundamentals, laboratory and work-based experiences to formulate and solve problems related to the domain of Cyber Security, Cyber Forensics and develop proficiency in computer-based engineering and the use of computation tools."
+                    },
                     {
                       "code": "PEO2",
                       "description": "Graduates will be prepared to communicate and work effectively on the multidisciplinary engineering projects practicing ethics of their profession with a sense of social responsibility."
@@ -327,7 +329,9 @@
           },
           {
             "type": "paragraph",
-            "text": ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus commodi suscipit in maiores vero aliquam nam. Consequatur, nulla! At illo dignissimos accusantium, aut quas error consectetur consequatur officiis quae dolore!"]
+            "text": [
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus commodi suscipit in maiores vero aliquam nam. Consequatur, nulla! At illo dignissimos accusantium, aut quas error consectetur consequatur officiis quae dolore!"
+            ]
           },
           {
             "type": "button",
@@ -344,9 +348,9 @@
                     "href": "/"
                   },
                   {
-        "label": "Academics",
-        "href": "/academics"
-      },
+                    "label": "Academics",
+                    "href": "/academics"
+                  },
                   {
                     "href": "/department-of-computer-science-and-engineering-cyber-security",
                     "label": "Department of Computer Science and Engineering (Cyber Security)"
