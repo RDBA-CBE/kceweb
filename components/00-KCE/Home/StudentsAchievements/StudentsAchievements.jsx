@@ -53,7 +53,7 @@ const StudentsAchievements = () => {
       <h2 className={styles.title}>STUDENTS ACHIEVEMENTS</h2>
 
       {/* arrows live in grey area */}
-      {/* <div className={styles.arrows}>
+      {/* <div className={`${styles.arrows} student-achievements-arrows`}>
         <button
           onClick={() => setIndex((i) => Math.max(i - 1, 0))}
           disabled={index === 0}

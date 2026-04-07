@@ -59,9 +59,11 @@ const HomePopup = () => {
           onClick={close}
           style={{
             position: "absolute",
-            top: "8px",
-            right: "12px",
-            background: "none",
+            top: "20px",
+            right: "20px",
+            background: "#fff",
+            borderRadius: "50%",
+            color:"#000",
             border: "none",
             fontSize: "22px",
             cursor: "pointer",

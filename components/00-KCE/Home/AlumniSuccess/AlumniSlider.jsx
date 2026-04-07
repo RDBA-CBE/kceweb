@@ -42,8 +42,9 @@ const AlumniSlider = () => {
         slidesPerView={5}
         breakpoints={{
           0: { slidesPerView: 1.2, spaceBetween: 16},
-          768: { slidesPerView: 3, spaceBetween: 24},
-          1200: { slidesPerView: 4, spaceBetween: 30 },
+          768: { slidesPerView: 2, spaceBetween: 24},
+          850: { slidesPerView: 3, spaceBetween: 24},
+          1300: { slidesPerView: 4, spaceBetween: 30 },
         }}
         coverflowEffect={{
           rotate: 0,
