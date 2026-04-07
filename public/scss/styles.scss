@@ -2319,6 +2319,15 @@ a.ps-card:hover .ps-title {
   text-align: center;
 }
 
+.rbt-table thead tr th, .rbt-table thead tr td, .rbt-table tfoot tr th, .rbt-table tfoot tr td {
+  min-width: 100px;
+}
+
+
+.rbt-table thead tr th{
+  white-space: nowrap;
+}
+
 @media (max-width: 1200px) {
   .logo-menu {
     position: fixed;
