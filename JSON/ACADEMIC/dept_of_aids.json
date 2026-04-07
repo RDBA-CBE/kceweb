@@ -8,8 +8,8 @@
         "href": "/"
       },
       {
-        "label": "Departments",
-        "href": "/departments"
+        "label": "Academics",
+        "href": "/academics"
       },
       {
         "label": "Department of Artificial Intelligence and Data Science"
@@ -456,9 +456,9 @@
                     "href": "/"
                   },
                   {
-                    "label": "Departments",
-                    "href": "/departments"
-                  },
+        "label": "Academics",
+        "href": "/academics"
+      },
                   {
                     "href": "/department-of-artificial-intelligence-and-data-science",
                     "label": "Department of Artificial Intelligence and Data Science"

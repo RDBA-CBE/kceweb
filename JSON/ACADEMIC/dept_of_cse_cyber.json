@@ -8,8 +8,8 @@
         "href": "/"
       },
       {
-        "label": "Departments",
-        "href": "/departments"
+        "label": "Academics",
+        "href": "/academics"
       },
       {
         "label": "Department of Computer Science and Engineering (Cyber Security)"
@@ -337,19 +337,19 @@
               "slug": "department-of-computer-sciences-and-engineering-cyber-security",
               "banner": {
                 "bannerImg": "/images/kce/banner_computer_technology.jpg",
-                "title": "Department of Electrical and Electronics Engineering",
+                "title": "Department of Computer Science and Engineering (Cyber Security)",
                 "breadcrumb": [
                   {
                     "label": "Home",
                     "href": "/"
                   },
                   {
-                    "label": "Departments",
-                    "href": "/departments"
-                  },
+        "label": "Academics",
+        "href": "/academics"
+      },
                   {
-                    "href": "/departments/department-of-computer-sciences-and-engineering-cyber-security",
-                    "label": "Department of Electrical and Electronics Engineering"
+                    "href": "/department-of-computer-science-and-engineering-cyber-security",
+                    "label": "Department of Computer Science and Engineering (Cyber Security)"
                   },
                   {
                     "label": "Faculty"

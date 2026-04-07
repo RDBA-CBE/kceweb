@@ -8,8 +8,8 @@
         "href": "/"
       },
       {
-        "label": "Departments",
-        "href": "/departments"
+        "label": "Academics",
+        "href": "/academics"
       },
       {
         "label": "Department of Electronics and Communication Engineering"
@@ -396,11 +396,11 @@
                     "href": "/"
                   },
                   {
-                    "label": "Departments",
-                    "href": "/departments"
-                  },
+        "label": "Academics",
+        "href": "/academics"
+      },
                   {
-                    "href": "/departments/department-of-electronics-and-communication-engineering",
+                    "href": "/department-of-electronics-and-communication-engineering",
                     "label": "Department of Electronics and Communication Engineering"
                   },
                   {

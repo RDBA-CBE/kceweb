@@ -7,6 +7,7 @@ import sideBarData from "@/JSON/sidebar.json";
 import InnerBanner from "@/components/00-KCE/common/InnerBanner";
 import { department } from "@/utils/constant.util";
 import SplitImageContent from "../DepartmentCompoennts/SplitImageContent";
+import Link from "next/link";
 
 const Aboutpage = () => {
   const { pageTitle, intro, imageSection, sideMenu, Highlights, course } = data;
@@ -55,7 +56,9 @@ const Aboutpage = () => {
                 <div className="ug-ribbon">
                   {course.items.map((item, index) => (
                     <div key={index} className="ug-ribbon-item">
-                      <span className="prog-name">{item.replace("+", "")}</span>
+                      <Link href={item.url}>
+                        <span className="prog-name">{item.name}</span>
+                      </Link>
                     </div>
                   ))}
                 </div>

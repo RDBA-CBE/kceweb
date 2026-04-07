@@ -113,7 +113,7 @@ const Footer = () => {
       { label: "Applications FAQ", href: "#" },
       { label: "Media", href: "/photo-gallery/" },
       { label: "Alumni Success Stories", href: "/alumni-success-stories/" },
-      { label: "Placement", href: "/overview/" },
+      { label: "Placement", href: "/placement-overview/" },
       { label: "Hostel", href: "/infrastructure/hostel/" },
       { label: "Blog", href: "https://kce.ac.in/blog/", target: "_blank" },
       {

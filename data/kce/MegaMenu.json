@@ -12,6 +12,7 @@
       "hasMenuChild": false,
       "hasPositionStatic": false,
       "hasSideBanner": false,
+      
       "menuItems": [
         {
           "id": 1,
@@ -51,6 +52,7 @@
       "hasPositionStatic": true,
       "hasSideBanner": true,
       "navWidth": "500px",
+      "link": "/academics",
       "menuItems": [
         {
           "id": 1,
@@ -249,7 +251,7 @@
         {
           "id": 3,
           "title": "Recruiters List",
-          "link": "/recruiters-list/",
+          "link": "/overview/",
           "desc": "Learn more about KAHE overview.",
           "src": "/images/banner/co-men.png"
         },

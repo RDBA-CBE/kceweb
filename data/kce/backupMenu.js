@@ -507,3 +507,31 @@
       }
     },
   ]
+
+
+  //  placement overview
+
+  [{
+      "type":"full-width-image",
+      "data":{
+        "sectionbg":"pt-0 pb-5",
+        "src":"/images/kce/placement/Graph.webp",
+        "alt":"placement-kce-Image-",
+        "height":"auto"
+      }
+    
+    }]
+
+//  recuiters list
+[
+  {
+      "type":"full-width-image",
+      "data":{
+        "sectionbg":"section-bg1",
+        "src":"https://blog.kce.ac.in/new/wp-content/uploads/2024/03/Companies-Visited.jpg",
+        "alt":"placement-kce-Image-",
+        "height":"auto",
+        "className":"d-flex justify-content-center"
+      }
+    }
+]
