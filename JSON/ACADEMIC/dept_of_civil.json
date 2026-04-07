@@ -22,7 +22,7 @@
       "type": "image-overlay-card",
       "data": {
         "title": "About the Department",
-        "bgImg": "/images/kce/academics/civil/civil-engineering.webp",
+        "bgImg": "/images/kce/academics/civil/banner_civil.png",
         "description": [
           "The department of Civil Engineering was started in the year 2008. It offers under graduate course in Civil Engineering with an intake of 60 students. Our main goal is to be the Centre of Excellence for the development and dissemination of knowledge in Structural Engineering, Construction Engineering and Management, Water Resources and Management, Transportation, Environmental Engineering, Urban Engineering, Geotechnical Engineering, Remote sensing, GIS and its applications."
         ]
@@ -324,9 +324,8 @@
                   }
                 ]
               },
-              "sectionTi": "Our faculty",
-              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
-
+              "sectionTi": "Our Faculty",
+              "desc": "At KCE, our Civil Engineering faculty are not just teachers they are dedicated mentors who guide students at every step of their academic journey. With strong qualifications and valuable industry experience, our faculty ensure that students clearly understand concepts and are well-prepared for real-world engineering challenges. ",
               "faculty": [
                 {
                   "id": 0,

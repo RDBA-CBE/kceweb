@@ -408,8 +408,8 @@
                   }
                 ]
               },
-              "sectionTi": "Our faculty",
-              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+              "sectionTi": "Our Faculty",
+              "desc": "Our faculty members actively guide students in academic projects, internships, skill development programs, and placement preparation. With expertise in areas such as VLSI design, wireless communication, IoT, and embedded systems, they ensure students stay aligned with current industry trends.",
 
               "faculty": [
                 {
@@ -633,7 +633,7 @@
       "type": "pill-list",
       "data": {
         "title": "Smart Class Rooms",
-        "description": "Lorem ipsum dolor sit amet consectetur. Pulvinar nulla sapien velit ultrices neque pretium pulvinar. Urna netus sed et in. At sed urna vitae rhoncus convallis tellus nisi viverra.",
+        "description": "At KCE, the Department of Electronics and Communication Engineering offers modern smart classrooms designed to create an engaging and effective learning environment for students. Equipped with advanced digital teaching tools, our classrooms make complex engineering concepts easy to understand through visual and interactive learning.",
         "items": [
           {
             "id": 1,
