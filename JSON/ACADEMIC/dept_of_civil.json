@@ -22,7 +22,7 @@
       "type": "image-overlay-card",
       "data": {
         "title": "About the Department",
-        "bgImg": "/images/kce/academics/civil/banner_civil.png",
+        "bgImg": "/images/kce/academics/civil/civil-enginneer-web-image-banner.png",
         "description": [
           "The department of Civil Engineering was started in the year 2008. It offers under graduate course in Civil Engineering with an intake of 60 students. Our main goal is to be the Centre of Excellence for the development and dissemination of knowledge in Structural Engineering, Construction Engineering and Management, Water Resources and Management, Transportation, Environmental Engineering, Urban Engineering, Geotechnical Engineering, Remote sensing, GIS and its applications."
         ]
@@ -48,7 +48,7 @@
           {
             "title": "Our Vision",
             "description": "To produce technically knowledgeable and socially responsible Civil Engineers by inculcating value based technical education.",
-            "image": "/images/kce/academics/civil/mision.webp"
+            "image": "/images/kce/academics/civil/vision.png"
           },
           {
             "title": "Our Mission",
@@ -61,7 +61,7 @@
                 ]
               }
             ],
-            "image": "/images/kce/academics/civil/vision.webp"
+            "image": "/images/kce/academics/civil/mission.png"
           }
         ]
       }
@@ -70,7 +70,7 @@
     {
       "type": "image-overlay-content",
       "data": {
-        "bgImage": "/images/kce/academics/regulation.webp",
+        "bgImage": "/images/kce/academics/civil/regualation-image.png",
 
         "title": "Regulations",
         "list": [
@@ -88,7 +88,7 @@
         "sectionbg": "section-bg1 my-5",
         "imagePosition": "left",
         "secTitle": "Courses Offered",
-        "image": "/images/kce/academics/courses-offered.webp",
+        "image": "/images/kce/academics/civil/civil-course-offered.png",
         "content": [
           {
             "type": "card",
