@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import RichText from "./RichText";
 
 const RectangleList = ({ data }) => {
   return (
@@ -12,7 +13,7 @@ const RectangleList = ({ data }) => {
               <div className="col-lg-6 col-md-6 col-sm-12" key={index}>
                 {item.url ? (
                   <Link href={item.url} className="ps-card" target="_blank">
-                    <span className="ps-title">{item.title}</span>
+                    <RichText as="span" className="ps-title" content={item.title} />
                     <span className="ps-arrow">
                       {" "}
                       <i className="feather-chevrons-right"></i>
@@ -20,7 +21,7 @@ const RectangleList = ({ data }) => {
                   </Link>
                 ) : (
                   <div className="ps-card">
-                    <span className="ps-title">{item.title}</span>
+                    <RichText as="span" className="ps-title" content={item.title} />
                     <span className="ps-arrow">
                       {" "}
                       <i className="feather-chevrons-right"></i>

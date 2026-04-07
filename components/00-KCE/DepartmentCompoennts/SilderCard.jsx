@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-
+import RichText from "./RichText";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 
@@ -90,7 +90,7 @@ const SilderCard = ({ isDesc, data }) => {
                                 {data?.list?.map((list, listIndex) => (
                                   <li key={listIndex} className="ps-0">
                                     <i className={`${list?.icon}`}></i>{" "}
-                                    <span>{list?.desc}</span>
+                                    <RichText as="span" content={list?.desc} />
                                   </li>
                                 ))}
                               </ul>

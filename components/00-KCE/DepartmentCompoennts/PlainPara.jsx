@@ -1,4 +1,5 @@
 import React from "react";
+import RichText from "./RichText";
 
 const PlainPara = ({ data }) => {
   return (
@@ -7,7 +8,7 @@ const PlainPara = ({ data }) => {
       {data.content.map((item, index) => (
         <div key={index} className="plain-para">
           <div className="">
-            <div className="remaining-content">{item}</div>
+            <RichText as="div" className="remaining-content" content={item} />
           </div>
         </div>
       ))}

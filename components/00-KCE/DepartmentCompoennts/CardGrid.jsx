@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import RichText from "./RichText";
 
 const CardGrid = ({data}) => {
   return (
@@ -12,9 +13,7 @@ const CardGrid = ({data}) => {
         <div className="cg-grid">
           {data?.content.map((content) => (
             <div key={content.id} className="cg-card">
-              <p className="cg-course-name sub-ti">
-                {content.name}
-              </p>
+              <RichText as="p" className="cg-course-name sub-ti" content={content.name} />
             </div>
           ))}
         </div>

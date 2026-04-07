@@ -2,6 +2,7 @@
 
 import React from "react";
 import Slider from "../common/Slider";
+import RichText from "./RichText";
 
 const ImgSliderContent = ({ data }) => {
   const useSlider = data?.images?.length > 3;
@@ -43,7 +44,7 @@ const ImgSliderContent = ({ data }) => {
 
                 case "paragraph":
                   return item.text?.map((para, i) => (
-                    <p key={`${idx}-${i}`} dangerouslySetInnerHTML={{__html:para}}></p>
+                    <RichText key={`${idx}-${i}`} as="p" content={para} />
                   ));
 
                 case "logo":
@@ -57,7 +58,7 @@ const ImgSliderContent = ({ data }) => {
                   return (
                     <ul className="imgmc-list" key={idx}>
                       {item.items?.map((li, i) => (
-                        <li key={i}>{li}</li>
+                        <RichText key={i} as="li" content={li} />
                       ))}
                     </ul>
                   );

@@ -1,5 +1,6 @@
 'use client'
 import React, { useEffect, useState } from 'react'
+import RichText from './RichText'
 
 const getYoutubeId = (url = '') => {
   const match = url.match(
@@ -45,7 +46,7 @@ const VideoCardSection = ({ data }) => {
     <>
       <section className='kce-learn-section'>
         <h2 className='section-ti'>{data.secTitle}</h2>
-        {data?.para && <p className='sub-ti'>{data?.para}</p>}
+        {data?.para && <RichText as="p" className="sub-ti" content={data?.para} />}
         <div className='kce-learn-grid pt-4'>
           {data.items.map(item => {
             /* VIDEO CARD */
@@ -89,7 +90,7 @@ const VideoCardSection = ({ data }) => {
                   rel='noopener noreferrer'
                   className='kce-resource-soft-card'
                 >
-                  <h4 className='kce-resource-title sub-ti'>{item.label}</h4>
+                  <RichText as="h4" className="kce-resource-title sub-ti" content={item.label} />
 
                   <div className='kce-resource-footer'>
                     <span className='kce-resource-download'>

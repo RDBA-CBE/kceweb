@@ -1,4 +1,5 @@
 import React from "react";
+import RichText from "./RichText";
 
 const HalfCardImage = ({ data }) => {
   return (
@@ -30,7 +31,7 @@ const HalfCardImage = ({ data }) => {
                   }`}
                 >
                   <h4 className="section-ti">{item.title}</h4>
-                  {item.description && <p>{item.description}</p>}
+                  {item.description && <RichText as="p" content={item.description} />}
 
                   {item?.list?.map((liItem, index) => (
                     <div key={index}>
@@ -39,7 +40,7 @@ const HalfCardImage = ({ data }) => {
                       {Array.isArray(liItem?.item) && (
                         <ul className="vm-list">
                           {liItem.item.map((li, i) => (
-                            <li key={i}>{li}</li>
+                            <li key={i}><RichText content={li} /></li>
                           ))}
                         </ul>
                       )}

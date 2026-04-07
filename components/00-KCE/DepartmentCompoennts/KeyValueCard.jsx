@@ -1,5 +1,6 @@
 'use client'
-import React from 'react'
+import React from 'react';
+import RichText from './RichText';
 
 const KeyValueCard = ({ data }) => {
   return (
@@ -21,7 +22,7 @@ const KeyValueCard = ({ data }) => {
               <div className='startup-content'>
                 {item?.details?.map((detail, i) => (
                   <div className='startup-row ' key={i}>
-                    <span>{detail.label} {' '} :{' '}</span>
+                    <RichText as="span" content={`${detail.label}  :`} />
                     <p>
                      
                       {detail.url ? (

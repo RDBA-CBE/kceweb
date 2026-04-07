@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
+import RichText from "./RichText";
 import "venobox/dist/venobox.min.css";
 
 const GalleryGrid = ({ data }) => {
@@ -43,7 +44,7 @@ const GalleryGrid = ({ data }) => {
                     />
                   </a>
 
-                  {img?.title && <p className="mt-4">{img?.title}</p>}
+                  {img?.title && <RichText as="p" className="mt-4" content={img?.title} />}
                 </li>
               ))}
             </ul>

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import RichText from "./RichText";
 
 const ImgConCard = ({ data }) => {
   return (
@@ -16,12 +17,12 @@ const ImgConCard = ({ data }) => {
                     <span className="sub-ti">{item?.subtitle}</span>
                   )}
 
-                  <p>{item?.text}</p>
+                  <RichText as="p" content={item?.text} />
 
                   {item?.points && (
                     <ul className="vm-list mb-4 mt-5">
                       {item?.points.map((li, i) => (
-                        <li key={i}>{li}</li>
+                        <RichText key={i} as="li" content={li} />
                       ))}
                     </ul>
                   )}

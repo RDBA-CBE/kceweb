@@ -1,5 +1,6 @@
 // DoubleColList.jsx
 import React from "react";
+import RichText from "./RichText";
 
 const DoubleColList = ({ data }) => {
   if (!data) return null;
@@ -9,7 +10,7 @@ const DoubleColList = ({ data }) => {
       <div className="dcl-container py-5">
         {data.title && <h2 className="dcl-title">{data.title}</h2>}
         {data.description && (
-          <p className="dcl-description">{data.description}</p>
+          <RichText as="p" className="dcl-description" content={data.description} />
         )}
 
         <div className="dcl-grid">
@@ -28,7 +29,7 @@ const DoubleColList = ({ data }) => {
                       className="dcl-item"
                     >
                       <span className="dcl-bullet">✓</span>
-                      <span>{item.label}</span>
+                      <RichText as="span" content={item.label} />
                     </a>
                   </li>
                 ))}

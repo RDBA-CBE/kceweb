@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import RichText from '@/components/00-KCE/DepartmentCompoennts/RichText';
 
 const TimeLine = () => {
   return (
@@ -19,7 +20,7 @@ const TimeLine = () => {
                 <div className="timeline-content">
                   <span className="timeline-step">STEP {item.step}</span>
                   <h3 className="timeline-title">{item.title}</h3>
-                  <p className="timeline-detail">{item.detail}</p>
+                  <RichText as="p" className="timeline-detail" content={item.detail} />
                 </div>
               </div>
             ))}

@@ -1,6 +1,7 @@
 "use client";
 import InnerBanner from "@/components/00-KCE/common/InnerBanner";
 import React from "react";
+import RichText from "../DepartmentCompoennts/RichText";
 import data from "@/JSON/ABOUT/courses-offered.json";
 import Link from "next/link";
 
@@ -22,7 +23,7 @@ export default function CourseOffPage() {
               {admission.blocks.map((b, i) => (
                 <div key={i} className="admission-block">
                   <h4 className="sub-ti">{b.title}</h4>
-                  <p>{b.text}</p>
+                  <RichText as="p" content={b.text} />
                 </div>
               ))}
             </div>

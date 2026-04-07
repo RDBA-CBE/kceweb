@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import SilderCard from './SilderCard'
 import Link from 'next/link'
+import RichText from './RichText'
 
 const Accordion = ({ data, fullData = null }) => {
   console.log('first', fullData)
@@ -14,7 +15,7 @@ const Accordion = ({ data, fullData = null }) => {
                 <div className='section-title text-start'>
                   {data.title && <h2 className='section-ti'>{data.title}</h2>}
                   {data.description && (
-                    <p className='mb-4'>{data.description}</p>
+                    <RichText as="p" className="mb-4" content={data.description} />
                   )}
                 </div>
                 <div className='rbt-accordion-style rbt-accordion-02 accordion'>
@@ -48,7 +49,7 @@ const Accordion = ({ data, fullData = null }) => {
                         >
                           {item.desc && (
                             <div className='accordion-body card-body'>
-                              {item.desc}
+                              <RichText content={item.desc} />
                             </div>
                           )}
 

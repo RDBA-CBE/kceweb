@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import React, { useState } from "react";
+import RichText from "./RichText";
 
 const TableCom = ({ data }) => {
   return (
@@ -36,7 +37,7 @@ const TableCom = ({ data }) => {
               </div>
             )}
 
-            {data?.desc && <p>{data.desc}</p>}
+            {data?.desc && <RichText as="p" content={data.desc} />}
 
             {/* TABLES */}
             {data?.table?.map((item, index) => (
@@ -152,7 +153,7 @@ const PaginatedTable = ({ table, rowsPerPage = 10 , tablealignment}) => {
                           target={cell.target || "_blank"}
                           className="d-flex justify-content-between align-items-center"
                         >
-                          <span>{cell.text}</span>
+                          <RichText as="span" content={cell.text} />
                           {cell.img_icon && (
                             <img
                               src={cell.img_icon}
@@ -163,7 +164,7 @@ const PaginatedTable = ({ table, rowsPerPage = 10 , tablealignment}) => {
                           )}
                         </Link>
                       ) : cell.text ? (
-                        <span>{cell.text}</span>
+                        <RichText as="span" content={cell.text} />
                       ) : cell.list ? (
                         <ul className="rbt-list-style-1">
                           {cell.list.map((v, i) => (

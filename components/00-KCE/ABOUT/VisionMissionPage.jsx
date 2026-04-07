@@ -3,6 +3,7 @@
 import SideMenu from '@/components/00-KCE/ABOUT/sideMenu';
 import InnerBanner from '@/components/00-KCE/common/InnerBanner';
 import React from 'react';
+import RichText from '../DepartmentCompoennts/RichText';
 import sideBarData from '@/JSON/sidebar.json';
 import data from '@/JSON/ABOUT/vissionMision.json';
 import IconCard1 from '../DepartmentCompoennts/IconCard1';
@@ -22,7 +23,7 @@ const VisionMissionPage = () => {
             <div className='vm-card fade-up'>
               <span className='ti-badge'>{content.vision.badge}</span>
               <h2 className='section-ti'>{content.vision.title}</h2>
-              <p className='vm-text'>{content.vision.text}</p>
+              <RichText as="p" className='vm-text' content={content.vision.text} />
             </div>
 
             {/* MISSION */}
@@ -32,7 +33,7 @@ const VisionMissionPage = () => {
 
               <ul className='vm-list'>
                 {content.mission.points.map((item, i) => (
-                  <li key={i}>{item}</li>
+                  <li key={i}><RichText content={item} /></li>
                 ))}
               </ul>
             </div>
@@ -64,7 +65,7 @@ const VisionMissionPage = () => {
                       )}
                       {item?.title && <h5 className='sub-ti'>{item.title}</h5>}
 
-                      {item.text && <p>{item.text}</p>}
+                      {item.text && <RichText as="p" content={item.text} />}
                     </div>
                   </div>
                 ))}

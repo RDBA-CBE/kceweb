@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import styles from "./ProgrammesSection.module.css";
+import RichText from "@/components/00-KCE/DepartmentCompoennts/RichText";
 import Link from "next/link";
 
 const data = [
@@ -102,7 +103,7 @@ export default function ProgrammesSection() {
                   onClick={() => setActive(i)}
                 >
                   <h3>› {item.title}</h3>
-                  {item.desc && <p>{item.desc}</p>}
+                  {item.desc && <RichText as="p" content={item.desc} />}
                 </div>
               ))}
             </div>

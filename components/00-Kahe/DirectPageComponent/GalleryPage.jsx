@@ -1,4 +1,5 @@
 import Link from "next/link";
+import RichText from "@/components/00-KCE/DepartmentCompoennts/RichText";
 import { useEffect, useState } from "react";
 import "venobox/dist/venobox.min.css";
 
@@ -40,7 +41,7 @@ const GalleryPage = ({ content }) => {
             >
               <img src={item.src} alt={item.alt} />
 
-              {item.title && <p>{item.title}</p>}
+              {item.title && <RichText as="p" content={item.title} />}
             </Link>
           ))}
         </div>

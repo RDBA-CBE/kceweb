@@ -1,4 +1,5 @@
 import React from "react";
+import RichText from "./RichText";
 
 const ImageOverlayCard = ({ data }) => {
   return (
@@ -18,12 +19,10 @@ const ImageOverlayCard = ({ data }) => {
               </div>
               <div className="content-wrapper">
                 <p className="content-text-exact">
-                  <em>{data.welcome}</em>
+                  <RichText as="em" content={data.welcome} />
                 </p>
                 {data?.description?.map((para, index) => (
-                  <p key={index} className="content-text-exact">
-                    {para}
-                  </p>
+                  <RichText key={index} as="p" className="content-text-exact" content={para} />
                 ))}
               </div>
             </div>

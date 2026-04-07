@@ -1,4 +1,5 @@
 import { FirstLetterUp } from "@/utils/functions.utils";
+import RichText from "@/components/00-KCE/DepartmentCompoennts/RichText";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import "venobox/dist/venobox.min.css";
@@ -71,7 +72,7 @@ const PublicationPage = ({ publicationsContent }) => {
                 >
                   <ol>
                     {item.content.map((pub, idx) => (
-                      <li key={idx}>{pub}</li>
+                      <RichText key={idx} as="li" content={pub} />
                     ))}
                   </ol>
                 </div>

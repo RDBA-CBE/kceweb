@@ -1,4 +1,5 @@
 "use client";
+import RichText from "./RichText";
 
 const TimeLine = ({ data }) => {
   return (
@@ -31,7 +32,7 @@ const TimeLine = ({ data }) => {
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            {date.text}
+                            <RichText content={date.text} />
                           </a>
                         </div>
                       ))}

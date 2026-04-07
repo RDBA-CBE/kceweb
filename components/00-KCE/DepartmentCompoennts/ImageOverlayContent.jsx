@@ -2,6 +2,7 @@
 
 import Link from 'next/link'
 import React from 'react'
+import RichText from './RichText'
 
 const ImageOverlayContent = ({ data }) => {
   return (
@@ -18,7 +19,7 @@ const ImageOverlayContent = ({ data }) => {
               {data?.title2 && (
                 <h2 className='sub-ti text-white mb-0 mt-5'>{data?.title2}</h2>
               )}
-              {data?.subtitle && <p className='mt-4'>{data?.subtitle}</p>}
+              {data?.subtitle && <RichText as="p" className="mt-4" content={data?.subtitle} />}
               {data?.button && (
                 <div>
                   <Link
@@ -39,19 +40,19 @@ const ImageOverlayContent = ({ data }) => {
 
             {/* Right Column */}
             <div className='ioc-right-col'>
-               {data?.rightTi && <p className='sub-ti'>{data?.rightTi}</p>}
-               {data?.desc && <p className='mt-4'>{data?.desc}</p>}
+               {data?.rightTi && <RichText as="p" className="sub-ti" content={data?.rightTi} />}
+               {data?.desc && <RichText as="p" className="mt-4" content={data?.desc} />}
               <ul className='ioc-list'>
                 {data?.list?.map((item, index) =>
                   item?.url ? (
                     <li key={index} className='ioc-list-item'>
                       <Link href={item?.url} target={item?.target || '_blank'}>
-                        {item?.title}
+                        <RichText content={item?.title} />
                       </Link>
                     </li>
                   ) : (
                     <li key={index} className='ioc-list-item'>
-                      {item?.title}
+                      <RichText content={item?.title} />
                     </li>
                   )
                 )}

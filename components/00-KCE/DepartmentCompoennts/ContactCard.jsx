@@ -2,6 +2,7 @@
 
 import Link from 'next/link'
 import React from 'react'
+import RichText from './RichText'
 
 const ContactCard = ({ data }) => {
   return (
@@ -31,7 +32,7 @@ const ContactCard = ({ data }) => {
                 )}
 
                 {item?.description && (
-                  <p className='mb-4'>{item.description}</p>
+                  <RichText as="p" className="mb-4" content={item.description} />
                 )}
 
                 {/* Dynamic contact details */}

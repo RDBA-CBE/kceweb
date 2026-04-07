@@ -252,7 +252,7 @@
           {
             "type": "paragraph",
             "text": [
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus commodi suscipit in maiores vero aliquam nam. Consequatur, nulla! At illo dignissimos accusantium, aut quas error consectetur consequatur officiis quae dolore!"
+              "The Department of MCA at KCE is led by proficient faculty specializing in advanced computing applications. With a focus on research, innovation, and practical learning, they prepare students for successful careers in the software and IT industry."
             ]
           },
           {
@@ -282,8 +282,8 @@
                   }
                 ]
               },
-              "sectionTi": "Our faculty",
-              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+              "sectionTi": "Our Faculty",
+              "desc": "The MCA department at KCE is supported by a team of qualified and dedicated faculty committed to student success.They use simple, practical, and interactive teaching methods to make learning effective and engaging.Faculty guide students in projects, internships, and career development with continuous mentoring.With expertise in modern technologies, they ensure students stay updated with industry trends.Their support helps students become confident, skilled, and job-ready IT professionals. ",
 
               "faculty": [
                 {

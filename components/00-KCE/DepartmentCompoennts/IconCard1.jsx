@@ -1,4 +1,5 @@
 import React from "react";
+import RichText from "./RichText";
 
 const IconCard1 = ({ data }) => {
   console.log("data", data);
@@ -10,7 +11,7 @@ const IconCard1 = ({ data }) => {
           {data?.badge && <span className="ti-badge">{data?.badge}</span>}
           {data?.title && <h2 className="section-ti">{data?.title}</h2>}
           {data?.subTi && <h2 className="sub-ti">{data?.subTi}</h2>}
-          {data?.desc && <p>{data?.desc}</p>}
+          {data?.desc && <RichText as="p" content={data.desc} />}
         </div>
 
         <div className="row g-5 mt-5">
@@ -20,7 +21,7 @@ const IconCard1 = ({ data }) => {
                 {item?.src && <img className="pb-4" src="/images/kce/vision.png" alt="" />}
                 {item?.title && <h5 className="sub-ti">{item.title}</h5>}
 
-                {item.text && <p>{item.text}</p>}
+                {item.text && <RichText as="p" content={item.text} />}
               </div>
             </div>
           ))}

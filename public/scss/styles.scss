@@ -2355,3 +2355,43 @@ a.ps-card:hover .ps-title {
 //     top: 50px !important;
 //   }
 // }
+
+/* ================================================
+   GLOBAL RICH TEXT STYLES
+   Use <b>text</b>, <strong>text</strong>, <em>text</em>,
+   <u>text</u>, <br> inside any JSON text field.
+   These styles apply across ALL components.
+   ================================================ */
+
+b, strong {
+  font-weight: 700 !important;
+}
+
+em, i.italic {
+  font-style: italic !important;
+}
+
+u {
+  text-decoration: underline !important;
+}
+
+.rich-highlight {
+  color: #cc6926;
+  font-weight: 600;
+}
+
+/* Ensures inline HTML inside component paragraphs renders correctly */
+.plain-para p,
+.ci-text,
+.peo-list p,
+.pso-text p,
+.po-content p,
+.dcl-description,
+.dcl-item span,
+.efi-para,
+.remaining-content {
+  b, strong { font-weight: 700 !important; }
+  em         { font-style: italic !important; }
+  u          { text-decoration: underline !important; }
+  br         { display: block; content: ""; margin-top: 4px; }
+}

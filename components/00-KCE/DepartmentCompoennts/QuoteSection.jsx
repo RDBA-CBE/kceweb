@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import RichText from './RichText';
 
 const QuoteSection = ({ data }) => {
   return (
@@ -31,7 +32,7 @@ const QuoteSection = ({ data }) => {
             <div className='clubs-quote-overlay'>
               <div className='container'>
                 <blockquote className='clubs-quote'>
-                  <span className='quote-text'>{data?.quote}</span>
+                  <RichText as="span" className="quote-text" content={data?.quote} />
                   <span className='quote-mark'>""</span>
                 </blockquote>
               </div>
