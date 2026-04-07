@@ -8,8 +8,8 @@
         "href": "/"
       },
       {
-        "label": "Departments",
-        "href": "/departments"
+        "label": "Academics",
+        "href": "/academics"
       },
       {
         "label": "Department of Computer Science and Engineering (Cyber Security)"
@@ -38,9 +38,10 @@
         ]
       }
     },
-     {
+    {
       "type": "card-grid",
       "data": {
+        "sectionbg":"section-bg1 my-0 py-0 py-md-5",
         "title": "The clubs",
         "content": [
           {
@@ -62,10 +63,11 @@
     {
       "type": "half-card-img",
       "data": {
+        "sectionbg":"section-bg1 pt-0 pt-md-5",
         "content": [
           {
             "title": "Our Vision",
-            "description": "To develop technically cyber skilled professionals by imparting state-of-art innovative, multi-disciplinary teams to address contemporary and future cyber security through innovative and flexible environment.",
+            "description": "To develop technically proficient and cyber-skilled professionals through a state-of-the-art,innovative, and multidisciplinary learning environment that promotes ethical practices,supports higher education and research, and empowers graduates to address contemporary and future cyber security challenges for the benefit of society",
             "image": "/images/kce/academics/cyber-security/mision.webp"
           },
           {
@@ -73,9 +75,9 @@
             "list": [
               {
                 "item": [
-                  "To educate and train the budding engineers in the field of Cyber Security and cyber forensics in academia and industry.",
-                  "To establish Centre of Research in Cyber Security and Cyber Forensics to address the technical challenges.",
-                  "To enhance the entrepreneurship skills by providing training through Industry Institute Interaction and government program."
+                  "To impart quality education and hands-on experience that enable aspiring engineers to excel in academic pursuits and industrial applications of emerging cyber technologies.",
+                  "To foster entrepreneurial and professional competencies through collaborative Industry–Institute partnerships and a vibrant environment for research and innovation in the field of cyber security.",
+                  "To create an environment that develops socially responsible citizens and empowers them to promote safe, ethical, and secure use of technology for the benefit of society."
                 ]
               }
             ],
@@ -115,7 +117,6 @@
         ]
       }
     },
-
 
     {
       "type": "icon-card",
@@ -202,15 +203,15 @@
                   "content": [
                     {
                       "code": "PEO1",
-                      "description": "Graduates will be able to comprehend mathematics, science, engineering fundamentals, laboratory and work-based experiences to formulate and solve problems related to the domain of Cyber Security, Cyber Forensics and develop proficiency in computer based engineering and the use of computation tools."
+                      "description": "Graduates will be able to comprehend mathematics, science, engineering fundamentals, laboratory and work-based experiences to formulate and solve problems related to the domain of Cyber Security, Cyber Forensics and develop proficiency in computer-based engineering and the use of computation tools."
                     },
                     {
                       "code": "PEO2",
-                      "description": "Graduates will be prepared to communicate and work effectively on the multidisciplinary engineering projects practicing the ethics of their profession with a sense of social responsibility."
+                      "description": "Graduates will be prepared to communicate and work effectively on the multidisciplinary engineering projects practicing ethics of their profession with a sense of social responsibility."
                     },
                     {
                       "code": "PEO3",
-                      "description": "Graduates will recognize the importance of lifelong learning to become experts both as entrepreneurs or employees and to extend their knowledge in their domain."
+                      "description": "Graduates will engage in lifelong learning to enhance their expertise and remain proficient as entrepreneurs or professionals in their chosen fields."
                     }
                   ]
                 }
@@ -301,7 +302,7 @@
                   "content": [
                     {
                       "code": "PSO1",
-                      "description": " Analyze, Design, Implement, Development and production in practices of computer science and engineering application pivot to Cryptography, Cyber Security and Cyber Forensics."
+                      "description": "Analyze, Design, Implement, Development and production in practices of computer science and engineering application pivot to Cryptography, Cyber Security and Cyber Forensics."
                     },
                     {
                       "code": "PSO2",
@@ -328,7 +329,7 @@
           },
           {
             "type": "paragraph",
-            "text": ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus commodi suscipit in maiores vero aliquam nam. Consequatur, nulla! At illo dignissimos accusantium, aut quas error consectetur consequatur officiis quae dolore!"]
+            "text": ["The Department of CSE (Cyber Security) at KCE is led by expert faculty specializing in secure computing and emerging cyber technologies. Through research-driven and industry-focused teaching, they prepare students to tackle complex security challenges and safeguard digital ecosystems."]
           },
           {
             "type": "button",
@@ -338,27 +339,27 @@
               "slug": "department-of-computer-sciences-and-engineering-cyber-security",
               "banner": {
                 "bannerImg": "/images/kce/banner_computer_technology.jpg",
-                "title": "Department of Electrical and Electronics Engineering",
+                "title": "Department of Computer Science and Engineering (Cyber Security)",
                 "breadcrumb": [
                   {
                     "label": "Home",
                     "href": "/"
                   },
                   {
-                    "label": "Departments",
-                    "href": "/departments"
+                    "label": "Academics",
+                    "href": "/academics"
                   },
                   {
-                    "href": "/departments/department-of-computer-sciences-and-engineering-cyber-security",
-                    "label": "Department of Electrical and Electronics Engineering"
+                    "href": "/department-of-computer-science-and-engineering-cyber-security",
+                    "label": "Department of Computer Science and Engineering (Cyber Security)"
                   },
                   {
                     "label": "Faculty"
                   }
                 ]
               },
-              "sectionTi": "Our faculty",
-              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+              "sectionTi": "Our Faculty",
+              "desc": "At KCE, the Department of Computer Science and Engineering (Cyber Security) is led by a team of skilled, dedicated, and student-focused faculty members who are committed to building strong technical foundations and ensuring student success in the fast-growing field of cybersecurity.",
 
               "faculty": [
                 {

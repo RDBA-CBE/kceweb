@@ -40,7 +40,7 @@ export default function HeroSection() {
 
         {/* RIGHT – CTA */}
         <div className="cta-box">
-          <ActionCard title="PLACEMENT" url={"/overview"} />
+          <ActionCard title="PLACEMENT" url={"/placement-overview"} />
           <ActionCard title="CAMPUS TOUR" url={"https://www.youtube.com/watch?v=uTIQvS38B4g&t=3s"} external />
           <ActionCard title="CAMPUS LIFE" url={"/infrastructure"}/>
           <ActionCard title="CENTERS OF EXCELLENCE" url={"/centers-of-excellence"}/>

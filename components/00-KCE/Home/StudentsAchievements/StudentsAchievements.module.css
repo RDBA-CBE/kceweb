@@ -12,7 +12,7 @@
 
 /* Title aligned with cards */
 .title {
-  margin-left: 80px;
+  /* margin-left: 80px; */
   margin-bottom: 40px;
   color: #1a365d;
 }
@@ -47,7 +47,7 @@
 /* Slider starts from left, not centered */
 .sliderWrapper {
   overflow: hidden;
-  padding-left: 80px;
+  /* padding-left: 80px; */
 }
 
 /* Track */
@@ -79,6 +79,12 @@
   .arrows {
     right: 40px;
   }
+}
+
+@media (max-width: 776px) {
+.section {
+  padding: 2%;
+}
 }
 
 /* Mobile – 1 card */

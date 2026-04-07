@@ -243,7 +243,7 @@ export const about = {
   content: [
      {
       category: "Overview",
-      link: "/overview/",
+      link: "/placement-overview/",
 
     },
     {

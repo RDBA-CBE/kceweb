@@ -23,16 +23,7 @@
         "alt":"placement-kce-Image-",
         "height":"auto"
       }
-    },
-    {
-      "type":"full-width-image",
-      "data":{
-        "sectionbg":"section-bg1",
-        "src":"https://blog.kce.ac.in/new/wp-content/uploads/2024/03/Companies-Visited.jpg",
-        "alt":"placement-kce-Image-",
-        "height":"auto",
-        "className":"d-flex justify-content-center"
-      }
     }
+    
   ]
 }

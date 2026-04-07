@@ -8,8 +8,8 @@
         "href": "/"
       },
       {
-        "label": "Departments",
-        "href": "/departments"
+        "label": "Academics",
+        "href": "/academics"
       },
       {
         "label": "Department of Electrical and Electronics Engineering"
@@ -385,11 +385,11 @@
                     "href": "/"
                   },
                   {
-                    "label": "Departments",
-                    "href": "/departments"
-                  },
+        "label": "Academics",
+        "href": "/academics"
+      },
                   {
-                    "href": "/departments/department-of-electrical-and-electronics-engineering",
+                    "href": "/department-of-electrical-and-electronics-engineering",
                     "label": "Department of Electrical and Electronics Engineering"
                   },
                   {
@@ -397,8 +397,8 @@
                   }
                 ]
               },
-              "sectionTi": "Our faculty",
-              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+              "sectionTi": "Our Faculty",
+              "desc": "The Department of Electrical and Electronics Engineering at KCE brings together experienced faculty with deep knowledge in electrical systems and energy technologies. Through research, industry exposure and engaging pedagogy, they prepare students for impactful careers in power and automation sectors.",
 
               "faculty": [
                 {

@@ -10,7 +10,7 @@ const InnerBanner = ({ data }) => {
         <div
           className="w-100 h-100"
           style={{
-            backgroundImage: `url(${data?.bannerImg || "/images/kce/banner_civil.jpg"})`,
+            backgroundImage: `url(${data?.bannerImg || "/images/kce/academics/banner_civil.png"})`,
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",

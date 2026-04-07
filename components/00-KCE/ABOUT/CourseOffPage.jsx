@@ -3,6 +3,7 @@ import InnerBanner from "@/components/00-KCE/common/InnerBanner";
 import React from "react";
 import RichText from "../DepartmentCompoennts/RichText";
 import data from "@/JSON/ABOUT/courses-offered.json";
+import Link from "next/link";
 
 export default function CourseOffPage() {
   const { banner, admission, ug, pg, research } = data;
@@ -46,8 +47,10 @@ export default function CourseOffPage() {
           <div className="ug-ribbon">
             {ug.items.map((item, index) => (
               <div key={index} className="ug-ribbon-item">
-                <span className="prog-name">{item.replace("+", "")}</span>
-                {item.includes("+") && <span className="prog-badge">NBA</span>}
+                <Link href={item.url}>
+                  <span className="prog-name">{item?.name?.replace("+", "")}</span>
+                  {item?.name?.includes("+") && <span className="prog-badge">NBA</span>}
+                </Link>
               </div>
             ))}
           </div>
@@ -66,8 +69,10 @@ export default function CourseOffPage() {
           <div className="ug-ribbon">
             {pg.items.map((item, index) => (
               <div key={index} className="ug-ribbon-item">
-                <span className="prog-name">{item.replace("+", "")}</span>
-                {item.includes("+") && <span className="prog-badge">NBA</span>}
+                <Link href={item.url}>
+                  <span className="prog-name">{item.name.replace("+", "")}</span>
+                  {item.name.includes("+") && <span className="prog-badge">NBA</span>}
+                </Link>
               </div>
             ))}
           </div>

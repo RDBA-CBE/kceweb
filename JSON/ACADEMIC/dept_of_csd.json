@@ -8,8 +8,8 @@
         "href": "/"
       },
       {
-        "label": "Departments",
-        "href": "/departments"
+        "label": "Academics",
+        "href": "/academics"
       },
       {
         "label": "Department of Computer Science and Design"
@@ -350,12 +350,12 @@
                     "label": "Home",
                     "href": "/"
                   },
+                 {
+        "label": "Academics",
+        "href": "/academics"
+      },
                   {
-                    "label": "Departments",
-                    "href": "/departments"
-                  },
-                  {
-                    "href": "/departments/department-of-computer-science-and-design",
+                    "href": "/department-of-computer-science-and-design",
                     "label": "Department of Computer Science and Design"
                   },
                   {

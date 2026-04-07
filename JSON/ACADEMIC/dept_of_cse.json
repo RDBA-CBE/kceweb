@@ -8,8 +8,8 @@
         "href": "/"
       },
       {
-        "label": "Departments",
-        "href": "/departments"
+        "label": "Academics",
+        "href": "/academics"
       },
       {
         "label": "Department of Computer Science and Engineering "
@@ -328,7 +328,7 @@
           },
           {
             "type": "paragraph",
-            "text": ["Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus commodi suscipit in maiores vero aliquam nam. Consequatur, nulla! At illo dignissimos accusantium, aut quas error consectetur consequatur officiis quae dolore!"]
+            "text": ["The Department of Computer Science and Engineering at KCE has experienced faculty from premier institutions with expertise in cutting-edge computing domains. They combine industry knowledge, research and innovative teaching to nurture skilled professionals ready to excel in the evolving tech landscape."]
           },
           {
             "type": "button",
@@ -344,12 +344,12 @@
                     "label": "Home",
                     "href": "/"
                   },
+                 {
+        "label": "Academics",
+        "href": "/academics"
+      },
                   {
-                    "label": "Departments",
-                    "href": "/departments"
-                  },
-                  {
-                    "href": "/departments/department-of-computer-sciences-and-engineering",
+                    "href": "/department-of-computer-science-and-engineering",
                     "label": "Department of Computer Science and Engineering "
                   },
                   {
@@ -357,8 +357,8 @@
                   }
                 ]
               },
-              "sectionTi": "Our faculty",
-              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+              "sectionTi": "Our Faculty",
+              "desc": "At KCE, the Department of Computer Science and Engineering is supported by a team of highly qualified, passionate, and approachable faculty members who are dedicated to student success. Our faculty combine strong academic knowledge with practical industry exposure to ensure students gain both conceptual clarity and real-world skills.",
 
               "faculty": [
                 {

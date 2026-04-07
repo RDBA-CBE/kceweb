@@ -22,7 +22,7 @@ const BottomPlacement = () => {
           <div className="col-xl-3 col-lg-3">
             <div className="call-to-btn text-start text-lg-end">
               <Link
-                href="/overview"
+                href="/placement-overview"
                 className="kce-btn-primary rbt-btn hover-icon-reverse mt-4"
                 target="_self"
               >

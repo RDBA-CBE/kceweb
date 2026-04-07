@@ -8,15 +8,15 @@
 /* ---------- Bottom container (flex wrapper) ---------- */
 .hero-bottom {
   position: absolute;
-  bottom: 0px;           /* distance from hero bottom */
+  bottom: 0px; /* distance from hero bottom */
   left: 0;
   width: 100%;
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;  /* align cards to bottom */
-  padding: 0 px;        /* horizontal padding */
+  align-items: flex-end; /* align cards to bottom */
+  padding: 0 px; /* horizontal padding */
   box-sizing: border-box;
-  pointer-events: none;   /* allows slider clicks */
+  pointer-events: none; /* allows slider clicks */
   z-index: 3;
 }
 
@@ -24,16 +24,17 @@
 .stats-box {
   display: flex;
   gap: 45px;
-  background: #ffffff; border-radius: 0px 35px 0px 0px;
-  padding: 1% 3% 1% 5%; 
-  pointer-events: auto;   /* enable clicks */ 
+  background: #ffffff;
+  border-radius: 0px 35px 0px 0px;
+  padding: 1% 3% 1% 5%;
+  pointer-events: auto; /* enable clicks */
 }
 
 /* ---------- CTA Box ---------- */
 .cta-box {
   display: flex;
   gap: 14px;
-  pointer-events: auto;   /* enable clicks */
+  pointer-events: auto; /* enable clicks */
 }
 
 /* ---------- Action Buttons ---------- */
@@ -64,9 +65,33 @@
     gap: 16px; /* spacing between stats and CTA on mobile */
   }
 
-  .stats-box, .cta-box {
+  .stats-box,
+  .cta-box {
     width: 100%;
     justify-content: center;
     flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 500px) {
+  .stats-box {
+    gap: 0;
+    border-radius: 10px;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding: 10px 0;
+  }
+
+  .stat-number{
+    font-size: 30px !important;
+  }
+
+  .stat-label{
+    font-size: 13px !important;
+  }
+
+  .stat-card-inn{
+    align-items: start !important;
+    padding: 5px !important;
   }
 }

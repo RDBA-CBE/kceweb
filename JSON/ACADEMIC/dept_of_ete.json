@@ -7,9 +7,9 @@
         "label": "Home",
         "href": "/"
       },
-      {
-        "label": "Departments",
-        "href": "/departments"
+     {
+        "label": "Academics",
+        "href": "/academics"
       },
       {
         "label": "Department of Electronics and Telecommunication Engineering"
@@ -314,11 +314,11 @@
                     "href": "/"
                   },
                   {
-                    "label": "Departments",
-                    "href": "/departments"
-                  },
+        "label": "Academics",
+        "href": "/academics"
+      },
                   {
-                    "href": "/departments/department-of-electronics-and-telecommunication-engineering",
+                    "href": "/department-of-electronics-and-telecommunication-engineering",
                     "label": "Department of Electrical and Electronics Engineering"
                   },
                   {

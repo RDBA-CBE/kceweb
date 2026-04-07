@@ -4,6 +4,7 @@ import InnovationBanner from "../Home/InnovationSection/InnovationBanner";
 import ImageOverlayCard from "../DepartmentCompoennts/ImageOverlayCard";
 import PlainPara from "../DepartmentCompoennts/PlainPara";
 import HalfCardImage from "../DepartmentCompoennts/HalfCardImage";
+import HalfCardImagenew from "../DepartmentCompoennts/HalfCardImagenew";
 import ImageOverlayContent from "../DepartmentCompoennts/ImageOverlayContent";
 import CardGrid from "../DepartmentCompoennts/CardGrid";
 import IconCard from "../DepartmentCompoennts/IconCard";
@@ -56,8 +57,15 @@ const RenderSection = ({ section, index, renderSection }) => {
 
     case "half-card-img":
       return (
+        
+          <HalfCardImage data={section.data} key={index}  />
+        
+      );
+
+    case "half-card-img-new":
+      return (
         <section key={index} className="section-wid section-bg1">
-          <HalfCardImage data={section.data} />
+          <HalfCardImagenew data={section.data} />
         </section>
       );
 
@@ -66,9 +74,9 @@ const RenderSection = ({ section, index, renderSection }) => {
 
     case "card-grid":
       return (
-        <section key={index} className="section-wid section-bg1">
-          <CardGrid data={section.data} />
-        </section>
+        
+          <CardGrid data={section.data}  key={index}/>
+       
       );
 
     case "icon-card":

@@ -171,3 +171,9 @@
   /*background-image: url(/images/kce/logo-card/bule-card2.png);*/
 
 }
+
+@media (max-width: 776px) {
+  .latest-news-wrapper {
+    max-width: 90%;
+  }
+}

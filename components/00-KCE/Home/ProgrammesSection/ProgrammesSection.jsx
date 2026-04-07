@@ -1,64 +1,83 @@
 "use client";
+
 import { useState } from "react";
 import styles from "./ProgrammesSection.module.css";
 import RichText from "@/components/00-KCE/DepartmentCompoennts/RichText";
+import Link from "next/link";
 
 const data = [
   {
     title: "All Programmes",
+    type: "group",
     items: [
       {
         groupTitle: "UG Programmes",
         list: [
-          "B.E. Civil Engineering *",
-          "B.E. Computer Science and Engineering *",
-          "B.E. Computer Science and Engineering (Cyber Security)",
-          "B.E. Electronics and Communication Engineering *",
-          "B.E. Electrical and Electronics Engineering *",
-          "B.E. Electronics Engineering (VLSI Design and Technology)",
-          "B.E. Mechanical Engineering *",
-          "B.Tech. Artificial Intelligence and Data Science",
-          "B.Tech. Information Technology *"
+          { title: "B.E. Civil Engineering *", href: "/department-of-civil-engineering" },
+          { title: "B.E. Computer Science and Engineering *", href: "/department-of-computer-science-and-engineering" },
+          {
+            title: "B.E. Computer Science and Engineering (Cyber Security)",
+            href: "/department-of-computer-science-and-engineering-cyber-security",
+          },
+          {
+            title: "B.E. Electronics and Communication Engineering *",
+            href: "/department-of-electronics-and-communication-engineering",
+          },
+          { title: "B.E. Electrical and Electronics Engineering *", href: "/department-of-electrical-and-electronics-engineering" },
+          {
+            title: "B.E. Electronics Engineering (VLSI Design and Technology)",
+            href: "/department-of-electronics-engineering-vlsi-design-and-technology",
+          },
+          { title: "B.E. Mechanical Engineering *", href: "/department-of-mechanical-engineering" },
+          {
+            title: "B.Tech. Artificial Intelligence and Data Science",
+            href: "/department-of-artificial-intelligence-and-data-science",
+          },
+          { title: "B.Tech. Information Technology *", href: "/department-of-information-technology" },
         ],
-        note: "* Accredited by NBA"
+        note: "* Accredited by NBA",
       },
       {
         groupTitle: "PG Programmes",
         list: [
-          "MBA - Master of Business Administration",
-          "MCA - Master of Computer Applications"
-        ]
-      }
-    ]
+          { title: "MBA - Master of Business Administration", href: "/department-of-management-studies" },
+          { title: "MCA - Master of Computer Applications", href: "/department-of-mca" },
+        ],
+      },
+    ],
   },
-
   {
     title: "UG Programmes",
+    type: "list",
     desc: "Explore KCE’s undergraduate programmes that combine academic excellence with practical learning, empowering students to build successful futures.",
-    groupTitle: "UG Programmes",
     items: [
-      "B.E. Civil Engineering *",
-      "B.E. Computer Science and Engineering *",
-      "B.E. Computer Science and Engineering (Cyber Security)",
-      "B.E. Electronics and Communication Engineering *",
-      "B.E. Electrical and Electronics Engineering *",
-      "B.E. Electronics Engineering (VLSI Design and Technology)",
-      "B.E. Mechanical Engineering *",
-      "B.Tech. Artificial Intelligence and Data Science",
-      "B.Tech. Information Technology *"
+      { title: "B.E. Civil Engineering *", href: "/department-of-civil-engineering" },
+      { title: "B.E. Computer Science and Engineering *", href: "/department-of-computer-science-and-engineering" },
+      {
+        title: "B.E. Computer Science and Engineering (Cyber Security)",
+        href: "/department-of-computer-science-and-engineering-cyber-security",
+      },
+      { title: "B.E. Electronics and Communication Engineering *", href: "/department-of-electronics-and-communication-engineering" },
+      { title: "B.E. Electrical and Electronics Engineering *", href: "/department-of-electrical-and-electronics-engineering" },
+      {
+        title: "B.E. Electronics Engineering (VLSI Design and Technology)",
+        href: "/department-of-electronics-engineering-vlsi-design-and-technology",
+      },
+      { title: "B.E. Mechanical Engineering *", href: "/department-of-mechanical-engineering" },
+      { title: "B.Tech. Artificial Intelligence and Data Science", href: "/department-of-artificial-intelligence-and-data-science" },
+      { title: "B.Tech. Information Technology *", href: "/department-of-information-technology" },
     ],
-    note: "* Accredited by NBA"
+    note: "* Accredited by NBA",
   },
-
   {
     title: "PG Programmes",
+    type: "list",
     desc: "At KCE, our postgraduate programmes are crafted to foster intellectual growth, research excellence, and professional advancement.",
-     groupTitle: "PG Programmes",
     items: [
-      "MBA - Master of Business Administration",
-      "MCA - Master of Computer Applications"
-    ]
-  }
+      { title: "MBA - Master of Business Administration", href: "/department-of-management-studies" },
+      { title: "MCA - Master of Computer Applications", href: "/department-of-mca" },
+    ],
+  },
 ];
 
 export default function ProgrammesSection() {
@@ -72,12 +91,17 @@ export default function ProgrammesSection() {
         <h2 className={styles.heading}>PROGRAMMES FOR YOU</h2>
 
         <div className={styles.layout}>
-          
-          {/* LEFT ORANGE CARD */}
+          {/* LEFT TABS */}
           <div className={styles.orangeCard}>
             <div className={styles.orangeContent}>
               {data.map((item, i) => (
-                <div key={i} className={`${styles.tab} ${active === i ? styles.activeTab : ""}`}  onClick={() => setActive(i)}>
+                <div
+                  key={i}
+                  className={`${styles.tab} ${
+                    active === i ? styles.activeTab : ""
+                  }`}
+                  onClick={() => setActive(i)}
+                >
                   <h3>› {item.title}</h3>
                   {item.desc && <RichText as="p" content={item.desc} />}
                 </div>
@@ -87,35 +111,32 @@ export default function ProgrammesSection() {
 
           {/* RIGHT CONTENT */}
           <div className={styles.list}>
-            
-            {typeof data[active].items[0] === "object" ? (
-
-              // ✅ ALL PROGRAMMES (Grouped)
+            {data[active].type === "group" ? (
+              // ✅ GROUP VIEW
               data[active].items.map((group, idx) => (
                 <div key={idx} className={styles.group}>
-                  
-                  <h5 className={styles.groupTitle}>
-                    {group.groupTitle}
-                  </h5>
+                  <h5 className={styles.groupTitle}>{group.groupTitle}</h5>
+
                   {group.list.map((item, i) => (
-                    <div key={i} className={styles.listItem}>
-                      <span>›</span> {item}
+                    <div key={i} className="mb-4">
+                      {" "}
+                      <Link href={item.href || "#"} className={styles.listItem}>
+                        <span>›</span> {item.title}
+                      </Link>
                     </div>
                   ))}
 
-                  {group.note && (
-                    <p className={styles.note}>{group.note}</p>
-                  )}
+                  {group.note && <p className={styles.note}>{group.note}</p>}
                 </div>
               ))
-
             ) : (
-
-              // ✅ UG / PG NORMAL LIST
+              // ✅ NORMAL LIST
               <>
                 {data[active].items.map((item, i) => (
-                  <div key={i} className={styles.listItem}>
-                    <span>›</span> {item}
+                  <div key={i} className="mb-4">
+                    <Link href={item.href || "#"} className={styles.listItem}>
+                      <span>›</span> {item.title}
+                    </Link>
                   </div>
                 ))}
 
@@ -123,9 +144,7 @@ export default function ProgrammesSection() {
                   <p className={styles.note}>{data[active].note}</p>
                 )}
               </>
-
             )}
-
           </div>
         </div>
       </div>

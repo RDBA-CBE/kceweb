@@ -3,7 +3,8 @@ import RichText from "./RichText";
 
 const HalfCardImage = ({ data }) => {
   return (
-    <div className="container HalfCardImage">
+     <section className={`section-wid ${data?.sectionbg || "section-bg1"}`}>
+    <div className=" HalfCardImage">
       <div className=" py-5">
         {data?.content?.map((item, index) => {
           const isReverse = index % 2 !== 0;
@@ -52,6 +53,7 @@ const HalfCardImage = ({ data }) => {
         })}
       </div>
     </div>
+    </section>
   );
 };
 

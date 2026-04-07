@@ -8,8 +8,8 @@
         "href": "/"
       },
       {
-        "label": "Departments",
-        "href": "/departments"
+        "label": "Academics",
+        "href": "/academics"
       },
       {
         "label": "Department of Mechanical Engineering"
@@ -399,7 +399,7 @@
           {
             "type": "paragraph",
             "text": [
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus commodi suscipit in maiores vero aliquam nam. Consequatur, nulla! At illo dignissimos accusantium, aut quas error consectetur consequatur officiis quae dolore!"
+              "The Department of Mechanical Engineering at KCE is supported by dedicated faculty with strong academic and industry backgrounds. Through innovative teaching, research and practical exposure, they develop engineers capable of designing and driving modern mechanical systems."
             ]
           },
           {
@@ -417,11 +417,11 @@
                     "href": "/"
                   },
                   {
-                    "label": "Departments",
-                    "href": "/departments"
-                  },
+        "label": "Academics",
+        "href": "/academics"
+      },
                   {
-                    "href": "/departments/department-of-mechanical-engineering",
+                    "href": "/department-of-mechanical-engineering",
                     "label": "Department of Mechanical Engineering"
                   },
                   {
@@ -429,8 +429,8 @@
                   }
                 ]
               },
-              "sectionTi": "Our faculty",
-              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+              "sectionTi": "Our Faculty",
+              "desc": "At KCE, the Department of Mechanical Engineering is a place where ideas are transformed into real-world solutions. With a strong focus on both fundamentals and practical learning, the department prepares students to understand how machines work, how systems are designed, and how innovations shape everyday life",
 
               "faculty": [
                 {

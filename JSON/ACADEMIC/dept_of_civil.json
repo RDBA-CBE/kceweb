@@ -8,8 +8,8 @@
         "href": "/"
       },
       {
-        "label": "Departments",
-        "href": "/departments"
+        "label": "Academics",
+        "href": "/academics"
       },
       {
         "label": "Department of Civil Engineering"
@@ -22,7 +22,7 @@
       "type": "image-overlay-card",
       "data": {
         "title": "About the Department",
-        "bgImg": "/images/kce/academics/civil/civil-engineering.webp",
+        "bgImg": "/images/kce/academics/civil/banner_civil.png",
         "description": [
           "The department of Civil Engineering was started in the year 2008. It offers under graduate course in Civil Engineering with an intake of 60 students. Our main goal is to be the Centre of Excellence for the development and dissemination of knowledge in Structural Engineering, Construction Engineering and Management, Water Resources and Management, Transportation, Environmental Engineering, Urban Engineering, Geotechnical Engineering, Remote sensing, GIS and its applications."
         ]
@@ -294,7 +294,7 @@
           {
             "type": "paragraph",
             "text": [
-              "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi doloribus alias quis nostrum qui quas consequatur! Nemo doloribus doloremque, rerum aut tenetur nisi aperiam ipsum maiores ut blanditiis magni accusantium!"
+              "The Department of Civil Engineering at KCE has distinguished faculty from premier institutions with specialization across core civil engineering domains. They combine deep industry insights, research and innovative teaching to mentor students into skilled professionals ready for impactful civil engineering careers."
             ]
           },
           {
@@ -312,11 +312,11 @@
                     "href": "/"
                   },
                   {
-                    "label": "Departments",
-                    "href": "/departments"
+                    "label": "Academics",
+                    "href": "/academics"
                   },
                   {
-                    "href": "/departments/department-of-civil-engineering",
+                    "href": "/department-of-civil-engineering",
                     "label": "Department of Civil Engineering"
                   },
                   {
@@ -324,9 +324,8 @@
                   }
                 ]
               },
-              "sectionTi": "Our faculty",
-              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
-
+              "sectionTi": "Our Faculty",
+              "desc": "At KCE, our Civil Engineering faculty are not just teachers they are dedicated mentors who guide students at every step of their academic journey. With strong qualifications and valuable industry experience, our faculty ensure that students clearly understand concepts and are well-prepared for real-world engineering challenges. ",
               "faculty": [
                 {
                   "id": 0,

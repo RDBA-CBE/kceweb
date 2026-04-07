@@ -1,5 +1,5 @@
 import React from 'react'
-import OverviewPage from '@/components/00-KCE/Placement/overview'
+
 import OrgStructurePage from '@/components/00-KCE/ABOUT/OrgStructure'
 
 export const metadata = {

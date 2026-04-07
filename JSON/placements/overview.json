@@ -99,17 +99,8 @@
         "height":"auto"
       }
     
-    },
-
-     {
-      "type":"full-width-image",
-      "data":{
-        "sectionbg":"pt-0 pb-5",
-        "src":"/images/kce/placement/Graph.webp",
-        "alt":"placement-kce-Image-",
-        "height":"auto"
-      }
-    
     }
+
+     
   ]
 }

@@ -8,8 +8,8 @@
         "href": "/"
       },
       {
-        "label": "Departments",
-        "href": "/departments"
+        "label": "Academics",
+        "href": "/academics"
       },
       {
         "label": "Department of Science and Humanities"
@@ -105,12 +105,12 @@
                     "label": "Home",
                     "href": "/"
                   },
+                 {
+        "label": "Academics",
+        "href": "/academics"
+      },
                   {
-                    "label": "Departments",
-                    "href": "/departments"
-                  },
-                  {
-                    "href": "/departments/department-of-science-and-humanities",
+                    "href": "/department-of-science-and-humanities",
                     "label": "Department of Science and Humanities"
                   },
                   {

@@ -5,7 +5,8 @@ import RichText from "./RichText";
 
 const CardGrid = ({data}) => {
   return (
-    <section className="cg-section">
+    <section className={`section-wid ${data?.sectionbg || "section-bg1"}`}>
+    <div className="cg-section">
       <div className="cg-container">
         <h2 className="cg-title section-ti">{data?.title}</h2>
 
@@ -17,6 +18,7 @@ const CardGrid = ({data}) => {
           ))}
         </div>
       </div>
+    </div>
     </section>
   );
 };

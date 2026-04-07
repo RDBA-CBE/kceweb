@@ -8,8 +8,8 @@
         "href": "/"
       },
       {
-        "label": "Departments",
-        "href": "/departments"
+        "label": "Academics",
+        "href": "/academics"
       },
       {
         "label": "Department of Artificial Intelligence and Data Science"
@@ -237,12 +237,12 @@
               {
                 "type": "link",
                 "text": "Department Achievements",
-                "url": "KCE/ai-ds-department-achievements"
+                "url": "ai-ds-department-achievements"
               },
               {
                 "type": "link",
                 "text": "Association Activites",
-                "url": "KCE/ai-ds-association-activity"
+                "url": "ai-ds-association-activity"
               }
             ]
           }
@@ -438,7 +438,7 @@
           {
             "type": "paragraph",
             "text": [
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus commodi suscipit in maiores vero aliquam nam. Consequatur, nulla! At illo dignissimos accusantium, aut quas error consectetur consequatur officiis quae dolore!"
+              "The Department of Artificial Intelligence & Data Science at KCE has expert faculty specializing in intelligent systems and data-driven technologies. By integrating research and experiential learning, they empower students to innovate and lead in AI-driven industries."
             ]
           },
           {
@@ -456,9 +456,9 @@
                     "href": "/"
                   },
                   {
-                    "label": "Departments",
-                    "href": "/departments"
-                  },
+        "label": "Academics",
+        "href": "/academics"
+      },
                   {
                     "href": "/department-of-artificial-intelligence-and-data-science",
                     "label": "Department of Artificial Intelligence and Data Science"
@@ -468,8 +468,8 @@
                   }
                 ]
               },
-              "sectionTi": "Our faculty",
-              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+              "sectionTi": "Our Faculty",
+              "desc": "The Department of Artificial Intelligence and Data Science at KCE is led by qualified and dedicated faculty who combine strong academic knowledge with practical expertise. They use interactive and hands-on teaching methods to make learning engaging while fostering innovation and problem-solving skills. Faculty actively mentor students in projects, internships, and career development, ensuring they become confident and industry-ready professionals.",
               "faculty": [
                 {
                   "id": 1,
