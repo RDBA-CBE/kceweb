@@ -25,9 +25,9 @@ const HomePopup = () => {
   };
 
   const handleImageClick = () => {
-    close();
-    router.push("https://admission.kce.ac.in/");
-  };
+  close();
+  window.open("https://admission.kce.ac.in/", "_blank");
+};
 
   if (!show) return null;
 

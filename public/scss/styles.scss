@@ -943,7 +943,7 @@
 }
 
 .cg-section {
-  padding: 70px 20px;
+  padding: 50px 20px;
 }
 
 .cg-container {
@@ -993,6 +993,10 @@
   .cg-grid {
     grid-template-columns: 1fr;
   }
+  .cg-card {
+    padding: 10px 20px;
+  }
+
 }
 
 .ci-container {

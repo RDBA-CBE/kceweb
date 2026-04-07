@@ -102,5 +102,15 @@
     .leader-content::before {
       display: none;
     }
+     .leader-row.reverse .leader-image {
+      padding-left: 0;
+     }
   }
+
+    @media (max-width: 768px) {
+      .management-content-area{
+        padding-right: 10px;
+      }
+    }
+  
   
