@@ -22,7 +22,7 @@
       "type": "image-overlay-card",
       "data": {
         "title": "About the Department",
-        "bgImg": "/images/kce/academics/eee/eee.webp",
+        "bgImg": "/images/kce/academics/eee/EEE-web-image.png",
         "description": [
           "The Department of Electrical and Electronics Engineering was established in the year 2002 with an intake of 60 students. The intake is increased to 120 and 180 in the year 2007 and 2012 respectively. The program is accredited by NBA in the year 2009 and reaccredited in the year 2016. The Department is also recognized as research centre by Anna University. This department has dedicated, talented, qualified and experienced team as teaching faculty members."
         ]
@@ -46,7 +46,7 @@
           {
             "title": "Our Vision",
             "description": "To provide students with sound knowledge of Electrical and Electronics Engineering, that they become capable of facing the current and impending challenges to extend their expertise in the global arena.",
-            "image": "/images/kce/academics/eee/mision.webp"
+            "image": "/images/kce/academics/eee/vision.png"
           },
           {
             "title": "Our Mission",
@@ -59,7 +59,7 @@
                 ]
               }
             ],
-            "image": "/images/kce/academics/eee/vision.webp"
+            "image": "/images/kce/academics/eee/mission.png"
           }
         ]
       }
@@ -68,7 +68,7 @@
     {
       "type": "image-overlay-content",
       "data": {
-        "bgImage": "/images/kce/academics/regulation.webp",
+        "bgImage": "/images/kce/academics/eee/EEE-regualation-image.png",
 
         "title": "Regulations",
         "list": [
@@ -87,7 +87,7 @@
         "sectionbg": "section-bg1 my-2 my-md-5",
         "imagePosition": "left",
         "secTitle": "Courses Offered",
-        "image": "/images/kce/academics/courses-offered.webp",
+        "image": "/images/kce/academics/eee/EEE-cousre-offered.png",
         "content": [
           {
             "type": "card",
