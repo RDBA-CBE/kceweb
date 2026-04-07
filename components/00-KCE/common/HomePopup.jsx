@@ -26,7 +26,7 @@ const HomePopup = () => {
 
   const handleImageClick = () => {
     close();
-    router.push("/admission-enquiry");
+    router.push("https://admission.kce.ac.in/");
   };
 
   if (!show) return null;

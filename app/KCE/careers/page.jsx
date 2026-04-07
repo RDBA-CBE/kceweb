@@ -1,6 +1,5 @@
 import React from 'react'
-import OverviewPage from '@/components/00-KCE/Placement/overview'
-import RecuirterListPage from '@/components/00-KCE/Placement/recuirterList'
+
 import CareersPage from '@/components/00-KCE/careers'
 
 export const metadata = {

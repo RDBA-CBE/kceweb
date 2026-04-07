@@ -1,10 +1,10 @@
 {
   "banner": {
     "bannerImg": "/images/kce/banner_admission.jpg",
-    "title": "Programmes Offered",
+    "title": "Academics",
     "breadcrumb": [
       { "label": "Home", "href": "/" },
-      { "label": "Programmes Offered" }
+      { "label": "Academics" }
     ]
   },
   "admission": {
@@ -32,23 +32,24 @@
   "ug": {
     "title": "UG Programmes",
     "items": [
-      { "name": "B.E. Civil Engineering*", "url": "/department-of-civil-engineering" },
-      { "name": "B.E. Computer Science and Engineering*", "url": "/department-of-computer-science-and-engineering" },
-      { "name": "B.E. Computer Science and Engineering (Cyber Security)", "url": "/department-of-computer-science-and-engineering-cyber-security" },
-      { "name": "B.E. Electronics and Communication Engineering*", "url": "/department-of-electronics-and-communication-engineering" },
-      { "name": "B.E. Electrical and Electronics Engineering*", "url": "/department-of-electrical-and-electronics-engineering" },
-      { "name": "B.E. Electronics Engineering (VLSI Design and Technology)", "url": "/department-of-electronics-engineering-vlsi-design-and-technology" },
-      { "name": "B.E. Mechanical Engineering*", "url": "/department-of-mechanical-engineering" },
-      { "name": "B.Tech. Artificial Intelligence and Data Sciences", "url": "/department-of-artificial-intelligence-and-data-science" },
-      { "name": "B.Tech. Information Technology*", "url": "/department-of-information-technology" }
+      { "title": "B.E. Civil Engineering", "path": "/department-of-civil-engineering" },
+      { "title": "B.E. Computer Science and Engineering", "path": "/department-of-computer-science-and-engineering" },
+      { "title": "B.E. Computer Science and Engineering (CyberSecurity)", "path": "/department-of-computer-science-and-engineering-cyber-security" },
+      { "title": "B.E. Electronics and Communication Engineering", "path": "/department-of-electronics-and-communication-engineering" },
+      { "title": "B.E. Electrical and Electronics Engineering", "path": "/department-of-electrical-and-electronics-engineering" },
+      { "title": "B.E. Electronics and Telecommunications Engineering", "path": "/department-of-electronics-and-communication-engineering" },
+      { "title": "B.E. Electronics Engineering [VLSI Design and Technology]", "path": "/department-of-electronics-engineering-vlsi-design-and-technology" },
+      { "title": "B.E. Mechanical Engineering", "path": "/department-of-mechanical-engineering" },
+      { "title": "B.Tech. Artificial Intelligence and Data Sciences", "path": "/department-of-artificial-intelligence-and-data-science" },
+      { "title": "B.Tech. Information Technology", "path": "/department-of-information-technology" }
     ],
-    "note": "* Accredited by NBA"
+    "note": "+ Programmes Accredited by NBA"
   },
   "pg": {
     "title": "PG Programmes",
     "items": [
-       { "name": "MBA-Master of Business Administration", "url": "/department-of-management-studies" },
-      { "name": "MCA-Master of Computer Applications", "url": "/department-of-mca" }
+      { "title": "MBA – Master of Business Administration", "path": "/department-of-management-studies" },
+      { "title": "MCA – Master of Computer Application", "path": "/department-of-mca" }
     ],
     "line": "blue"
   },

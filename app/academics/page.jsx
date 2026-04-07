@@ -2,7 +2,7 @@
 import InnerBanner from "@/components/00-KCE/common/InnerBanner";
 import Link from "next/link";
 import React from "react";
-import data from "@/JSON/ABOUT/programs_offered.json";
+import data from "@/JSON/ABOUT/acadamics.json";
 
 export default function CourseOffPage() {
   const { banner, admission, ug, pg, research } = data;

@@ -7,9 +7,9 @@
         "label": "Home",
         "href": "/"
       },
-      {
-        "label": "Departments",
-        "href": "/departments"
+     {
+        "label": "Academics",
+        "href": "/academics"
       },
       {
         "label": "Department of Management Studies"
@@ -474,11 +474,11 @@
                     "href": "/"
                   },
                   {
-                    "label": "Departments",
-                    "href": "/departments"
-                  },
+        "label": "Academics",
+        "href": "/academics"
+      },
                   {
-                    "href": "/departments/department-of-management-studies",
+                    "href": "/department-of-management-studies",
                     "label": "Department of Management Studies"
                   },
                   {

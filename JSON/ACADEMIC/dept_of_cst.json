@@ -7,9 +7,9 @@
         "label": "Home",
         "href": "/"
       },
-      {
-        "label": "Departments",
-        "href": "/departments"
+     {
+        "label": "Academics",
+        "href": "/academics"
       },
       {
         "label": "Department of Computer Science and Technology"
@@ -316,11 +316,11 @@
                     "href": "/"
                   },
                   {
-                    "label": "Departments",
-                    "href": "/departments"
-                  },
+        "label": "Academics",
+        "href": "/academics"
+      },
                   {
-                    "href": "/departments/Department of-computer-sciences-and-technology",
+                    "href": "/Department of-computer-sciences-and-technology",
                     "label": "Department of Computer Science and Technology"
                   },
                   {

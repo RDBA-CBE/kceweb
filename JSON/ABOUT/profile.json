@@ -56,17 +56,18 @@
   "course": {
     "title": "Programmes",
     "items": [
-      "B.E. Civil Engineering*",
-      "B.E. Computer Science and Engineering*",
-      "B.E. Computer Science and Engineering (Cyber Security)",
-      "B.E. Electronics and Communication Engineering*",
-      "B.E. Electrical and Electronics Engineering*",
-      "B.E. Electronics Engineering (VLSI Design and Technology)",
-      "B.E. Mechanical Engineering*",
-      "B.Tech. Artificial Intelligence and Data Sciences",
-      "B.Tech. Information Technology*",
-      "MBA-Master of Business Administration",
-      "MCA-Master of Computer Applications"
+     { "name": "B.E. Civil Engineering*", "url": "/department-of-civil-engineering" },
+      { "name": "B.E. Computer Science and Engineering*", "url": "/department-of-computer-science-and-engineering" },
+      { "name": "B.E. Computer Science and Engineering (Cyber Security)", "url": "/department-of-computer-science-and-engineering-cyber-security" },
+      { "name": "B.E. Electronics and Communication Engineering*", "url": "/department-of-electronics-and-communication-engineering" },
+      { "name": "B.E. Electrical and Electronics Engineering*", "url": "/department-of-electrical-and-electronics-engineering" },
+      { "name": "B.E. Electronics Engineering (VLSI Design and Technology)", "url": "/department-of-electronics-engineering-vlsi-design-and-technology" },
+      { "name": "B.E. Mechanical Engineering*", "url": "/department-of-mechanical-engineering" },
+      { "name": "B.Tech. Artificial Intelligence and Data Sciences", "url": "/department-of-artificial-intelligence-and-data-science" },
+      { "name": "B.Tech. Information Technology*", "url": "/department-of-information-technology" },
+      { "name": "MBA-Master of Business Administration", "url": "/department-of-management-studies" },
+      { "name": "MCA-Master of Computer Applications", "url": "/department-of-mca" }
+
     ],
     "note": "* Programmes Accredited by NBA"
   }

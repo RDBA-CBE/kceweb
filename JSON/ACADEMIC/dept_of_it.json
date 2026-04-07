@@ -7,9 +7,9 @@
         "label": "Home",
         "href": "/"
       },
-      {
-        "label": "Departments",
-        "href": "/departments"
+     {
+        "label": "Academics",
+        "href": "/academics"
       },
       {
         "label": "Department of Information Technology"
@@ -358,11 +358,11 @@
                     "href": "/"
                   },
                   {
-                    "label": "Departments",
-                    "href": "/departments"
-                  },
+        "label": "Academics",
+        "href": "/academics"
+      },
                   {
-                    "href": "/departments/department-of-information-technology",
+                    "href": "/department-of-information-technology",
                     "label": "Department of Information Technology"
                   },
                   {
