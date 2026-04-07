@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import RichText from "./RichText";
 
 export default function ContentCounterStyle({ data }) {
   if (!data?.content?.length) return null;
@@ -16,7 +17,7 @@ export default function ContentCounterStyle({ data }) {
             <div className="">
               <h2 className="section-ti mt--10">{card.title}</h2>
               <h3 className="sub-ti mt--10">{card.subtitle}</h3>
-              <p>{card.desc}</p>
+              <RichText as="p" content={card.desc} />
 
               <ul className="course-feature-list mt-4">
                 {card.counterList?.map((item, i) => (
@@ -45,7 +46,7 @@ export default function ContentCounterStyle({ data }) {
 
                     <ul key={index} className="vm-list mb-4 mt-3">
                       {item.list.map((li, i) => (
-                        <li key={i}>{li}</li>
+                        <li key={i}><RichText content={li} /></li>
                       ))}
                     </ul>
 

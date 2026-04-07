@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import InnerBanner from "../common/InnerBanner";
+import RichText from "../DepartmentCompoennts/RichText";
 
 const FacultyPage = () => {
   const [facultyContent, setFacultyContent] = useState(null);
@@ -23,9 +24,7 @@ const FacultyPage = () => {
           {/* Title */}
           <div className="text-center mb-5">
             <h2 className="section-ti">{facultyContent?.sectionTi}</h2>
-            <p >
-              {facultyContent?.desc}
-            </p>
+            <RichText as="p" content={facultyContent?.desc} />
           </div>
 
           {/* Faculty Grid */}

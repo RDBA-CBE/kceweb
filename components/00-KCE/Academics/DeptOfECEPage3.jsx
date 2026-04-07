@@ -1,5 +1,6 @@
 "use client";
 import React, { useState } from "react";
+import RichText from "../DepartmentCompoennts/RichText";
 import CivilData from "../../../JSON/ACADEMIC/CIVIL/Civil.json";
 import InnerBanner from "@/components/00-KCE/common/InnerBanner";
 import { 
@@ -51,12 +52,10 @@ export default function DeptOfECEPage3() {
                 </div>
                 <div className="content-wrapper">
                   <p className="content-text-exact">
-                    <em>{department.welcome}</em>
+                    <RichText as="em" content={department.welcome} />
                   </p>
                   {department.description.map((para, index) => (
-                    <p key={index} className="content-text-exact">
-                      {para}
-                    </p>
+                    <RichText key={index} as="p" className="content-text-exact" content={para} />
                   ))}
                 </div>
                 <div className="wyoming-buttons-exact">
@@ -78,7 +77,7 @@ export default function DeptOfECEPage3() {
         {department.content.map((item, index) => (
           <div key={index} className="section-bg2">
             <div className="section-wid">
-              <div className="remaining-content">{item}</div>
+              <RichText as="div" className="remaining-content" content={item} />
             </div>
           </div>
         ))}
@@ -97,7 +96,7 @@ export default function DeptOfECEPage3() {
               />
               <div className="floating-card card-right">
                 <h4 className="fw-bold">{visionMission.vision.title}</h4>
-                <p>{visionMission.vision.description}</p>
+                <RichText as="p" content={visionMission.vision.description} />
               </div>
             </div>
           </div>
@@ -112,7 +111,7 @@ export default function DeptOfECEPage3() {
               />
               <div className="floating-card card-left">
                 <h4 className="fw-bold">{visionMission.mission.title}</h4>
-                <p>{visionMission.mission.description}</p>
+                <RichText as="p" content={visionMission.mission.description} />
               </div>
             </div>
           </div>
@@ -178,7 +177,7 @@ export default function DeptOfECEPage3() {
                     {currentTabContent.map((peo, index) => (
                       <li key={index}>
                         <div className="peo-badge">{peo.code}</div>
-                        <p>{peo.description}</p>
+                        <RichText as="p" content={peo.description} />
                       </li>
                     ))}
                   </ul>
@@ -193,7 +192,7 @@ export default function DeptOfECEPage3() {
                     <div className="po-badge">{item.code}</div>
                     <div className="po-content">
                       <h3>{item.title}</h3>
-                      <p>{item.description}</p>
+                      <RichText as="p" content={item.description} />
                     </div>
                   </div>
                 ))}
@@ -208,7 +207,7 @@ export default function DeptOfECEPage3() {
                       <span>{pso.code}</span>
                     </div>
                     <div className="pso-text">
-                      <p>{pso.description}</p>
+                      <RichText as="p" content={pso.description} />
                     </div>
                   </div>
                 ))}
@@ -233,7 +232,7 @@ export default function DeptOfECEPage3() {
       <div className="tl-wrapper">
         <section className="tl-hero text-center">
           <h1>{teachingLearning.hero.title}</h1>
-          <p>{teachingLearning.hero.description}</p>
+          <RichText as="p" content={teachingLearning.hero.description} />
           <div className="tl-hero-actions">
             {teachingLearning.hero.links.map((link, index) => (
               <a 
@@ -251,7 +250,7 @@ export default function DeptOfECEPage3() {
         <section className="tl-curriculum">
           <div className="text-center mb-5">
             <h2>{teachingLearning.curriculum.title}</h2>
-            <p>{teachingLearning.curriculum.description}</p>
+            <RichText as="p" content={teachingLearning.curriculum.description} />
           </div>
           <div className="row g-4">
             {teachingLearning.curriculum.frameworks.map((framework, index) => (
@@ -263,7 +262,7 @@ export default function DeptOfECEPage3() {
                     </div>
                     <h3>{framework.year}</h3>
                   </div>
-                  <p className="tl-card-text">{framework.description}</p>
+                  <RichText as="p" className="tl-card-text" content={framework.description} />
                   <button className="tl-btn">
                     View Curriculum
                     <ArrowRight size={16} />

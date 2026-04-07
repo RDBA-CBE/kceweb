@@ -4,6 +4,7 @@ import React from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { buttonActions } from "@/utils/buttonActions";
+import RichText from "./RichText";
 
 const EdgeImageContent = ({ data }) => {
   const router = useRouter();
@@ -16,9 +17,7 @@ const EdgeImageContent = ({ data }) => {
         return (
           <React.Fragment key={index}>
             {texts?.map((text, i) => (
-              <p key={i} className="ci-text">
-                {text}
-              </p>
+              <RichText key={i} as="p" className="ci-text" content={text} />
             ))}
           </React.Fragment>
         );
@@ -43,7 +42,7 @@ const EdgeImageContent = ({ data }) => {
                   src={block?.bullet || "/images/kce/right.png"}
                   alt=""
                 />
-                <span dangerouslySetInnerHTML={{ __html: li }}></span>
+                <RichText content={li} />
               </li>
             ))}
           </ul>
@@ -54,7 +53,7 @@ const EdgeImageContent = ({ data }) => {
           <ul key={index} className="efi-card-con">
             {block.items.map((li, i) => (
               <span className="efi-card" key={i}>
-                <span dangerouslySetInnerHTML={{ __html: li }} />
+                <RichText content={li} />
               </span>
             ))}
           </ul>

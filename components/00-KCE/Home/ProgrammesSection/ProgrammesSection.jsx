@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import styles from "./ProgrammesSection.module.css";
+import RichText from "@/components/00-KCE/DepartmentCompoennts/RichText";
 
 const data = [
   {
@@ -78,7 +79,7 @@ export default function ProgrammesSection() {
               {data.map((item, i) => (
                 <div key={i} className={`${styles.tab} ${active === i ? styles.activeTab : ""}`}  onClick={() => setActive(i)}>
                   <h3>› {item.title}</h3>
-                  {item.desc && <p>{item.desc}</p>}
+                  {item.desc && <RichText as="p" content={item.desc} />}
                 </div>
               ))}
             </div>

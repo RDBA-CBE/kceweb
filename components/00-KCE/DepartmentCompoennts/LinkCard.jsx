@@ -1,4 +1,5 @@
 "use client";
+import RichText from "./RichText";
 
 const LinkCard = ({ data }) => {
   return (
@@ -13,10 +14,10 @@ const LinkCard = ({ data }) => {
             {data.content?.map((item,i) => (
               <div className="col-lg-4 col-md-6" key={i}>
                 <div className="eres-card h-100">
-                  <p className="eres-card-title sub-ti">{item.title}</p>
+                  <RichText as="p" className="eres-card-title sub-ti" content={item.title} />
 
                   {item?.desc && (
-                    <p className="eres-card-desc">{item.desc}</p>
+                    <RichText as="p" className="eres-card-desc" content={item.desc} />
                   )}
 
                   <a

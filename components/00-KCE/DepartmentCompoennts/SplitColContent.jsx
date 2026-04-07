@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import React from "react";
+import RichText from "./RichText";
 
 const SplitColContent = ({ data }) => {
   const renderBlock = (block, index) => {
@@ -9,7 +10,7 @@ const SplitColContent = ({ data }) => {
         return <h3 key={index} className="section-ti">{block.text}</h3>;
 
       case "paragraph":
-        return <p key={index}>{block.text}</p>;
+        return <RichText key={index} as="p" content={block.text} />;
 
       case "images":
         return (
@@ -47,17 +48,16 @@ const SplitColContent = ({ data }) => {
                   <a
                     href={item.url}
                     target={block.target || "_blank"}
-
                     rel="noopener noreferrer"
                     className="dcl-item"
                   >
                     <span className="dcl-bullet">✓</span>
-                    <span>{item.label}</span>
+                    <RichText as="span" content={item.label} />
                   </a>
                 ) : (
                   <div className="dcl-item">
                     <span className="dcl-bullet">✓</span>
-                    <span>{item.label}</span>
+                    <RichText as="span" content={item.label} />
                   </div>
                 )}
               </li>

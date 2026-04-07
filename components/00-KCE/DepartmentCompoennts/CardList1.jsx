@@ -1,4 +1,5 @@
 import React from "react";
+import RichText from "./RichText";
 
 const CardList1 = ({ data }) => {
   return (
@@ -10,7 +11,7 @@ const CardList1 = ({ data }) => {
             {data?.content?.map((peo, index) => (
               <li key={index}>
                 <div className="peo-badge">{peo.code}</div>
-                <p>{peo.description}</p>
+                <RichText as="p" content={peo.description} />
               </li>
             ))}
           </ul>

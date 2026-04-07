@@ -7,6 +7,7 @@ import sideBarData from "@/JSON/sidebar.json";
 import InnerBanner from "@/components/00-KCE/common/InnerBanner";
 import { department } from "@/utils/constant.util";
 import SplitImageContent from "../DepartmentCompoennts/SplitImageContent";
+import RichText from "../DepartmentCompoennts/RichText";
 
 const Aboutpage = () => {
   const { pageTitle, intro, imageSection, sideMenu, Highlights, course } = data;
@@ -25,7 +26,7 @@ const Aboutpage = () => {
               <h2 className="section-ti">{pageTitle}</h2>
 
               {intro.map((text, index) => (
-                <p key={index}>{text}</p>
+                <RichText key={index} as="p" content={text} />
               ))}
             </div>
 
@@ -40,7 +41,7 @@ const Aboutpage = () => {
               <div className="col-md-6 fade-up delay-2">
                 <div className="about-text-card">
                   {imageSection.content.map((text, index) => (
-                    <p key={index}>{text}</p>
+                    <RichText key={index} as="p" content={text} />
                   ))}
                 </div>
               </div>

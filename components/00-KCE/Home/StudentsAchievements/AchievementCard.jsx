@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./AchievementCard.module.css";
 import Link from "next/link";
+import RichText from "../../DepartmentCompoennts/RichText";
 
 const AchievementCard = ({ data }) => {
   return (
@@ -9,7 +10,7 @@ const AchievementCard = ({ data }) => {
 
       <div className={styles.overlay}>
         <h5>{data.title}</h5>
-        <p>{data.desc}</p>
+        <RichText as="p" content={data.desc} />
         <Link
           href="/acheivements"
           className="kce-btn-primary rbt-btn hover-icon-reverse mt-4"

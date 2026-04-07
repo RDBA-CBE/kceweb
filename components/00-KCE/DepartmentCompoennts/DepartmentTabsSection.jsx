@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import RichText from './RichText';
 import {
   ChevronDown,
   ChevronRight,
@@ -87,7 +88,7 @@ const DepartmentTabsSection = ({ data, renderSection }) => {
               <div className='subject-pill-wrapper'>
                 {currentTabContent?.subjects?.map((subject, index) => (
                   <div key={index} className='subject-pill'>
-                    <span>{subject}</span>
+                    <RichText as="span" content={subject} />
                     <ArrowRight className='subject-arrow' />
                   </div>
                 ))}

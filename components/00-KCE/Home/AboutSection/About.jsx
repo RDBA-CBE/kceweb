@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './About.module.css';
 import Link from 'next/link';
+import RichText from '../../DepartmentCompoennts/RichText';
 
 const About = ({ data = {} }) => {
   // Destructure with fallbacks to avoid "undefined" errors
@@ -26,8 +27,8 @@ const About = ({ data = {} }) => {
         <div className={styles.contentBox}>
           <h2 className={styles.title}>ABOUT US</h2>
           <div className={styles.description}>
-            <p>{topText}</p>
-            <p>{bottomText}</p>
+            <RichText as="p" content={topText} />
+            <RichText as="p" content={bottomText} />
           </div>
 
           <div className={styles.logoGrid}>

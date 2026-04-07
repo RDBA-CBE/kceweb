@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import React from 'react';
+import RichText from './RichText';
 
 const PillList = ({ data }) => {
   return (
@@ -18,11 +19,11 @@ const PillList = ({ data }) => {
         <div className="scr-list">
           {data?.items?.map((item, index) =>
             item?.url ? (
-              <Link key={ index} href={item?.url || "#"} target={item?.target || "_blank"}>
+              <Link key={index} href={item?.url || "#"} target={item?.target || "_blank"}>
                 <div className="scr-card">
                   <span className="scr-card-text">
                     {item?.bullet && <span className="dcl-bullet">✓</span>}
-                    {item.label}
+                    <RichText content={item.label} />
                   </span>
                   <span className="scr-card-arrow">→</span>
                 </div>
@@ -31,7 +32,7 @@ const PillList = ({ data }) => {
               <div className="scr-card" key={item.id ?? index}>
                 <span className="scr-card-text">
                   {item?.bullet && <span className="dcl-bullet">✓</span>}
-                  {item.label}
+                  <RichText content={item.label} />
                 </span>
               </div>
             ),

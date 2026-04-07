@@ -1,4 +1,5 @@
 import React from "react";
+import RichText from "./RichText";
 
 const CardList3 = ({ data }) => {
   return (
@@ -11,7 +12,7 @@ const CardList3 = ({ data }) => {
               <span>{pso.code}</span>
             </div>
             <div className="pso-text">
-              <p>{pso.description}</p>
+              <RichText as="p" content={pso.description} />
             </div>
           </div>
         ))}

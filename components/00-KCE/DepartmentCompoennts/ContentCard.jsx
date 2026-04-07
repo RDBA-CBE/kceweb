@@ -1,4 +1,5 @@
 import React from "react";
+import RichText from "./RichText";
 
 const ContentCard = () => {
   return (
@@ -8,7 +9,7 @@ const ContentCard = () => {
         <div className="kisd-header text-center">
           <span className="badge">{data?.header?.badge}</span>
           <h2>{data?.header?.title}</h2>
-          <p>{data?.header?.description}</p>
+          <RichText as="p" content={data?.header?.description} />
         </div>
 
         {/* HIGHLIGHTS */}
@@ -17,7 +18,7 @@ const ContentCard = () => {
             <div key={index} className="col-md-6 col-lg-4">
               <div className="kisd-card">
                 <h5>{item.title}</h5>
-                <p>{item.text}</p>
+                <RichText as="p" content={item.text} />
               </div>
             </div>
           ))}
