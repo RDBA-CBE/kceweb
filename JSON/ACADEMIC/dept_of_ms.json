@@ -456,7 +456,7 @@
           {
             "type": "paragraph",
             "text": [
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus commodi suscipit in maiores vero aliquam nam. Consequatur, nulla! At illo dignissimos accusantium, aut quas error consectetur consequatur officiis quae dolore!"
+              "The Department of MBA at KCE has experienced faculty with strong academic and industry credentials. Through project-based learning, research and practical exposure, they shape future leaders equipped to excel in dynamic business environments."
             ]
           },
           {
@@ -486,8 +486,8 @@
                   }
                 ]
               },
-              "sectionTi": "Our faculty",
-              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+              "sectionTi": "Our Faculty",
+              "desc": "The Department of Management Studies at KCE is supported by a team of experienced and dedicated faculty focused on developing future business leaders.They adopt practical and interactive teaching methods to help students understand real-world management concepts with ease. Faculty members actively mentor students in projects, internships, and career planning to ensure professional growth.With expertise in areas like marketing, finance, human resources, and entrepreneurship, they keep students aligned with current industry trends.Their continuous guidance and support help students build confidence, leadership skills, and become successful management professionals.",
 
               "faculty": [
                 {

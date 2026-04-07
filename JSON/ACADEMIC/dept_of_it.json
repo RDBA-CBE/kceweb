@@ -340,7 +340,7 @@
           {
             "type": "paragraph",
             "text": [
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus commodi suscipit in maiores vero aliquam nam. Consequatur, nulla! At illo dignissimos accusantium, aut quas error consectetur consequatur officiis quae dolore!"
+              "The Department of Information Technology at KCE features skilled faculty with expertise in modern IT systems and solutions. Through industry-aligned teaching and research, they prepare students to design, oversee and innovate in the digital world."
             ]
           },
           {
@@ -370,8 +370,8 @@
                   }
                 ]
               },
-              "sectionTi": "Our faculty",
-              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
+              "sectionTi": "Our Faculty",
+              "desc": "The Department of Information Technology at KCE adopts interactive and technology-driven teaching methods to make learning engaging and effective, while fostering innovation, problem-solving, and critical thinking skills. Faculty members actively mentor students in academic projects, internships, certifications, and career planning, ensuring continuous growth, confidence, and industry readiness.",
 
               "faculty": [
                 {
