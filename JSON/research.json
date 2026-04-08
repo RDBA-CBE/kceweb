@@ -537,7 +537,7 @@
                 "data": {
                   "imagePosition": "left",
                   "sectionbg": "section-bg1",
-                  "image": "/images/kce/image.jpg",
+                  "image": "/images/kce/research/cse.png",
                   "content": [
                     {
                       "type": "title",
@@ -563,7 +563,7 @@
                 "data": {
                   "imagePosition": "left",
                   "sectionbg": "section-bg1",
-                  "image": "/images/kce/image.jpg",
+                  "image": "/images/kce/research/it.png",
                   "content": [
                     {
                       "type": "title",
@@ -589,7 +589,7 @@
                 "data": {
                   "imagePosition": "left",
                   "sectionbg": "section-bg1",
-                  "image": "/images/blog/blog-grid-06.jpg",
+                  "image": "/images/kce/research/ece.png",
                   "content": [
                     {
                       "type": "title",
@@ -679,7 +679,7 @@
                 "data": {
                   "imagePosition": "right",
                   "sectionbg": "section-bg1",
-                  "image": "/images/banner/banner-01.png",
+                  "image": "/images/kce/research/mech.png",
                   "content": [
                     {
                       "type": "title",
@@ -727,7 +727,7 @@
                 "data": {
                   "imagePosition": "right",
                   "sectionbg": "section-bg1",
-                  "image": "/images/blog/blog-grid-06.jpg",
+                  "image": "/images/kce/research/aids.png",
                   "content": [
                     {
                       "type": "title",
@@ -779,7 +779,7 @@
                 "data": {
                   "imagePosition": "right",
                   "sectionbg": "section-bg1",
-                  "image": "/images/blog/blog-grid-06.jpg",
+                  "image": "/images/kce/research/placements.png",
                   "content": [
                     {
                       "type": "title",
