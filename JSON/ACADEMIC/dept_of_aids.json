@@ -21,7 +21,7 @@
       "type": "image-overlay-card",
       "data": {
         "title": "About the Department",
-        "bgImg": "/images/kce/academics/ai/ai.webp",
+        "bgImg": "/images/kce/academics/ai/AI-web-images.png",
         "description": [
           "The B. Tech. in Artificial Intelligence and Data Science program at Karpagam College of Engineering is designed to prepare students for the future of technical education in AI and Machine Learning (ML). The curriculum offers a comprehensive understanding of AI and ML technologies, with courses covering specialized areas such as computer vision, natural language processing, robotics, data analytics, and computer security. Students gain deep knowledge in algorithm analysis, modern computer architecture, foundations of AI, data science, and machine learning, among other core areas."
         ]
@@ -256,7 +256,7 @@
           {
             "title": "Our Vision",
             "description": "To become an integrative department through creativity and innovation in developing systems with Artificial Intelligence and Data Science to serve society.",
-            "image": "/images/kce/academics/ai/vision.webp"
+            "image": "/images/kce/academics/ai/vision.png"
           },
           {
             "title": "Our Mission",
@@ -270,7 +270,7 @@
                 ]
               }
             ],
-            "image": "/images/kce/academics/ai/mision.webp"
+            "image": "/images/kce/academics/ai/mission.png"
           }
         ]
       }
@@ -278,7 +278,7 @@
     {
       "type": "image-overlay-content",
       "data": {
-        "bgImage": "/images/kce/academics/regulation.webp",
+        "bgImage": "/images/kce/academics/ai/AI-regulation-images.png",
         "title": "Regulations",
         "list": [
           {
