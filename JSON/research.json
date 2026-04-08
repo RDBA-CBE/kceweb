@@ -17,7 +17,7 @@
     {
       "type": "image-overlay-content",
       "data": {
-        "bgImage": "/images/kce/academics/banner.jpg",
+        "bgImage": "/images/kce/research/image.png",
 
         "title": "Research Policy",
         "list": [
@@ -466,7 +466,7 @@
                 "data": {
                   "imagePosition": "left",
                   "sectionbg": "section-bg1",
-                  "image": "/images/banner/i-arabian.png",
+                  "image": "/images/kce/research/EEE-1.png",
                   "content": [
                     {
                       "type": "title",
@@ -498,7 +498,7 @@
                 "data": {
                   "imagePosition": "right",
                   "sectionbg": "section-bg3",
-                  "image": "/images/banner/banner-01.png",
+                  "image": "/images/kce/research/EEE-2.png",
                   "content": [
                     {
                       "type": "title",
