@@ -38,7 +38,7 @@ const Instructionstothecandidates = () => {
           </div>
 
           {/* RIGHT STICKY MENU */}
-          <SideMenu data={sideBarData?.profile} />
+          <SideMenu data={sideBarData?.examination} />
         </div>
       </div>
     </section>

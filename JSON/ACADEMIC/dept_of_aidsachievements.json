@@ -48,7 +48,7 @@
     {
       "type": "split-image-content",
       "data": {
-        "sectionbg": "section-bg1 bg-blue",
+        "sectionbg": "bg-blue py-5 text-white",
         "content": [
           {
             "type": "title",
@@ -63,13 +63,13 @@
           {
             "type": "list",
             "items": [
-              "The Department of Artificial Intelligence and Data Science launched an official website and a student portfolio website for students’ placement training and development.<a href='https://forsale.godaddy.com/forsale/kceai.com?utm_source=TDFS_BINNS&utm_medium=parkedpages&utm_campaign=x_corp_tdfs-binns_base&traffic_type=TDFS_BINNS&traffic_id=binns&oref=https%3A%2F%2Fblog.kce.ac.in%2F'>KCE AI</a>"
+              "The Department of Artificial Intelligence and Data Science launched an official website and a student portfolio website for students’ placement training and development.<a href='https://forsale.godaddy.com/forsale/kceai.com?utm_source=TDFS_BINNS&utm_medium=parkedpages&utm_campaign=x_corp_tdfs-binns_base&traffic_type=TDFS_BINNS&traffic_id=binns&oref=https%3A%2F%2Fblog.kce.ac.in%2F' class='text-white '>KCE AI</a>"
             ]
           },
           {
             "type": "list",
             "items": [
-              "The Department of Artificial Intelligence and Data Science officially maintains LMS to provide industry-ready course content <a href='https://lms.dsackce.com/'>LMS-KCE</a>"
+              "The Department of Artificial Intelligence and Data Science officially maintains LMS to provide industry-ready course content <a href='https://lms.dsackce.com/' class='text-white'>LMS-KCE</a>"
             ]
           }
         ]
@@ -99,7 +99,7 @@
       "type": "split-image-content",
       "data": {
         "imagePosition": "left",
-        "sectionbg": "section-bg1",
+        "sectionbg": "bg-blue py-5 text-white",
         "image": "https://blog.kce.ac.in/new/wp-content/uploads/2024/03/Event-9.jpg",
         "content": [
           {
@@ -139,7 +139,7 @@
       "type": "split-image-content",
       "data": {
         "imagePosition": "left",
-        "sectionbg": "section-bg1",
+        "sectionbg": "bg-blue py-5 text-white",
         "image": "https://blog.kce.ac.in/new/wp-content/uploads/2024/03/Event-7.jpg",
         "content": [
           {
@@ -159,7 +159,7 @@
       "type": "split-image-content",
       "data": {
         "imagePosition": "left",
-        "sectionbg": "section-bg1",
+        "sectionbg": "bg-blue py-5 text-white",
         "image": "https://blog.kce.ac.in/new/wp-content/uploads/2024/03/Event-7-1.jpg",
         "content": [
           {
@@ -195,7 +195,7 @@
       "type": "split-image-content",
       "data": {
         "imagePosition": "left",
-        "sectionbg": "section-bg1",
+        "sectionbg": "bg-blue py-5 text-white",
         "image": "https://blog.kce.ac.in/new/wp-content/uploads/2024/03/Event-4.jpg",
         "content": [
           {
@@ -235,7 +235,7 @@
       "type": "split-image-content",
       "data": {
         "imagePosition": "left",
-        "sectionbg": "section-bg1",
+        "sectionbg": "bg-blue py-5 text-white",
         "image": "https://blog.kce.ac.in/new/wp-content/uploads/2024/03/Event-2.jpg",
         "content": [
           {
@@ -298,8 +298,8 @@
     {
       "type": "split-image-content",
       "data": {
-        "imagePosition": "left",
-        "sectionbg": "section-bg1",
+        "imagePosition": "right",
+        "sectionbg": "bg-blue py-5 text-white",
         "image": "https://blog.kce.ac.in/new/wp-content/uploads/2024/03/event-7-2.jpg",
         "content": [
           {
@@ -316,7 +316,7 @@
     {
       "type": "split-image-content",
       "data": {
-        "imagePosition": "right",
+        "imagePosition": "left",
         "sectionbg": "section-bg1",
         "image": "https://blog.kce.ac.in/new/wp-content/uploads/2024/03/event-6.jpg",
         "content": [
@@ -334,8 +334,8 @@
     {
       "type": "split-image-content",
       "data": {
-        "imagePosition": "left",
-        "sectionbg": "section-bg1",
+        "imagePosition": "right",
+        "sectionbg": "bg-blue py-5 text-white",
         "image": "https://blog.kce.ac.in/new/wp-content/uploads/2024/03/event-5-1.jpg",
         "content": [
           {
@@ -352,7 +352,7 @@
     {
       "type": "split-image-content",
       "data": {
-        "imagePosition": "right",
+        "imagePosition": "left",
         "sectionbg": "section-bg1",
         "image": "https://blog.kce.ac.in/new/wp-content/uploads/2024/03/event-4-1.jpg",
         "content": [
@@ -370,8 +370,8 @@
     {
       "type": "split-image-content",
       "data": {
-        "imagePosition": "left",
-        "sectionbg": "section-bg1",
+        "imagePosition": "right",
+        "sectionbg": "bg-blue py-5 text-white",
         "image": "https://blog.kce.ac.in/new/wp-content/uploads/2024/03/event-3-1.jpg",
         "content": [
           {
