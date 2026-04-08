@@ -610,7 +610,7 @@
                 "data": {
                   "imagePosition": "right",
                   "sectionbg": "section-bg3",
-                  "image": "/images/blog/blog-grid-06.jpg",
+                  "image": "/images/kce/research/ece-1.png",
                   "content": [
                     {
                       "type": "title",
@@ -631,7 +631,7 @@
                 "data": {
                   "imagePosition": "left",
                   "sectionbg": "section-bg1",
-                  "image": "/images/blog/blog-grid-06.jpg",
+                  "image": "/images/kce/research/ece-2.png",
                   "content": [
                     {
                       "type": "title",
@@ -653,7 +653,7 @@
                 "data": {
                   "imagePosition": "right",
                   "sectionbg": "section-bg3",
-                  "image": "/images/blog/blog-grid-06.jpg",
+                  "image": "/images/kce/research/ece-3.png",
                   "content": [
                     {
                       "type": "title",
@@ -751,7 +751,7 @@
                 "data": {
                   "imagePosition": "left",
                   "sectionbg": "section-bg3",
-                  "image": "/images/blog/blog-grid-06.jpg",
+                  "image": "/images/kce/research/aids-1.png",
                   "content": [
                     {
                       "type": "title",
