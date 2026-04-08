@@ -22,7 +22,7 @@
       "type": "image-overlay-card",
       "data": {
         "title": "About the Department",
-        "bgImg": "/images/kce/academics/mech/mech.webp",
+        "bgImg": "/images/kce/academics/mech/mechanical-web-image.png",
         "description": [
           "Department of Mechanical Engineering established in the year 2000 offers B.E., Degree programme in Mechanical Engineering and ME., Degree programme in Mechatronics. The department is recognized as Research Centre by Anna University for carrying Ph.D programmes. Department is strengthened with experienced faculty members working in various domains and thrust areas. Department is equipped with state-of-the-art laboratories and Centre of Excellence for research, product development and training in various engineering domains. The department is striving to achieve excellence in academic and industry related activities to serve the society."
         ]
@@ -48,7 +48,7 @@
           {
             "title": "Our Vision",
             "description": "To enable the students excel in a high-value career, higher education and research, in the field of Mechanical Engineering through innovative teaching and learning methodologies, to meet the needs of the industry and to be a part of the advancing technological revolution.",
-            "image": "/images/kce/academics/mech/mision.webp"
+            "image": "public/images/kce/academics/mech/vision.png"
           },
           {
             "title": "Our Mission",
@@ -61,7 +61,7 @@
                 ]
               }
             ],
-            "image": "/images/kce/academics/mech/vision.webp"
+            "image": "/images/kce/academics/mech/mission.png"
           }
         ]
       }
@@ -70,7 +70,7 @@
     {
       "type": "image-overlay-content",
       "data": {
-        "bgImage": "/images/kce/academics/regulation.webp",
+        "bgImage": "/images/kce/academics/mech/mechanical-regulation-image.png",
 
         "title": "Regulations",
         "list": [
@@ -89,7 +89,7 @@
         "sectionbg": "section-bg1 my-2 my-md-5",
         "imagePosition": "left",
         "secTitle": "Courses Offered",
-        "image": "/images/kce/academics/courses-offered.webp",
+        "image": "/images/kce/academics/mech/mechanical-course-offered.png",
         "content": [
           {
             "type": "card",
