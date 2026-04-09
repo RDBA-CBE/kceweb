@@ -19,7 +19,7 @@
       "data": {
         "imagePosition": "left",
         "sectionbg": "section-bg1 pb-2",
-        "image": "/images/blog/blog-grid-06.jpg",
+        "image": "/images/kce/IQAC/IQAC.png",
         "content": [
           {
             "type": "title",
@@ -82,7 +82,7 @@
     {
       "type": "image-overlay-content",
       "data": {
-        "bgImage": "/images/kce/academics/banner.jpg",
+        "bgImage": "/images/kce/IQAC/startigies-of-IQAC.png",
 
         "title": "Strategies of IQAC",
         "list": [

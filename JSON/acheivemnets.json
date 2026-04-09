@@ -31,7 +31,7 @@
             "subTitle": "Our Team",
             "description": "Our Team GateStack Crew has been selected as a FINALIST recognizing excellence in VLSI & Semiconductor Design from 550 proposals with 3739 students.",
             "logos": [
-              { "src": "/images/kce/logo/kce-logo.png", "alt": "LTOPS Logo", "height": 32 }
+              { "src": "/images/kce/home/student-achievements/logo-1.png", "alt": "LTOPS Logo", "height": 32 }
             ]
           },
           {
@@ -50,8 +50,8 @@
             "subTitle": "Awarded the Excellence Award in the Build the Future BIM Contest 2025",
             "description": "Organised by L&T EduTech and Autodesk.",
             "logos": [
-              { "src": "/images/kce/logo/kce-logo.png", "alt": "L&T EduTech", "height": 32 },
-              { "src": "/images/kce/logo/kce-logo.png", "alt": "Autodesk", "height": 32 }
+              { "src": "/images/kce/home/student-achievements/logo-2.png", "alt": "L&T EduTech", "height": 32 }
+              
             ]
           },
           {
@@ -70,7 +70,10 @@
             "mainTitle": "2ND PLACE",
             "mainTitleColor": "#CC6926",
             "title": "AIESEC-H4FT IDEATHON conducted in De Montfort University – Dubai",
-            "subTitle": "Our Students won"
+            "subTitle": "Our Students won",
+            "logos": [
+              { "src": "/images/kce/home/student-achievements/logo-3.png", "alt": "Shiv Nadar University", "height": 32 }
+            ]
           },
           {
             "image": "/images/kce/home/student-achievements/10.png",
@@ -78,10 +81,8 @@
             "mainTitle": "Won the National-Level Hackathon",
             "mainTitleColor": "#CC6926",
             "subTitle": "Our III Year Students have",
-            "description": "Jointly organized by IIT Kharagpur Alumni Association & Shiv Nadar University.",
-            "logos": [
-              { "src": "/images/kce/logo/kce-logo.png", "alt": "Shiv Nadar University", "height": 32 }
-            ]
+            "description": "Jointly organized by IIT Kharagpur Alumni Association & Shiv Nadar University."
+            
           },
           {
             "image": "/images/kce/home/student-achievements/7.png",
@@ -134,7 +135,7 @@
             ]
           },
           {
-            "image": "/images/kce/home/student-achievements/achievements-12.jpg",
+            "image": "/images/kce/home/student-achievements/12.png",
             
             "mainTitle": "ACHIEVERS in HackWithInfy",
             "mainTitleColor": "#CC6926",
@@ -142,7 +143,7 @@
             "subTitle": "Our students emerged as",
             "description": "Demonstrating exceptional innovation, coding expertise and problem-solving skills among the best young developers in the country.",
             "logos": [
-              { "src": "/images/kce/logo/kce-logo.png", "alt": "Infosys", "height": 28 }            ]
+              { "src": "/images/kce/home/student-achievements/logo-4.png", "alt": "Infosys", "height": 28 }            ]
           }
         ]
       }

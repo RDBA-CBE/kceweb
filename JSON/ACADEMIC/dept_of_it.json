@@ -22,7 +22,7 @@
       "type": "image-overlay-card",
       "data": {
         "title": "About the Department",
-        "bgImg": "/images/kce/academics/it/it.webp",
+        "bgImg": "/images/kce/academics/it/IT-web-images.png",
         "description": [
           "The Department of Information Technology was started in the academic year 2001. The Department is located in a newly constructed 70000 Sq.ft state-of-the art information Sciences Block. The block also houses a separate Laboratory block and one open Air Theater to seat 500 students."
         ]
@@ -46,7 +46,7 @@
           {
             "title": "Our Vision",
             "description": "To provide reliable and modern technology resources to the faculty and students to develop the competence in Information Technology and to endure with the rapidly changing world to serve the mankind.",
-            "image": "/images/kce/academics/it/vision.webp"
+            "image": "/images/kce/academics/it/vision.png"
           },
           {
             "title": "Our Mission",
@@ -64,7 +64,7 @@
                 "item": "To provide technical expertise to carry out research and development."
               }
             ],
-            "image": "/images/kce/academics/it/mision.webp"
+            "image": "/images/kce/academics/it/mission.png"
           }
         ]
       }
@@ -73,7 +73,7 @@
     {
       "type": "image-overlay-content",
       "data": {
-        "bgImage": "/images/kce/academics/regulation.webp",
+        "bgImage": "/images/kce/academics/it/IT-regulation-images.png",
 
         "title": "Regulations",
         "list": [
@@ -100,7 +100,7 @@
         "sectionbg": "section-bg1 my-2 my-md-5",
         "imagePosition": "left",
         "secTitle": "Courses Offered",
-        "image": "/images/kce/academics/courses-offered.webp",
+        "image": "/images/kce/academics/it/IT-course-offered.png",
         "content": [
           {
             "type": "card",
@@ -819,7 +819,7 @@
             ]
           },
           {
-  "title": "",
+  "title": "(AY 2023-2024)",
   "content": [
     {
       "head": [
@@ -833,7 +833,7 @@
           "col2": { "text": "High Speed Networks" },
           "col3": {
             "text": "Click",
-            "href": "https://classroom.google.com/c/NTM4MDQ1MTE2Mzcx"
+            "url": "https://classroom.google.com/c/NTM4MDQ1MTE2Mzcx"
           }
         },
         {
@@ -841,7 +841,7 @@
           "col2": { "text": "Cloud Computing Techniques" },
           "col3": {
             "text": "Click",
-            "href": "https://classroom.google.com/c/NTIyNjgzOTk4MDI3"
+            "url": "https://classroom.google.com/c/NTIyNjgzOTk4MDI3"
           }
         },
         {
@@ -849,7 +849,7 @@
           "col2": { "text": "Information Security" },
           "col3": {
             "text": "Click",
-            "href": "https://classroom.google.com/c/NTIyNjc5MDYxNDQy?cjc=kzenp3o"
+            "url": "https://classroom.google.com/c/NTIyNjc5MDYxNDQy?cjc=kzenp3o"
           }
         },
         {
@@ -857,7 +857,7 @@
           "col2": { "text": "Big data Analytics" },
           "col3": {
             "text": "Click",
-            "href": "https://classroom.google.com/c/NjEyNDA1NjUzOTIy"
+            "url": "https://classroom.google.com/c/NjEyNDA1NjUzOTIy"
           }
         },
         {
@@ -865,7 +865,7 @@
           "col2": { "text": "Software Engineering" },
           "col3": {
             "text": "Click",
-            "href": "https://classroom.google.com/c/NTM4MDQwOTc2Nzcz"
+            "url": "https://classroom.google.com/c/NTM4MDQwOTc2Nzcz"
           }
         },
         {
@@ -873,7 +873,7 @@
           "col2": { "text": "Automata Theory and Compiler Design" },
           "col3": {
             "text": "Click",
-            "href": "https://classroom.google.com/c/NjEyNDI1ODA1MzY2"
+            "url": "https://classroom.google.com/c/NjEyNDI1ODA1MzY2"
           }
         },
         {
@@ -881,7 +881,7 @@
           "col2": { "text": "Data Communication and Computer Networks" },
           "col3": {
             "text": "Click",
-            "href": "https://classroom.google.com/c/NTIyNTE5MTg0MTA4"
+            "url": "https://classroom.google.com/c/NTIyNTE5MTg0MTA4"
           }
         },
         {
@@ -889,7 +889,7 @@
           "col2": { "text": "Design and Analysis of Algorithms" },
           "col3": {
             "text": "Click",
-            "href": "https://classroom.google.com/u/1/c/NTE5NzU3MzkxOTQ2"
+            "url": "https://classroom.google.com/u/1/c/NTE5NzU3MzkxOTQ2"
           }
         },
         {
@@ -897,7 +897,7 @@
           "col2": { "text": "Web Application Development using Java" },
           "col3": {
             "text": "Click",
-            "href": "https://classroom.google.com/u/2/c/NTIyNzE5ODU1OTI1"
+            "url": "https://classroom.google.com/u/2/c/NTIyNzE5ODU1OTI1"
           }
         },
         {
@@ -905,7 +905,7 @@
           "col2": { "text": "Data Structures" },
           "col3": {
             "text": "Click",
-            "href": "https://classroom.google.com/w/NjI1MTIxNzQ5NzM5/t/allF"
+            "url": "https://classroom.google.com/w/NjI1MTIxNzQ5NzM5/t/allF"
           }
         },
         {
@@ -913,7 +913,7 @@
           "col2": { "text": "Database Management Systems" },
           "col3": {
             "text": "Click",
-            "href": "https://classroom.google.com/u/3/c/NTI5OTg0Njk1Mjg0"
+            "url": "https://classroom.google.com/u/3/c/NTI5OTg0Njk1Mjg0"
           }
         },
         {
@@ -921,7 +921,7 @@
           "col2": { "text": "Java Programming" },
           "col3": {
             "text": "Click",
-            "href": "https://classroom.google.com/c/NjEyNDcyNjA2ODg5"
+            "url": "https://classroom.google.com/c/NjEyNDcyNjA2ODg5"
           }
         },
         {
@@ -929,7 +929,7 @@
           "col2": { "text": "Principles of Management and Engineering Ethics" },
           "col3": {
             "text": "Click",
-            "href": "https://classroom.google.com/c/NjQ3MzE0MTUwNDY3"
+            "url": "https://classroom.google.com/c/NjQ3MzE0MTUwNDY3"
           }
         },
         {
@@ -937,7 +937,7 @@
           "col2": { "text": "Data Warehousing and Data Mining" },
           "col3": {
             "text": "Click",
-            "href": "https://classroom.google.com/c/NjQ3MzcxNjc5MTg1?cjc=7ahx4jr"
+            "url": "https://classroom.google.com/c/NjQ3MzcxNjc5MTg1?cjc=7ahx4jr"
           }
         },
         {
@@ -945,7 +945,7 @@
           "col2": { "text": "Big data Analytics" },
           "col3": {
             "text": "Click",
-            "href": "https://classroom.google.com/c/NjUwNjg3NjIyMzUx?cjc=cmebclo"
+            "url": "https://classroom.google.com/c/NjUwNjg3NjIyMzUx?cjc=cmebclo"
           }
         },
         {
@@ -953,7 +953,7 @@
           "col2": { "text": "Cloud Computing" },
           "col3": {
             "text": "Click",
-            "href": "https://classroom.google.com/c/NjQ1MzI5MTA5NDAy?cjc=wibwrmo"
+            "url": "https://classroom.google.com/c/NjQ1MzI5MTA5NDAy?cjc=wibwrmo"
           }
         },
         {
@@ -961,7 +961,7 @@
           "col2": { "text": "Artificial Intelligence" },
           "col3": {
             "text": "Click",
-            "href": "https://classroom.google.com/c/NjI3ODAxNjkwMTMy"
+            "url": "https://classroom.google.com/c/NjI3ODAxNjkwMTMy"
           }
         },
         {
@@ -969,7 +969,7 @@
           "col2": { "text": "Cryptography and Network Security" },
           "col3": {
             "text": "Click",
-            "href": "https://classroom.google.com/c/NjQ3MzE4NTk5OTc4?cjc=b7hzz2z"
+            "url": "https://classroom.google.com/c/NjQ3MzE4NTk5OTc4?cjc=b7hzz2z"
           }
         },
         {
@@ -977,7 +977,7 @@
           "col2": { "text": "Operating Systems" },
           "col3": {
             "text": "Click",
-            "href": "https://classroom.google.com/u/2/c/NjU3OTczODA4NDQ4"
+            "url": "https://classroom.google.com/u/2/c/NjU3OTczODA4NDQ4"
           }
         },
         {
@@ -985,7 +985,7 @@
           "col2": { "text": "Computer Architecture" },
           "col3": {
             "text": "Click",
-            "href": "https://classroom.google.com/c/NjQ3ODQ4MTY4MTg3?cjc=eyyes3o"
+            "url": "https://classroom.google.com/c/NjQ3ODQ4MTY4MTg3?cjc=eyyes3o"
           }
         },
         {
@@ -993,7 +993,7 @@
           "col2": { "text": "Advanced Data Structures" },
           "col3": {
             "text": "Click",
-            "href": "https://classroom.google.com/c/NjYyOTA4Mzk1Nzc2"
+            "url": "https://classroom.google.com/c/NjYyOTA4Mzk1Nzc2"
           }
         },
         {
@@ -1001,7 +1001,7 @@
           "col2": { "text": "Advanced Java Programming" },
           "col3": {
             "text": "Click",
-            "href": "https://classroom.google.com/c/NjQ4NDYzMzAwNTQ2?cjc=ci745ca"
+            "url": "https://classroom.google.com/c/NjQ4NDYzMzAwNTQ2?cjc=ci745ca"
           }
         },
         {
@@ -1009,7 +1009,7 @@
           "col2": { "text": "Principles of Management and Engineering Ethics" },
           "col3": {
             "text": "Click",
-            "href": "https://classroom.google.com/c/NjQ3MzE0MTUwNDY3"
+            "url": "https://classroom.google.com/c/NjQ3MzE0MTUwNDY3"
           }
         }
       ]

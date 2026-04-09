@@ -22,7 +22,7 @@
       "type": "image-overlay-card",
       "data": {
         "title": "About the Department",
-        "bgImg": "/images/kce/academics/cyber-security/cyber-security.webp",
+        "bgImg": "/images/kce/academics/cyber-security/cybersecurity-web-image.png",
         "description": [
           "The department was established with an undergraduate programme in Computer Science and Engineering (Cyber Security) in 2020. This is a specialization branch of Computer Science and Engineering in which students get the technical knowledge in the Computer Science and Engineering, Cyber Security, Digital Forensic and emerging areas such as Device Security and Forensics. The department is well equipped with laboratories like Cryptography Lab, Network Security Lab, Internet and Web Application Security Lab, Ethical Hacking Lab, Vulnerability Assessment and Penetration Testing Lab, Malware Analysis, Secure Coding Lab, Cyber Forensics and Digital Forensics lab."
         ]
@@ -68,7 +68,7 @@
           {
             "title": "Our Vision",
             "description": "To develop technically proficient and cyber-skilled professionals through a state-of-the-art,innovative, and multidisciplinary learning environment that promotes ethical practices,supports higher education and research, and empowers graduates to address contemporary and future cyber security challenges for the benefit of society",
-            "image": "/images/kce/academics/cyber-security/mision.webp"
+            "image": "/images/kce/academics/cyber-security/vision.png"
           },
           {
             "title": "Our Mission",
@@ -81,7 +81,7 @@
                 ]
               }
             ],
-            "image": "/images/kce/academics/cyber-security/vision.webp"
+            "image": "/images/kce/academics/cyber-security/mission.png"
           }
         ]
       }
@@ -90,7 +90,7 @@
     {
       "type": "image-overlay-content",
       "data": {
-        "bgImage": "/images/kce/academics/regulation.webp",
+        "bgImage": "/images/kce/academics/cyber-security/cyebersecurity-regualation-image.png",
 
         "title": "Regulations",
         "list": [
@@ -109,7 +109,7 @@
         "sectionbg": "section-bg1 my-2 my-md-5",
         "imagePosition": "left",
         "secTitle": "Courses Offered",
-        "image": "/images/kce/academics/courses-offered.webp",
+        "image": "/images/kce/academics/cyber-security/cybersecurity-course-offered-image.png",
         "content": [
           {
             "type": "card",
