@@ -8,7 +8,7 @@ const KeyValueCard = ({ data }) => {
       <div className={`startup-section section-wid`}>
         {data?.title && <h2 className='section-ti-sec'>{data.title}</h2>}
 
-        <div className='startup-grid pt-4'>
+        <div className='startup-grid pt-4' style={{gridTemplateColumns:`repeat(${data?.gridCol || 2}, 1fr)`}}>
           {data?.content?.map((item, idx) => (
             <div className='startup-card' key={idx}>
               {/* Media */}

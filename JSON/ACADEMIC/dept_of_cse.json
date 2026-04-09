@@ -22,7 +22,7 @@
       "type": "image-overlay-card",
       "data": {
         "title": "About the Department",
-        "bgImg": "/images/kce/academics/cse/cse.webp",
+        "bgImg": "/images/kce/academics/cse/cse-web-image.png",
         "description": [
           "The Department of Computer Science and Engineering was established in the year 2000 and it offers four year undergraduate program in Computer Science and Engineering. The Department is located in a newly constructed 70000 Sq.ft high-tech Computer Science and Information Technology block. The Computer Science and Information Technology block also includes a separate laboratory block and an Open Air Theatre with a capacity to accommodate 500 students. The Department has a separate library of more than 1000 books, international journals, national journals, magazines, back volumes, project reports and lecture CDs. The department maintains exclusive question bank library comprising vast collection of courses related to computer science and engineering. The department has good record of student placements in national, international and multinational companies."
         ]
@@ -47,7 +47,7 @@
           {
             "title": "Our Vision",
             "description": "To create computer professionals with a strong academic and technical background to achieve special distinction at the national and international arena and also to serve and lead the society.",
-            "image": "/images/kce/academics/cse/mision.webp"
+            "image": "/images/kce/academics/cse/vision.png"
           },
           {
             "title": "Our Mission",
@@ -60,7 +60,7 @@
                 ]
               }
             ],
-            "image": "/images/kce/academics/cse/vision.webp"
+            "image": "/images/kce/academics/cse/mission.png"
           }
         ]
       }
@@ -69,7 +69,7 @@
     {
       "type": "image-overlay-content",
       "data": {
-        "bgImage": "/images/kce/academics/regulation.webp",
+        "bgImage": "/images/kce/academics/cse/cse-regualation-image.png",
 
         "title": "Regulations",
         "list": [
@@ -85,10 +85,11 @@
     {
       "type": "edge-image-content",
       "data": {
-        "sectionbg": "section-bg1 my-5",
+        "noMblImg": true,
+        "sectionbg": "section-bg1 my-2 my-md-5",
         "imagePosition": "left",
         "secTitle": "Courses Offered",
-        "image": "/images/kce/academics/courses-offered.webp",
+        "image": "/images/kce/academics/cse/cse-course-offered.png",
         "content": [
           {
             "type": "card",

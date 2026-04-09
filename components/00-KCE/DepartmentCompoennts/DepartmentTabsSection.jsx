@@ -40,7 +40,7 @@ const DepartmentTabsSection = ({ data, renderSection }) => {
   if (!navigation.length) return null;
 
   return (
-    <section className='section-bg1'>
+    <section className={` ${data?.sectionbg || "section-bg1"}`} >
       <div className='pt-5'>
         {data?.tabTitle && <h2 className='text-center'>{data?.tabTitle}</h2>}
         {/* ================= Desktop Tabs ================= */}

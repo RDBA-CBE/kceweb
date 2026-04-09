@@ -87,6 +87,7 @@
     {
       "type": "tabs",
       "data": {
+        "sectionbg": "section-bg1 pb-0 pb-md-5",
         "navigation": [
           {
             "title": "MENTORING - AN INNOVATIVE APPROACH IN LEARNING",
@@ -349,6 +350,7 @@
     {
       "type": "tabs",
       "data": {
+        "sectionbg": "section-bg1 pb-0 pb-md-5",
         "navigation": [
           {
             "title": "Programme Educational Objectives",

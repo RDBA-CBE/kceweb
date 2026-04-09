@@ -131,7 +131,7 @@ const EdgeImageContent = ({ data }) => {
       <div className="efi-con">
         <div className={`efi-content ${isLeft ? "efi-left" : "efi-right"}`}>
           {/* FLOAT IMAGE */}
-          <div className="efi-float-image">
+          <div className={`efi-float-image ${data?.noMblImg ? "d-none d-md-block" : ""}`}>
             <img src={data.image} alt={data.name || ""} />
           </div>
 

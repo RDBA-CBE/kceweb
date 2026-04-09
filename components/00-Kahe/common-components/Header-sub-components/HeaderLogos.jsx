@@ -32,7 +32,7 @@ const Header = ({ gapSpaceBetween, sticky, navigationEnd, container }) => {
     };
   }, []);
   return (
-    <div className={`${container}`}>
+    <div className={`${container} `}>
       <header className={`kce-hdr ${gapSpaceBetween}`}>
         <div className={`kce-hdr__container  ${navigationEnd}`}>
           <div className="kce-hdr__main-flex">
@@ -104,7 +104,7 @@ const Header = ({ gapSpaceBetween, sticky, navigationEnd, container }) => {
                   target="_blank"
                   className="kce-hdr__social-link"
                   aria-label="Twitter"
-                  style={{ fontSize: "18px" }}
+                  style={{ fontSize: "19px" , marginTop: "3.4px" }}
                 >
                   𝕏
                 </a>
@@ -115,7 +115,7 @@ const Header = ({ gapSpaceBetween, sticky, navigationEnd, container }) => {
                   className="kce-hdr__social-link"
                   aria-label="Youtube"
                 >
-                  <Youtube size={18} />
+                  <Youtube size={22} />
                 </a>
               </div>
             </div>

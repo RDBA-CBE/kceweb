@@ -69,6 +69,7 @@
     {
       "type": "tabs",
       "data": {
+        "sectionbg": "section-bg1 pb-0 pb-md-5",
         "navigation": [
           {
             "title": "Classification System",

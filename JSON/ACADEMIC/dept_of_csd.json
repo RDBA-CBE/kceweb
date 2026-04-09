@@ -73,7 +73,8 @@
     {
       "type": "edge-image-content",
       "data": {
-        "sectionbg": "section-bg1 my-5",
+        "noMblImg": true,
+        "sectionbg": "section-bg1 my-2 my-md-5",
         "imagePosition": "left",
         "secTitle": "Courses Offered",
         "image": "/images/kce/academics/courses-offered.webp",

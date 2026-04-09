@@ -41,7 +41,7 @@
       "type": "split-image-content",
       "data": {
         "imagePosition": "left",
-        "sectionbg": "section-bg1 my-4",
+        "sectionbg": "section-bg1 pt-0 my-md-4",
         "image": "/images/kce/campus-facilities/hostel/counseling-center.webp",
         "content": [
           {

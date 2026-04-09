@@ -262,6 +262,14 @@
           "desc": "Learn more about KAHE overview.",
           "src": "/images/banner/co-men.png"
         },
+
+         {
+          "id": 4,
+          "title": "Academics Internship",
+          "link": "/academics-internship/",
+          "desc": "Learn more about KAHE overview.",
+          "src": "/images/banner/co-men.png"
+        },
         {
           "id": 5,
           "title": "Placement Contact",

@@ -40,7 +40,7 @@
       "type": "img-slider-content",
       "data": {
         "imagePosition": "left",
-        "sectionbg": "section-bg1 mt-5",
+        "sectionbg": "section-bg1 mt-5 mb-0 pb-0 pb-md-5",
         "images": [
           "https://blog.kce.ac.in/new/wp-content/uploads/2024/03/img-0487-2048x1366.jpg",
           "https://blog.kce.ac.in/new/wp-content/uploads/2024/03/pic-1-768x512.jpg",
@@ -291,6 +291,7 @@
     {
       "type": "tabs",
       "data": {
+        "sectionbg": "section-bg1 pb-0 pb-md-5",
         "navigation": [
           {
             "title": "Programme Educational Objectives",
@@ -428,7 +429,7 @@
     {
       "type": "split-image-content",
       "data": {
-        "sectionbg": "section-bg1 my-4",
+        "sectionbg": "section-bg1 pt-0 pb-2 py-md-4",
         "image": "/images/kce/academics/faculty.webp",
         "content": [
           {
@@ -840,6 +841,7 @@
     {
       "type": "table",
       "data": {
+        "sectionbg": "section-bg1  pb-2 py-md-5",
         "secTitle": "Top companies Using AI and Data Science",
         "table": [
           {

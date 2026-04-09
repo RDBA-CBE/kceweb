@@ -996,7 +996,6 @@
   .cg-card {
     padding: 10px 20px;
   }
-
 }
 
 .ci-container {
@@ -1018,6 +1017,7 @@
 }
 
 .ci-image {
+  object-fit: cover;
   width: auto;
   height: auto;
   border-radius: 8px;
@@ -1030,7 +1030,8 @@
   line-height: 1.7;
 }
 
-.bg-blue .ci-section .section-ti, .bg-blue .ci-section .sub-ti{
+.bg-blue .ci-section .section-ti,
+.bg-blue .ci-section .sub-ti {
   color: #fff;
 }
 
@@ -1521,6 +1522,10 @@
   .kce .brand-style-3 li {
     flex-basis: 50%;
   }
+
+  .kce.gallery .brand-style-3 li {
+    flex-basis: 25%;
+  }
 }
 
 /* WRAPPER */
@@ -1634,11 +1639,13 @@
 @media (max-width: 991px) {
   .imgmc-container {
     flex-direction: column;
+    gap:30px
   }
 
   .imgmc-content {
     max-width: 100%;
   }
+ 
 }
 
 @media (max-width: 576px) {
@@ -1719,14 +1726,15 @@
   .startup-card {
     flex-direction: column;
     align-items: flex-start;
+        padding: 30px 20px;
   }
   .startup-content {
-  display: grid;
-  grid-template-columns:  1fr;
+    display: grid;
+    grid-template-columns: 1fr;
   }
   .startup-row {
-  display: block;
-}
+    display: block;
+  }
 }
 
 .logo-groups-section {
@@ -1778,6 +1786,7 @@
 @media (max-width: 768px) {
   .logo-groups-grid {
     grid-template-columns: 1fr;
+    gap: 30px;
   }
 
   .logo-groups-grid::before {
@@ -2170,7 +2179,7 @@ a.ps-card:hover .ps-title {
   height: auto;
   object-fit: cover;
   border-bottom-right-radius: 20px;
-    border-top-right-radius: 20px;
+  border-top-right-radius: 20px;
 }
 
 /* LEFT IMAGE */
@@ -2267,41 +2276,94 @@ a.ps-card:hover .ps-title {
   }
 }
 
-
-.rbt-header .mainmenu-nav .mainmenu li.with-megamenu .rbt-megamenu .wrapper .mega-menu-item li a:hover{
+.rbt-header
+  .mainmenu-nav
+  .mainmenu
+  li.with-megamenu
+  .rbt-megamenu
+  .wrapper
+  .mega-menu-item
+  li
+  a:hover {
   color: #cc6926 !important  ;
 }
 
-.kce-hdr__contact-item :hover{
+.kce-hdr__contact-item :hover {
   color: #cc6926 !important  ;
 }
-.overview-spacing{
+.overview-spacing {
   margin-top: -10px;
 }
 
-.tablealignment thead{
+.tablealignment thead {
   text-align: center;
 }
 
-.tablealignment tbody{
+.tablealignment tbody {
   text-align: center;
 }
 
-.tablealignment tfoot{
+.tablealignment tfoot {
   text-align: center;
 }
 
-.tablealignment tr{
+.tablealignment tr {
   text-align: center;
 }
 
-.tablealignment td{
+.tablealignment td {
   text-align: center;
 }
 
-.tablealignment th{
+.tablealignment th {
   text-align: center;
 }
+
+.rbt-table thead tr th, .rbt-table thead tr td, .rbt-table tfoot tr th, .rbt-table tfoot tr td {
+  min-width: 100px;
+}
+
+
+.rbt-table thead tr th{
+  white-space: nowrap;
+}
+
+@media (max-width: 1200px) {
+  .logo-menu {
+    position: fixed;
+    width: 100%;
+  }
+}
+
+// .student-achievements-arrows{
+//     display: none !important;
+//   }
+
+// @media (max-width: 1024px) {
+
+//   .student-achievements-arrows{
+//     display: block !important;
+//     right: 40px !important;
+//     top: 50px !important;
+//   }
+// }
+
+// // @media (max-width: 768px) {
+// //   .student-achievements-arrows{
+// //     // left: 0 !important;
+// //   }
+  
+// // }
+
+
+// @media (max-width: 768px) {
+
+//   .student-achievements-arrows{
+//     display: block !important;
+//     right: 0px !important;
+//     top: 50px !important;
+//   }
+// }
 
 /* ================================================
    GLOBAL RICH TEXT STYLES
