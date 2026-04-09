@@ -22,7 +22,7 @@
       "type": "image-overlay-card",
       "data": {
         "title": "About the Department",
-        "bgImg": "/images/kce/academics/it/it.webp",
+        "bgImg": "/images/kce/academics/it/IT-web-images.png",
         "description": [
           "The Department of Information Technology was started in the academic year 2001. The Department is located in a newly constructed 70000 Sq.ft state-of-the art information Sciences Block. The block also houses a separate Laboratory block and one open Air Theater to seat 500 students."
         ]
@@ -46,7 +46,7 @@
           {
             "title": "Our Vision",
             "description": "To provide reliable and modern technology resources to the faculty and students to develop the competence in Information Technology and to endure with the rapidly changing world to serve the mankind.",
-            "image": "/images/kce/academics/it/vision.webp"
+            "image": "/images/kce/academics/it/vision.png"
           },
           {
             "title": "Our Mission",
@@ -64,7 +64,7 @@
                 "item": "To provide technical expertise to carry out research and development."
               }
             ],
-            "image": "/images/kce/academics/it/mision.webp"
+            "image": "/images/kce/academics/it/mission.png"
           }
         ]
       }
@@ -73,7 +73,7 @@
     {
       "type": "image-overlay-content",
       "data": {
-        "bgImage": "/images/kce/academics/regulation.webp",
+        "bgImage": "/images/kce/academics/it/IT-regulation-images.png",
 
         "title": "Regulations",
         "list": [
@@ -100,7 +100,7 @@
         "sectionbg": "section-bg1 my-2 my-md-5",
         "imagePosition": "left",
         "secTitle": "Courses Offered",
-        "image": "/images/kce/academics/courses-offered.webp",
+        "image": "/images/kce/academics/it/IT-course-offered.png",
         "content": [
           {
             "type": "card",

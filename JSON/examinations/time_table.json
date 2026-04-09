@@ -5,6 +5,49 @@
         "breadcrumb": []
     },
     "sections": [
+         {
+            "type": "table",
+            "data": {
+                "sectionbg": "pb-3",
+                "secTitle": "Time Table - April / May - 2026",
+                "table": [
+                    {
+                        "content": [
+                            {
+                                "rowsPerPage": "999",
+                                "head": [
+                                    {
+                                        "id": "col1",
+                                        "label": "Name "
+                                    }
+                                ],
+                                "data": [
+                                    {
+                                        "col1": {
+                                            "text": "2021 Regulations UG Timetable",
+                                            "url": "/images/kce/timetable/2021-Regulations-UG-Timetable.pdf"
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "2023 Regulations PG Timetable",
+                                            "url": "/images/kce/timetable/2023-Regulations-PG-Timetable.pdf"
+                                        }
+                                    },
+                                    {
+                                        "col1": {
+                                            "text": "2023 Regulations UG Timetable",
+                                            "url": "/images/kce/timetable/2023-Regulations-UG-Timetable.pdf"
+                                        }
+                                    }
+                                   
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
         {
             "type": "table",
             "data": {
