@@ -24,7 +24,7 @@
         "title": "About the Department",
         "bgImg": "/images/kce/academics/cyber-security/cybersecurity-web-image.png",
         "description": [
-          "The department was established with an undergraduate programme in Computer Science and Engineering (Cyber Security) in 2020. This is a specialization branch of Computer Science and Engineering in which students get the technical knowledge in the Computer Science and Engineering, Cyber Security, Digital Forensic and emerging areas such as Device Security and Forensics. The department is well equipped with laboratories like Cryptography Lab, Network Security Lab, Internet and Web Application Security Lab, Ethical Hacking Lab, Vulnerability Assessment and Penetration Testing Lab, Malware Analysis, Secure Coding Lab, Cyber Forensics and Digital Forensics lab."
+          "<p>The Department was established in 2020 with an Undergraduate Programme in Computer Science and Engineering (Cyber Security). The programme is thoughtfully designed to develop essential Graduate Attributes, equipping students to pursue diverse and dynamic career paths such as Cyber Security Analyst, Penetration Tester (Ethical Hacker), Cloud Security Engineer, Security Architect, and other emerging roles aligned with the evolving demands of the global job market.</p><p>The curriculum is continuously enhanced through inputs from industry experts, ensuring that students remain up to date with the latest trends, tools, and best practices in the rapidly advancing field of cybersecurity. It offers a balanced integration of strong theoretical foundations and practical, hands-on learning across key domains including Ethical Hacking, Cryptography, Cyber Forensics, Vulnerability Assessment, Network Security, and Secure Software Development.</p><p>Students also benefit from experiential learning in state-of-the-art laboratories, gaining proficiency in advanced tools and techniques, including those offered by globally recognized organizations such as EC-Council.</p>"
         ]
       }
     },
@@ -42,7 +42,7 @@
       "type": "card-grid",
       "data": {
         "sectionbg":"section-bg1 my-0 py-0 py-md-5",
-        "title": "The clubs",
+        "title": "The Clubs",
         "content": [
           {
             "id": 1,
@@ -375,56 +375,85 @@
                   "name": "Dr. Muthanantha Murugavel AS",
                   "designation": "Professor",
                   "degree": "M.E, Ph.D",
-                  "src": "/images/kce/Portrait_Placeholder.png"
+                  "src": "/images/kce/faculty/murugavel.png"
                 },
                 {
                   "id": 3,
                   "name": "Dr. Vignesh V",
                   "designation": "Associate Professor",
                   "degree": "M.E, Ph.D",
-                  "src": "/images/kce/Portrait_Placeholder.png"
+                  "src": "/images/kce/faculty/vignesh.png"
                 },
+               
                 {
                   "id": 4,
-                  "name": "Dr. Jothi Prakash V",
+                  "name": "Ms. Priyanka V",
                   "designation": "Assistant Professor",
-                  "degree": "M.Tech, Ph.D",
-                  "src": "/images/kce/Portrait_Placeholder.png"
+                  "degree": "M.E,(Ph.D)",
+                  "src": "/images/kce/faculty/priyanka.png"
                 },
                 {
                   "id": 5,
-                  "name": "Ms. Priyanka V",
-                  "designation": "Assistant Professor",
-                  "degree": "M.E",
-                  "src": "/images/kce/Portrait_Placeholder.png"
-                },
-                {
-                  "id": 6,
                   "name": "Ms. Sasikala R AP",
                   "designation": "Assistant Professor",
-                  "degree": "M.E",
-                  "src": "/images/kce/Portrait_Placeholder.png"
+                  "degree": "M.E,(Ph.D)",
+                  "src": "/images/kce/faculty/sasikala.png"
                 },
-                {
-                  "id": 7,
-                  "name": "Mr. Ravindran J",
+                 {
+                  "id": 6,
+                  "name": "Ms. Jermina F",
                   "designation": "Assistant Professor",
-                  "degree": "M.E",
-                  "src": "/images/kce/Portrait_Placeholder.png"
+                  "degree": "M.E,(Ph.D)",
+                  "src": "/images/kce/faculty/jermina.png"
+                },
+                 {
+                  "id": 7,
+                  "name": "Ms. Arthi A",
+                  "designation": "Assistant Professor",
+                  "degree": "M.Tech,(Ph.D)",
+                  "src": "/images/kce/faculty/arthi.png"
                 },
                 {
                   "id": 8,
-                  "name": "Ms. Jermina F",
+                  "name": "Mr. Ravindran F",
                   "designation": "Assistant Professor",
-                  "degree": "M.E",
+                  "degree": "M.Tech,(Ph.D)",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
-                {
+                 {
                   "id": 9,
-                  "name": "Ms. Abinaya V",
+                  "name": "Mr. Arunpandiyan B",
                   "designation": "Assistant Professor",
                   "degree": "M.E",
-                  "src": "/images/kce/Portrait_Placeholder.png"
+                  "src": "/images/kce/faculty/arunpandiyan.png"
+                },               
+                {
+                  "id": 10,
+                  "name": "Mr. Kumaresan R",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/faculty/kumaresan.png"
+                },
+                 {
+                  "id": 11,
+                  "name": "Mr. Vivek Amruth C",
+                  "designation": "Assistant Professor",
+                  "degree": "M.Tech",
+                  "src": "/images/kce/faculty/kumaresan.png"
+                },
+                 {
+                  "id": 12,
+                  "name": "Ms. Mythreagi R",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E,(Ph.D)",
+                  "src": "/images/kce/faculty/mythreagi.png"
+                },
+                {
+                  "id": 13,
+                  "name": "Ms. Anandapriya M",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/faculty/anandapriya.png"
                 }
               ]
             }
