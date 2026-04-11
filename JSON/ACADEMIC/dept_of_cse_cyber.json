@@ -24,7 +24,7 @@
         "title": "About the Department",
         "bgImg": "/images/kce/academics/cyber-security/cybersecurity-web-image.png",
         "description": [
-          "The department was established with an undergraduate programme in Computer Science and Engineering (Cyber Security) in 2020. This is a specialization branch of Computer Science and Engineering in which students get the technical knowledge in the Computer Science and Engineering, Cyber Security, Digital Forensic and emerging areas such as Device Security and Forensics. The department is well equipped with laboratories like Cryptography Lab, Network Security Lab, Internet and Web Application Security Lab, Ethical Hacking Lab, Vulnerability Assessment and Penetration Testing Lab, Malware Analysis, Secure Coding Lab, Cyber Forensics and Digital Forensics lab."
+          "<p>The Department was established in 2020 with an Undergraduate Programme in Computer Science and Engineering (Cyber Security). The programme is thoughtfully designed to develop essential Graduate Attributes, equipping students to pursue diverse and dynamic career paths such as Cyber Security Analyst, Penetration Tester (Ethical Hacker), Cloud Security Engineer, Security Architect, and other emerging roles aligned with the evolving demands of the global job market.</p><p>The curriculum is continuously enhanced through inputs from industry experts, ensuring that students remain up to date with the latest trends, tools, and best practices in the rapidly advancing field of cybersecurity. It offers a balanced integration of strong theoretical foundations and practical, hands-on learning across key domains including Ethical Hacking, Cryptography, Cyber Forensics, Vulnerability Assessment, Network Security, and Secure Software Development.</p><p>Students also benefit from experiential learning in state-of-the-art laboratories, gaining proficiency in advanced tools and techniques, including those offered by globally recognized organizations such as EC-Council.</p>"
         ]
       }
     },
@@ -41,8 +41,8 @@
     {
       "type": "card-grid",
       "data": {
-        "sectionbg":"section-bg1 my-0 py-0 py-md-5",
-        "title": "The clubs",
+        "sectionbg": "section-bg1 my-0 py-0 py-md-5",
+        "title": "The Clubs",
         "content": [
           {
             "id": 1,
@@ -55,6 +55,14 @@
           {
             "id": 3,
             "name": "Forensics Club"
+          },
+          {
+            "id": 4,
+            "name": "CRYPTX Club"
+          },
+          {
+            "id": 5,
+            "name": "Software Development Club"
           }
         ]
       }
@@ -63,11 +71,11 @@
     {
       "type": "half-card-img",
       "data": {
-        "sectionbg":"section-bg1 pt-0 pt-md-5",
+        "sectionbg": "section-bg1 pt-0 pt-md-5",
         "content": [
           {
             "title": "Our Vision",
-            "description": "To develop technically proficient and cyber-skilled professionals through a state-of-the-art,innovative, and multidisciplinary learning environment that promotes ethical practices,supports higher education and research, and empowers graduates to address contemporary and future cyber security challenges for the benefit of society",
+            "description": "To develop technically proficient and cyber-skilled professionals through a state-of-the-art, innovative, and multidisciplinary learning environment that promotes ethical practices, supports higher education and research, and empowers graduates to address contemporary and future cyber security challenges for the benefit of society",
             "image": "/images/kce/academics/cyber-security/vision.png"
           },
           {
@@ -96,7 +104,7 @@
         "list": [
           {
             "title": "R2023",
-            "url": "https://blog.kce.ac.in/new/wp-content/uploads/2023/07/CY.pdf"
+            "url": "https://learn.kce.ac.in/uploads/2023/07/CY.pdf"
           }
         ]
       }
@@ -114,6 +122,10 @@
           {
             "type": "card",
             "items": ["B.E Computer Science and Engineering(Cyber Security)"]
+          },
+          {
+            "type": "card",
+            "items": ["Ph.D Computer Science and Engineering (Cyber Security)"]
           }
         ]
       }
@@ -126,6 +138,18 @@
         "content": [
           {
             "img": "/images/kce/academics/lab-icon.svg",
+            "title": "Ethical Hacking Lab"
+          },
+          {
+            "img": "/images/kce/academics/lab-icon.svg",
+            "title": "Digital Forensics lab"
+          },
+          {
+            "img": "/images/kce/academics/lab-icon.svg",
+            "title": "Project/Research Lab"
+          },
+          {
+            "img": "/images/kce/academics/lab-icon.svg",
             "title": "Cryptography and Information Security Lab"
           },
           {
@@ -136,10 +160,7 @@
             "img": "/images/kce/academics/lab-icon.svg",
             "title": "Internet and Web Application Security Lab"
           },
-          {
-            "img": "/images/kce/academics/lab-icon.svg",
-            "title": "Ethical Hacking Lab"
-          },
+
           {
             "img": "/images/kce/academics/lab-icon.svg",
             "title": "Penetration Testing Lab"
@@ -167,10 +188,6 @@
           {
             "img": "/images/kce/academics/lab-icon.svg",
             "title": "Cyber Forensics Lab"
-          },
-          {
-            "img": "/images/kce/academics/lab-icon.svg",
-            "title": "Digital Forensics lab"
           }
         ]
       }
@@ -188,7 +205,10 @@
             "title": "Programme Outcomes",
             "id": "po"
           },
-
+          {
+            "title": "Knowledge and Attitude Profile",
+            "id": "wk"
+          },
           {
             "title": "Program Specific Outcomes",
             "id": "pso"
@@ -230,69 +250,111 @@
                     {
                       "code": "PO1",
                       "title": "Engineering knowledge",
-                      "description": "Apply the knowledge of mathematics, science, engineering fundamentals, and an engineering specialization to the solution of complex engineering problems."
+                      "description": "Apply knowledge of mathematics, natural science, computing, engineering fundamentals and an engineering specialization as specified in WK1 to WK4 respectively to develop to the solution of complex engineering problems"
                     },
                     {
                       "code": "PO2",
                       "title": "Problem analysis",
-                      "description": "Identify, formulate, review research literature, and analyze complex engineering problems reaching substantiated conclusions using first principles of mathematics, natural sciences, and engineering sciences."
+                      "description": "Identify, formulate, review research literature and analyze complex engineering problems reaching substantiated conclusions with consideration for sustainable development. (WK1 to WK4)"
                     },
                     {
                       "code": "PO3",
                       "title": "Design/development of solutions",
-                      "description": "Design solutions for complex engineering problems and design system components or processes that meet the specified needs with appropriate consideration for the public health and safety, and the cultural, societal, and environmental considerations."
+                      "description": "Design creative solutions for complex engineering problems and design/develop systems/components/processes to meet identified needs with consideration for the public health and safety, whole-life cost, net zero carbon, culture, society and environment as required. (WK5)"
                     },
                     {
                       "code": "PO4",
                       "title": "Conduct investigations of complex problems",
-                      "description": "Use research-based knowledge and research methods including design of experiments, analysis and interpretation of data, and synthesis of the information to provide valid conclusions."
+                      "description": "Conduct investigations of complex engineering problems using research-based knowledge including design of experiments, modelling, analysis & interpretation of data to provide valid conclusions. (WK8)."
                     },
                     {
                       "code": "PO5",
-                      "title": "Modern tool usage",
-                      "description": "Create, select, and apply appropriate techniques, resources, and modern engineering and IT tools including prediction and modeling to complex engineering activities with an understanding of the limitations."
+                      "title": "Engineering Tool Usage:",
+                      "description": "Create, select and apply appropriate techniques, resources and modern engineering & IT tools, including prediction and modelling recognizing their limitations to solve complex engineering problems. (WK2 and WK6)"
                     },
                     {
                       "code": "PO6",
-                      "title": "The engineer and society",
-                      "description": "Apply reasoning informed by the contextual knowledge to assess societal, health, safety, legal and cultural issues and the consequent responsibilities relevant to the professional engineering practice."
+                      "title": "The Engineer and The World",
+                      "description": "Analyze and evaluate societal and environmental aspects while solving complex engineering problems for its impact on sustainability with reference to economy, health, safety, legal framework, culture and environment. (WK1, WK5, and WK7)."
                     },
                     {
                       "code": "PO7",
-                      "title": "Environment and sustainability",
-                      "description": "Understand the impact of the professional engineering solutions in societal and environmental contexts, and demonstrate the knowledge of, and need for sustainable development."
+                      "title": "Ethics",
+                      "description": "Apply ethical principles and commit to professional ethics, human values, diversity and inclusion; adhere to national & international laws. (WK9)"
                     },
                     {
                       "code": "PO8",
-                      "title": "Ethics",
-                      "description": "Apply ethical principles and commit to professional ethics and responsibilities and norms of the engineering practice."
+                      "title": "Individual and Collaborative Team work",
+                      "description": "Function effectively as an individual, and as a member or leader in diverse/multi-disciplinary teams"
                     },
                     {
                       "code": "PO9",
-                      "title": "Individual and team work",
-                      "description": "Function effectively as an individual, and as a member or leader in diverse teams, and in multidisciplinary settings."
+                      "title": "Communication",
+                      "description": "Communicate effectively and inclusively within the engineering community and society at large, such as being able to comprehend and write effective reports and design documentation, make effective presentations considering cultural, language, and learning differences"
                     },
                     {
                       "code": "PO10",
-                      "title": "Communication",
-                      "description": "Communicate effectively on complex engineering activities with the engineering community and with society at large, such as, being able to comprehend and write effective reports and design documentation, make effective presentations, and give and receive clear instructions."
+                      "title": "Project Management and Finance",
+                      "description": "Apply knowledge and understanding of engineering management principles and economic decision-making and apply these to one’s own work, as a member and leader in a team, and to manage projects and in multidisciplinary environments"
                     },
                     {
                       "code": "PO11",
-                      "title": "Project management and finance",
-                      "description": "Demonstrate knowledge and understanding of the engineering and management principles and apply these to one’s own work, as a member and leader in a team, to manage projects and in multidisciplinary environments."
-                    },
-                    {
-                      "code": "PO12",
                       "title": "Life-Long Learning",
-                      "description": "Recognize the need for, and have the preparation and ability to engage in independent and life-long learning in the broadest context of technological change."
+                      "description": "Recognize the need for, and have the preparation and ability for i) independent and life-long learning   ii) adaptability to new and emerging technologies and iii) critical thinking in the broadest context of technological change. (WK8)"
                     }
                   ]
                 }
               }
             ]
           },
-
+          "wk": {
+            "sections": [
+              {
+                "type": "card-list1",
+                "data": {
+                  "title": "Knowledge and Attitude Profile (WK)",
+                  "content": [
+                    {
+                      "code": "WK1",
+                      "description": "A systematic, theory-based understanding of the natural sciences applicable to the discipline and awareness of relevant social sciences."
+                    },
+                    {
+                      "code": "WK2",
+                      "description": "Conceptually-based mathematics, numerical analysis, data analysis, statistics and formal aspects of computer and information science to support detailed analysis and modelling applicable to the discipline."
+                    },
+                    {
+                      "code": "WK3",
+                      "description": "A systematic, theory-based formulation of engineering fundamentals required in the engineering discipline."
+                    },
+                    {
+                      "code": "WK4",
+                      "description": "Engineering specialist knowledge that provides theoretical frameworks and bodies of knowledge for the accepted practice areas in the engineering discipline; much is at the forefront of the discipline."
+                    },
+                    {
+                      "code": "WK5",
+                      "description": "Knowledge, including efficient resource use, environmental impacts, whole-life cost, re-use of resources, net zero carbon, and similar concepts, that supports engineering design and operations in a practice area."
+                    },
+                    {
+                      "code": "WK6",
+                      "description": "Knowledge of engineering practice (technology) in the practice areas in the engineering discipline."
+                    },
+                    {
+                      "code": "WK7",
+                      "description": "Knowledge of the role of engineering in society and identified issues in engineering practice in the discipline, such as the professional responsibility of an engineer to public safety and sustainable development."
+                    },
+                    {
+                      "code": "WK8",
+                      "description": "Engagement with selected knowledge in the current research literature of the discipline, awareness of the power of critical thinking and creative approaches to evaluate emerging issues."
+                    },
+                    {
+                      "code": "WK9",
+                      "description": "Ethics, inclusive behavior and conduct. Knowledge of professional ethics, responsibilities, and norms of engineering practice. Awareness of the need for diversity by reason of ethnicity, gender, age, physical ability etc. with mutual understanding and respect, and of inclusive attitudes."
+                    }
+                  ]
+                }
+              }
+            ]
+          },
           "pso": {
             "sections": [
               {
@@ -303,7 +365,7 @@
                   "content": [
                     {
                       "code": "PSO1",
-                      "description": "Analyze, Design, Implement, Development and production in practices of computer science and engineering application pivot to Cryptography, Cyber Security and Cyber Forensics."
+                      "description": "Analyze, Design, Implement, Development and production in practices of computer science and engineering application pivot to Cryptography, Cyber Security and Cyber Forensics"
                     },
                     {
                       "code": "PSO2",
@@ -330,7 +392,9 @@
           },
           {
             "type": "paragraph",
-            "text": ["The Department of CSE (Cyber Security) at KCE is led by expert faculty specializing in secure computing and emerging cyber technologies. Through research-driven and industry-focused teaching, they prepare students to tackle complex security challenges and safeguard digital ecosystems."]
+            "text": [
+              "The Department of CSE (Cyber Security) at KCE is led by expert faculty specializing in secure computing and emerging cyber technologies. Through research-driven and industry-focused teaching, they prepare students to tackle complex security challenges and safeguard digital ecosystems."
+            ]
           },
           {
             "type": "button",
@@ -375,62 +439,867 @@
                   "name": "Dr. Muthanantha Murugavel AS",
                   "designation": "Professor",
                   "degree": "M.E, Ph.D",
-                  "src": "/images/kce/Portrait_Placeholder.png"
+                  "src": "/images/kce/faculty/murugavel.png"
                 },
                 {
                   "id": 3,
                   "name": "Dr. Vignesh V",
                   "designation": "Associate Professor",
                   "degree": "M.E, Ph.D",
-                  "src": "/images/kce/Portrait_Placeholder.png"
+                  "src": "/images/kce/faculty/vignesh.png"
                 },
+
                 {
                   "id": 4,
-                  "name": "Dr. Jothi Prakash V",
+                  "name": "Ms. Priyanka V",
                   "designation": "Assistant Professor",
-                  "degree": "M.Tech, Ph.D",
-                  "src": "/images/kce/Portrait_Placeholder.png"
+                  "degree": "M.E,(Ph.D)",
+                  "src": "/images/kce/faculty/priyanka.png"
                 },
                 {
                   "id": 5,
-                  "name": "Ms. Priyanka V",
+                  "name": "Ms. Sasikala R AP",
                   "designation": "Assistant Professor",
-                  "degree": "M.E",
-                  "src": "/images/kce/Portrait_Placeholder.png"
+                  "degree": "M.E,(Ph.D)",
+                  "src": "/images/kce/faculty/sasikala.png"
                 },
                 {
                   "id": 6,
-                  "name": "Ms. Sasikala R AP",
+                  "name": "Ms. Jermina F",
                   "designation": "Assistant Professor",
-                  "degree": "M.E",
-                  "src": "/images/kce/Portrait_Placeholder.png"
+                  "degree": "M.E,(Ph.D)",
+                  "src": "/images/kce/faculty/jermina.png"
                 },
                 {
                   "id": 7,
-                  "name": "Mr. Ravindran J",
+                  "name": "Ms. Arthi A",
                   "designation": "Assistant Professor",
-                  "degree": "M.E",
-                  "src": "/images/kce/Portrait_Placeholder.png"
+                  "degree": "M.Tech,(Ph.D)",
+                  "src": "/images/kce/faculty/arthi.png"
                 },
                 {
                   "id": 8,
-                  "name": "Ms. Jermina F",
+                  "name": "Mr. Ravindran F",
                   "designation": "Assistant Professor",
-                  "degree": "M.E",
-                  "src": "/images/kce/Portrait_Placeholder.png"
+                  "degree": "M.Tech,(Ph.D)",
+                  "src": "/images/kce/faculty/ravindaran.png"
                 },
                 {
                   "id": 9,
-                  "name": "Ms. Abinaya V",
+                  "name": "Mr. Arunpandiyan B",
                   "designation": "Assistant Professor",
                   "degree": "M.E",
-                  "src": "/images/kce/Portrait_Placeholder.png"
+                  "src": "/images/kce/faculty/arunpandiyan.png"
+                },
+                {
+                  "id": 10,
+                  "name": "Mr. Kumaresan R",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/faculty/kumaresan.png"
+                },
+                {
+                  "id": 11,
+                  "name": "Mr. Vivek Amruth C",
+                  "designation": "Assistant Professor",
+                  "degree": "M.Tech",
+                  "src": "/images/kce/faculty/vivek-amruth.png"
+                },
+                {
+                  "id": 12,
+                  "name": "Ms. Mythreagi R",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E,(Ph.D)",
+                  "src": "/images/kce/faculty/mythreagi.png"
+                },
+                {
+                  "id": 13,
+                  "name": "Ms. Anandapriya M",
+                  "designation": "Assistant Professor",
+                  "degree": "M.E",
+                  "src": "/images/kce/faculty/anandapriya.png"
                 }
               ]
             }
           }
         ]
       }
+    },
+
+    {
+      "type": "pill-list",
+      "data": {
+        "title": "Professional Bodies Membership",
+
+        "items": [
+          {
+            "id": 1,
+            "label": "IEEE Computer Society"
+          },
+          {
+            "id": 2,
+            "label": "Institution of Engineers (India) (IEI)"
+          },
+          {
+            "id": 3,
+            "label": "Indian Society for Technical Education (ISTE)"
+          },
+          {
+            "id": 4,
+            "label": "National Cyber Security Standard (NCSS)"
+          },
+          {
+            "id": 5,
+            "label": "National Cyber Security Research Council (NCSRC)"
+          },
+          {
+            "id": 6,
+            "label": "International Association of Engineers (IAENG)"
+          },
+          {
+            "id": 7,
+            "label": "National Institute for Technical Training and Skill Development"
+          },
+          {
+            "id": 8,
+            "label": "National Cyberwatch Center"
+          },
+          {
+            "id": 9,
+            "label": "Computer Society of India (CSI)"
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "logo-img",
+      "data": {
+        "title": "Professional Bodies Membership Logos",
+        "content": [
+          {
+            "images": [
+              {
+                "img": "/images/kce/academics/cyber-security/1.png",
+                "title": "IEEE Computer Society"
+              },
+              {
+                "img": "/images/kce/academics/cyber-security/2.png",
+                "title": "Institution of Engineers (India) (IEI)"
+              },
+              {
+                "img": "/images/kce/academics/cyber-security/3.png",
+                "title": "Indian Society for Technical Education (ISTE)"
+              },
+              {
+                "img": "/images/kce/academics/cyber-security/4.png",
+                "title": "Computer Society of India (CSI)"
+              },
+              {
+                "img": "/images/kce/academics/cyber-security/5.png",
+                "title": "National Cyber Safety and Security Standard (NCSS)"
+              },
+              {
+                "img": "/images/kce/academics/cyber-security/6.png",
+                "title": "National Cyber Security Research Council (NCSRC)"
+              },
+              {
+                "img": "/images/kce/academics/cyber-security/7.png",
+                "title": "International Association of Engineers (IAENG)"
+              },
+              {
+                "img": "/images/kce/academics/cyber-security/8.png",
+                "title": "All India Council for Technical Skill Development (AICTSD)"
+              },
+              {
+                "img": "/images/kce/academics/cyber-security/9.png",
+                "title": "National Cyberwatch Center"
+              }
+            ]
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "pill-list",
+      "data": {
+        "title": "MoUs",
+
+        "items": [
+          {
+            "id": 1,
+            "label": "BCBuzz Technologies"
+          },
+          {
+            "id": 2,
+            "label": "CSuiteTech Labs Pvt.Ltd."
+          },
+          {
+            "id": 3,
+            "label": "Excel REdTech Pvt.Ltd."
+          },
+          {
+            "id": 4,
+            "label": "Synisphere Techno Ventures LLP"
+          },
+          {
+            "id": 5,
+            "label": "Maiyam Knowledge and Careers Pvt.Ltd."
+          },
+          {
+            "id": 6,
+            "label": "Boredmonk Cyber Security Services"
+          },
+          {
+            "id": 7,
+            "label": "School of Linux"
+          },
+          {
+            "id": 8,
+            "label": "Visaithalam Solutions"
+          },
+          {
+            "id": 9,
+            "label": "Kriyavan Cyber forensic Service"
+          },
+          {
+            "id": 10,
+            "label": "Hackup Technology"
+          },
+          {
+            "id": 11,
+            "label": "Froze Communication Pvt.Ltd"
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "key-value-cards",
+      "data": {
+        "sectionbg": "section-bg1",
+        "gridCol": 4,
+        "content": [
+          {
+            "media": {
+              "type": "image",
+              "src": "/images/kce/academics/cyber-security/Mous/1.png",
+              "alt": "BCBuzz Technologies"
+            },
+            "details": [
+              {
+                "label": "Name of the Industry",
+                "value": "BCBuzz Technologies"
+              },
+              {
+                "label": "SPOC Name & Designation",
+                "value": "Mr.F.Ravindaran , Assistant Professor"
+              }
+            ]
+          },
+          {
+            "media": {
+              "type": "image",
+              "src": "/images/kce/academics/cyber-security/Mous/2.png",
+              "alt": "CSuite Tech Labs"
+            },
+            "details": [
+              {
+                "label": "Name of the Industry",
+                "value": "CSuite Tech Labs"
+              },
+              {
+                "label": "SPOC Name & Designation",
+                "value": "Ms.Jermina , Assistant Professor"
+              }
+            ]
+          },
+          {
+            "media": {
+              "type": "image",
+              "src": "/images/kce/academics/cyber-security/Mous/3.png",
+              "alt": "ExcelR EdTech Pvt.Ltd"
+            },
+            "details": [
+              {
+                "label": "Name of the Industry",
+                "value": "ExcelR EdTech Pvt.Ltd"
+              },
+              {
+                "label": "SPOC Name & Designation",
+                "value": "Dr.A.S.Muthanantha Murugavel , Professor"
+              }
+            ]
+          },
+          {
+            "media": {
+              "type": "image",
+              "src": "/images/kce/academics/cyber-security/Mous/4.png",
+              "alt": "Synisphere Techno VenturesLLP"
+            },
+            "details": [
+              {
+                "label": "Name of the Industry",
+                "value": "Synisphere Techno VenturesLLP"
+              },
+              {
+                "label": "SPOC Name & Designation",
+                "value": "Dr.V.Vignesh , Associate Professor"
+              }
+            ]
+          },
+          {
+            "media": {
+              "type": "image",
+              "src": "/images/kce/academics/cyber-security/Mous/5.png",
+              "alt": "Maiyam Knowledge and Careers Pvt.Ltd."
+            },
+            "details": [
+              {
+                "label": "Name of the Industry",
+                "value": "Maiyam Knowledge and Careers Pvt.Ltd."
+              },
+              {
+                "label": "SPOC Name & Designation",
+                "value": "Ms.R.Sasikala , Assistant Professor"
+              }
+            ]
+          },
+          {
+            "media": {
+              "type": "image",
+              "src": "/images/kce/academics/cyber-security/Mous/6.png",
+              "alt": "Lakshaya S"
+            },
+            "details": [
+              {
+                "label": "Name of the Industry",
+                "value": "Boredmonk Cyber Security Services"
+              },
+              {
+                "label": "SPOC Name & Designation",
+                "value": "Ms.V.Priyanka , Assistant Professor"
+              }
+            ]
+          },
+          {
+            "media": {
+              "type": "image",
+              "src": "/images/kce/academics/cyber-security/Mous/7.png",
+              "alt": "School of Linux"
+            },
+            "details": [
+              { "label": "Name of the Industry", "value": "School of Linux" },
+              {
+                "label": "SPOC Name & Designation",
+                "value": "Dr.A.S.Muthanantha Murugavel , Professor"
+              }
+            ]
+          },
+          {
+            "media": {
+              "type": "image",
+              "src": "/images/kce/academics/cyber-security/Mous/8.png",
+              "alt": "Visaithalam Solutions"
+            },
+            "details": [
+              {
+                "label": "Name of the Industry",
+                "value": "Visaithalam Solutions"
+              },
+              {
+                "label": "SPOC Name & Designation",
+                "value": "Ms.R.Sasikala , Assistant Professor"
+              }
+            ]
+          },
+          {
+            "media": {
+              "type": "image",
+              "src": "/images/kce/academics/cyber-security/Mous/9.png",
+              "alt": "Kriyavan Cyber forensic Service"
+            },
+            "details": [
+              {
+                "label": "Name of the Industry",
+                "value": "Kriyavan Cyber forensic Service"
+              },
+              {
+                "label": "SPOC Name & Designation",
+                "value": "Ms.V.Priyanka , Assistant Professor"
+              }
+            ]
+          },
+          {
+            "media": {
+              "type": "image",
+              "src": "/images/kce/academics/cyber-security/Mous/10.png",
+              "alt": "Hackup Technology"
+            },
+            "details": [
+              { "label": "Name of the Industry", "value": "Hackup Technology" },
+              {
+                "label": "SPOC Name & Designation",
+                "value": "Mr.Ravindiren , Assistant Professor"
+              }
+            ]
+          },
+          {
+            "media": {
+              "type": "image",
+              "src": "/images/kce/academics/cyber-security/Mous/11.png",
+              "alt": "Froze Communication Pvt.Ltd."
+            },
+            "details": [
+              {
+                "label": "Name of the Industry",
+                "value": "Froze Communication Pvt.Ltd."
+              },
+              {
+                "label": "SPOC Name & Designation",
+                "value": "Ms.Jermina , Assistant Professor"
+              }
+            ]
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "content-counter-style",
+      "data": {
+        "content": [
+          {
+            "img": "/images/kce/academics/cyber-security/Startup.png",
+            "title": "Startup",
+
+            "pointList": [
+              {
+                "title": "Name of the Startup",
+                "list": ["Zharnyx"]
+              },
+              {
+                "title": "Name of the Students:",
+                "list": [
+                  "Mr.R.Sanjai - Founder & CEO",
+                  "Mr.U.Harish - Co-Founder",
+                  "Mr.S.Antony - Co-Founder"
+                ]
+              },
+              {
+                "title": "Website:",
+                "list": [
+                  " <a href=\"https://www.zharnyx.com\" target=\"_blank\">https://www.zharnyx.com</a>"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+
+    {
+      "type": "table",
+      "data": {
+        "secTitle": "Domain to Deliver",
+        "table": [
+          {
+            "content": [
+              {
+                "head": [
+                  {
+                    "id": "col1",
+                    "label": "Core"
+                  }
+                ],
+                "data": [
+                  {
+                    "col1": {
+                      "text": "Security & Risk Management"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Security Architecture & Engineering"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Communication & Network Security"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Identity & Access Management (IAM)"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Software Development Security (DevSecOps)"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Cloud Security"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Endpoint Security"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Security Assessment & Testing"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Threat Intelligence"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Digital Forensics & Incident Response"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Physical Security"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "IoT Security"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Application Security (AppSec)"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Business Continuity & Disaster Recovery"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "User Education & Awareness"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "image-overlay-content",
+      "data": {
+        "bgImage": "/images/kce/academics/banner.jpg",
+        "title": "Job Opportunities",
+        "list": [
+          {
+            "title": "Cyber Security Trainer /Educator"
+          },
+          {
+            "title": "Application Security Engineer"
+          },
+          {
+            "title": "Malware Analyst"
+          },
+          {
+            "title": "Chief Information Security Officer(CISO)"
+          },
+          {
+            "title": "Network Security Engineer"
+          },
+          {
+            "title": "Cyber Security consultant"
+          },
+          {
+            "title": "Cloud Security Specialist"
+          },
+          {
+            "title": "Incident Response Specialist"
+          },
+          {
+            "title": "Penetration Tester"
+          },
+          {
+            "title": "Security Analyst"
+          }
+        ]
+      }
+    },
+    {
+      "type": "table",
+      "data": {
+        "sectionbg": "section-bg1  pb-2 py-md-5",
+        "secTitle": "Cyber Security Companies",
+        "table": [
+          {
+            "content": [
+              {
+                "head": [
+                  {
+                    "id": "col1",
+                    "label": "COMPANY NAME"
+                  },
+                  {
+                    "id": "col2",
+                    "label": "LOCATION"
+                  }
+                ],
+                "data": [
+                  {
+                    "col1": {
+                      "text": "Arridae Infosec Pvt Ltd "
+                    },
+                    "col2": {
+                      "text": "Bengaluru"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Cyberaran Private Limited"
+                    },
+                    "col2": {
+                      "text": "Coimbatore"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Cyberpwn Technologies Pvt. Ltd"
+                    },
+                    "col2": {
+                      "text": "Bengaluru"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Hackerbro Technologies"
+                    },
+                    "col2": {
+                      "text": "Chennai"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Digialert - Cyber Security Consulting & Offshore Delivery Center"
+                    },
+                    "col2": {
+                      "text": "Chennai"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Cyber Security India"
+                    },
+                    "col2": {
+                      "text": "Gujarat"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Cyber Security Hive"
+                    },
+                    "col2": {
+                      "text": "Bengaluru"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "IARM  Information Security | Cyber Security Services And Solutions"
+                    },
+                    "col2": {
+                      "text": "Chennai"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Cybereye Research Labs & Security Solutions Pvt. Ltd"
+                    },
+                    "col2": {
+                      "text": "Hyderabad"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Cybernx Technologies Pvt Ltd"
+                    },
+                    "col2": {
+                      "text": "Mumbai"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Securin Labs Pvt. Ltd."
+                    },
+                    "col2": {
+                      "text": "Chennai"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Cyber Security India"
+                    },
+                    "col2": {
+                      "text": "Maharashtra"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Siemens OT Cybersecurity - Cyber & Data Security, IT Park,"
+                    },
+                    "col2": {
+                      "text": "Coimbatore"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Prompt Infotech - Ethical Hacking | Cyber Security Training & Services"
+                    },
+                    "col2": {
+                      "text": "Coimbatore"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Hackup Technology"
+                    },
+                    "col2": {
+                      "text": "Coimbatore"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Csuite Tech Labs Private Limited"
+                    },
+                    "col2": {
+                      "text": "Coimbatore"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Cybersecurity Nxxt"
+                    },
+                    "col2": {
+                      "text": "Coimbatore"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Hebesec Technologies Pvt. Ltd"
+                    },
+                    "col2": {
+                      "text": "Coimbatore"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Bored Monk Cyber Security Services"
+                    },
+                    "col2": {
+                      "text": "Coimbatore"
+                    }
+                  },
+                  {
+                    "col1": {
+                      "text": "Hos - Cyber Security Training & Services"
+                    },
+                    "col2": {
+                      "text": "Coimbatore"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "pill-list",
+      "data": {
+        "title": "Cyber Security Certification",
+
+        "items": [
+          {
+            "id": 1,
+            "label": "Certified Information Systems Security Professional (CISSP)",
+            "bullet": "true"
+          },
+          {
+            "id": 2,
+            "label": "Certified Information Systems Auditor (CISA)",
+            "bullet": "true"
+          },
+          {
+            "id": 3,
+            "label": "Certified Information Security Manager (CISM)",
+            "bullet": "true"
+          },
+          {
+            "id": 4,
+            "label": "CompTIA Security+",
+            "bullet": "true"
+          },
+          {
+            "id": 5,
+            "label": "Certified Ethical Hacker (CEH)",
+            "bullet": "true"
+          },
+          {
+            "id": 6,
+            "label": "GIAC Security Essentials Certification (GSEC)",
+            "bullet": "true"
+          },
+          {
+            "id": 7,
+            "label": "Systems Security Certified Practitioner (SSCP)",
+            "bullet": "true"
+          },
+          {
+            "id": 8,
+            "label": "CompTIA SecurityX",
+            "bullet": "true"
+          },
+          {
+            "id": 9,
+            "label": "GIAC Certified Incident Handler (GCIH)",
+            "bullet": "true"
+          },
+          {
+            "id": 10,
+            "label": "Certified cloud security professional (CCSP",
+            "bullet": "true"
+          },
+          {
+            "id": 11,
+            "label": "Offensive Security Certified Professional (OSCP)",
+            "bullet": "true"
+          },
+          {
+            "id": 12,
+            "label": "CISCO Certified CyberOps Associate",
+            "bullet": "true"
+          },
+          {
+            "id": 13,
+            "label": "Microsoft Certified Azure Security Engineer Associate",
+            "bullet": "true"
+          }
+        ]
+      }
     }
+
+
+
+
+    
   ]
 }

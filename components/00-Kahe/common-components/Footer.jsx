@@ -18,7 +18,7 @@ const Footer = () => {
     links: [
       {
         label: "Policies and Regulations",
-        href: "https://blog.kce.ac.in/new/wp-content/uploads/2024/08/KCE_Policies_Rules-2024-25.pdf",
+        href: "https://learn.kce.ac.in/uploads/2024/08/KCE_Policies_Rules-2024-25.pdf",
         target: "_blank",
       },
       {
@@ -27,12 +27,12 @@ const Footer = () => {
       },
       {
         label: "Anna University Provisional Affiliation",
-        href: "https://blog.kce.ac.in/new/wp-content/uploads/2026/01/Anna-University-Affiliation-Copy-2025-26.pdf",
+        href: "https://learn.kce.ac.in/uploads/2026/01/Anna-University-Affiliation-Copy-2025-26.pdf",
         target: "_blank",
       },
       {
         label: "Anna University – Permanent Affiliation",
-        href: "https://blog.kce.ac.in/new/wp-content/uploads/2021/11/Anna-University-Permanent-Affiliation.pdf",
+        href: "https://learn.kce.ac.in/uploads/2021/11/Anna-University-Permanent-Affiliation.pdf",
         target: "_blank",
       },
       { label: "Mandatory Disclosure", href: "/mandatory-disclosure/" },
@@ -42,13 +42,13 @@ const Footer = () => {
       { label: "Undertaking", href: "/undertaking/" },
       {
         label: "Institute Strategic Plan",
-        href: "https://blog.kce.ac.in/new/wp-content/uploads/2024/08/INSTITUTE-STRATEGIC-PLAN.pdf",
+        href: "https://learn.kce.ac.in/uploads/2024/08/INSTITUTE-STRATEGIC-PLAN.pdf",
         target: "_blank",
       },
       { label: "Audit Report", href: "/audit-report/" },
       {
         label: "Handbook on Basics of Cyber Hygiene",
-        href: "https://blog.kce.ac.in/new/wp-content/uploads/2025/09/4580600_A_Handbook_on_Basics_of_Cyber_Hygiene.pdf",
+        href: "https://learn.kce.ac.in/uploads/2025/09/4580600_A_Handbook_on_Basics_of_Cyber_Hygiene.pdf",
         target: "_blank",
       },
     ],
