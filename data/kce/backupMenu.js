@@ -294,7 +294,7 @@
         {
           "id": 1,
           "title": "News and Events",
-          "link": "https://blog.kce.ac.in/category/news-event/",
+          "link": "https://learn.kce.ac.in/category/news-event/",
           "desc": "Learn more about KAHE overview.",
           "src": "/images/banner/co-men.png",
           "target": "_blank"
