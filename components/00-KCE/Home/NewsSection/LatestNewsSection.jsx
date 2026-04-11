@@ -16,7 +16,7 @@ const FeaturedNewsItem = ({ data, isActive }) => (
     
 
     <Link
-        href="https://blog.kce.ac.in/category/news-event/"
+        href="https://learn.kce.ac.in/category/news-event/"
         className="kce-btn-primary rbt-btn hover-icon-reverse mt-4"
         target="_blank"
       >
@@ -52,7 +52,7 @@ const NewsList = ({ events }) => (
     </div>
     <div className="sidebar-footer">
       <Link
-        href="https://blog.kce.ac.in/category/news-event/"
+        href="https://learn.kce.ac.in/category/news-event/"
         className="kce-btn-primary rbt-btn hover-icon-reverse mt-4"
         target="_blank"
       >
