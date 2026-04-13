@@ -33,8 +33,18 @@
                  
                   {
                     "id": 1,
+                    "label": "NIRF 2026",
+                    "url": "https://karpagam.com/fpdf/kce/nirf-2026/mobile/index.html"
+                  },
+                  {
+                    "id": 2,
                     "label": "NIRF 2026 -  Overall",
                     "url": "https://karpagam.com/fpdf/kce/nirf-overall-2026/mobile/index.html"
+                  },
+                  {
+                    "id": 3,
+                    "label": "NIRF 2026 - Sustainability",
+                    "url": "https://karpagam.com/fpdf/kce/nirf-sdg-2026/mobile/index.html"
                   }
                 ]
               }
