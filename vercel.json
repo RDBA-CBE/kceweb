@@ -4,15 +4,10 @@
   "framework": "nextjs",
   "redirects": [
     {
-      "source": "/news{/}?",
-      "destination": "https://learn.kce.ac.in/category/latest-news/",
-      "permanent": true,
-      "has": [
-      {
-      "type": "host",
-      "value": "kce.ac.in"
-      }
-    ]
+      "source": "/7-advantages-and-disadvantages-of-nanotechnology/",
+      "destination": "https://learn.kce.ac.in/7-advantages-and-disadvantages-of-nanotechnology/",
+      "statusCode": 301
     }
+  
   ]
 }
