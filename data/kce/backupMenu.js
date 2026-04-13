@@ -535,3 +535,50 @@
       }
     }
 ]
+
+//  Ranking 
+[{
+  
+  "sections": [
+    {
+      "type": "split-col-con",
+      "data": {
+        "sectionbg": "section-bg3",
+        "content": [
+          {
+            "type": "column",
+            "blocks": [
+              {
+                "type": "title",
+                "text": "NIRF Report 2025"
+              },
+
+              {
+                "type": "list",
+                "items": [
+                  {
+                    "id": 1,
+                    "label": "NIRF 2025",
+                    "url": "https://karpagam.com/fpdf/kce/nirf-2025/mobile/index.html"
+                  },
+                  {
+                    "id": 2,
+                    "label": "NIRF 2025 -  Overall",
+                    "url": "https://karpagam.com/fpdf/kce/nirf-overall-2025/mobile/index.html"
+                  },
+                  {
+                    "id": 3,
+                    "label": "NIRF 2025 - Sustainability",
+                    "url": "https://karpagam.com/fpdf/kce/nirf-sdg-2025/mobile/index.html"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+
+  ]
+}]
+
