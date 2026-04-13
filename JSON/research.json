@@ -17,13 +17,13 @@
     {
       "type": "image-overlay-content",
       "data": {
-        "bgImage": "/images/kce/academics/banner.jpg",
+        "bgImage": "/images/kce/research/image.png",
 
         "title": "Research Policy",
         "list": [
           {
             "title": "Click here to View",
-            "url": "https://blog.kce.ac.in/file/Research-Policy.pdf"
+            "url": "https://learn.kce.ac.in/file/Research-Policy.pdf"
           }
         ]
       }
@@ -466,7 +466,7 @@
                 "data": {
                   "imagePosition": "left",
                   "sectionbg": "section-bg1",
-                  "image": "/images/banner/i-arabian.png",
+                  "image": "/images/kce/research/EEE-1.png",
                   "content": [
                     {
                       "type": "title",
@@ -498,7 +498,7 @@
                 "data": {
                   "imagePosition": "right",
                   "sectionbg": "section-bg3",
-                  "image": "/images/banner/banner-01.png",
+                  "image": "/images/kce/research/EEE-2.png",
                   "content": [
                     {
                       "type": "title",
@@ -537,7 +537,7 @@
                 "data": {
                   "imagePosition": "left",
                   "sectionbg": "section-bg1",
-                  "image": "/images/kce/image.jpg",
+                  "image": "/images/kce/research/cse.png",
                   "content": [
                     {
                       "type": "title",
@@ -563,7 +563,7 @@
                 "data": {
                   "imagePosition": "left",
                   "sectionbg": "section-bg1",
-                  "image": "/images/kce/image.jpg",
+                  "image": "/images/kce/research/it.png",
                   "content": [
                     {
                       "type": "title",
@@ -589,7 +589,7 @@
                 "data": {
                   "imagePosition": "left",
                   "sectionbg": "section-bg1",
-                  "image": "/images/blog/blog-grid-06.jpg",
+                  "image": "/images/kce/research/ece.png",
                   "content": [
                     {
                       "type": "title",
@@ -610,7 +610,7 @@
                 "data": {
                   "imagePosition": "right",
                   "sectionbg": "section-bg3",
-                  "image": "/images/blog/blog-grid-06.jpg",
+                  "image": "/images/kce/research/ece-1.png",
                   "content": [
                     {
                       "type": "title",
@@ -631,7 +631,7 @@
                 "data": {
                   "imagePosition": "left",
                   "sectionbg": "section-bg1",
-                  "image": "/images/blog/blog-grid-06.jpg",
+                  "image": "/images/kce/research/ece-2.png",
                   "content": [
                     {
                       "type": "title",
@@ -653,7 +653,7 @@
                 "data": {
                   "imagePosition": "right",
                   "sectionbg": "section-bg3",
-                  "image": "/images/blog/blog-grid-06.jpg",
+                  "image": "/images/kce/research/ece-3.png",
                   "content": [
                     {
                       "type": "title",
@@ -679,7 +679,7 @@
                 "data": {
                   "imagePosition": "right",
                   "sectionbg": "section-bg1",
-                  "image": "/images/banner/banner-01.png",
+                  "image": "/images/kce/research/mech.png",
                   "content": [
                     {
                       "type": "title",
@@ -727,7 +727,7 @@
                 "data": {
                   "imagePosition": "right",
                   "sectionbg": "section-bg1",
-                  "image": "/images/blog/blog-grid-06.jpg",
+                  "image": "/images/kce/research/aids.png",
                   "content": [
                     {
                       "type": "title",
@@ -751,7 +751,7 @@
                 "data": {
                   "imagePosition": "left",
                   "sectionbg": "section-bg3",
-                  "image": "/images/blog/blog-grid-06.jpg",
+                  "image": "/images/kce/research/aids-1.png",
                   "content": [
                     {
                       "type": "title",
@@ -779,7 +779,7 @@
                 "data": {
                   "imagePosition": "right",
                   "sectionbg": "section-bg1",
-                  "image": "/images/blog/blog-grid-06.jpg",
+                  "image": "/images/kce/research/placements.png",
                   "content": [
                     {
                       "type": "title",
