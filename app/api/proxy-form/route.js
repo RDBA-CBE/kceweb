@@ -1,5 +1,5 @@
 export async function GET(request) {
-  const target = "https://blog.kce.ac.in/admissions-enquiry/";
+  const target = "https://learn.kce.ac.in/admissions-enquiry/";
 
   const res = await fetch(target, {
     headers: {

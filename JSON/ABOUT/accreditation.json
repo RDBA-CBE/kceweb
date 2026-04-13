@@ -44,7 +44,7 @@
               {
                 "type": "link",
                 "text": "For more Infomations",
-                "url": "https://blog.kce.ac.in/new/wp-content/uploads/2024/05/NAAC.pdf"
+                "url": "https://learn.kce.ac.in/uploads/2024/05/NAAC.pdf"
               }
             ]
           },
@@ -75,32 +75,32 @@
                   {
                     "id": 1,
                     "label": "Department of Information Technology",
-                    "url": "https://blog.kce.ac.in/new/wp-content/uploads/2026/01/Karpagam-College-of-Engineering-Coimbatore-T.N.13_11_2025_14_45_31.pdf"
+                    "url": "https://learn.kce.ac.in/uploads/2026/01/Karpagam-College-of-Engineering-Coimbatore-T.N.13_11_2025_14_45_31.pdf"
                   },
                   {
                     "id": 2,
                     "label": "Department of Mechanical Engineering",
-                    "url": "https://blog.kce.ac.in/new/wp-content/uploads/2026/01/Karpagam-College-of-Engineering-Coimbatore-T.N.13_11_2025_14_45_31.pdf"
+                    "url": "https://learn.kce.ac.in/uploads/2026/01/Karpagam-College-of-Engineering-Coimbatore-T.N.13_11_2025_14_45_31.pdf"
                   },
                   {
                     "id": 3,
                     "label": "Department of Electronics and Communication Engineering",
-                    "url": "https://blog.kce.ac.in/new/wp-content/uploads/2026/01/Karpagam-College-of-Engineering-Coimbatore-T.N.13_11_2025_14_45_31.pdf"
+                    "url": "https://learn.kce.ac.in/uploads/2026/01/Karpagam-College-of-Engineering-Coimbatore-T.N.13_11_2025_14_45_31.pdf"
                   },
                   {
                     "id": 4,
                     "label": "Department of Electrical and Electronics Engineering",
-                    "url": "https://blog.kce.ac.in/new/wp-content/uploads/2026/01/Karpagam-College-of-Engineering-Coimbatore-T.N.13_11_2025_14_45_31.pdf"
+                    "url": "https://learn.kce.ac.in/uploads/2026/01/Karpagam-College-of-Engineering-Coimbatore-T.N.13_11_2025_14_45_31.pdf"
                   },
                   {
                     "id": 5,
                     "label": "Computer Science and Engineering",
-                    "url": "https://blog.kce.ac.in/new/wp-content/uploads/2025/07/NBA-CSE-Civiil-upto-2027.pdf"
+                    "url": "https://learn.kce.ac.in/uploads/2025/07/NBA-CSE-Civiil-upto-2027.pdf"
                   },
                   {
                     "id": 6,
                     "label": "Civil Engineering",
-                    "url": "https://blog.kce.ac.in/new/wp-content/uploads/2025/07/NBA-CSE-Civiil-upto-2027.pdf"
+                    "url": "https://learn.kce.ac.in/uploads/2025/07/NBA-CSE-Civiil-upto-2027.pdf"
                   }
                 ]
               }
@@ -119,39 +119,39 @@
           {
             "images": [
               {
-                "img": "https://blog.kce.ac.in/new/wp-content/uploads/2020/06/infosys.jpg",
+                "img": "https://learn.kce.ac.in/uploads/2020/06/infosys.jpg",
                 "title": "Infosys Campus Connect"
               },
               {
-                "img": "https://blog.kce.ac.in/new/wp-content/uploads/2020/06/academic-allience.jpg",
+                "img": "https://learn.kce.ac.in/uploads/2020/06/academic-allience.jpg",
                 "title": "EMC Corporation – Academic Alliance Centre"
               },
               {
-                "img": "https://blog.kce.ac.in/new/wp-content/uploads/2020/06/national-instrumwnt.jpg",
+                "img": "https://learn.kce.ac.in/uploads/2020/06/national-instrumwnt.jpg",
                 "title": "National Instruments Lab"
               },
               {
-                "img": "https://blog.kce.ac.in/new/wp-content/uploads/2020/06/perfection-in-automation.jpg",
+                "img": "https://learn.kce.ac.in/uploads/2020/06/perfection-in-automation.jpg",
                 "title": "B&R Centre of Excellence"
               },
               {
-                "img": "https://blog.kce.ac.in/new/wp-content/uploads/2020/06/wipro.jpg",
+                "img": "https://learn.kce.ac.in/uploads/2020/06/wipro.jpg",
                 "title": "WIPRO – Mission 10X Programme"
               },
               {
-                "img": "https://blog.kce.ac.in/new/wp-content/uploads/2020/06/mems.jpg",
+                "img": "https://learn.kce.ac.in/uploads/2020/06/mems.jpg",
                 "title": "MEMS Centre of Excellence"
               },
               {
-                "img": "https://blog.kce.ac.in/new/wp-content/uploads/2020/06/microsoft.jpg",
+                "img": "https://learn.kce.ac.in/uploads/2020/06/microsoft.jpg",
                 "title": "Microsoft Technical Services Lab"
               },
               {
-                "img": "https://blog.kce.ac.in/new/wp-content/uploads/2020/06/oracle.jpg",
+                "img": "https://learn.kce.ac.in/uploads/2020/06/oracle.jpg",
                 "title": "Oracle Workforce Development Centre"
               },
               {
-                "img": "https://blog.kce.ac.in/new/wp-content/uploads/2020/06/tech-mahindra.jpg",
+                "img": "https://learn.kce.ac.in/uploads/2020/06/tech-mahindra.jpg",
                 "title": "Tech Mahindra for Infrastructure"
               }
             ]
