@@ -4,7 +4,7 @@
   "framework": "nextjs",
   "redirects": [
     {
-      "source": "/:news",
+      "source": "/news{/}?",
       "destination": "https://learn.kce.ac.in/category/latest-news/",
       "permanent": true,
       "has": [
