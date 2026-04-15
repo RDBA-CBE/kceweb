@@ -58,6 +58,46 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-WJ9V63D');`,
           }}
         />
+<script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify([
+      {
+        "@context": "https://schema.org",
+        "@type": "CollegeOrUniversity",
+        "@id": "https://www.kce.ac.in/#organization",
+        "name": "Karpagam College of Engineering",
+        "alternateName": "KCE",
+        "url": "https://www.kce.ac.in",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.kce.ac.in/images/kce/logo/KCE-logo-color.png",
+          "width": 137,
+          "height": 45
+        },
+        "image": "https://www.kce.ac.in/images/kce/home/banner/b1.jpg",
+        "description": "Karpagam College of Engineering (KCE) is a NAAC A+ accredited autonomous engineering college in Coimbatore, Tamil Nadu.",
+        "foundingDate": "2000",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Myleripalayam Road, Othakkalmandapam",
+          "addressLocality": "Coimbatore",
+          "addressRegion": "Tamil Nadu",
+          "postalCode": "641032",
+          "addressCountry": "IN"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "@id": "https://www.kce.ac.in/#website",
+        "url": "https://www.kce.ac.in",
+        "name": "Karpagam College of Engineering"
+      }
+    ])
+  }}
+/>
+        
       </head>
 
       <body suppressHydrationWarning={true}>

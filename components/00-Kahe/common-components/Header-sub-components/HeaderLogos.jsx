@@ -53,10 +53,16 @@ const Header = ({ gapSpaceBetween, sticky, navigationEnd, container }) => {
                   <h1 className="kce-hdr__tnea-code">2710</h1>
                 </div>
               </div>
+                <div className="kce-hdr__section">
+                <div className="kce-hdr__tnea">
+                <a class="small-blink-btn rbt-btn hover-icon-reverse mt-4" href="https://admission.kce.ac.in/" target="_blank">Admission Open</a>
+                </div>
+              </div>
+            
             </div>
             <div
               className="header-right-icons"
-              style={{ display: "flex", flexDirection: "row", gap: "10px" }}
+              style={{ display: "flex", flexDirection: "row", gap: "5px" }}
             >
               {/* Phone Section */}
               <div className="kce-hdr__section_1 ">
