@@ -2417,3 +2417,37 @@ b{ color: #cc6926;}
   color: #cc6926;
   font-weight: 700;
 }
+.small-blink-btn {
+    font-size: 14px;
+    padding: 10px 14px;
+    border-radius: 4px;
+    background-color: #023c7a;
+    color: #fff;
+    border: none;
+    display: inline-block;
+    animation: blinkShadow 1.5s infinite;
+    transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.small-blink-btn:hover {
+    background-color: #0352a5;
+    box-shadow: 0 6px 16px rgba(255, 140, 0, 0.7); /* Orange shadow */
+    transform: translateY(-2px);
+}
+
+/* Blinking + orange glow */
+@keyframes blinkShadow {
+    0% {
+        opacity: 1;
+        box-shadow: 0 0 0px rgba(255, 140, 0, 0.4);
+    }
+    50% {
+        opacity: 0.95;
+        box-shadow: 0 0 14px rgba(255, 140, 0, 0.9);
+    }
+    100% {
+        opacity: 1;
+        box-shadow: 0 0 0px rgba(255, 140, 0, 0.4);
+    }
+}

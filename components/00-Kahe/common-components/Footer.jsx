@@ -115,7 +115,7 @@ const Footer = () => {
       { label: "Alumni Success Stories", href: "/alumni-success-stories/" },
       { label: "Placement", href: "/placement-overview/" },
       { label: "Hostel", href: "/infrastructure/hostel/" },
-      { label: "Blog", href: "https://kce.ac.in/blog/", target: "_blank" },
+      { label: "Blog", href: "https://learn.kce.ac.in/", target: "_blank" },
       {
         label: "Admission Enquiry",
         href: "https://admission.kce.ac.in/",
