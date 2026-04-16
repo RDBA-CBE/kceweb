@@ -1,54 +1,45 @@
-"use client";
+import { headers } from "next/headers";
+import { SITE_CANONICAL_ORIGIN } from "@/constants/site";
+import ClientRootLayout from "./ClientRootLayout";
 
-import React, { useEffect } from "react";
+/**
+ * Canonical + metadataBase for all routes except /KCE/* (those skip global canonical).
+ * Requires middleware x-pathname. Dynamic root ensures headers() is available at render.
+ */
+export const dynamic = "force-dynamic";
 
-import "bootstrap/scss/bootstrap.scss";
-import "../public/scss/default/euclid-circulara.scss";
+export async function generateMetadata() {
+  const h = await headers();
+  const pathname = h.get("x-pathname") ?? "/";
 
-// ========= Plugins CSS START =========
-import "../node_modules/sal.js/dist/sal.css";
-import "../public/css/plugins/fontawesome.min.css";
-import "../public/css/plugins/feather.css";
-import "../public/css/plugins/odometer.css";
-import "../public/css/plugins/animation.css";
-import "../public/css/plugins/monoscans.css";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/effect-cards";
-import "swiper/css/free-mode";
-import "swiper/css/thumbs";
-// ========= Plugins CSS END =========
+  const base = {
+    metadataBase: new URL(SITE_CANONICAL_ORIGIN),
+  };
 
-import "../public/scss/styles.scss";
+  if (pathname.startsWith("/KCE")) {
+    return base;
+  }
 
-import { Provider } from "react-redux";
-import Context from "@/context/Context";
-import Store from "@/redux/store";
+  const canonical = new URL(pathname, `${SITE_CANONICAL_ORIGIN}/`).href;
 
-import BackToTop from "./backToTop";
-import Separator from "@/components/00-Kahe/common-components/Footer-sub-components/Seperator";
-import MobileMenu from "@/components/00-Kahe/common-components/MobileMenu";
-import Header from "@/components/00-Kahe/common-components/Header";
-import Footer from "@/components/00-Kahe/common-components/Footer";
-import BottomPlacement from "@/components/00-KCE/common/BottomPlacement";
+  return {
+    ...base,
+    alternates: {
+      canonical,
+    },
+  };
+}
 
 export default function RootLayout({ children }) {
-  useEffect(() => {
-    require("bootstrap/dist/js/bootstrap.bundle.min.js");
-  }, []);
-
   return (
     <html lang="en" dir="ltr">
       <head>
-        {/* ✅ GOOGLE FONT – MONA SANS */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
         <link
           href="https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap"
           rel="stylesheet"
         />
-
-        {/* ✅ Google Tag Manager Script */}
         <script
           dangerouslySetInnerHTML={{
             __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -61,27 +52,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       </head>
 
       <body suppressHydrationWarning={true}>
-        {/* ✅ Google Tag Manager (noscript) */}
         <noscript>
           <iframe
             src="https://www.googletagmanager.com/ns.html?id=GTM-WJ9V63D"
             height="0"
             width="0"
             style={{ display: "none", visibility: "hidden" }}
-          ></iframe>
+            title="Google Tag Manager"
+          />
         </noscript>
 
-        <Provider store={Store}>
-          <Context>
-            <MobileMenu />
-            <Header headerSticky="rbt-sticky" headerType="" />
-            {children}
-            <BackToTop />
-            {/* <Separator /> */}
-            <BottomPlacement />
-            <Footer />
-          </Context>
-        </Provider>
+        <ClientRootLayout>{children}</ClientRootLayout>
       </body>
     </html>
   );
