@@ -1,0 +1,111 @@
+# ============================================
+# robots.txt — kce.ac.in
+# Next.js / Vercel — Last updated: April 2026
+# ============================================
+
+# Allow all good bots by default
+User-agent: *
+Allow: /
+
+# Block Next.js internal directories
+Disallow: /_next/
+Disallow: /api/
+
+# Block admin / private routes
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /login/
+Disallow: /register/
+
+# Block search/filter result pages (duplicate content)
+Disallow: /*?*
+Disallow: /*?s=
+Disallow: /*?search=
+Disallow: /*?filter=
+Disallow: /*?sort=
+Disallow: /*?page=
+Disallow: /*?ref=
+Disallow: /*?utm_
+
+# Block utility/internal pages
+Disallow: /404
+Disallow: /500
+Disallow: /_error
+
+Sitemap: https://www.kce.ac.in/sitemap.xml
+
+# ============================================
+# Googlebot
+# ============================================
+User-agent: Googlebot
+Allow: /
+Allow: /_next/static/
+Disallow: /_next/
+Disallow: /api/
+Disallow: /*?*
+
+# ============================================
+# Googlebot-Image
+# ============================================
+User-agent: Googlebot-Image
+Allow: /images/
+Disallow: /_next/image/
+Disallow: /images/kce/home/banner/
+Disallow: /images/kce/home/alumini/
+
+# ============================================
+# Googlebot-Video
+# ============================================
+User-agent: Googlebot-Video
+Disallow: /
+
+# ============================================
+# AdsBot
+# ============================================
+User-agent: AdsBot-Google
+Allow: /
+
+# ============================================
+# AI Crawlers — Allow for AI visibility
+# ============================================
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+# ============================================
+# Block bad/spam crawlers
+# ============================================
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: BLEXBot
+Disallow: /
