@@ -36,7 +36,7 @@ const Header = ({ gapSpaceBetween, sticky, navigationEnd, container }) => {
       <header className={`kce-hdr ${gapSpaceBetween}`}>
         <div className={`kce-hdr__container  ${navigationEnd}`}>
           <div className="kce-hdr__main-flex">
-            <div style={{ display: "flex", flexDirection: "row", gap: "10px" }}>
+            <div style={{ display: "flex", flexDirection: "row", gap: "5px" }}>
               <div className="kce-hdr__section kce-hdr__logo-area">
                 <a href="/"> <img
                   src="/images/kce/logo/KCE-logo-color.png"
