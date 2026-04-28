@@ -77,6 +77,12 @@ export default function LatestNewsSection() {
 
   const featuredStories = [
     {
+      date: "April 24, 2026",
+      image: "https://learn.kce.ac.in/wp-content/uploads/2026/04/MAR.26.KCE-POSTER-11-2-819x1024.jpg",
+      title: "Workshop on Deployment Ready: Dockerizing Your Spring Boot Applications” ",
+      description: ""
+    },
+    {
       date: "January 13, 2026",
       image: "https://learn.kce.ac.in/uploads/2026/01/IMG-20251208-WA0070-1090x1536.jpg",
       title: "7th National Level Management Fest – “Takshak 2025” ",

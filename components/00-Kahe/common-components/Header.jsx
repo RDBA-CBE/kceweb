@@ -9,7 +9,7 @@ const Header = () => {
   const { isLightTheme, toggleTheme } = useAppContext();
   return (
     <>
-      <header className="rbt-header rbt-header-4 rbt-header-4-container-var kahe">
+      <header className="rbt-header rbt-header-4 rbt-header-4-container-var kahe" >
         <div className="rbt-sticky-placeholder"></div>
         {/* <HeaderTop
           bgColor="bg-green rbt-border-bottom"
@@ -23,7 +23,7 @@ const Header = () => {
          <HeaderLogos
           sticky="bg-color-white"
           gapSpaceBetween="shadow-none"
-          container="section-wid"
+          container="section-wid-header"
           navigationEnd="rbt-navigation-start"
           btnClass="rbt-marquee-btn marquee-auto btn-border-gradient radius-round btn-sm hover-transform-none"
           btnText="Enroll Now"
