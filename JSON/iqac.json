@@ -116,62 +116,62 @@
                 "data": [
                   {
                     "col1": { "text": "1" },
-                    "col2": { "text": "Dr. Karthigaikumar. P (Principal)" },
-                    "col3": { "text": "Chairperson" }
+                    "col2": { "text": "Dr. Karthigaikumar P" },
+                    "col3": {
+                      "text": "Chairperson and Head of the Institution"
+                    }
                   },
                   {
                     "col1": { "text": "2" },
-                    "col2": {
-                      "text": "Shri. Murugaiah. K (Chief Executive Officer, Karpagam Institutions)"
-                    },
+                    "col2": { "text": "Shri. Murugaiah K" },
                     "col3": { "text": "Management Representative" }
                   },
                   {
                     "col1": { "text": "3" },
                     "col2": {
-                      "text": "Dr. Palaniswamy. M (Registrar, Karpagam Academy of Higher Education, Coimbatore)"
+                      "text": "Dr. Palaniswamy M"
                     },
                     "col3": { "text": "Academic Expert" }
                   },
                   {
                     "col1": { "text": "4" },
                     "col2": {
-                      "text": "Harish Ravi (Group Manager – Robotics & Automation, ASM Technologies, Bangalore)"
+                      "text": "Mr. Harish Ravi"
                     },
                     "col3": { "text": "Nominee from Industry" }
                   },
                   {
                     "col1": { "text": "5" },
                     "col2": {
-                      "text": "Antony Raj B (F/O Kevin A Anand Raj, III EEE)"
+                      "text": "Mr. Balakrishnan L"
                     },
-                    "col3": { "text": "Nominee from Parents" }
+                    "col3": { "text": "Nominee from Parent" }
                   },
                   {
                     "col1": { "text": "6" },
                     "col2": {
-                      "text": "Mr. Suresh Kumar. N (Executive Officer, Othakkalmandapam Town Panchayat)"
+                      "text": "Mr. Suresh Kumar N "
                     },
                     "col3": { "text": "Nominee from Local Body" }
                   },
                   {
                     "col1": { "text": "7" },
                     "col2": {
-                      "text": "Mr. Soundharrajan O (Electrical Design Engineer, Worley India Pvt. Ltd., Chennai)"
+                      "text": "Mr. Soundharrajan O "
                     },
-                    "col3": { "text": "Alumni Member" }
+                    "col3": { "text": "Nominee from Alumni" }
                   },
                   {
                     "col1": { "text": "8" },
                     "col2": {
-                      "text": "Mr. Sangeethkumar Rajagopal (Manager – HR, M/s. CRI Pumps Pvt Ltd, Coimbatore)"
+                      "text": "Mr. Sangeethkumar"
                     },
                     "col3": { "text": "Nominee from Employers" }
                   },
                   {
                     "col1": { "text": "9" },
-                    "col2": { "text": "Dr. Sophia S (Dean, Academics)" },
-                    "col3": { "text": "Administrative Officer" }
+                    "col2": { "text": "Dr. Sophia S" },
+                    "col3": { "text": "Dean - Academics" }
                   },
                   {
                     "col1": { "text": "10" },
@@ -181,56 +181,56 @@
                   {
                     "col1": { "text": "11" },
                     "col2": {
-                      "text": "Dr. Meera C (Director, Management Studies)"
+                      "text": "Dr. Meera C"
                     },
                     "col3": { "text": "Member of Faculty" }
                   },
                   {
                     "col1": { "text": "12" },
                     "col2": {
-                      "text": "Dr. Ravikumar K (Head, Dept of Mechanical Engineering)"
+                      "text": "Dr. Ravikumar K"
                     },
                     "col3": { "text": "Member of Faculty" }
                   },
                   {
                     "col1": { "text": "13" },
                     "col2": {
-                      "text": "Dr. Deepa S (Associate Professor, Dept of ECE)"
+                      "text": "Dr. Deepa S"
                     },
                     "col3": { "text": "Member of Faculty" }
                   },
                   {
                     "col1": { "text": "14" },
                     "col2": {
-                      "text": "Dr. Kiruthiga G (Head, Dept of AI & DS)"
+                      "text": "Dr. Vijaya G"
                     },
                     "col3": { "text": "Member of Faculty" }
                   },
                   {
                     "col1": { "text": "15" },
                     "col2": {
-                      "text": "Mr. Gowrishankar L (Asst. Prof., S & H)"
+                      "text": "Mr. Gowrishankar L"
                     },
                     "col3": { "text": "Member of Faculty" }
                   },
                   {
                     "col1": { "text": "16" },
                     "col2": {
-                      "text": "Mr. Rajapriya D (Asst. Prof., Dept of CSE)"
+                      "text": "Mr. Rajapriya D "
                     },
                     "col3": { "text": "Member of Faculty" }
                   },
                   {
                     "col1": { "text": "17" },
                     "col2": {
-                      "text": "Mr. Partha Sarathy S (Department of EEE)"
+                      "text": "Ms. Sharmithra B"
                     },
                     "col3": { "text": "Student Nominee" }
                   },
                   {
                     "col1": { "text": "18" },
                     "col2": {
-                      "text": "Mr. Vino Paul (Department of Mechanical Engineering)"
+                      "text": "Mr. Raviprasath V"
                     },
                     "col3": { "text": "Student Nominee" }
                   },
@@ -385,7 +385,7 @@
             "title": "Feedback Analysis and Action Taken Report",
             "url": "/feedback-analysis-and-action-taken-report/",
             "urlText": "View Details",
-            "target":"_self"
+            "target": "_self"
           },
           {
             "id": 2,
@@ -440,47 +440,42 @@
     {
       "type": "link-card",
       "data": {
-        "sectionbg":"section-bg1 mb-5",
+        "sectionbg": "section-bg1 mb-5",
         "content": [
           {
             "id": 1,
             "title": "NIRF Ranking",
             "url": "/ranking/",
             "urlText": "View Details",
-            "target":"_self"
+            "target": "_self"
           },
           {
             "id": 2,
             "title": "NAAC",
             "url": "/naac-kce/",
             "urlText": "View Details",
-            "target":"_self"
-
+            "target": "_self"
           },
           {
             "id": 3,
             "title": "Audit Report",
             "url": "/audit-report/",
             "urlText": "View Details",
-            "target":"_self"
-
-            
+            "target": "_self"
           },
           {
             "id": 1,
             "title": "Approvals",
             "url": "/approvals/",
             "urlText": "View Details",
-            "target":"_self"
-
+            "target": "_self"
           },
           {
             "id": 2,
             "title": "Undertaking",
             "url": "/undertaking/",
             "urlText": "View Details",
-            "target":"_self"
-
+            "target": "_self"
           }
         ]
       }

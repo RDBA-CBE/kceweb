@@ -24,7 +24,7 @@
         "title": "About the Department",
         "bgImg": "/images/kce/academics/ece/ece-webimage.png",
         "description": [
-          "The embryonic formation of the Department of Electronics and Communication Engineering was in the year 2000 with the introduction of an undergraduate course. The Department has been accredited by the National Board of Accreditation (NBA) and affiliated to Anna University, Chennai. The Department over the time has grown in several dimensions and provides a magnetic ambience in teaching and learning."
+          "Established in 2000, the Department of Electronics and Communication Engineering has consistent academic excellence and progressive growth, with increasing student intake and notable achievements. The department is affiliated with Anna University and has successfully completed multiple cycles of accreditation since 2007, including reaccreditation by the National Board of Accreditation (NBA) in 2025, reflecting its unwavering commitment to quality education and continuous improvement."
         ]
       }
     },
@@ -33,9 +33,11 @@
       "type": "plain-para",
       "data": {
         "content": [
-          "Apart from four years B.E course, the Department also offers two full time M.E courses (VLSI Design and Communication Systems) and Anna University approved Ph.D Research Centre to expand the scope of research focus of the department Students pursuing B.E in ECE have a full and flexible undergraduate curriculum.Numerous streams can be tailored to fit every individual’s interests, skills and career goals.ECE has gained a reputation for producing top-notch engineers for industry and academia.Postgraduate study in ECE prepares students for leadership roles in research, development and design positions that require skill and imaginative engineering solutions.",
-         "The major areas of faculty expertise of the department include Biomedical Signal Processing, Communication Systems, Computer networks, Control Systems, Digital Signal Processing, Image Processing, Instrumentation, RF and Microwaves, Microstrip Antennas, Optoelectronic and Optical Communication, VLSI Design, Wireless Communication, Embedded Systems and MEMS.",
-          "The Department has Centers of Excellence in the field of VLSI Design, Embedded Systems, Communication and Networks and Signal Processing.The Department has signed MoUs with leading industries and organizations for establishing collaborative research, conducting Workshops, Seminars and for organizing International Conferences.Professional associations such as ECE association and IEEE student chapter are developed for professional interaction."
+          "The department offers an undergraduate programme (B.E.) and is also recognized as an Anna University-approved Research Centre for Ph.D. programmes, fostering a strong culture of innovation and advanced research. The curriculum is thoughtfully designed with flexibility and breadth, enabling students to tailor their academic pathways in alignment with their interests, skills, and career aspirations. Over the years, the department has earned a distinguished reputation for producing competent professionals who excel in both industry and academia.",
+          "The department is supported by highly qualified and experienced faculty members with expertise across diverse domains, including VLSI Design, Signal and Image Processing, Communication Systems, Computer Networks, Digital Signal Processing, RF and Microwaves, Microstrip Antennas, Optoelectronics and Optical Communication, Embedded Systems, IoT, and MEMS. It provides well-equipped, state-of-the-art laboratories and emphasizes experiential learning through hands-on experiments, mini-projects, and final-year capstone projects.",
+          "The Students are encouraged to actively participate in technical events, workshops, seminars, and international conferences, promoting innovation and professional development. Regular industrial visits and internship opportunities in reputed industries like Walmart and research institution like DRDO/ IITs ensure real-time exposure to industry practices, effectively bridging the gap between academia and industry. The department maintains strong collaborations with leading industries and organizations through Memoranda of Understanding (MoUs), facilitating research, consultancy, workshops, and knowledge exchange. Students actively participate in national and international hackathons (Taiwan) as well as the C2S (Chip to Startup) Scheme, fostering innovation, problem-solving skills, and hands-on experience in cutting-edge technologies and semiconductor design.",
+          "The Student development is further enhanced through vibrant professional bodies such as the ECE Association and student chapters of the Institute of Electrical and Electronics Engineers (IEEE) and Institution of Engineers India (IE(I)), which provide platforms for technical enrichment, leadership development, and professional networking. The department also takes pride in having IEEE Student Ambassadors who actively contribute to professional outreach and technical initiatives, along with student projects sanctioned by the Tamil Nadu State Council for Science and Technology (TNSCST), reflecting strong support for innovation and research at the state level. Furthermore, the department extends dedicated support for higher education and competitive examinations such as GATE, while maintaining a consistent placement record in core engineering, IT, and electronics sectors. To strengthen research infrastructure and promote innovation, the department has secured significant funding support. This includes a grant of ₹1.46 Crore in 2020 from the Department of Science and Technology (DST) for research project development , followed by an additional ₹1.04 Crore grant in 2023, further enhancing research capabilities and facilities.",
+          "The department actively organizes academically enriching events with external funding support. A workshop titled “SPAx Event – One Step Forward” received financial assistance of $120 from the Institute of Electrical and Electronics Engineers (IEEE). Additionally, the seminar “Exploring Quantum Frontiers: The Future of Computation” was conducted with funding of ₹20,000 from the Institution of Engineers India (IE(I)). Another seminar, “Blockchain in Healthcare: Opportunities and its Applications,” was supported with ₹60,000 funding from the Department of Biotechnology (DBT), highlighting the department’s commitment to interdisciplinary learning and research engagement."
         ]
       }
     },
@@ -87,7 +89,7 @@
       }
     },
 
-     {
+    {
       "type": "edge-image-content",
       "data": {
         "noMblImg": true,
@@ -98,13 +100,14 @@
         "content": [
           {
             "type": "card",
-            "items": ["B.E. Electronics and Communication Engineering",
-          "M.E. VLSI Design", "Ph.D. Electronics and Communication Engineering"]
+            "items": [
+              "B.E. Electronics and Communication Engineering",
+              "Ph.D. Electronics and Communication Engineering"
+            ]
           }
         ]
       }
     },
-
 
     {
       "type": "icon-card",
@@ -351,14 +354,15 @@
           {
             "type": "title",
             "title": "Dr. R. Sarankumar",
-            "subTi": "Professor & Head"
+            "subTi": "Head of the Department – Electronics and Communication Engineering"
           },
           {
             "type": "paragraph",
             "text": [
-              "Dr. R. Sarankumar completed Bachelor Degree in Engineering in the stream of Electronics and Communication Engineering and Master Degree in Engineering in the stream of Communication Systems from Anna University in the year 2009 and 2011 respectively. He received Ph.D. degree from Anna University in 2018 in the faculty of Information and Communication Engineering. His area of interest includes Signal Processing, Cognitive Radio, Wireless Communications, Internet of Things and Machine Learning.",
-
-              "After gaining academic, research and administrative experience from Tamil Nadu and Andhra Pradesh, he is currently serving in the capacity of Head of the Department for Electronics and Communication Engineering. He has several publications in peer reviewed national and international journals and conferences. He has contributed for 4 patents. Three book chapters are published under his credit. He serves a reviewer for various reputed international journals and conferences. He received fund from AICTE under MODROBs and the project has been completed. He has comprehensive knowledge on Outcome Based Education. He is interested in the activities towards student development in multi-dimensional perspective."
+              "Dr. R. Sarankumar is a distinguished academician with extensive experience in teaching, research, and academic administration. He earned his Bachelor’s degree in Electronics and Communication Engineering (2009) and Master’s degree in Communication Systems (2011) from Anna University. He was awarded his Ph.D. in the stream of Information and Communication Engineering from Anna University in 2018.",
+              "His research interests span Signal Processing, Cognitive Radio, Wireless Communications, Internet of Things (IoT), and Machine Learning. Over the years, he has contributed significantly to academia through numerous publications in reputed national and international journals and conferences. He also holds six patents and has authored three books along with four book chapters.",
+              "Dr. Sarankumar has actively engaged in funded research, successfully completing a project sponsored by AICTE under the MODROBS scheme. He has also collaborated with the Indian Air Force (IAF), Sulur, on research initiatives, reflecting his commitment to applied and interdisciplinary work. He serves as a reviewer for several prestigious international journals and conferences and is currently the IEEE KCE Student Branch Counselor. He is a professional member of IEEE, IE (I) India, and ISTE.",
+              "With a strong foundation in Outcome-Based Education (OBE), Dr. Sarankumar is deeply committed to fostering holistic student development and promoting multi-dimensional learning experiences. His leadership continues to drive academic excellence and innovation within the department."
             ]
           }
         ]
@@ -397,9 +401,9 @@
                     "href": "/"
                   },
                   {
-        "label": "Academics",
-        "href": "/academics"
-      },
+                    "label": "Academics",
+                    "href": "/academics"
+                  },
                   {
                     "href": "/department-of-electronics-and-communication-engineering",
                     "label": "Department of Electronics and Communication Engineering"
