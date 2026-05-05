@@ -423,7 +423,7 @@
       "type": "pill-list",
       "data": {
         "title": "Smart Class Rooms",
-        "description": "Lorem ipsum dolor sit amet consectetur. Pulvinar nulla sapien velit ultrices neque pretium pulvinar. Urna netus sed et in. At sed urna vitae rhoncus convallis tellus nisi viverra.",
+        "description": "",
         "items": [
           {
             "id": 1,
@@ -458,7 +458,7 @@
       "data": {
         "sectionbg": "section-bg3 pb--70",
         "title": "Teaching and Learning",
-        "description": "Lorem ipsum dolor sit amet consectetur. Pulvinar nulla sapien velit ultrices neque pretium pulvinar. Urna netus sed et in. At sed urna vitae rhoncus convallis tellus nisi viverra.",
+        "description": "",
         "items": [
           {
             "id": 1,
