@@ -1,35 +1,24 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
+import React from "react";
 import InnerBanner from "../common/InnerBanner";
 import RichText from "../DepartmentCompoennts/RichText";
 
-const FacultyPage = () => {
-  const [facultyContent, setFacultyContent] = useState(null);
-
-  useEffect(() => {
-    const data = sessionStorage.getItem("facultyData");
-    if (data) {
-      setFacultyContent(JSON.parse(data));
-    }
-  }, []);
-
-  if (!facultyContent) return <div>Loading...</div>;
+const FacultyPage = ({ data }) => {
+  if (!data) return <div>Loading...</div>;
 
   return (
     <>
-      <InnerBanner data={facultyContent?.banner} />
+      <InnerBanner data={data?.banner} />
       <section className="section-bg1">
         <div className="section-wid">
-          {/* Title */}
           <div className="text-center mb-5">
-            <h2 className="section-ti">{facultyContent?.sectionTi}</h2>
-            <RichText as="p" content={facultyContent?.desc} />
+            <h2 className="section-ti">{data?.sectionTi}</h2>
+            <RichText as="p" content={data?.desc} />
           </div>
 
-          {/* Faculty Grid */}
           <div className="row g-5 py-5">
-            {facultyContent?.faculty.map((faculty,i) => (
+            {data?.faculty.map((faculty, i) => (
               <div key={i} className="col-xl-3 col-lg-4 col-md-6">
                 <div className="faculty-modern-card">
                   <div className="faculty-avatar">
