@@ -7,7 +7,7 @@
         "label": "Home",
         "href": "/"
       },
-     {
+      {
         "label": "Academics",
         "href": "/academics"
       },
@@ -476,9 +476,9 @@
                     "href": "/"
                   },
                   {
-        "label": "Academics",
-        "href": "/academics"
-      },
+                    "label": "Academics",
+                    "href": "/academics"
+                  },
                   {
                     "href": "/department-of-management-studies",
                     "label": "Department of Management Studies"
@@ -508,111 +508,118 @@
                 },
                 {
                   "id": 3,
+                  "name": "Dr.Priya Kalyanasundaram",
+                  "designation": "Professor",
+                  "degree": "B.Com ,MBA,Ph.D(Mgt)",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
+                  "id": 4,
                   "name": "Mr. Azarudheen S",
                   "designation": "Associate Professor",
                   "degree": "MBA",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
-                  "id": 4,
+                  "id": 5,
                   "name": "Dr. Nemavathi KS",
                   "designation": "Associate Professor",
                   "degree": "MBA, Ph.D",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
-                  "id": 5,
+                  "id": 6,
                   "name": "Dr. Kalpana G",
                   "designation": "Associate Professor",
                   "degree": "MBA, Ph.D",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
-                  "id": 6,
+                  "id": 7,
                   "name": "Mr. Balu KP",
                   "designation": "Associate Professor",
                   "degree": "MBA",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
-                  "id": 7,
+                  "id": 8,
                   "name": "Ms. Kavitha K",
                   "designation": "Assistant Professor",
                   "degree": "MBA",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
-                  "id": 8,
+                  "id": 9,
                   "name": "Ms. Gobika M",
                   "designation": "Assistant Professor",
                   "degree": "MBA",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
-                  "id": 9,
+                  "id": 10,
                   "name": "Mr. Jayram Kallidukkil K",
                   "designation": "Assistant Professor",
                   "degree": "MBA",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
-                  "id": 10,
+                  "id": 11,
                   "name": "Dr. Tamil Selvi RM",
                   "designation": "Assistant Professor",
                   "degree": "MBA, Ph.D",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
-                  "id": 11,
+                  "id": 12,
                   "name": "Mr. Anbalagan C",
                   "designation": "Assistant Professor",
                   "degree": "MBA",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
-                  "id": 12,
+                  "id": 13,
                   "name": "Ms. Shivani R",
                   "designation": "Assistant Professor",
                   "degree": "MBA",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
-                  "id": 13,
+                  "id": 14,
                   "name": "Mr. Nahoor Mohideen S",
                   "designation": "Assistant Professor",
                   "degree": "MBA",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
-                  "id": 14,
+                  "id": 15,
                   "name": "Mr. Madhankumar K",
                   "designation": "Assistant Professor",
                   "degree": "MBA",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
-                  "id": 15,
+                  "id": 16,
                   "name": "Mr. Karthick Raja S",
                   "designation": "Assistant Professor",
                   "degree": "MBA",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
-                  "id": 16,
+                  "id": 17,
                   "name": "Ms. Gayathri N",
                   "designation": "Assistant Professor",
                   "degree": "MBA",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
-                  "id": 17,
+                  "id": 18,
                   "name": "Dr. Sathya M",
                   "designation": "Assistant Professor",
                   "degree": "MBA, M.Phil, Ph.D",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
-                  "id": 18,
+                  "id": 19,
                   "name": "Mr. Vivek V",
                   "designation": "Assistant Professor",
                   "degree": "MBA",
@@ -624,7 +631,5 @@
         ]
       }
     }
-
-    
   ]
 }
