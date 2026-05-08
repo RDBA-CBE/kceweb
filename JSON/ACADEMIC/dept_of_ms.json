@@ -500,17 +500,17 @@
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
+                  "id": 3,
+                  "name": "Dr. Priya Kalyanasundaram",
+                  "designation": "Professor",
+                  "degree": "B.Com ,MBA,Ph.D(Mgt)",
+                  "src": "/images/kce/Portrait_Placeholder.png"
+                },
+                {
                   "id": 2,
                   "name": "Dr. Suyam Praba R",
                   "designation": "Professor",
                   "degree": "MBA, M.Phil, Ph.D",
-                  "src": "/images/kce/Portrait_Placeholder.png"
-                },
-                {
-                  "id": 3,
-                  "name": "Dr.Priya Kalyanasundaram",
-                  "designation": "Professor",
-                  "degree": "B.Com ,MBA,Ph.D(Mgt)",
                   "src": "/images/kce/Portrait_Placeholder.png"
                 },
                 {
