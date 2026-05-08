@@ -3,7 +3,7 @@ import { getFacultyDataBySlug } from "@/utils/facultyDataMap";
 import { notFound } from "next/navigation";
 
 const page = ({ params }) => {
-  const data = getFacultyDataBySlug(params.dept);
+  const data = getFacultyDataBySlug(params?.dept);
 
   if (!data) return notFound();
 
