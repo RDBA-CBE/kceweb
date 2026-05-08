@@ -29,7 +29,7 @@ const PillList = ({ data }) => {
                 </div>
               </Link>
             ) : (
-              <div className="scr-card" key={item.id ?? index}>
+              <div className="scr-card" key={index}>
                 <span className="scr-card-text">
                   {item?.bullet && <span className="dcl-bullet">✓</span>}
                   <RichText content={item.label} />
