@@ -17,8 +17,8 @@
             "path": "/courses-offered"
         },
         {
-            "label": "Centers of Excellence",
-            "path": "/centers-of-excellence"
+            "label": "Center of Excellence",
+            "path": "/center-of-excellence"
         },
         {
             "label": "Accreditations",
@@ -35,7 +35,7 @@
             "path": "/examinations/"
         },
         {
-            "label": "Instructions to the candidates",
+            "label": "Instructions to the Candidates",
             "path": "/examinations/instructions-to-the-candidates/"
         },
         {

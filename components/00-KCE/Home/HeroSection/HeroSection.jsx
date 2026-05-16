@@ -46,7 +46,7 @@ export default function HeroSection() {
           <ActionCard title="PLACEMENT" url={"/placement-overview"} />
           <ActionCard title="CAMPUS TOUR" url={"https://www.youtube.com/watch?v=uTIQvS38B4g&t=3s"} external />
           <ActionCard title="CAMPUS LIFE" url={"/infrastructure"} />
-          <ActionCard title="CENTERS OF EXCELLENCE" url={"/centers-of-excellence"} />
+          <ActionCard title="CENTER OF EXCELLENCE" url={"/center-of-excellence"} />
         </div>
       </div>
     </section>

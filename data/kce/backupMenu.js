@@ -131,7 +131,7 @@
     {
       "menuTitle": "Centers of Excellence",
       "menuType": "admissions",
-      "link": "/centers-of-excellence"
+      "link": "/center-of-excellence"
     },
     {
       "menuTitle": "Research",
@@ -334,7 +334,7 @@
 
         {
           "id": 1,
-          "title": "Instructions to the candidates",
+          "title": "Instructions to the Candidates",
           "link": "/examinations/instructions-to-the-candidates",
           "desc": "Learn more about KAHE overview.",
           "src": "/images/banner/co-men.png"

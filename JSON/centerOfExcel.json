@@ -1,14 +1,14 @@
 {
   "banner": {
     "bannerImg": "/images/kce/banner_computer_technology.jpg",
-    "title": "Centers of Excellence",
+    "title": "Center of Excellence",
     "breadcrumb": [
       {
         "label": "Home",
         "href": "/"
       },
       {
-        "label": "Centers of Excellence"
+        "label": "Center of Excellence"
       }
     ]
   },

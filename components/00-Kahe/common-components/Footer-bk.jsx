@@ -111,7 +111,7 @@ const Footer = () => {
           <div className="kce-ftr__contact-row">
             <MapPin className="kce-ftr__icon" size={20} />
             <p className="kce-ftr__contact-text">
-              Myleripalayam Village, Othakkal Mandapam Post,<br />
+              Myleripalayam Village, Othakalmandapam Post,<br />
               Coimbatore - 641032, Tamilnadu, India
             </p>
           </div>
