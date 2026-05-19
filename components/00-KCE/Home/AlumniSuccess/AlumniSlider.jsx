@@ -10,17 +10,17 @@ import "swiper/css/effect-coverflow";
 import styles from "./AlumniSlider.module.css";
 
 const alumniData = [
-  { name: "Mahendran Kamatchi", desc: "Cellular Firmware Engineer Apple", img: "/images/kce/home/alumini/3.svg" },
-  { name: "Mohammed Javid", desc: "Software Engineer Apple", img: "/images/kce/home/alumini/1.svg" },
-  { name: "Vignesh Sukumar", desc: "Senior Software Engineer Microsoft", img: "/images/kce/home/alumini/2.svg" },
-  { name: "Kaarthic Manickam", desc: "Engineering Manager Meta", img: "/images/kce/home/alumini/11.svg" },
-  { name: "Jawahar Ganeshs", desc: "Technical Advisor Microsoft", img: "/images/kce/home/alumini/10.svg" },
-  { name: "H Mohamed Sunfeer", desc: "Senior Security Software Engineer Nvidia", img: "/images/kce/home/alumini/9.svg" },
-  { name: "R Suganthraj", desc: "Software Development Engineer Amazon", img: "/images/kce/home/alumini/8.svg" },
-  { name: "Sarumathi S", desc: "Software Development Engineer Amazon", img: "/images/kce/home/alumini/7.svg" },
-  { name: "Sivakumar A", desc: "Principal Member Oracle", img: "/images/kce/home/alumini/6.svg" },
-  { name: "J Vijay Shankar", desc: "Software Development Engineer Amazon", img: "/images/kce/home/alumini/5.svg" },
-  { name: "Vamsikrishnan M", desc: "Software Development Engineer Amazon", img: "/images/kce/home/alumini/4.svg" }
+  { name: "Mahendran Kamatchi", desc: "Cellular Firmware Engineer Apple", img: "/images/kce/home/alumini/3.png" },
+  { name: "Mohammed Javid", desc: "Software Engineer Apple", img: "/images/kce/home/alumini/1.png" },
+  { name: "Vignesh Sukumar", desc: "Senior Software Engineer Microsoft", img: "/images/kce/home/alumini/2.png" },
+  { name: "Kaarthic Manickam", desc: "Engineering Manager Meta", img: "/images/kce/home/alumini/11.png" },
+  { name: "Jawahar Ganeshs", desc: "Technical Advisor Microsoft", img: "/images/kce/home/alumini/10.png" },
+  { name: "H Mohamed Sunfeer", desc: "Senior Security Software Engineer Nvidia", img: "/images/kce/home/alumini/9.png" },
+  { name: "R Suganthraj", desc: "Software Development Engineer Amazon", img: "/images/kce/home/alumini/8.png" },
+  { name: "Sarumathi S", desc: "Software Development Engineer Amazon", img: "/images/kce/home/alumini/7.png" },
+  { name: "Sivakumar A", desc: "Principal Member Oracle", img: "/images/kce/home/alumini/6.png" },
+  { name: "J Vijay Shankar", desc: "Software Development Engineer Amazon", img: "/images/kce/home/alumini/5.png" },
+  { name: "Vamsikrishnan M", desc: "Software Development Engineer Amazon", img: "/images/kce/home/alumini/4.png" }
 ];
 
 const AlumniSlider = () => {
