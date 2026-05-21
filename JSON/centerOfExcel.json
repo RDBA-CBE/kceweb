@@ -1,14 +1,14 @@
 {
   "banner": {
     "bannerImg": "/images/kce/banner_computer_technology.jpg",
-    "title": "Centers of Excellence",
+    "title": "Center of Excellence",
     "breadcrumb": [
       {
         "label": "Home",
         "href": "/"
       },
       {
-        "label": "Centers of Excellence"
+        "label": "Center of Excellence"
       }
     ]
   },
@@ -28,7 +28,7 @@
                
               },
               {
-                "img": "/images/kce/home/coe-logo/hcl.svg"
+                "img": "/images/kce/home/coe-logo/hcl.png"
                
               },
                { "img": "/images/kce/home/coe-logo/aws.webp"
@@ -54,7 +54,7 @@
                 
               },
               {
-                "img": "/images/kce/home/coe-logo/hcl.svg"
+                "img": "/images/kce/home/coe-logo/hcl.png"
                 
               },
               
@@ -67,7 +67,7 @@
                 
               },
               {
-                "img": "/images/kce/home/coe-logo/wipro.svg"
+                "img": "/images/kce/home/coe-logo/wipro.png"
                 
               },
                {

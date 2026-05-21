@@ -27,11 +27,11 @@
   "Highlights": {
     "imagePosition": "right",
     "sectionbg": "section-bg1 my-4",
-    "image": "/images/kce/about/higlights.png",
+    "image": "/images/kce/about/highlight.png",
     "content": [
       {
         "type": "title",
-        "mainTi": "Highlight"
+        "mainTi": "Highlights"
       },
       {
         "type": "list",
@@ -47,7 +47,7 @@
           "Experienced and Qualified Faculty Members.",
           "Fleet of 21 Buses connecting various part of the City & Pollachi.",
           "Innovative Teaching Learning process",
-          "Auditorium to seat 2000 student"
+          "Auditorium to seat 2000 students"
         ]
       }
     ]

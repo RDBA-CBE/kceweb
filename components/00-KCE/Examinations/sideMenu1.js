@@ -88,7 +88,7 @@ export default function SideMenu1(props) {
 //       description: "Courses & degrees"
 //     },
 //     {
-//       label: "Centers of Excellence",
+//       label: "Center of Excellence",
 //       path: "/centers",
 //       icon: <FaFlask />,
 //       description: "Research centers"
