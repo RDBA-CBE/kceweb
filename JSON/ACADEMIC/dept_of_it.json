@@ -331,8 +331,8 @@
       "type": "split-image-content",
       "data": {
         "imagePosition": "left",
-        "sectionbg": "section-bg1 pt-0",
-        "image": "/images/kce/academics/faculty.webp",
+        "sectionbg": "section-bg1 pt-0 mb-5",
+        "imagee": "/images/kce/academics/faculty.webp",
         "content": [
           {
             "type": "title",
@@ -347,7 +347,7 @@
           {
             "type": "button",
             "text": "View Faculty",
-            "href":"/faculty-pdf/KCE-dEP-OF-IT.pdf",
+            "href":"/faculty-pdf/department-of-information-technology.pdf",
             "action": "goToFaculty",
             "newpageData": {
               "slug": "department-of-information-technology",

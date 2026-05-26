@@ -320,8 +320,8 @@
     {
       "type": "split-image-content",
       "data": {
-        "sectionbg": "section-bg1 pt-0",
-        "image": "/images/kce/academics/faculty.webp",
+        "sectionbg": "section-bg1 pt-0 mb-5",
+        "imagee": "/images/kce/academics/faculty.webp",
         "content": [
           {
             "type": "title",
@@ -334,7 +334,7 @@
           {
             "type": "button",
             "text": "View Faculty",
-            "href":"/faculty-pdf/KCE-Dep-of-CS&Eng.pdf",
+            "href":"/faculty-pdf/department-of-computer-science-and-engineering.pdf",
             "actionn": "goToFaculty",
             "newpageData": {
               "slug": "department-of-computer-sciences-and-engineering",

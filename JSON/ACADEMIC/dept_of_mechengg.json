@@ -369,7 +369,7 @@
       "data": {
         "secTitle": "HOD Profile",
         "sectionbg": "section-bg3",
-        "image": "/images/kce/academics/hod-profile.webp",
+        "imagee": "/images/kce/academics/hod-profile.webp",
         "content": [
           {
             "type": "title",
@@ -391,7 +391,7 @@
       "data": {
         "imagePosition": "left",
         "sectionbg": "section-bg1 my-4",
-        "image": "/images/kce/academics/faculty.webp",
+        "imagee": "/images/kce/academics/faculty.webp",
         "content": [
           {
             "type": "title",
@@ -406,7 +406,7 @@
           {
             "type": "button",
             "text": "View Faculty",
-            "href":"/faculty-pdf/KCE-Dep-of-Mechanical-Eng.pdf",
+            "href":"/faculty-pdf/department-of-mechanical-engineering.pdf",
             "actionn": "goToFaculty",
             "newpageData": {
               "slug": "department-of-mechanical-engineering",

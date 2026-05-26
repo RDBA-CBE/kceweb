@@ -79,7 +79,7 @@
       "data": {
         "sectionbg": "section-bg1 ",
         "imagePosition": "left",
-        "image": "/images/kce/academics/faculty.webp",
+        "imagee": "/images/kce/academics/faculty.webp",
         "content": [
           {
             "type": "title",
@@ -94,7 +94,7 @@
           {
             "type": "button",
             "text": "View Faculty",
-            "href":"/faculty-pdf/KCE-S&H.pdf",
+            "href":"/faculty-pdf/department-of-science-and-humanities.pdf",
             "actionn": "goToFaculty",
             "newpageData": {
               "slug": "department-of-science-and-humanities",

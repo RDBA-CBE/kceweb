@@ -451,7 +451,7 @@
       "type": "split-image-content",
       "data": {
         "sectionbg": "section-bg1 pt-0 pb-2 py-md-4",
-        "image": "/images/kce/academics/faculty.webp",
+        "imagee": "/images/kce/academics/faculty.webp",
         "content": [
           {
             "type": "title",
@@ -467,7 +467,7 @@
           {
             "type": "button",
             "text": "View Faculty",
-            "href":"/faculty-pdf/KCE-AI&DataScience.pdf",
+            "href":"/faculty-pdf/department-of-artificial-intelligence-and-data-science.pdf",
             "actionn": "goToFaculty",
             "newpageData": {
               "slug": "department-of-artificial-intelligence-and-data-science",

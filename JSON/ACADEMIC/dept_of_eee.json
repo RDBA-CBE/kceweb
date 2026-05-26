@@ -338,7 +338,7 @@
       "data": {
         "secTitle": "HOD Profile",
         "sectionbg": "section-bg3",
-        "image": "/images/kce/academics/hod-profile.webp",
+        "imagee": "/images/kce/academics/hod-profile.webp",
         "content": [
           {
             "type": "title",
@@ -358,8 +358,8 @@
     {
       "type": "split-image-content",
       "data": {
-        "sectionbg": "section-bg1 my-4",
-        "image": "/images/kce/academics/faculty.webp",
+        "sectionbg": "section-bg1 mb-4 mt-3",
+        "imagee": "/images/kce/academics/faculty.webp",
         "content": [
           {
             "type": "title",
@@ -374,7 +374,7 @@
           {
             "type": "button",
             "text": "View Faculty",
-            "href":"/faculty-pdf/KCE-Dep-of-Electrical-and-Electronics-Engineering.pdf",
+            "href":"/faculty-pdf/department-of-electrical-and-electronics-engineering.pdf",
             "actionn": "goToFaculty",
             "newpageData": {
               "slug": "department-of-electrical-and-electronics-engineering",

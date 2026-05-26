@@ -186,7 +186,7 @@
       "data": {
         "imagePosition": "left",
         "sectionbg": "",
-        "image": "/images/kce/academics/faculty.webp",
+        "imagee": "/images/kce/academics/faculty.webp",
         "content": [
           {
             "type": "title",
@@ -201,7 +201,7 @@
           {
             "type": "button",
             "text": "View Faculty",
-            "href":"/faculty-pdf/KCE-Dep-of-Electrical-Electronics(VLSI DESIGN&tec).pdf"
+            "href":"/faculty-pdf/department-of-electronics-engineering-vlsi-design-and-technology.pdf"
             
             
           }
