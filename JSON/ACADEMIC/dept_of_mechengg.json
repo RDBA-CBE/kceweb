@@ -406,7 +406,8 @@
           {
             "type": "button",
             "text": "View Faculty",
-            "action": "goToFaculty",
+            "href":"/faculty-pdf/KCE-Dep-of-Mechanical-Eng.pdf",
+            "actionn": "goToFaculty",
             "newpageData": {
               "slug": "department-of-mechanical-engineering",
               "banner": {

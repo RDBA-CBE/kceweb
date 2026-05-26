@@ -258,7 +258,8 @@
           {
             "type": "button",
             "text": "View Faculty",
-            "action": "goToFaculty",
+            "href":"/faculty-pdf/KCE-Dep-of-Computer-Applications.pdf",
+            "actionn": "goToFaculty",
             "newpageData": {
               "slug": "department-of-mca",
               "banner": {

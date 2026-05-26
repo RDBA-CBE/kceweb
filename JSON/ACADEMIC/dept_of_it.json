@@ -347,6 +347,7 @@
           {
             "type": "button",
             "text": "View Faculty",
+            "href":"/faculty-pdf/KCE-dEP-OF-IT.pdf",
             "action": "goToFaculty",
             "newpageData": {
               "slug": "department-of-information-technology",

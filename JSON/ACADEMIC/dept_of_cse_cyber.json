@@ -400,7 +400,8 @@
           {
             "type": "button",
             "text": "View Faculty",
-            "action": "goToFaculty",
+            "href":"/faculty-pdf/KCE-Cs&Eng(CyberSecurity).pdf",
+            "actionn": "goToFaculty",
             "newpageData": {
               "slug": "department-of-computer-sciences-and-engineering-cyber-security",
               "banner": {

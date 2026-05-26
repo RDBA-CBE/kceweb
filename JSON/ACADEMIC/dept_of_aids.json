@@ -467,7 +467,8 @@
           {
             "type": "button",
             "text": "View Faculty",
-            "action": "goToFaculty",
+            "href":"/faculty-pdf/KCE-AI&DataScience.pdf",
+            "actionn": "goToFaculty",
             "newpageData": {
               "slug": "department-of-artificial-intelligence-and-data-science",
               "banner": {

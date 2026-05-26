@@ -464,7 +464,8 @@
           {
             "type": "button",
             "text": "View Faculty",
-            "action": "goToFaculty",
+            "href":"/faculty-pdf/KCE-Master-of-Bussiness-Administration.pdf",
+            "actionn": "goToFaculty",
             "newpageData": {
               "slug": "department-of-management-studies",
               "banner": {

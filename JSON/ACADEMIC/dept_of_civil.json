@@ -301,7 +301,8 @@
           {
             "type": "button",
             "text": "View Faculty",
-            "action": "goToFaculty",
+            "href":"/faculty-pdf/KCE-Civil-Eng.pdf",
+            "actionn": "goToFaculty",
             "newpageData": {
               "slug": "department-of-civil-engineering",
               "banner": {

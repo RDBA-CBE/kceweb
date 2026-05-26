@@ -374,7 +374,8 @@
           {
             "type": "button",
             "text": "View Faculty",
-            "action": "goToFaculty",
+            "href":"/faculty-pdf/KCE-Dep-of-Electrical-and-Electronics-Engineering.pdf",
+            "actionn": "goToFaculty",
             "newpageData": {
               "slug": "department-of-electrical-and-electronics-engineering",
               "banner": {

@@ -389,7 +389,8 @@
           {
             "type": "button",
             "text": "View Faculty",
-            "action": "goToFaculty",
+            "href":"/faculty-pdf/KCE-Dep-of-Electronics-&-Communication-Eng.pdf",
+            "actionn": "goToFaculty",
             "newpageData": {
               "slug": "department-of-electronics-and-communication-engineering",
               "banner": {
