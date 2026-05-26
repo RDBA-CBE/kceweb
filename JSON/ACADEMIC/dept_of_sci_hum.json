@@ -42,7 +42,7 @@
     {
       "type": "icon-card",
       "data": {
-        "sectionbg": "section-bg1 py-2",
+        "sectionbg": "section-bg1 py-2 pb-5",
         
         "title": "Lab Facilities",
         "content": [
@@ -77,7 +77,7 @@
     {
       "type": "split-image-content",
       "data": {
-        "sectionbg": "section-bg1 ",
+        "sectionbg": "",
         "imagePosition": "left",
         "imagee": "/images/kce/academics/faculty.webp",
         "content": [
