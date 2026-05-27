@@ -142,6 +142,7 @@
 
     {
       "type": "tabs",
+      
       "data": {
         "navigation": [
           {
@@ -158,6 +159,7 @@
           }
         ],
         "content": {
+          
           "peo": {
             "sections": [
               {
@@ -285,8 +287,8 @@
       "type": "split-image-content",
       "data": {
         "imagePosition": "left",
-        "sectionbg": "section-bg1 pt-0",
-        "image": "/images/kce/academics/faculty.webp",
+        "sectionbg": "section-bg1 pt-0  mb-5 ",
+        "imagee": "/images/kce/academics/faculty.webp",
         "content": [
           {
             "type": "title",
@@ -301,7 +303,8 @@
           {
             "type": "button",
             "text": "View Faculty",
-            "action": "goToFaculty",
+            "href":"/faculty-pdf/department-of-civil-engineering.pdf",
+            "actionn": "goToFaculty",
             "newpageData": {
               "slug": "department-of-civil-engineering",
               "banner": {

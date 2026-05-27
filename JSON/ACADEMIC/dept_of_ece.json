@@ -374,7 +374,7 @@
       "data": {
         "imagePosition": "left",
         "sectionbg": "section-bg1 my-4",
-        "image": "/images/kce/academics/faculty.webp",
+        "imagee": "/images/kce/academics/faculty.webp",
         "content": [
           {
             "type": "title",
@@ -389,7 +389,8 @@
           {
             "type": "button",
             "text": "View Faculty",
-            "action": "goToFaculty",
+            "href":"/faculty-pdf/department-of-electronics-and-communication-engineering.pdf",
+            "actionn": "goToFaculty",
             "newpageData": {
               "slug": "department-of-electronics-and-communication-engineering",
               "banner": {

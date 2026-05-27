@@ -42,7 +42,7 @@
     {
       "type": "icon-card",
       "data": {
-        "sectionbg": "section-bg1 py-2",
+        "sectionbg": "section-bg1 py-2 pb-5",
         
         "title": "Lab Facilities",
         "content": [
@@ -77,9 +77,9 @@
     {
       "type": "split-image-content",
       "data": {
-        "sectionbg": "section-bg1 ",
+        "sectionbg": "",
         "imagePosition": "left",
-        "image": "/images/kce/academics/faculty.webp",
+        "imagee": "/images/kce/academics/faculty.webp",
         "content": [
           {
             "type": "title",
@@ -88,13 +88,14 @@
           {
             "type": "paragraph",
             "text": [
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus commodi suscipit in maiores vero aliquam nam. Consequatur, nulla! At illo dignissimos accusantium, aut quas error consectetur consequatur officiis quae dolore!"
+              "The Department of Science And Humanities at KCE has distinguished faculty with strong expertise. Combining research, industry exposure and dynamic teaching, they shape graduates who can make an impact in modern technologies."
             ]
           },
           {
             "type": "button",
             "text": "View Faculty",
-            "action": "goToFaculty",
+            "href":"/faculty-pdf/department-of-science-and-humanities.pdf",
+            "actionn": "goToFaculty",
             "newpageData": {
               "slug": "department-of-science-and-humanities",
               "banner": {
@@ -533,193 +534,7 @@
           }
         ]
       }
-    },
-    {
-      "type": "split-image-content",
-      "data": {
-        
-        "sectionbg": "section-bg1 ",
-        "image": "/images/kce/academics/faculty.webp",
-        "content": [
-          {
-            "type": "title",
-            "mainTi": "General Engineering"
-          },
-          {
-            "type": "paragraph",
-            "text": [
-              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus commodi suscipit in maiores vero aliquam nam. Consequatur, nulla! At illo dignissimos accusantium, aut quas error consectetur consequatur officiis quae dolore!"
-            ]
-          },
-          {
-            "type": "button",
-            "text": "View Faculty",
-            "action": "goToFaculty",
-            "newpageData": {
-              "slug": "department-of-science-and-humanities",
-              "banner": {
-                "bannerImg": "/images/kce/banner_computer_technology.jpg",
-                "title": "General Engineering",
-                "breadcrumb": [
-                  {
-                    "label": "Home",
-                    "href": "/"
-                  },
-                  {
-                    "label": "Departments",
-                    "href": "/departments"
-                  },
-                  {
-                    "href": "/departments/department-of-science-and-humanities",
-                    "label": "Department of Science and Humanities"
-                  },
-                  {
-                    "label": "Faculty"
-                  }
-                ]
-              },
-              "sectionTi": "Our faculty",
-              "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. ",
-
-              "faculty": [
-                {
-                  "id": 1,
-                  "name": "Mr. Suresh Kumaar G",
-                  "designation": "Assistant Professor",
-                  "degree": "M.E",
-                  "src": "/images/kce/Portrait_Placeholder.png"
-                },
-                {
-                  "id": 2,
-                  "name": "Ms. Nivedha S",
-                  "designation": "Assistant Professor",
-                  "degree": "M.E",
-                  "src": "/images/kce/Portrait_Placeholder.png"
-                },
-                {
-                  "id": 3,
-                  "name": "Mr. Rajmurugan R",
-                  "designation": "Assistant Professor",
-                  "degree": "M.E",
-                  "src": "/images/kce/Portrait_Placeholder.png"
-                },
-                {
-                  "id": 4,
-                  "name": "Ms. Indhumathi R",
-                  "designation": "Assistant Professor",
-                  "degree": "M.E",
-                  "src": "/images/kce/Portrait_Placeholder.png"
-                },
-                {
-                  "id": 5,
-                  "name": "Ms. Ramya S",
-                  "designation": "Assistant Professor",
-                  "degree": "M.E",
-                  "src": "/images/kce/Portrait_Placeholder.png"
-                },
-                {
-                  "id": 6,
-                  "name": "Mr. Shivaji Rao G",
-                  "designation": "Assistant Professor",
-                  "degree": "M.E",
-                  "src": "/images/kce/Portrait_Placeholder.png"
-                },
-                {
-                  "id": 7,
-                  "name": "Ms. Pushpalatha M",
-                  "designation": "Assistant Professor",
-                  "degree": "M.E",
-                  "src": "/images/kce/Portrait_Placeholder.png"
-                },
-                {
-                  "id": 8,
-                  "name": "Ms. Jeslin J S",
-                  "designation": "Assistant Professor",
-                  "degree": "M.E",
-                  "src": "/images/kce/Portrait_Placeholder.png"
-                },
-                {
-                  "id": 9,
-                  "name": "Mr. Praveen P",
-                  "designation": "Assistant Professor",
-                  "degree": "M.E",
-                  "src": "/images/kce/Portrait_Placeholder.png"
-                },
-                {
-                  "id": 10,
-                  "name": "Mr. Santhoshkumar LS",
-                  "designation": "Assistant Professor",
-                  "degree": "M.E",
-                  "src": "/images/kce/Portrait_Placeholder.png"
-                },
-                {
-                  "id": 11,
-                  "name": "Ms. Yawanikha T",
-                  "designation": "Assistant Professor",
-                  "degree": "M.E",
-                  "src": "/images/kce/Portrait_Placeholder.png"
-                },
-                {
-                  "id": 12,
-                  "name": "Mr. Anand SV",
-                  "designation": "Assistant Professor",
-                  "degree": "M.E",
-                  "src": "/images/kce/Portrait_Placeholder.png"
-                },
-                {
-                  "id": 13,
-                  "name": "Mr. Karuppaiah KV",
-                  "designation": "Assistant Professor",
-                  "degree": "M.E",
-                  "src": "/images/kce/Portrait_Placeholder.png"
-                },
-                {
-                  "id": 14,
-                  "name": "Mr. Deena Dhayalan R",
-                  "designation": "Assistant Professor",
-                  "degree": "M.E",
-                  "src": "/images/kce/Portrait_Placeholder.png"
-                },
-                {
-                  "id": 15,
-                  "name": "Ms. Sathyaprabha S",
-                  "designation": "Assistant Professor",
-                  "degree": "M.E",
-                  "src": "/images/kce/Portrait_Placeholder.png"
-                },
-                {
-                  "id": 16,
-                  "name": "Mr. Sarathi S",
-                  "designation": "Assistant Professor",
-                  "degree": "M.E",
-                  "src": "/images/kce/Portrait_Placeholder.png"
-                },
-                {
-                  "id": 17,
-                  "name": "Mr. Chandru B",
-                  "designation": "Assistant Professor",
-                  "degree": "M.E",
-                  "src": "/images/kce/Portrait_Placeholder.png"
-                },
-                {
-                  "id": 18,
-                  "name": "Ms. Sathyapriya S",
-                  "designation": "Assistant Professor",
-                  "degree": "M.E",
-                  "src": "/images/kce/Portrait_Placeholder.png"
-                },
-                {
-                  "id": 19,
-                  "name": "Ms. Jegadheeswari S",
-                  "designation": "Assistant Professor",
-                  "degree": "M.E",
-                  "src": "/images/kce/Portrait_Placeholder.png"
-                }
-              ]
-            }
-          }
-        ]
-      }
     }
+    
   ]
 }

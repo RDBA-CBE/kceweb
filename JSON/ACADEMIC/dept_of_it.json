@@ -331,8 +331,8 @@
       "type": "split-image-content",
       "data": {
         "imagePosition": "left",
-        "sectionbg": "section-bg1 pt-0",
-        "image": "/images/kce/academics/faculty.webp",
+        "sectionbg": "section-bg1 pt-0 mb-5",
+        "imagee": "/images/kce/academics/faculty.webp",
         "content": [
           {
             "type": "title",
@@ -347,6 +347,7 @@
           {
             "type": "button",
             "text": "View Faculty",
+            "href":"/faculty-pdf/department-of-information-technology.pdf",
             "action": "goToFaculty",
             "newpageData": {
               "slug": "department-of-information-technology",
@@ -1383,7 +1384,7 @@
 
           {
             "type": "button",
-            "href": "http://kce.ac.in/wp-content/uploads/2019/11/Seminar-Brochure-Final.pdf",
+            "href": "https://learn.kce.ac.in/uploads/2019/11/Seminar-Brochure-Final.pdf",
             "text": "Read More"
           }
         ]

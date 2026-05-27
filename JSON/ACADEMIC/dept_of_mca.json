@@ -242,8 +242,8 @@
       "type": "split-image-content",
       "data": {
         "imagePosition": "left",
-        "sectionbg": "section-bg1 pt-0",
-        "image": "/images/kce/academics/faculty.webp",
+        "sectionbg": "",
+        "imagee": "/images/kce/academics/faculty.webp",
         "content": [
           {
             "type": "title",
@@ -258,7 +258,8 @@
           {
             "type": "button",
             "text": "View Faculty",
-            "action": "goToFaculty",
+            "href":"/faculty-pdf/department-of-mca.pdf",
+            "actionn": "goToFaculty",
             "newpageData": {
               "slug": "department-of-mca",
               "banner": {
