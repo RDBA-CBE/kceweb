@@ -19,9 +19,31 @@
 
   "sections": [
     {
+      "type": "image-overlay-card",
+      "data": {
+        "title": "About the Department",
+        "bgImg": "/images/kce/academics/it/IT-web-images.png",
+        "description": [
+          "The Department of Electronics Engineering (VLSI Design and Technology), established in 2024 at Karpagam College of Engineering in Coimbatore, Tamil Nadu, is dedicated to excellence in teaching, research, and industry collaboration in the field of VLSI."
+        ]
+      }
+    },
+
+    {
+      "type": "plain-para",
+      "data": {
+        "content": [
+          "The department focuses on the core areas of VLSI system design, verification, and testing—key components in the development of modern integrated circuits (IC) used across a wide range of electronic devices. Our goal is to provide students with a strong foundation in VLSI technologies, covering the complete design cycle from concept to final implementation.",
+          "The B.E. in Electronics Engineering (VLSI Design & Technology) program offers a balanced blend of theoretical knowledge and practical expertise. The curriculum is industry-oriented and supported by state-of-the-art laboratories, enabling students to gain hands-on experience in electronics fundamentals, advanced VLSI design techniques, and modern testing methodologies.",
+          "Students are trained using industry-standard Electronic Design Automation (EDA) tools and are encouraged to solve real-world engineering problems. The department also emphasizes critical thinking, innovation, and professional ethics to prepare students for successful careers in the semiconductor industry.",
+          "With a strong commitment to quality education and skill development, the department aims to shape future-ready engineers in the rapidly evolving field of VLSI Design and Technology."
+        ]
+      }
+    },
+    {
       "type": "half-card-img",
       "data": {
-        "sectionbg":"section-bg1 pb-0 mb-0 ",
+        "sectionbg": "section-bg1 pb-0 mb-0 ",
         "content": [
           {
             "title": "Our Vision",
@@ -48,7 +70,7 @@
     {
       "type": "tabs",
       "data": {
-        "sectionbg":"section-bg1 pt-0 mt-0 pb-3",
+        "sectionbg": "section-bg1 pt-0 mt-0 pb-3",
         "navigation": [
           {
             "title": "Programme Educational Objectives",
@@ -180,8 +202,32 @@
         }
       }
     },
-
-     {
+    {
+      "type": "split-image-content",
+      "data": {
+        "secTitle": "HOD Profile",
+        "sectionbg": "section-bg3",
+        "imagee": "/images/kce/academics/Dr.C.Meera.webp",
+        "content": [
+          {
+            "type": "title",
+            "title": "Dr. A. Rajendran",
+            "subTi": "Professor & Head"
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              "Dr. A. Rajendran is currently serving as Professor and Head of the Department of Electronics Engineering (VLSI Design and Technology) at Karpagam College of Engineering, Coimbatore.",
+              "He completed his B.E. in Electronics and Communication Engineering from Kongu Engineering College, Erode, in 1996. He later earned his M.S. (By Research) in Information and Communication Engineering from PSG College of Technology, Coimbatore, in 2007, followed by a Ph.D. in Information and Communication Engineering from Anna University, Chennai, in 2013.",
+              "With an extensive academic career spanning 29 years, including 8 years dedicated to research, Dr. Rajendran has held various key academic and administrative positions. His areas of expertise include VLSI Design, VLSI Signal Processing, and Wireless Communication.",
+              "He has successfully guided 5 Ph.D. scholars under Anna University and has published over 90 research papers in reputed national and international journals and conferences. He also serves as an active reviewer for leading publishers such as Springer and Elsevier.",
+              "Dr. Rajendran has received funding from AICTE for organizing Faculty Development Programs (FDPs) and has significant experience in accreditation processes, including NBA and NAAC, as well as Outcome-Based Education (OBE) practices."
+            ]
+          }
+        ]
+      }
+    },
+    {
       "type": "split-image-content",
       "data": {
         "imagePosition": "left",
@@ -201,9 +247,52 @@
           {
             "type": "button",
             "text": "View Faculty",
-            "href":"/faculty-pdf/department-of-electronics-engineering-vlsi-design-and-technology.pdf"
-            
-            
+            "href": "/faculty-pdf/department-of-electronics-engineering-vlsi-design-and-technology.pdf"
+          }
+        ]
+      }
+    },
+     {
+      "type": "pill-list",
+      "data": {
+        "title": "Smart Class Rooms",
+        "subTi": "Current Semester",
+        "items": [
+          {
+            "id": 1,
+            "label": "Electric Circuits Laboratory"
+          },
+          {
+            "id": 2,
+            "label": "Electronic Devices and Circuits Laboratory "
+          },
+          {
+            "id": 3,
+            "label": "Digital System Design Laboratory "
+          },
+          {
+            "id": 4,
+            "label": "Microprocessors and Microcontrollers Laboratory"
+          },
+          {
+            "id": 5,
+            "label": "VLSI Design Laboratory"
+          },
+          {
+            "id": 6,
+            "label": "Analog Integrated Circuits Laboratory"
+          },
+          {
+            "id":7,
+            "label": "Embedded Systems and IoT Laboratory"
+          },
+          {
+            "id": 8,
+            "label": "Digital Signal Processing Laboratory"
+          },
+          {
+            "id": 9,
+            "label": "Project Laboratory"
           }
         ]
       }
