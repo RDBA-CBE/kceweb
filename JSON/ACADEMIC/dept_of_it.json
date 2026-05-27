@@ -7,7 +7,7 @@
         "label": "Home",
         "href": "/"
       },
-     {
+      {
         "label": "Academics",
         "href": "/academics"
       },
@@ -104,13 +104,14 @@
         "content": [
           {
             "type": "card",
-            "items": ["B-Tech. Information Technology", "Ph.D Information Technology"]
+            "items": [
+              "B-Tech. Information Technology",
+              "Ph.D Information Technology"
+            ]
           }
         ]
       }
     },
-
-   
 
     {
       "type": "icon-card",
@@ -326,7 +327,28 @@
         }
       }
     },
-
+    {
+      "type": "split-image-content",
+      "data": {
+        "secTitle": "HOD Profile",
+        "sectionbg": "section-bg3",
+        "image": "/images/kce/academics/8.png",
+        "content": [
+          {
+            "type": "title",
+            "title": "Dr. S. Logeswari",
+            "subTi": "Professor & Head"
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              "Dr. S. Logeswari is currently serving as Professor and Head of the Department of Information Technology at Karpagam College of Engineering, Coimbatore. She has 27 years of teaching experience in academia. She obtained her B.E. in Computer Science and Engineering from Bharathiar University, Tamil Nadu, in 1997, and her M.E. in Computer Science and Engineering and Ph.D. in Information and Communication Engineering from Anna University, Tamil Nadu, in 2007 and 2015, respectively.",
+              "Her research interests include data mining, machine learning, image processing, computer networks, and ontology-based information retrieval. She has published around 30 research articles and five book chapters indexed in Web of Science and Scopus-indexed journals, and has presented 30 papers at national and international conferences. Currently, she is guiding seven Ph.D. scholars, and four candidates have successfully completed their Ph.D. under her supervision at Anna University, Chennai."
+            ]
+          }
+        ]
+      }
+    },
     {
       "type": "split-image-content",
       "data": {
@@ -347,7 +369,7 @@
           {
             "type": "button",
             "text": "View Faculty",
-            "href":"/faculty-pdf/department-of-information-technology.pdf",
+            "href": "/faculty-pdf/department-of-information-technology.pdf",
             "action": "goToFaculty",
             "newpageData": {
               "slug": "department-of-information-technology",
@@ -360,9 +382,9 @@
                     "href": "/"
                   },
                   {
-        "label": "Academics",
-        "href": "/academics"
-      },
+                    "label": "Academics",
+                    "href": "/academics"
+                  },
                   {
                     "href": "/department-of-information-technology",
                     "label": "Department of Information Technology"
@@ -581,7 +603,7 @@
     {
       "type": "pill-list",
       "data": {
-        "sectionbg":"section-bg3 pb--70 pt-0 ",
+        "sectionbg": "section-bg3 pb--70 pt-0 ",
         "subTi": "Previous Semester",
         "items": [
           {
@@ -820,203 +842,211 @@
             ]
           },
           {
-  "title": "(AY 2023-2024)",
-  "content": [
-    {
-      "head": [
-        { "id": "col1", "label": "COURSE CODE" },
-        { "id": "col2", "label": "COURSE TITLE" },
-        { "id": "col3", "label": "GOOGLE LINK" }
-      ],
-      "data": [
-        {
-          "col1": { "text": "18FD08" },
-          "col2": { "text": "High Speed Networks" },
-          "col3": {
-            "text": "Click",
-            "url": "https://classroom.google.com/c/NTM4MDQ1MTE2Mzcx"
-          }
-        },
-        {
-          "col1": { "text": "18PE02" },
-          "col2": { "text": "Cloud Computing Techniques" },
-          "col3": {
-            "text": "Click",
-            "url": "https://classroom.google.com/c/NTIyNjgzOTk4MDI3"
-          }
-        },
-        {
-          "col1": { "text": "18FD17" },
-          "col2": { "text": "Information Security" },
-          "col3": {
-            "text": "Click",
-            "url": "https://classroom.google.com/c/NTIyNjc5MDYxNDQy?cjc=kzenp3o"
-          }
-        },
-        {
-          "col1": { "text": "18FD19" },
-          "col2": { "text": "Big data Analytics" },
-          "col3": {
-            "text": "Click",
-            "url": "https://classroom.google.com/c/NjEyNDA1NjUzOTIy"
-          }
-        },
-        {
-          "col1": { "text": "21FD09" },
-          "col2": { "text": "Software Engineering" },
-          "col3": {
-            "text": "Click",
-            "url": "https://classroom.google.com/c/NTM4MDQwOTc2Nzcz"
-          }
-        },
-        {
-          "col1": { "text": "21FD20" },
-          "col2": { "text": "Automata Theory and Compiler Design" },
-          "col3": {
-            "text": "Click",
-            "url": "https://classroom.google.com/c/NjEyNDI1ODA1MzY2"
-          }
-        },
-        {
-          "col1": { "text": "21PD15" },
-          "col2": { "text": "Data Communication and Computer Networks" },
-          "col3": {
-            "text": "Click",
-            "url": "https://classroom.google.com/c/NTIyNTE5MTg0MTA4"
-          }
-        },
-        {
-          "col1": { "text": "21FE05" },
-          "col2": { "text": "Design and Analysis of Algorithms" },
-          "col3": {
-            "text": "Click",
-            "url": "https://classroom.google.com/u/1/c/NTE5NzU3MzkxOTQ2"
-          }
-        },
-        {
-          "col1": { "text": "21FE18" },
-          "col2": { "text": "Web Application Development using Java" },
-          "col3": {
-            "text": "Click",
-            "url": "https://classroom.google.com/u/2/c/NTIyNzE5ODU1OTI1"
-          }
-        },
-        {
-          "col1": { "text": "21FD02" },
-          "col2": { "text": "Data Structures" },
-          "col3": {
-            "text": "Click",
-            "url": "https://classroom.google.com/w/NjI1MTIxNzQ5NzM5/t/allF"
-          }
-        },
-        {
-          "col1": { "text": "21FD05" },
-          "col2": { "text": "Database Management Systems" },
-          "col3": {
-            "text": "Click",
-            "url": "https://classroom.google.com/u/3/c/NTI5OTg0Njk1Mjg0"
-          }
-        },
-        {
-          "col1": { "text": "21FD13" },
-          "col2": { "text": "Java Programming" },
-          "col3": {
-            "text": "Click",
-            "url": "https://classroom.google.com/c/NjEyNDcyNjA2ODg5"
-          }
-        },
-        {
-          "col1": { "text": "180A01" },
-          "col2": { "text": "Principles of Management and Engineering Ethics" },
-          "col3": {
-            "text": "Click",
-            "url": "https://classroom.google.com/c/NjQ3MzE0MTUwNDY3"
-          }
-        },
-        {
-          "col1": { "text": "21FD10" },
-          "col2": { "text": "Data Warehousing and Data Mining" },
-          "col3": {
-            "text": "Click",
-            "url": "https://classroom.google.com/c/NjQ3MzcxNjc5MTg1?cjc=7ahx4jr"
-          }
-        },
-        {
-          "col1": { "text": "21FD19" },
-          "col2": { "text": "Big data Analytics" },
-          "col3": {
-            "text": "Click",
-            "url": "https://classroom.google.com/c/NjUwNjg3NjIyMzUx?cjc=cmebclo"
-          }
-        },
-        {
-          "col1": { "text": "21FD24" },
-          "col2": { "text": "Cloud Computing" },
-          "col3": {
-            "text": "Click",
-            "url": "https://classroom.google.com/c/NjQ1MzI5MTA5NDAy?cjc=wibwrmo"
-          }
-        },
-        {
-          "col1": { "text": "21FE27" },
-          "col2": { "text": "Artificial Intelligence" },
-          "col3": {
-            "text": "Click",
-            "url": "https://classroom.google.com/c/NjI3ODAxNjkwMTMy"
-          }
-        },
-        {
-          "col1": { "text": "21LE09" },
-          "col2": { "text": "Cryptography and Network Security" },
-          "col3": {
-            "text": "Click",
-            "url": "https://classroom.google.com/c/NjQ3MzE4NTk5OTc4?cjc=b7hzz2z"
-          }
-        },
-        {
-          "col1": { "text": "21FD03" },
-          "col2": { "text": "Operating Systems" },
-          "col3": {
-            "text": "Click",
-            "url": "https://classroom.google.com/u/2/c/NjU3OTczODA4NDQ4"
-          }
-        },
-        {
-          "col1": { "text": "21PD08" },
-          "col2": { "text": "Computer Architecture" },
-          "col3": {
-            "text": "Click",
-            "url": "https://classroom.google.com/c/NjQ3ODQ4MTY4MTg3?cjc=eyyes3o"
-          }
-        },
-        {
-          "col1": { "text": "21FE01" },
-          "col2": { "text": "Advanced Data Structures" },
-          "col3": {
-            "text": "Click",
-            "url": "https://classroom.google.com/c/NjYyOTA4Mzk1Nzc2"
-          }
-        },
-        {
-          "col1": { "text": "21FE04" },
-          "col2": { "text": "Advanced Java Programming" },
-          "col3": {
-            "text": "Click",
-            "url": "https://classroom.google.com/c/NjQ4NDYzMzAwNTQ2?cjc=ci745ca"
-          }
-        },
-        {
-          "col1": { "text": "180A01" },
-          "col2": { "text": "Principles of Management and Engineering Ethics" },
-          "col3": {
-            "text": "Click",
-            "url": "https://classroom.google.com/c/NjQ3MzE0MTUwNDY3"
-          }
-        }
-      ]
-    }
-  ]
-},
+            "title": "(AY 2023-2024)",
+            "content": [
+              {
+                "head": [
+                  { "id": "col1", "label": "COURSE CODE" },
+                  { "id": "col2", "label": "COURSE TITLE" },
+                  { "id": "col3", "label": "GOOGLE LINK" }
+                ],
+                "data": [
+                  {
+                    "col1": { "text": "18FD08" },
+                    "col2": { "text": "High Speed Networks" },
+                    "col3": {
+                      "text": "Click",
+                      "url": "https://classroom.google.com/c/NTM4MDQ1MTE2Mzcx"
+                    }
+                  },
+                  {
+                    "col1": { "text": "18PE02" },
+                    "col2": { "text": "Cloud Computing Techniques" },
+                    "col3": {
+                      "text": "Click",
+                      "url": "https://classroom.google.com/c/NTIyNjgzOTk4MDI3"
+                    }
+                  },
+                  {
+                    "col1": { "text": "18FD17" },
+                    "col2": { "text": "Information Security" },
+                    "col3": {
+                      "text": "Click",
+                      "url": "https://classroom.google.com/c/NTIyNjc5MDYxNDQy?cjc=kzenp3o"
+                    }
+                  },
+                  {
+                    "col1": { "text": "18FD19" },
+                    "col2": { "text": "Big data Analytics" },
+                    "col3": {
+                      "text": "Click",
+                      "url": "https://classroom.google.com/c/NjEyNDA1NjUzOTIy"
+                    }
+                  },
+                  {
+                    "col1": { "text": "21FD09" },
+                    "col2": { "text": "Software Engineering" },
+                    "col3": {
+                      "text": "Click",
+                      "url": "https://classroom.google.com/c/NTM4MDQwOTc2Nzcz"
+                    }
+                  },
+                  {
+                    "col1": { "text": "21FD20" },
+                    "col2": { "text": "Automata Theory and Compiler Design" },
+                    "col3": {
+                      "text": "Click",
+                      "url": "https://classroom.google.com/c/NjEyNDI1ODA1MzY2"
+                    }
+                  },
+                  {
+                    "col1": { "text": "21PD15" },
+                    "col2": {
+                      "text": "Data Communication and Computer Networks"
+                    },
+                    "col3": {
+                      "text": "Click",
+                      "url": "https://classroom.google.com/c/NTIyNTE5MTg0MTA4"
+                    }
+                  },
+                  {
+                    "col1": { "text": "21FE05" },
+                    "col2": { "text": "Design and Analysis of Algorithms" },
+                    "col3": {
+                      "text": "Click",
+                      "url": "https://classroom.google.com/u/1/c/NTE5NzU3MzkxOTQ2"
+                    }
+                  },
+                  {
+                    "col1": { "text": "21FE18" },
+                    "col2": {
+                      "text": "Web Application Development using Java"
+                    },
+                    "col3": {
+                      "text": "Click",
+                      "url": "https://classroom.google.com/u/2/c/NTIyNzE5ODU1OTI1"
+                    }
+                  },
+                  {
+                    "col1": { "text": "21FD02" },
+                    "col2": { "text": "Data Structures" },
+                    "col3": {
+                      "text": "Click",
+                      "url": "https://classroom.google.com/w/NjI1MTIxNzQ5NzM5/t/allF"
+                    }
+                  },
+                  {
+                    "col1": { "text": "21FD05" },
+                    "col2": { "text": "Database Management Systems" },
+                    "col3": {
+                      "text": "Click",
+                      "url": "https://classroom.google.com/u/3/c/NTI5OTg0Njk1Mjg0"
+                    }
+                  },
+                  {
+                    "col1": { "text": "21FD13" },
+                    "col2": { "text": "Java Programming" },
+                    "col3": {
+                      "text": "Click",
+                      "url": "https://classroom.google.com/c/NjEyNDcyNjA2ODg5"
+                    }
+                  },
+                  {
+                    "col1": { "text": "180A01" },
+                    "col2": {
+                      "text": "Principles of Management and Engineering Ethics"
+                    },
+                    "col3": {
+                      "text": "Click",
+                      "url": "https://classroom.google.com/c/NjQ3MzE0MTUwNDY3"
+                    }
+                  },
+                  {
+                    "col1": { "text": "21FD10" },
+                    "col2": { "text": "Data Warehousing and Data Mining" },
+                    "col3": {
+                      "text": "Click",
+                      "url": "https://classroom.google.com/c/NjQ3MzcxNjc5MTg1?cjc=7ahx4jr"
+                    }
+                  },
+                  {
+                    "col1": { "text": "21FD19" },
+                    "col2": { "text": "Big data Analytics" },
+                    "col3": {
+                      "text": "Click",
+                      "url": "https://classroom.google.com/c/NjUwNjg3NjIyMzUx?cjc=cmebclo"
+                    }
+                  },
+                  {
+                    "col1": { "text": "21FD24" },
+                    "col2": { "text": "Cloud Computing" },
+                    "col3": {
+                      "text": "Click",
+                      "url": "https://classroom.google.com/c/NjQ1MzI5MTA5NDAy?cjc=wibwrmo"
+                    }
+                  },
+                  {
+                    "col1": { "text": "21FE27" },
+                    "col2": { "text": "Artificial Intelligence" },
+                    "col3": {
+                      "text": "Click",
+                      "url": "https://classroom.google.com/c/NjI3ODAxNjkwMTMy"
+                    }
+                  },
+                  {
+                    "col1": { "text": "21LE09" },
+                    "col2": { "text": "Cryptography and Network Security" },
+                    "col3": {
+                      "text": "Click",
+                      "url": "https://classroom.google.com/c/NjQ3MzE4NTk5OTc4?cjc=b7hzz2z"
+                    }
+                  },
+                  {
+                    "col1": { "text": "21FD03" },
+                    "col2": { "text": "Operating Systems" },
+                    "col3": {
+                      "text": "Click",
+                      "url": "https://classroom.google.com/u/2/c/NjU3OTczODA4NDQ4"
+                    }
+                  },
+                  {
+                    "col1": { "text": "21PD08" },
+                    "col2": { "text": "Computer Architecture" },
+                    "col3": {
+                      "text": "Click",
+                      "url": "https://classroom.google.com/c/NjQ3ODQ4MTY4MTg3?cjc=eyyes3o"
+                    }
+                  },
+                  {
+                    "col1": { "text": "21FE01" },
+                    "col2": { "text": "Advanced Data Structures" },
+                    "col3": {
+                      "text": "Click",
+                      "url": "https://classroom.google.com/c/NjYyOTA4Mzk1Nzc2"
+                    }
+                  },
+                  {
+                    "col1": { "text": "21FE04" },
+                    "col2": { "text": "Advanced Java Programming" },
+                    "col3": {
+                      "text": "Click",
+                      "url": "https://classroom.google.com/c/NjQ4NDYzMzAwNTQ2?cjc=ci745ca"
+                    }
+                  },
+                  {
+                    "col1": { "text": "180A01" },
+                    "col2": {
+                      "text": "Principles of Management and Engineering Ethics"
+                    },
+                    "col3": {
+                      "text": "Click",
+                      "url": "https://classroom.google.com/c/NjQ3MzE0MTUwNDY3"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
           {
             "title": "(AY 2022-2023)",
             "content": [

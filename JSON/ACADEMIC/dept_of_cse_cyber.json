@@ -380,7 +380,27 @@
         }
       }
     },
-
+    {
+      "type": "split-image-content",
+      "data": {
+        "secTitle": "HOD Profile",
+        "sectionbg": "section-bg3",
+        "image": "/images/kce/academics/6.png",
+        "content": [
+          {
+            "type": "title",
+            "title": "Dr  D RASI",
+            "subTi": "Professor & Head"
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              "Dr  D RASI, Ph.D.,  pursued her B.E. Computer Science and Engineering in the year 2004 from Periyar University and M.E. Computer Science and Engineering in the year 2006 from Annamalai University. She was commended with Ph.D., in Anna University, Chennai during 2017 and currently working as Professor and Head in the Department of Computer Science and Engineering (Cyber Security), Karpagam College of Engineering, Coimbatore since 2025. She has published 20 International Journals, 8 Patents , 8 Books, 1 Book Chapters  and 20 Conferences. Her main research focuses on Image Processing. She has 18 years of Teaching Experience. "
+            ]
+          }
+        ]
+      }
+    },
     {
       "type": "split-image-content",
       "data": {
@@ -397,10 +417,11 @@
               "The Department of CSE (Cyber Security) at KCE is led by expert faculty specializing in secure computing and emerging cyber technologies. Through research-driven and industry-focused teaching, they prepare students to tackle complex security challenges and safeguard digital ecosystems."
             ]
           },
+
           {
             "type": "button",
             "text": "View Faculty",
-            "href":"/faculty-pdf/department-of-computer-science-and-engineering-cyber-security.pdf",
+            "href": "/faculty-pdf/department-of-computer-science-and-engineering-cyber-security.pdf",
             "actionn": "goToFaculty",
             "newpageData": {
               "slug": "department-of-computer-sciences-and-engineering-cyber-security",
@@ -1298,10 +1319,5 @@
         ]
       }
     }
-
-
-
-
-    
   ]
 }
