@@ -22,7 +22,7 @@
       "type": "image-overlay-card",
       "data": {
         "title": "About the Department",
-        "bgImg": "/images/kce/academics/it/IT-web-images.png",
+        "bgImg": "/images/kce/academics/vlsi/vlsi-web-image.png",
         "description": [
           "The Department of Electronics Engineering (VLSI Design and Technology), established in 2024 at Karpagam College of Engineering in Coimbatore, Tamil Nadu, is dedicated to excellence in teaching, research, and industry collaboration in the field of VLSI."
         ]
@@ -217,7 +217,7 @@
           {
             "type": "paragraph",
             "text": [
-              "Dr. A. Rajendran is currently serving as Professor and Head of the Department of Electronics Engineering (VLSI Design and Technology) at Karpagam College of Engineering, Coimbatore.",
+              "<strong>Dr. A. Rajendran</strong> is currently serving as Professor and Head of the Department of Electronics Engineering (VLSI Design and Technology) at Karpagam College of Engineering, Coimbatore.",
               "He completed his B.E. in Electronics and Communication Engineering from Kongu Engineering College, Erode, in 1996. He later earned his M.S. (By Research) in Information and Communication Engineering from PSG College of Technology, Coimbatore, in 2007, followed by a Ph.D. in Information and Communication Engineering from Anna University, Chennai, in 2013.",
               "With an extensive academic career spanning 29 years, including 8 years dedicated to research, Dr. Rajendran has held various key academic and administrative positions. His areas of expertise include VLSI Design, VLSI Signal Processing, and Wireless Communication.",
               "He has successfully guided 5 Ph.D. scholars under Anna University and has published over 90 research papers in reputed national and international journals and conferences. He also serves as an active reviewer for leading publishers such as Springer and Elsevier.",
@@ -231,7 +231,7 @@
       "type": "split-image-content",
       "data": {
         "imagePosition": "left",
-        "sectionbg": "",
+        "sectionbg": "section-bg1 mb-4",
         "imagee": "/images/kce/academics/faculty.webp",
         "content": [
           {
@@ -255,8 +255,7 @@
      {
       "type": "pill-list",
       "data": {
-        "title": "Smart Class Rooms",
-        "subTi": "Current Semester",
+        "title": "Laboratory Facilities",
         "items": [
           {
             "id": 1,

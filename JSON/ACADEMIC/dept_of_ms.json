@@ -31,6 +31,7 @@
 
     {
       "type": "plain-para",
+    
       "data": {
         "content": [
           "Specializations are offered in the areas of Finance, Marketing, Human Resources, Systems, Operations, Airline & Airport Management*, Hospital Management* and Shipping and Logistics Management*. The Department has an exclusive Library with 12227 books, 3315 titles, 15 International Journals, 31 National Magazines, and 53 National Journals; with CD’s for reference and is also a member of J-GATE. (*Awaiting Approval).",
@@ -458,7 +459,7 @@
           {
             "type": "paragraph",
             "text": [
-              "Dr. C. Meera is a passionate educator who hails from Coimbatore with over 23 years of experience, comprising 20 years in academia and 3 years in industry. She is specialized in Human Resources and Marketing, bringing a strong blend of theoretical knowledge and practical insight to her work.",
+              "<strong>Dr. C. Meera</strong> is a passionate educator who hails from Coimbatore with over 23 years of experience, comprising 20 years in academia and 3 years in industry. She is specialized in Human Resources and Marketing, bringing a strong blend of theoretical knowledge and practical insight to her work.",
               "She has an impressive research portfolio with 60 publications in reputed national and international journals, including those indexed in Scopus, UGC CARE, and Web of Science. She has also presented her work at several prestigious national and international conferences and seminars, including IEEE forums. Her scholarly contributions extend to 3 Indian patents, 6 authored books, and 3 book chapters.",
               "She has actively contributed as a resource person in Management meets, outbound learning programs, and soft skills training workshops. She has conducted Faculty Development Programs (FDP) sponsored by the Directorate of Collegiate Education, Kerala, at Government Arts College, Pathiripalla, Palakkad.",
               "She maintains professional affiliations with the Coimbatore Management Association, Coimbatore Productivity Council, and the National Institute of Personnel Management (NIPM).",
@@ -478,7 +479,7 @@
       "type": "split-image-content",
       "data": {
         "imagePosition": "left",
-        "sectionbg": "",
+        "sectionbg": "section-bg1 mb-4",
         "imagee": "/images/kce/academics/faculty.webp",
         "content": [
           {
