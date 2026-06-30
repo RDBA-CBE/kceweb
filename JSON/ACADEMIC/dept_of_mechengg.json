@@ -93,13 +93,15 @@
         "content": [
           {
             "type": "card",
-            "items": ["B.E. Mechanical Engineering", "M.E. Mechatronics", "Ph.D Mechanical Engineering"]
+            "items": [
+              "B.E. Mechanical Engineering",
+              "M.E. Mechatronics",
+              "Ph.D Mechanical Engineering"
+            ]
           }
         ]
       }
     },
-
-  
 
     {
       "type": "icon-card",
@@ -369,17 +371,18 @@
       "data": {
         "secTitle": "HOD Profile",
         "sectionbg": "section-bg3",
-        "image": "/images/kce/academics/hod-profile.webp",
+        "image": "/images/kce/academics/3.png",
         "content": [
           {
             "type": "title",
-            "title": "Dr.K.Ravi Kumar",
+            "title": "Dr. K. Ravi Kumar",
             "subTi": "M.E., Ph.D., M.B.A."
           },
           {
             "type": "paragraph",
             "text": [
-              "Dr. K. Ravi Kumar completed his B.E. – Mechanical Engineering in 2001 from Bharathiyar University and M.E. – Production Engineering in 2002 from Annamalai University. He received his Ph.D degree from Anna University in the area of Composite Materials in 2013. He is into the teaching profession since 2003 and has handled engineering education in various capacities. His areas of research include composite materials, unconventional machining, optimization, characterization, additive manufacturing and machine learning. He has generated funds of nearly 1.2 crores from MSME for product development under his leadership. He has received grants of more than 6 lakhs from agencies like ICMR, SERB, Anna University for conducting seminars, workshops and FDPs. He has 5 patents to his credit, published more than 50 research articles in journals and 2 book chapters in various publications including Elsevier, Springer, sage, Taylor & Francis, Inderscience and De Gruyter. He has also published more than 25 papers in various International and National conferences. He has authored books on “CNC Technology” and “Additive Manufacturing” published by Dhanpat Rai Publications, New Delhi. He has authored a book on “Mechanical Properties and Characterization of Additively Manufactured Materials” for Taylor & Francis, CRC press. He is an active reviewer and editorial board member for various international journals that includes Elsevier, Taylor & Francis, SAGE, and De Gruyter. Presently, 7 scholars are pursuing their Ph.D programs under his guidance. He is an active member of professional societies namely IE (I), ISTE and SAE and he is a managing committee member of SAE Coimbatore Division."
+              "<strong>Dr. K. Ravi Kumar</strong> completed his B.E. – Mechanical Engineering in 2001 from Bharathiyar University and M.E. – Production Engineering in 2002 from Annamalai University. He received his Ph.D degree from Anna University in the area of Composite Materials in 2013. He is into the teaching profession since 2003 and has handled engineering education in various capacities. His areas of research include composite materials, unconventional machining, optimization, characterization, additive manufacturing and machine learning. He has generated funds of nearly 1.2 crores from MSME for product development under his leadership.He has received grants of more than 6 lakhs from agencies like ICMR, SERB, Anna University for conducting seminars, workshops and FDPs. ",
+              "He has 5 patents to his credit, published more than 50 research articles in journals and 2 book chapters in various publications including Elsevier, Springer, sage, Taylor & Francis, Inderscience and De Gruyter. He has also published more than 25 papers in various International and National conferences. He has authored books on “CNC Technology” and “Additive Manufacturing” published by Dhanpat Rai Publications, New Delhi. He has authored a book on “Mechanical Properties and Characterization of Additively Manufactured Materials” for Taylor & Francis, CRC press. He is an active reviewer and editorial board member for various international journals that includes Elsevier, Taylor & Francis, SAGE, and De Gruyter. Presently, 7 scholars are pursuing their Ph.D programs under his guidance. He is an active member of professional societies namely IE (I), ISTE and SAE and he is a managing committee member of SAE Coimbatore Division."
             ]
           }
         ]
@@ -391,7 +394,7 @@
       "data": {
         "imagePosition": "left",
         "sectionbg": "section-bg1 my-4",
-        "image": "/images/kce/academics/faculty.webp",
+        "imagee": "/images/kce/academics/faculty.webp",
         "content": [
           {
             "type": "title",
@@ -406,7 +409,8 @@
           {
             "type": "button",
             "text": "View Faculty",
-            "action": "goToFaculty",
+            "href": "/faculty-pdf/department-of-mechanical-engineering.pdf",
+            "actionn": "goToFaculty",
             "newpageData": {
               "slug": "department-of-mechanical-engineering",
               "banner": {
@@ -418,9 +422,9 @@
                     "href": "/"
                   },
                   {
-        "label": "Academics",
-        "href": "/academics"
-      },
+                    "label": "Academics",
+                    "href": "/academics"
+                  },
                   {
                     "href": "/department-of-mechanical-engineering",
                     "label": "Department of Mechanical Engineering"
@@ -599,32 +603,32 @@
               {
                 "id": 1,
                 "label": "Jan–June 2016",
-                "url": "https://kce.ac.in/wp-content/uploads/2019/04/Mech_Jan-Jun_2016.pdf"
+                "url": "https://learn.kce.ac.in/uploads/2019/04/Mech_Jan-Jun_2016.pdf"
               },
               {
                 "id": 2,
                 "label": "July–Dec 2016",
-                "url": "https://kce.ac.in/wp-content/uploads/2019/04/Mech_Jul-Dec_2016.pdf"
+                "url": "https://learn.kce.ac.in/uploads/2019/04/Mech_Jul-Dec_2016.pdf"
               },
               {
                 "id": 3,
                 "label": "Jan–June 2017",
-                "url": "https://kce.ac.in/wp-content/uploads/2019/04/Mech_Jan-Jun_2017.pdf"
+                "url": "https://learn.kce.ac.in/uploads/2019/04/Mech_Jan-Jun_2017.pdf"
               },
               {
                 "id": 4,
                 "label": "July–Dec 2017",
-                "url": "https://kce.ac.in/wp-content/uploads/2019/04/Mech_Jul-Dec_2017.pdf"
+                "url": "https://learn.kce.ac.in/uploads/2019/04/Mech_Jul-Dec_2017.pdf"
               },
               {
                 "id": 5,
                 "label": "Jan–June 2018",
-                "url": "https://kce.ac.in/wp-content/uploads/2019/04/Mech_Jan-Jun_2018.pdf"
+                "url": "https://learn.kce.ac.in/uploads/2019/04/Mech_Jan-Jun_2018.pdf"
               },
               {
                 "id": 6,
                 "label": "July–Dec 2018",
-                "url": "https://kce.ac.in/wp-content/uploads/2019/04/Mech_Jul-Dec_2018.pdf"
+                "url": "https://learn.kce.ac.in/uploads/2019/04/Mech_Jul-Dec_2018.pdf"
               },
               {
                 "id": 7,
@@ -695,17 +699,17 @@
               {
                 "id": 1,
                 "label": "2015 – 2016",
-                "url": "http://kce.ac.in/wp-content/uploads/2019/04/Magazine_2015-2016.pdf"
+                "url": "https://learn.kce.ac.in/uploads/2019/04/Magazine_2015-2016.pdf"
               },
               {
                 "id": 2,
                 "label": "2016 – 2017",
-                "url": "http://kce.ac.in/wp-content/uploads/2019/04/Magazine_2016-2017.pdf"
+                "url": "https://learn.kce.ac.in/uploads/2019/04/Magazine_2016-2017.pdf"
               },
               {
                 "id": 3,
                 "label": "2017 – 2018",
-                "url": "http://kce.ac.in/wp-content/uploads/2019/04/Magazine_2017-2018.pdf"
+                "url": "https://learn.kce.ac.in/uploads/2019/04/Magazine_2017-2018.pdf"
               },
               {
                 "id": 4,
@@ -1189,7 +1193,7 @@
     {
       "type": "pill-list",
       "data": {
-        "sectionbg":"section-bg3 pb--70",
+        "sectionbg": "section-bg3 pb--70",
         "title": "Industry Powered Labs",
         "description": "",
         "items": [

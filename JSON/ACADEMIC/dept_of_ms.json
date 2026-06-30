@@ -31,6 +31,7 @@
 
     {
       "type": "plain-para",
+    
       "data": {
         "content": [
           "Specializations are offered in the areas of Finance, Marketing, Human Resources, Systems, Operations, Airline & Airport Management*, Hospital Management* and Shipping and Logistics Management*. The Department has an exclusive Library with 12227 books, 3315 titles, 15 International Journals, 31 National Magazines, and 53 National Journals; with CD’s for reference and is also a member of J-GATE. (*Awaiting Approval).",
@@ -443,13 +444,43 @@
         }
       }
     },
-
+    {
+      "type": "split-image-content",
+      "data": {
+        "secTitle": "HOD Profile",
+        "sectionbg": "section-bg3",
+        "image": "/images/kce/academics/2.png",
+        "content": [
+          {
+            "type": "title",
+            "title": "Dr. C. Meera",
+            "subTi": "Professor & Head"
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              "<strong>Dr. C. Meera</strong> is a passionate educator who hails from Coimbatore with over 23 years of experience, comprising 20 years in academia and 3 years in industry. She is specialized in Human Resources and Marketing, bringing a strong blend of theoretical knowledge and practical insight to her work.",
+              "She has an impressive research portfolio with 60 publications in reputed national and international journals, including those indexed in Scopus, UGC CARE, and Web of Science. She has also presented her work at several prestigious national and international conferences and seminars, including IEEE forums. Her scholarly contributions extend to 3 Indian patents, 6 authored books, and 3 book chapters.",
+              "She has actively contributed as a resource person in Management meets, outbound learning programs, and soft skills training workshops. She has conducted Faculty Development Programs (FDP) sponsored by the Directorate of Collegiate Education, Kerala, at Government Arts College, Pathiripalla, Palakkad.",
+              "She maintains professional affiliations with the Coimbatore Management Association, Coimbatore Productivity Council, and the National Institute of Personnel Management (NIPM).",
+              "Her engagement extends beyond academia through active collaboration with NGOs such as Vanam Foundation, Nila Foundation, and Target Zero Foundation. She has also participated in industry immersion initiatives with leading organizations including PEPS Mattresses, Velan Valves India Pvt. Ltd., Renganathar Industries, Radiant Machine Works, Sakthi Sugars Pvt. Ltd. (Erode), Milky Mist (Erode), MDL Vishal India Pvt. Ltd., and the Centre for Entrepreneurship Development, Madurai.",
+              "She is well recognized for her expertise in organizing global immersion programs in partnership with SEGI University for student exchange programs.",
+              "Her achievements have been recognized with prestigious awards such as:",
+              "- Best Director of the Year 2025 by Mevisha Global Foundation (Gujarat)",
+              "- Teaching for Experiential Learning Award by WBN in association with NM Academia",
+              "- Icon of Coimbatore 2025 – Academic Excellence Award from Trio Thought Solutions (Coimbatore)",
+              "- Wonder Women Coimbatore – Academic Excellence by Indian Medical Association, Coimbatore Chapter (Women’s Doctor Wing) on Women’s Day 2026"
+            ]
+          }
+        ]
+      }
+    },
     {
       "type": "split-image-content",
       "data": {
         "imagePosition": "left",
-        "sectionbg": "section-bg1 pt-0",
-        "image": "/images/kce/academics/faculty.webp",
+        "sectionbg": "section-bg1 mb-4",
+        "imagee": "/images/kce/academics/faculty.webp",
         "content": [
           {
             "type": "title",
@@ -464,7 +495,8 @@
           {
             "type": "button",
             "text": "View Faculty",
-            "action": "goToFaculty",
+            "href": "/faculty-pdf/department-of-management-studies.pdf",
+            "actionn": "goToFaculty",
             "newpageData": {
               "slug": "department-of-management-studies",
               "banner": {

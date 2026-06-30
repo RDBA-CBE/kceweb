@@ -21,7 +21,7 @@ const logos = [
   '/images/kce/home/industry-logos/18.svg',
   '/images/kce/home/industry-logos/19.svg',
   '/images/kce/home/industry-logos/20.svg',
-   '/images/kce/home/industry-logos/21.svg',
+  '/images/kce/home/industry-logos/21.svg',
   '/images/kce/home/industry-logos/22.svg',
   '/images/kce/home/industry-logos/23.svg',
   '/images/kce/home/industry-logos/24.svg',
