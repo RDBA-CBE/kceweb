@@ -24,7 +24,7 @@
         "title": "About the Department",
         "bgImg": "/images/kce/academics/mca/mca.webp",
         "description": [
-          "The Department of Master of Computer Applications was established in 2001 with an intake of 40 students. It offers a two year regular MCA programme. The programme offers a number of in-depth core courses, specialization courses, Mini project, employability courses and application-oriented courses. The syllabus and courses are updated frequently with the latest industrial technologies. The curriculum of MCA is designed to meet the Industry needs. The Computer Applications Association organizes Industrial seminars, workshops and guest lectures apart from the curriculum. In addition to that, soft skills and programming training are provided to the students."
+          "The Department of Master of Computer Applications (MCA), established in 2001 with an initial intake of 40 students, offers a two-year full-time postgraduate programme. The curriculum is carefully designed to meet evolving industry requirements and includes a comprehensive blend of core subjects, specialization courses, mini projects, employability-focused training, and application-oriented learning. The syllabus is regularly updated to incorporate the latest advancements in technology. In addition, the Computer Applications Association actively organizes industrial seminars, workshops, and guest lectures to enrich students’ academic experience. Soft skills and programming training are also integral components of the programme."
         ]
       }
     },
@@ -33,12 +33,14 @@
       "type": "plain-para",
       "data": {
         "content": [
-          "Students of MCA are being consistently encouraged to perform self learning related activities through Mini project works and Student Seminars. The Department has a separate library which has more than 12,000 book titles and Volumes. It also contains Magazines, Back volumes, Project reports, CDs/DVDs, Daily Newspapers, Previous years Question papers, (from 2001), National and International Journals. To update the subject knowledge, the department library offers access to NPTEL videos through url. The department has a competent and service oriented faculty team. Faculty members help the students in guiding software related problems.",
-          "Faculties are highly qualified with expertise knowledge in Cloud Computing, Data Analytics, Neural Networks, Python Programming, Block Chain Technologies and Image Processing. They are certified by IBM and NPTEL. The department encourages students to participate in Curricular, Co-curricular, Extra-Curricular and Sports activities. To help college related activities, staff and students have developed software applications. Staff members of MCA department are life members of ISTE. The department has two well equipped laboratories upgraded with the latest softwares and online UPS provided to facilitate the need of the students and staff."
+          "Students are consistently encouraged to engage in self-directed learning through mini projects, student seminars, and major project work. The department houses a well-equipped library with over 10,000 volumes, including books, magazines, back issues, project reports, CDs/DVDs, daily newspapers, previous years’ question papers (since 2001), and both national and international journals. To further enhance subject knowledge, the library provides access to NPTEL video resources through online platforms.",
+          "The department is supported by a highly qualified, dedicated, and service-oriented faculty team. Faculty members provide continuous guidance to students, particularly in addressing software-related challenges. They possess expertise in areas such as Cloud Computing, Data Analytics, Neural Networks, Python Programming, Blockchain Technologies, and Image Processing, and hold certifications from IBM, Infosys Springboard and NPTEL.",
+          "The department actively promotes student participation in curricular, co-curricular, extracurricular, and sports activities. Faculty and students collaboratively contribute to the development of software applications that support various institutional needs. Faculty members are also life members of ISTE and members of other professional societies like IEEE, IEANG, etc., reflecting their commitment to professional development.",
+          "To support academic and research activities, the department is equipped with two modern laboratories featuring the latest software, along with Wi-Fi connectivity and uninterrupted power supply (UPS), ensuring a conducive learning environment for both students and faculty."
         ]
       }
     },
-
+    
     {
       "type": "half-card-img",
       "data": {
@@ -73,7 +75,98 @@
         "title": "Courses Offered",
         "list": [
           {
-            "title": "Master of Computer Applications"
+            "title": "Master of Computer Applications(M.C.A.)"
+          }
+        ]
+      }
+    },
+
+         {
+      "type": "pill-list",
+      "data": {
+        "title": "Professional Bodies Membership",
+        "description": "",
+        "items": [
+          {
+            "id": 1,
+            "label": "ISTE (Indian Society for Technical Education)"            
+          },
+           {
+            "id": 2,
+            "label": "IAENG (International Association of Engineers) "            
+          },
+           {
+            "id": 3,
+            "label": "AICTSD (All India Council for Technical Skill Development) "            
+          },
+             {
+            "id": 4,
+            "label": "IEEE TEMS(IEEE Technology & Engineering Management Society)"            
+          }
+        ]
+      }
+    },
+        {
+      "type": "logo-img",
+      "data": {
+        "title": "Professional Bodies Membership logos",
+        "content": [
+          {
+            "images": [
+              {
+                "img": "/images/kce/academics/mca/membership/ml-1.webp",
+                "title": "ISTE (Indian Society for Technical Education)"
+              },             
+              {
+                "img": "/images/kce/academics/mca/membership/ml-2.webp",
+                "title": "IAENG (International Association of Engineers) "
+              },
+               {
+                "img": "/images/kce/academics/mca/membership/ml-3.webp",
+                "title": "AICTSD (All India Council for Technical Skill Development) "
+              },
+              {
+                "img": "/images/kce/academics/mca/membership/ml-4.webp",
+                "title": "IEEE TEMS(IEEE Technology & Engineering Management Society)"
+              }
+            ]
+          }
+        ]
+      }
+    },
+
+            {
+      "type": "logo-img",
+      "data": {
+        "title": "MoUs",
+        "content": [
+          {
+            "images": [
+              {
+                "img": "/images/kce/academics/mca/membership/ml-5.webp",
+                "title": "IDM Tech Park, Coimbatore"
+              },             
+              {
+                "img": "/images/kce/academics/mca/membership/ml-6.webp",
+                "title": "Vaanam Technologies, Coimbatore"
+              },
+               {
+                "img": "/images/kce/academics/mca/membership/ml-7.webp",
+                "title": "NET TEL Solutions, Coimbatore"
+              },
+              {
+                "img": "/images/kce/academics/mca/membership/ml-8.webp",
+                "title": "Xplore IT Corp, Coimbatore"
+              },
+                {
+                "img": "/images/kce/academics/mca/membership/ml-9.webp",
+                "title": "ICANIO TECHNOLOGY LABS PVT. LTD., Tuticorin"
+              },
+                {
+                "img": "/images/kce/academics/mca/membership/ml-10.webp",
+                "title": "IEEE TEMS(IEEE Technology & Engineering Management Society)"
+              }
+            ]
           }
         ]
       }
@@ -235,6 +328,30 @@
             ]
           }
         }
+      }
+    },
+      {
+      "type": "split-image-content",
+      "data": {
+        "secTitle": "HOD Profile",
+        "sectionbg": "section-bg3",
+        "image": "/images/kce/academics/hod-mca.webp",
+        "content": [
+          {
+            "type": "title",
+            "title": "Dr. Shanthi P, M.C.A., M.Phil., Ph.D., ",
+            "subTi": "Head of the Department – Master of Computer Applications(M.C.A.)"
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              "Dr. Shanthi P, M.C.A., M.Phil., Ph.D., Professor & Head, School of  Computer Applications, has 20+ years of teaching experience, including 3+ years in departmental leadership. Her technical expertise includes Natural Language Processing, Ontology-based systems, Machine Learning, Data Analytics, and Deep Learning with a proven track record in research, grants, and institutional coordination.",
+              "She has published 17 Scopus-indexed papers, 2 Web of Science papers, and 15 conference papers. She has authored 5+ book chapters and a textbook on System Software for the Anna University Syllabus. She holds 3 Indian Patents. She has guided numerous industrial and technical PG projects.",
+              "She received Grants & Projects from AICTE with ₹2,90,000 for a two-week FDP on Deep Learning and Computational Intelligence in Bioinformatics. She has also got a sponsor from DRDO worth ₹25,000 for organizing workshop on Data Mining and Semantic Web. She is a recipient of Best Faculty Award and achieved Infosys Inspire Faculty Partnership (Bronze Level), and Overall ERP Coordinator Award, during her academic tenure.",
+              "She has organized 50+ department events like seminars, workshops, many technical and non technical events. One of the non-technical events are recorded in India book of records during 2023 for preparing 15,618 paper bags on Paper bag day. She has also attended numerous programs on Cyber Security, Cloud Computing, Big Data, and AI/ML at institutions. She has guided numerous industrial and technical PG projects. She also acted an academic mentor for Smart India Hackathon for three years. She is a life member of ISTE."
+            ]
+          }
+        ]
       }
     },
 
