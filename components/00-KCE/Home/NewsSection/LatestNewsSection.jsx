@@ -77,9 +77,21 @@ export default function LatestNewsSection() {
 
   const featuredStories = [
     {
-      date: "June 06, 2026",
+      date: "June 29, 2026",
       image: "https://learn.kce.ac.in/wp-content/uploads/2026/07/29.06.2026-12-1229x1536.jpeg",
-      title: "Anti-drug Awarenes Seminar & Taking Anti-drug Pledge” ",
+      title: "Anti-drug Awarenes Seminar & Taking Anti-drug Pledge ",
+      description: ""
+    },
+    {
+      date: "June 25, 2026",
+      image: "https://learn.kce.ac.in/wp-content/uploads/2026/07/25.06.2026-1.jpeg",
+      title: "International Day Against Drug Abuse and Illicit Trafficking 2026 Awareness Programme",
+      description: ""
+    },
+    {
+      date: "June 21, 2026",
+      image: "https://learn.kce.ac.in/wp-content/uploads/2026/07/21.06.2026-1-1229x1536.jpeg",
+      title: "International Day of Yoga-2026",
       description: ""
     },
     {
@@ -109,6 +121,20 @@ export default function LatestNewsSection() {
   ];
 
   const eventsData = [
+     {
+      month: "JUNE",
+      day: "30",
+      title:
+        "Workshop on Bits to Qubits – Hands-on Student Development Programme on Quantum Computing",
+    },
+   
+    {
+      month: "JUNE",
+      day: "18",
+      title:
+        "Women Safety Awareness Programme Singappen Sirappu Athiradi Padai",
+    },
+   
     {
       month: "JAN",
       day: "23",
