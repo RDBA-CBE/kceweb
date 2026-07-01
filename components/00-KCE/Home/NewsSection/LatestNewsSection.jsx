@@ -77,6 +77,12 @@ export default function LatestNewsSection() {
 
   const featuredStories = [
     {
+      date: "June 06, 2026",
+      image: "https://learn.kce.ac.in/wp-content/uploads/2026/07/29.06.2026-12-1229x1536.jpeg",
+      title: "Anti-drug Awarenes Seminar & Taking Anti-drug Pledge” ",
+      description: ""
+    },
+    {
       date: "April 24, 2026",
       image: "https://learn.kce.ac.in/wp-content/uploads/2026/04/MAR.26.KCE-POSTER-11-2-819x1024.jpg",
       title: "Workshop on Deployment Ready: Dockerizing Your Spring Boot Applications” ",
