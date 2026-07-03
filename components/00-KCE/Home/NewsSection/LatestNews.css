@@ -27,14 +27,16 @@
   .featured-news-column {
     position: relative;
     padding-right: 40px;
-    border-right: 1px solid #e2e8f0; /* Vertical Line */
+    border-right: 1px solid #e2e8f0;
+    /* Vertical Line */
   }
 }
 
 /* Smooth Fade Transition Logic */
 .transition-stack {
   position: relative;
-  min-height: 600px; /* Adjust based on text length */
+  min-height: 600px;
+  /* Adjust based on text length */
 }
 
 .featured-story {
@@ -76,7 +78,7 @@
 .featured-news-date {
   text-align: right;
   color: #64748b;
-  margin-bottom: 10px; 
+  margin-bottom: 10px;
 }
 
 .featured-news-title {
@@ -93,7 +95,7 @@
 /* Marquee Sidebar Styles */
 
 .news-list-sidebar {
- /* background-color: #1a2b4b; 
+  /* background-color: #1a2b4b; 
   border-radius: 24px;*/
   background-image: url(/images/kce/logo-card/bule-card1.png);
   background-position: center;
@@ -111,14 +113,14 @@
 
 .ticker-wrapper {
   flex: 1;
-  overflow: hidden; 
- mask-image: linear-gradient(to bottom, transparent, black 15%, black 85%, transparent);
+  overflow: hidden;
+  mask-image: linear-gradient(to bottom, transparent, black 15%, black 85%, transparent);
 }
 
 .ticker-track {
   display: flex;
   flex-direction: column;
-  animation: scrollUp 15s linear infinite;
+  animation: scrollUp 30s linear infinite;
 }
 
 .ticker-track:hover {
@@ -126,8 +128,13 @@
 }
 
 @keyframes scrollUp {
-  0% { transform: translateY(0); }
-  100% { transform: translateY(-50%); }
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-50%);
+  }
 }
 
 .news-list-item {
@@ -144,8 +151,16 @@
   min-width: 100px;
 }
 
-.news-list-date-box .month { font-size: 1.9rem; color: #94a3b8; }
-.news-list-date-box .day { font-size: 2.79rem; font-weight: 600; color: #f97316; }
+.news-list-date-box .month {
+  font-size: 1.9rem;
+  color: #94a3b8;
+}
+
+.news-list-date-box .day {
+  font-size: 2.79rem;
+  font-weight: 600;
+  color: #f97316;
+}
 
 /* Buttons */
 .btn-primary {
@@ -159,8 +174,14 @@
   transition: background 0.2s;
 }
 
-.btn-primary:hover { background-color: #ea580c; }
-.sidebar-footer { padding-top: 20px;  z-index: 5; }
+.btn-primary:hover {
+  background-color: #ea580c;
+}
+
+.sidebar-footer {
+  padding-top: 20px;
+  z-index: 5;
+}
 
 .decor-dots {
   position: absolute;

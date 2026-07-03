@@ -431,7 +431,7 @@
         "secTitle": "HOD Profile",
         "imagePosition": "left",
         "sectionbg": "section-bg3",
-        "image": "/images/kce/academics/ai-ds-hod.jpg",
+        "image": "/images/kce/academics/ai-ds-hod.png",
         "content": [
           {
             "type": "title",
@@ -441,7 +441,8 @@
           {
             "type": "paragraph",
             "text": [
-              "Dr.G.Vijaya is now working as a Professor & Head in the Department of Artificial Intelligence and Data Science, Karpagam College of Engineering, Mayleripalayam, Coimbatore. She obtained her Ph.D., in Computer Science and Engineering from Annamalai University, Chidambaram and obtained her B.E (CSE) and M.E (CSE) from University of Madras & Anna University respectively. Dr. G.Vijayas' illustrious career spans over two decades of pioneering research and academic leadership. She has received Best Women Faculty Award 2025 from International Journal for Modern Trends in Science and Technology. She has published more than 35 International Journals which includes Elsevier, Springer and Web of Science. She also published 36+ International Conferences. She is a prestigious member of various professional bodies like: ISTE, CSI, IAENG, IEAE, and ISAC. She is acting as an editor for the book entitled “Futuristic Trends in Computing Technologies and Data Sciences” and also acts as an Advisory Committee Member and Programming Committee Member for various International Conferences. She has contributed extensively in the publication of utility Patents which includes: German, UK, South African and Indian Design Patents."
+              "Dr.G.Vijaya is now working as a Professor & Head in the Department of Artificial Intelligence and Data Science, Karpagam College of Engineering, Mayleripalayam, Coimbatore. She obtained her Ph.D., in Computer Science and Engineering from Annamalai University, Chidambaram and obtained her B.E (CSE) and M.E (CSE) from University of Madras & Anna University respectively. Dr. G.Vijayas' illustrious career spans over two decades of pioneering research and academic leadership.",
+              " She has received Best Women Faculty Award 2025 from International Journal for Modern Trends in Science and Technology. She has published more than 35 International Journals which includes Elsevier, Springer and Web of Science. She also published 36+ International Conferences. She is a prestigious member of various professional bodies like: ISTE, CSI, IAENG, IEAE, and ISAC. She is acting as an editor for the book entitled “Futuristic Trends in Computing Technologies and Data Sciences” and also acts as an Advisory Committee Member and Programming Committee Member for various International Conferences. She has contributed extensively in the publication of utility Patents which includes: German, UK, South African and Indian Design Patents."
             ]
           }
         ]
@@ -467,7 +468,7 @@
           {
             "type": "button",
             "text": "View Faculty",
-            "href":"/faculty-pdf/department-of-artificial-intelligence-and-data-science.pdf",
+            "href": "/faculty-pdf/department-of-artificial-intelligence-and-data-science.pdf",
             "actionn": "goToFaculty",
             "newpageData": {
               "slug": "department-of-artificial-intelligence-and-data-science",

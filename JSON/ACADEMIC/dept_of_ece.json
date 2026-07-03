@@ -349,7 +349,7 @@
       "data": {
         "secTitle": "HOD Profile",
         "sectionbg": "section-bg3",
-        "image": "/images/kce/academics/hod-sarankumar.jpg",
+        "image": "/images/kce/academics/hod-sarankumar.png",
         "content": [
           {
             "type": "title",
@@ -389,7 +389,7 @@
           {
             "type": "button",
             "text": "View Faculty",
-            "href":"/faculty-pdf/department-of-electronics-and-communication-engineering.pdf",
+            "href": "/faculty-pdf/department-of-electronics-and-communication-engineering.pdf",
             "actionn": "goToFaculty",
             "newpageData": {
               "slug": "department-of-electronics-and-communication-engineering",
