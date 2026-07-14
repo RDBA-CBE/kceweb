@@ -334,7 +334,7 @@
     },
 
     {
-      "type": "split-image-content",
+      "type": "split-image-contents",
       "data": {
         "secTitle": "HOD Profile",
         "sectionbg": "section-bg3",
@@ -358,7 +358,7 @@
     {
       "type": "split-image-content",
       "data": {
-        "sectionbg": "section-bg1 mb-4 mt-3",
+        "sectionbg": "section-bg1 mt-0 mb-4 pt-0",
         "imagee": "/images/kce/academics/faculty.webp",
         "content": [
           {
