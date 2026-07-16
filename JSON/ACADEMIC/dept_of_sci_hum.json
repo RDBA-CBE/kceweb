@@ -92,7 +92,7 @@
             ]
           },
           {
-            "type": "button",
+            "type": "buttonn",
             "text": "View Faculty",
             "href":"/faculty-pdf/department-of-science-and-humanities.pdf",
             "actionn": "goToFaculty",
