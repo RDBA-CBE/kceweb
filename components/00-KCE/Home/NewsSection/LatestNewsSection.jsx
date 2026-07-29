@@ -76,185 +76,187 @@ export default function LatestNewsSection() {
 
   const featuredStories = [
     {
-      date: "June 29, 2026",
-      image: "https://learn.kce.ac.in/wp-content/uploads/2026/07/29.06.2026-12-1229x1536.jpeg",
-      title: "Anti-drug Awarenes Seminar & Taking Anti-drug Pledge ",
-      description: ""
-    },
-    {
-      date: "June 25, 2026",
-      image: "https://learn.kce.ac.in/wp-content/uploads/2026/07/25.06.2026-1.jpeg",
-      title: "International Day Against Drug Abuse and Illicit Trafficking 2026 Awareness Programme",
-      description: ""
-    },
-    {
-      date: "June 21, 2026",
-      image: "https://learn.kce.ac.in/wp-content/uploads/2026/07/21.06.2026-1-1229x1536.jpeg",
-      title: "International Day of Yoga-2026",
-      description: ""
-    },
-    {
-      date: "April 24, 2026",
-      image: "https://learn.kce.ac.in/wp-content/uploads/2026/04/MAR.26.KCE-POSTER-11-2-819x1024.jpg",
-      title: "Workshop on Deployment Ready: Dockerizing Your Spring Boot Applications” ",
-      description: ""
-    },
-    {
-      date: 'June 25, 2026',
-      image:
-        'https://learn.kce.ac.in/wp-content/uploads/2026/07/25.06.2026-1.jpeg',
+      date: 'July 25, 2026',
+      image: 'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture12.png',
       title:
-        'International Day Against Drug Abuse and Illicit Trafficking 2026 Awareness Programme',
+        'Value Added Course on Embedded Intelligence – Department of Computer Science and Engineering',
       description: '',
     },
     {
-      date: 'June 21, 2026',
-      image:
-        'https://learn.kce.ac.in/wp-content/uploads/2026/07/21.06.2026-1.jpeg',
-      title: 'International Day of Yoga-2026',
+      date: 'July 25, 2026',
+      image: 'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture11.png',
+      title:
+        'Career Awareness Program on Prompt Engineering Is Not Enough: The New Full-Stack of AI – Department of Information Technology',
       description: '',
     },
     {
-      date: 'June 18, 2026',
-      image:
-        'https://learn.kce.ac.in/wp-content/uploads/2026/07/18.06.2026-13.jpeg',
+      date: 'July 25, 2026',
+      image: 'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture10.png',
       title:
-        'Women Safety Awareness Programme – Singappen Sirappu Athiradi Padai',
+        'Strategies for Success in GATE and Competitive Examinations – Department of Electrical and Electronics Engineering',
       description: '',
     },
     {
-      date: 'June 1, 2026',
-      image:
-        'https://learn.kce.ac.in/wp-content/uploads/2026/07/AD-Workshop-on-30.06.26.jpeg',
+      date: 'July 24, 2026',
+      image: 'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture9.png',
       title:
-        'Workshop on Bits to Qubits – Hands-on Student Development Programme on Quantum Computing',
+        'Future Trends in Information Technology and Career Opportunities – Department of Computer Science and Engineering (Cyber Security)',
       description: '',
     },
     {
-      date: 'April 24, 2026',
-      image:
-        'https://learn.kce.ac.in/wp-content/uploads/2026/04/MAR.26.KCE-POSTER-11-2-1.jpg',
+      date: 'July 20, 2026',
+      image: 'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture8.png',
       title:
-        'Workshop on Deployment Ready: Dockerizing Your Spring Boot Applications',
+        'AI-Based Hands-on Training Organized by the Department of Artificial Intelligence and Data Science',
       description: '',
     },
     {
-      date: 'December 20, 2025',
-      image:
-        'https://learn.kce.ac.in/wp-content/uploads/2026/02/DEC.KCE-POSTER-10-1.jpg',
+      date: 'July 20, 2026',
+      image: 'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture7.png',
       title:
-        'Alumni Seminar on A Path for Career Opportunity with Entrepreneurship Development',
+        'Department of Computer Science and Engineering Organizes Hands-on Training on Foundation of AWS Cloud Platform',
       description: '',
     },
     {
-      date: 'December 20, 2025',
-      image:
-        'https://learn.kce.ac.in/wp-content/uploads/2026/02/DEC.KCE-POSTER-7.jpg',
+      date: 'July 17, 2026',
+      image: 'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture6.png',
       title:
-        'Alumni Seminar on Java-Driven IoT: Scalable Solutions for Smart Devices',
+        'Women Development Cell and Department of Information Technology Organize Workshop on Breast & Cervical Cancer Awareness',
+      description: '',
+    },
+    {
+      date: 'July 11, 2026',
+      image:
+        'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture5-804x1024.png',
+      title:
+        'Department of Artificial Intelligence and Data Science Organizes Partial Industrial Delivery on Deep Learning',
+      description: '',
+    },
+    {
+      date: 'July 11, 2026',
+      image: 'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture4.png',
+      title:
+        'Research and Development Cell Organizes Hands-on Workshop on Patent Filing and Publication',
+      description: '',
+    },
+    {
+      date: 'July 8, 2026',
+      image: 'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture3.png',
+      title:
+        'The Karpagam Innovation Centre (KIC) Proudly Invites Students and Aspiring Entrepreneurs to Participate in STARTUP SPARK 2.0',
+      description: '',
+    },
+    {
+      date: '',
+      image:
+        'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture2-819x1024.png',
+      title:
+        'Launch of the Certificate Programme in Banking, Finance and Insurance (CBFI) by Bajaj Finserv for the Batch 2025–27',
+      description: '',
+    },
+    {
+      date: '',
+      image:
+        'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture1-823x1024.png',
+      title:
+        'Faculty members of Karpagam College of Engineering for the successful completion of the AICTE QIP PG Certificate Programme (January 2026 – June 2026)',
       description: '',
     },
   ];
 
   const eventsData = [
-     {
-      month: "JUNE",
-      day: "30",
-      title:
-        "Workshop on Bits to Qubits – Hands-on Student Development Programme on Quantum Computing",
-    },
-   
-    {
-      month: "JUNE",
-      day: "18",
-      title:
-        "Women Safety Awareness Programme Singappen Sirappu Athiradi Padai",
-    },
-   
     {
       month: 'JUN',
-      day: '29',
-      title: 'Anti-drug Awareness Seminar & Taking Anti-drug Pledge',
+      day: '30',
+      title:
+        'Workshop on "Bits to Qubits: A Hands-on Students Development Programme on Quantum Computing"',
     },
     {
-      month: 'JUN',
+      month: 'JUL',
+      day: '08',
+      title:
+        'Student Development Programme: Launch of the Certificate Programme in Banking, Finance and Insurance (CBFI)',
+    },
+    {
+      month: 'JUL',
+      day: '11',
+      title: 'Start-Up Spark 2.0',
+    },
+    {
+      month: 'JUL',
+      day: '11',
+      title: 'Partial Industrial Delivery',
+    },
+    {
+      month: 'JUL',
+      day: '17',
+      title:
+        'Workshop on Pink Care Initiative Breast & Cervical Cancer Awareness',
+    },
+    {
+      month: 'JUL',
+      day: '17',
+      title:
+        'Guest Lecture on Beyond OpenAI: Building Custom Analytics Engines on Open-Source AI',
+    },
+    {
+      month: 'JUL',
+      day: '17',
+      title: 'Eco Care Club - Seed Balls Preparation Event',
+    },
+    {
+      month: 'JUL',
+      day: '20',
+      title: 'Workshop on Foundation on AWS Cloud Platform',
+    },
+    {
+      month: 'JUL',
+      day: '20',
+      title: 'Workshop on AI-Based Hands-on Training',
+    },
+    {
+      month: 'JUL',
+      day: '22',
+      title:
+        'Seminar on Predictive Modeling Frameworks: Deploying Regression Algorithms via Scikit-Learn',
+    },
+    {
+      month: 'JUL',
+      day: '22',
+      title:
+        'Career Guidance Programme for Civil Engineering Students – KCEians By KCEian',
+    },
+    {
+      month: 'JUL',
+      day: '23',
+      title: 'Workshop on Rebar Detailing and Bar Bending Schedule',
+    },
+    {
+      month: 'JUL',
+      day: '24',
+      title: 'Association and Club Inauguration',
+    },
+    {
+      month: 'JUL',
+      day: '25',
+      title: 'Value Added Course on Embedded Intelligence',
+    },
+    {
+      month: 'JUL',
       day: '25',
       title:
-        'International Day Against Drug Abuse and Illicit Trafficking 2026 Awareness Programme',
+        'Career Awareness Program on Prompt Engineering is Not Enough: The New Full-Stack of AI',
     },
     {
-      month: 'JUN',
-      day: '21',
-      title: 'International Day of Yoga-2026',
-    },
-    {
-      month: 'JUN',
-      day: '18',
+      month: 'JUL',
+      day: '25',
       title:
-        'Women Safety Awareness Programme – Singappen Sirappu Athiradi Padai',
+        'Seminar on Strategies for Success in GATE and Competitive Examinations',
     },
     {
-      month: 'JUN',
-      day: '01',
-      title:
-        'Workshop on Bits to Qubits – Hands-on Student Development Programme on Quantum Computing',
-    },
-    {
-      month: 'APR',
-      day: '24',
-      title:
-        'Workshop on Deployment Ready: Dockerizing Your Spring Boot Applications',
-    },
-    {
-      month: 'JAN',
-      day: '23',
-      title:
-        'From Classical to Quantum: Machine Learning in the Era of Quantum Computing',
-    },
-    {
-      month: 'JAN',
-      day: '7',
-      title: 'MOU With RAM Kalam – Centre for Energy Consultancy and Training',
-    },
-    {
-      month: 'DEC',
-      day: '20',
-      title:
-        'Alumni Seminar on A Path for Career Opportunity with Entrepreneurship Development',
-    },
-    {
-      month: 'DEC',
-      day: '20',
-      title:
-        'Alumni Seminar on Java-Driven IoT: Scalable Solutions for Smart Devices',
-    },
-    {
-      month: 'DEC',
-      day: '10',
-      title:
-        '7th National Level Management Fest – “Takshak 2025” at Karpagam College of Engineering (Autonomous)',
-    },
-    {
-      month: 'DEC',
-      day: '04',
-      title:
-        'Understanding Stocks, IPOs & Equity Market Instruments: A Beginner’s Roadmap',
-    },
-    {
-      month: 'NOV',
-      day: '14',
-      title: 'Workshop on “Click & Conquer: Digital Marketing Strategies”',
-    },
-    {
-      month: 'OCT',
-      day: '11',
-      title: 'Seminar on Career Exploration and Planning',
-    },
-    {
-      month: 'OCT',
-      day: '07',
-      title:
-        'One Day Workshop on Transforming Industries through IoT and ESP32 for Smart Applications',
+      month: 'JUL',
+      day: '30',
+      title: 'Workshop on Full Stack Web Development',
     },
   ];
 
