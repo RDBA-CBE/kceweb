@@ -1,0 +1,120 @@
+{
+  "banner": {
+    "title": "Achievements"
+  },
+  "students": [
+    {
+      "id": 1,
+      "title": "Haryana Boxing Men’s Tournament",
+      "category": "STUDENT",
+      "link": "https://www.instagram.com/p/DWnselNkxC4/",
+      "links": [
+        "https://www.instagram.com/p/DWnselNkxC4/"
+      ],
+      "image": "/images/kce/home/student-achievements/new/Haryana_Boxing_Mens_Tournament_.jpg"
+    },
+    {
+      "id": 2,
+      "title": "World’s Top AI Finalists in Taipei, Taiwan",
+      "category": "STUDENT",
+      "link": "https://www.instagram.com/p/DXg6hAlmMjr/",
+      "links": [
+        "https://www.instagram.com/p/DXg6hAlmMjr/",
+        "https://www.instagram.com/p/DYCD_E4DkbU/?img_index=3",
+        "https://www.instagram.com/p/DYMybJUFazM/"
+      ],
+       "image": "/images/kce/home/student-achievements/new/Worlds_Top_AI_Finalists_in_Taipei_Taiwan.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Area Level International Speech Contest!",
+      "category": "STUDENT",
+      "link": "https://www.instagram.com/p/DXjOPP3lBkQ/",
+      "links": [
+        "https://www.instagram.com/p/DXjOPP3lBkQ/"
+      ],
+      "image": "/images/kce/home/student-achievements/new/Area_Level_International_Speech_Contest_.jpg"
+    },
+    {
+      "id": 4,
+      "title": "1st Place at HACKZILLA 2025",
+      "category": "STUDENT",
+      "link": "https://www.instagram.com/p/DYOmKnqBSmh/",
+      "links": [
+        "https://www.instagram.com/p/DYOmKnqBSmh/new"
+      ],
+      "image": "/images/kce/home/student-achievements/new/1st_Place_at_HACKZILLA_2025.png"
+    },
+    {
+      "id": 5,
+      "title": "Agentic Among Us at IIT Delhi",
+      "category": "STUDENT",
+      "link": "https://www.instagram.com/p/DYjuj5DhnlX/",
+      "links": [
+        "https://www.instagram.com/p/DYjuj5DhnlX/"
+      ],
+      "image": "/images/kce/home/student-achievements/new/Agentic_Among_Us_at_IIT_Delhi.png"
+    },
+    {
+      "id": 6,
+      "title": "TCC Committee Member for Rotaract District Organisation 3206",
+      "category": "STUDENT",
+      "link": "https://www.instagram.com/p/DYj9QucBC-B/",
+      "links": [
+        "https://www.instagram.com/p/DYj9QucBC-B/",
+        "https://www.instagram.com/p/DYj9tUNBpEI/",
+        "https://www.instagram.com/p/DYo-MHHk5h3/"
+      ],
+      "image": "/images/kce/home/student-achievements/new/TCC-Committee-Member-for-RI-District-3206.png"
+    },
+    {
+      "id": 7,
+      "title": "The Confluence 2026 - Research, Innovation & Technology Summit",
+      "category": "STUDENT",
+      "link": "https://www.instagram.com/p/DUp2DKUk2MM/",
+      "links": [
+        "https://www.instagram.com/p/DUp2DKUk2MM/"
+      ],
+      "image": "/images/kce/home/student-achievements/new/The_Confluence_2026_-_Research_Innovation__Technology_Summit.jpg"
+    },
+    {
+      "id": 9,
+      "title": "NPTEL Achievements",
+      "category": "STUDENT",
+      "link": "https://www.instagram.com/p/DZhrYjik0ID/?img_index=8",
+      "links": [
+        "https://www.instagram.com/p/DZhrYjik0ID/?img_index=8",
+        "https://www.instagram.com/p/DZhrgTZE-tL/?img_index=8"
+      ],
+      "image": "/images/kce/home/student-achievements/new/NPTEL_Achivements01.jpg"
+    },
+    {
+      "id": 10,
+      "title": "HAIL 2026 - Hexaware AI Innovation League",
+      "category": "STUDENT",
+      "link": "https://www.instagram.com/p/DaMmDlYE9yI/?img_index=3",
+      "links": [
+        "https://www.instagram.com/p/DaMmDlYE9yI/?img_index=3"
+      ],
+      "image": "/images/kce/home/student-achievements/new/HAIL_2026_Hexaware_AI_Innovation_League..jpg"
+    }
+  ],
+  "faculty": [
+    {
+      "id": 8,
+      "title": "NPTEL Achievements",
+      "category": "FACULTY",
+      "link": "https://www.instagram.com/p/DZhrLCazxge/",
+      "links": [
+        "https://www.instagram.com/p/DZhrLCazxge/",
+        "https://www.instagram.com/p/DZhrCYHz8a7/",
+        "https://www.instagram.com/p/DZhq71Fk-ut/?img_index=8",
+        "https://www.instagram.com/p/DZXAX0BCLDK/?img_index=8",
+        "https://www.instagram.com/p/DZPW2HHk7fk/?img_index=8",
+        "https://www.instagram.com/p/DZHtvikk17E/?img_index=8",
+        "https://www.instagram.com/p/DaFrZcMTaAe/"
+      ],
+      "image": "/images/kce/home/student-achievements/new/NPTEL_Achivements.jpg"
+    }
+  ]
+}

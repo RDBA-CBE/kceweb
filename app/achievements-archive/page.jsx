@@ -1,4 +1,4 @@
-import AcheivementsPage from "@/components/00-KCE/AcheivementsPageNew";
+import AcheivementsPage from "@/components/00-KCE/AcheivementsPage";
 
 
 export const metadata = {
