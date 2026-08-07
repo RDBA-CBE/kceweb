@@ -281,6 +281,13 @@
           "link": "/placement-contact/",
           "desc": "Learn more about KAHE overview.",
           "src": "/images/banner/co-men.png"
+        },
+        {
+          "id": 6,
+          "title": "Achievements",
+          "link": "/acheivements/",
+          "desc": "Learn more about KAHE overview.",
+          "src": "/images/banner/co-men.png"
         }
       ]
     },

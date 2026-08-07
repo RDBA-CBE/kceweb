@@ -37,14 +37,14 @@ export default function AcheivementsPage() {
             role="tablist"
             aria-label="Achievement categories"
           >
-            {tabs.map((tab) => {
+            {tabs.map((tab,i) => {
               const isActive = activeTab === tab.id;
 
               return (
                 <button
-                  key={tab.id}
+                  key={i}
                   type="button"
-                  id={`KC-${tab.id}-tab`}
+                  id={`KC-${i}-tab`}
                   role="tab"
                   aria-selected={isActive}
                   aria-controls={`KC-${tab.id}-panel`}
