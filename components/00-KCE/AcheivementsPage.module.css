@@ -1,0 +1,292 @@
+.KCAchievementsSection {
+  width: 100%;
+  padding: 60px 0;
+  background-color: #ffffff;
+}
+
+.KCAchievementsTabs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 40px;
+}
+
+.KCAchievementsTabButton {
+  min-width: 145px;
+  padding: 12px 28px;
+  border: 1px solid #d66b22;
+  border-radius: 30px;
+  background-color: #ffffff;
+  color: #173f4d;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.4;
+  text-align: center;
+  cursor: pointer;
+  appearance: none;
+  transition:
+    background-color 0.3s ease,
+    border-color 0.3s ease,
+    color 0.3s ease,
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.KCAchievementsTabButton:hover {
+  border-color: #d66b22;
+  background-color: #d66b22;
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+.KCAchievementsTabButtonActive {
+  border-color: #d66b22;
+  background-color: #d66b22;
+  color: #ffffff;
+  box-shadow: 0 8px 18px rgba(214, 107, 34, 0.22);
+}
+
+.KCAchievementsTabButton:focus-visible {
+  outline: 3px solid rgba(214, 107, 34, 0.25);
+  outline-offset: 3px;
+}
+
+.KCAchievementsTabContent {
+  width: 100%;
+}
+
+.KCAchievementsRow {
+  row-gap: 30px;
+}
+
+.KCAchievementCard {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid #e3e7e9;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 8px 24px rgba(23, 63, 77, 0.08);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.KCAchievementCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 14px 32px rgba(23, 63, 77, 0.14);
+}
+
+.KCAchievementImageWrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+ /* aspect-ratio: 16 / 10;*/
+  background-color: #eeeeee;
+}
+
+.KCAchievementImage {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.KCAchievementCard:hover .KCAchievementImage {
+  transform: scale(1.04);
+}
+
+.KCAchievementImagePlaceholder {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: #edf0f1;
+  color: #718087;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.KCAchievementContent {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 22px;
+}
+
+.KCAchievementTitle {
+  margin: 0 0 18px;
+  color: #173f4d;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.45;
+}
+
+.KCAchievementLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: auto;
+  color: #d66b22;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  text-decoration: none;
+  transition:
+    color 0.3s ease,
+    gap 0.3s ease;
+}
+
+.KCAchievementLink:hover {
+  gap: 12px;
+  color: #173f4d;
+  text-decoration: none;
+}
+
+.KCAchievementLinkArrow {
+  display: inline-block;
+  font-size: 20px;
+  line-height: 1;
+}
+
+.KCAchievementsEmpty {
+  padding: 35px 20px;
+  border: 1px solid #e3e7e9;
+  border-radius: 10px;
+  background-color: #ffffff;
+  color: #53666d;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.KCAchievementsArchiveWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 45px;
+}
+
+.KCAchievementsArchiveLink {
+  display: inline-flex;
+  min-width: 180px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 13px 28px;
+  border: 1px solid #d66b22;
+  border-radius: 30px;
+  background-color: #d66b22;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.4;
+  text-decoration: none;
+  transition:
+    background-color 0.3s ease,
+    border-color 0.3s ease,
+    color 0.3s ease,
+    gap 0.3s ease,
+    transform 0.3s ease;
+}
+
+.KCAchievementsArchiveLink:hover {
+  gap: 15px;
+  border-color: #173f4d;
+  background-color: #173f4d;
+  color: #ffffff;
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
+.KCAchievementsArchiveLink:focus-visible {
+  outline: 3px solid rgba(214, 107, 34, 0.25);
+  outline-offset: 3px;
+}
+
+.KCAchievementsArchiveArrow {
+  display: inline-block;
+  font-size: 20px;
+  line-height: 1;
+}
+
+@media (max-width: 991px) {
+  .KCAchievementsSection {
+    padding: 55px 0;
+  }
+
+  .KCAchievementsTabs {
+    margin-bottom: 35px;
+  }
+
+  .KCAchievementTitle {
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 767px) {
+  .KCAchievementsSection {
+    padding: 45px 0;
+  }
+
+  .KCAchievementsTabs {
+    width: 100%;
+    gap: 8px;
+    margin-bottom: 30px;
+  }
+
+  .KCAchievementsTabButton {
+    flex: 1;
+    min-width: 0;
+    padding: 10px 16px;
+    font-size: 15px;
+  }
+
+  .KCAchievementsRow {
+    row-gap: 22px;
+  }
+
+  .KCAchievementContent {
+    padding: 20px;
+  }
+
+  .KCAchievementTitle {
+    margin-bottom: 16px;
+    font-size: 18px;
+  }
+
+  .KCAchievementLink {
+    font-size: 15px;
+  }
+
+  .KCAchievementsArchiveWrapper {
+    margin-top: 32px;
+  }
+
+  .KCAchievementsArchiveLink {
+    min-width: 165px;
+    padding: 11px 22px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .KCAchievementsTabs {
+    flex-direction: column;
+  }
+
+  .KCAchievementsTabButton {
+    width: 100%;
+  }
+}

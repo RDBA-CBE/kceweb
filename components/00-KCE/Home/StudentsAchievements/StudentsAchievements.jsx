@@ -5,9 +5,22 @@ import styles from "./StudentsAchievements.module.css";
 import AchievementCard from "./AchievementCard";
 
 const achievementsData = [
+    {
+    title: "Gold Medal Winner – Haryana Men’s Boxing Tournament",
+    img: "/images/kce/home/student-achievements/Haryana-Boxing-Mens-ournament.webp",
+  },
+    {
+    title: "Our Students Win 1st Place at HACKZILLA 2025",
+    img: "/images/kce/home/student-achievements/hackzila2025.webp",
+  },
+    {
+    title: "Won the 2026 Best AI Awards and will represent us at the global finals in Taipei, Taiwan",
+    img: "/images/kce/home/student-achievements/AI-Finalists.webp",
+  },
+
   {
-    title: "National Welding League Of Women Students (Nwl 2026).",
-    img: "/images/kce/home/student-achievements/achievements-1.webp",
+    title: "Area Level International Speech Contest!",
+    img: "/images/kce/home/student-achievements/Speech-Contest.webp",
   },
   {
     title: "Gatestack Crew",
