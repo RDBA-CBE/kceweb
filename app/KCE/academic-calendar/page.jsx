@@ -7,6 +7,7 @@ export const metadata = {
     "Unlock your potential in Engineering at KCE, the leading Engineering college in Tamilnadu, providing a nurturing environment for academic and personal growth.",
 };
 
+
 const page = () => {
   return (
     <AcademicCalenderPage/>
