@@ -75,6 +75,13 @@ export default function LatestNewsSection() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const featuredStories = [
+     {
+      date: 'August 08, 2026',
+      image: 'https://learn.kce.ac.in/wp-content/uploads/2026/08/ChatGPT-Image-Aug-14-2026-06_07_05-PM.png',
+      title:
+        '22nd Graduation Ceremony – Class of 2025',
+      description: '',
+    },
     {
       date: 'July 25, 2026',
       image: 'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture12.png',
