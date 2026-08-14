@@ -11,6 +11,19 @@
         "sectionbg": "section-bg1",
         "subTitle": "Academic Calendar",
         "content": [
+           {
+            "label": "2026-27",
+            "value": [
+              {
+                "text": "III Semester B.E (ME, CE) & II MBA",
+                "url": "https://learn.kce.ac.in/wp-content/uploads/2026/08/3rd-sem-academic-schedule-206-27-odd-sem.pdf"
+              },
+              {
+                "text": "V, VII Semesters B.E/ B.Tech/ III Semester MCA",
+                "url": "https://learn.kce.ac.in/wp-content/uploads/2026/08/AY-26-27-ODD-Academic-Schedule-V-VII-MCA-3-SEM.pdf"
+              }
+            ]
+          },
           {
             "label": "2025-26",
             "value": [
