@@ -1,8 +1,11 @@
-/* Container & Grid */
+/* ======================================================
+   MAIN WRAPPER
+====================================================== */
+
 .latest-news-wrapper {
-  max-width: 75%;
+  max-width: 82%;
   margin: 0 auto;
-  padding: 60px 0px;
+  padding: 60px 0;
   overflow: hidden;
 }
 
@@ -11,116 +14,497 @@
   margin-bottom: 40px;
 }
 
+
+/* ======================================================
+   GRID
+====================================================== */
+
 .latest-news-grid {
   display: grid;
   grid-template-columns: 1fr;
   gap: 40px;
+  align-items: start;
 }
 
-/* Featured Column & Vertical Divider */
+
+/* ======================================================
+   DESKTOP - 7 × 5
+====================================================== */
+
 @media (min-width: 1024px) {
   .latest-news-grid {
-    grid-template-columns: 1.1fr 0.9fr;
-    gap: 80px;
+    grid-template-columns:
+      minmax(0, 7fr)
+      minmax(0, 5fr);
+
+    gap: 50px;
   }
 
   .featured-news-column {
     position: relative;
-    padding-right: 40px;
-    border-right: 1px solid #e2e8f0;
-    /* Vertical Line */
+    min-width: 0;
+
+    padding-right: 30px;
+
+    border-right:
+      1px solid #e2e8f0;
+  }
+
+  .news-list-sidebar {
+    min-width: 0;
+    width: 100%;
   }
 }
 
-/* Smooth Fade Transition Logic */
-.transition-stack {
-  position: relative;
-  min-height: 600px;
-  /* Adjust based on text length */
+
+/* ======================================================
+   LEFT SIDE
+====================================================== */
+
+.featured-news-column {
+  min-width: 0;
 }
 
-.featured-story {
-  position: absolute;
-  top: 0;
-  left: 0;
+.featured-news-area {
   width: 100%;
+}
+
+
+/* ======================================================
+   ACCORDION
+====================================================== */
+
+.featured-news-accordion {
+  width: 100%;
+
+  border-top:
+    1px solid #e2e8f0;
+}
+
+.featured-month-item {
+  width: 100%;
+
+  border-bottom:
+    1px solid #e2e8f0;
+}
+
+
+/* ======================================================
+   MONTH HEADER
+====================================================== */
+
+.featured-month-header {
+  width: 100%;
+  min-height: 82px;
+
+  padding: 20px 4px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 20px;
+
+  border: 0;
+  outline: 0;
+
+  background: transparent;
+
+  cursor: pointer;
+  text-align: left;
+}
+
+.featured-month-heading {
+  display: flex;
+  align-items: center;
+
+  gap: 14px;
+
+  min-width: 0;
+}
+
+.featured-month-name {
+  color: #1a365d;
+
+  font-size: 24px;
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+
+/* ======================================================
+   NEWS COUNT
+====================================================== */
+
+.featured-month-count {
+  width: 30px;
+  height: 30px;
+
+  flex: 0 0 30px;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #f97316;
+  color: #ffffff;
+
+  border-radius: 50%;
+
+  font-size: 12px;
+  font-weight: 600;
+}
+
+
+/* ======================================================
+   PLUS / MINUS
+====================================================== */
+
+.featured-month-toggle {
+  position: relative;
+
+  width: 40px;
+  height: 40px;
+
+  flex: 0 0 40px;
+
+  border:
+    1px solid #d9e0e8;
+
+  border-radius: 50%;
+
+  transition:
+    background-color 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.featured-month-toggle span {
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+
+  width: 14px;
+  height: 2px;
+
+  background: #1a365d;
+
+  transform:
+    translate(-50%, -50%);
+
+  transition:
+    opacity 0.3s ease,
+    transform 0.3s ease,
+    background-color 0.3s ease;
+}
+
+.featured-month-toggle span:nth-child(2) {
+  transform:
+    translate(-50%, -50%)
+    rotate(90deg);
+}
+
+
+/* ACTIVE */
+
+.featured-month-item.active
+.featured-month-toggle {
+  background: #1a365d;
+  border-color: #1a365d;
+}
+
+.featured-month-item.active
+.featured-month-toggle span {
+  background: #ffffff;
+}
+
+.featured-month-item.active
+.featured-month-toggle span:nth-child(2) {
   opacity: 0;
-  visibility: hidden;
-  transition: opacity 1.2s ease-in-out, transform 1.2s cubic-bezier(0.4, 0, 0.2, 1);
-  transform: translateY(10px);
+
+  transform:
+    translate(-50%, -50%);
 }
 
-.featured-story.active {
+
+/* ======================================================
+   ACCORDION OPEN/CLOSE
+====================================================== */
+
+.featured-month-content {
+  display: grid;
+
+  grid-template-rows: 0fr;
+
+  opacity: 0;
+
+  transition:
+    grid-template-rows 0.4s ease,
+    opacity 0.3s ease;
+}
+
+.featured-month-item.active
+.featured-month-content {
+  grid-template-rows: 1fr;
   opacity: 1;
-  visibility: visible;
-  transform: translateY(0);
-  z-index: 2;
 }
 
-/* Subtle Image Zoom (Ken Burns Effect) */
-.featured-news-image {
+.featured-month-inner {
+  min-height: 0;
   overflow: hidden;
-  border-radius: 6px;
-  height: 380px;
 }
 
-.featured-news-image img {
+
+/* ======================================================
+   SCROLL FOR LONG MONTH
+====================================================== */
+
+.featured-month-item.active
+.featured-month-inner {
+  max-height: 540px;
+
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  padding-right: 10px;
+
+  scroll-behavior: smooth;
+
+  scrollbar-width: thin;
+  scrollbar-color:
+    #cbd5e1
+    #f1f5f9;
+}
+
+
+/* Chrome / Edge */
+
+.featured-month-item.active
+.featured-month-inner::-webkit-scrollbar {
+  width: 6px;
+}
+
+.featured-month-item.active
+.featured-month-inner::-webkit-scrollbar-track {
+  background: #f1f5f9;
+
+  border-radius: 10px;
+}
+
+.featured-month-item.active
+.featured-month-inner::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+
+  border-radius: 10px;
+}
+
+.featured-month-item.active
+.featured-month-inner::-webkit-scrollbar-thumb:hover {
+  background: #f97316;
+}
+
+
+/* ======================================================
+   LEFT NEWS GRID
+====================================================== */
+
+.featured-news-card-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr));
+
+  gap: 24px;
+
+  padding:
+    6px 0
+    35px;
+}
+
+
+/* ======================================================
+   LEFT CARD
+====================================================== */
+
+.featured-news-card {
+  min-width: 0;
+}
+
+
+/* IMAGE */
+
+.featured-card-image {
+  width: 100%;
+
+  aspect-ratio: 16 / 10;
+
+  overflow: hidden;
+
+  border-radius: 6px;
+
+  background: #f1f5f9;
+}
+
+.featured-card-image img {
+  display: block;
+
   width: 100%;
   height: 100%;
+
   object-fit: cover;
-  transition: transform 10s linear;
+
+  transition:
+    transform 0.5s ease;
 }
 
-.featured-story.active .featured-news-image img {
-  transform: scale(1.15);
+.featured-news-card:hover
+.featured-card-image img {
+  transform: scale(1.05);
 }
 
-.featured-news-date {
-  text-align: right;
+
+/* CONTENT */
+
+.featured-card-content {
+  padding-top: 14px;
+}
+
+.featured-card-date {
+  margin: 0 0 7px;
+
   color: #64748b;
-  margin-bottom: 10px;
+
+  font-size: 12px;
+  line-height: 1.4;
 }
 
-.featured-news-title {
+.featured-card-title {
+  margin: 0;
+
   color: #1a365d;
-  margin: 20px 0 12px;
+
+  font-size: 17px;
+  line-height: 1.45;
+  font-weight: 600;
 }
 
-.featured-news-description {
+.featured-card-description {
+  margin: 8px 0 0;
+
   color: #475569;
+
   line-height: 1.6;
-  margin-bottom: 25px;
 }
 
-/* Marquee Sidebar Styles */
+
+/* ======================================================
+   BUTTON AFTER ACCORDION
+====================================================== */
+
+.featured-news-footer {
+  padding-top: 25px;
+}
+
+
+/* ======================================================
+   RIGHT SIDE - ORIGINAL BLUE MARQUEE
+====================================================== */
 
 .news-list-sidebar {
-  /* background-color: #1a2b4b; 
-  border-radius: 24px;*/
-  background-image: url(/images/kce/logo-card/bule-card1.png);
+  /*
+  background-color: #1a2b4b;
+  border-radius: 24px;
+  */
+
+  background-image:
+    url(/images/kce/logo-card/bule-card1.png);
+
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
   width: 100%;
   height: 650px;
+
   padding: 35px;
+
   display: flex;
   flex-direction: column;
+
   overflow: hidden;
+
   position: relative;
+
   color: white;
 }
+
+
+/* ======================================================
+   UPCOMING EVENTS TITLE
+====================================================== */
+
+.upcoming-events-title {
+  margin: 0 0 18px;
+
+  color: #ffffff;
+
+  font-size: 26px;
+  line-height: 1.2;
+  font-weight: 600;
+
+  position: relative;
+  z-index: 5;
+}
+
+.upcoming-events-title::after {
+  content: '';
+
+  display: block;
+
+  width: 45px;
+  height: 3px;
+
+  margin-top: 10px;
+
+  background: #f97316;
+
+  border-radius: 10px;
+}
+
+
+/* ======================================================
+   ORIGINAL TICKER
+====================================================== */
 
 .ticker-wrapper {
   flex: 1;
   overflow: hidden;
-  mask-image: linear-gradient(to bottom, transparent, black 15%, black 85%, transparent);
+
+  mask-image:
+    linear-gradient(
+      to bottom,
+      transparent,
+      black 15%,
+      black 85%,
+      transparent
+    );
+
+  -webkit-mask-image:
+    linear-gradient(
+      to bottom,
+      transparent,
+      black 15%,
+      black 85%,
+      transparent
+    );
 }
 
 .ticker-track {
   display: flex;
   flex-direction: column;
-  animation: scrollUp 30s linear infinite;
+
+  animation:
+    scrollUp 30s linear infinite;
 }
 
 .ticker-track:hover {
@@ -129,72 +513,234 @@
 
 @keyframes scrollUp {
   0% {
-    transform: translateY(0);
+    transform:
+      translateY(0);
   }
 
   100% {
-    transform: translateY(-50%);
+    transform:
+      translateY(-50%);
   }
 }
 
+
+/* ======================================================
+   ORIGINAL RIGHT SIDE ITEMS
+====================================================== */
+
 .news-list-item {
   display: flex;
+
   gap: 20px;
+
   padding: 20px 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+  border-bottom:
+    1px solid rgba(
+      255,
+      255,
+      255,
+      0.1
+    );
 }
 
 .news-list-date-box {
   display: flex;
   flex-direction: column;
   align-items: center;
+
   min-width: 100px;
 }
 
 .news-list-date-box .month {
   font-size: 1.9rem;
+
   color: #94a3b8;
 }
 
 .news-list-date-box .day {
   font-size: 2.79rem;
+
   font-weight: 600;
+
   color: #f97316;
 }
 
-/* Buttons */
+
+/* ======================================================
+   SIDEBAR FOOTER
+====================================================== */
+
+.sidebar-footer {
+  padding-top: 20px;
+
+  z-index: 5;
+}
+
+.decor-dots {
+  position: absolute;
+
+  bottom: 15px;
+  right: 15px;
+
+  width: 169px;
+  height: 165px;
+
+  /*
+  background-image:
+    url(/images/kce/logo-card/bule-card2.png);
+  */
+}
+
+
+/* ======================================================
+   YOUR ORIGINAL BUTTON STYLE
+====================================================== */
+
 .btn-primary {
   background-color: #f97316;
+
   color: white;
+
   border: none;
+
   padding: 12px 28px;
+
   border-radius: 6px;
+
   font-weight: 600;
+
   cursor: pointer;
-  transition: background 0.2s;
+
+  transition:
+    background 0.2s;
 }
 
 .btn-primary:hover {
   background-color: #ea580c;
 }
 
-.sidebar-footer {
-  padding-top: 20px;
-  z-index: 5;
+
+/* ======================================================
+   TABLET
+====================================================== */
+
+@media (max-width: 1023px) {
+  .latest-news-wrapper {
+    max-width: 90%;
+  }
+
+  .latest-news-grid {
+    grid-template-columns: 1fr;
+
+    gap: 45px;
+  }
+
+  .featured-news-column {
+    padding-right: 0;
+
+    border-right: 0;
+  }
+
+  .featured-news-card-grid {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+  }
+
+  .featured-month-item.active
+  .featured-month-inner {
+    max-height: 500px;
+  }
 }
 
-.decor-dots {
-  position: absolute;
-  bottom: 15px;
-  right: 15px;
-  width: 169px;
-  height: 165px;
-  /*background-image: url(/images/kce/logo-card/bule-card2.png);*/
 
-}
+/* ======================================================
+   MOBILE
+====================================================== */
 
 @media (max-width: 776px) {
   .latest-news-wrapper {
     max-width: 90%;
+
+    padding: 45px 0;
+  }
+
+  .latest-news-heading {
+    margin-bottom: 28px;
+  }
+
+  .featured-month-header {
+    min-height: 70px;
+
+    padding: 16px 0;
+  }
+
+  .featured-month-name {
+    font-size: 20px;
+  }
+
+  .featured-month-count {
+    width: 27px;
+    height: 27px;
+
+    flex-basis: 27px;
+
+    font-size: 11px;
+  }
+
+  .featured-month-toggle {
+    width: 35px;
+    height: 35px;
+
+    flex-basis: 35px;
+  }
+
+  .featured-news-card-grid {
+    grid-template-columns: 1fr;
+
+    gap: 28px;
+
+    padding:
+      5px 0
+      30px;
+  }
+
+  .featured-month-item.active
+  .featured-month-inner {
+    max-height: 440px;
+
+    padding-right: 6px;
+  }
+
+  .featured-card-title {
+    font-size: 16px;
+  }
+}
+
+
+/* ======================================================
+   SMALL MOBILE
+====================================================== */
+
+@media (max-width: 480px) {
+  .latest-news-wrapper {
+    max-width: 92%;
+  }
+
+  .featured-month-heading {
+    gap: 10px;
+  }
+
+  .featured-month-name {
+    font-size: 18px;
+  }
+
+  .featured-month-item.active
+  .featured-month-inner {
+    max-height: 400px;
+  }
+
+  .featured-card-image {
+    border-radius: 5px;
   }
 }

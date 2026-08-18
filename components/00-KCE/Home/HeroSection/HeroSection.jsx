@@ -12,6 +12,7 @@ export default function HeroSection() {
       <BackgroundSlider
         images={[
            "/images/kce/home/banner/kce-b1.png",
+             "/images/kce/home/banner/kce-b2.png",
           "/images/kce/home/banner/b1.jpg",
           "/images/kce/home/banner/banner-img2.webp",
           "/images/kce/home/banner/banner-img3.webp",

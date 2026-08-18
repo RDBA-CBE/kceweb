@@ -57,12 +57,12 @@ const Footer = () => {
   const INFO_ABOUT = {
     title: "INFORMATION ABOUT",
     links: [
-      { label: "Our Campus", href: "/infrastructure/" },
-      { label: "Cafeteria", href: "/infrastructure/cafeteria/" },
-      { label: "Programmes Offered", href: "/courses-offered/" },
+     // { label: "Our Campus", href: "/infrastructure/" },
+     // { label: "Cafeteria", href: "/infrastructure/cafeteria/" },
+     // { label: "Programmes Offered", href: "/courses-offered/" },
       { label: "Academic Calendar", href: "/academic-calendar/" },
       { label: "Sports Facilities", href: "/sports-facilities/" },
-      { label: "Auditorium", href: "/auditorium/" },
+     // { label: "Auditorium", href: "/auditorium/" },
       { label: "E-FACILITY", href: "/e-facility/" },
 
       {
@@ -105,15 +105,15 @@ const Footer = () => {
         label: "Karpagam Information & Admission Center's",
         href: "/karpagam-information-admission-centers/",
       },
-      {
-        label: "News and Events",
-        href: "https://learn.kce.ac.in/category/news-event/",
-        target: "_blank",
-      },
+      // {
+      //   label: "News and Events",
+      //   href: "https://learn.kce.ac.in/category/news-event/",
+      //   target: "_blank",
+      // },
       { label: "Applications FAQ", href: "#" },
-      { label: "Media", href: "/photo-gallery/" },
-      { label: "Alumni Success Stories", href: "/alumni-success-stories/" },
-      { label: "Placement", href: "/placement-overview/" },
+      // { label: "Media", href: "/photo-gallery/" },
+      // { label: "Alumni Success Stories", href: "/alumni-success-stories/" },
+      // { label: "Placement", href: "/placement-overview/" },
       { label: "Hostel", href: "/infrastructure/hostel/" },
       { label: "Blog", href: "https://learn.kce.ac.in/", target: "_blank" },
       {

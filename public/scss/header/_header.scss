@@ -431,7 +431,7 @@
 
 .kce-hdr__tnea-label {
   font-size: 1.7rem;
-  color: #33475b;
+  color: #000;
   font-weight: 600;
   // letter-spacing: 0.5px;
   margin: 0;
@@ -441,10 +441,10 @@
 .kce-hdr__tnea-code {
   font-size: 3.2rem;
   font-weight: 800;
-  color: #33475b;
+  color: #c34f00;
   margin: 0;
   line-height: 0.9;
-  letter-spacing: -1px;
+  letter-spacing: -1px; text-align:center;
 }
 
 /* Contact Item Styling */
@@ -452,13 +452,13 @@
   display: flex;
   align-items: center;
   gap: 1rem;
-  color: #1a1a1a;
-  font-weight: 400;
+  color: #181818;
+  font-weight: 600;
   font-size: 15px;
 }
 
 .kce-hdr__icon {
-  color: #33475b;
+  color: #c34f00; font-weight: 600;
 }
 
 /* Social Icons Strip */
@@ -476,7 +476,7 @@
 }
 
 .kce-hdr__social-link:hover {
-  color: #cc6926;
+  color: #c34f00;
   transform: translateY(-2px);
 }
 
