@@ -53,11 +53,11 @@ const Header = ({ gapSpaceBetween, sticky, navigationEnd, container }) => {
                   <h1 className="kce-hdr__tnea-code">2710</h1>
                 </div>
               </div>
-                <div className="kce-hdr__section">
+                {/* <div className="kce-hdr__section">
                 <div className="kce-hdr__tnea">
                 <a className="small-blink-btn rbt-btn hover-icon-reverse mt-4" href="https://admission.kce.ac.in/" target="_blank">Admission Open</a>
                 </div>
-              </div>
+              </div> */}
             
             </div>
             <div

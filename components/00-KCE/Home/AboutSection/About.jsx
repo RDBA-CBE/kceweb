@@ -6,16 +6,20 @@ import RichText from '../../DepartmentCompoennts/RichText';
 const About = ({ data = {} }) => {
   // Destructure with fallbacks to avoid "undefined" errors
   const { 
-    topText = "KCE was established with the vision of providing cutting edge technical education and to create proficient engineers. The college is accredited by NAAC with ‘A+’ Grade, TCS, Wipro and NBA . KCE strives to impart quality education and an excellent career start to all its students.", 
+    topText = "Karpagam College of Engineering established in the year 2000 by Dr.R.Vasanthakumar an enterprising industrialist and renowned philanthropist with the vision of providing cutting edge technical education and to create proficient engineers. It is an Autonomous Institution, affiliated to Anna University, Chennai. The institution  is ISO:9001:2015 certified, NBA Accreditation (CIVIL, CSE, ECE, EEE, IT and MECH) and  accredited by NAAC with ‘A+’ Grade. The Institution is ranked in the 201-300 band among Engineering colleges in India by the MHRD-National Institutional Ranking Framework 2025. The Institution offers 9 UG Programmes and 2 PG Programmes with Industry-drafted Choice Based Credit System (CBCS) curriculum and syllabi. The Institution is bestowed with world-class facilities, including state-of-the-art laboratories, smart classrooms, and amazing infrastructure, making it the apt place for young engineers to realize their dreams.", 
     bottomText = "", 
     imageSrc = "/images/kce/home/about-us1.webp", 
     logos = [
-        { src: "/images/kce/home/logo/naac.webp", alt: "NAAC" },
+        { src: "/images/kce/home/logo/naac+.webp", alt: "NAAC+" },
         { src: "/images/kce/home/logo/nba.webp", alt: "NBA" },
         { src: "/images/kce/home/logo/aicte.webp", alt: "AICTE" },
         { src: "/images/kce/home/logo/anna-university.webp", alt: "Anna University" },
         { src: "/images/kce/home/logo/iso2015.webp", alt: "ISO 9001-2015" },
         { src: "/images/kce/home/logo/iso14001.webp", alt: "ISO 14001-2015" },
+        { src: "/images/kce/home/logo/nirf.webp", alt: "NIRF" },
+        { src: "/images/kce/home/logo/center-of-research.webp", alt: "Center of Research" }, 
+        { src: "/images/kce/home/logo/mhrds.webp", alt: "MHRD'S Innovation Cell" },   
+        { src: "/images/kce/home/logo/UGC.webp", alt: "MHRD'S Innovation Cell" }, 
     ] 
   } = data;
 

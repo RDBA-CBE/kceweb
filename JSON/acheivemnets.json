@@ -16,7 +16,7 @@
             "image": "/images/kce/home/student-achievements/6.png",
             
             "mainTitle": "WINNERS",
-            "mainTitleColor": "#CC6926",
+            "mainTitleColor": "#c34f00",
             "title": "NATIONAL WELDING LEAGUE OF WOMEN STUDENTS (NWL 2026).",
             "subTitle": "Conducted by Fronius & C.V. Raman Global University held on 8th March 2026, Odisha."
           },
@@ -37,7 +37,7 @@
           {
             "image": "/images/kce/home/student-achievements/2.png",
             "mainTitle": "WINNERS",
-            "mainTitleColor": "#CC6926",
+            "mainTitleColor": "#c34f00",
             "title": "TANCAM'S HACKATHON FOR WOMEN IN SCIENCE & ENGINEERING (TNWISE)"
           },
           {
@@ -45,7 +45,7 @@
            
             "badge": "Civil Engineering students",
             "mainTitle": "WON 1ST PRIZE",
-            "mainTitleColor": "#CC6926",
+            "mainTitleColor": "#c34f00",
             "title": "BUILD THE FUTURE BIM CONTEST 2025",
             "subTitle": "Awarded the Excellence Award in the Build the Future BIM Contest 2025",
             "description": "Organised by L&T EduTech and Autodesk.",
@@ -58,7 +58,7 @@
             "image": "/images/kce/home/student-achievements/8.png",
             
             "mainTitle": "TOP 20 GLOBAL FINALISTS",
-            "mainTitleColor": "#CC6926",
+            "mainTitleColor": "#c34f00",
             "title": "YUVA GLOBAL YOUTH CHALLENGE at the AIMPACT SUMMIT, New Delhi.",
             "subTitle": "Distinguished for their intellectual prowess, our students emerged as",
             "description": "Their successful presentation of high-impact AI frameworks marks a definitive milestone in our journey toward global academic and technological excellence."
@@ -68,7 +68,7 @@
            
             "badge": "GLOBAL IMMERSION PROGRAM",
             "mainTitle": "2ND PLACE",
-            "mainTitleColor": "#CC6926",
+            "mainTitleColor": "#c34f00",
             "title": "AIESEC-H4FT IDEATHON conducted in De Montfort University – Dubai",
             "subTitle": "Our Students won",
             "logos": [
@@ -79,7 +79,7 @@
             "image": "/images/kce/home/student-achievements/10.png",
             
             "mainTitle": "Won the National-Level Hackathon",
-            "mainTitleColor": "#CC6926",
+            "mainTitleColor": "#c34f00",
             "subTitle": "Our III Year Students have",
             "description": "Jointly organized by IIT Kharagpur Alumni Association & Shiv Nadar University."
             
@@ -89,7 +89,7 @@
             
             "badge": "HCL GUVI – INDIA AI IMPACT BUILDATHON 2026",
             "mainTitle": "TOP 2% NATIONAL FINALIST",
-            "mainTitleColor": "#CC6926",
+            "mainTitleColor": "#c34f00",
             "title": "THE INDIA AI IMPACT BUILDATHON 2026",
             "subTitle": "Our student team emerged as",
             "description": "Selected from 42,000+ nationwide, advanced to Top 200, competed in National AI Buildathon at Bharat Mandapam, New Delhi."
@@ -99,7 +99,7 @@
             
             "badge": "AI by HER",
             "mainTitle": "INDIA AI IMPACT SUMMIT 2026",
-            "mainTitleColor": "#CC6926",
+            "mainTitleColor": "#c34f00",
             "subTitle": "Our student team emerged as",
             "list": [
               "Among the World's Top 1.5% at the AI by HER – Global Impact Challenge, India AI Impact Summit 2026, New Delhi.",
@@ -107,26 +107,13 @@
               "Secured World-Class Mentorship, Capital Support and Innovation Opportunities."
             ]
           },
-          {
-            "image": "/images/kce/home/student-achievements/4.png",
-            
-            "badge": "AI by HER",
-            "mainTitle": "INDIA AI IMPACT SUMMIT 2026",
-            "mainTitleColor": "#CC6926",
-            "subTitle": "Our student team emerged as",
-            "description": "Among the World's Top 1.5% at the AI by HER – Global Impact Challenge, India AI Impact Summit 2026, New Delhi.",
-            "list": [
-              "Selected from 8,500+ Global Submissions.",
-              "Earning International Recognition for Strategically Significant Women-Led AI Innovation.",
-              "Unlocked Funding Opportunities, Supported by Active Investor Engagement and Strategic Industry Partnerships."
-            ]
-          },
+         
           {
             "image": "/images/kce/home/student-achievements/1.png",
             
             "badge": "A proud achievement for our institution!",
             "mainTitle": "FIRST PRIZE",
-            "mainTitleColor": "#CC6926",
+            "mainTitleColor": "#c34f00",
             "title": "\"AGENTIC AMONG US\" HACKATHON at IIT DELHI",
             "subTitle": "NATIONAL WINNERS — our students secured",
             "description": "Competing against top IITs, NITs, and premier institutions across India, Team Duo Vance emerged as National Champions. Their autonomous AI agent showcased outstanding strategic reasoning, adaptability, and intelligent decision-making in a live multi-agent simulation.",
@@ -138,7 +125,7 @@
             "image": "/images/kce/home/student-achievements/12.png",
             
             "mainTitle": "ACHIEVERS in HackWithInfy",
-            "mainTitleColor": "#CC6926",
+            "mainTitleColor": "#c34f00",
             "title": "NATIONAL-LEVEL HACKATHON conducted by INFOSYS",
             "subTitle": "Our students emerged as",
             "description": "Demonstrating exceptional innovation, coding expertise and problem-solving skills among the best young developers in the country.",

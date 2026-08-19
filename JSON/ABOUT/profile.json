@@ -11,16 +11,19 @@
   "pageTitle": "About Karpagam College of Engineering",
 
   "intro": [
-    "The Karpagam College of Engineering, established in the Year 2000, is an Autonomous institution, Approved by AICTE, New Delhi and Affiliated to Anna University, Chennai. The college offers various Under Graduate and Post Graduate Engineering programmes.The College is accredited by NAAC with ‘A+’ Grade, TCS and Wipro with 4500 students and 426 teaching and non-teaching staff members, Karpagam College of Engineering strives to impart quality education and an excellent career start to all its students."
+    "Established in 2000 by Dr. R. Vasanthakumar, an enterprising industrialist and renowned philanthropist, Karpagam College of Engineering (KCE) was founded with a vision to provide cutting-edge technical education and nurture proficient engineers equipped to meet the evolving needs of industry and society. ",
+    "KCE is an Autonomous Institution affiliated with Anna University, Chennai, committed to academic excellence, innovation, research, and holistic student development. The institution is <b>ISO 9001:2015 certified and accredited by NAAC with an ‘A+’ Grade.</b> KCE has also been <b>ranked in the 201–300 band among Engineering Institutions in India</b> in the NIRF 2025 Rankings. The programmes in Civil Engineering, Computer Science and Engineering, Electronics and Communication Engineering, Electrical and Electronics Engineering, Information Technology, and Mechanical Engineering are <b>accredited by the National Board of Accreditation (NBA).</b>",
+    "The institution currently offers 9 Undergraduate and 2 Postgraduate programmes, supported by an industry-drafted Choice Based Credit System (CBCS) curriculum and syllabi. The academic framework emphasizes outcome-based education, experiential learning, interdisciplinary exposure, and strong industry engagement, enabling students to develop the technical competence and professional skills required for successful careers.",
+     "KCE is accredited and recognized by leading <b>industry organizations such as Accenture, TCS, and Wipro,</b> reflecting the institution's strong alignment with industry standards and professional requirements. These associations provide students with valuable opportunities for industry exposure, skill development, internships, projects, certifications, and career advancement.",
+      "KCE provides a stimulating learning environment supported by <b>state-of-the-art laboratories,</b> smart classrooms, advanced computing facilities, modern workshops, research facilities, and comprehensive campus infrastructure."
   ],
 
   "imageSection": {
     "image": "/images/kce/about/1.png",
     "content": [
-      "The Placement and Training facilities add a feather to its cap ensuring the students get placed on campus.",
-      "The 10 Centers of Excellence strive to impart practical and experimental exposure to the students and serve as a window to the corporate world.",
-      "The College is situated at Myleripalayam, 15 kms from Coimbatore Central Railway station. The serene location surrounded by green fields and rich clusters of coconut groves creates a calm atmosphere conducive to learning and growth.",
-      "Infrastructure with well-equiped laboratories and libraries, well maintained Playgrounds, Hostels, Food Court, Gymnasium and an Indoor Stadium."
+           "The institution has established a robust innovation and incubation ecosystem that encourages students and faculty to transform ideas and theoretical knowledge into innovative and commercially viable solutions.",
+      "KCE's extensive international relations and collaboration network provides students with opportunities for global internships, collaborative research, international academic programmes, joint pathway initiatives, and cross-cultural learning experiences.",
+      "With a vibrant <b>community of 6000+ students and 18,000+ alumni, Karpagam College of Engineering</b> has built a strong and dynamic academic community. Our students represent the future, while our alumni serve as ambassadors of the institution <b>across industries, organizations, and global professional networks.</b>"
     ]
   },
 
@@ -36,18 +39,16 @@
       {
         "type": "list",
         "items": [
-          "Accredited by Accenture, TCS and WIPRO",
-          "Industry based Curriculum",
-          "Autonomous Learning Environment",
-          "Successful Placement and Training cell",
-          "Built up space of 7-lakh sq.ft",
-          "MoU with EMC2, Hexaware, INFOSYS, IBM, Oracle, UTL Technologies & Microchip, Tech Mahindra",
-          "60 state-of-the-art laboratories.",
-          "A network of 1996 computers with 2 Gbps internet facility.",
-          "Experienced and Qualified Faculty Members.",
-          "Fleet of 21 Buses connecting various part of the City & Pollachi.",
-          "Innovative Teaching Learning process",
-          "Auditorium to seat 2000 students"
+          "Offers 9 Undergraduate & 2 Postgraduate Programmes",
+          "Industry-Drafted CBCS Curriculum aligned with emerging industry requirements",
+          "Outcome-Based Education (OBE) with experiential and interdisciplinary learning",
+          "Industry Accreditation & Recognition from leading organizations including Accenture, TCS and Wipro",
+          "Strong opportunities for Internships, Industry Projects, Certifications and Career Development",
+          "State-of-the-Art Laboratories and Advanced Research Facilities support experiential learning, innovation, experimentation, and cutting-edge research. ",
+          "Smart Classrooms and Advanced Computing Infrastructure for interactive and immersive learning.",
+          "Empower students to excel in hackathons, industry certifications, careers, and the global technology landscape.",
+          "Robust Innovation and Incubation Ecosystem promoting entrepreneurship and commercialization",
+          "International Exposure  and Cross-Cultural Learning through  Global Internships, Collaborative Research and Joint Pathway Programmes"
         ]
       }
     ]
