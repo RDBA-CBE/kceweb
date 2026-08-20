@@ -98,3 +98,462 @@
     padding: 5px !important;
   }
 }
+
+
+/* =========================================================
+   RESPONSIVE FIX
+   ADD THIS AT THE VERY END OF HeroSection.css
+   Existing desktop design remains unchanged above 1366px
+========================================================= */
+
+
+/* =========================================================
+   1200px - 1366px
+   SMALL DESKTOP / LAPTOP
+========================================================= */
+
+@media (min-width: 1200px) and (max-width: 1366px) {
+
+  .hero-bottom {
+    padding: 0 !important;
+    gap: 0 !important;
+  }
+
+  /* ---------- Stats ---------- */
+
+  .stats-box {
+    width: 50%;
+    max-width: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 0 !important;
+
+    padding: 12px 18px 12px 30px !important;
+
+    border-radius: 0 28px 0 0;
+    box-sizing: border-box;
+  }
+
+  .stat-card-inn {
+    flex: 1 1 0;
+    min-width: 0;
+
+    padding: 4px 12px !important;
+
+    text-align: center;
+    justify-content: center;
+    align-items: center !important;
+  }
+
+  .stat-number {
+    font-size: 30px !important;
+    line-height: 1.1;
+    white-space: nowrap;
+  }
+
+  .stat-label {
+    font-size: 12px !important;
+    line-height: 1.2;
+
+    /* Stops LPA - MAX SALARY breaking */
+    white-space: nowrap !important;
+  }
+
+
+  /* ---------- CTA ---------- */
+
+  .cta-box {
+    width: 50%;
+    max-width: 50%;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    gap: 6px !important;
+
+    min-width: 0;
+  }
+
+  .cta-box > * {
+    flex: 1 1 0;
+    min-width: 0;
+  }
+
+  .action-btn {
+    width: 100%;
+
+    padding: 12px 7px !important;
+
+    font-size: 10px !important;
+
+    text-align: center;
+
+    white-space: nowrap;
+
+    border-radius: 8px 8px 0 0;
+  }
+}
+
+
+
+/* =========================================================
+   992px - 1199px
+   TABLET LANDSCAPE / SMALL LAPTOP
+========================================================= */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  .hero-bottom {
+    width: 100%;
+
+    display: flex !important;
+    flex-direction: row !important;
+
+    justify-content: space-between;
+    align-items: flex-end;
+
+    bottom: 0 !important;
+
+    padding: 0 !important;
+    gap: 0 !important;
+  }
+
+
+  /* ---------- Stats ---------- */
+
+  .stats-box {
+    width: 56%;
+    max-width: 56%;
+
+    display: flex;
+    flex-wrap: nowrap !important;
+
+    gap: 0 !important;
+
+    padding: 12px 15px !important;
+
+    border-radius: 0 24px 0 0;
+
+    box-sizing: border-box;
+  }
+
+  .stat-card-inn {
+    flex: 1 1 33.333%;
+    min-width: 0;
+
+    padding: 5px 8px !important;
+
+    align-items: center !important;
+    text-align: center;
+  }
+
+  .stat-number {
+    font-size: 27px !important;
+    white-space: nowrap;
+  }
+
+  .stat-label {
+    font-size: 10px !important;
+    line-height: 1.15;
+
+    white-space: nowrap !important;
+  }
+
+
+  /* ---------- CTA ---------- */
+
+  .cta-box {
+    width: 44%;
+    max-width: 44%;
+
+    display: grid !important;
+
+    /* 2 x 2 layout */
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    gap: 5px !important;
+
+    padding: 0 5px 5px 5px;
+
+    box-sizing: border-box;
+  }
+
+  .cta-box > * {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .action-btn {
+    width: 100%;
+
+    padding: 10px 5px !important;
+
+    font-size: 9px !important;
+    line-height: 1.15;
+
+    text-align: center;
+
+    white-space: normal !important;
+
+    min-height: 38px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+
+
+/* =========================================================
+   769px - 991px
+   TABLET
+========================================================= */
+
+@media (min-width: 769px) and (max-width: 991px) {
+
+  .hero-bottom {
+    width: 100%;
+
+    display: flex !important;
+    flex-direction: column !important;
+
+    align-items: stretch !important;
+
+    bottom: 0 !important;
+
+    padding: 0 !important;
+    gap: 0 !important;
+  }
+
+
+  /* ---------- Stats ---------- */
+
+  .stats-box {
+    width: 68% !important;
+    max-width: 68%;
+
+    display: flex;
+
+    align-self: flex-start;
+
+    flex-wrap: nowrap !important;
+
+    gap: 0 !important;
+
+    padding: 10px 12px !important;
+
+    border-radius: 0 22px 0 0;
+  }
+
+  .stat-card-inn {
+    flex: 1 1 0;
+    min-width: 0;
+
+    padding: 5px 8px !important;
+
+    align-items: center !important;
+    text-align: center;
+  }
+
+  .stat-number {
+    font-size: 25px !important;
+  }
+
+  .stat-label {
+    font-size: 9px !important;
+
+    white-space: nowrap !important;
+  }
+
+
+  /* ---------- CTA ---------- */
+
+  .cta-box {
+    width: 100% !important;
+
+    display: grid !important;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+
+    gap: 5px !important;
+
+    padding: 5px;
+
+    box-sizing: border-box;
+
+    background: transparent;
+  }
+
+  .action-btn {
+    width: 100%;
+
+    padding: 9px 4px !important;
+
+    font-size: 9px !important;
+
+    white-space: normal !important;
+
+    text-align: center;
+  }
+}
+
+
+
+/* =========================================================
+   MOBILE
+   Overrides your existing max-width:768px block only
+========================================================= */
+
+@media (max-width: 768px) {
+
+  .hero-bottom {
+    position: absolute;
+
+    left: 0;
+    right: 0;
+    bottom: 0 !important;
+
+    width: 100%;
+
+    flex-direction: column !important;
+    align-items: stretch !important;
+
+    padding: 0 !important;
+
+    gap: 0 !important;
+  }
+
+
+  /* ---------- Stats ---------- */
+
+  .stats-box {
+    width: calc(100% - 20px) !important;
+
+    margin: 0 auto;
+
+    display: flex !important;
+    flex-wrap: nowrap !important;
+
+    justify-content: space-between;
+
+    gap: 0 !important;
+
+    padding: 10px 4px !important;
+
+    border-radius: 10px 10px 0 0;
+
+    box-sizing: border-box;
+  }
+
+  .stat-card-inn {
+    flex: 1 1 33.333%;
+
+    min-width: 0;
+
+    padding: 4px !important;
+
+    align-items: center !important;
+
+    text-align: center;
+  }
+
+  .stat-number {
+    font-size: 25px !important;
+    line-height: 1.1;
+
+    white-space: nowrap;
+  }
+
+  .stat-label {
+    font-size: 9px !important;
+    line-height: 1.15;
+
+    white-space: normal !important;
+  }
+
+
+  /* ---------- CTA ---------- */
+
+  .cta-box {
+    width: 100% !important;
+
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    gap: 6px !important;
+
+    padding: 8px 10px 10px;
+
+    box-sizing: border-box;
+
+    justify-content: initial !important;
+  }
+
+  .cta-box > * {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .action-btn {
+    width: 100%;
+
+    min-height: 38px;
+
+    padding: 8px 5px !important;
+
+    font-size: 9px !important;
+    line-height: 1.15;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    white-space: normal !important;
+
+    border-radius: 7px;
+  }
+}
+
+
+
+/* =========================================================
+   VERY SMALL MOBILE
+========================================================= */
+
+@media (max-width: 500px) {
+
+  .stats-box {
+    width: calc(100% - 16px) !important;
+
+    padding: 8px 2px !important;
+  }
+
+  .stat-card-inn {
+    padding: 3px !important;
+    align-items: center !important;
+  }
+
+  .stat-number {
+    font-size: 23px !important;
+  }
+
+  .stat-label {
+    font-size: 8px !important;
+  }
+
+  .cta-box {
+    padding: 7px 8px 9px;
+    gap: 5px !important;
+  }
+
+  .action-btn {
+    font-size: 8px !important;
+    padding: 8px 3px !important;
+  }
+}

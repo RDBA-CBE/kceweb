@@ -1,27 +1,54 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 import "./BackgroundSlider.css";
 
-export default function BackgroundSlider({ images }) {
-  const [index, setIndex] = useState(0);
+export default function BackgroundSlider({
+  images = [],
+  interval = 5000,
+}) {
+  const [current, setCurrent] = useState(0);
 
   useEffect(() => {
-    const interval = setInterval(() => {
-      setIndex((prev) => (prev + 1) % images.length);
-    }, 4000);
-    return () => clearInterval(interval);
-  }, [images.length]);
+    if (!images || images.length <= 1) return;
+
+    const timer = setInterval(() => {
+      setCurrent((prev) => (prev + 1) % images.length);
+    }, interval);
+
+    return () => clearInterval(timer);
+  }, [images, interval]);
+
+  if (!images || images.length === 0) {
+    return null;
+  }
 
   return (
-    <div className="bg-slider">
-      {images.map((img, i) => (
-        <img
-          key={i}
-          src={img}
-          className={`bg-slide ${i === index ? "active" : ""}`}
-          alt=""
-        />
+    <div className="background-slider">
+      {images.map((image, index) => (
+        <div
+          key={`${image}-${index}`}
+          className={`background-slide ${
+            index === current ? "active" : ""
+          }`}
+        >
+          {/* Blurred background prevents empty space */}
+          <div
+            className="background-slide-blur"
+            style={{
+              backgroundImage: `url("${image}")`,
+            }}
+          />
+
+          {/* Actual banner - NEVER CROPPED */}
+          <img
+            src={image}
+            alt=""
+            className="background-slide-image"
+            loading={index === 0 ? "eager" : "lazy"}
+            draggable="false"
+          />
+        </div>
       ))}
     </div>
   );

@@ -1,18 +1,420 @@
-.bg-slider {
-  position: absolute;
-  inset: 0;
+/* ================================
+   FINAL HERO BANNER FIX
+================================ */
+
+.hero {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+
+  /* Match your wide banner proportions */
+  aspect-ratio: 2.55 / 1;
+
+  height: auto !important;
+  min-height: 0 !important;
 }
 
-.bg-slide {
+
+/* Slider */
+.background-slider {
   position: absolute;
   inset: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
-  opacity: 0;
-  transition: opacity 1s ease-in-out;
+  overflow: hidden;
 }
 
-.bg-slide.active {
+
+/* Slide */
+.background-slide {
+  position: absolute;
+  inset: 0;
+
+  width: 100%;
+  height: 100%;
+
+  opacity: 0;
+  visibility: hidden;
+
+  transition: opacity 0.8s ease;
+}
+
+.background-slide.active {
   opacity: 1;
+  visibility: visible;
+}
+
+
+/* REMOVE blurred side background */
+.background-slide-blur {
+  display: none !important;
+}
+
+
+/* Remove dark overlay if previously added */
+.background-slide::after {
+  display: none !important;
+}
+
+/* ==========================================
+   FIX 1PX WHITE LINE LEFT / RIGHT
+========================================== */
+
+.hero,
+.background-slider,
+.background-slide {
+  background-color: #061b3a; /* banner navy fallback */
+}
+
+.background-slider {
+  overflow: hidden !important;
+}
+
+.background-slide {
+  overflow: hidden !important;
+}
+
+/* Actual banner */
+.background-slide-image {
+  position: absolute !important;
+
+  top: 0;
+  bottom: 0;
+
+  /* extend only 1px on both sides */
+  left: -1px !important;
+  right: -1px !important;
+
+  width: calc(100% + 2px) !important;
+  height: 100% !important;
+
+  max-width: none !important;
+
+  object-fit: contain !important;
+  object-position: center center !important;
+
+  display: block !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  border: 0 !important;
+}
+/* Actual banner */
+.background-slide-image {
+  position: absolute;
+  inset: 0;
+
+  width: 100% !important;
+  height: 100% !important;
+
+  display: block;
+
+  object-fit: contain !important;
+  object-position: center center !important;
+
+  transform: none !important;
+}
+
+
+/* Stats / CTA stay above banner */
+.hero-bottom {
+  position: absolute;
+  z-index: 10;
+
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+
+/* ================================
+   LAPTOP
+================================ */
+
+@media (max-width: 1366px) {
+
+  .hero {
+    aspect-ratio: 2.45 / 1;
+  }
+}
+
+
+/* ================================
+   TABLET
+================================ */
+
+@media (max-width: 991px) {
+
+  .hero {
+    aspect-ratio: 2.1 / 1;
+  }
+
+}
+
+
+/* ================================
+   MOBILE
+================================ */
+
+@media (max-width: 767px) {
+
+  .hero {
+    aspect-ratio: 16 / 9;
+  }
+
+  .background-slide-image {
+    object-fit: contain !important;
+    object-position: center center !important;
+  }
+
+}
+
+
+/* ================================
+   SMALL MOBILE
+================================ */
+
+@media (max-width: 480px) {
+
+  .hero {
+    aspect-ratio: 16 / 10;
+  }
+
+}
+
+/* ============================================
+   REMOVE THIN LINE ON LEFT + RIGHT EDGE
+============================================ */
+
+.hero,
+.background-slider,
+.background-slide {
+  width: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+
+  /* Same dark tone as banner edges */
+  background-color: #061b3a;
+}
+
+.background-slide {
+  position: absolute;
+  inset: 0;
+  line-height: 0;
+}
+
+
+/* Actual banner */
+.background-slide-image {
+  position: absolute !important;
+
+  top: -1px !important;
+  left: -1px !important;
+
+  width: calc(100% + 2px) !important;
+  height: calc(100% + 2px) !important;
+
+  max-width: none !important;
+
+  display: block !important;
+
+  object-fit: contain !important;
+  object-position: center center !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+
+  /* Fix Chrome fractional pixel edge */
+  transform: scale(1.002);
+  transform-origin: center center;
+}
+
+/* =========================================================
+   MOBILE HERO FIX
+   Desktop remains unchanged
+========================================================= */
+
+@media (max-width: 767px) {
+
+  /* Hero should grow naturally on mobile */
+  .hero {
+    position: relative !important;
+    width: 100% !important;
+
+    height: auto !important;
+    min-height: 0 !important;
+    aspect-ratio: auto !important;
+
+    overflow: hidden !important;
+
+    background: #061b3a;
+  }
+
+
+  /* -----------------------------------------
+     BANNER AREA
+  ----------------------------------------- */
+
+  .background-slider {
+    position: relative !important;
+
+    top: auto !important;
+    right: auto !important;
+    bottom: auto !important;
+    left: auto !important;
+
+    width: 100% !important;
+
+    /* Use your banner proportion */
+    aspect-ratio: 1920 / 760;
+
+    height: auto !important;
+
+    overflow: hidden !important;
+
+    background: #061b3a;
+  }
+
+
+  .background-slide {
+    position: absolute !important;
+    inset: 0 !important;
+
+    width: 100% !important;
+    height: 100% !important;
+
+    overflow: hidden !important;
+  }
+
+
+  .background-slide-image {
+    position: absolute !important;
+
+    top: 0 !important;
+    left: 0 !important;
+
+    width: 100% !important;
+    height: 100% !important;
+
+    max-width: none !important;
+
+    display: block !important;
+
+    /* Full banner visible */
+    object-fit: contain !important;
+    object-position: center center !important;
+
+    transform: none !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+  }
+
+
+  /* -----------------------------------------
+     REMOVE BLUR / EXTRA BACKGROUND
+  ----------------------------------------- */
+
+  .background-slide-blur {
+    display: none !important;
+  }
+
+
+  .background-slide::after {
+    display: none !important;
+  }
+
+
+  /* -----------------------------------------
+     MOVE BOTTOM CONTENT BELOW BANNER
+  ----------------------------------------- */
+
+  .hero-bottom {
+    position: relative !important;
+
+    left: auto !important;
+    right: auto !important;
+    bottom: auto !important;
+
+    width: 100% !important;
+
+    z-index: 20;
+
+    display: block !important;
+
+    margin: 0 !important;
+  }
+
+
+  /* -----------------------------------------
+     STATISTICS
+  ----------------------------------------- */
+
+  .stats-box {
+    position: relative !important;
+
+    width: calc(100% - 24px) !important;
+
+    margin: -1px auto 0 !important;
+
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+
+    border-radius: 0 0 12px 12px !important;
+
+    overflow: hidden;
+
+    background: #fff;
+  }
+
+
+  .stats-box > * {
+    min-width: 0;
+  }
+
+
+  /* Stat numbers */
+  .stats-box .stat-value {
+    font-size: 25px !important;
+    line-height: 1.1 !important;
+  }
+
+
+  /* Stat labels */
+  .stats-box .stat-label {
+    font-size: 10px !important;
+    line-height: 1.25 !important;
+    white-space: normal !important;
+  }
+
+
+  /* -----------------------------------------
+     CTA BUTTON AREA
+  ----------------------------------------- */
+
+  .cta-box {
+    width: 100% !important;
+
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+
+    gap: 8px !important;
+
+    padding: 12px !important;
+
+    margin: 0 !important;
+
+    background: #061b3a;
+  }
+
+
+  .cta-box > * {
+    width: 100% !important;
+    min-width: 0 !important;
+    margin: 0 !important;
+  }
 }

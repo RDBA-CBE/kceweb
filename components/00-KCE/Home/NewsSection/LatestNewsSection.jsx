@@ -1,569 +1,883 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, {
+  useEffect,
+  useRef,
+  useState,
+} from 'react';
+
 import Link from 'next/link';
+
 import './LatestNews.css';
+
 
 const NEWS_URL =
   'https://learn.kce.ac.in/category/news-event/';
 
+
 /* ======================================================
-   GET MONTH / YEAR
+   FEATURED NEWS HORIZONTAL SLIDER
 ====================================================== */
 
-const getMonthLabel = (story) => {
-  // First use actual date
-  if (story.date) {
-    const parsedDate = new Date(story.date);
+const FeaturedNewsSlider = ({ stories }) => {
+  const sliderRef = useRef(null);
 
-    if (!Number.isNaN(parsedDate.getTime())) {
-      return parsedDate.toLocaleDateString('en-US', {
-        month: 'long',
-        year: 'numeric',
-      });
+  const [activeIndex, setActiveIndex] =
+    useState(0);
+
+
+  /* ====================================================
+     GET ALL CARDS
+  ==================================================== */
+
+  const getCards = () => {
+    if (!sliderRef.current) {
+      return [];
     }
-  }
 
-  // If date is empty, detect month/year from image URL
-  // Example:
-  // /uploads/2026/07/Picture1.png
-  const imageMatch = story.image?.match(
-    /\/(\d{4})\/(\d{2})\//
-  );
-
-  if (imageMatch) {
-    const year = Number(imageMatch[1]);
-    const month = Number(imageMatch[2]);
-
-    const parsedDate = new Date(
-      year,
-      month - 1,
-      1
-    );
-
-    return parsedDate.toLocaleDateString(
-      'en-US',
-      {
-        month: 'long',
-        year: 'numeric',
-      }
-    );
-  }
-
-  return 'Other News';
-};
-
-/* ======================================================
-   SORT MONTHS - LATEST FIRST
-====================================================== */
-
-const getMonthSortValue = (label) => {
-  if (label === 'Other News') {
-    return 0;
-  }
-
-  const parsedDate = new Date(`1 ${label}`);
-
-  if (Number.isNaN(parsedDate.getTime())) {
-    return 0;
-  }
-
-  return parsedDate.getTime();
-};
-
-/* ======================================================
-   LEFT SIDE ACCORDION
-====================================================== */
-
-const FeaturedNewsAccordion = ({ stories }) => {
-  const groupedStories = stories.reduce(
-    (groups, story) => {
-      const month = getMonthLabel(story);
-
-      if (!groups[month]) {
-        groups[month] = [];
-      }
-
-      groups[month].push(story);
-
-      return groups;
-    },
-    {}
-  );
-
-  const months = Object.keys(groupedStories).sort(
-    (a, b) =>
-      getMonthSortValue(b) -
-      getMonthSortValue(a)
-  );
-
-  // Latest month opens automatically
-  const [activeMonth, setActiveMonth] = useState(
-    months[0] || ''
-  );
-
-  const toggleMonth = (month) => {
-    setActiveMonth((current) =>
-      current === month ? '' : month
+    return Array.from(
+      sliderRef.current.querySelectorAll(
+        '.featured-slider-card'
+      )
     );
   };
 
+
+  /* ====================================================
+     SCROLL TO SPECIFIC CARD
+  ==================================================== */
+
+  const scrollToCard = (index) => {
+    const slider = sliderRef.current;
+
+    if (!slider) return;
+
+
+    const cards = getCards();
+
+    if (!cards.length) return;
+
+
+    let nextIndex = index;
+
+
+    /* Loop slider */
+    if (nextIndex < 0) {
+      nextIndex = cards.length - 1;
+    }
+
+    if (nextIndex >= cards.length) {
+      nextIndex = 0;
+    }
+
+
+    const card = cards[nextIndex];
+
+
+    const sliderRect =
+      slider.getBoundingClientRect();
+
+    const cardRect =
+      card.getBoundingClientRect();
+
+
+    const targetLeft =
+      slider.scrollLeft +
+      cardRect.left -
+      sliderRect.left;
+
+
+    slider.scrollTo({
+      left: targetLeft,
+      behavior: 'smooth',
+    });
+
+
+    setActiveIndex(nextIndex);
+  };
+
+
+  /* ====================================================
+     PREVIOUS
+  ==================================================== */
+
+  const handlePrevious = () => {
+    scrollToCard(activeIndex - 1);
+  };
+
+
+  /* ====================================================
+     NEXT
+  ==================================================== */
+
+  const handleNext = () => {
+    scrollToCard(activeIndex + 1);
+  };
+
+
+  /* ====================================================
+     UPDATE ACTIVE INDEX WHEN USER SWIPES
+  ==================================================== */
+
+  const handleSliderScroll = () => {
+    const slider = sliderRef.current;
+
+    if (!slider) return;
+
+
+    const cards = getCards();
+
+    if (!cards.length) return;
+
+
+    const sliderRect =
+      slider.getBoundingClientRect();
+
+
+    let closestIndex = 0;
+
+    let smallestDistance =
+      Number.POSITIVE_INFINITY;
+
+
+    cards.forEach((card, index) => {
+      const cardRect =
+        card.getBoundingClientRect();
+
+
+      const distance = Math.abs(
+        cardRect.left -
+        sliderRect.left
+      );
+
+
+      if (
+        distance <
+        smallestDistance
+      ) {
+        smallestDistance =
+          distance;
+
+        closestIndex = index;
+      }
+    });
+
+
+    setActiveIndex(
+      closestIndex
+    );
+  };
+
+
+  /* ====================================================
+     RESET TO FIRST CARD WHEN DATA CHANGES
+  ==================================================== */
+
+  useEffect(() => {
+    setActiveIndex(0);
+
+    if (sliderRef.current) {
+      sliderRef.current.scrollLeft = 0;
+    }
+  }, [stories]);
+
+
   return (
-    <div className='featured-news-area'>
-      {/* ACCORDION */}
-      <div className='featured-news-accordion'>
-        {months.map((month) => {
-          const items = groupedStories[month];
-          const isOpen =
-            activeMonth === month;
+    <div className="featured-slider-area">
 
-          return (
-            <div
-              key={month}
-              className={`featured-month-item ${
-                isOpen ? 'active' : ''
-              }`}
-            >
-              {/* MONTH HEADER */}
+      {/* ================================================
+          HEADER
+      ================================================= */}
 
-              <button
-                type='button'
-                className='featured-month-header'
-                onClick={() =>
-                  toggleMonth(month)
-                }
-                aria-expanded={isOpen}
-              >
-                <div className='featured-month-heading'>
-                  <span className='featured-month-name'>
-                    {month}
-                  </span>
+      <div className="featured-slider-header">
 
-                  <span className='featured-month-count'>
-                    {items.length}
-                  </span>
-                </div>
+        <div className="featured-slider-heading-content">
 
-                <span
-                  className='featured-month-toggle'
-                  aria-hidden='true'
-                >
-                  <span></span>
-                  <span></span>
-                </span>
-              </button>
+       
 
-              {/* MONTH CONTENT */}
+        </div>
 
-              <div className='featured-month-content'>
-                <div className='featured-month-inner'>
-                  <div className='featured-news-card-grid'>
-                    {items.map(
-                      (story, index) => (
-                        <article
-                          className='featured-news-card'
-                          key={`${story.title}-${index}`}
-                        >
-                          {/* IMAGE */}
 
-                          <div className='featured-card-image'>
-                            <img
-                              src={story.image}
-                              alt={story.title}
-                              loading='lazy'
-                            />
-                          </div>
+        {/* ================================================
+            CONTROLS
+        ================================================= */}
 
-                          {/* CONTENT */}
+        <div className="featured-slider-controls">
 
-                          <div className='featured-card-content'>
-                            {story.date && (
-                              <p className='featured-card-date'>
-                                {story.date}
-                              </p>
-                            )}
+          <div className="featured-slider-counter">
 
-                            <h3 className='featured-card-title'>
-                              {story.title}
-                            </h3>
+            <strong>
+              {String(
+                activeIndex + 1
+              ).padStart(2, '0')}
+            </strong>
 
-                            {story.description && (
-                              <p className='featured-card-description'>
-                                {
-                                  story.description
-                                }
-                              </p>
-                            )}
-                          </div>
-                        </article>
-                      )
-                    )}
-                  </div>
-                </div>
-              </div>
-            </div>
-          );
-        })}
+            <span className="counter-divider">
+              /
+            </span>
+
+            <span>
+              {String(
+                stories.length
+              ).padStart(2, '0')}
+            </span>
+
+          </div>
+
+
+          <button
+            type="button"
+            className="featured-slider-arrow"
+            onClick={handlePrevious}
+            aria-label="Previous news"
+          >
+            <i className="feather-arrow-left"></i>
+          </button>
+
+
+          <button
+            type="button"
+            className="featured-slider-arrow"
+            onClick={handleNext}
+            aria-label="Next news"
+          >
+            <i className="feather-arrow-right"></i>
+          </button>
+
+        </div>
+
       </div>
 
-      {/* ONE BUTTON AFTER COMPLETE ACCORDION */}
 
-      <div className='featured-news-footer'>
+      {/* ================================================
+          SLIDER
+      ================================================= */}
+
+      <div
+        ref={sliderRef}
+        className="featured-news-slider"
+        onScroll={handleSliderScroll}
+      >
+
+        {stories.map(
+          (story, index) => (
+
+            <article
+              key={`${story.title}-${index}`}
+              className="featured-slider-card"
+            >
+
+              {/* IMAGE */}
+
+              <div className="featured-slider-image">
+
+                <img
+                  src={story.image}
+                  alt={story.title}
+                  loading={
+                    index < 2
+                      ? 'eager'
+                      : 'lazy'
+                  }
+                />
+
+
+                <span className="featured-slider-number">
+
+                  {String(
+                    index + 1
+                  ).padStart(2, '0')}
+
+                </span>
+
+              </div>
+
+
+              {/* CONTENT */}
+
+              <div className="featured-slider-content">
+
+                {story.date && (
+
+                  <div className="featured-slider-date">
+
+                    <span className="featured-slider-date-icon">
+                      <i className="feather-calendar"></i>
+                    </span>
+
+                    <span>
+                      {story.date}
+                    </span>
+
+                  </div>
+
+                )}
+
+
+                <h3 className="featured-slider-card-title">
+                  {story.title}
+                </h3>
+
+
+                {story.description && (
+
+                  <p className="featured-slider-description">
+                    {story.description}
+                  </p>
+
+                )}
+
+              </div>
+
+            </article>
+
+          )
+        )}
+
+      </div>
+
+
+      {/* ================================================
+          PROGRESS
+      ================================================= */}
+
+      <div className="featured-slider-progress">
+
+        <div className="featured-slider-progress-track">
+
+          <span
+            className="featured-slider-progress-value"
+            style={{
+              width: `${
+                ((activeIndex + 1) /
+                  stories.length) *
+                100
+              }%`,
+            }}
+          />
+
+        </div>
+
+      </div>
+
+
+      {/* ================================================
+          FOOTER
+      ================================================= */}
+
+      <div className="featured-news-footer">
+
         <Link
           href={NEWS_URL}
-          className='kce-btn-primary rbt-btn hover-icon-reverse mt-4'
-          target='_blank'
-          rel='noopener noreferrer'
+          className="kce-btn-primary rbt-btn hover-icon-reverse"
+          target="_blank"
+          rel="noopener noreferrer"
         >
-          <span className='icon-reverse-wrapper'>
-            <span className='btn-text'>
-              Know More
+
+          <span className="icon-reverse-wrapper">
+
+            <span className="btn-text">
+              View All News
             </span>
 
-            <span className='btn-icon'>
-              <i className='feather-arrow-right'></i>
+            <span className="btn-icon">
+              <i className="feather-arrow-right"></i>
             </span>
 
-            <span className='btn-icon'>
-              <i className='feather-arrow-right'></i>
+            <span className="btn-icon">
+              <i className="feather-arrow-right"></i>
             </span>
+
           </span>
+
         </Link>
+
       </div>
+
     </div>
   );
 };
 
+
+
 /* ======================================================
-   RIGHT SIDE NEWS LIST
+   RIGHT SIDE EVENTS LIST
 ====================================================== */
 
-const NewsList = ({ events }) => (
-  <div className='news-list-sidebar'>
-    {/* NEW HEADING INSIDE BLUE BOX */}
+/* ======================================================
+   RIGHT SIDE EVENTS LIST
+====================================================== */
 
-    <h3 className='upcoming-events-title'>
-      Upcoming Events
-    </h3>
+const NewsList = ({ events }) => {
+  const shouldAnimate = events.length > 4;
 
-    <div className='ticker-wrapper'>
-      <div className='ticker-track'>
-        {/* Double array for seamless loop */}
+  const EventItems = () => (
+    <>
+      {events.map((event, index) => (
+        <div
+          key={`${event.title}-${index}`}
+          className="news-list-item"
+        >
+          <div className="news-list-date-box">
+            <span className="month">
+              {event.month}
+            </span>
 
-        {[...events, ...events].map(
-          (event, index) => (
-            <div
-              key={index}
-              className='news-list-item'
+            <span className="day">
+              {event.day}
+            </span>
+          </div>
+
+          <div className="news-list-item-content">
+            <a
+              href={event.url || NEWS_URL}
+              className="news-list-item-title"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              <div className='news-list-date-box'>
-                <span className='month'>
-                  {event.month}
-                </span>
+              {event.title}
+            </a>
+          </div>
+        </div>
+      ))}
+    </>
+  );
 
-                <span className='day'>
-                  {event.day}
-                </span>
-              </div>
+  return (
+    <div className="news-list-sidebar">
+      <div className="events-heading-area">       
 
-              <p className='news-list-item-title'>
-                {event.title}
-              </p>
+        <h3 className="events-title">
+          Upcoming Events
+        </h3>
+      </div>
+
+      <div
+        className={`ticker-wrapper ${
+          shouldAnimate ? "has-animation" : "no-animation"
+        }`}
+      >
+        {shouldAnimate ? (
+          <div className="ticker-track">
+            {/* First complete set */}
+            <div className="ticker-group">
+              <EventItems />
             </div>
-          )
+
+            {/* Exact duplicate for seamless loop */}
+            <div
+              className="ticker-group"
+              aria-hidden="true"
+            >
+              <EventItems />
+            </div>
+          </div>
+        ) : (
+          <div className="ticker-static">
+            <EventItems />
+          </div>
         )}
       </div>
+
+      <div className="sidebar-footer">
+        <a
+          href={NEWS_URL}
+          className="kce-btn-primary rbt-btn hover-icon-reverse"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span className="icon-reverse-wrapper">
+            <span className="btn-text">
+              More News
+            </span>
+
+            <span className="btn-icon">
+              <i className="feather-arrow-right"></i>
+            </span>
+
+            <span className="btn-icon">
+              <i className="feather-arrow-right"></i>
+            </span>
+          </span>
+        </a>
+      </div>
+
+      <div className="decor-dots"></div>
     </div>
+  );
+};
 
-    <div className='sidebar-footer'>
-      <Link
-        href={NEWS_URL}
-        className='kce-btn-primary rbt-btn hover-icon-reverse mt-4'
-        target='_blank'
-        rel='noopener noreferrer'
-      >
-        <span className='icon-reverse-wrapper'>
-          <span className='btn-text'>
-            More News
-          </span>
 
-          <span className='btn-icon'>
-            <i className='feather-arrow-right'></i>
-          </span>
-
-          <span className='btn-icon'>
-            <i className='feather-arrow-right'></i>
-          </span>
-        </span>
-      </Link>
-    </div>
-
-    <div className='decor-dots'></div>
-  </div>
-);
 
 /* ======================================================
    MAIN COMPONENT
 ====================================================== */
 
 export default function LatestNewsSection() {
+
+
+  /* ====================================================
+     ALL FEATURED NEWS
+  ==================================================== */
+
   const featuredStories = [
+
     {
       date: 'August 08, 2026',
+
       image:
         'https://learn.kce.ac.in/wp-content/uploads/2026/08/ChatGPT-Image-Aug-14-2026-06_07_05-PM.png',
+
       title:
         '22nd Graduation Ceremony – Class of 2025',
+
       description: '',
     },
 
+
     {
       date: 'July 25, 2026',
+
       image:
         'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture12.png',
+
       title:
         'Value Added Course on Embedded Intelligence – Department of Computer Science and Engineering',
+
       description: '',
     },
 
+
     {
       date: 'July 25, 2026',
+
       image:
         'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture11.png',
+
       title:
         'Career Awareness Program on Prompt Engineering Is Not Enough: The New Full-Stack of AI – Department of Information Technology',
+
       description: '',
     },
 
+
     {
       date: 'July 25, 2026',
+
       image:
         'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture10.png',
+
       title:
         'Strategies for Success in GATE and Competitive Examinations – Department of Electrical and Electronics Engineering',
+
       description: '',
     },
+
 
     {
       date: 'July 24, 2026',
+
       image:
         'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture9.png',
+
       title:
         'Future Trends in Information Technology and Career Opportunities – Department of Computer Science and Engineering (Cyber Security)',
+
       description: '',
     },
 
+
     {
       date: 'July 20, 2026',
+
       image:
         'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture8.png',
+
       title:
         'AI-Based Hands-on Training Organized by the Department of Artificial Intelligence and Data Science',
+
       description: '',
     },
 
+
     {
       date: 'July 20, 2026',
+
       image:
         'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture7.png',
+
       title:
         'Department of Computer Science and Engineering Organizes Hands-on Training on Foundation of AWS Cloud Platform',
+
       description: '',
     },
+
 
     {
       date: 'July 17, 2026',
+
       image:
         'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture6.png',
+
       title:
         'Women Development Cell and Department of Information Technology Organize Workshop on Breast & Cervical Cancer Awareness',
+
       description: '',
     },
 
+
     {
       date: 'July 11, 2026',
+
       image:
         'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture5-804x1024.png',
+
       title:
         'Department of Artificial Intelligence and Data Science Organizes Partial Industrial Delivery on Deep Learning',
+
       description: '',
     },
 
+
     {
       date: 'July 11, 2026',
+
       image:
         'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture4.png',
+
       title:
         'Research and Development Cell Organizes Hands-on Workshop on Patent Filing and Publication',
+
       description: '',
     },
+
 
     {
       date: 'July 8, 2026',
+
       image:
         'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture3.png',
+
       title:
         'The Karpagam Innovation Centre (KIC) Proudly Invites Students and Aspiring Entrepreneurs to Participate in STARTUP SPARK 2.0',
+
       description: '',
     },
 
+
     {
       date: '',
+
       image:
         'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture2-819x1024.png',
+
       title:
         'Launch of the Certificate Programme in Banking, Finance and Insurance (CBFI) by Bajaj Finserv for the Batch 2025–27',
+
       description: '',
     },
+
 
     {
       date: '',
+
       image:
         'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture1-823x1024.png',
+
       title:
         'Faculty members of Karpagam College of Engineering for the successful completion of the AICTE QIP PG Certificate Programme (January 2026 – June 2026)',
+
       description: '',
     },
+
   ];
 
-  const eventsData = [
-    {
-      month: 'JUN',
-      day: '30',
-      title:
-        'Workshop on "Bits to Qubits: A Hands-on Students Development Programme on Quantum Computing"',
-    },
 
-    {
-      month: 'JUL',
-      day: '08',
-      title:
-        'Student Development Programme: Launch of the Certificate Programme in Banking, Finance and Insurance (CBFI)',
-    },
 
-    {
-      month: 'JUL',
-      day: '11',
-      title: 'Start-Up Spark 2.0',
-    },
+  /* ====================================================
+     UPCOMING EVENTS
+  ==================================================== */
 
-    {
-      month: 'JUL',
-      day: '11',
-      title: 'Partial Industrial Delivery',
-    },
+const eventsData = [
+  {
+    month: 'SEP',
+    day: '11',
+    title: 'Hackverse 2.0 – External Hackathon',
+    url: 'https://learn.kce.ac.in/hackverse-2-0-external-hackathon/',
+  },
 
-    {
-      month: 'JUL',
-      day: '17',
-      title:
-        'Workshop on Pink Care Initiative Breast & Cervical Cancer Awareness',
-    },
+  {
+    month: 'AUG',
+    day: '21',
+    title:
+      'World Entrepreneur Day Revels & Inauguration of Startup Club',
+    url: 'https://learn.kce.ac.in/world-entrepreneur-day-revels-inauguration-of-startup-club/',
+  },
 
-    {
-      month: 'JUL',
-      day: '17',
-      title:
-        'Guest Lecture on Beyond OpenAI: Building Custom Analytics Engines on Open-Source AI',
-    },
+  
 
-    {
-      month: 'JUL',
-      day: '17',
-      title:
-        'Eco Care Club - Seed Balls Preparation Event',
-    },
+  // {
+  //   month: 'JUL',
+  //   day: '11',
+  //   title: 'Start-Up Spark 2.0',
+  //   url: '/start-up-spark-2-0',
+  // },
 
-    {
-      month: 'JUL',
-      day: '20',
-      title:
-        'Workshop on Foundation on AWS Cloud Platform',
-    },
+  // {
+  //   month: 'JUL',
+  //   day: '11',
+  //   title: 'Partial Industrial Delivery',
+  //   url: '/partial-industrial-delivery',
+  // },
 
-    {
-      month: 'JUL',
-      day: '20',
-      title:
-        'Workshop on AI-Based Hands-on Training',
-    },
+  // {
+  //   month: 'JUL',
+  //   day: '17',
+  //   title:
+  //     'Workshop on Pink Care Initiative Breast & Cervical Cancer Awareness',
+  //   url: '/pink-care-initiative',
+  // },
 
-    {
-      month: 'JUL',
-      day: '22',
-      title:
-        'Seminar on Predictive Modeling Frameworks: Deploying Regression Algorithms via Scikit-Learn',
-    },
+  // {
+  //   month: 'JUL',
+  //   day: '17',
+  //   title:
+  //     'Guest Lecture on Beyond OpenAI: Building Custom Analytics Engines on Open-Source AI',
+  //   url: '/beyond-openai',
+  // },
 
-    {
-      month: 'JUL',
-      day: '22',
-      title:
-        'Career Guidance Programme for Civil Engineering Students – KCEians By KCEian',
-    },
+  // {
+  //   month: 'JUL',
+  //   day: '17',
+  //   title: 'Eco Care Club - Seed Balls Preparation Event',
+  //   url: '/eco-care-club-seed-balls',
+  // },
 
-    {
-      month: 'JUL',
-      day: '23',
-      title:
-        'Workshop on Rebar Detailing and Bar Bending Schedule',
-    },
+  // {
+  //   month: 'JUL',
+  //   day: '20',
+  //   title: 'Workshop on Foundation on AWS Cloud Platform',
+  //   url: '/aws-cloud-platform',
+  // },
 
-    {
-      month: 'JUL',
-      day: '24',
-      title:
-        'Association and Club Inauguration',
-    },
+  // {
+  //   month: 'JUL',
+  //   day: '20',
+  //   title: 'Workshop on AI-Based Hands-on Training',
+  //   url: '/ai-based-hands-on-training',
+  // },
 
-    {
-      month: 'JUL',
-      day: '25',
-      title:
-        'Value Added Course on Embedded Intelligence',
-    },
+  // {
+  //   month: 'JUL',
+  //   day: '22',
+  //   title:
+  //     'Seminar on Predictive Modeling Frameworks: Deploying Regression Algorithms via Scikit-Learn',
+  //   url: '/predictive-modeling-frameworks',
+  // },
 
-    {
-      month: 'JUL',
-      day: '25',
-      title:
-        'Career Awareness Program on Prompt Engineering is Not Enough: The New Full-Stack of AI',
-    },
+  // {
+  //   month: 'JUL',
+  //   day: '22',
+  //   title:
+  //     'Career Guidance Programme for Civil Engineering Students – KCEians By KCEian',
+  //   url: '/career-guidance-civil-engineering',
+  // },
 
-    {
-      month: 'JUL',
-      day: '25',
-      title:
-        'Seminar on Strategies for Success in GATE and Competitive Examinations',
-    },
+  // {
+  //   month: 'JUL',
+  //   day: '23',
+  //   title:
+  //     'Workshop on Rebar Detailing and Bar Bending Schedule',
+  //   url: '/rebar-detailing-workshop',
+  // },
 
-    {
-      month: 'JUL',
-      day: '30',
-      title:
-        'Workshop on Full Stack Web Development',
-    },
-  ];
+  // {
+  //   month: 'JUL',
+  //   day: '24',
+  //   title: 'Association and Club Inauguration',
+  //   url: '/association-club-inauguration',
+  // },
+
+  // {
+  //   month: 'JUL',
+  //   day: '25',
+  //   title: 'Value Added Course on Embedded Intelligence',
+  //   url: '/embedded-intelligence',
+  // },
+
+  // {
+  //   month: 'JUL',
+  //   day: '25',
+  //   title:
+  //     'Career Awareness Program on Prompt Engineering is Not Enough: The New Full-Stack of AI',
+  //   url: '/prompt-engineering-full-stack-ai',
+  // },
+
+  // {
+  //   month: 'JUL',
+  //   day: '25',
+  //   title:
+  //     'Seminar on Strategies for Success in GATE and Competitive Examinations',
+  //   url: '/gate-competitive-examinations',
+  // },
+
+  // {
+  //   month: 'JUL',
+  //   day: '30',
+  //   title: 'Workshop on Full Stack Web Development',
+  //   url: '/full-stack-web-development',
+  // },
+];
+
+
+
+  /* ====================================================
+     OUTPUT
+  ==================================================== */
 
   return (
-    <section className='latest-news-wrapper'>
-      <h2 className='latest-news-heading'>
-        LATEST NEWS
-      </h2>
 
-      <div className='latest-news-grid'>
-        {/* LEFT - ACCORDION */}
+    <section className="latest-news-wrapper">
 
-        <div className='featured-news-column'>
-          <FeaturedNewsAccordion
+
+      <div className="latest-news-section-header">
+
+        <span className="latest-news-small-title">
+          Discover KCE
+        </span>
+
+
+        <h2 className="latest-news-heading">
+          Latest News & Events
+        </h2>
+
+      </div>
+
+
+      <div className="latest-news-grid">
+
+
+        {/* LEFT SIDE */}
+
+        <div className="featured-news-column">
+
+          <FeaturedNewsSlider
             stories={featuredStories}
           />
+
         </div>
 
-        {/* RIGHT - ORIGINAL MARQUEE */}
 
-        <NewsList events={eventsData} />
+        {/* RIGHT SIDE */}
+
+        <NewsList
+          events={eventsData}
+        />
+
+
       </div>
+
     </section>
+
   );
 }
