@@ -41,6 +41,20 @@
           "link": "/organizatonal-structre/",
           "desc": "Learn more about KAHE overview.",
           "src": "/images/banner/co-men.png"
+        },
+         {
+          "id": 5,
+          "title": "Center of Excellence",
+          "link": "/center-of-excellence",
+          "desc": "Learn more about KAHE overview.",
+          "src": "/images/banner/co-men.png"
+        },
+         {
+          "id": 6,
+          "title": "Accreditations",
+          "link": "/accreditations",
+          "desc": "Learn more about KAHE overview.",
+          "src": "/images/banner/co-men.png"
         }
       ]
     },
@@ -120,11 +134,7 @@
        
       ]
     },
-    {
-      "menuTitle": "Center of Excellence",
-      "menuType": "admissions",
-      "link": "/center-of-excellence"
-    },
+   
     {
       "menuTitle": "Research",
       "menuType": "research",
@@ -222,15 +232,7 @@
         }
       ]
     },
-    {
-      "menuTitle": "Accreditations",
-      "menuType": "Accreditations",
-      "link": "/accreditations",
-      "hasMegamenu": false,
-      "hasMenuChild": false,
-      "hasPositionStatic": false,
-      "hasSideBanner": false
-    },
+  
     {
       "menuTitle": "Placement",
       "menuType": "placement",
