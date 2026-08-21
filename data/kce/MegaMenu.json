@@ -9,9 +9,9 @@
       "menuTitle": "About",
       "menuType": "about",
       "hasMegamenu": true,
-      "hasMenuChild": false,
-      "hasPositionStatic": false,
-      "hasSideBanner": false,
+      "hasMenuChild": true,
+      "hasPositionStatic": true,
+      "hasSideBanner": true,
       
       "menuItems": [
         {
