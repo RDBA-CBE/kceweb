@@ -134,6 +134,12 @@
        
       ]
     },
+
+     {
+      "menuTitle": "AICTE IDEA Lab",
+      "menuType": "aicte",
+      "link": "/aicite-idea-lab"
+    },
    
     {
       "menuTitle": "Research",
