@@ -848,7 +848,7 @@ const eventsData = [
 
 
         <h2 className="latest-news-heading">
-          Latest News & Events
+          Latest News 
         </h2>
 
       </div>

@@ -1,0 +1,249 @@
+{
+  "banner": {
+    "bannerImg": "/images/kce/banner_computer_technology.jpg",
+    "title": "AICTE IDEA LAB",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "AICTE IDEA LAB"
+      }
+    ]
+  },
+
+  "sections": [],
+
+  "about": {
+    "title": "About IDEA Lab",
+    "logo": "/images/kce/aicte-idea-lab/aicte-idea-lab-logo.png",
+    "content": [
+      "AICTE IDEA (Idea, Development, Evaluation and Application) Lab is a flagship initiative of the All India Council for Technical Education (AICTE), designed to foster a culture of creativity, problem-solving, hands-on learning, and entrepreneurial thinking among students and faculty in engineering and technology institutions across the country.",
+      "We are delighted to share that Karpagam College of Engineering has been sanctioned an AICTE-IDEA Laboratory with a total project outlay of ₹90 lakh. The funding comprises ₹60 lakh under non-recurring grants, earmarked for state-of-the-art equipment, tools, and prototyping resources, and ₹30 lakh as recurring grants, which will support training programs, workshops, industry interactions, innovation challenges, and other activities over the next two years.",
+      "This facility will empower students and faculty to transform ideas into prototypes and solutions, encourage multidisciplinary collaboration, and contribute meaningfully to the innovation and start-up ecosystem."
+    ]
+  },
+
+  "vision": {
+    "title": "Vision",
+    "content": "To establish the AICTE–IDEA Lab as a vibrant centre for innovation, experiential learning, research, and entrepreneurship, enabling students and faculty to transform ideas into practical, industry-relevant and socially impactful solutions through multidisciplinary collaboration, emerging technologies, and hands-on learning."
+  },
+
+  "mission": {
+    "title": "Mission",
+    "items": [
+      {
+        "id": 1,
+        "title": "Foster Innovation and Practical Application",
+        "description": "Give students and faculty a space to ideate, experiment, prototype, and apply engineering knowledge to real-world problems."
+      },
+      {
+        "id": 2,
+        "title": "Strengthen Collaboration — Industry and Multidisciplinary",
+        "description": "Build strong ties with industry through mentoring, projects, and internships, and encourage students across disciplines to work together on shared solutions."
+      },
+      {
+        "id": 3,
+        "title": "Promote Research, Entrepreneurship, and Start-up Culture",
+        "description": "Help good ideas grow from concept to prototype to real-world commercialization."
+      },
+      {
+        "id": 4,
+        "title": "Develop Competent, Responsible Professionals",
+        "description": "Build creativity, problem-solving skills, leadership, and an entrepreneurial mind-set in students so they can contribute meaningfully to society."
+      }
+    ]
+  },
+
+  "objectives": {
+    "title": "Objectives",
+    "items": [
+      {
+        "id": 1,
+        "title": "Experiential Learning & Innovation",
+        "description": "Encourage hands-on learning and creative problem-solving through prototyping and Hackathon competitions, connecting classroom theory with real practice."
+      },
+      {
+        "id": 2,
+        "title": "Prototyping, Products & Multidisciplinary Innovation",
+        "description": "Turn ideas into working prototypes and products using modern tools and technology, with students from different branches collaborating on integrated solutions."
+      },
+      {
+        "id": 3,
+        "title": "Industry Collaboration & Industry-Ready Competencies",
+        "description": "Partner with industry on real projects while building students' technical and soft skills such as communication, teamwork and leadership, along with exposure to IoT, AI, robotics and automation."
+      },
+      {
+        "id": 4,
+        "title": "Entrepreneurship, Research & Intellectual Property",
+        "description": "Support students and faculty in building start-ups, filing patents, and conducting research that solves real problems."
+      },
+      {
+        "id": 5,
+        "title": "Societal Impact & Sustainable Innovation Ecosystem",
+        "description": "Develop affordable and sustainable technologies for healthcare, agriculture, energy and rural needs while building a lasting culture of innovation through regular workshops, events and mentoring."
+      }
+    ]
+  },
+
+  "team": {
+    "title": "AICTE IDEA Lab Team @ KCE",
+
+    "chiefMentor": {
+      "role": "Chief Mentor",
+      "name": "Dr. P. Karthigaikumar",
+      "designation": "Principal / Professor",
+      "department": "Department of Electronics and Communication Engineering",
+      "institution": "Karpagam College of Engineering",
+      "email": "principal@kce.ac.in",
+      "phone": "+91 9486260288",
+      "image": "/images/kce/aicte-idea-lab/team/karthigaikumar.jpg"
+    },
+
+    "facultyCoordinators": [
+      {
+        "role": "Faculty Coordinator",
+        "name": "Dr. A. Saravanakumar",
+        "designation": "Head / Professor",
+        "department": "Department of Mechanical Engineering",
+        "institution": "Karpagam College of Engineering",
+        "email": "hod.mech@kce.ac.in",
+        "phone": "+91 9994157654",
+        "image": "/images/kce/aicte-idea-lab/team/saravanakumar.jpg"
+      },
+      {
+        "role": "Faculty Co-Coordinator",
+        "name": "N. Subramani",
+        "designation": "Assistant Professor",
+        "department": "Department of Mechanical Engineering",
+        "institution": "Karpagam College of Engineering",
+        "email": "subramani.n@kce.ac.in",
+        "phone": "+91 8610912941",
+        "image": "/images/kce/aicte-idea-lab/team/subramani.jpg"
+      }
+    ],
+
+    "techGurus": [
+      {
+        "role": "Tech Guru 1",
+        "name": "R. Haridass",
+        "designation": "Assistant Professor",
+        "department": "Department of Mechanical Engineering",
+        "institution": "Karpagam College of Engineering",
+        "email": "haridass.r@kce.ac.in",
+        "phone": "+91 9965257090",
+        "image": "/images/kce/aicte-idea-lab/team/haridass.jpg"
+      },
+      {
+        "role": "Tech Guru 2",
+        "name": "N. Shalom",
+        "designation": "Assistant Professor",
+        "department": "Department of Mechanical Engineering",
+        "institution": "Karpagam College of Engineering",
+        "email": "shalom.n@kce.ac.in",
+        "phone": "+91 8438862534",
+        "image": "/images/kce/aicte-idea-lab/team/shalom.jpg"
+      },
+      {
+        "role": "Tech Guru 3",
+        "name": "K. Kavithamani",
+        "designation": "Assistant Professor",
+        "department": "Department of Electrical and Electronics Engineering",
+        "institution": "Karpagam College of Engineering",
+        "email": "kavithamani.k@kce.ac.in",
+        "phone": "+91 8015312306",
+        "image": "/images/kce/aicte-idea-lab/team/kavithamani.jpg"
+      },
+      {
+        "role": "Tech Guru 4",
+        "name": "Dr. R. Vadivellu",
+        "designation": "Professor",
+        "department": "Department of Electronics and Communication Engineering",
+        "institution": "Karpagam College of Engineering",
+        "email": "vadivelu.r@kce.ac.in",
+        "phone": "+91 9025523746",
+        "image": "/images/kce/aicte-idea-lab/team/vadivellu.jpg"
+      }
+    ],
+
+    "studentAmbassadors": [
+      {
+        "role": "Student Ambassador",
+        "name": "B. Vinipaul Kirubhagaran",
+        "department": "Department of Mechanical Engineering",
+        "email": "717823m261@kce.ac.in",
+        "phone": "+91 9345549807",
+        "image": "/images/kce/aicte-idea-lab/team/vinipaul-kirubhagaran.jpg"
+      },
+      {
+        "role": "Student Ambassador",
+        "name": "B. Thiruselvi",
+        "department": "Department of Electrical and Electronics Engineering",
+        "email": "717823e259@kce.ac.in",
+        "phone": "+91 6383064336",
+        "image": "/images/kce/aicte-idea-lab/team/thiruselvi.jpg"
+      },
+      {
+        "role": "Student Ambassador",
+        "name": "C. Sivasankar",
+        "department": "Department of Electronics and Communication Engineering",
+        "email": "Sivasankar.c2007@gmail.com",
+        "phone": "+91 7010679661",
+        "image": "/images/kce/aicte-idea-lab/team/sivasankar.jpg"
+      }
+    ]
+  },
+
+  "equipment": {
+    "title": "IDEA Lab Equipment",
+    "subtitle": "Innovation Infrastructure",
+    "description": "Advanced machines and prototyping facilities supporting hands-on innovation and product development.",
+    "items": [
+      {
+        "title": "Dual 3D Printer",
+        "image": "/images/kce/aicte-idea-lab/equipment/dual-3d-printer.jpg"
+      },
+      {
+        "title": "3D Printer",
+        "image": "/images/kce/aicte-idea-lab/equipment/3d-printer.jpg"
+      },
+      {
+        "title": "3D Scanner",
+        "image": "/images/kce/aicte-idea-lab/equipment/3d-scanner.jpg"
+      },
+      {
+        "title": "Sub Lamination Machine",
+        "image": "/images/kce/aicte-idea-lab/equipment/sub-lamination-machine.jpg"
+      },
+      {
+        "title": "CNC Router",
+        "image": "/images/kce/aicte-idea-lab/equipment/cnc-router.jpg"
+      },
+      {
+        "title": "Laser Cutter",
+        "image": "/images/kce/aicte-idea-lab/equipment/laser-cutter.jpg"
+      },
+      {
+        "title": "Metal Engraver",
+        "image": "/images/kce/aicte-idea-lab/equipment/metal-engraver.jpg"
+      },
+      {
+        "title": "PCB Prototyping Machine",
+        "image": "/images/kce/aicte-idea-lab/equipment/pcb-prototyping-machine.jpg"
+      },
+      {
+        "title": "Semi-Automatic SMT Stencil Printer",
+        "image": "/images/kce/aicte-idea-lab/equipment/smt-stencil-printer.jpg"
+      },
+      {
+        "title": "SMT Mate - Bulk PCB Design Boards",
+        "image": "/images/kce/aicte-idea-lab/equipment/smt-mate-bulk-pcb.jpg"
+      },
+      {
+        "title": "Reflow Oven for Automatic Soldering",
+        "image": "/images/kce/aicte-idea-lab/equipment/reflow-oven.jpg"
+      }
+    ]
+  }
+}

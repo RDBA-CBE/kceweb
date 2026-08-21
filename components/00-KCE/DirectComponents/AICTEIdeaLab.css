@@ -1,0 +1,1956 @@
+/* =========================================================
+   AICTE IDEA LAB
+========================================================= */
+
+.coe-modern.aicte-idea-lab-page {
+  --aicte-primary: #123f4d;
+  --aicte-primary-dark: #082f3c;
+
+  --aicte-accent: #ef7b00;
+  --aicte-accent-dark: #d96000;
+  --aicte-accent-soft: #fff2e6;
+
+  --aicte-light: #edf6f8;
+  --aicte-border: #dae6e9;
+  --aicte-white: #ffffff;
+
+  --aicte-shadow:
+    0 12px 32px rgba(9, 48, 61, 0.09);
+}
+
+
+/* =========================================================
+   COMMON SECTION
+========================================================= */
+
+.aicte-section {
+  position: relative;
+  padding: 58px 0;
+}
+
+.aicte-section-title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.aicte-section-title h2 {
+  position: relative;
+  margin: 0;
+  padding-left: 15px;
+}
+
+.aicte-section-title h2::before {
+  position: absolute;
+  top: 3px;
+  bottom: 3px;
+  left: 0;
+
+  width: 3px;
+
+  content: "";
+
+  border-radius: 5px;
+
+  background: var(--aicte-accent);
+}
+
+.aicte-section-title h2::after {
+  display: inline-block;
+
+  width: 45px;
+  height: 1px;
+
+  margin-left: 12px;
+
+  vertical-align: middle;
+
+  content: "";
+
+  background: var(--aicte-border);
+}
+
+
+/* =========================================================
+   ABOUT
+========================================================= */
+
+.aicte-about-section {
+  position: relative;
+  overflow: hidden;
+}
+
+.aicte-about-section::before {
+  position: absolute;
+
+  top: -120px;
+  left: -120px;
+
+  width: 280px;
+  height: 280px;
+
+  content: "";
+
+  border: 50px solid rgba(18, 63, 77, 0.025);
+  border-radius: 50%;
+}
+
+.aicte-about-card {
+  position: relative;
+
+  display: grid;
+  grid-template-columns: 210px minmax(0, 1fr);
+
+  align-items: center;
+
+  gap: 35px;
+
+  overflow: hidden;
+
+  padding: 34px;
+
+  background: var(--aicte-white);
+
+  border: 1px solid var(--aicte-border);
+  border-radius: 6px 24px 6px 24px;
+
+  box-shadow: var(--aicte-shadow);
+}
+
+.aicte-about-card::after {
+  position: absolute;
+
+  right: -80px;
+  bottom: -80px;
+
+  width: 180px;
+  height: 180px;
+
+  content: "";
+
+  border: 32px solid rgba(239, 123, 0, 0.045);
+  border-radius: 50%;
+}
+
+
+/* =========================================================
+   ABOUT LOGO
+========================================================= */
+
+.aicte-about-logo-area {
+  position: relative;
+  z-index: 1;
+
+  display: flex;
+
+  min-height: 260px;
+
+  align-items: center;
+  justify-content: center;
+
+  padding-right: 30px;
+
+  border-right: 1px solid var(--aicte-border);
+}
+
+.aicte-about-logo {
+  width: 155px;
+}
+
+.aicte-about-logo img {
+  display: block;
+
+  width: 100%;
+  height: auto;
+
+  object-fit: contain;
+}
+
+.aicte-about-logo-decoration {
+  position: absolute;
+
+  top: 50%;
+  right: -5px;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 5px;
+
+  transform: translateY(-50%);
+}
+
+.aicte-about-logo-decoration span {
+  display: block;
+
+  width: 9px;
+  height: 9px;
+
+  border-radius: 50%;
+
+  background: var(--aicte-primary);
+}
+
+.aicte-about-logo-decoration span:nth-child(2) {
+  background: var(--aicte-accent);
+}
+
+.aicte-about-logo-decoration span:nth-child(3) {
+  background: #49bddd;
+}
+
+.aicte-about-content {
+  position: relative;
+  z-index: 1;
+}
+
+.aicte-about-content p {
+  margin: 0 0 15px;
+  line-height: 1.75;
+}
+
+.aicte-about-content p:last-child {
+  margin-bottom: 0;
+}
+
+
+/* =========================================================
+   VISION
+========================================================= */
+
+.aicte-vision {
+  position: relative;
+
+  overflow: hidden;
+
+  padding: 34px 40px 34px 78px;
+
+  background:
+    linear-gradient(
+      125deg,
+      var(--aicte-primary-dark),
+      var(--aicte-primary)
+    );
+
+  border-radius: 6px 24px 6px 24px;
+
+  box-shadow:
+    0 15px 34px rgba(8, 47, 60, 0.15);
+}
+
+.aicte-vision::after {
+  position: absolute;
+
+  right: -65px;
+  bottom: -95px;
+
+  width: 210px;
+  height: 210px;
+
+  content: "";
+
+  border: 38px solid rgba(255, 255, 255, 0.04);
+  border-radius: 50%;
+}
+
+.aicte-vision-mark {
+  position: absolute;
+
+  top: 12px;
+  left: 24px;
+
+  color: var(--aicte-accent);
+
+  font-size: 62px;
+  line-height: 1;
+}
+
+.aicte-vision p {
+  position: relative;
+  z-index: 1;
+
+  margin: 0;
+
+  color: #ffffff;
+
+  line-height: 1.8;
+}
+
+
+/* =========================================================
+   MISSION
+========================================================= */
+
+.aicte-mission-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr));
+
+  gap: 20px;
+}
+
+.aicte-mission-card {
+  position: relative;
+
+  display: flex;
+
+  align-items: flex-start;
+
+  gap: 20px;
+
+  min-height: 155px;
+
+  overflow: hidden;
+
+  padding: 25px;
+
+  background: #ffffff;
+
+  border: 1px solid var(--aicte-border);
+  border-radius: 6px 18px 6px 18px;
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.aicte-mission-card::before {
+  position: absolute;
+
+  top: 0;
+  left: 0;
+
+  width: 4px;
+  height: 0;
+
+  content: "";
+
+  background:
+    linear-gradient(
+      180deg,
+      #ffad42 0%,
+      #ef7b00 55%,
+      #d95f00 100%
+    );
+
+  transition: height 0.35s ease;
+}
+
+.aicte-mission-card::after {
+  position: absolute;
+
+  right: -38px;
+  bottom: -38px;
+
+  width: 95px;
+  height: 95px;
+
+  content: "";
+
+  border: 16px solid rgba(239, 123, 0, 0.045);
+  border-radius: 50%;
+}
+
+.aicte-mission-card:hover {
+  transform: translateY(-5px);
+
+  border-color:
+    rgba(239, 123, 0, 0.35);
+
+  box-shadow:
+    0 14px 32px rgba(10, 53, 67, 0.1);
+}
+
+.aicte-mission-card:hover::before {
+  height: 100%;
+}
+
+
+/* =========================================================
+   MISSION NUMBER
+========================================================= */
+
+.aicte-count {
+  position: relative;
+  z-index: 2;
+
+  display: flex;
+
+  width: 48px;
+  height: 48px;
+  min-width: 48px;
+
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+
+  color: #ffffff;
+
+  background:
+    linear-gradient(
+      135deg,
+      #ffb34e 0%,
+      #f58a18 45%,
+      #df6700 100%
+    );
+
+  border:
+    1px solid rgba(255, 255, 255, 0.25);
+
+  border-radius:
+    5px 15px 5px 15px;
+
+  box-shadow:
+    0 7px 16px rgba(239, 123, 0, 0.23),
+    inset 0 1px 0 rgba(255, 255, 255, 0.25);
+
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1;
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.aicte-count::before {
+  position: absolute;
+
+  top: -18px;
+  left: -18px;
+
+  width: 42px;
+  height: 42px;
+
+  content: "";
+
+  border-radius: 50%;
+
+  background:
+    rgba(255, 255, 255, 0.16);
+}
+
+.aicte-count::after {
+  position: absolute;
+
+  right: -8px;
+  bottom: -8px;
+
+  width: 24px;
+  height: 24px;
+
+  content: "";
+
+  border-radius: 50%;
+
+  background:
+    rgba(116, 46, 0, 0.18);
+}
+
+.aicte-mission-card:hover .aicte-count {
+  transform:
+    translateY(-2px) rotate(-2deg);
+
+  box-shadow:
+    0 10px 22px rgba(239, 123, 0, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+.aicte-mission-content {
+  position: relative;
+  z-index: 2;
+
+  flex: 1;
+}
+
+.aicte-mission-content h4 {
+  margin: 0 0 8px;
+
+  font-size: 18px;
+  line-height: 1.35;
+}
+
+.aicte-mission-content p {
+  margin: 0;
+
+  font-size: 15px;
+  line-height: 1.65;
+}
+
+
+/* =========================================================
+   OBJECTIVES
+========================================================= */
+
+.aicte-objective-list {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 13px;
+
+  padding-left: 50px;
+}
+
+.aicte-objective-list::before {
+  position: absolute;
+
+  top: 18px;
+  bottom: 18px;
+  left: 17px;
+
+  width: 2px;
+
+  content: "";
+
+  background:
+    linear-gradient(
+      to bottom,
+      var(--aicte-accent),
+      var(--aicte-primary)
+    );
+}
+
+.aicte-objective-card {
+  position: relative;
+
+  padding: 21px 25px;
+
+  background: #ffffff;
+
+  border: 1px solid var(--aicte-border);
+  border-radius: 5px 16px 5px 16px;
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.aicte-objective-card:hover {
+  transform: translateX(6px);
+
+  box-shadow: var(--aicte-shadow);
+}
+
+.aicte-objective-count {
+  position: absolute;
+
+  top: 20px;
+  left: -49px;
+
+  display: flex;
+
+  width: 35px;
+  height: 35px;
+
+  align-items: center;
+  justify-content: center;
+
+  border: 4px solid #ffffff;
+  border-radius: 50%;
+
+  background: var(--aicte-accent);
+
+  box-shadow:
+    0 0 0 1px var(--aicte-border);
+
+  color: #ffffff;
+
+  font-weight: 700;
+}
+
+.aicte-objective-card:nth-child(even)
+  .aicte-objective-count {
+  background: var(--aicte-primary);
+}
+
+.aicte-objective-content h4 {
+  margin: 0 0 7px;
+}
+
+.aicte-objective-content p {
+  margin: 0;
+  line-height: 1.65;
+}
+
+
+/* =========================================================
+   TEAM BACKGROUND
+========================================================= */
+
+.aicte-team-shell {
+  position: relative;
+  overflow: hidden;
+}
+
+.aicte-team-shell::before {
+  position: absolute;
+
+  top: 140px;
+  left: -160px;
+
+  width: 330px;
+  height: 330px;
+
+  content: "";
+
+  border:
+    60px solid rgba(18, 63, 77, 0.025);
+
+  border-radius: 50%;
+}
+
+.aicte-team-shell::after {
+  position: absolute;
+
+  right: -130px;
+  bottom: 150px;
+
+  width: 270px;
+  height: 270px;
+
+  content: "";
+
+  border:
+    48px solid rgba(239, 123, 0, 0.025);
+
+  border-radius: 50%;
+}
+
+.aicte-team-shell .section-wid {
+  position: relative;
+  z-index: 1;
+}
+
+
+/* =========================================================
+   TEAM TITLE
+========================================================= */
+
+.aicte-team-section {
+  margin-top: 58px;
+}
+
+.aicte-chief-section {
+  margin-top: 30px;
+}
+
+.aicte-team-title {
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 27px;
+}
+
+.aicte-team-title h3 {
+  position: relative;
+
+  margin: 0;
+
+  padding-bottom: 10px;
+
+  text-align: center;
+}
+
+.aicte-team-title h3::after {
+  position: absolute;
+
+  bottom: 0;
+  left: 50%;
+
+  width: 42px;
+  height: 2px;
+
+  content: "";
+
+  transform: translateX(-50%);
+
+  border-radius: 5px;
+
+  background: var(--aicte-accent);
+}
+
+
+/* =========================================================
+   COMMON PERSON CARD
+========================================================= */
+
+.aicte-person-card {
+  position: relative;
+
+  height: 100%;
+
+  overflow: hidden;
+
+  background: #ffffff;
+
+  border: 1px solid var(--aicte-border);
+  border-radius: 6px 18px 6px 18px;
+
+  box-shadow:
+    0 8px 22px rgba(10, 53, 67, 0.06);
+
+  transition:
+    transform 0.35s ease,
+    box-shadow 0.35s ease,
+    border-color 0.35s ease;
+}
+
+.aicte-person-card:hover {
+  transform: translateY(-6px);
+
+  border-color:
+    rgba(239, 123, 0, 0.32);
+
+  box-shadow:
+    0 18px 40px rgba(10, 53, 67, 0.12);
+}
+
+.aicte-person-img {
+  position: relative;
+
+  overflow: hidden;
+
+  background: #edf3f4;
+}
+
+.aicte-person-img::after {
+  position: absolute;
+
+  right: 0;
+  bottom: 0;
+
+  width: 70px;
+  height: 4px;
+
+  content: "";
+
+  background: var(--aicte-accent);
+}
+
+.aicte-person-img img {
+  display: block;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+  object-position: center top;
+
+  transition: transform 0.4s ease;
+}
+
+.aicte-person-card:hover
+  .aicte-person-img img {
+  transform: scale(1.035);
+}
+
+.aicte-person-content {
+  padding: 20px;
+
+  text-align: center;
+}
+
+.aicte-person-content h4 {
+  margin: 8px 0 6px;
+}
+
+.aicte-person-content p {
+  margin: 3px 0;
+
+  line-height: 1.55;
+}
+
+.aicte-role {
+  display: inline-flex;
+
+  padding: 4px 11px;
+
+  border-radius: 25px;
+
+  background: var(--aicte-light);
+
+  color: var(--aicte-primary);
+
+  font-weight: 600;
+}
+
+.aicte-designation {
+  color: var(--aicte-accent);
+}
+
+.aicte-contact {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 5px;
+
+  margin-top: 14px;
+  padding-top: 14px;
+}
+
+.aicte-contact::before {
+  position: absolute;
+
+  top: 0;
+  left: 50%;
+
+  width: 45px;
+  height: 1px;
+
+  content: "";
+
+  transform: translateX(-50%);
+
+  background: var(--aicte-border);
+}
+
+.aicte-contact a {
+  overflow-wrap: anywhere;
+}
+
+
+/* =========================================================
+   CHIEF MENTOR
+========================================================= */
+
+.aicte-chief-mentor {
+  max-width: 850px;
+
+  margin: 0 auto;
+}
+
+.aicte-chief-mentor .aicte-person-card {
+  display: grid;
+
+  grid-template-columns:
+    300px minmax(0, 1fr);
+
+  min-height: 350px;
+
+  border-radius:
+    8px 28px 8px 28px;
+}
+
+.aicte-chief-mentor .aicte-person-img {
+  width: 300px;
+  height: 100%;
+
+  min-height: 350px;
+}
+
+.aicte-chief-mentor .aicte-person-content {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+
+  padding: 40px;
+
+  text-align: left;
+}
+
+.aicte-chief-mentor .aicte-role {
+  align-self: flex-start;
+}
+
+.aicte-chief-mentor
+  .aicte-contact::before {
+  left: 0;
+  transform: none;
+}
+
+
+/* =========================================================
+   FACULTY COORDINATORS
+========================================================= */
+
+.aicte-faculty-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr));
+
+  gap: 24px;
+
+  max-width: 1120px;
+
+  margin: 0 auto;
+}
+
+.aicte-faculty-section
+  .aicte-person-card {
+  display: grid;
+
+  grid-template-columns:
+    200px minmax(0, 1fr);
+
+  min-height: 270px;
+}
+
+.aicte-faculty-section
+  .aicte-person-img {
+  width: 200px;
+  height: 100%;
+
+  min-height: 270px;
+}
+
+.aicte-faculty-section
+  .aicte-person-content {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+
+  padding: 24px;
+
+  text-align: left;
+}
+
+.aicte-faculty-section
+  .aicte-role {
+  align-self: flex-start;
+}
+
+.aicte-faculty-section
+  .aicte-contact::before {
+  left: 0;
+  transform: none;
+}
+
+
+/* =========================================================
+   TECH GURUS - 4 COLUMN
+========================================================= */
+
+.aicte-team-grid {
+  display: grid;
+  gap: 18px;
+}
+
+.aicte-tech-grid {
+  grid-template-columns:
+    repeat(4, minmax(0, 1fr));
+}
+
+.aicte-tech-grid
+  .aicte-person-card {
+  min-width: 0;
+}
+
+.aicte-tech-grid
+  .aicte-person-img {
+  width: 100%;
+
+  aspect-ratio: 4 / 4.5;
+}
+
+.aicte-tech-grid
+  .aicte-person-content {
+  padding: 18px 14px 20px;
+}
+
+.aicte-tech-grid
+  .aicte-person-content h4 {
+  margin: 7px 0 5px;
+}
+
+.aicte-tech-grid
+  .aicte-person-content p {
+  margin: 2px 0;
+
+  line-height: 1.48;
+}
+
+.aicte-tech-grid
+  .aicte-contact {
+  margin-top: 10px;
+  padding-top: 10px;
+}
+
+
+/* =========================================================
+   STUDENT AMBASSADORS
+========================================================= */
+
+.aicte-student-grid {
+  grid-template-columns:
+    repeat(3, minmax(0, 1fr));
+}
+
+.aicte-student-grid
+  .aicte-person-img {
+  width: 100%;
+
+  aspect-ratio: 1 / 1;
+}
+
+.aicte-student-grid
+  .aicte-person-content {
+  padding: 18px;
+}
+
+
+/* =========================================================
+   EQUIPMENT SECTION
+========================================================= */
+
+.aicte-equipment-section {
+  position: relative;
+
+  overflow: hidden;
+}
+
+.aicte-equipment-section::before {
+  position: absolute;
+
+  top: -110px;
+  right: -110px;
+
+  width: 290px;
+  height: 290px;
+
+  content: "";
+
+  border:
+    52px solid rgba(18, 63, 77, 0.025);
+
+  border-radius: 50%;
+}
+
+.aicte-equipment-section
+  .section-wid {
+  position: relative;
+  z-index: 1;
+}
+
+
+/* =========================================================
+   EQUIPMENT HEADER + TEXT SIZE
+========================================================= */
+
+.aicte-equipment-header {
+  position: relative;
+
+  display: flex;
+
+  align-items: flex-end;
+  justify-content: space-between;
+
+  gap: 30px;
+
+  margin-bottom: 32px;
+
+  padding:
+    0 0 19px 18px;
+
+  border-bottom:
+    1px solid var(--aicte-border);
+}
+
+.aicte-equipment-header::before {
+  position: absolute;
+
+  top: 3px;
+  bottom: 19px;
+  left: 0;
+
+  width: 3px;
+
+  content: "";
+
+  background:
+    linear-gradient(
+      to bottom,
+      #ffac42,
+      var(--aicte-accent),
+      #d95f00
+    );
+}
+
+.aicte-equipment-header-content {
+  max-width: 760px;
+}
+
+
+/* EQUIPMENT SMALL LABEL */
+
+.aicte-equipment-label {
+  display: inline-flex;
+
+  align-items: center;
+
+  gap: 8px;
+
+  color: var(--aicte-accent);
+
+  font-size: 13px;
+  line-height: 1.4;
+
+  letter-spacing: 0.08em;
+
+  text-transform: uppercase;
+}
+
+.aicte-equipment-label::before {
+  width: 22px;
+  height: 2px;
+
+  content: "";
+
+  background: var(--aicte-accent);
+}
+
+
+/* EQUIPMENT MAIN TITLE */
+
+.aicte-equipment-header h2 {
+  margin: 6px 0 8px;
+
+  font-size: 30px;
+  line-height: 1.25;
+}
+
+
+/* EQUIPMENT DESCRIPTION */
+
+.aicte-equipment-header p {
+  max-width: 680px;
+
+  margin: 0;
+
+  font-size: 15px;
+  line-height: 1.65;
+}
+
+
+/* DECORATION */
+
+.aicte-equipment-symbol {
+  display: flex;
+
+  align-items: flex-end;
+
+  gap: 5px;
+}
+
+.aicte-equipment-symbol span {
+  display: block;
+
+  width: 5px;
+
+  border-radius: 10px;
+
+  background: var(--aicte-primary);
+}
+
+.aicte-equipment-symbol span:nth-child(1) {
+  height: 14px;
+}
+
+.aicte-equipment-symbol span:nth-child(2) {
+  height: 26px;
+
+  background: var(--aicte-accent);
+}
+
+.aicte-equipment-symbol span:nth-child(3) {
+  height: 38px;
+}
+
+
+/* =========================================================
+   EQUIPMENT GRID
+========================================================= */
+
+.aicte-equipment-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, minmax(0, 1fr));
+
+  gap: 20px;
+}
+
+.aicte-equipment-card {
+  position: relative;
+
+  overflow: hidden;
+
+  background: #ffffff;
+
+  border:
+    1px solid var(--aicte-border);
+
+  border-radius:
+    6px 18px 6px 18px;
+
+  box-shadow:
+    0 8px 24px rgba(10, 53, 67, 0.06);
+
+  transition:
+    transform 0.35s ease,
+    box-shadow 0.35s ease,
+    border-color 0.35s ease;
+}
+
+.aicte-equipment-card:hover {
+  transform: translateY(-7px);
+
+  border-color:
+    rgba(239, 123, 0, 0.35);
+
+  box-shadow:
+    0 18px 40px rgba(10, 53, 67, 0.12);
+}
+
+
+/* =========================================================
+   EQUIPMENT IMAGE
+========================================================= */
+
+.aicte-equipment-image-button {
+  display: block;
+
+  width: 100%;
+
+  padding: 0;
+
+  border: 0;
+
+  background: transparent;
+
+  cursor: zoom-in;
+
+  font: inherit;
+}
+
+.aicte-equipment-img {
+  position: relative;
+
+  width: 100%;
+
+  aspect-ratio: 16 / 9;
+
+  overflow: hidden;
+
+  background: #edf3f4;
+}
+
+.aicte-equipment-img img {
+  display: block;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+
+  transition:
+    transform 0.45s ease;
+}
+
+.aicte-equipment-card:hover
+  .aicte-equipment-img img {
+  transform: scale(1.055);
+}
+
+
+/* =========================================================
+   EQUIPMENT IMAGE OVERLAY
+========================================================= */
+
+.aicte-equipment-overlay {
+  position: absolute;
+
+  inset: 0;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 8px;
+
+  opacity: 0;
+
+  background:
+    rgba(8, 47, 60, 0.76);
+
+  color: #ffffff;
+
+  transition:
+    opacity 0.3s ease;
+}
+
+.aicte-equipment-image-button:hover
+  .aicte-equipment-overlay {
+  opacity: 1;
+}
+
+.aicte-zoom-icon {
+  display: flex;
+
+  width: 43px;
+  height: 43px;
+
+  align-items: center;
+  justify-content: center;
+
+  border:
+    1px solid rgba(255, 255, 255, 0.75);
+
+  border-radius: 50%;
+
+  font-size: 24px;
+  line-height: 1;
+}
+
+.aicte-view-text {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+
+/* =========================================================
+   EQUIPMENT CARD TITLE + TEXT SIZE
+========================================================= */
+
+.aicte-equipment-title {
+  display: flex;
+
+  min-height: 66px;
+
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 12px;
+
+  padding: 14px 16px;
+}
+
+.aicte-equipment-title h4 {
+  margin: 0;
+
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.aicte-equipment-arrow {
+  display: flex;
+
+  width: 29px;
+  height: 29px;
+  min-width: 29px;
+
+  align-items: center;
+  justify-content: center;
+
+  padding: 0;
+
+  border: 0;
+  border-radius: 50%;
+
+  background:
+    var(--aicte-accent-soft);
+
+  color:
+    var(--aicte-accent);
+
+  cursor: pointer;
+
+  font-size: 15px;
+  line-height: 1;
+
+  transition:
+    background 0.25s ease,
+    color 0.25s ease,
+    transform 0.25s ease;
+}
+
+.aicte-equipment-arrow:hover {
+  transform: rotate(45deg);
+
+  background:
+    var(--aicte-accent);
+
+  color: #ffffff;
+}
+
+
+/* =========================================================
+   LIGHTBOX
+========================================================= */
+
+.aicte-lightbox {
+  position: fixed;
+
+  inset: 0;
+
+  z-index: 99999;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  padding: 30px;
+
+  background:
+    rgba(3, 20, 27, 0.93);
+
+  backdrop-filter: blur(6px);
+
+  animation:
+    aicte-lightbox-fade 0.25s ease;
+}
+
+.aicte-lightbox-dialog {
+  position: relative;
+
+  display: flex;
+
+  width:
+    min(1100px, 94vw);
+
+  max-height: 92vh;
+
+  flex-direction: column;
+
+  overflow: hidden;
+
+  background: #ffffff;
+
+  border-radius:
+    8px 28px 8px 28px;
+
+  box-shadow:
+    0 35px 90px rgba(0, 0, 0, 0.45);
+}
+
+.aicte-lightbox-image {
+  display: flex;
+
+  min-height: 300px;
+
+  max-height:
+    calc(92vh - 80px);
+
+  align-items: center;
+  justify-content: center;
+
+  padding: 20px;
+
+  background: #071e27;
+}
+
+.aicte-lightbox-image img {
+  display: block;
+
+  width: auto;
+  height: auto;
+
+  max-width: 100%;
+
+  max-height:
+    calc(92vh - 125px);
+
+  object-fit: contain;
+}
+
+
+/* LIGHTBOX TEXT */
+
+.aicte-lightbox-caption {
+  padding: 18px 24px;
+}
+
+.aicte-lightbox-caption h3 {
+  margin: 0;
+
+  font-size: 20px;
+  line-height: 1.35;
+}
+
+.aicte-lightbox-close {
+  position: absolute;
+
+  top: 14px;
+  right: 14px;
+
+  z-index: 5;
+
+  display: flex;
+
+  width: 42px;
+  height: 42px;
+
+  align-items: center;
+  justify-content: center;
+
+  padding: 0;
+
+  border: 0;
+  border-radius: 50%;
+
+  background: #ffffff;
+
+  color:
+    var(--aicte-primary-dark);
+
+  cursor: pointer;
+
+  font-size: 26px;
+  line-height: 1;
+
+  box-shadow:
+    0 6px 18px rgba(0, 0, 0, 0.2);
+
+  transition:
+    background 0.25s ease,
+    color 0.25s ease;
+}
+
+.aicte-lightbox-close:hover {
+  background:
+    var(--aicte-accent);
+
+  color: #ffffff;
+}
+
+@keyframes aicte-lightbox-fade {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 991px) {
+  .aicte-section {
+    padding: 48px 0;
+  }
+
+  .aicte-about-card {
+    grid-template-columns:
+      170px minmax(0, 1fr);
+
+    gap: 25px;
+
+    padding: 28px;
+  }
+
+  .aicte-about-logo-area {
+    min-height: 220px;
+  }
+
+  .aicte-about-logo {
+    width: 130px;
+  }
+
+  .aicte-mission-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .aicte-mission-content h4 {
+    font-size: 17px;
+  }
+
+  .aicte-mission-content p {
+    font-size: 14.5px;
+  }
+
+  .aicte-chief-mentor {
+    max-width: 740px;
+  }
+
+  .aicte-chief-mentor
+    .aicte-person-card {
+    grid-template-columns:
+      250px 1fr;
+  }
+
+  .aicte-chief-mentor
+    .aicte-person-img {
+    width: 250px;
+
+    min-height: 310px;
+  }
+
+  .aicte-faculty-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .aicte-faculty-section
+    .aicte-person-card {
+    max-width: 720px;
+
+    width: 100%;
+
+    margin: 0 auto;
+  }
+
+  /* 4 -> 2 TECH GURUS */
+
+  .aicte-tech-grid {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+
+    gap: 20px;
+  }
+
+  .aicte-tech-grid
+    .aicte-person-img {
+    aspect-ratio: 4 / 3;
+  }
+
+  .aicte-student-grid {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+  }
+
+  /* EQUIPMENT 3 -> 2 */
+
+  .aicte-equipment-grid {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+  }
+
+  .aicte-equipment-header h2 {
+    font-size: 27px;
+  }
+
+  .aicte-equipment-header p {
+    font-size: 14.5px;
+  }
+
+  .aicte-equipment-title h4 {
+    font-size: 15.5px;
+  }
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 767px) {
+  .aicte-section {
+    padding: 40px 0;
+  }
+
+  .aicte-section-title {
+    margin-bottom: 23px;
+  }
+
+  .aicte-section-title h2::after {
+    width: 28px;
+  }
+
+
+  /* ABOUT */
+
+  .aicte-about-card {
+    grid-template-columns: 1fr;
+
+    gap: 22px;
+
+    padding: 24px 20px;
+  }
+
+  .aicte-about-logo-area {
+    min-height: auto;
+
+    padding:
+      5px 10px 25px;
+
+    border-right: 0;
+
+    border-bottom:
+      1px solid var(--aicte-border);
+  }
+
+  .aicte-about-logo {
+    width: 125px;
+  }
+
+  .aicte-about-logo-decoration {
+    top: auto;
+    right: auto;
+    bottom: -5px;
+    left: 50%;
+
+    flex-direction: row;
+
+    transform:
+      translateX(-50%);
+  }
+
+
+  /* VISION */
+
+  .aicte-vision {
+    padding:
+      58px 22px 25px;
+  }
+
+  .aicte-vision-mark {
+    top: 8px;
+    left: 20px;
+  }
+
+
+  /* MISSION */
+
+  .aicte-mission-card {
+    min-height: auto;
+
+    gap: 16px;
+
+    padding: 21px;
+  }
+
+  .aicte-count {
+    width: 44px;
+    height: 44px;
+    min-width: 44px;
+
+    font-size: 14px;
+  }
+
+  .aicte-mission-content h4 {
+    font-size: 16px;
+  }
+
+  .aicte-mission-content p {
+    font-size: 14px;
+  }
+
+
+  /* OBJECTIVES */
+
+  .aicte-objective-list {
+    padding-left: 41px;
+  }
+
+  .aicte-objective-list::before {
+    left: 13px;
+  }
+
+  .aicte-objective-count {
+    left: -42px;
+
+    width: 31px;
+    height: 31px;
+
+    border-width: 3px;
+  }
+
+  .aicte-objective-card {
+    padding: 19px;
+  }
+
+
+  /* CHIEF + FACULTY */
+
+  .aicte-chief-mentor
+    .aicte-person-card,
+  .aicte-faculty-section
+    .aicte-person-card {
+    display: block;
+  }
+
+  .aicte-chief-mentor
+    .aicte-person-img,
+  .aicte-faculty-section
+    .aicte-person-img {
+    width: 100%;
+
+    height: auto;
+
+    min-height: 0;
+
+    aspect-ratio: 4 / 3;
+  }
+
+  .aicte-chief-mentor
+    .aicte-person-content,
+  .aicte-faculty-section
+    .aicte-person-content {
+    padding: 22px;
+
+    text-align: center;
+  }
+
+  .aicte-chief-mentor
+    .aicte-role,
+  .aicte-faculty-section
+    .aicte-role {
+    align-self: center;
+  }
+
+  .aicte-chief-mentor
+    .aicte-contact::before,
+  .aicte-faculty-section
+    .aicte-contact::before {
+    left: 50%;
+
+    transform:
+      translateX(-50%);
+  }
+
+
+  /* TECH GURUS 2 -> 1 */
+
+  .aicte-tech-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .aicte-tech-grid
+    .aicte-person-img {
+    aspect-ratio: 4 / 3;
+  }
+
+
+  /* STUDENTS */
+
+  .aicte-student-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .aicte-student-grid
+    .aicte-person-img {
+    aspect-ratio: 4 / 3;
+  }
+
+
+  /* EQUIPMENT */
+
+  .aicte-equipment-header {
+    align-items: flex-start;
+
+    margin-bottom: 25px;
+
+    padding:
+      0 0 16px 15px;
+  }
+
+  .aicte-equipment-header::before {
+    bottom: 16px;
+  }
+
+  .aicte-equipment-symbol {
+    display: none;
+  }
+
+  .aicte-equipment-label {
+    font-size: 12px;
+  }
+
+  .aicte-equipment-header h2 {
+    margin-top: 5px;
+
+    font-size: 24px;
+    line-height: 1.25;
+  }
+
+  .aicte-equipment-header p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .aicte-equipment-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .aicte-equipment-title {
+    min-height: 60px;
+
+    padding: 13px 15px;
+  }
+
+  .aicte-equipment-title h4 {
+    font-size: 15px;
+  }
+
+  .aicte-view-text {
+    font-size: 13px;
+  }
+
+
+  /* LIGHTBOX */
+
+  .aicte-lightbox {
+    padding: 14px;
+  }
+
+  .aicte-lightbox-dialog {
+    width: 100%;
+
+    max-height: 90vh;
+
+    border-radius:
+      6px 18px 6px 18px;
+  }
+
+  .aicte-lightbox-image {
+    min-height: 220px;
+
+    padding: 10px;
+  }
+
+  .aicte-lightbox-caption {
+    padding: 14px 18px;
+  }
+
+  .aicte-lightbox-caption h3 {
+    font-size: 17px;
+  }
+
+  .aicte-lightbox-close {
+    top: 10px;
+    right: 10px;
+
+    width: 38px;
+    height: 38px;
+
+    font-size: 23px;
+  }
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 480px) {
+  .aicte-mission-card {
+    flex-direction: column;
+  }
+
+  .aicte-equipment-header h2 {
+    font-size: 22px;
+  }
+
+  .aicte-equipment-header p {
+    font-size: 13.5px;
+  }
+
+  .aicte-equipment-title h4 {
+    font-size: 14.5px;
+  }
+}

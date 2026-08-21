@@ -39,9 +39,7 @@
         "content": [
           {
             "images": [
-              {
-                "img": "https://learn.kce.ac.in/uploads/2020/01/Grammathu_Virundhu2-400x400-1.jpg"
-              },
+             
               {
                 "img": "https://learn.kce.ac.in/uploads/2020/01/Grammathu_Virundhu6-400x400-1.jpg"
               },
@@ -60,18 +58,13 @@
               {
                 "img": "https://learn.kce.ac.in/uploads/2020/01/culture1-400x400-1.jpg"
               },
-              {
-                "img": "https://learn.kce.ac.in/uploads/2020/01/culture3-400x400-1.jpg"
-              },
+             
               {
                 "img": "https://learn.kce.ac.in/uploads/2020/01/culture2-400x400-1.jpg"
               },
               {
                 "img": "https://learn.kce.ac.in/uploads/2020/01/Grammathu_Virundhu5-400x400-1.jpg"
-              },
-              {
-                "img": "https://learn.kce.ac.in/uploads/2020/01/Grammathu_Virundhu7-400x400-1.jpg"
-              },
+              },             
               {
                 "img": "https://learn.kce.ac.in/uploads/2020/01/Club_Photo7-400x400-2.jpeg"
               }

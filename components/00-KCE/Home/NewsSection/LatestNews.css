@@ -80,16 +80,10 @@
 
 .latest-news-heading {
   margin: 0;
-
-  color: var(--navy);
-
-  font-size: clamp(30px, 3vw, 44px);
-
+ /* color: var(--navy);*/
   line-height: 1.1;
-
-  font-weight: 800;
-
   letter-spacing: -0.8px;
+  color:#1A365D; font-weight: 700;  text-transform: uppercase;
 }
 
 
@@ -126,7 +120,7 @@
 
   padding-right: 24px;
 
-  border-right: 1px solid #e3e8ee;
+  border-right: 0px solid #e3e8ee;
 }
 
 
