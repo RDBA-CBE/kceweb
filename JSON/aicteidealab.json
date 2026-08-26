@@ -109,7 +109,7 @@
         "department": "Department of Mechanical Engineering",
         "institution": "Karpagam College of Engineering",
         "email": "hod.mech@kce.ac.in",
-        "phone": "+91 9994157654",
+        "phone": "+91 9994318185",
         "image": "/images/kce/aicte-idea-lab/team/saravanakumar.jpg"
       },
       {
@@ -170,26 +170,23 @@
     "studentAmbassadors": [
       {
         "role": "Student Ambassador",
-        "name": "B. Vinipaul Kirubhagaran",
+        "name": "B. Vinopaul Kirubhagaran", 
         "department": "Department of Mechanical Engineering",
-        "email": "717823m261@kce.ac.in",
-        "phone": "+91 9345549807",
+        "email": "717823m261@kce.ac.in",       
         "image": "/images/kce/aicte-idea-lab/team/vinipaul-kirubhagaran.jpg"
       },
       {
         "role": "Student Ambassador",
         "name": "B. Thiruselvi",
         "department": "Department of Electrical and Electronics Engineering",
-        "email": "717823e259@kce.ac.in",
-        "phone": "+91 6383064336",
+        "email": "717823e259@kce.ac.in",       
         "image": "/images/kce/aicte-idea-lab/team/thiruselvi.jpg"
       },
       {
         "role": "Student Ambassador",
         "name": "C. Sivasankar",
         "department": "Department of Electronics and Communication Engineering",
-        "email": "Sivasankar.c2007@gmail.com",
-        "phone": "+91 7010679661",
+        "email": "Sivasankar.c2007@gmail.com",       
         "image": "/images/kce/aicte-idea-lab/team/sivasankar.jpg"
       }
     ]
