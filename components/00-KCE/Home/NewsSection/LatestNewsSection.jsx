@@ -520,177 +520,179 @@ export default function LatestNewsSection() {
      ALL FEATURED NEWS
   ==================================================== */
 
-  const featuredStories = [
-
-    {
-      date: 'August 08, 2026',
-
-      image:
-        'https://learn.kce.ac.in/wp-content/uploads/2026/08/ChatGPT-Image-Aug-14-2026-06_07_05-PM.png',
-
-      title:
-        '22nd Graduation Ceremony – Class of 2025',
-
-      description: '',
-    },
-
-
-    {
-      date: 'July 25, 2026',
-
-      image:
-        'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture12.png',
-
-      title:
-        'Value Added Course on Embedded Intelligence – Department of Computer Science and Engineering',
-
-      description: '',
-    },
-
-
-    {
-      date: 'July 25, 2026',
-
-      image:
-        'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture11.png',
-
-      title:
-        'Career Awareness Program on Prompt Engineering Is Not Enough: The New Full-Stack of AI – Department of Information Technology',
-
-      description: '',
-    },
-
-
-    {
-      date: 'July 25, 2026',
-
-      image:
-        'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture10.png',
-
-      title:
-        'Strategies for Success in GATE and Competitive Examinations – Department of Electrical and Electronics Engineering',
-
-      description: '',
-    },
-
-
-    {
-      date: 'July 24, 2026',
-
-      image:
-        'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture9.png',
-
-      title:
-        'Future Trends in Information Technology and Career Opportunities – Department of Computer Science and Engineering (Cyber Security)',
-
-      description: '',
-    },
-
-
-    {
-      date: 'July 20, 2026',
-
-      image:
-        'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture8.png',
-
-      title:
-        'AI-Based Hands-on Training Organized by the Department of Artificial Intelligence and Data Science',
-
-      description: '',
-    },
-
-
-    {
-      date: 'July 20, 2026',
-
-      image:
-        'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture7.png',
-
-      title:
-        'Department of Computer Science and Engineering Organizes Hands-on Training on Foundation of AWS Cloud Platform',
-
-      description: '',
-    },
-
-
-    {
-      date: 'July 17, 2026',
-
-      image:
-        'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture6.png',
-
-      title:
-        'Women Development Cell and Department of Information Technology Organize Workshop on Breast & Cervical Cancer Awareness',
-
-      description: '',
-    },
-
-
-    {
-      date: 'July 11, 2026',
-
-      image:
-        'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture5-804x1024.png',
-
-      title:
-        'Department of Artificial Intelligence and Data Science Organizes Partial Industrial Delivery on Deep Learning',
-
-      description: '',
-    },
-
-
-    {
-      date: 'July 11, 2026',
-
-      image:
-        'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture4.png',
-
-      title:
-        'Research and Development Cell Organizes Hands-on Workshop on Patent Filing and Publication',
-
-      description: '',
-    },
-
-
-    {
-      date: 'July 8, 2026',
-
-      image:
-        'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture3.png',
-
-      title:
-        'The Karpagam Innovation Centre (KIC) Proudly Invites Students and Aspiring Entrepreneurs to Participate in STARTUP SPARK 2.0',
-
-      description: '',
-    },
-
-
-    {
-      date: '',
-
-      image:
-        'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture2-819x1024.png',
-
-      title:
-        'Launch of the Certificate Programme in Banking, Finance and Insurance (CBFI) by Bajaj Finserv for the Batch 2025–27',
-
-      description: '',
-    },
-
-
-    {
-      date: '',
-
-      image:
-        'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture1-823x1024.png',
-
-      title:
-        'Faculty members of Karpagam College of Engineering for the successful completion of the AICTE QIP PG Certificate Programme (January 2026 – June 2026)',
-
-      description: '',
-    },
-
-  ];
+const featuredStories = [
+  {
+    date: 'August 21, 2026',
+    image:
+      'https://learn.kce.ac.in/wp-content/uploads/2026/08/WhatsApp-Image-2026-08-20-at-11.45.42-AM.jpeg',
+    title:
+      'World Entrepreneur Day Revels & Inauguration of Startup Club',
+    description: '',
+    url:
+      'https://learn.kce.ac.in/world-entrepreneur-day-revels-inauguration-of-startup-club/',
+  },
+
+  {
+    date: 'August 08, 2026',
+    image:
+      'https://learn.kce.ac.in/wp-content/uploads/2026/08/ChatGPT-Image-Aug-14-2026-06_07_05-PM.png',
+    title:
+      '22nd Graduation Ceremony – Class of 2025',
+    description: '',
+  },
+
+  {
+    date: 'July 31, 2026',
+    image:
+      'https://learn.kce.ac.in/wp-content/uploads/2026/08/12_page-0001.jpg',
+    title:
+      'Beyond Education: Creating Social Impact through NGOs',
+    description: '',
+    url:
+      'https://learn.kce.ac.in/beyond-education-creating-social-impact-through-ngos/',
+  },
+
+  {
+    date: 'July 30, 2026',
+    image:
+      'https://learn.kce.ac.in/wp-content/uploads/2026/08/5_page-0001-724x1024.jpg',
+    title:
+      'Data Processing of Biomedical Signal and Images',
+    description: '',
+    url:
+      'https://learn.kce.ac.in/data-processing-of-biomedical-signal-and-images/',
+  },
+
+  {
+    date: 'July 29, 2026',
+    image:
+      'https://learn.kce.ac.in/wp-content/uploads/2026/08/16_page-0001-724x1024.jpg',
+    title:
+      'Aspire Higher: Higher Education Opportunities in Australia and New Zealand',
+    description: '',
+    url:
+      'https://learn.kce.ac.in/aspire-higher-higher-education-opportunities-in-australia-and-new-zealand/',
+  },
+
+  {
+    date: 'July 28, 2026',
+    image:
+      'https://learn.kce.ac.in/wp-content/uploads/2026/08/Poster-hod-cse_page-0001.jpg',
+    title:
+      'Karpagam College of Engineering Signs MoU with Towards Technology',
+    description: '',
+    url:
+      'https://learn.kce.ac.in/karpagam-college-of-engineering-proudly-signed-a-memorandum-of-understanding-mou-with-towards-technology-on-28-07-2026/',
+  },
+
+  {
+    date: 'July 25, 2026',
+    image:
+      'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture12.png',
+    title:
+      'Value Added Course on Embedded Intelligence – Department of Computer Science and Engineering',
+    description: '',
+  },
+
+  {
+    date: 'July 25, 2026',
+    image:
+      'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture11.png',
+    title:
+      'Career Awareness Program on Prompt Engineering Is Not Enough: The New Full-Stack of AI – Department of Information Technology',
+    description: '',
+  },
+
+  {
+    date: 'July 25, 2026',
+    image:
+      'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture10.png',
+    title:
+      'Strategies for Success in GATE and Competitive Examinations – Department of Electrical and Electronics Engineering',
+    description: '',
+  },
+
+  {
+    date: 'July 24, 2026',
+    image:
+      'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture9.png',
+    title:
+      'Future Trends in Information Technology and Career Opportunities – Department of Computer Science and Engineering (Cyber Security)',
+    description: '',
+  },
+
+  {
+    date: 'July 20, 2026',
+    image:
+      'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture8.png',
+    title:
+      'AI-Based Hands-on Training Organized by the Department of Artificial Intelligence and Data Science',
+    description: '',
+  },
+
+  {
+    date: 'July 20, 2026',
+    image:
+      'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture7.png',
+    title:
+      'Department of Computer Science and Engineering Organizes Hands-on Training on Foundation of AWS Cloud Platform',
+    description: '',
+  },
+
+  {
+    date: 'July 17, 2026',
+    image:
+      'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture6.png',
+    title:
+      'Women Development Cell and Department of Information Technology Organize Workshop on Breast & Cervical Cancer Awareness',
+    description: '',
+  },
+
+  {
+    date: 'July 11, 2026',
+    image:
+      'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture5-804x1024.png',
+    title:
+      'Department of Artificial Intelligence and Data Science Organizes Partial Industrial Delivery on Deep Learning',
+    description: '',
+  },
+
+  {
+    date: 'July 11, 2026',
+    image:
+      'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture4.png',
+    title:
+      'Research and Development Cell Organizes Hands-on Workshop on Patent Filing and Publication',
+    description: '',
+  },
+
+  {
+    date: 'July 08, 2026',
+    image:
+      'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture3.png',
+    title:
+      'The Karpagam Innovation Centre (KIC) Proudly Invites Students and Aspiring Entrepreneurs to Participate in STARTUP SPARK 2.0',
+    description: '',
+  },
+
+  {
+    date: '',
+    image:
+      'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture2-819x1024.png',
+    title:
+      'Launch of the Certificate Programme in Banking, Finance and Insurance (CBFI) by Bajaj Finserv for the Batch 2025–27',
+    description: '',
+  },
+
+  {
+    date: '',
+    image:
+      'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture1-823x1024.png',
+    title:
+      'Faculty members of Karpagam College of Engineering for the successful completion of the AICTE QIP PG Certificate Programme (January 2026 – June 2026)',
+    description: '',
+  },
+];
 
 
 
