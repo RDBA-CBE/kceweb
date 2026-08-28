@@ -18,7 +18,7 @@
      {
       "type": "logo-img",
       "data": {
-        "title": "Digital Engineering",
+        "title": "Circuit Engineering",
       
         "content": [
           {
@@ -31,7 +31,7 @@
                 "img": "/images/kce/home/coe-logo/hcl.png"
                
               },
-               { "img": "/images/kce/home/coe-logo/aws.webp"
+               { "img": "/images/kce/home/coe-logo/lab.webp"
                
               }
              
@@ -57,6 +57,10 @@
                 "img": "/images/kce/home/coe-logo/hcl.png"
                 
               },
+               {
+                "img": "/images/kce/home/coe-logo/cisco.svg"
+                
+              },
               
               {
                 "img": "/images/kce/home/coe-logo/ntt-data.svg"
@@ -71,13 +75,14 @@
                 
               },
                {
+                "img": "/images/kce/home/coe-logo/aws.webp"
+                
+              },
+               {
                 "img": "/images/kce/home/coe-logo/azure.svg"
                 
               },
-              {
-                "img": "/images/kce/home/coe-logo/lab.webp"
-                
-              },
+             
                {
                 "img": "/images/kce/home/coe-logo/juniper.svg"
                 

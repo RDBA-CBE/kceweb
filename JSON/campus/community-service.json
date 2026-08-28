@@ -1,0 +1,42 @@
+{
+  "banner": {
+    "bannerImg": "/images/kce/banner_computer_technology.jpg",
+    "title": "Community Service and Outreach ",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Infrastructure",
+        "href": "/home/infrastructure"
+      },
+      {
+        "label": "Community Service and Outreach "
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "split-image-content",
+      "data": {
+        "imagePosition": "right",
+        "sectionbg": "section-bg1 my-4",
+        "image": "/images/kce/campus-facilities/hostel/overview.png",
+        "content": [
+          {
+            "type": "title",
+            "mainTi": "Creating Impact Beyond the Campus"
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              "At Karpagam College of Engineering (KCE), students actively engage in community development through NSS, Youth Red Cross (YRC), Unnat Bharat Abhiyan (UBA), and various outreach initiatives. Through awareness campaigns, health and social service activities, environmental programmes, rural engagement, and community development initiatives, students develop social responsibility, empathy, leadership, and civic consciousness while contributing meaningfully to society."
+            ]
+          }
+        ]
+      }
+    }
+
+  ]
+}

@@ -160,3 +160,291 @@
   }
 
 }
+/* ========================================
+   EVENT LIST
+   RIGHT SIDE ONLY
+======================================== */
+
+
+/* ========================================
+   STYLISH VERTICAL LIST
+======================================== */
+
+.svm-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 24px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+
+/* ========================================
+   LIST CARD
+======================================== */
+
+.svm-list li {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    min-height: 62px;
+
+    margin: 0 !important;
+    padding: 10px 18px 10px 16px !important;
+
+    box-sizing: border-box;
+
+    background: #ffffff;
+
+    border: 1px solid #e5e9ee;
+    border-radius: 12px;
+
+    overflow: hidden;
+
+    box-shadow: 0 4px 15px rgba(4, 37, 72, 0.06);
+
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease,
+        border-color 0.25s ease;
+}
+
+
+/* ========================================
+   LEFT ACCENT LINE
+======================================== */
+
+.svm-list li::before {
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+    top: 0;
+
+    width: 3px;
+    height: 100%;
+
+    border-radius: 3px 0 0 3px;
+}
+
+
+/* ========================================
+   ICON
+======================================== */
+
+.svm-list .vm-liImg {
+    width: 40px;
+    height: 40px;
+    min-width: 40px;
+
+    display: block;
+
+    object-fit: contain;
+
+    padding: 8px;
+    margin: 0;
+
+    box-sizing: border-box;
+
+    border-radius: 9px;
+
+    transition:
+        transform 0.25s ease,
+        background 0.25s ease;
+}
+
+
+/* ========================================
+   TEXT WRAPPER
+======================================== */
+
+.svm-list li > div {
+    min-width: 0;
+
+    display: flex;
+    align-items: center;
+}
+
+
+/* ========================================
+   NORMAL TEXT
+======================================== */
+
+.svm-list li span {
+    display: block;
+
+    margin: 0;
+
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: 500;
+
+    color: #000000;
+}
+
+
+/* ========================================
+   STRONG TEXT
+======================================== */
+
+.svm-list li strong {
+    display: block;
+
+    font-size: 17px;
+    line-height: 1.3;
+    font-weight: 700;
+}
+
+
+/* ========================================
+   HOVER
+======================================== */
+
+.svm-list li:hover {
+    transform: translateX(4px);
+
+    box-shadow: 0 8px 22px rgba(4, 37, 72, 0.10);
+}
+
+
+.svm-list li:hover .vm-liImg {
+    transform: scale(1.05);
+}
+
+
+/* ========================================
+   1. PRIMARY ORANGE
+======================================== */
+
+.svm-list li:nth-child(odd)::before {
+    background: #c34f00;
+}
+
+.svm-list li:nth-child(odd) strong {
+    color: #c34f00;
+}
+
+.svm-list li:nth-child(odd) .vm-liImg {
+    background: #fff4ed;
+}
+
+.svm-list li:nth-child(odd):hover {
+    border-color: rgba(195, 79, 0, 0.35);
+}
+
+
+/* ========================================
+   2. PRIMARY NAVY
+======================================== */
+
+.svm-list li:nth-child(even)::before {
+    background: #042548;
+}
+
+.svm-list li:nth-child(even) strong {
+    color: #042548;
+}
+
+.svm-list li:nth-child(even) .vm-liImg {
+    background: #f1f6fa;
+}
+
+.svm-list li:nth-child(even):hover {
+    border-color: rgba(4, 37, 72, 0.30);
+}
+
+
+/* ========================================
+   MOBILE
+======================================== */
+
+@media (max-width: 767px) {
+
+    .svm-list {
+        gap: 10px;
+    }
+
+    .svm-list li {
+        min-height: 56px;
+
+        gap: 13px;
+
+        padding: 9px 14px 9px 13px !important;
+
+        border-radius: 10px;
+    }
+
+
+    .svm-list .vm-liImg {
+        width: 38px;
+        height: 38px;
+        min-width: 38px;
+
+        padding: 7px;
+    }
+
+
+    .svm-list li span {
+        font-size: 15px;
+    }
+
+
+    .svm-list li strong {
+        font-size: 16px;
+    }
+
+
+    .svm-list li:hover {
+        transform: translateX(2px);
+    }
+}
+
+
+/* ========================================
+   SMALL MOBILE
+======================================== */
+
+@media (max-width: 480px) {
+
+    .svm-list {
+        gap: 9px;
+    }
+
+
+    .svm-list li {
+        min-height: 54px;
+
+        gap: 11px;
+
+        padding: 8px 12px 8px 11px !important;
+
+        border-radius: 9px;
+    }
+
+
+    .svm-list .vm-liImg {
+        width: 36px;
+        height: 36px;
+        min-width: 36px;
+
+        padding: 7px;
+
+        border-radius: 8px;
+    }
+
+
+    .svm-list li span {
+        font-size: 14px;
+    }
+
+
+    .svm-list li strong {
+        font-size: 15px;
+    }
+}

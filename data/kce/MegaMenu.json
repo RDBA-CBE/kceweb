@@ -152,7 +152,7 @@
       "link": "/internal-quality-assurance-cell-iqac"
     },
     {
-      "menuTitle": "Campus Facilities",
+      "menuTitle": "Life @ KCE",
       "menuType": "campus life",
       "link": "/infrastructure",
       "hasMegamenu": true,
@@ -163,76 +163,86 @@
       "menuItems": [
         {
           "id": 1,
-          "title": "Clubs",
+          "title": "Campus Clubs",
           "link": "/infrastructure/clubs/"
         },
-        {
+         {
           "id": 2,
-          "title": "Arts & Culture",
-          "link": "/infrastructure/arts-culture/"
+          "title": "Professional Societies",
+          "link": "/infrastructure/professional-societies/"
         },
         {
           "id": 3,
+          "title": "Campus Celebrations",
+          "link": "/infrastructure/campus-celebrations/"
+        },
+        {
+          "id": 4,
           "title": "Campus Events",
           "link": "/infrastructure/campus-events/"
         },
         {
-          "id": 4,
-          "title": "Health and Fitness",
+          "id": 5,
+          "title": "Sports and Wellness",
           "link": "/infrastructure/health-and-fitness/"
         },
         {
-          "id": 5,
+          "id": 6,
           "title": "Karpagam Innovation Center",
           "link": "/infrastructure/karpagam-innovation-centre/"
         },
         {
-          "id": 6,
+          "id": 7,
           "title": "National Innovation and Start-up Policy",
           "link": "/infrastructure/national-innovation-and-start-up-policy/"
         },
         {
-          "id": 7,
+          "id": 8,
           "title": "KIC TV",
           "link": "/infrastructure/student-media/"
         },
         {
-          "id": 8,
+          "id": 9,
           "title": "Hostel",
           "link": "/infrastructure/hostel/"
         },
         {
-          "id": 9,
+          "id": 10,
           "title": "Cafeteria",
           "link": "/infrastructure/cafeteria/"
         },
         {
-          "id": 10,
-          "title": "NSS",
+          "id": 11,
+          "title": "Community Service and Outreach",
           "link": "/infrastructure/nss/"
         },
         {
-          "id": 11,
+          "id": 12,
           "title": "Entrepreneurship",
           "link": "/infrastructure/entrepreneurship/"
         },
+         {
+          "id": 13,
+          "title": "Student welfare",
+          "link": "/infrastructure/student-welfare/"
+        },
         {
-          "id": 12,
+          "id": 14,
           "title": "Library",
           "link": "/library/"
         },
         {
-          "id": 13,
+          "id": 15,
           "title": "Transport",
           "link": "/infrastructure/transport/"
         },
         {
-          "id": 14,
+          "id": 16,
           "title": "Banking",
           "link": "/infrastructure/banking/"
         },
         {
-          "id": 15,
+          "id": 17,
           "title": "Infrastructure",
           "link": "/infrastructure/"
         }

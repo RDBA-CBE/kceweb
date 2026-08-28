@@ -1,0 +1,29 @@
+"use client";
+import React from "react";
+import data from "@/JSON/campus/professional-societies.json";
+import InnerBanner from "../common/InnerBanner";
+import RenderSection from "../RenderComponent/RenderSection";
+
+export default function ProfessionalSocietiesPage() {
+  const pageData = data;
+  const renderSectionWrapper = (section, index) => {
+    return (
+      <RenderSection
+        key={index}
+        section={section}
+        index={index}
+        renderSection={renderSectionWrapper}
+      />
+    );
+  };
+
+  return (
+    <>
+      <InnerBanner data={pageData?.banner} />
+
+      {pageData?.sections?.map((section, index) =>
+        renderSectionWrapper(section, index),
+      )}
+    </>
+  );
+}

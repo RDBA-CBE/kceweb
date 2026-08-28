@@ -30,7 +30,7 @@
   "Highlights": {
     "imagePosition": "right",
     "sectionbg": "section-bg1 my-4",
-    "image": "/images/kce/about/highlight.png",
+    
     "content": [
       {
         "type": "title",

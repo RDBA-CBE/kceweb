@@ -17,6 +17,18 @@
     ]
   },
   "sections": [
+      {
+      "type": "quote-sec",
+      "data": {
+        "title": "Connecting Students to Campus, Every Day",
+        "content": [
+          "Karpagam College of Engineering provides a safe, reliable, and convenient transportation facility for day scholars commuting from Coimbatore, Pollachi, Tirupur and surrounding areas. The college operates well-planned bus routes to facilitate comfortable and timely travel to and from the campus. A fleet of 13 buses are being operated for the convenience of Faculty members and students.",
+          "The routes are periodically planned and optimized to ensure efficient connectivity and minimize travel time for students. The transportation facility provides a convenient commuting option for students and contributes to a safe and hassle-free campus experience."
+        ],
+        "img": "/images/kce/campus-facilities/transport/overview.png",
+        "quote": "At KCE, every journey is designed for safety, comfort, and convenience"
+      }
+    },
     {
       "type": "table",
       "data": {

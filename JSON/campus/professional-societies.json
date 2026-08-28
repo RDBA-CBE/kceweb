@@ -1,0 +1,42 @@
+{
+  "banner": {
+    "bannerImg": "/images/kce/banner_computer_technology.jpg",
+    "title": "Professional Societies ",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Infrastructure",
+        "href": "/home/infrastructure"
+      },
+      {
+        "label": "Professional Societies "
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "split-image-content",
+      "data": {
+        "imagePosition": "right",
+        "sectionbg": "section-bg1 my-4",
+        "image": "/images/kce/campus-facilities/professional-societies.webp",
+        "content": [
+          {
+            "type": "title",
+            "mainTi": "Learn-  Lead-  Connect- Excel"
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              "KCE encourages students to actively engage with professional societies and student chapters such as <b>IEEE, ISTE, IETE, CSI, SAE, ASME,</b> and other discipline-specific organizations. These societies provide opportunities to participate in technical workshops, seminars, conferences, hackathons, competitions, industry interactions, certification programmes, and knowledge-sharing activities. Through these platforms, students enhance their technical and professional competencies while developing leadership, teamwork, networking, innovation, and lifelong learning skills."
+            ]
+          }
+        ]
+      }
+    }
+
+  ]
+}

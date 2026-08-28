@@ -22,40 +22,100 @@
       "data": {
         "imagePosition": "right",
         "sectionbg": "section-bg1 my-4",
-        "image": "/images/kce/campus-facilities/hostel/hostel.webp",
+        "image": "/images/kce/campus-facilities/hostel/overview.png",
         "content": [
           {
             "type": "title",
-            "mainTi": "A home away from home"
+            "mainTi": "A Safe Space to Live, Learn, Grow and Belong"
           },
           {
             "type": "paragraph",
             "text": [
-              "Our objective of establishing hostels within the campus is to provide “a home away from home” for the students. We provide separate hostels for boys and girls. The hostel environment certainly provides self- confidence, instills discipline in the minds of students and also provides scope for developing their ideas.The hostel on our campus is aesthetically designed to provide an ideal and spacious environment conducive for academic pursuit. The hostel is provided with uninterrupted water supply, reading hall, round the clock security, internet connection, indoor recreation, television etc., State of the art kitchen and spacious dining area has been provided for both the hostels and a customized menu caters to the students’ needs. Hygiene and cleanliness are emphasized in the hostel."
+              "The Karpagam College of Engineering (KCE) Hostels are thoughtfully designed to provide students with a safe, comfortable, and nurturing home away from home. Separate residential facilities are available for boys and girls, offering a secure and welcoming environment that complements their academic and personal development.",
+              "The hostels are aesthetically designed with spacious and well-maintained facilities that create a conducive environment for learning, relaxation, and community living. Hostel life encourages students to develop self-confidence, discipline, independence, interpersonal skills, and a sense of responsibility, while fostering friendships and a strong sense of belonging."
             ]
           }
         ]
       }
     },
-    {
-      "type": "split-image-content",
-      "data": {
-        "imagePosition": "left",
-        "sectionbg": "section-bg1 pt-0 my-md-4",
-        "image": "/images/kce/campus-facilities/hostel/counseling-center.webp",
-        "content": [
-          {
-            "type": "title",
-            "mainTi": "Counseling Center"
-          },
-          {
-            "type": "paragraph",
-            "text": [
-              "KCE’s counseling center is an on-campus resource that supports student growth and development as they meet the challenges and choices faced throughout their college years. It is committed to helping students reach their highest academic and personal potential. Counseling Services actively promotes the personal, social, emotional and cognitive growth of KCE students. Special attention is paid to the ongoing issues affecting college students. Counseling Services values and maintains the highest professional and ethical standards in order to foster the psychological well-being and development of KCEians. The student counselor works regularly with students to help them in their emotional, psychological, familial, and academic problems."
-            ]
-          }
-        ]
+ {
+  "type": "pill-list",
+  "data": {
+    "title": "Hostel facilities",
+    "description": "Our hostel facilities are thoughtfully designed to provide students with a safe, comfortable, connected, and welcoming living environment.",
+    "items": [
+      {
+        "id": 1,
+        "label": "Spacious and well-ventilated accommodation",
+        "bullet": "true"
+      },
+      {
+        "id": 2,
+        "label": "Dedicated reading halls and study spaces",
+        "bullet": "true"
+      },
+      {
+        "id": 3,
+        "label": "24×7 security and surveillance",
+        "bullet": "true"
+      },
+      {
+        "id": 4,
+        "label": "Uninterrupted water supply",
+        "bullet": "true"
+      },
+      {
+        "id": 5,
+        "label": "Internet and Wi-Fi connectivity",
+        "bullet": "true"
+      },
+      {
+        "id": 6,
+        "label": "Indoor recreation facilities",
+        "bullet": "true"
+      },
+      {
+        "id": 7,
+        "label": "Television and common areas",
+        "bullet": "true"
+      },
+      {
+        "id": 8,
+        "label": "Hygienic and well-maintained surroundings",
+        "bullet": "true"
+      },
+      {
+        "id": 9,
+        "label": "Comfortable dining facilities",
+        "bullet": "true"
+      },
+      {
+        "id": 10,
+        "label": "Laundry facilities",
+        "bullet": "true"
+      },
+      {
+        "id": 11,
+        "label": "Emergency support for medical and other emergencies",
+        "bullet": "true"
+      },
+      {
+        "id": 12,
+        "label": "RO drinking water",
+        "bullet": "true"
+      },
+      {
+        "id": 13,
+        "label": "Housekeeping facility",
+        "bullet": "true"
+      },
+      {
+        "id": 14,
+        "label": "Green garden spaces",
+        "bullet": "true"
       }
-    }
+    ]
+  }
+}
   ]
 }

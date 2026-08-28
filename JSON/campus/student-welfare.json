@@ -1,0 +1,42 @@
+{
+  "banner": {
+    "bannerImg": "/images/kce/banner_computer_technology.jpg",
+    "title": "Student welfare",
+    "breadcrumb": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Infrastructure",
+        "href": "/home/infrastructure"
+      },
+      {
+        "label": "Student welfare"
+      }
+    ]
+  },
+  "sections": [
+    {
+      "type": "split-image-content",
+      "data": {
+        "imagePosition": "right",
+        "sectionbg": "section-bg1 my-4",
+        "image": "/images/kce/campus-facilities/student-welfare.webp",
+        "content": [
+          {
+            "type": "title",
+            "mainTi": "Supporting Every Student, Every Step of the Way "
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              "A positive, safe, and supportive campus environment is essential for students to learn effectively, develop confidence, and excel with a healthy and cheerful frame of mind. The Student Welfare Cell at Karpagam College of Engineering (KCE) is committed to promoting the holistic well-being, safety, and overall development of students throughout their college journey. The Cell addresses diverse dimensions of student welfare, including counselling and emotional well-being, personal and academic support, prevention of sexual harassment, anti-ragging measures, discipline, safety, and grievance redressal. Through dedicated mechanisms such as the Counselling Services, Prevention of Sexual Harassment (PoSH) Committee, Anti-Ragging Committee, Discipline Committee, and Grievance Redressal mechanisms, the Cell ensures that students have access to a secure, inclusive, respectful, and nurturing campus environment. These initiatives empower students to overcome challenges, seek timely support, build resilience, and pursue their academic and personal aspirations with confidence."
+            ]
+          }
+        ]
+      }
+    }
+
+  ]
+}

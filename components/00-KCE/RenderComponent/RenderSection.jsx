@@ -33,6 +33,7 @@ import FullWidthImage from "../DepartmentCompoennts/FullWidthImage";
 import ContactCard from "../DepartmentCompoennts/ContactCard";
 import Accordion from "../DepartmentCompoennts/Accordian";
 import EdgeImageContent from "../DepartmentCompoennts/EdgeImageContent";
+import KnowledgeResources from "../DepartmentCompoennts/KnowledgeResources";
 
 const RenderSection = ({ section, index, renderSection }) => {
   switch (section.type) {
@@ -211,9 +212,14 @@ const RenderSection = ({ section, index, renderSection }) => {
     case "stats-banner":
       return <InnovationBanner key={index} data={section.data} />;
 
+      case "knowledge-resources":
+  return <KnowledgeResources key={index} data={section.data} />;
+
     default:
       return null;
   }
 };
 
 export default RenderSection;
+
+
