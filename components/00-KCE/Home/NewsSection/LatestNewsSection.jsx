@@ -520,177 +520,179 @@ export default function LatestNewsSection() {
      ALL FEATURED NEWS
   ==================================================== */
 
-  const featuredStories = [
-
-    {
-      date: 'August 08, 2026',
-
-      image:
-        'https://learn.kce.ac.in/wp-content/uploads/2026/08/ChatGPT-Image-Aug-14-2026-06_07_05-PM.png',
-
-      title:
-        '22nd Graduation Ceremony – Class of 2025',
-
-      description: '',
-    },
-
-
-    {
-      date: 'July 25, 2026',
-
-      image:
-        'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture12.png',
-
-      title:
-        'Value Added Course on Embedded Intelligence – Department of Computer Science and Engineering',
-
-      description: '',
-    },
-
-
-    {
-      date: 'July 25, 2026',
-
-      image:
-        'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture11.png',
-
-      title:
-        'Career Awareness Program on Prompt Engineering Is Not Enough: The New Full-Stack of AI – Department of Information Technology',
-
-      description: '',
-    },
-
-
-    {
-      date: 'July 25, 2026',
-
-      image:
-        'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture10.png',
-
-      title:
-        'Strategies for Success in GATE and Competitive Examinations – Department of Electrical and Electronics Engineering',
-
-      description: '',
-    },
-
-
-    {
-      date: 'July 24, 2026',
-
-      image:
-        'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture9.png',
-
-      title:
-        'Future Trends in Information Technology and Career Opportunities – Department of Computer Science and Engineering (Cyber Security)',
-
-      description: '',
-    },
-
-
-    {
-      date: 'July 20, 2026',
-
-      image:
-        'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture8.png',
-
-      title:
-        'AI-Based Hands-on Training Organized by the Department of Artificial Intelligence and Data Science',
-
-      description: '',
-    },
-
-
-    {
-      date: 'July 20, 2026',
-
-      image:
-        'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture7.png',
-
-      title:
-        'Department of Computer Science and Engineering Organizes Hands-on Training on Foundation of AWS Cloud Platform',
-
-      description: '',
-    },
-
-
-    {
-      date: 'July 17, 2026',
-
-      image:
-        'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture6.png',
-
-      title:
-        'Women Development Cell and Department of Information Technology Organize Workshop on Breast & Cervical Cancer Awareness',
-
-      description: '',
-    },
-
-
-    {
-      date: 'July 11, 2026',
-
-      image:
-        'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture5-804x1024.png',
-
-      title:
-        'Department of Artificial Intelligence and Data Science Organizes Partial Industrial Delivery on Deep Learning',
-
-      description: '',
-    },
-
-
-    {
-      date: 'July 11, 2026',
-
-      image:
-        'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture4.png',
-
-      title:
-        'Research and Development Cell Organizes Hands-on Workshop on Patent Filing and Publication',
-
-      description: '',
-    },
-
-
-    {
-      date: 'July 8, 2026',
-
-      image:
-        'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture3.png',
-
-      title:
-        'The Karpagam Innovation Centre (KIC) Proudly Invites Students and Aspiring Entrepreneurs to Participate in STARTUP SPARK 2.0',
-
-      description: '',
-    },
-
-
-    {
-      date: '',
-
-      image:
-        'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture2-819x1024.png',
-
-      title:
-        'Launch of the Certificate Programme in Banking, Finance and Insurance (CBFI) by Bajaj Finserv for the Batch 2025–27',
-
-      description: '',
-    },
-
-
-    {
-      date: '',
-
-      image:
-        'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture1-823x1024.png',
-
-      title:
-        'Faculty members of Karpagam College of Engineering for the successful completion of the AICTE QIP PG Certificate Programme (January 2026 – June 2026)',
-
-      description: '',
-    },
-
-  ];
+const featuredStories = [
+  {
+    date: 'August 21, 2026',
+    image:
+      'https://learn.kce.ac.in/wp-content/uploads/2026/08/WhatsApp-Image-2026-08-20-at-11.45.42-AM.jpeg',
+    title:
+      'World Entrepreneur Day Revels & Inauguration of Startup Club',
+    description: '',
+    url:
+      'https://learn.kce.ac.in/world-entrepreneur-day-revels-inauguration-of-startup-club/',
+  },
+
+  {
+    date: 'August 08, 2026',
+    image:
+      'https://learn.kce.ac.in/wp-content/uploads/2026/08/ChatGPT-Image-Aug-14-2026-06_07_05-PM.png',
+    title:
+      '22nd Graduation Ceremony – Class of 2025',
+    description: '',
+  },
+
+  {
+    date: 'July 31, 2026',
+    image:
+      'https://learn.kce.ac.in/wp-content/uploads/2026/08/12_page-0001.jpg',
+    title:
+      'Beyond Education: Creating Social Impact through NGOs',
+    description: '',
+    url:
+      'https://learn.kce.ac.in/beyond-education-creating-social-impact-through-ngos/',
+  },
+
+  {
+    date: 'July 30, 2026',
+    image:
+      'https://learn.kce.ac.in/wp-content/uploads/2026/08/5_page-0001-724x1024.jpg',
+    title:
+      'Data Processing of Biomedical Signal and Images',
+    description: '',
+    url:
+      'https://learn.kce.ac.in/data-processing-of-biomedical-signal-and-images/',
+  },
+
+  {
+    date: 'July 29, 2026',
+    image:
+      'https://learn.kce.ac.in/wp-content/uploads/2026/08/16_page-0001-724x1024.jpg',
+    title:
+      'Aspire Higher: Higher Education Opportunities in Australia and New Zealand',
+    description: '',
+    url:
+      'https://learn.kce.ac.in/aspire-higher-higher-education-opportunities-in-australia-and-new-zealand/',
+  },
+
+  {
+    date: 'July 28, 2026',
+    image:
+      'https://learn.kce.ac.in/wp-content/uploads/2026/08/Poster-hod-cse_page-0001.jpg',
+    title:
+      'Karpagam College of Engineering Signs MoU with Towards Technology',
+    description: '',
+    url:
+      'https://learn.kce.ac.in/karpagam-college-of-engineering-proudly-signed-a-memorandum-of-understanding-mou-with-towards-technology-on-28-07-2026/',
+  },
+
+  {
+    date: 'July 25, 2026',
+    image:
+      'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture12.png',
+    title:
+      'Value Added Course on Embedded Intelligence – Department of Computer Science and Engineering',
+    description: '',
+  },
+
+  {
+    date: 'July 25, 2026',
+    image:
+      'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture11.png',
+    title:
+      'Career Awareness Program on Prompt Engineering Is Not Enough: The New Full-Stack of AI – Department of Information Technology',
+    description: '',
+  },
+
+  {
+    date: 'July 25, 2026',
+    image:
+      'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture10.png',
+    title:
+      'Strategies for Success in GATE and Competitive Examinations – Department of Electrical and Electronics Engineering',
+    description: '',
+  },
+
+  {
+    date: 'July 24, 2026',
+    image:
+      'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture9.png',
+    title:
+      'Future Trends in Information Technology and Career Opportunities – Department of Computer Science and Engineering (Cyber Security)',
+    description: '',
+  },
+
+  {
+    date: 'July 20, 2026',
+    image:
+      'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture8.png',
+    title:
+      'AI-Based Hands-on Training Organized by the Department of Artificial Intelligence and Data Science',
+    description: '',
+  },
+
+  {
+    date: 'July 20, 2026',
+    image:
+      'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture7.png',
+    title:
+      'Department of Computer Science and Engineering Organizes Hands-on Training on Foundation of AWS Cloud Platform',
+    description: '',
+  },
+
+  {
+    date: 'July 17, 2026',
+    image:
+      'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture6.png',
+    title:
+      'Women Development Cell and Department of Information Technology Organize Workshop on Breast & Cervical Cancer Awareness',
+    description: '',
+  },
+
+  {
+    date: 'July 11, 2026',
+    image:
+      'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture5-804x1024.png',
+    title:
+      'Department of Artificial Intelligence and Data Science Organizes Partial Industrial Delivery on Deep Learning',
+    description: '',
+  },
+
+  {
+    date: 'July 11, 2026',
+    image:
+      'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture4.png',
+    title:
+      'Research and Development Cell Organizes Hands-on Workshop on Patent Filing and Publication',
+    description: '',
+  },
+
+  {
+    date: 'July 08, 2026',
+    image:
+      'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture3.png',
+    title:
+      'The Karpagam Innovation Centre (KIC) Proudly Invites Students and Aspiring Entrepreneurs to Participate in STARTUP SPARK 2.0',
+    description: '',
+  },
+
+  {
+    date: '',
+    image:
+      'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture2-819x1024.png',
+    title:
+      'Launch of the Certificate Programme in Banking, Finance and Insurance (CBFI) by Bajaj Finserv for the Batch 2025–27',
+    description: '',
+  },
+
+  {
+    date: '',
+    image:
+      'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture1-823x1024.png',
+    title:
+      'Faculty members of Karpagam College of Engineering for the successful completion of the AICTE QIP PG Certificate Programme (January 2026 – June 2026)',
+    description: '',
+  },
+];
 
 
 
@@ -707,126 +709,61 @@ const eventsData = [
   },
 
   {
-    month: 'AUG',
-    day: '21',
+    month: 'SEP',
+    day: '10',
     title:
-      'World Entrepreneur Day Revels & Inauguration of Startup Club',
-    url: 'https://learn.kce.ac.in/world-entrepreneur-day-revels-inauguration-of-startup-club/',
+      'YUVA 2026 – Freshmen Induction Programme – ECE & Electronics Engineering (VLSI)',
+    url: 'https://learn.kce.ac.in/yuva-2026-freshmen-induction-programme/',
   },
 
-  
+  {
+    month: 'SEP',
+    day: '09',
+    title:
+      'YUVA 2026 – Freshmen Induction Programme – EEE, Civil & Mechanical Engineering',
+    url: 'https://learn.kce.ac.in/yuva-2026-freshmen-induction-programme/',
+  },
 
-  // {
-  //   month: 'JUL',
-  //   day: '11',
-  //   title: 'Start-Up Spark 2.0',
-  //   url: '/start-up-spark-2-0',
-  // },
+  {
+    month: 'SEP',
+    day: '08',
+    title:
+      'YUVA 2026 – Freshmen Induction Programme – AI & Data Science and Information Technology',
+    url: 'https://learn.kce.ac.in/yuva-2026-freshmen-induction-programme/',
+  },
 
-  // {
-  //   month: 'JUL',
-  //   day: '11',
-  //   title: 'Partial Industrial Delivery',
-  //   url: '/partial-industrial-delivery',
-  // },
+  {
+    month: 'SEP',
+    day: '07',
+    title:
+      'YUVA 2026 – Freshmen Induction Programme – CSE & CSE (Cyber Security)',
+    url: 'https://learn.kce.ac.in/yuva-2026-freshmen-induction-programme/',
+  },
 
-  // {
-  //   month: 'JUL',
-  //   day: '17',
-  //   title:
-  //     'Workshop on Pink Care Initiative Breast & Cervical Cancer Awareness',
-  //   url: '/pink-care-initiative',
-  // },
+  {
+    month: 'AUG',
+    day: '29',
+    title:
+      'One Day Seminar on Challenges in Fluid Flow Design over Drone Wings',
+    url: 'https://learn.kce.ac.in/one-day-seminar-on-challenges-in-fluid-flow-design-over-drone-wings/',
+  },
 
-  // {
-  //   month: 'JUL',
-  //   day: '17',
-  //   title:
-  //     'Guest Lecture on Beyond OpenAI: Building Custom Analytics Engines on Open-Source AI',
-  //   url: '/beyond-openai',
-  // },
+  {
+    month: 'AUG',
+    day: '29',
+    title:
+      'Unplug & Unwind – Awareness Program on Excessive Mobile Phone Usage',
+    url: 'https://learn.kce.ac.in/unplug-unwind-awareness-program-on-excessive-mobile-phone-usage/',
+  },
 
-  // {
-  //   month: 'JUL',
-  //   day: '17',
-  //   title: 'Eco Care Club - Seed Balls Preparation Event',
-  //   url: '/eco-care-club-seed-balls',
-  // },
+  {
+    month: 'AUG',
+    day: '29',
+    title:
+      'Workshop on Next-Gen AI: Practical Skills, Emerging Applications and Industry Impact',
+    url: 'https://learn.kce.ac.in/next-gen-ai-practical-skills-emerging-applications-and-industry-impact/',
+  },
 
-  // {
-  //   month: 'JUL',
-  //   day: '20',
-  //   title: 'Workshop on Foundation on AWS Cloud Platform',
-  //   url: '/aws-cloud-platform',
-  // },
-
-  // {
-  //   month: 'JUL',
-  //   day: '20',
-  //   title: 'Workshop on AI-Based Hands-on Training',
-  //   url: '/ai-based-hands-on-training',
-  // },
-
-  // {
-  //   month: 'JUL',
-  //   day: '22',
-  //   title:
-  //     'Seminar on Predictive Modeling Frameworks: Deploying Regression Algorithms via Scikit-Learn',
-  //   url: '/predictive-modeling-frameworks',
-  // },
-
-  // {
-  //   month: 'JUL',
-  //   day: '22',
-  //   title:
-  //     'Career Guidance Programme for Civil Engineering Students – KCEians By KCEian',
-  //   url: '/career-guidance-civil-engineering',
-  // },
-
-  // {
-  //   month: 'JUL',
-  //   day: '23',
-  //   title:
-  //     'Workshop on Rebar Detailing and Bar Bending Schedule',
-  //   url: '/rebar-detailing-workshop',
-  // },
-
-  // {
-  //   month: 'JUL',
-  //   day: '24',
-  //   title: 'Association and Club Inauguration',
-  //   url: '/association-club-inauguration',
-  // },
-
-  // {
-  //   month: 'JUL',
-  //   day: '25',
-  //   title: 'Value Added Course on Embedded Intelligence',
-  //   url: '/embedded-intelligence',
-  // },
-
-  // {
-  //   month: 'JUL',
-  //   day: '25',
-  //   title:
-  //     'Career Awareness Program on Prompt Engineering is Not Enough: The New Full-Stack of AI',
-  //   url: '/prompt-engineering-full-stack-ai',
-  // },
-
-  // {
-  //   month: 'JUL',
-  //   day: '25',
-  //   title:
-  //     'Seminar on Strategies for Success in GATE and Competitive Examinations',
-  //   url: '/gate-competitive-examinations',
-  // },
-
-  // {
-  //   month: 'JUL',
-  //   day: '30',
-  //   title: 'Workshop on Full Stack Web Development',
-  //   url: '/full-stack-web-development',
-  // },
 ];
 
 
