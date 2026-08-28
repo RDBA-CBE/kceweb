@@ -707,126 +707,61 @@ const eventsData = [
   },
 
   {
-    month: 'AUG',
-    day: '21',
+    month: 'SEP',
+    day: '10',
     title:
-      'World Entrepreneur Day Revels & Inauguration of Startup Club',
-    url: 'https://learn.kce.ac.in/world-entrepreneur-day-revels-inauguration-of-startup-club/',
+      'YUVA 2026 – Freshmen Induction Programme – ECE & Electronics Engineering (VLSI)',
+    url: 'https://learn.kce.ac.in/yuva-2026-freshmen-induction-programme/',
   },
 
-  
+  {
+    month: 'SEP',
+    day: '09',
+    title:
+      'YUVA 2026 – Freshmen Induction Programme – EEE, Civil & Mechanical Engineering',
+    url: 'https://learn.kce.ac.in/yuva-2026-freshmen-induction-programme/',
+  },
 
-  // {
-  //   month: 'JUL',
-  //   day: '11',
-  //   title: 'Start-Up Spark 2.0',
-  //   url: '/start-up-spark-2-0',
-  // },
+  {
+    month: 'SEP',
+    day: '08',
+    title:
+      'YUVA 2026 – Freshmen Induction Programme – AI & Data Science and Information Technology',
+    url: 'https://learn.kce.ac.in/yuva-2026-freshmen-induction-programme/',
+  },
 
-  // {
-  //   month: 'JUL',
-  //   day: '11',
-  //   title: 'Partial Industrial Delivery',
-  //   url: '/partial-industrial-delivery',
-  // },
+  {
+    month: 'SEP',
+    day: '07',
+    title:
+      'YUVA 2026 – Freshmen Induction Programme – CSE & CSE (Cyber Security)',
+    url: 'https://learn.kce.ac.in/yuva-2026-freshmen-induction-programme/',
+  },
 
-  // {
-  //   month: 'JUL',
-  //   day: '17',
-  //   title:
-  //     'Workshop on Pink Care Initiative Breast & Cervical Cancer Awareness',
-  //   url: '/pink-care-initiative',
-  // },
+  {
+    month: 'AUG',
+    day: '29',
+    title:
+      'One Day Seminar on Challenges in Fluid Flow Design over Drone Wings',
+    url: 'https://learn.kce.ac.in/one-day-seminar-on-challenges-in-fluid-flow-design-over-drone-wings/',
+  },
 
-  // {
-  //   month: 'JUL',
-  //   day: '17',
-  //   title:
-  //     'Guest Lecture on Beyond OpenAI: Building Custom Analytics Engines on Open-Source AI',
-  //   url: '/beyond-openai',
-  // },
+  {
+    month: 'AUG',
+    day: '29',
+    title:
+      'Unplug & Unwind – Awareness Program on Excessive Mobile Phone Usage',
+    url: 'https://learn.kce.ac.in/unplug-unwind-awareness-program-on-excessive-mobile-phone-usage/',
+  },
 
-  // {
-  //   month: 'JUL',
-  //   day: '17',
-  //   title: 'Eco Care Club - Seed Balls Preparation Event',
-  //   url: '/eco-care-club-seed-balls',
-  // },
+  {
+    month: 'AUG',
+    day: '29',
+    title:
+      'Workshop on Next-Gen AI: Practical Skills, Emerging Applications and Industry Impact',
+    url: 'https://learn.kce.ac.in/next-gen-ai-practical-skills-emerging-applications-and-industry-impact/',
+  },
 
-  // {
-  //   month: 'JUL',
-  //   day: '20',
-  //   title: 'Workshop on Foundation on AWS Cloud Platform',
-  //   url: '/aws-cloud-platform',
-  // },
-
-  // {
-  //   month: 'JUL',
-  //   day: '20',
-  //   title: 'Workshop on AI-Based Hands-on Training',
-  //   url: '/ai-based-hands-on-training',
-  // },
-
-  // {
-  //   month: 'JUL',
-  //   day: '22',
-  //   title:
-  //     'Seminar on Predictive Modeling Frameworks: Deploying Regression Algorithms via Scikit-Learn',
-  //   url: '/predictive-modeling-frameworks',
-  // },
-
-  // {
-  //   month: 'JUL',
-  //   day: '22',
-  //   title:
-  //     'Career Guidance Programme for Civil Engineering Students – KCEians By KCEian',
-  //   url: '/career-guidance-civil-engineering',
-  // },
-
-  // {
-  //   month: 'JUL',
-  //   day: '23',
-  //   title:
-  //     'Workshop on Rebar Detailing and Bar Bending Schedule',
-  //   url: '/rebar-detailing-workshop',
-  // },
-
-  // {
-  //   month: 'JUL',
-  //   day: '24',
-  //   title: 'Association and Club Inauguration',
-  //   url: '/association-club-inauguration',
-  // },
-
-  // {
-  //   month: 'JUL',
-  //   day: '25',
-  //   title: 'Value Added Course on Embedded Intelligence',
-  //   url: '/embedded-intelligence',
-  // },
-
-  // {
-  //   month: 'JUL',
-  //   day: '25',
-  //   title:
-  //     'Career Awareness Program on Prompt Engineering is Not Enough: The New Full-Stack of AI',
-  //   url: '/prompt-engineering-full-stack-ai',
-  // },
-
-  // {
-  //   month: 'JUL',
-  //   day: '25',
-  //   title:
-  //     'Seminar on Strategies for Success in GATE and Competitive Examinations',
-  //   url: '/gate-competitive-examinations',
-  // },
-
-  // {
-  //   month: 'JUL',
-  //   day: '30',
-  //   title: 'Workshop on Full Stack Web Development',
-  //   url: '/full-stack-web-development',
-  // },
 ];
 
 
