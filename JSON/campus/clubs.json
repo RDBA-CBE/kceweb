@@ -1,7 +1,7 @@
 {
   "banner": {
     "bannerImg": "/images/kce/banner_computer_technology.jpg",
-    "title": "Clubs",
+    "title": "Campus Clubs",
     "breadcrumb": [
       {
         "label": "Home",
@@ -12,7 +12,7 @@
         "href": "/home/infrastructure"
       },
       {
-        "label": "Clubs"
+        "label": "Campus Clubs"
       }
     ]
   },
@@ -21,9 +21,12 @@
     {
       "type": "quote-sec",
       "data": {
-        "title": "Campus Clubs & Student Development",
+        "title": "Nurturing Creativity and Talent",
         "content": [
-          "KCE has many student clubs to connect, engage and explore the talents of the students! Student clubs allow for further exploration and discovery in academic and non- academic areas,enabling growth experiences and learning beyond the classroom  setting. Through this, students are able to develop and hone their leadership skills, as well as appreciate the value of teamwork and  cooperation."
+          "At Karpagam College of Engineering (KCE), we firmly believe that students should be provided with ample opportunities to explore their creativity, discover their talents, and develop skills beyond the classroom. Cultural programmes and extracurricular activities are organized throughout the year to encourage creative pursuits, nurture talent, and promote holistic development.",
+          "Students actively participate in and take responsibility for organizing various events, developing valuable skills in leadership, teamwork, communication, coordination, and event management. KCE recognizes that leisure, recreation, sports, and extracurricular activities play an essential role in enhancing students’ overall well-being and academic performance. Accordingly, students are encouraged to express their skills, talents, and creativity across diverse fields.",
+          "Participation in these activities provides students with a refreshing and enriching experience, rejuvenating their energy and confidence to meet the challenges of their academic pursuits. Over the years, KCE has witnessed several students excel in music, dance, literature, sports, and other creative domains, and we take pride in having contributed to their growth and achievements.",
+          "Through sustained encouragement and opportunities, KCE strives to nurture a new generation of stars in arts, culture, sports, and other extracurricular domains, empowering students to surpass their achievements of yesterday and build a brighter and more successful tomorrow."
         ],
         "img": "/images/kce/campus-facilities/club/club.webp",
         "quote": "At KCE, you can pour your passion into any interest imaginable...."
@@ -31,74 +34,225 @@
     },
 
     {
-      "type": "pill-list",
+      "type": "split-image-content",
       "data": {
-        "title": "Take a peek at some of our clubs...",
-        "description": "Hundreds of events and programmes are held by these clubs around the year with a large number of students participate.",
-        "items": [
+        "sectionbg": "section-bg2",
+        "image": "/images/kce/campus-facilities/tech-club-s.webp",
+        "content": [
           {
-            "id": 1,
-            "label": "Nature Club",
-            "bullet": "true"
+            "type": "title",
+            "mainTi": "Technical Clubs"
           },
           {
-            "id": 2,
-            "label": "Photography Club",
-            "bullet": "true"
-          },
-          {
-            "id": 3,
-            "label": "Film Makers Club",
-            "bullet": "true"
-          },
-          {
-            "id": 4,
-            "label": "Food and Nutrition Club",
-            "bullet": "true"
-          },
-          {
-            "id": 5,
-            "label": "Cycling Club",
-            "bullet": "true"
-          },
-          {
-            "id": 6,
-            "label": "Yoga/ Health Club",
-            "bullet": "true"
-          },
-          {
-            "id": 7,
-            "label": "Journalism Club",
-            "bullet": "true"
-          },
-          {
-            "id": 7,
-            "label": "Free Thinkers and Sky Watching Club",
-            "bullet": "true"
-          },
-          {
-            "id": 7,
-            "label": "Ethnic Club",
-            "bullet": "true"
-          },
-          {
-            "id": 7,
-            "label": "Leadership and Toastmasters Club",
-            "bullet": "true"
-          },
-          {
-            "id": 7,
-            "label": "Music and Dance Club",
-            "bullet": "true"
-          },
-          {
-            "id": 7,
-            "label": "Drawing/ Painting/ Crafts Club",
-            "bullet": "true"
-          }
+            "type": "paragraph",
+            "text": [
+              "At Karpagam College of Engineering (KCE), technical clubs provide students with a platform to explore emerging technologies, strengthen technical skills, and transform ideas into innovation. Through <b>workshops, hands-on sessions, technical competitions, hackathons, project exhibitions, coding activities, and industry interactions,</b> students gain practical exposure beyond the curriculum. These clubs foster problem-solving, creativity, teamwork, leadership, and continuous learning, preparing students to confidently meet the evolving demands of industry and technology."
+            ]
+          }         
         ]
       }
     },
+
+    
+    {
+      "type": "split-image-content",
+      "data": {
+        "sectionbg": "section-bg1",
+        "image": "/images/kce/campus-facilities/cultural-clubs-s.webp",
+        "content": [
+          {
+            "type": "title",
+            "mainTi": "Cultural Clubs"
+          },
+          {
+            "type": "paragraph",
+            "text": [
+            "The Cultural Clubs at KCE provide a vibrant platform for students to discover, develop, and showcase their <b>talents in music, dance, drama, literature, fine arts, and other creative pursuits.</b> Students actively participate in cultural events, competitions, celebrations, and intercollegiate programmes while taking responsibility for planning and organizing activities. These clubs <b>nurture creativity, confidence, teamwork, leadership, and cultural appreciation,</b> enriching campus life and supporting the holistic development of students."
+            ]
+          }         
+        ]
+      }
+    },
+
+{
+"type": "pill-list",
+"data": {
+"title": "Take a peek at some of our clubs...",
+"description": "Hundreds of events and programmes are held by these clubs around the year with a large number of students participate.",
+"items": [
+{
+"id": 1,
+"label": "AI Innovation Club",
+"bullet": "true"
+},
+{
+"id": 2,
+"label": "AI in Healthcare",
+"bullet": "true"
+},
+{
+"id": 3,
+"label": "Trouble Shooters Club",
+"bullet": "true"
+},
+{
+"id": 4,
+"label": "AI in Public Relations",
+"bullet": "true"
+},
+{
+"id": 5,
+"label": "Threat Intelligence Club",
+"bullet": "true"
+},
+{
+"id": 6,
+"label": "Cyber Innovation Club",
+"bullet": "true"
+},
+{
+"id": 7,
+"label": "Women Warriors of Cyber",
+"bullet": "true"
+},
+{
+"id": 8,
+"label": "CADD Club",
+"bullet": "true"
+},
+{
+"id": 9,
+"label": "BIM Club",
+"bullet": "true"
+},
+{
+"id": 10,
+"label": "Concrete Club",
+"bullet": "true"
+},
+{
+"id": 11,
+"label": "Digital Surveying Club",
+"bullet": "true"
+},
+{
+"id": 12,
+"label": "Quantum Circuits Club",
+"bullet": "true"
+},
+{
+"id": 13,
+"label": "Embedded Systems Club",
+"bullet": "true"
+},
+{
+"id": 14,
+"label": "Signal Processing & AI Club",
+"bullet": "true"
+},
+{
+"id": 15,
+"label": "PCB Craft Club",
+"bullet": "true"
+},
+{
+"id": 16,
+"label": "Electric Vehicle Club",
+"bullet": "true"
+},
+{
+"id": 17,
+"label": "Green Campus Club",
+"bullet": "true"
+},
+{
+"id": 18,
+"label": "BIS Club",
+"bullet": "true"
+},
+{
+"id": 19,
+"label": "Tech Circuit Club",
+"bullet": "true"
+},
+{
+"id": 20,
+"label": "AZIMO-Next Gen",
+"bullet": "true"
+},
+{
+"id": 21,
+"label": "Design Verse",
+"bullet": "true"
+},
+{
+"id": 22,
+"label": "AI Prompt - Deep Tech",
+"bullet": "true"
+},
+{
+"id": 23,
+"label": "Quantum X",
+"bullet": "true"
+},
+{
+"id": 24,
+"label": "Design Club",
+"bullet": "true"
+},
+{
+"id": 25,
+"label": "Robotics Club",
+"bullet": "true"
+},
+{
+"id": 26,
+"label": "Micro Masters Club",
+"bullet": "true"
+},
+{
+"id": 27,
+"label": "Chip Crafter",
+"bullet": "true"
+},
+{
+"id": 28,
+"label": "FPGA Innovation Club",
+"bullet": "true"
+},
+{
+"id": 29,
+"label": "VLSI Research Club",
+"bullet": "true"
+},
+{
+"id": 30,
+"label": "HR Club",
+"bullet": "true"
+},
+{
+"id": 31,
+"label": "Marketing Club",
+"bullet": "true"
+},
+{
+"id": 32,
+"label": "ED Club",
+"bullet": "true"
+},
+{
+"id": 33,
+"label": "IdeaForge",
+"bullet": "true"
+},
+{
+"id": 34,
+"label": "CyberNova",
+"bullet": "true"
+}
+]
+}
+},
 
     {
       "type": "gallery",

@@ -2455,3 +2455,239 @@ b{ color: #c34f00;}
         box-shadow: 0 0 0px rgba(255, 140, 0, 0.4);
     }
 }
+
+.knowledge-resources-section {
+  padding: 70px 0;
+  font-family: inherit;
+}
+
+.knowledge-resources-head {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.knowledge-resources-head h2 {
+  font-family: inherit;
+  font-size: 32px;
+  line-height: 1.25;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.knowledge-resources-head p {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 400;
+  margin: 0;
+  color: #666;
+}
+
+/* GRID */
+.knowledge-resources-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+/* CARD */
+.knowledge-resource-card {
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  padding: 28px;
+  border-radius: 10px;
+  border: 1px solid #eee;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.06);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+/* Top colour indicator */
+.knowledge-resource-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: #a84700;
+}
+
+.knowledge-resource-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.1);
+}
+
+/* Different subtle card colours */
+.knowledge-resource-card:nth-child(1) {
+  background: #fff8f2;
+  border-color: #f2d6c2;
+}
+
+.knowledge-resource-card:nth-child(1)::before {
+  background: #a84700;
+}
+
+.knowledge-resource-card:nth-child(2) {
+  background: #f4f9ff;
+  border-color: #d8e9f8;
+}
+
+.knowledge-resource-card:nth-child(2)::before {
+  background: #2467a6;
+}
+
+.knowledge-resource-card:nth-child(3) {
+  background: #f5fbf6;
+  border-color: #d5ead9;
+}
+
+.knowledge-resource-card:nth-child(3)::before {
+  background: #438653;
+}
+
+.knowledge-resource-card:nth-child(4) {
+  background: #fffaf0;
+  border-color: #efe1bd;
+}
+
+.knowledge-resource-card:nth-child(4)::before {
+  background: #b27a16;
+}
+
+.knowledge-resource-card:nth-child(5) {
+  background: #faf6ff;
+  border-color: #e4d7f3;
+}
+
+.knowledge-resource-card:nth-child(5)::before {
+  background: #7650a3;
+}
+
+.knowledge-resource-card:nth-child(6) {
+  background: #fff5f5;
+  border-color: #efd6d6;
+}
+
+.knowledge-resource-card:nth-child(6)::before {
+  background: #a94b4b;
+}
+
+/* NUMBER */
+.knowledge-resource-value {
+  font-family: inherit;
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #a84700;
+}
+
+/* Match number colour with card accent */
+.knowledge-resource-card:nth-child(2) .knowledge-resource-value {
+  color: #2467a6;
+}
+
+.knowledge-resource-card:nth-child(3) .knowledge-resource-value {
+  color: #438653;
+}
+
+.knowledge-resource-card:nth-child(4) .knowledge-resource-value {
+  color: #b27a16;
+}
+
+.knowledge-resource-card:nth-child(5) .knowledge-resource-value {
+  color: #7650a3;
+}
+
+.knowledge-resource-card:nth-child(6) .knowledge-resource-value {
+  color: #a94b4b;
+}
+
+/* MAIN TEXT */
+.knowledge-resource-text {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 600;
+  color: #222;
+}
+
+/* OPTIONAL HIGHLIGHT */
+.knowledge-resource-highlight {
+  display: inline-block;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 600;
+  margin-top: 6px;
+  color: #a84700;
+}
+
+/* DESCRIPTION */
+.knowledge-resource-description {
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-family: inherit;
+  font-size: 15px;
+  line-height: 1.6;
+  font-weight: 400;
+  color: #666;
+}
+
+
+/* TABLET */
+@media (max-width: 991px) {
+  .knowledge-resources-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .knowledge-resources-head h2 {
+    font-size: 30px;
+  }
+
+  .knowledge-resource-value {
+    font-size: 28px;
+  }
+}
+
+
+/* MOBILE */
+@media (max-width: 575px) {
+  .knowledge-resources-section {
+    padding: 45px 0;
+  }
+
+  .knowledge-resources-head {
+    margin-bottom: 30px;
+  }
+
+  .knowledge-resources-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .knowledge-resource-card {
+    padding: 24px;
+  }
+
+  .knowledge-resources-head h2 {
+    font-size: 26px;
+  }
+
+  .knowledge-resources-head p {
+    font-size: 15px;
+  }
+
+  .knowledge-resource-value {
+    font-size: 26px;
+  }
+
+  .knowledge-resource-text,
+  .knowledge-resource-highlight {
+    font-size: 16px;
+  }
+}

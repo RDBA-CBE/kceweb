@@ -1,18 +1,39 @@
 {
   "banner": {
     "bannerImg": "/images/kce/banner_computer_technology.jpg",
-    "title": "NSS",
+    "title": "Community Service and Outreach ",
     "breadcrumb": [
       {
         "label": "Home",
         "href": "/"
       },
       {
-        "label": "NSS"
+        "label": "Community Service and Outreach"
       }
     ]
   },
   "sections": [
+    {
+      "type": "split-image-content",
+      "data": {
+        "imagePosition": "right",
+        "sectionbg": "section-bg3",
+        "image": "/images/kce/campus-facilities/hostel/overview.png",
+        "content": [
+          {
+            "type": "title",
+            "mainTi": "Creating Impact Beyond the Campus"
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              "At Karpagam College of Engineering (KCE), students actively engage in community development through NSS, Youth Red Cross (YRC), Unnat Bharat Abhiyan (UBA), and various outreach initiatives. Through awareness campaigns, health and social service activities, environmental programmes, rural engagement, and community development initiatives, students develop social responsibility, empathy, leadership, and civic consciousness while contributing meaningfully to society."
+            ]
+          }
+        ]
+      }
+    },
+    
     {
       "type": "quote-sec",
       "data": {
@@ -21,7 +42,7 @@
           "The National Service Scheme (NSS) unit was inaugurated in the College on 16th January 2004. Dr. R. K.Manoharan, Former NSS Coordinator, Bharathiar University, Coimbatore inaugurated the unit. Mr. P. Lakshmana Kumar, Associate Professor in the Automobile Engineering Department is the Programme Officer. Myleripalayam, a nearby village was adopted by the unit for serving to the society. Totally 4 Special camps had been conducted in the village. After that, Thoppampalayam village was adopted to conduct the Special camp and 3 special camps were conducted in the village. From 2013 onwards, Samathuvapuram near Chettipalayam has been adopted for conducting special camp. From 2017 onwards, Peedampalli village near Sulur was selected for organizing Special camp.",
           "Our NSS team mainly focuses on the welfare of tribal people at Nilgiris. Many activities are carried out every month for them."
         ],
-        "img": "/images/kce/campus-facilities/nss/nss.webp",
+        "img": "/images/kce/campus-facilities/nss.webp",
         "quote": "The Future is Bright"
       }
     },
@@ -30,7 +51,7 @@
       "data": {
         "imagePosition": "right",
         "sectionbg": "section-bg1 ",
-        "image": "/images/kce/campus-facilities/nss/achievments.webp",
+       
         "content": [
           {
             "type": "title",

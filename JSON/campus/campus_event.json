@@ -32,7 +32,8 @@
           {
             "type": "paragraph",
             "text": [
-              "Every year we use to organize an intercollegiate Extracurricular Fest “KALAM”, In Search of Talents! For the freshmen. During KALAM the events such as Cricket Tournament, Kabaddi, Carving, Drawing and painting, rangoli, Facial painting, mehndi, solo, group dance, rock band, fun games and DJ Night."
+              "Every year, Karpagam College of Engineering organizes “KALAM – In Search of Talents,” an intercollegiate Extracurricular Fest exclusively for freshmen. The vibrant festival provides a platform for students to showcase their <b>talents, creativity, sporting skills, and artistic</b> abilities while fostering healthy competition, teamwork, and camaraderie among participating institutions.",
+              "The fest features a diverse range of events, including <b>Cricket, Kabaddi, Carving, Drawing & Painting, Rangoli, Facial Painting, Mehndi, Solo Dance, Group Dance, Rock Band, Fun Games, and DJ Night.</b> Through KALAM, students get an opportunity to explore their interests, discover their potential, build confidence, and celebrate creativity beyond the classroom."
             ]
           }
         ]
@@ -43,7 +44,7 @@
       "data": {
         "imagePosition": "left",
         "sectionbg": "section-bg3",
-        "image": "/images/kce/campus-facilities/campus-events/dhruva.webp",
+        "image": "/images/kce/campus-facilities/dhurva.webp",
         "content": [
           {
             "type": "title",
@@ -52,7 +53,8 @@
           {
             "type": "paragraph",
             "text": [
-              "As “DHRUVA – A National Level Techno – Management – Cultural Fest”, will be conducted every year during the month of FEB."
+              "DHRUVA – <b>A National-Level Techno-Management-Cultural Fest</b> is organized every year in the month of February as a vibrant intercollegiate event that brings together students from institutions across the country. The fest features a wide spectrum of <b>Technical Workshops, Technical Competitions, Cultural Events, Fun Events, Entertainment Programmes, Game Zone, and various other engaging activities.</b>",
+              " It provides students with opportunities to showcase their talents, creativity, technical expertise, and competitive spirit. With its diverse and exciting programmes, <b>DHRUVA attracts more than 5,000 students every year,</b> making it one of the major student-centric intercollegiate events of the institution."
             ]
           },
           {
@@ -63,8 +65,36 @@
               "50+ Cultural Events",
               "20+ Traditional Events",
               "10+ Championship Events",
-              "10+ Fun Events",
-              "Cultural Events, Fun zone, Entertainment Zone, Game Zone, etc.,will be conducted. this event is inter college event which attracts more than 5000+ students every year."
+              "10+ Fun Events"
+            ]
+          }
+        ]
+      }
+    },
+     {
+      "type": "split-image-content",
+      "data": {
+        "imagePosition": "left",
+        "sectionbg": "section-bg3",
+        "image": "/images/kce/campus-facilities/THAKSHAK.webp",
+        "content": [
+          {
+            "type": "title",
+            "mainTi": "THAKSHAK"
+          },
+          {
+            "type": "paragraph",
+            "text": [
+              "KCE College celebrates a vibrant calendar of events that bring students together to learn, connect, compete, and create lasting memories. From welcoming new students on Freshers’ Day to celebrating academic achievements on Graduation Day and showcasing talent and teamwork during Annual Sports Day, these events enrich campus life and encourage students to participate, collaborate, and grow beyond the classroom."
+            ]
+          },
+          {
+            "type": "list",
+            "items": [
+              "Freshers’ Day ",
+              "Graduation Day",
+              "Annual Sports Day "
+         
             ]
           }
         ]
