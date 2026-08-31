@@ -522,6 +522,39 @@ export default function LatestNewsSection() {
 
 const featuredStories = [
   {
+    date: 'August 29, 2026',
+    image:
+      'https://learn.kce.ac.in/wp-content/uploads/2026/08/4.jpeg',
+    title:
+      'One Day Seminar on Challenges in Fluid Flow Design Over Drone Wings',
+    description: '',
+    url:
+      'https://learn.kce.ac.in/one-day-seminar-on-challenges-in-fluid-flow-design-over-drone-wings/',
+  },
+
+  {
+    date: 'August 29, 2026',
+    image:
+      'https://learn.kce.ac.in/wp-content/uploads/2026/08/2.jpeg',
+    title:
+      'Unplug & Unwind – Awareness Program on Excessive Mobile Phone Usage',
+    description: '',
+    url:
+      'https://learn.kce.ac.in/unplug-unwind-awareness-program-on-excessive-mobile-phone-usage/',
+  },
+
+  {
+    date: 'August 29, 2026',
+    image:
+      'https://learn.kce.ac.in/wp-content/uploads/2026/08/1-2.jpeg',
+    title:
+      'Next-Gen AI: Practical Skills, Emerging Applications and Industry Impact',
+    description: '',
+    url:
+      'https://learn.kce.ac.in/next-gen-ai-practical-skills-emerging-applications-and-industry-impact/',
+  },
+
+  {
     date: 'August 21, 2026',
     image:
       'https://learn.kce.ac.in/wp-content/uploads/2026/08/WhatsApp-Image-2026-08-20-at-11.45.42-AM.jpeg',
@@ -741,27 +774,17 @@ const eventsData = [
   },
 
   {
-    month: 'AUG',
-    day: '29',
-    title:
-      'One Day Seminar on Challenges in Fluid Flow Design over Drone Wings',
-    url: 'https://learn.kce.ac.in/one-day-seminar-on-challenges-in-fluid-flow-design-over-drone-wings/',
+    month: 'SEP',
+    day: '02',
+    title: 'Seminar on VLSI for Autonomous Systems',
+    url: 'https://learn.kce.ac.in/seminar-on-vlsi-for-autonomous-systems/',
   },
 
   {
-    month: 'AUG',
-    day: '29',
-    title:
-      'Unplug & Unwind – Awareness Program on Excessive Mobile Phone Usage',
-    url: 'https://learn.kce.ac.in/unplug-unwind-awareness-program-on-excessive-mobile-phone-usage/',
-  },
-
-  {
-    month: 'AUG',
-    day: '29',
-    title:
-      'Workshop on Next-Gen AI: Practical Skills, Emerging Applications and Industry Impact',
-    url: 'https://learn.kce.ac.in/next-gen-ai-practical-skills-emerging-applications-and-industry-impact/',
+    month: 'SEP',
+    day: '02',
+    title: 'MoU Signing Ceremony – Aadyon AI Robotics, Coimbatore',
+    url: 'https://learn.kce.ac.in/mou-signing-ceremony/',
   },
 
 ];
