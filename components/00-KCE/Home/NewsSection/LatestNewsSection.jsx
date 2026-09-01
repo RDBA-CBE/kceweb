@@ -786,6 +786,32 @@ const eventsData = [
     title: 'MoU Signing Ceremony – Aadyon AI Robotics, Coimbatore',
     url: 'https://learn.kce.ac.in/mou-signing-ceremony/',
   },
+    {
+    month: 'SEP',
+    day: '02',
+    title:
+      'Club Inauguration – Electronics Engineering (VLSI Design and Technology)',
+    url:
+      'https://learn.kce.ac.in/club-inaugurationvlsi-design-and-technology/',
+  },
+
+  {
+    month: 'SEP',
+    day: '02',
+    title:
+      'Club Inauguration – Electronics and Communication Engineering',
+    url:
+      'https://learn.kce.ac.in/club-inauguration/',
+  },
+
+  {
+    month: 'SEP',
+    day: '01',
+    title:
+      'Digital Marketing 2026: AI, Automation & Performance Marketing – The Future of Business Growth',
+    url:
+      'https://learn.kce.ac.in/digital-marketing-2026-ai-automation-performance-marketing-the-future-of-business-growth/',
+  },
 
 ];
 
