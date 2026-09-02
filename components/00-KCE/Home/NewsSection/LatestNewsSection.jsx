@@ -521,6 +521,27 @@ export default function LatestNewsSection() {
   ==================================================== */
 
 const featuredStories = [
+  // {
+  //   date: 'September 02, 2026',
+  //   image:
+  //     'https://learn.kce.ac.in/wp-content/uploads/2026/08/VLSI-workshop.jpeg',
+  //   title:
+  //     'Seminar on VLSI for Autonomous Systems',
+  //   description: '',
+  //   url:
+  //     'https://learn.kce.ac.in/seminar-on-vlsi-for-autonomous-systems/',
+  // },
+
+    {
+    date: 'September 01, 2026',
+    image:
+      'https://learn.kce.ac.in/wp-content/uploads/2026/09/DM-2k26.jpeg',
+    title:
+      'Digital Marketing 2026: AI, Automation & Performance Marketing – The Future of Business Growth',
+    description: '',
+    url:
+      'https://learn.kce.ac.in/digital-marketing-2026-ai-automation-performance-marketing-the-future-of-business-growth/',
+  },
   {
     date: 'August 29, 2026',
     image:
@@ -555,6 +576,28 @@ const featuredStories = [
   },
 
   {
+    date: 'August 25, 2026',
+    image:
+      'https://learn.kce.ac.in/wp-content/uploads/2026/09/KAVITHA-K-C1507.jpeg',
+    title:
+      'Awareness Session on “Drive Smart, Save Money” – A Student’s Guide to Motor Insurance',
+    description: '',
+    url:
+      'https://learn.kce.ac.in/awareness-session-on-drive-smart-save-money-a-students-guide-to-motor-insurance/',
+  },
+
+  {
+    date: 'August 25, 2026',
+    image:
+      'https://learn.kce.ac.in/wp-content/uploads/2026/09/AUG.26-KCE-POSTER-20-PRADEEPKUMAR-C-C1385.jpg',
+    title:
+      'Industry Sponsored Training Programme for Consulting Engineers',
+    description: '',
+    url:
+      'https://learn.kce.ac.in/industry-sponsored-training-programme-for-consulting-engineers/',
+  },
+
+  {
     date: 'August 21, 2026',
     image:
       'https://learn.kce.ac.in/wp-content/uploads/2026/08/WhatsApp-Image-2026-08-20-at-11.45.42-AM.jpeg',
@@ -572,6 +615,17 @@ const featuredStories = [
     title:
       '22nd Graduation Ceremony – Class of 2025',
     description: '',
+  },
+
+  {
+    date: 'August 04 & 05, 2026',
+    image:
+      'https://learn.kce.ac.in/wp-content/uploads/2026/09/KCE.JULY-26.-POSTER-31-3-JERMINA-F-C1579.jpg',
+    title:
+      'Partial Industry Delivery on Web Application Security',
+    description: '',
+    url:
+      'https://learn.kce.ac.in/partial-industry-delivery-on-web-application-security/',
   },
 
   {
@@ -728,7 +782,6 @@ const featuredStories = [
 ];
 
 
-
   /* ====================================================
      UPCOMING EVENTS
   ==================================================== */
@@ -776,6 +829,13 @@ const eventsData = [
   {
     month: 'SEP',
     day: '02',
+    title: 'Smart India Internal Hackathon 2026 – Jury Evaluation Session',
+    url: 'https://learn.kce.ac.in/smart-india-internal-hackathon-2026-jury-evaluation-session/',
+  },
+
+  {
+    month: 'SEP',
+    day: '02',
     title: 'Seminar on VLSI for Autonomous Systems',
     url: 'https://learn.kce.ac.in/seminar-on-vlsi-for-autonomous-systems/',
   },
@@ -803,15 +863,7 @@ const eventsData = [
     url:
       'https://learn.kce.ac.in/club-inauguration/',
   },
-
-  {
-    month: 'SEP',
-    day: '01',
-    title:
-      'Digital Marketing 2026: AI, Automation & Performance Marketing – The Future of Business Growth',
-    url:
-      'https://learn.kce.ac.in/digital-marketing-2026-ai-automation-performance-marketing-the-future-of-business-growth/',
-  },
+ 
 
 ];
 
