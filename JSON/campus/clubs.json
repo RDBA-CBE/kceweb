@@ -48,12 +48,11 @@
             "text": [
               "At Karpagam College of Engineering (KCE), technical clubs provide students with a platform to explore emerging technologies, strengthen technical skills, and transform ideas into innovation. Through <b>workshops, hands-on sessions, technical competitions, hackathons, project exhibitions, coding activities, and industry interactions,</b> students gain practical exposure beyond the curriculum. These clubs foster problem-solving, creativity, teamwork, leadership, and continuous learning, preparing students to confidently meet the evolving demands of industry and technology."
             ]
-          }         
+          }
         ]
       }
     },
 
-    
     {
       "type": "split-image-content",
       "data": {
@@ -67,192 +66,192 @@
           {
             "type": "paragraph",
             "text": [
-            "The Cultural Clubs at KCE provide a vibrant platform for students to discover, develop, and showcase their <b>talents in music, dance, drama, literature, fine arts, and other creative pursuits.</b> Students actively participate in cultural events, competitions, celebrations, and intercollegiate programmes while taking responsibility for planning and organizing activities. These clubs <b>nurture creativity, confidence, teamwork, leadership, and cultural appreciation,</b> enriching campus life and supporting the holistic development of students."
+              "The Cultural Clubs at KCE provide a vibrant platform for students to discover, develop, and showcase their <b>talents in music, dance, drama, literature, fine arts, and other creative pursuits.</b> Students actively participate in cultural events, competitions, celebrations, and intercollegiate programmes while taking responsibility for planning and organizing activities. These clubs <b>nurture creativity, confidence, teamwork, leadership, and cultural appreciation,</b> enriching campus life and supporting the holistic development of students."
             ]
-          }         
+          }
         ]
       }
     },
 
-{
-"type": "pill-list",
-"data": {
-"title": "Take a peek at some of our clubs...",
-"description": "Hundreds of events and programmes are held by these clubs around the year with a large number of students participate.",
-"items": [
-{
-"id": 1,
-"label": "AI Innovation Club",
-"bullet": "true"
-},
-{
-"id": 2,
-"label": "AI in Healthcare",
-"bullet": "true"
-},
-{
-"id": 3,
-"label": "Trouble Shooters Club",
-"bullet": "true"
-},
-{
-"id": 4,
-"label": "AI in Public Relations",
-"bullet": "true"
-},
-{
-"id": 5,
-"label": "Threat Intelligence Club",
-"bullet": "true"
-},
-{
-"id": 6,
-"label": "Cyber Innovation Club",
-"bullet": "true"
-},
-{
-"id": 7,
-"label": "Women Warriors of Cyber",
-"bullet": "true"
-},
-{
-"id": 8,
-"label": "CADD Club",
-"bullet": "true"
-},
-{
-"id": 9,
-"label": "BIM Club",
-"bullet": "true"
-},
-{
-"id": 10,
-"label": "Concrete Club",
-"bullet": "true"
-},
-{
-"id": 11,
-"label": "Digital Surveying Club",
-"bullet": "true"
-},
-{
-"id": 12,
-"label": "Quantum Circuits Club",
-"bullet": "true"
-},
-{
-"id": 13,
-"label": "Embedded Systems Club",
-"bullet": "true"
-},
-{
-"id": 14,
-"label": "Signal Processing & AI Club",
-"bullet": "true"
-},
-{
-"id": 15,
-"label": "PCB Craft Club",
-"bullet": "true"
-},
-{
-"id": 16,
-"label": "Electric Vehicle Club",
-"bullet": "true"
-},
-{
-"id": 17,
-"label": "Green Campus Club",
-"bullet": "true"
-},
-{
-"id": 18,
-"label": "BIS Club",
-"bullet": "true"
-},
-{
-"id": 19,
-"label": "Tech Circuit Club",
-"bullet": "true"
-},
-{
-"id": 20,
-"label": "AZIMO-Next Gen",
-"bullet": "true"
-},
-{
-"id": 21,
-"label": "Design Verse",
-"bullet": "true"
-},
-{
-"id": 22,
-"label": "AI Prompt - Deep Tech",
-"bullet": "true"
-},
-{
-"id": 23,
-"label": "Quantum X",
-"bullet": "true"
-},
-{
-"id": 24,
-"label": "Design Club",
-"bullet": "true"
-},
-{
-"id": 25,
-"label": "Robotics Club",
-"bullet": "true"
-},
-{
-"id": 26,
-"label": "Micro Masters Club",
-"bullet": "true"
-},
-{
-"id": 27,
-"label": "Chip Crafter",
-"bullet": "true"
-},
-{
-"id": 28,
-"label": "FPGA Innovation Club",
-"bullet": "true"
-},
-{
-"id": 29,
-"label": "VLSI Research Club",
-"bullet": "true"
-},
-{
-"id": 30,
-"label": "HR Club",
-"bullet": "true"
-},
-{
-"id": 31,
-"label": "Marketing Club",
-"bullet": "true"
-},
-{
-"id": 32,
-"label": "ED Club",
-"bullet": "true"
-},
-{
-"id": 33,
-"label": "IdeaForge",
-"bullet": "true"
-},
-{
-"id": 34,
-"label": "CyberNova",
-"bullet": "true"
-}
-]
-}
-},
+    {
+      "type": "pill-list",
+      "data": {
+        "title": "Take a peek at some of our clubs...",
+        "description": "Hundreds of events and programmes are held by these clubs around the year with a large number of students participate.",
+        "items": [
+          {
+            "id": 1,
+            "label": "AI Innovation Club",
+            "bullet": "true"
+          },
+          {
+            "id": 2,
+            "label": "AI in Healthcare",
+            "bullet": "true"
+          },
+          {
+            "id": 3,
+            "label": "Trouble Shooters Club",
+            "bullet": "true"
+          },
+          {
+            "id": 4,
+            "label": "AI in Public Relations",
+            "bullet": "true"
+          },
+          {
+            "id": 5,
+            "label": "Threat Intelligence Club",
+            "bullet": "true"
+          },
+          {
+            "id": 6,
+            "label": "Cyber Innovation Club",
+            "bullet": "true"
+          },
+          {
+            "id": 7,
+            "label": "Women Warriors of Cyber",
+            "bullet": "true"
+          },
+          {
+            "id": 8,
+            "label": "CADD Club",
+            "bullet": "true"
+          },
+          {
+            "id": 9,
+            "label": "BIM Club",
+            "bullet": "true"
+          },
+          {
+            "id": 10,
+            "label": "Concrete Club",
+            "bullet": "true"
+          },
+          {
+            "id": 11,
+            "label": "Digital Surveying Club",
+            "bullet": "true"
+          },
+          {
+            "id": 12,
+            "label": "Quantum Circuits Club",
+            "bullet": "true"
+          },
+          {
+            "id": 13,
+            "label": "Embedded Systems Club",
+            "bullet": "true"
+          },
+          {
+            "id": 14,
+            "label": "Signal Processing & AI Club",
+            "bullet": "true"
+          },
+          {
+            "id": 15,
+            "label": "PCB Craft Club",
+            "bullet": "true"
+          },
+          {
+            "id": 16,
+            "label": "Electric Vehicle Club",
+            "bullet": "true"
+          },
+          {
+            "id": 17,
+            "label": "Green Campus Club",
+            "bullet": "true"
+          },
+          {
+            "id": 18,
+            "label": "BIS Club",
+            "bullet": "true"
+          },
+          {
+            "id": 19,
+            "label": "Tech Circuit Club",
+            "bullet": "true"
+          },
+          {
+            "id": 20,
+            "label": "AZIMO-Next Gen",
+            "bullet": "true"
+          },
+          {
+            "id": 21,
+            "label": "Design Verse",
+            "bullet": "true"
+          },
+          {
+            "id": 22,
+            "label": "AI Prompt - Deep Tech",
+            "bullet": "true"
+          },
+          {
+            "id": 23,
+            "label": "Quantum X",
+            "bullet": "true"
+          },
+          {
+            "id": 24,
+            "label": "Design Club",
+            "bullet": "true"
+          },
+          {
+            "id": 25,
+            "label": "Robotics Club",
+            "bullet": "true"
+          },
+          {
+            "id": 26,
+            "label": "Micro Masters Club",
+            "bullet": "true"
+          },
+          {
+            "id": 27,
+            "label": "Chip Crafter",
+            "bullet": "true"
+          },
+          {
+            "id": 28,
+            "label": "FPGA Innovation Club",
+            "bullet": "true"
+          },
+          {
+            "id": 29,
+            "label": "VLSI Research Club",
+            "bullet": "true"
+          },
+          {
+            "id": 30,
+            "label": "HR Club",
+            "bullet": "true"
+          },
+          {
+            "id": 31,
+            "label": "Marketing Club",
+            "bullet": "true"
+          },
+          {
+            "id": 32,
+            "label": "ED Club",
+            "bullet": "true"
+          },
+          {
+            "id": 33,
+            "label": "IdeaForge",
+            "bullet": "true"
+          },
+          {
+            "id": 34,
+            "label": "CyberNova",
+            "bullet": "true"
+          }
+        ]
+      }
+    },
 
     {
       "type": "gallery",
@@ -308,6 +307,75 @@
               },
               {
                 "img": "https://learn.kce.ac.in/uploads/2020/01/Club_Photo1-400x400-1.jpeg"
+              },
+              {
+                "img": "/images/kce/gallery/ad-club-inaguration.jpg"
+              },
+              {
+                "img": "/images/kce/gallery/civil-eng-1.jpg"
+              },
+              {
+                "img": "/images/kce/gallery/civil-eng-2.jpg"
+              },
+              {
+                "img": "/images/kce/gallery/civil-eng-3.jpg"
+              },
+              {
+                "img": "/images/kce/gallery/civil-eng-4.jpg"
+              },
+              {
+                "img": "/images/kce/gallery/civil-eng-5.jpg"
+              },
+              {
+                "img": "/images/kce/gallery/club-inaguration-3.jpg"
+              },
+              {
+                "img": "/images/kce/gallery/club-inaguration-4.jpg"
+              },
+              {
+                "img": "/images/kce/gallery/club-inaguration-5.jpg"
+              },
+              {
+                "img": "/images/kce/gallery/drive-smart-1.jpg"
+              },
+              {
+                "img": "/images/kce/gallery/drive-smart-2.jpg"
+              },
+              {
+                "img": "/images/kce/gallery/drive-smart-3.jpg"
+              },
+              {
+                "img": "/images/kce/gallery/eee-1.jpg"
+              },
+              {
+                "img": "/images/kce/gallery/eee-2.jpg"
+              },
+              {
+                "img": "/images/kce/gallery/eee-3.jpg"
+              },
+              {
+                "img": "/images/kce/gallery/eng-club-inaguration-1.jpg"
+              },
+              {
+                "img": "/images/kce/gallery/eng-club-inaguration-2.jpg"
+              },
+              {
+                "img": "/images/kce/gallery/seminar-1.jpg"
+              },
+              {
+                "img": "/images/kce/gallery/seminar-2.jpg"
+              },
+              {
+                "img": "/images/kce/gallery/seminar-3.jpg"
+              },
+              {
+                "img": "/images/kce/gallery/start-up-club-1.jpg"
+              },
+              {
+                "img": "/images/kce/gallery/start-up-club-2.jpg"
+              },
+              {
+                "img": "/images/kce/gallery/start-up-club-3.jpg"
               }
             ]
           }
