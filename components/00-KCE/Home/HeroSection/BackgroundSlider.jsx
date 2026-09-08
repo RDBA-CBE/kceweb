@@ -25,31 +25,37 @@ export default function BackgroundSlider({
 
   return (
     <div className="background-slider">
-      {images.map((image, index) => (
-        <div
-          key={`${image}-${index}`}
-          className={`background-slide ${
-            index === current ? "active" : ""
-          }`}
-        >
-          {/* Blurred background prevents empty space */}
+      {images.map((item, index) => {
+        const src = typeof item === "string" ? item : item.src;
+        const link = typeof item === "object" ? item.link : null;
+        const slideContent = (
+          <>
+            <div
+              className="background-slide-blur"
+              style={{ backgroundImage: `url("${src}")` }}
+            />
+            <img
+              src={src}
+              alt=""
+              className="background-slide-image"
+              loading={index === 0 ? "eager" : "lazy"}
+              draggable="false"
+            />
+          </>
+        );
+        return (
           <div
-            className="background-slide-blur"
-            style={{
-              backgroundImage: `url("${image}")`,
-            }}
-          />
-
-          {/* Actual banner - NEVER CROPPED */}
-          <img
-            src={image}
-            alt=""
-            className="background-slide-image"
-            loading={index === 0 ? "eager" : "lazy"}
-            draggable="false"
-          />
-        </div>
-      ))}
+            key={`${src}-${index}`}
+            className={`background-slide ${index === current ? "active" : ""}`}
+          >
+            {link ? (
+              <a href={link} target="_blank" rel="noopener noreferrer" style={{ display: "contents" }}>
+                {slideContent}
+              </a>
+            ) : slideContent}
+          </div>
+        );
+      })}
     </div>
   );
 }

@@ -11,14 +11,17 @@ export default function HeroSection() {
       {/* Background image slider */}
       <BackgroundSlider
         images={[
-           "/images/kce/home/banner/kce-b1.png",
-             "/images/kce/home/banner/kce-b2.png",
+         
+          "/images/kce/home/banner/kce-b1.png",
+           { src: "/images/kce/home/banner/banner-5.webp", link: "https://learn.kce.ac.in/yuva-2026-welcoming-tech-leaders/" },
+          "/images/kce/home/banner/kce-b2.png",
           "/images/kce/home/banner/b1.jpg",
           "/images/kce/home/banner/banner-img2.webp",
           "/images/kce/home/banner/banner-img3.webp",
           "/images/kce/home/banner/banner-img5.webp",
           "/images/kce/home/banner/banner.png",
-          "/images/kce/home/banner/banner-1.png"
+          "/images/kce/home/banner/banner-1.png",
+          
         ]}
       />
 
