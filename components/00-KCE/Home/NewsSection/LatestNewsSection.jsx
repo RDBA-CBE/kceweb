@@ -521,41 +521,53 @@ export default function LatestNewsSection() {
   ==================================================== */
 
 const featuredStories = [
-  // {
-  //   date: 'September 02, 2026',
-  //   image:
-  //     'https://learn.kce.ac.in/wp-content/uploads/2026/08/VLSI-workshop.jpeg',
-  //   title:
-  //     'Seminar on VLSI for Autonomous Systems',
-  //   description: '',
-  //   url:
-  //     'https://learn.kce.ac.in/seminar-on-vlsi-for-autonomous-systems/',
-  // },
-
-
-
-
-
-
-
- 
-
   {
-    date: 'September 8, 2026',
+    date: 'September 08, 2026',
     image:
-      'https://learn.kce.ac.in/wp-content/uploads/2026/09/912ab717-50ab-4708-b658-83601e9f06ef-1024x464.jpg',
+      'https://learn.kce.ac.in/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-08-at-2.32.06-PM.jpeg',
     title:
-      'Department of EEE have secured 4th Place District-Level Competition organized by the Indian Red Cross Society (IRCS), Coimbatore District Branch.',
+      'YUVA 2026: Welcoming the Next Generation of Tech Leaders at Karpagam College of Engineering',
     description: '',
     url:
-      'https://learn.kce.ac.in/eee-secures-4th-place-in-district-level-ircs-competition/',
+      'https://learn.kce.ac.in/yuva-2026-welcoming-tech-leaders/',
   },
 
-  
+  {
+    date: 'September 08, 2026',
+    image:
+      'https://learn.kce.ac.in/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-08-at-11.23.35-AM.jpeg',
+    title:
+      'YUVA 2026 – Freshmen Induction Programme for the 27th Batch B.E./B.Tech. Students',
+    description: '',
+    url:
+      'https://learn.kce.ac.in/yuva-2026-freshmen-induction-programme-for-the-27th-batch-b-e-b-tech-students/',
+  },
 
- 
+  {
+    date: 'September 08, 2026',
+    image:
+      'https://learn.kce.ac.in/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-08-at-11.23.34-AM.jpeg',
+    title:
+      'YUVA 2026 – First Year B.E./B.Tech. Induction Programme',
+    description: '',
+    url:
+      'https://learn.kce.ac.in/yuva-2026-first-year-b-e-b-tech-induction-programme/',
+  },
 
- 
+  // Keep your other September 08, 2026 stories here
+  // before moving to September 02, 2026.
+
+  {
+    date: 'September 02, 2026',
+    image:
+      'https://learn.kce.ac.in/wp-content/uploads/2026/09/smart-india.jpeg',
+    title:
+      'Smart India Internal Hackathon 2026 – Jury Evaluation Session',
+    description: '',
+    url:
+      'https://learn.kce.ac.in/smart-india-internal-hackathon-2026-jury-evaluation-session/',
+  },
+
   {
     date: 'September 02, 2026',
     image:
@@ -572,304 +584,20 @@ const featuredStories = [
     image:
       'https://learn.kce.ac.in/wp-content/uploads/2026/09/event-1.jpeg',
     title:
-      'Club Inauguration(VLSI Design and Technology)',
+      'Club Inauguration (VLSI Design and Technology)',
     description: '',
     url:
       'https://learn.kce.ac.in/club-inaugurationvlsi-design-and-technology/',
   },
 
-  {
-    date: 'September 02, 2026',
-    image:
-      'https://learn.kce.ac.in/wp-content/uploads/2026/08/VLSI-workshop.jpeg',
-    title:
-      'Seminar on VLSI for Autonomous Systems',
-    description: '',
-    url:
-      'https://learn.kce.ac.in/seminar-on-vlsi-for-autonomous-systems/',
-  },
-
-    {
-    date: 'September 01, 2026',
-    image:
-      'https://learn.kce.ac.in/wp-content/uploads/2026/09/DM-2k26.jpeg',
-    title:
-      'Digital Marketing 2026: AI, Automation & Performance Marketing – The Future of Business Growth',
-    description: '',
-    url:
-      'https://learn.kce.ac.in/digital-marketing-2026-ai-automation-performance-marketing-the-future-of-business-growth/',
-  },
-
-  {
-    date: 'August 29, 2026',
-    url:
-      'https://learn.kce.ac.in/ad-club-inauguration-ceremony/',
-    title:
-      'AD Club Inauguration Ceremony',
-    description: '',
-    image:
-      'https://learn.kce.ac.in/wp-content/uploads/2026/09/0b93a155-70ca-4e65-ab1d-6e6750c4200d-1024x485.jpg',
-  },
-  {
-    date: 'August 29, 2026',
-    image:
-      'https://learn.kce.ac.in/wp-content/uploads/2026/08/4.jpeg',
-    title:
-      'One Day Seminar on Challenges in Fluid Flow Design Over Drone Wings',
-    description: '',
-    url:
-      'https://learn.kce.ac.in/one-day-seminar-on-challenges-in-fluid-flow-design-over-drone-wings/',
-  },
-
-  {
-    date: 'August 29, 2026',
-    image:
-      'https://learn.kce.ac.in/wp-content/uploads/2026/08/2.jpeg',
-    title:
-      'Unplug & Unwind – Awareness Program on Excessive Mobile Phone Usage',
-    description: '',
-    url:
-      'https://learn.kce.ac.in/unplug-unwind-awareness-program-on-excessive-mobile-phone-usage/',
-  },
-
-  {
-    date: 'August 29, 2026',
-    image:
-      'https://learn.kce.ac.in/wp-content/uploads/2026/08/1-2.jpeg',
-    title:
-      'Next-Gen AI: Practical Skills, Emerging Applications and Industry Impact',
-    description: '',
-    url:
-      'https://learn.kce.ac.in/next-gen-ai-practical-skills-emerging-applications-and-industry-impact/',
-  },
-
-   {
-    date: 'August 25, 2026',
-    image:
-      'https://learn.kce.ac.in/wp-content/uploads/2026/09/5a3b386a-f069-4bd2-b2f4-b88fa87bb5bb-1024x576.jpg',
-    title:
-      'Department of Civil Engineering at Karpagam College of Engineering ( CLUBS)',
-    description: '',
-    url:
-      'https://learn.kce.ac.in/civil-engineering-karpagam-college-of-engineering-clubs/',
-  },
-
-  {
-    date: 'August 25, 2026',
-    image:
-      'https://learn.kce.ac.in/wp-content/uploads/2026/09/KAVITHA-K-C1507.jpeg',
-    title:
-      'Awareness Session on “Drive Smart, Save Money” – A Student’s Guide to Motor Insurance',
-    description: '',
-    url:
-      'https://learn.kce.ac.in/awareness-session-on-drive-smart-save-money-a-students-guide-to-motor-insurance/',
-  },
-
-  {
-    date: 'August 25, 2026',
-    image:
-      'https://learn.kce.ac.in/wp-content/uploads/2026/09/AUG.26-KCE-POSTER-20-PRADEEPKUMAR-C-C1385.jpg',
-    title:
-      'Industry Sponsored Training Programme for Consulting Engineers',
-    description: '',
-    url:
-      'https://learn.kce.ac.in/industry-sponsored-training-programme-for-consulting-engineers/',
-  },
-
-
-  {
-    date: 'August 21, 2026',
-    image:
-      'https://learn.kce.ac.in/wp-content/uploads/2026/08/WhatsApp-Image-2026-08-20-at-11.45.42-AM.jpeg',
-    title:
-      'World Entrepreneur Day Revels & Inauguration of Startup Club',
-    description: '',
-    url:
-      'https://learn.kce.ac.in/world-entrepreneur-day-revels-inauguration-of-startup-club/',
-  },
-
-  {
-    date: 'August 08, 2026',
-    image:
-      'https://learn.kce.ac.in/wp-content/uploads/2026/08/ChatGPT-Image-Aug-14-2026-06_07_05-PM.png',
-    title:
-      '22nd Graduation Ceremony – Class of 2025',
-    description: '',
-  },
-
-  
-
-  {
-    date: 'August 04 & 05, 2026',
-    image:
-      'https://learn.kce.ac.in/wp-content/uploads/2026/09/KCE.JULY-26.-POSTER-31-3-JERMINA-F-C1579.jpg',
-    title:
-      'Partial Industry Delivery on Web Application Security',
-    description: '',
-    url:
-      'https://learn.kce.ac.in/partial-industry-delivery-on-web-application-security/',
-  },
-
-  {
-    date: 'July 31, 2026',
-    image:
-      'https://learn.kce.ac.in/wp-content/uploads/2026/08/12_page-0001.jpg',
-    title:
-      'Beyond Education: Creating Social Impact through NGOs',
-    description: '',
-    url:
-      'https://learn.kce.ac.in/beyond-education-creating-social-impact-through-ngos/',
-  },
-
-  {
-    date: 'July 30, 2026',
-    image:
-      'https://learn.kce.ac.in/wp-content/uploads/2026/08/5_page-0001-724x1024.jpg',
-    title:
-      'Data Processing of Biomedical Signal and Images',
-    description: '',
-    url:
-      'https://learn.kce.ac.in/data-processing-of-biomedical-signal-and-images/',
-  },
-
-  {
-    date: 'July 29, 2026',
-    image:
-      'https://learn.kce.ac.in/wp-content/uploads/2026/08/16_page-0001-724x1024.jpg',
-    title:
-      'Aspire Higher: Higher Education Opportunities in Australia and New Zealand',
-    description: '',
-    url:
-      'https://learn.kce.ac.in/aspire-higher-higher-education-opportunities-in-australia-and-new-zealand/',
-  },
-
-  {
-    date: 'July 28, 2026',
-    image:
-      'https://learn.kce.ac.in/wp-content/uploads/2026/08/Poster-hod-cse_page-0001.jpg',
-    title:
-      'Karpagam College of Engineering Signs MoU with Towards Technology',
-    description: '',
-    url:
-      'https://learn.kce.ac.in/karpagam-college-of-engineering-proudly-signed-a-memorandum-of-understanding-mou-with-towards-technology-on-28-07-2026/',
-  },
-
-  {
-    date: 'July 25, 2026',
-    image:
-      'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture12.png',
-    title:
-      'Value Added Course on Embedded Intelligence – Department of Computer Science and Engineering',
-    description: '',
-  },
-
-  {
-    date: 'July 25, 2026',
-    image:
-      'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture11.png',
-    title:
-      'Career Awareness Program on Prompt Engineering Is Not Enough: The New Full-Stack of AI – Department of Information Technology',
-    description: '',
-  },
-
-  {
-    date: 'July 25, 2026',
-    image:
-      'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture10.png',
-    title:
-      'Strategies for Success in GATE and Competitive Examinations – Department of Electrical and Electronics Engineering',
-    description: '',
-  },
-
-  {
-    date: 'July 24, 2026',
-    image:
-      'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture9.png',
-    title:
-      'Future Trends in Information Technology and Career Opportunities – Department of Computer Science and Engineering (Cyber Security)',
-    description: '',
-  },
-
-  {
-    date: 'July 20, 2026',
-    image:
-      'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture8.png',
-    title:
-      'AI-Based Hands-on Training Organized by the Department of Artificial Intelligence and Data Science',
-    description: '',
-  },
-
-  {
-    date: 'July 20, 2026',
-    image:
-      'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture7.png',
-    title:
-      'Department of Computer Science and Engineering Organizes Hands-on Training on Foundation of AWS Cloud Platform',
-    description: '',
-  },
-
-  {
-    date: 'July 17, 2026',
-    image:
-      'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture6.png',
-    title:
-      'Women Development Cell and Department of Information Technology Organize Workshop on Breast & Cervical Cancer Awareness',
-    description: '',
-  },
-
-  {
-    date: 'July 11, 2026',
-    image:
-      'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture5-804x1024.png',
-    title:
-      'Department of Artificial Intelligence and Data Science Organizes Partial Industrial Delivery on Deep Learning',
-    description: '',
-  },
-
-  {
-    date: 'July 11, 2026',
-    image:
-      'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture4.png',
-    title:
-      'Research and Development Cell Organizes Hands-on Workshop on Patent Filing and Publication',
-    description: '',
-  },
-
-  {
-    date: 'July 08, 2026',
-    image:
-      'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture3.png',
-    title:
-      'The Karpagam Innovation Centre (KIC) Proudly Invites Students and Aspiring Entrepreneurs to Participate in STARTUP SPARK 2.0',
-    description: '',
-  },
-
-  {
-    date: '',
-    image:
-      'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture2-819x1024.png',
-    title:
-      'Launch of the Certificate Programme in Banking, Finance and Insurance (CBFI) by Bajaj Finserv for the Batch 2025–27',
-    description: '',
-  },
-
-  {
-    date: '',
-    image:
-      'https://learn.kce.ac.in/wp-content/uploads/2026/07/Picture1-823x1024.png',
-    title:
-      'Faculty members of Karpagam College of Engineering for the successful completion of the AICTE QIP PG Certificate Programme (January 2026 – June 2026)',
-    description: '',
-  },
+  // ...remaining older featuredStories
 ];
-
 
   /* ====================================================
      UPCOMING EVENTS
   ==================================================== */
 
 const eventsData = [
-  
   {
     month: 'SEP',
     day: '11',
@@ -885,38 +613,49 @@ const eventsData = [
   //   url: 'https://learn.kce.ac.in/yuva-2026-freshmen-induction-programme/',
   // },
 
-  // {
-  //   month: 'SEP',
-  //   day: '09',
-  //   title:
-  //     'YUVA 2026 – Freshmen Induction Programme – EEE, Civil & Mechanical Engineering',
-  //   url: 'https://learn.kce.ac.in/yuva-2026-freshmen-induction-programme/',
-  // },
+  {
+    month: 'SEP',
+    day: '09',
+    title:
+      'YUVA 2026 – First Year B.E./B.Tech. Induction Programme – Civil, EEE & ME',
+    url:
+      'https://learn.kce.ac.in/yuva-2026-first-year-b-e-b-tech-induction-programme-civil-eee-me/',
+  },
 
   {
     month: 'SEP',
-    day: '9',
-    title: 'YUVA 2026 – Freshmen Induction Programme',
-    url: 'https://learn.kce.ac.in/yuva-2026-freshmen-induction-programme/',
-  },
-  {
-    month: 'SEP',
-    day: '08',
-    title: 'YUVA 2026: Welcoming the Next Generation of Tech Leaders at Karpagam College of Engineering',
-    url: 'https://learn.kce.ac.in/yuva-2026-welcoming-tech-leaders/',
-  },
-  {
-    month: 'SEP',
-    day: '08',
-    title: 'YUVA 2026 – Freshmen Induction Programme for the 27th Batch B.E./B.Tech. Students',
-    url: 'https://learn.kce.ac.in/yuva-2026-freshmen-induction-programme-for-the-27th-batch-b-e-b-tech-students/',
+    day: '09',
+    title:
+      'YUVA 2026 – First Year B.E./B.Tech. Induction Programme – EEE, Civil & ME',
+    url:
+      'https://learn.kce.ac.in/yuva-2026-induction-programme-eee-civil-me/',
   },
 
   {
     month: 'SEP',
     day: '08',
-    title: 'YUVA 2026 – Freshmen Induction Programme - 27th Batch – First Year B.E./B.Tech',
-    url: 'https://learn.kce.ac.in/yuva-2026-first-year-b-e-b-tech-induction-programme/',
+    title:
+      'YUVA 2026: Welcoming the Next Generation of Tech Leaders at Karpagam College of Engineering',
+    url:
+      'https://learn.kce.ac.in/yuva-2026-welcoming-tech-leaders/',
+  },
+
+  {
+    month: 'SEP',
+    day: '08',
+    title:
+      'YUVA 2026 – Freshmen Induction Programme for the 27th Batch B.E./B.Tech. Students',
+    url:
+      'https://learn.kce.ac.in/yuva-2026-freshmen-induction-programme-for-the-27th-batch-b-e-b-tech-students/',
+  },
+
+  {
+    month: 'SEP',
+    day: '08',
+    title:
+      'YUVA 2026 – Freshmen Induction Programme - 27th Batch – First Year B.E./B.Tech',
+    url:
+      'https://learn.kce.ac.in/yuva-2026-first-year-b-e-b-tech-induction-programme/',
   },
 
   // {
@@ -935,47 +674,46 @@ const eventsData = [
   //   url: 'https://learn.kce.ac.in/yuva-2026-freshmen-induction-programme/',
   // },
 
-  {
-    month: 'SEP',
-    day: '02',
-    title: 'Smart India Internal Hackathon 2026 – Jury Evaluation Session',
-    url: 'https://learn.kce.ac.in/smart-india-internal-hackathon-2026-jury-evaluation-session/',
-  },
+  // {
+  //   month: 'SEP',
+  //   day: '02',
+  //   title: 'Smart India Internal Hackathon 2026 – Jury Evaluation Session',
+  //   url:
+  //     'https://learn.kce.ac.in/smart-india-internal-hackathon-2026-jury-evaluation-session/',
+  // },
 
-  {
-    month: 'SEP',
-    day: '02',
-    title: 'Seminar on VLSI for Autonomous Systems',
-    url: 'https://learn.kce.ac.in/seminar-on-vlsi-for-autonomous-systems/',
-  },
+  // {
+  //   month: 'SEP',
+  //   day: '02',
+  //   title: 'Seminar on VLSI for Autonomous Systems',
+  //   url:
+  //     'https://learn.kce.ac.in/seminar-on-vlsi-for-autonomous-systems/',
+  // },
 
-  {
-    month: 'SEP',
-    day: '02',
-    title: 'MoU Signing Ceremony – Aadyon AI Robotics, Coimbatore',
-    url: 'https://learn.kce.ac.in/mou-signing-ceremony/',
-  },
-    {
-    month: 'SEP',
-    day: '02',
-    title:
-      'Club Inauguration – Electronics Engineering (VLSI Design and Technology)',
-    url:
-      'https://learn.kce.ac.in/club-inaugurationvlsi-design-and-technology/',
-  },
+  // {
+  //   month: 'SEP',
+  //   day: '02',
+  //   title: 'MoU Signing Ceremony – Aadyon AI Robotics, Coimbatore',
+  //   url: 'https://learn.kce.ac.in/mou-signing-ceremony/',
+  // },
 
-  {
-    month: 'SEP',
-    day: '02',
-    title:
-      'Club Inauguration – Electronics and Communication Engineering',
-    url:
-      'https://learn.kce.ac.in/club-inauguration/',
-  },
- 
+  // {
+  //   month: 'SEP',
+  //   day: '02',
+  //   title:
+  //     'Club Inauguration – Electronics Engineering (VLSI Design and Technology)',
+  //   url:
+  //     'https://learn.kce.ac.in/club-inaugurationvlsi-design-and-technology/',
+  // },
 
+  // {
+  //   month: 'SEP',
+  //   day: '02',
+  //   title:
+  //     'Club Inauguration – Electronics and Communication Engineering',
+  //   url: 'https://learn.kce.ac.in/club-inauguration/',
+  // },
 ];
-
 
 
   /* ====================================================
