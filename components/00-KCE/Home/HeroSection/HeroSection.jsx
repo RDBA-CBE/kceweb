@@ -11,7 +11,8 @@ export default function HeroSection() {
       {/* Background image slider */}
       <BackgroundSlider
         images={[
-         
+         "/images/kce/home/banner/kce-b1.png",
+           { src: "/images/kce/home/banner/banner-6.webp", link: "https://learn.kce.ac.in/kce-yuva-2026-freshmen-induction-programme-for-ece-vlsi-students/" },
           "/images/kce/home/banner/kce-b1.png",
            { src: "/images/kce/home/banner/banner-5.webp", link: "https://learn.kce.ac.in/yuva-2026-welcoming-tech-leaders/" },
           "/images/kce/home/banner/kce-b2.png",

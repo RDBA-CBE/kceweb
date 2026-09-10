@@ -521,75 +521,118 @@ export default function LatestNewsSection() {
   ==================================================== */
 
 const featuredStories = [
-  {
-    date: 'September 08, 2026',
-    image:
-      'https://learn.kce.ac.in/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-08-at-2.32.06-PM.jpeg',
-    title:
-      'YUVA 2026: Welcoming the Next Generation of Tech Leaders at Karpagam College of Engineering',
-    description: '',
-    url:
-      'https://learn.kce.ac.in/yuva-2026-welcoming-tech-leaders/',
-  },
+{
+  month: 'SEP',
+  day: '08',
+  title:
+    'YUVA 2026: Welcoming the Next Generation of Tech Leaders at Karpagam College of Engineering',
+  url:
+    'https://learn.kce.ac.in/yuva-2026-welcoming-tech-leaders/',
+  image:
+    'https://learn.kce.ac.in/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-08-at-2.32.06-PM.jpeg',
+},
 
-  {
-    date: 'September 08, 2026',
-    image:
-      'https://learn.kce.ac.in/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-08-at-11.23.35-AM.jpeg',
-    title:
-      'YUVA 2026 – Freshmen Induction Programme for the 27th Batch B.E./B.Tech. Students',
-    description: '',
-    url:
-      'https://learn.kce.ac.in/yuva-2026-freshmen-induction-programme-for-the-27th-batch-b-e-b-tech-students/',
-  },
+{
+  month: 'SEP',
+  day: '08',
+  title:
+    'YUVA 2026 – Freshmen Induction Programme for the 27th Batch B.E./B.Tech. Students',
+  url:
+    'https://learn.kce.ac.in/yuva-2026-freshmen-induction-programme-for-the-27th-batch-b-e-b-tech-students/',
+  image:
+    'https://learn.kce.ac.in/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-08-at-11.23.35-AM.jpeg',
+},
 
-  {
-    date: 'September 08, 2026',
-    image:
-      'https://learn.kce.ac.in/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-08-at-11.23.34-AM.jpeg',
-    title:
-      'YUVA 2026 – First Year B.E./B.Tech. Induction Programme',
-    description: '',
-    url:
-      'https://learn.kce.ac.in/yuva-2026-first-year-b-e-b-tech-induction-programme/',
-  },
+{
+  month: 'SEP',
+  day: '08',
+  title:
+    'YUVA 2026 – Freshmen Induction Programme - 27th Batch – First Year B.E./B.Tech',
+  url:
+    'https://learn.kce.ac.in/yuva-2026-first-year-b-e-b-tech-induction-programme/',
+  image:
+    'https://learn.kce.ac.in/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-08-at-11.23.34-AM.jpeg',
+},
 
-  // Keep your other September 08, 2026 stories here
-  // before moving to September 02, 2026.
+{
+  month: 'SEP',
+  day: '08',
+  title:
+    'YUVA 2026 – Freshmen Induction Programme – AI & Data Science and Information Technology',
+  url:
+    'https://learn.kce.ac.in/yuva-2026-freshmen-induction-programme/',
+  image:
+    'https://learn.kce.ac.in/wp-content/uploads/2026/08/3.jpeg',
+},
 
-  {
-    date: 'September 02, 2026',
-    image:
-      'https://learn.kce.ac.in/wp-content/uploads/2026/09/smart-india.jpeg',
-    title:
-      'Smart India Internal Hackathon 2026 – Jury Evaluation Session',
-    description: '',
-    url:
-      'https://learn.kce.ac.in/smart-india-internal-hackathon-2026-jury-evaluation-session/',
-  },
+{
+  month: 'SEP',
+  day: '07',
+  title:
+    'YUVA 2026 – Freshmen Induction Programme – CSE & CSE (Cyber Security)',
+  url:
+    'https://learn.kce.ac.in/yuva-2026-freshmen-induction-programme/',
+  image:
+    'https://learn.kce.ac.in/wp-content/uploads/2026/08/3.jpeg',
+},
 
-  {
-    date: 'September 02, 2026',
-    image:
-      'https://learn.kce.ac.in/wp-content/uploads/2026/09/event-3.jpeg',
-    title:
-      'Club Inauguration',
-    description: '',
-    url:
-      'https://learn.kce.ac.in/club-inauguration/',
-  },
+{
+  month: 'SEP',
+  day: '02',
+  title:
+    'Smart India Internal Hackathon 2026 – Jury Evaluation Session',
+  url:
+    'https://learn.kce.ac.in/smart-india-internal-hackathon-2026-jury-evaluation-session/',
+  image:
+    'https://learn.kce.ac.in/wp-content/uploads/2026/09/smart-india.jpeg',
+},
 
-  {
-    date: 'September 02, 2026',
-    image:
-      'https://learn.kce.ac.in/wp-content/uploads/2026/09/event-1.jpeg',
-    title:
-      'Club Inauguration (VLSI Design and Technology)',
-    description: '',
-    url:
-      'https://learn.kce.ac.in/club-inaugurationvlsi-design-and-technology/',
-  },
+{
+  month: 'SEP',
+  day: '02',
+  title:
+    'Seminar on VLSI for Autonomous Systems',
+  url:
+    'https://learn.kce.ac.in/seminar-on-vlsi-for-autonomous-systems/',
+  image:
+    'https://learn.kce.ac.in/wp-content/uploads/2026/08/VLSI-workshop.jpeg',
+},
 
+{
+  month: 'SEP',
+  day: '02',
+  title:
+    'MoU Signing Ceremony – Aadyon AI Robotics, Coimbatore',
+  url:
+    'https://learn.kce.ac.in/mou-signing-ceremony/',
+  image:
+    'https://learn.kce.ac.in/wp-content/uploads/2026/08/VLSI-design.jpeg',
+},
+
+{
+  month: 'SEP',
+  day: '02',
+  title:
+    'Club Inauguration – Electronics Engineering (VLSI Design and Technology)',
+  url:
+    'https://learn.kce.ac.in/club-inaugurationvlsi-design-and-technology/',
+  image:
+    'https://learn.kce.ac.in/wp-content/uploads/2026/09/event-1.jpeg',
+},
+
+{
+  month: 'SEP',
+  day: '02',
+  title:
+    'Club Inauguration – Electronics and Communication Engineering',
+  url:
+    'https://learn.kce.ac.in/club-inauguration/',
+  image:
+    'https://learn.kce.ac.in/wp-content/uploads/2026/09/event-3.jpeg',
+},
+
+
+  
   // ...remaining older featuredStories
 ];
 
@@ -604,7 +647,14 @@ const eventsData = [
     title: 'Hackverse 2.0 – External Hackathon',
     url: 'https://learn.kce.ac.in/hackverse-2-0-external-hackathon/',
   },
-
+{
+  month: 'SEP',
+  day: '10',
+  title:
+    'YUVA 2026 – Freshmen Induction Programme – ECE & Electronics Engineering (VLSI)',
+  url:
+    'https://learn.kce.ac.in/yuva-2026-freshmen-induction-programme/',
+},
   // {
   //   month: 'SEP',
   //   day: '10',
@@ -631,88 +681,6 @@ const eventsData = [
       'https://learn.kce.ac.in/yuva-2026-induction-programme-eee-civil-me/',
   },
 
-  {
-    month: 'SEP',
-    day: '08',
-    title:
-      'YUVA 2026: Welcoming the Next Generation of Tech Leaders at Karpagam College of Engineering',
-    url:
-      'https://learn.kce.ac.in/yuva-2026-welcoming-tech-leaders/',
-  },
-
-  {
-    month: 'SEP',
-    day: '08',
-    title:
-      'YUVA 2026 – Freshmen Induction Programme for the 27th Batch B.E./B.Tech. Students',
-    url:
-      'https://learn.kce.ac.in/yuva-2026-freshmen-induction-programme-for-the-27th-batch-b-e-b-tech-students/',
-  },
-
-  {
-    month: 'SEP',
-    day: '08',
-    title:
-      'YUVA 2026 – Freshmen Induction Programme - 27th Batch – First Year B.E./B.Tech',
-    url:
-      'https://learn.kce.ac.in/yuva-2026-first-year-b-e-b-tech-induction-programme/',
-  },
-
-  // {
-  //   month: 'SEP',
-  //   day: '08',
-  //   title:
-  //     'YUVA 2026 – Freshmen Induction Programme – AI & Data Science and Information Technology',
-  //   url: 'https://learn.kce.ac.in/yuva-2026-freshmen-induction-programme/',
-  // },
-
-  // {
-  //   month: 'SEP',
-  //   day: '07',
-  //   title:
-  //     'YUVA 2026 – Freshmen Induction Programme – CSE & CSE (Cyber Security)',
-  //   url: 'https://learn.kce.ac.in/yuva-2026-freshmen-induction-programme/',
-  // },
-
-  // {
-  //   month: 'SEP',
-  //   day: '02',
-  //   title: 'Smart India Internal Hackathon 2026 – Jury Evaluation Session',
-  //   url:
-  //     'https://learn.kce.ac.in/smart-india-internal-hackathon-2026-jury-evaluation-session/',
-  // },
-
-  // {
-  //   month: 'SEP',
-  //   day: '02',
-  //   title: 'Seminar on VLSI for Autonomous Systems',
-  //   url:
-  //     'https://learn.kce.ac.in/seminar-on-vlsi-for-autonomous-systems/',
-  // },
-
-  // {
-  //   month: 'SEP',
-  //   day: '02',
-  //   title: 'MoU Signing Ceremony – Aadyon AI Robotics, Coimbatore',
-  //   url: 'https://learn.kce.ac.in/mou-signing-ceremony/',
-  // },
-
-  // {
-  //   month: 'SEP',
-  //   day: '02',
-  //   title:
-  //     'Club Inauguration – Electronics Engineering (VLSI Design and Technology)',
-  //   url:
-  //     'https://learn.kce.ac.in/club-inaugurationvlsi-design-and-technology/',
-  // },
-
-  // {
-  //   month: 'SEP',
-  //   day: '02',
-  //   title:
-  //     'Club Inauguration – Electronics and Communication Engineering',
-  //   url: 'https://learn.kce.ac.in/club-inauguration/',
-  // },
 ];
 
 
