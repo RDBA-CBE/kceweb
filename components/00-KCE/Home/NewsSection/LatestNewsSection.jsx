@@ -647,6 +647,12 @@ const eventsData = [
     title: 'Hackverse 2.0 – External Hackathon',
     url: 'https://learn.kce.ac.in/hackverse-2-0-external-hackathon/',
   },
+    {
+    month: 'SEP',
+    day: '11',
+    title: 'YUVA 2026 – First Year B.E./B.Tech. Induction Programme ',
+    url: 'https://learn.kce.ac.in/yuva-2026-first-year-b-e-b-tech-induction-programme-sep11/',
+  },
 {
   month: 'SEP',
   day: '10',
