@@ -642,6 +642,25 @@ const featuredStories = [
 
 const eventsData = [
   {
+  month: 'SEP',
+  day: '11',
+  title: 'YUVA 2026 – Industry Expert Talk by Mr. Sathiyan Kaliyamoorthy',
+  url: 'https://learn.kce.ac.in/yuva-2026-industry-expert-talk-by-mr-sathiyan-kaliyamoorthy/',
+},
+{
+  month: 'SEP',
+  day: '11',
+  title: 'Career Pathways – Connecting Education, Skills and Future Opportunities',
+  url: 'https://learn.kce.ac.in/career-pathways-connecting-education-skills-and-future-opportunities/',
+},
+{
+  month: 'SEP',
+  day: '11',
+  title: 'YUVA 2026 – Motivational Session by Dr. N. Rajeshkumar',
+  url: 'https://learn.kce.ac.in/yuva-2026-motivational-session-by-dr-n-rajeshkumar/',
+},
+
+  {
     month: 'SEP',
     day: '11',
     title: 'Hackverse 2.0 – External Hackathon',

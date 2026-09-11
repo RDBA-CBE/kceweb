@@ -11,9 +11,11 @@ export default function HeroSection() {
       {/* Background image slider */}
       <BackgroundSlider
         images={[
-          "/images/kce/home/banner/kce-b1.png",
-           { src: "/images/kce/home/banner/banner-7.webp", link: "https://learn.kce.ac.in/yuva-2026-first-year-b-e-b-tech-induction-programme-sep11/" },
-         "/images/kce/home/banner/kce-b1.png",
+          
+           { src: "/images/kce/home/banner/banner-10.webp", link: "https://learn.kce.ac.in/career-pathways-connecting-education-skills-and-future-opportunities/" },          
+           { src: "/images/kce/home/banner/banner-9.webp", link: "https://learn.kce.ac.in/yuva-2026-industry-expert-talk-by-mr-sathiyan-kaliyamoorthy/" },         
+           { src: "/images/kce/home/banner/banner-8.webp", link: "https://learn.kce.ac.in/yuva-2026-motivational-session-by-dr-n-rajeshkumar/" },        
+           { src: "/images/kce/home/banner/banner-7.webp", link: "https://learn.kce.ac.in/yuva-2026-first-year-b-e-b-tech-induction-programme-sep11/" },        
            { src: "/images/kce/home/banner/banner-6.webp", link: "https://learn.kce.ac.in/kce-yuva-2026-freshmen-induction-programme-for-ece-vlsi-students/" },
           "/images/kce/home/banner/kce-b1.png",
            { src: "/images/kce/home/banner/banner-5.webp", link: "https://learn.kce.ac.in/yuva-2026-welcoming-tech-leaders/" },
