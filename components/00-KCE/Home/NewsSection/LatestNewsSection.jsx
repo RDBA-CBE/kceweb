@@ -748,6 +748,12 @@ const featuredStories = [
   ==================================================== */
 
 const eventsData = [
+  {
+  month: 'SEP',
+  day: '21',
+  title: 'One-Week ATAL Offline FDP on AI-Driven Quantum Computing: Foundations and Real-World Applications',
+  url: 'https://learn.kce.ac.in/one-week-atal-offline-fdp-on-ai-driven-quantum-computing/',
+},
     {
   month: 'SEP',
   day: '16',
