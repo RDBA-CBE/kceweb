@@ -11,6 +11,8 @@ export default function HeroSection() {
       {/* Background image slider */}
       <BackgroundSlider
         images={[
+           { src: "/images/kce/home/banner/banner-14.webp", link: "https://learn.kce.ac.in/aloha-2026-novah-2026-inauguration-of-pg-programme-2026/" }, 
+           { src: "/images/kce/home/banner/banner-13.webp", link: "https://learn.kce.ac.in/aloha-novah-2026/" }, 
            { src: "/images/kce/home/banner/banner-12.webp", link: "https://learn.kce.ac.in/one-week-atal-offline-fdp-on-ai-driven-quantum-computing/" },   
            { src: "/images/kce/home/banner/banner-11.webp", link: "https://learn.kce.ac.in/inaugural-of-cyber-security-clubs-awareness-programme-on-women-cyber-safety/" },   
           "/images/kce/home/banner/kce-b1.png",          

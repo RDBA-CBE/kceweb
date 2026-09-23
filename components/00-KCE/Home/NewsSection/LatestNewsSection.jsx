@@ -521,11 +521,18 @@ export default function LatestNewsSection() {
   ==================================================== */
 
 const featuredStories = [
-
-  // SEP 11
-
-
  {
+    month: 'SEP',
+    day: '16',
+    title:
+      'Inaugural of Cyber Security Clubs & Awareness Programme on Women Cyber Safety',
+    url:
+      'https://learn.kce.ac.in/inaugural-of-cyber-security-clubs-awareness-programme-on-women-cyber-safety/',
+    image:
+      'https://learn.kce.ac.in/wp-content/uploads/2026/09/women-819x1024.jpeg', // Add featured image URL
+  },
+  // SEP 11
+{
     month: 'SEP',
     day: '11',
     title:
@@ -673,73 +680,7 @@ const featuredStories = [
       'https://learn.kce.ac.in/wp-content/uploads/2026/08/3.jpeg',
   },
 
-  // SEP 02
-  {
-    month: 'SEP',
-    day: '02',
-    title:
-      'Smart India Internal Hackathon 2026 – Jury Evaluation Session',
-    url:
-      'https://learn.kce.ac.in/smart-india-internal-hackathon-2026-jury-evaluation-session/',
-    image:
-      'https://learn.kce.ac.in/wp-content/uploads/2026/09/smart-india.jpeg',
-  },
-
-  {
-    month: 'SEP',
-    day: '02',
-    title:
-      'Seminar on VLSI for Autonomous Systems',
-    url:
-      'https://learn.kce.ac.in/seminar-on-vlsi-for-autonomous-systems/',
-    image:
-      'https://learn.kce.ac.in/wp-content/uploads/2026/08/VLSI-workshop.jpeg',
-  },
-
-  {
-    month: 'SEP',
-    day: '02',
-    title:
-      'MoU Signing Ceremony – Aadyon AI Robotics, Coimbatore',
-    url:
-      'https://learn.kce.ac.in/mou-signing-ceremony/',
-    image:
-      'https://learn.kce.ac.in/wp-content/uploads/2026/08/VLSI-design.jpeg',
-  },
-
-  {
-    month: 'SEP',
-    day: '02',
-    title:
-      'Club Inauguration – Electronics Engineering (VLSI Design and Technology)',
-    url:
-      'https://learn.kce.ac.in/club-inaugurationvlsi-design-and-technology/',
-    image:
-      'https://learn.kce.ac.in/wp-content/uploads/2026/09/event-1.jpeg',
-  },
-
-  {
-    month: 'SEP',
-    day: '02',
-    title:
-      'Club Inauguration – Electronics and Communication Engineering',
-    url:
-      'https://learn.kce.ac.in/club-inauguration/',
-    image:
-      'https://learn.kce.ac.in/wp-content/uploads/2026/09/event-3.jpeg',
-  },
-
-  // AUG 25
-  {
-    month: 'AUG',
-    day: '25',
-    title:
-      'Department of Civil Engineering at Karpagam College of Engineering (CLUBS)',
-    url:
-      'https://learn.kce.ac.in/civil-engineering-karpagam-college-of-engineering-clubs/',
-    image:
-      'https://learn.kce.ac.in/wp-content/uploads/2026/09/e8e0ea85-535d-4006-addd-93903381e912-1024x576.jpg', // Add featured image URL
-  },
+ 
 
 ];
 
@@ -748,17 +689,24 @@ const featuredStories = [
   ==================================================== */
 
 const eventsData = [
+
+  {
+  month: 'SEP',
+  day: '23',
+  title: 'ALOHA 2026 & NOVAH 2026 – Inauguration of PG Programme 2026',
+  url: 'https://learn.kce.ac.in/aloha-2026-novah-2026-inauguration-of-pg-programme-2026/',
+},
+{
+  month: 'SEP',
+  day: '23',
+  title: 'ALOHA & NOVAH 2026',
+  url: 'https://learn.kce.ac.in/aloha-novah-2026/',
+},
   {
   month: 'SEP',
   day: '21',
   title: 'One-Week ATAL Offline FDP on AI-Driven Quantum Computing: Foundations and Real-World Applications',
   url: 'https://learn.kce.ac.in/one-week-atal-offline-fdp-on-ai-driven-quantum-computing/',
-},
-    {
-  month: 'SEP',
-  day: '16',
-  title: 'Inaugural of Cyber Security Clubs & Awareness Programme on Women Cyber Safety',
-  url: 'https://learn.kce.ac.in/inaugural-of-cyber-security-clubs-awareness-programme-on-women-cyber-safety/',
 },
 
 ];
