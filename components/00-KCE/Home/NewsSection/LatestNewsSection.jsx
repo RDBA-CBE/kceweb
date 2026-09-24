@@ -521,6 +521,17 @@ export default function LatestNewsSection() {
   ==================================================== */
 
 const featuredStories = [
+
+{
+    month: 'SEP',
+    day: '21',
+    title:
+      'One-Week ATAL Offline FDP on AI-Driven Quantum Computing: Foundations and Real-World Applications',
+    url:
+      'https://learn.kce.ac.in/one-week-atal-offline-fdp-on-ai-driven-quantum-computing/',
+    image:
+      'https://learn.kce.ac.in/wp-content/uploads/2026/09/One-Week-ATAL-1024x768.jpeg', // Add featured image URL
+  },
  {
     month: 'SEP',
     day: '16',
@@ -692,6 +703,25 @@ const eventsData = [
 
   {
   month: 'SEP',
+  day: '24',
+  title: 'PG Induction Programme 2026 | ALOHA x NOVAH | KCE',
+  url: 'https://learn.kce.ac.in/pg-induction-programme-2026-aloha-x-novah-kce/',
+},
+{
+  month: 'SEP',
+  day: '25',
+  title: 'The Big Bang Theory | 5th Installation Ceremony of Rotaract Club of KCE',
+  url: 'https://learn.kce.ac.in/the-big-bang-theory-5th-installation-ceremony-of-rotaract-club-of-kce/',
+},
+{
+  month: 'SEP',
+  day: '25',
+  title: 'Hackverse 2.0 | External Hackathon by Department of CSE, KCE',
+  url: 'https://learn.kce.ac.in/hackverse-2-0-external-hackathon-by-department-of-cse-kce/',
+},
+
+  {
+  month: 'SEP',
   day: '23',
   title: 'ALOHA 2026 & NOVAH 2026 – Inauguration of PG Programme 2026',
   url: 'https://learn.kce.ac.in/aloha-2026-novah-2026-inauguration-of-pg-programme-2026/',
@@ -701,12 +731,6 @@ const eventsData = [
   day: '23',
   title: 'ALOHA & NOVAH 2026',
   url: 'https://learn.kce.ac.in/aloha-novah-2026/',
-},
-  {
-  month: 'SEP',
-  day: '21',
-  title: 'One-Week ATAL Offline FDP on AI-Driven Quantum Computing: Foundations and Real-World Applications',
-  url: 'https://learn.kce.ac.in/one-week-atal-offline-fdp-on-ai-driven-quantum-computing/',
 },
 
 ];
