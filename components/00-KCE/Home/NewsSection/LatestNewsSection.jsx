@@ -701,6 +701,12 @@ const featuredStories = [
 
 const eventsData = [
 
+   {
+  month: 'SEP',
+  day: '25',
+  title: 'NOVAH 2026 | PG Induction Programme for MCA 2026–2028',
+  url: 'https://learn.kce.ac.in/novah-2026-pg-induction-programme-for-mca-2026-2028/',
+},
   {
   month: 'SEP',
   day: '24',
