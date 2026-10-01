@@ -522,6 +522,65 @@ export default function LatestNewsSection() {
 
 const featuredStories = [
 
+
+
+
+{
+  month: 'SEP',
+  day: '25',
+  title: 'PG Induction Programme – MBA 2026',
+  url: 'https://learn.kce.ac.in/pg-induction-programme-mba-2026/',
+  image: 'https://learn.kce.ac.in/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-25-at-4.29.51-PM-819x1024.jpeg', // Add featured image URL
+},
+{
+  month: 'SEP',
+  day: '25',
+  title: 'NOVAH 2026 | PG Induction Programme for MCA 2026–2028',
+  url: 'https://learn.kce.ac.in/novah-2026-pg-induction-programme-for-mca-2026-2028/',
+  image: 'https://learn.kce.ac.in/wp-content/uploads/2026/09/novah25-819x1024.jpeg', // Add featured image URL
+},
+
+{
+  month: 'SEP',
+  day: '24',
+  title: 'PG Induction Programme 2026 | ALOHA x NOVAH | KCE',
+  url: 'https://learn.kce.ac.in/pg-induction-programme-2026-aloha-x-novah-kce/',
+  image: 'https://learn.kce.ac.in/wp-content/uploads/2026/09/pg-pr-1-819x1024.jpeg', // Add featured image URL
+},
+{
+  month: 'SEP',
+  day: '25',
+  title:
+    'The Big Bang Theory | 5th Installation Ceremony of Rotaract Club of KCE',
+  url:
+    'https://learn.kce.ac.in/the-big-bang-theory-5th-installation-ceremony-of-rotaract-club-of-kce/',
+  image: 'https://learn.kce.ac.in/wp-content/uploads/2026/09/rotract-721x1024.jpeg', // Add featured image URL
+},
+{
+  month: 'SEP',
+  day: '25',
+  title: 'Hackverse 2.0 | External Hackathon by Department of CSE, KCE',
+  url:
+    'https://learn.kce.ac.in/hackverse-2-0-external-hackathon-by-department-of-cse-kce/',
+  image: 'https://learn.kce.ac.in/wp-content/uploads/2026/09/hackverse-2-1024x682.jpeg', // Add featured image URL
+},
+{
+  month: 'SEP',
+  day: '23',
+  title: 'ALOHA 2026 & NOVAH 2026 – Inauguration of PG Programme 2026',
+  url:
+    'https://learn.kce.ac.in/aloha-2026-novah-2026-inauguration-of-pg-programme-2026/',
+  image: 'https://learn.kce.ac.in/wp-content/uploads/2026/09/novah-819x1024.jpeg', // Add featured image URL
+},
+{
+  month: 'SEP',
+  day: '23',
+  title: 'ALOHA & NOVAH 2026',
+  url: 'https://learn.kce.ac.in/aloha-novah-2026/',
+  image: 'https://learn.kce.ac.in/wp-content/uploads/2026/09/novah1-1024x768.jpeg', // Add featured image URL
+},
+
+
 {
     month: 'SEP',
     day: '21',
@@ -599,99 +658,7 @@ const featuredStories = [
       'https://learn.kce.ac.in/wp-content/uploads/2026/09/kalai-819x1024.jpeg', // Add featured image URL
   },
 
-  // SEP 10
-  {
-    month: 'SEP',
-    day: '10',
-    title:
-      'KCE YUVA 2026 Freshmen Induction Programme for ECE & VLSI Students',
-    url:
-      'https://learn.kce.ac.in/kce-yuva-2026-freshmen-induction-programme-for-ece-vlsi-students/',
-    image:
-      'https://learn.kce.ac.in/wp-content/uploads/2026/09/1styear-vlsi-819x1024.webp', // Add featured image URL
-  },
 
-  // SEP 09
-  {
-    month: 'SEP',
-    day: '09',
-    title:
-      'YUVA 2026 – First Year B.E./B.Tech. Induction Programme – Civil, EEE & ME',
-    url:
-      'https://learn.kce.ac.in/yuva-2026-first-year-b-e-b-tech-induction-programme-civil-eee-me/',
-    image:
-      'https://learn.kce.ac.in/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-09-at-11.26.07-AM-1024x798.jpeg', // Add featured image URL
-  },
-
-  {
-    month: 'SEP',
-    day: '09',
-    title:
-      'YUVA 2026 – First Year B.E./B.Tech. Induction Programme – EEE, Civil & ME',
-    url:
-      'https://learn.kce.ac.in/yuva-2026-induction-programme-eee-civil-me/',
-    image:
-      'https://learn.kce.ac.in/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-09-at-11.26.10-AM-1024x774.jpeg', // Add featured image URL
-  },
-
-  // SEP 08
-  {
-    month: 'SEP',
-    day: '08',
-    title:
-      'YUVA 2026: Welcoming the Next Generation of Tech Leaders at Karpagam College of Engineering',
-    url:
-      'https://learn.kce.ac.in/yuva-2026-welcoming-tech-leaders/',
-    image:
-      'https://learn.kce.ac.in/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-08-at-2.32.06-PM.jpeg',
-  },
-
-  {
-    month: 'SEP',
-    day: '08',
-    title:
-      'YUVA 2026 – Freshmen Induction Programme for the 27th Batch B.E./B.Tech. Students',
-    url:
-      'https://learn.kce.ac.in/yuva-2026-freshmen-induction-programme-for-the-27th-batch-b-e-b-tech-students/',
-    image:
-      'https://learn.kce.ac.in/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-08-at-11.23.35-AM.jpeg',
-  },
-
-  {
-    month: 'SEP',
-    day: '08',
-    title:
-      'YUVA 2026 – Freshmen Induction Programme - 27th Batch – First Year B.E./B.Tech',
-    url:
-      'https://learn.kce.ac.in/yuva-2026-first-year-b-e-b-tech-induction-programme/',
-    image:
-      'https://learn.kce.ac.in/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-08-at-11.23.34-AM.jpeg',
-  },
-
-  {
-    month: 'SEP',
-    day: '08',
-    title:
-      'YUVA 2026 – Freshmen Induction Programme – AI & Data Science and Information Technology',
-    url:
-      'https://learn.kce.ac.in/yuva-2026-freshmen-induction-programme/',
-    image:
-      'https://learn.kce.ac.in/wp-content/uploads/2026/08/3.jpeg',
-  },
-
-  // SEP 07
-  {
-    month: 'SEP',
-    day: '07',
-    title:
-      'YUVA 2026 – Freshmen Induction Programme – CSE & CSE (Cyber Security)',
-    url:
-      'https://learn.kce.ac.in/yuva-2026-freshmen-induction-programme/',
-    image:
-      'https://learn.kce.ac.in/wp-content/uploads/2026/08/3.jpeg',
-  },
-
- 
 
 ];
 
@@ -700,6 +667,12 @@ const featuredStories = [
   ==================================================== */
 
 const eventsData = [
+         {
+  month: 'OCT',
+  day: '01',
+  title: 'Seminar on Semiconductor Technology for 5G and 6G Communications',
+  url: 'https://learn.kce.ac.in/seminar-on-semiconductor-technology-for-5g-and-6g-communications/',
+},
 
        {
   month: 'SEP',
@@ -707,56 +680,7 @@ const eventsData = [
   title: 'Freshers’ Day 2026 – Live in Concert',
   url: 'https://learn.kce.ac.in/freshers-day-2026-live-in-concert/',
 },
-     {
-  month: 'SEP',
-  day: '25',
-  title: 'PG Induction Programme – MBA 2026',
-  url: 'https://learn.kce.ac.in/pg-induction-programme-mba-2026/',
-},
-   {
-  month: 'SEP',
-  day: '25',
-  title: 'NOVAH 2026 | PG Induction Programme for MCA 2026–2028',
-  url: 'https://learn.kce.ac.in/novah-2026-pg-induction-programme-for-mca-2026-2028/',
-},
 
-   {
-  month: 'SEP',
-  day: '25',
-  title: 'NOVAH 2026 | PG Induction Programme for MCA 2026–2028',
-  url: 'https://learn.kce.ac.in/novah-2026-pg-induction-programme-for-mca-2026-2028/',
-},
-  {
-  month: 'SEP',
-  day: '24',
-  title: 'PG Induction Programme 2026 | ALOHA x NOVAH | KCE',
-  url: 'https://learn.kce.ac.in/pg-induction-programme-2026-aloha-x-novah-kce/',
-},
-{
-  month: 'SEP',
-  day: '25',
-  title: 'The Big Bang Theory | 5th Installation Ceremony of Rotaract Club of KCE',
-  url: 'https://learn.kce.ac.in/the-big-bang-theory-5th-installation-ceremony-of-rotaract-club-of-kce/',
-},
-{
-  month: 'SEP',
-  day: '25',
-  title: 'Hackverse 2.0 | External Hackathon by Department of CSE, KCE',
-  url: 'https://learn.kce.ac.in/hackverse-2-0-external-hackathon-by-department-of-cse-kce/',
-},
-
-  {
-  month: 'SEP',
-  day: '23',
-  title: 'ALOHA 2026 & NOVAH 2026 – Inauguration of PG Programme 2026',
-  url: 'https://learn.kce.ac.in/aloha-2026-novah-2026-inauguration-of-pg-programme-2026/',
-},
-{
-  month: 'SEP',
-  day: '23',
-  title: 'ALOHA & NOVAH 2026',
-  url: 'https://learn.kce.ac.in/aloha-novah-2026/',
-},
 
 ];
 
