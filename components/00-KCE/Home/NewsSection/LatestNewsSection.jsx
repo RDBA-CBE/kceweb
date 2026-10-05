@@ -667,6 +667,12 @@ const featuredStories = [
   ==================================================== */
 
 const eventsData = [
+   {
+  month: 'OCT',
+  day: '06',
+  title: 'IEEE Day Celebration 2026 – From Campus to Global Community: The IEEE Journey',
+  url: 'https://learn.kce.ac.in/ieee-day-celebration-2026-from-campus-to-global-community/',
+},
          {
   month: 'OCT',
   day: '01',
