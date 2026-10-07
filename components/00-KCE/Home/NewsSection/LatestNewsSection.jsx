@@ -667,6 +667,12 @@ const featuredStories = [
   ==================================================== */
 
 const eventsData = [
+  {
+  month: 'OCT',
+  day: '07',
+  title: 'AI-Enabled Virtual Labs: Transforming Experiential Learning for the Future',
+  url: 'https://learn.kce.ac.in/ai-enabled-virtual-labs-transforming-experiential-learning-for-the-future/',
+},
    {
   month: 'OCT',
   day: '06',
