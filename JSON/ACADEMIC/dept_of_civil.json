@@ -323,7 +323,7 @@
           {
             "type": "button",
             "text": "View Faculty",
-            "href": "/faculty-pdf/department-of-civil-engineering.pdf",
+            "href": "/department-of-civil-engineering/faculties",
             "actionn": "goToFaculty",
             "newpageData": {
               "slug": "department-of-civil-engineering",

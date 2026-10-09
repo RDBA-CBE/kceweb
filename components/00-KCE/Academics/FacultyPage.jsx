@@ -17,33 +17,49 @@ const FacultyPage = ({ data }) => {
             <RichText as="p" content={data?.desc} />
           </div>
 
-          <div className="row g-5 py-5">
-            {data?.faculty.map((faculty, i) => (
-              <div key={i} className="col-xl-3 col-lg-4 col-md-6">
-                <div className="faculty-modern-card">
-                  <div className="faculty-avatar">
-                    <img src={faculty.src} alt={faculty.name} />
-                  </div>
-
-                  <div className="faculty-modern-body">
-                    <h5 className="sub-ti">{faculty.name}</h5>
-                    <span className="ti-badge-wbg ">
-                      {faculty.designation}
-                    </span>
-                    <p className="faculty-modern-designation mt-2">
-                      {faculty.degree}
-                    </p>
-                  </div>
-
-                  {faculty.email && (
-                    <div className="faculty-hover-info">
-                      <a href={`mailto:${faculty.email}`}>{faculty.email}</a>
+          {data?.faculty && (
+            <div className="row g-5 py-5">
+              {data?.faculty?.map((faculty, i) => (
+                <div key={i} className="col-xl-3 col-lg-4 col-md-6">
+                  <div className="faculty-modern-card">
+                    <div className="faculty-avatar">
+                      <img src={faculty.src} alt={faculty.name} />
                     </div>
-                  )}
+
+                    <div className="faculty-modern-body">
+                      <h5 className="sub-ti">{faculty.name}</h5>
+                      <span className="ti-badge-wbg ">
+                        {faculty.designation}
+                      </span>
+                      <p className="faculty-modern-designation mt-2">
+                        {faculty.degree}
+                      </p>
+                    </div>
+
+                    {faculty.email && (
+                      <div className="faculty-hover-info">
+                        <a href={`mailto:${faculty.email}`}>{faculty.email}</a>
+                      </div>
+                    )}
+                  </div>
                 </div>
-              </div>
-            ))}
-          </div>
+              ))}
+            </div>
+          )}
+
+          {data?.FacultyImage && (
+            <div className="row ">
+              {data?.FacultyImage?.map((image, i) => (
+                <div key={i} className="col-12 col-md-6 mx-auto">
+                  <img
+                    src={image.src}
+                    alt="FacultyImage"
+                    className="img-fluid w-full h-full object-cover"
+                  />
+                </div>
+              ))}
+            </div>
+          )}
         </div>
       </section>
     </>
