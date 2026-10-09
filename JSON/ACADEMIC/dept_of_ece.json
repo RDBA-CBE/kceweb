@@ -389,7 +389,7 @@
           {
             "type": "button",
             "text": "View Faculty Members",
-            "href": "/faculty-pdf/department-of-electronics-and-communication-engineering.pdf",
+            "href": "/department-of-electronics-and-communication-engineering/faculty-members",
             "actionn": "goToFaculty",
             "newpageData": {
               "slug": "department-of-electronics-and-communication-engineering",

@@ -421,7 +421,7 @@
           {
             "type": "button",
             "text": "View Faculty Members",
-            "href": "/faculty-pdf/department-of-computer-science-and-engineering-cyber-security.pdf",
+            "href": "/department-of-computer-science-and-engineering-cyber-security/faculty-members",
             "actionn": "goToFaculty",
             "newpageData": {
               "slug": "department-of-computer-sciences-and-engineering-cyber-security",

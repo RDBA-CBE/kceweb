@@ -374,7 +374,7 @@
           {
             "type": "button",
             "text": "View Faculty Members",
-            "href":"/faculty-pdf/department-of-electrical-and-electronics-engineering.pdf",
+            "href":"/department-of-electrical-and-electronics-engineering/faculty-members",
             "actionn": "goToFaculty",
             "newpageData": {
               "slug": "department-of-electrical-and-electronics-engineering",

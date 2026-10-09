@@ -468,7 +468,7 @@
           {
             "type": "button",
             "text": "View Faculty Members",
-            "href": "/faculty-pdf/department-of-artificial-intelligence-and-data-science.pdf",
+            "href": "/department-of-artificial-intelligence-and-data-science/faculty-members",
             "actionn": "goToFaculty",
             "newpageData": {
               "slug": "department-of-artificial-intelligence-and-data-science",

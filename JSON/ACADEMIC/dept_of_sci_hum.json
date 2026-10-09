@@ -94,7 +94,7 @@
           {
             "type": "button",
             "text": "View Faculty Members",
-            "href":"/faculty-pdf/department-of-SH.pdf",
+            "href":"/department-of-science-and-humanities/faculty-members",
             "actionn": "goToFaculty",
             "newpageData": {
               "slug": "department-of-science-and-humanities",
