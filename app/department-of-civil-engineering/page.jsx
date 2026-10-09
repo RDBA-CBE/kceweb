@@ -8,7 +8,7 @@ export const metadata = {
 const page = () => {
   return (
     <>
-     <DeptOfCIVILPage/>
+      <DeptOfCIVILPage />
     </>
   );
 };
