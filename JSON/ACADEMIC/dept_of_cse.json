@@ -334,7 +334,7 @@
           {
             "type": "button",
             "text": "View Faculty Members",
-            "href":"/faculty-pdf/department-of-computer-science-and-engineering.pdf",
+            "href":"/department-of-computer-science-and-engineering/faculty-members",
             "actionn": "goToFaculty",
             "newpageData": {
               "slug": "department-of-computer-sciences-and-engineering",

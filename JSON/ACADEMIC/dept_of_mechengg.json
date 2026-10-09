@@ -409,7 +409,7 @@
           {
             "type": "button",
             "text": "View Faculty Members",
-            "href": "/faculty-pdf/department-of-mechanical-engineering.pdf",
+            "href": "/department-of-mechanical-engineering/faculty-members",
             "actionn": "goToFaculty",
             "newpageData": {
               "slug": "department-of-mechanical-engineering",

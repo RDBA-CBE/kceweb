@@ -375,7 +375,7 @@
           {
             "type": "button",
             "text": "View Faculty Members",
-            "href":"/faculty-pdf/department-of-mca.pdf",
+            "href":"/department-of-mca/faculty-members",
             "actionn": "goToFaculty",
             "newpageData": {
               "slug": "department-of-mca",

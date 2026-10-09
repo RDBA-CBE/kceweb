@@ -54,7 +54,7 @@ const InnerBanner = ({ data }) => {
             <div className="d-flex align-items-center mt-2">
               <div className="decorative-line me-3 d-none d-lg-block"></div>
               <h1 className="banner-title text-white  mb-0">
-                {data?.title || "Civil Engineering"}
+                {data?.title }
               </h1>
             </div>
             {/* <p className="text-white mt-3 mb-0 subtitle">

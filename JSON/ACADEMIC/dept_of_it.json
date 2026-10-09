@@ -369,7 +369,7 @@
           {
             "type": "button",
             "text": "View Faculty Members",
-            "href": "/faculty-pdf/department-of-information-technology.pdf",
+            "href": "/department-of-information-technology/faculty-members",
             "action": "goToFaculty",
             "newpageData": {
               "slug": "department-of-information-technology",

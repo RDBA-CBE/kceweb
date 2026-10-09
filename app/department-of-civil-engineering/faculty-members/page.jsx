@@ -1,5 +1,4 @@
 import FacultyPage from "@/components/00-KCE/Academics/FacultyPage";
-import data from "../../../JSON/ACADEMIC/dept_of_civil.json";
 
 export const metadata = {
   title: "Top Civil Engineering College in Coimbatore",
@@ -34,7 +33,7 @@ const newpageData = {
   //   desc: "At KCE, our Civil Engineering faculty are not just teachers they are dedicated mentors who guide students at every step of their academic journey. With strong qualifications and valuable industry experience, our faculty ensure that students clearly understand concepts and are well-prepared for real-world engineering challenges. ",
   FacultyImage: [
     {
-      src: "/images/faculties/civil-eng-faculties.jpg",
+      src: "/images/kce/faculties/CE-faculty.jpeg",
     },
   ],
 };

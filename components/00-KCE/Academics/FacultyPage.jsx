@@ -54,7 +54,7 @@ const FacultyPage = ({ data }) => {
                   <img
                     src={image.src}
                     alt="FacultyImage"
-                    className="img-fluid w-full h-full object-cover"
+                    className="w-100 h-100 object-cover"
                   />
                 </div>
               ))}

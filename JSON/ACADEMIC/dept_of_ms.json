@@ -495,7 +495,7 @@
           {
             "type": "button",
             "text": "View Faculty Members",
-            "href": "/faculty-pdf/department-of-management-studies.pdf",
+            "href": "/department-of-management-studies/faculty-members",
             "actionn": "goToFaculty",
             "newpageData": {
               "slug": "department-of-management-studies",
