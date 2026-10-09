@@ -322,8 +322,8 @@
           },
           {
             "type": "button",
-            "text": "View Faculty",
-            "href": "/department-of-civil-engineering/faculties",
+            "text": "View Faculty Members",
+            "href": "/department-of-civil-engineering/faculty-members",
             "actionn": "goToFaculty",
             "newpageData": {
               "slug": "department-of-civil-engineering",

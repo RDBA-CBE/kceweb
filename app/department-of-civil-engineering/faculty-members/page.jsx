@@ -11,7 +11,7 @@ const newpageData = {
   slug: "department-of-civil-engineering",
   banner: {
     bannerImg: "/images/kce/banner_computer_technology.jpg",
-    title: "Faculties of Department of Civil Engineering",
+    title: "Faculty Members of Department of Civil Engineering",
     breadcrumb: [
       {
         label: "Home",
@@ -26,7 +26,7 @@ const newpageData = {
         label: "Department of Civil Engineering",
       },
       {
-        label: "Faculty",
+        label: "Faculty Members",
       },
     ],
   },

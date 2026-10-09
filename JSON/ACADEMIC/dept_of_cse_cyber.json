@@ -420,7 +420,7 @@
 
           {
             "type": "button",
-            "text": "View Faculty",
+            "text": "View Faculty Members",
             "href": "/faculty-pdf/department-of-computer-science-and-engineering-cyber-security.pdf",
             "actionn": "goToFaculty",
             "newpageData": {
