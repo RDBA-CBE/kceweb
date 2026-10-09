@@ -302,7 +302,7 @@
           },
           {
             "type": "button",
-            "text": "View Faculty",
+            "text": "View Faculty Members",
             "action": "goToFaculty",
             "newpageData": {
               "slug": "department-of-electronics-and-telecommunication-engineering",
