@@ -669,6 +669,12 @@ const featuredStories = [
 const eventsData = [
   {
   month: 'OCT',
+  day: '09',
+  title: 'IEEE Day Celebration 2026 – IEEE Connect: Igniting Connections, Shaping Tomorrow.',
+  url: 'https://learn.kce.ac.in/ieee-day-celebration-connect-igniting-connections-shaping-tomorrow-2026/',
+},
+  {
+  month: 'OCT',
   day: '07',
   title: 'AI-Enabled Virtual Labs: Transforming Experiential Learning for the Future',
   url: 'https://learn.kce.ac.in/ai-enabled-virtual-labs-transforming-experiential-learning-for-the-future/',
@@ -686,12 +692,7 @@ const eventsData = [
   url: 'https://learn.kce.ac.in/seminar-on-semiconductor-technology-for-5g-and-6g-communications/',
 },
 
-       {
-  month: 'SEP',
-  day: '26',
-  title: 'Freshers’ Day 2026 – Live in Concert',
-  url: 'https://learn.kce.ac.in/freshers-day-2026-live-in-concert/',
-},
+       
 
 
 ];
