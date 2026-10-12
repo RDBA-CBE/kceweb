@@ -526,6 +526,23 @@ const featuredStories = [
 
 
 {
+  month: 'OCT',
+  day: '01',
+  title: 'Seminar on Semiconductor Technology for 5G and 6G Communications',
+  url: 'https://learn.kce.ac.in/seminar-on-semiconductor-technology-for-5g-and-6g-communications/',
+  image: 'https://learn.kce.ac.in/wp-content/uploads/2026/10/semi-con-819x1024.jpeg', // Add featured image URL
+},
+
+ {
+  month: 'SEP',
+  day: '26',
+  title: 'Freshers’ Day 2026 – Live in Concert',
+  url: 'https://learn.kce.ac.in/freshers-day-2026-live-in-concert/',
+  image: 'https://learn.kce.ac.in/wp-content/uploads/2026/09/WhatsApp-Image-2026-09-25-at-4.35.53-PM-819x1024.jpeg', // Add featured image URL
+},
+
+
+{
   month: 'SEP',
   day: '25',
   title: 'PG Induction Programme – MBA 2026',
@@ -658,6 +675,8 @@ const featuredStories = [
       'https://learn.kce.ac.in/wp-content/uploads/2026/09/kalai-819x1024.jpeg', // Add featured image URL
   },
 
+   
+
 
 
 ];
@@ -667,6 +686,12 @@ const featuredStories = [
   ==================================================== */
 
 const eventsData = [
+   {
+  month: 'OCT',
+  day: '10',
+  title: 'SPOTKANIC ’26 – Alumni Meet for the Class of 2010 | School of Management Studies',
+  url: 'https://learn.kce.ac.in/spotkanic-26-alumni-meet-2010-school-of-management/',
+},
   {
   month: 'OCT',
   day: '09',
@@ -685,12 +710,7 @@ const eventsData = [
   title: 'IEEE Day Celebration 2026 – From Campus to Global Community: The IEEE Journey',
   url: 'https://learn.kce.ac.in/ieee-day-celebration-2026-from-campus-to-global-community/',
 },
-         {
-  month: 'OCT',
-  day: '01',
-  title: 'Seminar on Semiconductor Technology for 5G and 6G Communications',
-  url: 'https://learn.kce.ac.in/seminar-on-semiconductor-technology-for-5g-and-6g-communications/',
-},
+        
 
        
 
