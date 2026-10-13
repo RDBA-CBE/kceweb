@@ -2,7 +2,6 @@
 
 import React from "react";
 import Link from "next/link";
-
 import SideMenu from "@/components/00-KCE/ABOUT/sideMenu";
 import data from "@/JSON/ABOUT/profile.json";
 import sideBarData from "@/JSON/sidebar.json";
