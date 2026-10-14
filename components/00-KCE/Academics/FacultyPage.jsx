@@ -48,9 +48,10 @@ const FacultyPage = ({ data }) => {
           )}
 
           {data?.FacultyImage && (
-            <div className="row ">
+            <div className="col ">
               {data?.FacultyImage?.map((image, i) => (
                 <div key={i} className="col-12 col-md-6 mx-auto">
+                  {image?.title && <h3 className="sub-ti text-center">{image?.title}</h3>}
                   <img
                     src={image.src}
                     alt="FacultyImage"

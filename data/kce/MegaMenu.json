@@ -135,6 +135,12 @@
       ]
     },
 
+    {
+      "menuTitle": "KCE Faculty",
+      "menuType": "kce-faculty",
+      "link": "/kce-faculty"
+    },
+
      {
       "menuTitle": "AICTE IDEA Lab",
       "menuType": "aicte",

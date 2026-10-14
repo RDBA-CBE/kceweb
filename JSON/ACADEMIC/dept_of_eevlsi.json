@@ -247,7 +247,8 @@
           {
             "type": "button",
             "text": "View Faculty Members",
-            "href": "/department-of-electronics-engineering-vlsi-design-and-technology/faculty-members"
+            "href": "/kce-faculty",
+            "target": "_self"
           }
         ]
       }

@@ -389,7 +389,8 @@
           {
             "type": "button",
             "text": "View Faculty Members",
-            "href": "/department-of-electronics-and-communication-engineering/faculty-members",
+            "href": "/kce-faculty",
+            "target": "_self",
             "actionn": "goToFaculty",
             "newpageData": {
               "slug": "department-of-electronics-and-communication-engineering",

@@ -409,7 +409,8 @@
           {
             "type": "button",
             "text": "View Faculty Members",
-            "href": "/department-of-mechanical-engineering/faculty-members",
+            "href": "/kce-faculty",
+            "target": "_self",
             "actionn": "goToFaculty",
             "newpageData": {
               "slug": "department-of-mechanical-engineering",
