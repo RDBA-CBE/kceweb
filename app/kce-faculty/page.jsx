@@ -52,9 +52,21 @@ const newpageData = {
     {
       src:"/images/kce/kceFaculty/IT.jpeg",
     },
+     
+    {
+      src:"/images/kce/kceFaculty/MBA.jpeg",
+    },
+     
+    {
+      src:"/images/kce/kceFaculty/MCA.jpeg",
+    },
 
     {
       src:"/images/kce/kceFaculty/ME.jpeg",
+    },
+
+    {
+      src:"/images/kce/kceFaculty/S&H.jpeg",
     },
 
     {
