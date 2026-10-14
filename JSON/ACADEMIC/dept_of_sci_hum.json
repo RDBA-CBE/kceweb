@@ -94,7 +94,8 @@
           {
             "type": "button",
             "text": "View Faculty Members",
-            "href":"/department-of-science-and-humanities/faculty-members",
+            "href": "/kce-faculty",
+            "target": "_self",
             "actionn": "goToFaculty",
             "newpageData": {
               "slug": "department-of-science-and-humanities",

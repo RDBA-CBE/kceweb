@@ -374,7 +374,8 @@
           {
             "type": "button",
             "text": "View Faculty Members",
-            "href":"/department-of-electrical-and-electronics-engineering/faculty-members",
+            "href": "/kce-faculty",
+            "target": "_self",
             "actionn": "goToFaculty",
             "newpageData": {
               "slug": "department-of-electrical-and-electronics-engineering",

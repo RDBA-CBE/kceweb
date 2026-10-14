@@ -305,6 +305,8 @@
           {
             "type": "button",
             "text": "View Faculty Members",
+            "href": "/kce-faculty",
+            "target": "_self",
             "action": "goToFaculty",
             "newpageData": {
               "slug": "Department of-computer-sciences-and-technology",
