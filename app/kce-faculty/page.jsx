@@ -74,10 +74,6 @@ const newpageData = {
     },
 
     {
-      src:"/images/kce/kceFaculty/GE.jpeg",
-    },
-
-    {
       src:"/images/kce/kceFaculty/VLSI.jpeg",
     }
   ],
