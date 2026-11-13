@@ -251,6 +251,12 @@
           "id": 17,
           "title": "Infrastructure",
           "link": "/infrastructure/"
+        },
+         {
+          "id": 18,
+          "title": "Campus Tour",
+          "link": "https://www.youtube.com/watch?v=uTIQvS38B4g&t=3s",
+          "target": "_blank"
         }
       ]
     },

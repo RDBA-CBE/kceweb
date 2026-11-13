@@ -70,43 +70,50 @@
   }
 }
 
+
 /* Alumni text blinking effect */
 .alumni-blink .action-btn {
-  animation: alumniTextBlink 1.2s ease-in-out infinite;
+    animation: alumniTextBlink 1.2s ease-in-out infinite;
+    transition: color 0.3s ease;
 }
 
 @keyframes alumniTextBlink {
-  0%, 100% {
-    color: #e53935;
-  }
+    0%, 100% {
+        color: #e53935;
+    }
+    50% {
+        color: #143d6b;
+    }
+}
 
-  50% {
-    color: #143d6b;
-  }
+/* Hover effect */
+.alumni-blink .action-btn:hover,
+.alumni-blink .action-btn:focus {
+    animation: none !important;
+    color: #ffcc33 !important;
 }
 
 /* Tablet and mobile */
 @media (max-width: 1024px) {
-  .alumni-blink .action-btn {
-    animation: alumniMobileBlink 1.2s ease-in-out infinite;
-  }
-
-  @keyframes alumniMobileBlink {
-    0%, 100% {
-      color: #ffffff;
+    .alumni-blink .action-btn {
+        animation: alumniMobileBlink 1.2s ease-in-out infinite;
     }
 
-    50% {
-      color: #ffcc33;
+    @keyframes alumniMobileBlink {
+        0%, 100% {
+            color: #ffffff;
+        }
+        50% {
+            color: #ffcc33;
+        }
     }
-  }
 }
 
 /* Accessibility */
 @media (prefers-reduced-motion: reduce) {
-  .alumni-blink .action-btn {
-    animation: none;
-  }
+    .alumni-blink .action-btn {
+        animation: none !important;
+    }
 }
 
 /* ---------- Responsive ---------- */
