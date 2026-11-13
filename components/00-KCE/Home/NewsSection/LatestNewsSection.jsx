@@ -524,6 +524,35 @@ const featuredStories = [
 
 
 
+{
+  month: 'OCT',
+  day: '10',
+  title: 'SPOTKANIC ’26 – Alumni Meet for the Class of 2010 | School of Management Studies',
+  url: 'https://learn.kce.ac.in/spotkanic-26-alumni-meet-2010-school-of-management/',
+  image: 'https://learn.kce.ac.in/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-9.39.23-AM.jpeg',
+},
+{
+  month: 'OCT',
+  day: '09',
+  title: 'IEEE Day Celebration 2026 – IEEE Connect: Igniting Connections, Shaping Tomorrow.',
+  url: 'https://learn.kce.ac.in/ieee-day-celebration-connect-igniting-connections-shaping-tomorrow-2026/',
+  image: 'https://learn.kce.ac.in/wp-content/uploads/2026/10/ieee-day.jpeg',
+},
+{
+  month: 'OCT',
+  day: '07',
+  title: 'AI-Enabled Virtual Labs: Transforming Experiential Learning for the Future',
+  url: 'https://learn.kce.ac.in/ai-enabled-virtual-labs-transforming-experiential-learning-for-the-future/',
+  image: 'https://learn.kce.ac.in/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-07-at-10.08.05-AM-819x1024.jpeg',
+},
+{
+  month: 'OCT',
+  day: '06',
+  title: 'IEEE Day Celebration 2026 – From Campus to Global Community: The IEEE Journey',
+  url: 'https://learn.kce.ac.in/ieee-day-celebration-2026-from-campus-to-global-community/',
+  image: 'https://learn.kce.ac.in/wp-content/uploads/2026/10/ieee-day-celeb.jpg',
+},
+
 
 {
   month: 'OCT',
@@ -687,34 +716,17 @@ const featuredStories = [
 
 const eventsData = [
    {
-  month: 'OCT',
-  day: '10',
-  title: 'SPOTKANIC ’26 – Alumni Meet for the Class of 2010 | School of Management Studies',
-  url: 'https://learn.kce.ac.in/spotkanic-26-alumni-meet-2010-school-of-management/',
-},
-  {
-  month: 'OCT',
-  day: '09',
-  title: 'IEEE Day Celebration 2026 – IEEE Connect: Igniting Connections, Shaping Tomorrow.',
-  url: 'https://learn.kce.ac.in/ieee-day-celebration-connect-igniting-connections-shaping-tomorrow-2026/',
-},
-  {
-  month: 'OCT',
-  day: '07',
-  title: 'AI-Enabled Virtual Labs: Transforming Experiential Learning for the Future',
-  url: 'https://learn.kce.ac.in/ai-enabled-virtual-labs-transforming-experiential-learning-for-the-future/',
-},
+  month: 'DEC',
+  day: '19',
+  title: 'Sangamam 2026 - Grand Alumni Meet at Karpagam College of Engineering ',
+  url: 'https://learn.kce.ac.in/sangamam-2026-grand-alumni-meet-at-karpagam-college-of-engineering/',
+},       
    {
-  month: 'OCT',
-  day: '06',
-  title: 'IEEE Day Celebration 2026 – From Campus to Global Community: The IEEE Journey',
-  url: 'https://learn.kce.ac.in/ieee-day-celebration-2026-from-campus-to-global-community/',
-},
-        
-
-       
-
-
+  month: 'NOV',
+  day: '12',
+  title: 'IdeaForge and Cyber Nova Club Inauguration at KCE ',
+  url: 'https://learn.kce.ac.in/sangamam-2026-grand-alumni-meet-at-karpagam-college-of-engineering/',
+},  
 ];
 
 
