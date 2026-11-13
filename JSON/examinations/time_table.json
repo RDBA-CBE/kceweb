@@ -9,6 +9,76 @@
             "type": "table",
             "data": {
                 "sectionbg": "pb-3",
+                "secTitle": "Time Table - Nov / Dec - 2026",
+                "table": [
+                    {
+                        "content": [
+                            {
+                                "rowsPerPage": "999",
+                                "head": [
+                                    {
+                                        "id": "col1",
+                                        "label": "Name "
+                                    }
+                                ],
+   "data": [
+                {
+                "col1": {
+                  "text": "2026 Regulations UG Timetable",
+                  "url": "https://learn.kce.ac.in/wp-content/uploads/2026/11/2026-Regulations-UG-Timetable.pdf"
+                }
+              },
+                                    {
+                "col1": {
+                  "text": "2026 Regulations MCA Timetable",
+                  "url": "https://learn.kce.ac.in/wp-content/uploads/2026/11/2026-Regulations-MCA-Timetable.pdf"
+                }
+              },
+              {
+                "col1": {
+                  "text": "2026 Regulations MBA Timetable",
+                  "url": "https://learn.kce.ac.in/wp-content/uploads/2026/11/2026-Regulations-MBA-Timetable.pdf"
+                }
+              },
+             
+              {
+                "col1": {
+                  "text": "2023 Regulations MCA Timetable",
+                  "url": "https://learn.kce.ac.in/wp-content/uploads/2026/11/2023-Regulations-MCA-Timetable.pdf"
+                }
+              },
+              {
+                "col1": {
+                  "text": "2023 Regulations MBA Timetable",
+                  "url": "https://learn.kce.ac.in/wp-content/uploads/2026/11/2023-Regulations-MBA-Timetable.pdf"
+                }
+              },
+              {
+                "col1": {
+                  "text": "2023 Regulations UG Timetable",
+                  "url": "https://learn.kce.ac.in/wp-content/uploads/2026/11/2023-Regulations-UG-Timetable.pdf"
+                }
+              },
+             
+              {
+                "col1": {
+                  "text": "2021 Regulations UG Timetable",
+                  "url": "https://learn.kce.ac.in/wp-content/uploads/2026/11/2021-Regulations-UG-Timetable.pdf"
+                }
+              }
+                                   
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        
+         {
+            "type": "table",
+            "data": {
+                "sectionbg": "pb-3",
                 "secTitle": "Time Table - April / May - 2026",
                 "table": [
                     {
