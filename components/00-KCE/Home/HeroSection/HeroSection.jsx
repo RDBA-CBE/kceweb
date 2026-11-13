@@ -12,8 +12,8 @@ export default function HeroSection() {
       <BackgroundSlider
         images={[
           { src: "/images/kce/home/banner/banner-n1.webp", link: "https://learn.kce.ac.in/sangamam-2026-grand-alumni-meet-at-karpagam-college-of-engineering/" },
-           { src: "/images/kce/home/banner/banner-21.webp", link: "https://learn.kce.ac.in/seminar-on-semiconductor-technology-for-5g-and-6g-communications/" },
-           { src: "/images/kce/home/banner/banner-20.webp", link: "https://learn.kce.ac.in/freshers-day-2026-live-in-concert/" },
+          //  { src: "/images/kce/home/banner/banner-21.webp", link: "https://learn.kce.ac.in/seminar-on-semiconductor-technology-for-5g-and-6g-communications/" },
+          //  { src: "/images/kce/home/banner/banner-20.webp", link: "https://learn.kce.ac.in/freshers-day-2026-live-in-concert/" },
           //  { src: "/images/kce/home/banner/banner-19.webp", link: "https://learn.kce.ac.in/pg-induction-programme-mba-2026/" },
           //  { src: "/images/kce/home/banner/banner-18.webp", link: "https://learn.kce.ac.in/novah-2026-pg-induction-programme-for-mca-2026-2028/" },
           //  { src: "/images/kce/home/banner/banner-15.webp", link: "https://learn.kce.ac.in/pg-induction-programme-2026-aloha-x-novah-kce/" },
@@ -25,12 +25,12 @@ export default function HeroSection() {
           //  { src: "/images/kce/home/banner/banner-11.webp", link: "https://learn.kce.ac.in/inaugural-of-cyber-security-clubs-awareness-programme-on-women-cyber-safety/" },   
           "/images/kce/home/banner/kce-b1.png",          
           "/images/kce/home/banner/kce-b2.png",
-          "/images/kce/home/banner/b1.jpg",
-          "/images/kce/home/banner/banner-img2.webp",
-          "/images/kce/home/banner/banner-img3.webp",
-          "/images/kce/home/banner/banner-img5.webp",
-          "/images/kce/home/banner/banner.png",
-          "/images/kce/home/banner/banner-1.png",
+          // "/images/kce/home/banner/b1.jpg",
+          // "/images/kce/home/banner/banner-img2.webp",
+          // "/images/kce/home/banner/banner-img3.webp",
+          // "/images/kce/home/banner/banner-img5.webp",
+          // "/images/kce/home/banner/banner.png",
+          // "/images/kce/home/banner/banner-1.png",
           
         ]}
       />
@@ -60,7 +60,7 @@ export default function HeroSection() {
 <div className="cta-box">
   <div className="alumni-blink">
     <ActionCard
-      title="ALUMNI REGISTER"
+      title="ALUMNI REGISTRATION"
       url="https://forms.gle/ZT2Q6BSUt6dTn6LK9"
       external
     />
@@ -74,12 +74,15 @@ export default function HeroSection() {
     />
   </div>
 
-  <ActionCard
+  {/* <ActionCard
     title="CAMPUS TOUR"
     url="https://www.youtube.com/watch?v=uTIQvS38B4g&t=3s"
     external
-  />
-
+  /> */}
+  <ActionCard
+    title="PLACEMENT"
+    url="/placement"
+      />
   <ActionCard
     title="CENTER OF EXCELLENCE"
     url="/center-of-excellence"
