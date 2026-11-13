@@ -401,14 +401,10 @@
 
     display: grid !important;
     grid-template-columns: repeat(2, 1fr) !important;
-
     gap: 8px !important;
-
     padding: 12px !important;
-
     margin: 0 !important;
-
-    background: #061b3a;
+    background: #fff !important; color:#000 !important;
   }
 
 

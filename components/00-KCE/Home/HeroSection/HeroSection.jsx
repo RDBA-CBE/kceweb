@@ -11,6 +11,7 @@ export default function HeroSection() {
       {/* Background image slider */}
       <BackgroundSlider
         images={[
+          { src: "/images/kce/home/banner/banner-n1.webp", link: "https://learn.kce.ac.in/sangamam-2026-grand-alumni-meet-at-karpagam-college-of-engineering/" },
            { src: "/images/kce/home/banner/banner-21.webp", link: "https://learn.kce.ac.in/seminar-on-semiconductor-technology-for-5g-and-6g-communications/" },
            { src: "/images/kce/home/banner/banner-20.webp", link: "https://learn.kce.ac.in/freshers-day-2026-live-in-concert/" },
           //  { src: "/images/kce/home/banner/banner-19.webp", link: "https://learn.kce.ac.in/pg-induction-programme-mba-2026/" },
@@ -55,12 +56,36 @@ export default function HeroSection() {
         </div>
 
         {/* RIGHT – CTA */}
-        <div className="cta-box">
-          <ActionCard title="PLACEMENT" url={"/placement-overview"} />
-          <ActionCard title="CAMPUS TOUR" url={"https://www.youtube.com/watch?v=uTIQvS38B4g&t=3s"} external />
-          <ActionCard title="CAMPUS LIFE" url={"/infrastructure"} />
-          <ActionCard title="CENTER OF EXCELLENCE" url={"/center-of-excellence"} />
-        </div>
+        
+<div className="cta-box">
+  <div className="alumni-blink">
+    <ActionCard
+      title="ALUMNI REGISTER"
+      url="https://forms.gle/ZT2Q6BSUt6dTn6LK9"
+      external
+    />
+  </div>
+
+  <div className="alumni-blink">
+    <ActionCard
+      title="ALUMNI AWARDS"
+      url="https://forms.gle/XkarubU2btPbvumHA"
+      external
+    />
+  </div>
+
+  <ActionCard
+    title="CAMPUS TOUR"
+    url="https://www.youtube.com/watch?v=uTIQvS38B4g&t=3s"
+    external
+  />
+
+  <ActionCard
+    title="CENTER OF EXCELLENCE"
+    url="/center-of-excellence"
+  />
+</div>
+
       </div>
     </section>
   );
