@@ -8,6 +8,20 @@ import "./HeroSection.css";
 export default function HeroSection() {
   return (
     <section className="hero">
+      <a
+        href="https://forms.gle/ZT2Q6BSUt6dTn6LK9"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="alumni-strip"
+      >
+        <span className="alumni-strip-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" focusable="false">
+            <path d="M12 3 1 8l11 5 9-4.09V14h2V8L12 3zm0 7.18L5.82 8 12 5.18 18.18 8 12 10.18zM5 11.2v3.3c0 .4.2.77.54.98C7.21 16.52 9.57 17.2 12 17.2s4.79-.68 6.46-1.72c.34-.21.54-.58.54-.98v-3.3l-7 3.18-7-3.18z" />
+          </svg>
+        </span>
+        <span className="alumni-strip-text">ALUMNI REGISTRATION</span>
+        <span className="alumni-strip-arrow" aria-hidden="true">&rarr;</span>
+      </a>
       {/* Background image slider */}
       <BackgroundSlider
         images={[
