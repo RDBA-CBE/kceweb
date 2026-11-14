@@ -157,6 +157,118 @@
   }
 }
 
+/* Alumni registration strip above banner (mobile) */
+.alumni-strip {
+  display: none;
+}
+
+.alumni-strip,
+.alumni-strip:hover,
+.alumni-strip:focus,
+.alumni-strip:active,
+.alumni-strip:visited,
+.alumni-strip .alumni-strip-text,
+.alumni-strip .alumni-strip-icon,
+.alumni-strip .alumni-strip-arrow,
+.alumni-strip:hover .alumni-strip-text,
+.alumni-strip:hover .alumni-strip-icon,
+.alumni-strip:hover .alumni-strip-arrow,
+.alumni-strip:focus .alumni-strip-text,
+.alumni-strip:focus .alumni-strip-icon,
+.alumni-strip:focus .alumni-strip-arrow,
+.alumni-strip:active .alumni-strip-text,
+.alumni-strip:active .alumni-strip-icon,
+.alumni-strip:active .alumni-strip-arrow {
+  color: #fff !important;
+  text-decoration: none;
+}
+
+.alumni-strip:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: -2px;
+}
+
+@media (max-width: 767px) {
+  .alumni-strip {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 14px 16px;
+    text-align: center;
+    background: linear-gradient(90deg, #e53935, #ff7a3d, #e53935);
+    background-size: 200% 100%;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    text-decoration: none;
+    position: relative;
+    z-index: 25;
+    box-shadow: 0 3px 12px rgba(229, 57, 53, 0.4);
+    animation: alumniStripGlow 2.2s ease-in-out infinite, alumniStripGradient 4s linear infinite;
+  }
+
+  .alumni-strip-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 26px;
+    height: 26px;
+    flex: 0 0 26px;
+    animation: alumniStripIconBounce 1.4s ease-in-out infinite;
+  }
+
+  .alumni-strip-icon svg {
+    width: 26px;
+    height: 26px;
+    display: block;
+    fill: currentColor;
+  }
+
+  .alumni-strip-text {
+    line-height: 1;
+  }
+
+  .alumni-strip-arrow {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1;
+    animation: alumniStripArrow 1.2s ease-in-out infinite;
+  }
+
+  @keyframes alumniStripGlow {
+    0%, 100% { box-shadow: 0 3px 12px rgba(229, 57, 53, 0.35); }
+    50% { box-shadow: 0 4px 18px rgba(255, 122, 61, 0.55); }
+  }
+
+  @keyframes alumniStripGradient {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 200% 50%; }
+  }
+
+  @keyframes alumniStripIconBounce {
+    0%, 100% { transform: translateY(0) scale(1); }
+    50% { transform: translateY(-2px) scale(1.08); }
+  }
+
+  @keyframes alumniStripArrow {
+    0%, 100% { transform: translateX(0); opacity: 1; }
+    50% { transform: translateX(4px); opacity: 0.85; }
+  }
+}
+
+@media (max-width: 767px) and (prefers-reduced-motion: reduce) {
+  .alumni-strip,
+  .alumni-strip-icon,
+  .alumni-strip-arrow {
+    animation: none !important;
+  }
+}
+
 
 /* =========================================================
    RESPONSIVE FIX
