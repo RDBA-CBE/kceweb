@@ -76,7 +76,7 @@ const HomePopup = () => {
         </button>
 
         <Image
-          src="/images/popup-image.jpeg"
+          src="/images/kce/admission-popup-2027.webp"
           alt="Admission Enquiry"
           width={520}
           height={360}
